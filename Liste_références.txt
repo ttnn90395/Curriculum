@@ -1,0 +1,75 @@
+Lien éducation–croissance
+Hanushek & Woessmann (2007), "The Role of Education Quality in Economic Growth", World Bank Policy Research Working Paper 4122
+Hanushek & Woessmann (2010), "The High Cost of Low Educational Performance", OCDE
+Hanushek & Woessmann (2012), "Do Better Schools Lead to More Growth? Cognitive Skills, Economic Outcomes, and Causation", Journal of Economic Growth 17(4), la référence pour ton β
+Hanushek & Woessmann (2015), The Knowledge Capital of Nations, MIT Press
+Heller-Sahlgren & Jordahl (2024), "Test Scores and Economic Growth: Update and Extension", Applied Economics Letters 31(11)
+
+
+Lien PISA–PIAAC [nouveau]
+Gustafsson (2016), "Lasting effects of quality of schooling: Evidence from PISA and PIAAC", Intelligence (revue à vérifier)
+OCDE (2014), PISA in Focus 2014/11, "What PISA can – and can't – tell us about adults' skills"
+OCDE (à paraître, 2026), "Towards a stronger link between PISA and PIAAC: Two assessments, one story?", working paper
+OCDE (2023), PISA 2022 Results (Volume I), note sur les cohortes synthétiques, qui renvoie à OECD Skills Outlook 2021, chap. 3, encadré 3.1
+Levels & van der Velden (2013), cité par Gustafsson : référence complète à retrouver
+
+
+Compétences adultes, emploi et chômage
+Stijepic (2020), "Employment effects of skills around the world: Evidence from the PIAAC", International Labour Review 159(3) [nouveau]
+Stijepic (2021), "A cross-country study of skills and unemployment flows" [nouveau]
+Hanushek, Schwerdt, Wiederhold & Woessmann (2015), "Returns to Skills around the World: Evidence from PIAAC", European Economic Review [nouveau]
+OCDE (2025), Education at a Glance 2025, chapitre sur PIAAC [nouveau]
+Oreopoulos & Salvanes (2011), "Priceless: The Nonpecuniary Benefits of Schooling", Journal of Economic Perspectives (cité de mémoire, à vérifier)
+
+
+Accès au supérieur et diplômés [nouveau]
+Gluszynski & Bayard (2010), "Does Reading Proficiency at Age 15 Affect Pathways through Learning and Work", OECD Education Working Papers No. 31
+OCDE (2010), Pathways to Success: How Knowledge and Skills at Age 15 Shape Future Lives in Canada
+"The influence of PISA scores, schooling and social factors on pathways to and within higher education in Canada", Irish Educational Studies 30(2), 2011 (auteurs à retrouver)
+Statistics Canada (2011), "Life-path outcomes at age 25 associated with reading ability at age 15"
+OCDE, Education at a Glance 2023 (Table B4.2, nouveaux entrants par domaine) et 2025 (taux de complétion)
+Murphy, Shleifer & Vishny (1991), "The Allocation of Talent: Implications for Growth", Quarterly Journal of Economics 106(2), 503–530
+Lepori et al. (2023), "The European Tertiary Education Register, the reference dataset on European Higher Education Institutions", Scientific Data (auteurs exacts à vérifier)
+
+
+Tracking et spécialisation
+Hanushek & Woessmann (2006), "Does Educational Tracking Affect Performance and Inequality? Differences-in-Differences Evidence across Countries", CESifo Working Paper 1415
+Contini, "Investigating the role of educational systems on learning inequalities with international assessments. The case of early tracking"
+
+
+Curriculum, temps d'instruction et profondeur
+Schmidt, McKnight & Raizen (1997), A Splintered Vision
+Schmidt et al. (2001), Why Schools Matter
+Bokhove et al. (2019), "The Role of Opportunity to Learn in the Geometry Curriculum: A Multilevel Comparison of Six Countries", Frontiers in Education
+Large-scale Assessments in Education (2018), étude sur 33 pays, pas de lien significatif entre OTL et score en sciences (référence exacte à retrouver) [nouveau]
+TIMSS Advanced 2015, IEA / TIMSS & PIRLS International Study Center, Boston College [nouveau]
+
+
+Réformes de référence
+Jakubowski (2015), "Opening Up Opportunities: education reforms in Poland", IBS Policy Paper 01/2015
+Banque mondiale, "Successful Education Reform: Lessons from Poland"
+Niemann (2010) et Bieber (2010) sur le PISA-Schock allemand
+"The effects of PISA on global basic education reform: a systematic literature review", Humanities and Social Sciences Communications (2025)
+Pensée computationnelle (Estonie, Angleterre, Israël, Corée) : je n'ai pas retenu de référence précise, sources à retrouver [nouveau]
+
+
+Méthodes
+Abadie & Gardeazabal (2003) ; Abadie, Diamond & Hainmueller (2010), Journal of the American Statistical Association 105(490)
+Doignon & Falmagne (1999), Knowledge Spaces, Springer
+Falmagne & Doignon (1988), BLIM (titre exact à vérifier)
+Packages R : Synth (Hainmueller & Diamond), kst, kstMatrix (Hockemeyer)
+Coût-bénéfice
+Gollier (2011), Le calcul du risque dans les investissements publics, Centre d'analyse stratégique
+Commission Quinet (2013), sur l'évaluation socioéconomique des investissements publics, France Stratégie (titre à vérifier)
+Quinet (2019, actualisé en 2025), La valeur de l'action pour le climat, France Stratégie
+
+
+Bases de données
+PISA database (OCDE)
+TIMSS 2023 : Encyclopedia, Curriculum Questionnaire, table de participation NCES
+PIAAC Cycles 1 et 2 (fichiers publics OCDE, fichiers restreints via service à distance) ; IALS et ALL via Statistics Canada [nouveau]
+OECD.Stat et Education at a Glance ; indicateur OCDE « Tertiary graduates by field »
+World Bank Open Data ; Eurydice
+Eurostat, spécialistes TIC en emploi (isoc_sks_itspt) [nouveau]
+ETER (European Tertiary Education Register), IPEDS (États-Unis) [nouveau]
+France Stratégie (taux d'actualisation, valeur de l'action pour le climat)

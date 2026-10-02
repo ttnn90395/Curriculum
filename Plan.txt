@@ -1,5 +1,5 @@
 % ============================================================
-% PROJET EDUCATION --- PLAN DÉTAILLÉ COMPLET (version finale)
+% PROJET EDUCATION --- PLAN DÉTAILLÉ COMPLET (version 3, TODO intégrés)
 % ============================================================
 
 \section{Introduction générale}
@@ -7,400 +7,286 @@
 % Thèse: le déclin éducatif comme moteur du recul économique
 % Périmètre strict: tronc commun (primaire + secondaire) et âge
 %   de spécialisation; enseignement supérieur hors réforme, utilisé
-%   seulement comme résultat (Partie 2, Section H1/H2)
-% Annonce du plan: Partie 1 = diagnostic léger; Partie 2 = réformes,
-%   curriculum et coût; Partie 3 = modèle prédictif
+%   seulement comme résultat
 
 % ============================================================
 \part{Partie 1 --- Diagnostic et motivation}
-% Rôle: poser le contexte via la littérature existante, SANS
-% ré-estimer le lien causal PISA -> croissance.
 
 \section{Le lien éducation--croissance dans la littérature}
 \subsection{Cadre théorique}
-% Hanushek & Woessmann (2007), "The Role of Education Quality in
-%   Economic Growth", World Bank WP 4122
-% Hanushek & Woessmann (2012), "Do Better Schools Lead to More
-%   Growth? Cognitive Skills, Economic Outcomes, and Causation",
-%   Journal of Economic Growth 17(4) -- beta utilisé en Partie 2
-% Hanushek & Woessmann (2015), The Knowledge Capital of Nations
-% Hanushek & Woessmann (2010), "The High Cost of Low Educational
-%   Performance", OCDE
-% Chiffre clé: +25 points PISA (Allemagne/Pologne, une décennie)
-%   -> hausse significative de la croissance annuelle
+% Hanushek & Woessmann (2007), WP 4122; (2012), JEG 17(4) -- beta;
+%   (2015), Knowledge Capital of Nations; (2010), OCDE
 \subsection{Nuances et débats}
-% Heller-Sahlgren & Jordahl (2024), "Test Scores and Economic
-%   Growth: Update and Extension", Applied Economics Letters 31(11)
+% Heller-Sahlgren & Jordahl (2024), Applied Economics Letters 31(11)
 \subsection{Justification du lag x}
-% Ancrage démographique: PISA (15 ans) -> marché du travail
-%   (~22-25 ans) -> pic de contribution au PIB (~35-45 ans)
-% x = paramètre de sensibilité, jamais fixé arbitrairement
+% PISA (15 ans) -> marché du travail (~22-25 ans) -> pic PIB
 
 \section{Diagnostic France vs OCDE}
 \subsection{Évolution comparée des scores PISA}
-% PISA database (OCDE), 2000-2025
+% Source: PISA database; données France via INSEE pour les
+%   indicateurs économiques associés (précision supérieure à
+%   World Bank/OECD.Stat)
 \subsection{Indicateurs économiques associés}
-% World Bank Open Data, OECD.Stat (chômage, PIB/hab,
-%   productivité, brevets)
+% INSEE (France) + World Bank Open Data / OECD.Stat (reste du panel)
 \subsection{Transition vers la Partie 2}
-% "Ce diagnostic motive, sans le démontrer économétriquement,
-%   l'objet de la Partie 2"
 
 % ============================================================
-\part{Partie 2 --- Réformes, curriculum et coût}
+\part{Partie 2 --- Réformes, curriculum, enseignants et coût}
 
 \section{Périmètre et hypothèses}
 \subsection{Périmètre}
-% Tronc commun (primaire+secondaire) + âge de spécialisation
-% Supérieur: hors réforme, utilisé comme résultat
 \subsection{Hypothèses testées}
-% H1: taux de diplômés du supérieur (part de classe d'âge)
-% H2: diplômés STEM par sous-domaine (sciences naturelles/
-%   maths/stats, TIC, ingénierie)
-% Hypothèse de travail: la qualité du tronc commun est corrélée
-%   à l'accès au supérieur
-% H3 (entrée en écoles sélectives): abandonnée -- places
-%   saturées, résultat nul ininterprétable
-% TODO: vérifier définitions exactes des indicateurs OCDE
+% H1, H2, H3 (abandonnée -- places saturées, résultat nul
+%   ininterprétable)
+% TODO: vérifier définitions exactes des indicateurs OCDE EaG
 %   "nouveaux entrants par domaine" et "diplômés par domaine"
-%   (Education at a Glance)
 
 \section{Benchmark des réformes comparables}
 \subsection{Recensement des cas}
-% Pologne 1999/2007 (Jakubowski 2015; World Bank, "Successful
-%   Education Reform: Lessons from Poland")
+% Pologne 1999/2007 (Jakubowski 2015; World Bank)
 % Allemagne post-PISA-Schock (Niemann 2010; Bieber 2010)
-% Revue: "The effects of PISA on global basic education reform:
-%   a systematic literature review", Humanities and Social
-%   Sciences Communications (2025)
+% France 2018 (Villani-Torossian) -- cas interne, cf. Section 10.5
+% Revue: Humanities and Social Sciences Communications (2025)
 \subsection{Méthode d'évaluation d'impact}
-% Abadie & Gardeazabal (2003); Abadie, Diamond & Hainmueller
-%   (2010), JASA 105(490) -- contrôle synthétique (R: Synth)
-% Limites de transposabilité à discuter explicitement
+% Contrôle synthétique: Abadie & Gardeazabal (2003); Abadie,
+%   Diamond & Hainmueller (2010), JASA 105(490)
 
 \section{Modélisation micro: graphe de notions}
 \subsection{Cadre formel}
-% Doignon & Falmagne (1999), Knowledge Spaces: (Q, K), relation
-%   de surmise, fringe; packages R kst, kstMatrix
+% Doignon & Falmagne (1999), Knowledge Spaces
 \subsection{Coefficients du graphe}
-% IRT (items publics PISA/TIMSS) ou BLIM (Falmagne & Doignon,
-%   1988)
+% IRT ou BLIM (Falmagne & Doignon, 1988)
 \subsection{Couverture notionnelle -- curriculum implémenté}
-% x_{i,n} binaire (curriculum prévu, NRC) remplacé par p_{i,n}
-%   in [0,1] (curriculum implémenté, TIMSS Teacher Questionnaire:
-%   % d'élèves dont l'enseignant rapporte avoir couvert la notion)
-% Écart g_{i,n} = x_{i,n} - p_{i,n}: fidélité de mise en oeuvre,
-%   variable candidate, sans coût de collecte additionnel
+% p_{i,n} in [0,1] (TIMSS Teacher Questionnaire), remplace le
+%   binaire NRC; écart g_{i,n} = prévu - implémenté
 % Diagnostic: g_{i,n} = alpha + gamma*H_i^total + epsilon
-%   (H_i^total: heures totales allouées à la matière par pays)
-%   -- si gamma fort: simplifier (une seule variable); si
-%   faible: garder g et le temps d'instruction séparés (causes
-%   distinctes: formation des enseignants, manuels, alignement
-%   examens vs contrainte de temps pure)
+%   (si gamma fort: fusionner; si faible: garder séparées --
+%   causes distinctes de la couverture temps total)
 \subsection{Scope}
-% Maths + sciences uniquement (pas toutes les matières -- choix
-%   délibéré pour la tractabilité et la disponibilité TIMSS)
-% ~20-40 notions par domaine
-% Adaptation high-tech: benchmarks Estonie (ProgeTiiger),
-%   Angleterre (Computing 2014), Israël, Corée (ajout léger,
-%   budget-temps constant)
-% TODO: retrouver les références académiques précises de ces
-%   programmes nationaux
-% PISA 2025 "Learning in the Digital World" (résolution de
-%   problèmes computationnels + autorégulation), résultats
-%   publiés le 8 septembre 2026 -- source de coefficients IRT
-%   exploitable dès maintenant
+% Maths + sciences uniquement; adaptation high-tech (Estonie,
+%   Angleterre, Israël, Corée)
+% TODO: références académiques précises de ces programmes
+%   nationaux, non encore retrouvées
+% PISA 2025 Learning in the Digital World (résultats publiés
+%   le 8 septembre 2026)
 % TODO: récupérer le PISA 2025 Assessment and Analytical
 %   Framework (chapitre LDW) et les résultats France
 
 \section{Données curriculaires par pays}
-\subsection{Couverture (TIMSS)}
-% TIMSS 2023: 64 pays au total (union), 59 en 4e année, 44 en
-%   8e année; Curriculum Questionnaire (NRC) + Teacher
-%   Questionnaire (curriculum implémenté)
-% TODO -- CRITIQUE: couverture exacte par pays et par cycle non
-%   confirmée -- l'extraction du tableau officiel (Exhibit A.1,
-%   TIMSS 2023) a perdu l'alignement des colonnes par année;
-%   la liste de pays sans données récentes donnée dans une
-%   itération précédente (Estonie, Grèce, Islande, Suisse,
-%   Mexique, Colombie) contredit le document officiel récupéré
-% TODO: reconfirmer le statut du Royaume-Uni (England seul,
-%   ou aussi Ecosse/Irlande du Nord)
+\subsection{Couverture (TIMSS) -- statut de vérification}
+% CONFIRMÉ: 64 pays + 5-6 entités au total (TIMSS 2023); 59
+%   pays en 4e année, 44 en 8e année (incohérence mineure 58/59
+%   selon la page officielle, non résolue)
+% CONFIRMÉ: 30 des 38 pays OCDE ont un historique TIMSS (toutes
+%   éditions); 8 n'y apparaissent JAMAIS: Colombie, Costa Rica,
+%   Estonie, Grèce, Islande, Luxembourg, Mexique, Suisse
+% TODO -- NON RÉSOLU par extraction web: attribution précise
+%   par cycle (qui a participé en 2023 spécifiquement) --
+%   nécessite le téléchargement direct de la base internationale
+%   TIMSS 2023 (R/SPSS/SAS) depuis timss2023.org/data; à faire
+%   directement au moment de la collecte, pas en amont
+% TODO: statut exact du Royaume-Uni (England seul confirmé deux
+%   fois; pas d'Ecosse/Irlande du Nord séparées dans Exhibit A.1)
 \subsection{Temps d'instruction et profondeur}
-% Schmidt, McKnight & Raizen (1997), A Splintered Vision;
-%   Schmidt et al. (2001), Why Schools Matter ("mile wide,
-%   inch deep")
-% Carroll (1963), "A Model of School Learning": apprentissage
-%   = f(temps passé / temps nécessaire); Bloom (1968), mastery
-%   learning
-% Nuance: pas de lien significatif OTL--sciences sur 33 pays
-%   (Large-scale Assessments in Education, 2018)
-% TODO: retrouver la référence exacte (auteurs) de cette étude
+% Schmidt (1997, 2001) "mile wide, inch deep"; Carroll (1963);
+%   Bloom (1968)
+% TODO: référence exacte (auteurs) de l'étude sur 33 pays
+%   (pas de lien significatif OTL--sciences, Large-scale
+%   Assessments in Education, 2018)
 
 \section{La frontière de spécialisation}
 \subsection{Âge de tracking par pays}
-% Hanushek & Woessmann (2006), "Does Educational Tracking Affect
-%   Performance and Inequality?", CESifo WP 1415: tracking
-%   précoce = + inégalité, tendance à - performance (pas de
-%   trade-off équité-efficacité)
-% Contini, revue méthodologique sur le tracking précoce
-% Sources: Eurydice, OCDE Education at a Glance
+% Hanushek & Woessmann (2006), CESifo WP 1415; Contini; Eurydice
 \subsection{Fenêtre pré-bifurcation}
-% Fenêtre relative à chaque pays (pas une année calendaire
-%   commune); pays à spécialisation précoce (Allemagne, Autriche
-%   ~10 ans -- TODO: reconfirmer dans Eurydice)
-% Indicateur: % du graphe couvert avant bifurcation, pondéré
-%   par les coefficients IRT/BLIM
+% TODO: âge de spécialisation Allemagne/Autriche (~10 ans, cité
+%   de mémoire) à reconfirmer dans Eurydice
 \subsection{Niveau B: programme après la bifurcation}
-% TIMSS Advanced 2015: 9 pays (France, Italie, Liban, Norvège,
-%   Portugal, Russie, Slovénie, Suède, Etats-Unis), dont 7 OCDE
-% Population = élèves des voies avancées maths/physique
-%   (<= 1/4 de la classe d'âge); analyse descriptive, petit
-%   échantillon, limite déclarée
+% TIMSS Advanced 2015: 9 pays, dont 7 OCDE; analyse descriptive
 
 \section{Tronc commun et suites: accès au supérieur}
 \subsection{H1: diplômés du supérieur}
-% OECD Education at a Glance; taux rapportés à la classe d'âge
-% Décalage PISA -> diplôme ~8-10 ans (paramètre de sensibilité)
-% Complétion licence: 43% dans la durée prévue, 70% +3 ans
-%   (EaG 2025), variable selon le domaine; PISA pèse plus sur
-%   l'accès que la persistance (étude YITS/Canada, Irish
-%   Educational Studies 2011)
-% Robustesse: nouveaux entrants par domaine (EaG Table B4.2)
+% OECD Education at a Glance; complétion licence 43%/70%+3ans
 \subsection{H2: diplômés STEM}
-% Part/taux par sous-domaine; prédicteur = part au sommet de
-%   la distribution PISA (niveaux 5-6); séparer étudiants
-%   internationaux quand possible
 \subsection{H3 abandonnée}
-% Places saturées -> résultat nul ininterprétable; abandon
-%   motivé et rapporté explicitement
-% Données examinées: ETER (~3500 établissements, ~40 pays
-%   européens, 2011-2020), IPEDS (Etats-Unis)
-% TODO: vérifier si les classes préparatoires françaises sont
-%   comptées comme établissements distincts dans ETER
+% ETER, IPEDS
+% TODO: classes préparatoires françaises comptées comme
+%   établissements distincts dans ETER ?
 \subsection{Lien vers l'économie high-tech (exploratoire)}
-% Résultat: part de spécialistes TIC en emploi (Eurostat LFS,
-%   ISCO-08; définitions différentes France/Espagne)
-% Appui qualitatif: Murphy, Shleifer & Vishny (1991), QJE 106(2)
-%   -- part d'étudiants en ingénierie et croissance (coupe
-%   transversale, ancien)
-% Causalité inverse à noter: le choix de filière dépend des
-%   rendements attendus
-% TODO: vérifier l'existence d'un équivalent Eurostat pour les
-%   pays OCDE hors Europe
-% Risque de double comptage avec le beta de Hanushek & Woessmann
-%   -- traiter comme décomposition ou sensibilité, pas comme
-%   terme additif dans la VAN
-% Pas de règle d'arrêt formalisée dans le texte (choix de
-%   l'auteur), mais canal abandonné si non concluant
+% Eurostat (spécialistes TIC, Europe); Murphy, Shleifer & Vishny
+%   (1991), QJE 106(2)
+% TODO: équivalent Eurostat pour les pays OCDE hors Europe
+%   (Japon, Corée, Canada, Australie, etc.)
+% Risque de double comptage avec le beta -- décomposition ou
+%   sensibilité, pas terme additif
 
 \section{Proposition de réforme pour la France}
 \subsection{Éléments retenus}
-% Séquencement par prérequis, âge de bifurcation cible, notions
-%   prioritaires du tronc commun
 \subsection{Adaptation high-tech}
-% cf. TODO Section 5.4 sur les références des programmes
-%   nationaux et le nouveau domaine PISA LDW
 \subsection{Composante numérique minimale}
-% Réforme à dominante pédagogique/curriculaire; outil adaptatif
-%   étroit basé sur le graphe KST (cf. ALEKS), pas de déploiement
-%   matériel massif -- garde le poste écologique (Section 12.3)
-%   marginal
+% Réforme pédagogique dominante; outil adaptatif KST (cf. ALEKS)
+
+\section{Qualité et recrutement des enseignants}
+\subsection{Salaire et sélection}
+% Dolton & Marcenaro-Gutierrez (2011); Hanushek, Piopiunik &
+%   Wiederhold (2019), JHR
+% TODO: élasticité précise salaire->compétence, pour chiffrage
+% Point de rigueur à traiter: confondant richesse nationale
+%   (PIB/hab, dépense éducative totale) -- même traitement par
+%   effets fixes pays que le modèle principal, pas une
+%   régression simple
+\subsection{Adéquation formation--matière enseignée}
+% Villani-Torossian (2018): profs des écoles littéraires, 1/3
+%   n'aime pas enseigner les maths; mesure déjà proposée
+%   (formation Bac+1, mineures maths/sciences)
+% TALIS (module Mathématiques 2013 couplé PISA)
+% TODO: couverture TALIS primaire par pays (participation jugée
+%   insuffisante par l'OCDE dans plusieurs pays en 2018)
+\subsection{Conséquence pour le graphe de notions}
+% p_{i,n} potentiellement pondéré par l'adéquation enseignant-
+%   matière -- à tester, pas à assumer (même logique que g_{i,n})
+% Point de rigueur à traiter: qualité des enseignants agit
+%   probablement VIA p_{i,n} (médiation), pas en parallèle --
+%   tester la corrélation avant de mettre les deux comme
+%   régresseurs indépendants
+\subsection{Benchmark interne: France 2018}
+% TODO: trajectoire du score PISA maths France 2018-2025
+% Point de rigueur: la mesure phare (formation initiale) a un
+%   t_impl long (5+ ans, formation d'une nouvelle génération de
+%   professeurs) -- 2018-2025 est probablement trop court pour
+%   un effet mesurable; traiter comme cas qualitatif plutôt que
+%   chiffré pour l'instant, ou exclure du benchmark chiffré
 
 \section{Estimation du coût}
 \subsection{Coût direct}
-% Conception du programme, réécriture/édition des manuels,
-%   transition; périmètre: dépenses primaire+secondaire (OECD
-%   Education at a Glance distingue les niveaux)
+% OECD Education at a Glance (dépenses primaire+secondaire);
+%   DEPP pour le détail France
 \subsection{Salaires et recrutement}
-% Formation continue (1-2 ans) vs formation initiale d'une
-%   nouvelle génération d'enseignants (5+ ans)
+% Formation continue (1-2 ans) vs initiale (5+ ans); nouvelle
+%   ligne: revalorisation salariale ciblée (Section 10.1)
 \subsection{Recettes nécessaires}
-% Impôts additionnels; progressif vs big bang (lissage de
-%   t_impl, cf. Section 12.1)
 
 % ============================================================
 \part{Partie 3 --- Modèle prédictif de qualité éducative}
-% Rôle: seconde estimation, indépendante du contrôle synthétique
-% (Section 4.2), du gain PISA attendu d'un curriculum donné.
 
 \section{Construction des variables}
 \subsection{Variables issues de la Partie 2}
-% p_{i,n}: couverture implémentée pondérée IRT/BLIM (Section 5.3)
-% Temps d'instruction / indice de focalisation (Section 6.2)
-% Âge de bifurcation (Section 7.1)
-% Écart g_{i,n} (Section 5.3), sous réserve du diagnostic sur
-%   sa redondance avec le temps total
+% p_{i,n}, g_{i,n}, temps d'instruction, âge de bifurcation,
+%   adéquation enseignant-matière
+% Point de rigueur: nombre de variables (7+) élevé par rapport
+%   à N (16-30 pays) -- fusionner en indices composites ou
+%   prioriser explicitement avant modélisation
 \subsection{Score de violation des prérequis}
-% Écart entre l'ordre d'enseignement réel et la relation de
-%   surmise du graphe KST -- construction en partie subjective
-%   (dépend des relations posées en Section 5.1), à déclarer
+% Construction en partie subjective (relations de surmise
+%   posées à dire d'expert) -- à déclarer
 \subsection{Deux modèles séparés}
-% Maths et sciences: features partagées, coefficients estimés
-%   séparément
+% Maths et sciences
 
 \section{Spécification du modèle}
 \subsection{Approche empirique}
-% Comparaison de méthodes: OLS, ridge, lasso/elastic net, PLS
-%   (adapté au petit N et à la colinéarité), processus gaussien
-%   (incertitude par pays); gradient boosting/random forest en
-%   robustesse uniquement (sur-apprentissage attendu, déclaré)
-% Validation croisée imbriquée: boucle externe pour l'évaluation
-%   honnête des méthodes, boucle interne pour le réglage des
-%   hyperparamètres
+% OLS, ridge, lasso/elastic net, PLS, processus gaussien;
+%   gradient boosting/RF en robustesse uniquement
+% Validation croisée imbriquée (boucle externe/interne)
 \subsection{Approche théorique: indice Q}
-% Q_i(w) = somme_n [ p_{i,n} x w_n x r_{i,n}(tau_n) x
-%   (1 - pénalité de violation de prérequis) ]
-% ATTENTION -- correction méthodologique: optimiser conjointement
-%   w_n ET tau_n dans un seul programme convexe est INVALIDE
-%   (produit bilinéaire; r(tau)=min(1,t/tau) concave au point
-%   de jonction tau=t)
-% Méthode retenue, en deux niveaux:
-%   (a) boucle externe non convexe: grille sur tau (un tau par
-%       domaine/cluster de notions, pas par notion)
-%   (b) boucle interne convexe: à tau fixé, QP en w_n >= 0,
-%       perte quadratique vs PISA observé (cvxpy, SLSQP)
-% Alternative pour convexité: pénalité de déficit convexe
-%   max(0, tau_n - t_{i,n}) (hinge), optimisable seule en
-%   tau_n à w_n fixé
-% Perte de rang (RankSVM) envisageable en (b) si l'objectif est
-%   le classement plutôt que le score -- à trancher selon l'usage
-%   en aval (Section 12 a besoin d'un score, pas juste d'un rang)
+% Q_i(w) = somme p_{i,n} x w_n x r_{i,n}(tau_n) x (1-pénalité)
+% Correction convexité: w_n à tau fixé (QP convexe), tau par
+%   grille (boucle externe non convexe) -- optimisation jointe
+%   w/tau INVALIDE (bilinéaire, r(tau) concave au point de
+%   jonction)
+% Alternative: pénalité hinge convexe max(0, tau_n - t_{i,n})
 \subsection{Diagnostic de multicollinéarité}
-% VIF avant interprétation des coefficients (tracking age,
-%   couverture et focalisation probablement corrélés entre pays)
+% VIF avant interprétation (tracking age, couverture,
+%   focalisation probablement corrélés)
 
 \section{Application au curriculum proposé}
 \subsection{Prédiction pour la réforme française}
-% Curriculum de la Section 10 (Partie 2) passé dans le modèle
-%   entraîné -> gain PISA prédit par domaine
 \subsection{Triangulation avec le contrôle synthétique}
-% Comparaison avec le gain issu du benchmark Pologne/Allemagne
-%   (Section 4.2); convergence -> renforce la confiance;
-%   divergence -> à discuter explicitement
 \subsection{Convergence empirique/théorique}
-% Comparer les classements de pays produits par le modèle
-%   empirique et par l'indice Q calibré
 
 \section{Limites du modèle}
-% N petit (16-30 pays selon couverture TIMSS confirmée)
-% Score de violation des prérequis: construction en partie
-%   subjective
+% N petit; score de violation des prérequis subjectif
 
 % ============================================================
 \section{Projection de l'impact économique}
-
 \subsection{Lien PISA--PIAAC}
-% Gustafsson (2016), "Lasting effects of quality of schooling:
-%   Evidence from PISA and PIAAC", Intelligence 57, 66-72 --
-%   tendances de 5 éditions PISA (2000-2012) vs 2 cohortes
-%   PIAAC 2011 (16-19 et 25-29 ans)
-% TODO: les coefficients r=0.70/beta=0.55 attribués à Gustafsson
-%   n'ont pas été reconfirmés dans le texte intégral
-% OECD PISA in Focus 2014/11 (R^2 ~0.33-0.35 sur les niveaux,
-%   cohortes appariées par tranche de 3 ans, ~150 individus par
-%   pays); OCDE (à paraître/2026), "Towards a stronger link
-%   between PISA and PIAAC" (alignement le plus fort en
-%   maths/numératie)
-% Hypothèse déclarée: après 15 ans, le reste (dont le supérieur)
-%   est tenu constant
+% Gustafsson (2016), Intelligence 57, 66-72
+% TODO: coefficients r=0.70/beta=0.55 non reconfirmés dans le
+%   texte intégral
+% OECD PISA in Focus 2014/11 (R^2~0.33-0.35); OCDE (2026, à
+%   paraître)
 \subsection{Calibration croissance}
-% beta Hanushek & Woessmann (2012)
 \subsection{Calibration emploi}
-% Stijepic (2020), International Labour Review 159(3): +1 ET
-%   numératie -> +8.4pts emploi, -2.1pts chômage (effet plus
-%   fort en contexte de chômage élevé)
-% Stijepic (2021); Hanushek, Schwerdt, Wiederhold & Woessmann
-%   (2015), European Economic Review
-% Lag x' distinct de x (PIAAC mesure des actifs, pas l'entrée
-%   sur le marché du travail)
+% Stijepic (2020, 2021); Hanushek, Schwerdt, Wiederhold &
+%   Woessmann (2015)
 \subsection{Propagation de l'incertitude}
-% Cascade: gain PISA (contrôle synthétique OU modèle Partie 3)
-%   -> gain PIAAC (Gustafsson) -> croissance et emploi;
-%   Monte Carlo
 
 \section{Analyse coût-bénéfice}
 \subsection{Décomposition temporelle}
-% t_impl (formation, manuels, déploiement; ancrage Pologne
-%   ~3-4 ans) + t_obs (cohorte complète dans le nouveau
-%   programme) + x (croissance) ou x' (emploi)
-% t_impl différent selon la brique (formation continue 1-2 ans
-%   vs formation initiale 5+ ans)
+% t_impl + t_obs + x/x' (ancrage Pologne ~3-4 ans)
 \subsection{Actualisation}
-% Baumstark, Fery & Gollier (2011), "Le calcul du risque dans
-%   les investissements publics", Centre d'analyse stratégique
-% Commission Quinet (2013): taux sans risque 2,5% (1,5% après
-%   2070) + prime de risque systémique 2% (3% après 2070) ->
-%   ~4,5%; France Stratégie
+% Baumstark, Fery & Gollier (2011); Commission Quinet (2013), ~4,5%
 \subsection{Coût écologique}
-% Valeur de l'Action pour le Climat (Quinet 2019, actualisée
-%   2025): 256 EUR2023/tCO2e en 2025, trajectoire croissante
-%   (règle de Hotelling, ~3,2%/an)
-% Postes: manuels, infrastructure numérique (marginal si
-%   réforme pédagogique, cf. Section 10.3), rénovation,
-%   déplacements de formation
+% VAC (Quinet 2019/2025): 256 EUR/tCO2e en 2025
 \subsection{Formule et métriques}
-% VAN = somme_t [ (B(t-t_impl-t_obs-x) - C_t - E_t*VAC_t)
-%                  / (1+r)^t ]
-% B_t = B_croissance + B_emploi (+ économies de dépenses
-%   sociales); VAN, ratio bénéfice/coût, délai de retour
 \subsection{Incertitude et sensibilité}
-% Monte Carlo: IC du gain PISA, IC de beta, x/x'/t_impl, plage
-%   de r (2,5% à 6,5%); tornado diagram
 \subsection{Discussion intergénérationnelle}
-% Qui paie (dès la mise en oeuvre) vs qui bénéficie (après
-%   t_impl+t_obs+x, potentiellement 25-30 ans)
 
 \section{Limites générales}
-% Non modélisés: inégalités (effet du tracking sur la
-%   distribution), bénéfices non marchands (Oreopoulos &
-%   Salvanes, 2011, JEP -- TODO: référence citée de mémoire),
-%   qualité du supérieur exclue par construction
-% Causalité: pas d'instrument exogène; transposabilité des
-%   réformes benchmark
-% PIAAC: peu de points temporels (Cycle 1: 39 pays, ~245 000
-%   adultes; Cycle 2: 31 pays, ~5 000/pays), taux de réponse
-%   27-73% au Cycle 2, tranches d'âge (pas âge continu) dans
-%   les fichiers publics
+% TODO: référence Oreopoulos & Salvanes (2011), JEP, citée de
+%   mémoire, non reconfirmée
+% PIAAC: peu de points temporels, tranches d'âge dans les
+%   fichiers publics
 
 % ============================================================
 \section{Conclusion générale}
-% Synthèse des trois parties, limites globales, recommandations
-
 \subsection{Ouverture}
-% EMC/SEL: reporté à une extension future, non développé ici
-% Piste: graphe KST étendu aux compétences socio-émotionnelles
-%   (CASEL 5, Durlak et al. 2011), contrôle synthétique sur la
-%   rupture EMC 2015 (Bulletin officiel spécial n°6, 25 juin
-%   2015), climat disciplinaire PISA (DISCLIM) comme variable
-%   de résultat propre à cette extension
+% EMC/SEL: extension future (graphe KST étendu, CASEL, Durlak
+%   et al. 2011, contrôle synthétique rupture EMC 2015, DISCLIM)
 
 \appendix
 \section{Sources de données}
-% PISA database; TIMSS 2023 (Encyclopedia, Curriculum
-%   Questionnaire, Teacher Questionnaire); TIMSS Advanced 2015;
-%   PISA 2025 Learning in the Digital World; PIAAC Cycles 1-2
-%   (+ IALS/ALL en robustesse); OECD Education at a Glance;
-%   OECD.Stat; World Bank Open Data; Eurydice; Eurostat
-%   (spécialistes TIC); ETER; IPEDS; France Stratégie (taux
-%   d'actualisation, VAC)
+\subsection{Spécifiques à la France}
+% DEPP, INSEE, France Travail/APEC, BO spécial n°6 (2015),
+%   Villani-Torossian (2018)
+\subsection{OCDE}
+% PISA, PISA 2025 LDW, PIAAC, TALIS, Education at a Glance,
+%   OECD.Stat, France Stratégie
+\subsection{IEA}
+% TIMSS 2023, TIMSS Advanced 2015
+\subsection{Pays "en profondeur"}
+% Europe via Eurydice; Etats-Unis (NCES/IPEDS); Allemagne
+%   (NEPS); Finlande (Statistics Finland); Japon (MEXT); Corée
+%   (KEDI/MEST); Canada (StatCan/CMEC, fragmenté par province);
+%   Australie (ABS/ACARA); Nouvelle-Zélande (Education Counts)
+% Exclus (recherche arrêtée, rendement décroissant): Pologne,
+%   Colombie (ICFES confirmé pour évaluations seulement),
+%   Mexique, Chili, Costa Rica, Israël -- traités via OCDE/IEA
+%   uniquement
+% TODO: granularité NEPS pour l'âge de bifurcation par Land;
+%   équivalent NCES pour la qualification disciplinaire
+\subsection{Autres sources internationales}
+% World Bank, Eurydice, Eurostat, ETER, IPEDS
+\subsection{Fichiers de réplication}
+% Panel Hanushek & Woessmann; données PIAAC de Stijepic si partagées
 
 \section{Spécifications techniques}
-% Contrôle synthétique; KST/BLIM; IRT; modèles H1-H2; VAN
-%   complète et simulation Monte Carlo; QP pour l'indice Q
 
-\section{Récapitulatif des TODO}
-% 1. [CRITIQUE] Couverture TIMSS 2023 par pays/cycle à reconfirmer
-% 2. Statut du Royaume-Uni dans TIMSS
-% 3. Coefficients exacts (r, beta) de Gustafsson (2016)
-% 4. Références académiques des programmes high-tech nationaux
-% 5. PISA 2025 Assessment and Analytical Framework (LDW)
-% 6. Référence exacte de l'étude sur 33 pays (OTL--sciences)
-% 7. Âge de spécialisation Allemagne/Autriche (Eurydice)
-% 8. Classes préparatoires françaises dans ETER
-% 9. Équivalent Eurostat (spécialistes TIC) hors Europe
-% 10. Référence Oreopoulos & Salvanes (2011), JEP
-% 11. Définitions exactes des indicateurs OCDE (EaG)
+\section{Récapitulatif des TODO (par ordre de section)}
+% - Section 1.4: définitions indicateurs OCDE EaG
+% - Section 5.3: réfs programmes high-tech nationaux
+% - Section 5.3: PISA 2025 Framework (LDW) + résultats France
+% - Section 6.1: attribution TIMSS précise par cycle (base
+%   internationale à télécharger directement)
+% - Section 6.1: statut UK dans TIMSS
+% - Section 6.2: réf exacte étude 33 pays (OTL--sciences)
+% - Section 7.2: âge de spécialisation Allemagne/Autriche
+% - Section 8.3: classes prépa dans ETER
+% - Section 8.4: équivalent Eurostat hors Europe
+% - Section 10.1: élasticité salaire->compétence enseignants
+% - Section 10.2: couverture TALIS primaire par pays
+% - Section 10.5: trajectoire PISA maths France 2018-2025
+% - Section 9.1 (Projection): coefficients exacts Gustafsson (2016)
+% - Limites générales: réf Oreopoulos & Salvanes (2011)
+% - Annexe (pays en profondeur): granularité NEPS; équivalent
+%   NCES qualification disciplinaire
 
 \section{Références lues}
-% Liste consolidée (articles et bases de données)

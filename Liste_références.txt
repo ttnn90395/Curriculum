@@ -1,75 +1,127 @@
 Lien éducation–croissance
 Hanushek & Woessmann (2007), "The Role of Education Quality in Economic Growth", World Bank Policy Research Working Paper 4122
 Hanushek & Woessmann (2010), "The High Cost of Low Educational Performance", OCDE
-Hanushek & Woessmann (2012), "Do Better Schools Lead to More Growth? Cognitive Skills, Economic Outcomes, and Causation", Journal of Economic Growth 17(4), la référence pour ton β
+Hanushek & Woessmann (2012), "Do Better Schools Lead to More Growth? Cognitive Skills, Economic Outcomes, and Causation", Journal of Economic Growth 17(4) -- référence du beta utilisé en Partie 2/3
 Hanushek & Woessmann (2015), The Knowledge Capital of Nations, MIT Press
 Heller-Sahlgren & Jordahl (2024), "Test Scores and Economic Growth: Update and Extension", Applied Economics Letters 31(11)
 
 
-Lien PISA–PIAAC [nouveau]
-Gustafsson (2016), "Lasting effects of quality of schooling: Evidence from PISA and PIAAC", Intelligence (revue à vérifier)
-OCDE (2014), PISA in Focus 2014/11, "What PISA can – and can't – tell us about adults' skills"
+Lien PISA–PIAAC
+Gustafsson (2016), "Lasting effects of quality of schooling: Evidence from PISA and PIAAC", Intelligence 57, 66-72 -- titre et revue CONFIRMÉS ; méthode confirmée (tendances de 5 cycles PISA 2000-2012 vs 2 cohortes PIAAC 2011) ; r=0.70 CONFIRMÉ ; beta=0.55 NON CONFIRMÉ, ne pas citer
+OCDE (2014), PISA in Focus 2014/11, "What PISA can – and can't – tell us about adults' skills" -- R^2 ~0.33-0.35, cohortes appariées par tranche de 3 ans
 OCDE (à paraître, 2026), "Towards a stronger link between PISA and PIAAC: Two assessments, one story?", working paper
-OCDE (2023), PISA 2022 Results (Volume I), note sur les cohortes synthétiques, qui renvoie à OECD Skills Outlook 2021, chap. 3, encadré 3.1
+OCDE (2023), PISA 2022 Results (Volume I), note sur les cohortes synthétiques
 Levels & van der Velden (2013), cité par Gustafsson : référence complète à retrouver
 
 
 Compétences adultes, emploi et chômage
-Stijepic (2020), "Employment effects of skills around the world: Evidence from the PIAAC", International Labour Review 159(3) [nouveau]
-Stijepic (2021), "A cross-country study of skills and unemployment flows" [nouveau]
-Hanushek, Schwerdt, Wiederhold & Woessmann (2015), "Returns to Skills around the World: Evidence from PIAAC", European Economic Review [nouveau]
-OCDE (2025), Education at a Glance 2025, chapitre sur PIAAC [nouveau]
-Oreopoulos & Salvanes (2011), "Priceless: The Nonpecuniary Benefits of Schooling", Journal of Economic Perspectives (cité de mémoire, à vérifier)
+Stijepic (2020), "Employment effects of skills around the world: Evidence from the PIAAC", International Labour Review 159(3) -- +1 ET numératie -> +8.4pts emploi, -2.1pts chômage
+Stijepic (2021), "A cross-country study of skills and unemployment flows"
+Hanushek, Schwerdt, Wiederhold & Woessmann (2015), "Returns to Skills around the World: Evidence from PIAAC", European Economic Review
+OCDE (2025), Education at a Glance 2025, chapitre sur PIAAC
+Oreopoulos & Salvanes (2011), "Priceless: The Nonpecuniary Benefits of Schooling", Journal of Economic Perspectives 25(1), 159-184, DOI 10.1257/jep.25.1.159 -- CONFIRMÉ
 
 
-Accès au supérieur et diplômés [nouveau]
+Vocational vs général (diversification des parcours)
+Hanushek, Schwerdt, Woessmann & Zhang (2017), "General Education, Vocational Education, and Labor-Market Outcomes over the Lifecycle", Journal of Human Resources 52(1), 48-87, DOI 10.3368/jhr.52.1.0415-7074R -- IALS (11 pays), DiD par âge ; avantage emploi jeune du professionnel érodé avec l'âge (adaptabilité au changement technologique)
+Hampf & Woessmann (2016/2017), "Vocational vs. General Education and Employment over the Life-Cycle: New Evidence from PIAAC"
+
+
+Accès au supérieur et diplômés
 Gluszynski & Bayard (2010), "Does Reading Proficiency at Age 15 Affect Pathways through Learning and Work", OECD Education Working Papers No. 31
 OCDE (2010), Pathways to Success: How Knowledge and Skills at Age 15 Shape Future Lives in Canada
 "The influence of PISA scores, schooling and social factors on pathways to and within higher education in Canada", Irish Educational Studies 30(2), 2011 (auteurs à retrouver)
 Statistics Canada (2011), "Life-path outcomes at age 25 associated with reading ability at age 15"
-OCDE, Education at a Glance 2023 (Table B4.2, nouveaux entrants par domaine) et 2025 (taux de complétion)
+OCDE, Education at a Glance 2023 (Table B4.2, nouveaux entrants par domaine) et 2025 (taux de complétion : 43% dans la durée prévue, 70% +3 ans)
 Murphy, Shleifer & Vishny (1991), "The Allocation of Talent: Implications for Growth", Quarterly Journal of Economics 106(2), 503–530
 Lepori et al. (2023), "The European Tertiary Education Register, the reference dataset on European Higher Education Institutions", Scientific Data (auteurs exacts à vérifier)
 
 
 Tracking et spécialisation
-Hanushek & Woessmann (2006), "Does Educational Tracking Affect Performance and Inequality? Differences-in-Differences Evidence across Countries", CESifo Working Paper 1415
+Hanushek & Woessmann (2006), "Does Educational Tracking Affect Performance and Inequality? Differences-in-Differences Evidence across Countries", CESifo Working Paper 1415 -- tracking précoce = +inégalité, pas de trade-off équité-efficacité
 Contini, "Investigating the role of educational systems on learning inequalities with international assessments. The case of early tracking"
+Allemagne/Autriche : bifurcation confirmée à 10 ans (fin Volksschule/Grundschule) -- Gymnasium vs Mittelschule/Hauptschule/Realschule/Gesamtschule
 
 
 Curriculum, temps d'instruction et profondeur
-Schmidt, McKnight & Raizen (1997), A Splintered Vision
+Schmidt, McKnight & Raizen (1997), A Splintered Vision -- "mile wide, inch deep"
 Schmidt et al. (2001), Why Schools Matter
+Carroll, J.B. (1963), "A Model of School Learning", Teachers College Record 64, 723-733 -- apprentissage = f(temps passé / temps nécessaire)
+Bloom, B.S. (1968), "Learning for Mastery", Evaluation Comment 1(2)
 Bokhove et al. (2019), "The Role of Opportunity to Learn in the Geometry Curriculum: A Multilevel Comparison of Six Countries", Frontiers in Education
-Large-scale Assessments in Education (2018), étude sur 33 pays, pas de lien significatif entre OTL et score en sciences (référence exacte à retrouver) [nouveau]
-TIMSS Advanced 2015, IEA / TIMSS & PIRLS International Study Center, Boston College [nouveau]
+Daus, S. & Braeken, J. (2018), "The sensitivity of TIMSS country rankings in science achievement to differences in opportunity to learn at classroom level", Large-scale Assessments in Education 6(1), DOI 10.1186/s40536-018-0054-1 -- CONFIRMÉ, 33 pays, TIMSS 2015, pas de lien significatif OTL--sciences (entre-pays et intra-pays) ; précédent méthodologique direct pour l'indice Q (Partie 3)
+TIMSS Advanced 2015, IEA / TIMSS & PIRLS International Study Center, Boston College -- 9 pays (France, Italie, Liban, Norvège, Portugal, Russie, Slovénie, Suède, Etats-Unis), dont 7 OCDE
 
 
-Réformes de référence
+Climat de classe et comportement
+OECD (2019), PISA 2018 Results (Volume III), chapitre climat disciplinaire (DISCLIM) -- +1 ET -> ~+11 points lecture/sciences
+OECD (2016), "Has Discipline in School Deteriorated?", PISA in Focus
+OECD (2023), PISA 2022 Results (Volume II): Learning During – and From – Disruption
+Note de vie scolaire (France, 2006-2014, intégrée au DNB) -- NON CONFIRMÉ, cité de mémoire
+
+
+Qualité et recrutement des enseignants
+Dolton, P., & Marcenaro-Gutierrez, O. D. (2011), "If you pay peanuts do you get monkeys? A cross-country analysis of teacher pay and pupil performance", Economic Policy 26(65), 5-55 -- CONFIRMÉ, 39 pays ; élasticité précise non trouvée
+Hanushek, Piopiunik & Wiederhold (2019), "The Value of Smarter Teachers: International Evidence on Teacher Cognitive Skills and Student Performance", Journal of Human Resources
+Rapport Villani-Torossian (2018), "21 mesures pour l'enseignement des mathématiques" -- professeurs des écoles majoritairement littéraires, 1/3 n'aime pas enseigner les maths ; mesure : formation initiale Bac+1, mineures maths/sciences pour non-scientifiques
+TALIS (OCDE), module Mathématiques 2013 couplé PISA, cycles 2018 et 2024
+
+
+Benchmark high-tech / pensée computationnelle
+Estonie : ProgeTiiger (2012, Tiger Leap Foundation), construit sur Tiigrihüpe (1996) ; littératie numérique obligatoire depuis 2014 ; "AI Leap" annoncé 2025. Source : NCEE (ncee.org/country/estonia)
+Angleterre : réforme 2014, ICT remplacé par "Computing" (5-16 ans, 3 volets : CS/IT/DL). Source : DfE, National curriculum in England: computing programmes of study (gov.uk). Exode documenté des enseignants ICT non formés (Larke, 2019, cité par BERA)
+Corée : codage obligatoire (pas optionnel, correction d'une affirmation antérieure) -- collège dès 2018 (cours hebdo requis), primaire grades 5-6 dès 2019 (17h/an), ~60 000 enseignants primaires formés
+PISA 2025, "Learning in the Digital World" (résolution de problèmes computationnels + autorégulation) -- résultats publiés le 8 septembre 2026 ; score France en calcul computationnel non trouvé
+
+
+R�formes de référence
 Jakubowski (2015), "Opening Up Opportunities: education reforms in Poland", IBS Policy Paper 01/2015
 Banque mondiale, "Successful Education Reform: Lessons from Poland"
 Niemann (2010) et Bieber (2010) sur le PISA-Schock allemand
 "The effects of PISA on global basic education reform: a systematic literature review", Humanities and Social Sciences Communications (2025)
-Pensée computationnelle (Estonie, Angleterre, Israël, Corée) : je n'ai pas retenu de référence précise, sources à retrouver [nouveau]
+France 2018 (Villani-Torossian) comme benchmark interne -- trajectoire PISA France CONFIRMÉE : maths 495(2018)->474(2022)->458(2025) ; lecture ->474->456 ; sciences ->487->483 (non sig. 2022-25). Mise en garde méthodologique : t_impl 5+ ans, pas de test causal valide avant PISA 2028-2031
+Bulletin officiel spécial n°6 du 25 juin 2015 -- programme d'enseignement moral et civique (EMC)
+
+
+Social-emotional learning (EMC/SEL, en ouverture seulement)
+Durlak, Weissberg, Dymnicki, Taylor & Schellinger (2011), "The Impact of Enhancing Students' Social and Emotional Learning: A Meta-Analysis of School-Based Universal Interventions", Child Development 82(1), 405-432 -- 213 programmes, 270 000 élèves, +11 points de percentile académiques
+CASEL (2020), CASEL's SEL Framework -- 5 compétences, PAS structurées comme échelle développementale (sources contradictoires sur ce point, à ne pas citer comme fait établi)
 
 
 Méthodes
-Abadie & Gardeazabal (2003) ; Abadie, Diamond & Hainmueller (2010), Journal of the American Statistical Association 105(490)
-Doignon & Falmagne (1999), Knowledge Spaces, Springer
+Abadie & Gardeazabal (2003) ; Abadie, Diamond & Hainmueller (2010), "Synthetic Control Methods for Comparative Case Studies", Journal of the American Statistical Association 105(490) -- contrôle synthétique
+Doignon & Falmagne (1999), Knowledge Spaces, Springer -- Knowledge Space Theory
 Falmagne & Doignon (1988), BLIM (titre exact à vérifier)
 Packages R : Synth (Hainmueller & Diamond), kst, kstMatrix (Hockemeyer)
+Gelman & Loken, "garden of forking paths" -- discipline exploratoire/confirmatoire
+
+
 Coût-bénéfice
-Gollier (2011), Le calcul du risque dans les investissements publics, Centre d'analyse stratégique
-Commission Quinet (2013), sur l'évaluation socioéconomique des investissements publics, France Stratégie (titre à vérifier)
-Quinet (2019, actualisé en 2025), La valeur de l'action pour le climat, France Stratégie
+Baumstark, L., Fery, P. & Gollier, C. (2011), "Le calcul du risque dans les investissements publics", Centre d'analyse stratégique -- CONFIRMÉ, auteurs exacts
+Commission Quinet (2013), évaluation socioéconomique des investissements publics -- taux ~4.5% (sans risque 2.5% + prime systémique 2%)
+Quinet (2019, actualisé 2025), "La valeur de l'action pour le climat", France Stratégie -- 256 EUR2023/tCO2e en 2025
 
 
-Bases de données
+Bases de données internationales
 PISA database (OCDE)
-TIMSS 2023 : Encyclopedia, Curriculum Questionnaire, table de participation NCES
-PIAAC Cycles 1 et 2 (fichiers publics OCDE, fichiers restreints via service à distance) ; IALS et ALL via Statistics Canada [nouveau]
-OECD.Stat et Education at a Glance ; indicateur OCDE « Tertiary graduates by field »
-World Bank Open Data ; Eurydice
-Eurostat, spécialistes TIC en emploi (isoc_sks_itspt) [nouveau]
-ETER (European Tertiary Education Register), IPEDS (États-Unis) [nouveau]
-France Stratégie (taux d'actualisation, valeur de l'action pour le climat)
+TIMSS 2023 : Encyclopedia, Curriculum Questionnaire, Teacher Questionnaire -- 64 pays au total, 59 en 4e année, 44 en 8e année (CONFIRMÉ) ; attribution précise par cycle NON RÉSOLUE par recherche web, nécessite téléchargement direct (timss2023.org/data)
+TIMSS Advanced 2015
+PIAAC Cycle 1 (2011-2018, 39 pays, ~245 000 adultes) et Cycle 2 (2022-2023, 31 pays, ~5000/pays, taux de réponse 27-73%) ; IALS et ALL via Statistics Canada en robustesse temporelle
+TALIS (2013, 2018, 2024)
+OECD.Stat et Education at a Glance ; indicateur OCDE "Tertiary graduates by field"
+World Bank Open Data ; Eurydice (point d'entrée pour les agences nationales européennes)
+Eurostat, spécialistes TIC en emploi (isoc_sks_itspt, ISCO-08 ; définitions différentes France/Espagne)
+ETER (European Tertiary Education Register, ~3500 établissements, ~40 pays, 2011-2020) ; IPEDS (Etats-Unis)
+
+
+Sources nationales -- pays "en profondeur"
+France : DEPP (Repères et références statistiques), INSEE, France Travail/APEC
+Etats-Unis : NCES, IPEDS
+Allemagne : NEPS (National Educational Panel Study, panel individuel, détail par Land)
+Finlande : Statistics Finland (registres administratifs exhaustifs)
+Japon : MEXT -- School Basic Survey (recensement annuel depuis 1948), School Teacher Survey (tous les 3 ans), National Assessment of Academic Ability (recensement annuel, grades 6 et 9)
+Corée : KEDI (Korean Educational Development Institute) + Ministry of Education, Science and Technology (MEST)
+Canada : pas de ministère fédéral -- CMEC + Statistique Canada (PCEIP, annuel depuis 2009) ; détail disciplinaire des enseignants au niveau provincial
+Australie : Australian Bureau of Statistics (collection Schools) + ACARA
+Nouvelle-Zélande : Education Counts (Ministry of Education)
+Pologne, Colombie (ICFES confirmé pour évaluations seulement), Mexique, Chili, Costa Rica, Israël : pas de source nationale confirmée -- OCDE/IEA uniquement

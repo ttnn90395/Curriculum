@@ -129,6 +129,42 @@ TIMSS2023_FILES = {
     "derived_context_g8": "T23_DerivedContextVariables_G8.zip",
 }
 
+# CONFIRME (2026-10-06): URLs verifiees par recuperation complete des
+# pages (pas juste un extrait de recherche) -- fichiers statiques
+# reels pour 2015 ET 2019, comme 2023.
+TIMSS_HISTORICAL = {
+    2019: {
+        "base": "https://timss2019.org/international-database/downloads/",
+        "curriculum_g4": "T19_G4_Curriculum Data.zip",   # espace litteral confirme dans le HTML
+        "curriculum_g8": "T19_G8_Curriculum Data.zip",
+    },
+    2015: {
+        "base": "https://timssandpirls.bc.edu/timss2015/international-database/downloads/",
+        "curriculum_g4": "T15_G4_CQ_Data.zip",            # pas d'espace pour 2015
+        "curriculum_g8": "T15_G8_CQ_Data.zip",
+    },
+}
+
+def download_timss_historical(cycles: list[int] = (2015, 2019)):
+    """Curriculum Questionnaire des cycles anterieurs a 2023 --
+    necessaire pour voir si le RANG de la France en couverture
+    curriculaire baisse dans le temps.
+
+    FORMAT: .zip contenant des fichiers SPSS (.sav), pas des .xlsx
+    -- necessite pyreadstat (pip install pyreadstat) pour les ouvrir."""
+    from urllib.parse import quote
+    print("\n=== TIMSS, cycles historiques (curriculum uniquement) ===")
+    for year in cycles:
+        if year not in TIMSS_HISTORICAL:
+            print(f"  {year}: URLs non verifiees, ignore")
+            continue
+        info = TIMSS_HISTORICAL[year]
+        for key in ("curriculum_g4", "curriculum_g8"):
+            url = info["base"] + quote(info[key])
+            dest = DATA_DIR / f"timss{year}_{key}.zip"
+            _fetch(url, dest, timeout=60)
+
+
 def download_timss2023(include_heavy: bool = False):
     """Par defaut, telecharge seulement les fichiers legers
     (xlsx) -- curriculum, IRT, codebooks, item info. Passer
@@ -237,6 +273,7 @@ def main():
     parser.add_argument("--eurostat", action="store_true")
     parser.add_argument("--timss", action="store_true", help="TIMSS 2023, fichiers legers (xlsx) seulement")
     parser.add_argument("--timss-heavy", action="store_true", help="TIMSS 2023, inclut les microdonnees SPSS completes (~2 Go)")
+    parser.add_argument("--timss-historical", action="store_true", help="Curriculum Questionnaire 2015 et 2019 (zip SPSS/SAS) -- pour l'evolution du rang dans le temps")
     parser.add_argument("--oecd", metavar="DATASET_ID", help="Tenter un dataset OCDE par son identifiant SDMX")
     parser.add_argument("--check", action="store_true", help="Verifier seulement les sources manuelles")
     args = parser.parse_args()
@@ -255,10 +292,13 @@ def main():
     if args.timss or args.timss_heavy or args.all:
         download_timss2023(include_heavy=args.timss_heavy)
 
+    if args.timss_historical or args.all:
+        download_timss_historical()
+
     if args.oecd:
         download_oecd_sdmx(args.oecd, args.oecd.lower())
 
-    if not any([args.all, args.worldbank, args.eurostat, args.timss, args.timss_heavy, args.oecd, args.check]):
+    if not any([args.all, args.worldbank, args.eurostat, args.timss, args.timss_heavy, args.timss_historical, args.oecd, args.check]):
         parser.print_help()
 
 

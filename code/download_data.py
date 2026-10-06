@@ -1,41 +1,43 @@
 """
 Projet Education -- Telechargement des donnees
 ==================================================
-STATUT: NON TESTE dans le sandbox de developpement -- aucun acces
-reseau vers worldbank.org, eurostat, oecd.org ou timss2023.org
-n'est disponible depuis cet environnement (liste blanche limitee
-a pypi/npm/github). A executer et deboguer sur une machine avec
-acces internet normal.
+STATUT: URLs TIMSS verifiees par recuperation complete des pages
+reelles (pas des extraits de recherche) le 2026-10-06, pour les
+cycles 2023, 2019 et 2015. Script lui-meme NON TESTE en execution
+dans ce sandbox (reseau restreint) -- teste par l'utilisateur sur
+Codespace, --timss et --timss-historical confirmes fonctionnels.
 
-Deux categories, traitees differemment:
-  1. APIs publiques avec endpoint stable -> telechargement automatise
-     (World Bank, Eurostat). Code fourni, a tester.
-  2. Portails necessitant navigation/acceptation de conditions
-     d'usage (TIMSS, PISA, PIAAC, TALIS, DEPP) -> pas d'API simple
-     connue ; le script VERIFIE la presence des fichiers attendus
-     et affiche les instructions de telechargement manuel sinon,
-     plutot que de pretendre automatiser ce qui ne l'est pas.
+Deux categories:
+  1. APIs publiques (World Bank, Eurostat) + fichiers statiques TIMSS
+     (IEA, tous cycles) -> telechargement automatise
+  2. Portails necessitant navigation (PISA, PIAAC, TALIS, DEPP) ->
+     pas d'API simple trouvee ; le script VERIFIE et INSTRUIT
 
 Usage:
-    python download_data.py --all
+    python download_data.py --all                    # tout, sans les gros fichiers
+    python download_data.py --timss 2023 2019 2015    # TIMSS, cycles choisis, fichiers legers
+    python download_data.py --timss 2023 --timss-heavy  # + microdonnees completes
     python download_data.py --worldbank --eurostat
-    python download_data.py --check   # verifie ce qui manque
+    python download_data.py --check                  # verifie les sources manuelles
 """
 
 import argparse
-import sys
 from pathlib import Path
+from urllib.parse import quote
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
-import json
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 USER_AGENT = "Mozilla/5.0 (research script, projet-education)"
 
+# ATTENTION licence IEA (TIMSS, tous cycles): usage non commercial,
+# educatif et de recherche uniquement ; citation requise. Voir
+# https://timss2023.org/data pour le texte exact.
 
-def _fetch(url: str, dest: Path, timeout: int = 30) -> bool:
+
+def _fetch(url: str, dest: Path, timeout: int = 60) -> bool:
     """Telecharge un fichier avec gestion d'erreur explicite --
     ne masque jamais un echec sous un succes silencieux."""
     try:
@@ -52,9 +54,6 @@ def _fetch(url: str, dest: Path, timeout: int = 30) -> bool:
 # =================================================================
 # 1. World Bank API -- automatisable
 # =================================================================
-# Documentation: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392
-# Format: api.worldbank.org/v2/country/{pays}/indicator/{code}?format=json
-
 WORLDBANK_INDICATORS = {
     "unemployment_total": "SL.UEM.TOTL.ZS",
     "gdp_per_capita": "NY.GDP.PCAP.CD",
@@ -63,26 +62,19 @@ WORLDBANK_INDICATORS = {
 }
 
 def download_worldbank(countries: str = "all", start_year: int = 2000, end_year: int = 2025):
-    """countries: code ISO3 separes par ';', ou 'all'."""
     print("\n=== World Bank API ===")
     for name, code in WORLDBANK_INDICATORS.items():
         url = (
             f"https://api.worldbank.org/v2/country/{countries}/indicator/{code}"
             f"?date={start_year}:{end_year}&format=json&per_page=20000"
         )
-        dest = DATA_DIR / f"worldbank_{name}.json"
-        _fetch(url, dest)
+        _fetch(url, DATA_DIR / f"worldbank_{name}.json", timeout=30)
 
 
 # =================================================================
 # 2. Eurostat API -- automatisable
 # =================================================================
-# Documentation: https://ec.europa.eu/eurostat/web/main/data/web-services
-# Dataset cible: isoc_sks_itspt (specialistes TIC en emploi)
-
-EUROSTAT_DATASETS = {
-    "ict_specialists": "isoc_sks_itspt",
-}
+EUROSTAT_DATASETS = {"ict_specialists": "isoc_sks_itspt"}
 
 def download_eurostat():
     print("\n=== Eurostat API ===")
@@ -91,135 +83,159 @@ def download_eurostat():
             f"https://ec.europa.eu/eurostat/api/dissemination/"
             f"statistics/1.0/data/{dataset_code}?format=JSON&lang=FR"
         )
-        dest = DATA_DIR / f"eurostat_{name}.json"
-        _fetch(url, dest)
+        _fetch(url, DATA_DIR / f"eurostat_{name}.json", timeout=30)
 
 
 # =================================================================
-# 3. TIMSS 2023 -- automatisable, URLs directes confirmees
-#    (pas de connexion requise, verifie le 2026-10-04)
+# 3. TIMSS -- tous cycles, URLs verifiees sur les vraies pages
+#    (timss2023.org/data, timss2019.org/international-database,
+#    timssandpirls.bc.edu/timss2015/international-database)
+#    le 2026-10-06.
 # =================================================================
-# Source: https://timss2023.org/data/
-# ATTENTION: licence IEA -- usage non commercial, educatif et de
-# recherche uniquement ; citer la source (voir docstring du
-# fichier timss2023.org/data pour le texte exact de citation).
 
-TIMSS2023_BASE = "https://timss2023.org/wp-content/uploads/data/"
-
-TIMSS2023_FILES = {
-    # Fichiers LEGERS, prioritaires -- directement exploitables
-    # pour le graphe de notions (Section 5, Partie 2) sans avoir
-    # besoin des grosses microdonnees
-    "curriculum_g4": "T23_CurriculumData_G4.xlsx",       # g_{i,n}, grade 4
-    "curriculum_g8": "T23_CurriculumData_G8.xlsx",       # g_{i,n}, grade 8
-    "irt_params_g4": "T23_IRTParameters_G4.xlsx",        # w_n (poids du graphe), grade 4
-    "irt_params_g8": "T23_IRTParameters_G8.xlsx",        # w_n (poids du graphe), grade 8
-    "codebook_g4": "T23_Codebook_G4.xlsx",
-    "codebook_g8": "T23_Codebook_G8.xlsx",
-    "item_info_g4": "T23_ItemInformation_G4.xlsx",
-    "item_info_g8": "T23_ItemInformation_G8.xlsx",
-    # Fichiers LOURDS (SPSS, ~950 Mo-1 Go chacun) -- microdonnees
-    # completes, necessaires pour le modele empirique (Partie 3)
-    # mais pas pour une premiere exploration du graphe
-    "spss_g4": "T23_Data_SPSS_G4.zip",   # ~991 Mo
-    "spss_g8": "T23_Data_SPSS_G8.zip",   # ~949 Mo
-    # Variables contextuelles derivees -- peut deja contenir des
-    # indices agreges utiles (p_{i,n} pre-calcule, etc.)
-    "derived_context_g4": "T23_DerivedContextVariables_G4.zip",
-    "derived_context_g8": "T23_DerivedContextVariables_G8.zip",
-}
-
-# CONFIRME (2026-10-06): URLs verifiees par recuperation complete des
-# pages (pas juste un extrait de recherche) -- fichiers statiques
-# reels pour 2015 ET 2019, comme 2023.
-TIMSS_HISTORICAL = {
+TIMSS_CYCLES = {
+    2023: {
+        "base": "https://timss2023.org/wp-content/uploads/data/",
+        "light": {
+            "curriculum_g4": "T23_CurriculumData_G4.xlsx",
+            "curriculum_g8": "T23_CurriculumData_G8.xlsx",
+            "tcma_g4": "T23_TCMAData_G4.xlsx",
+            "tcma_g8": "T23_TCMAData_G8.xlsx",
+            "codebook_g4": "T23_Codebook_G4.xlsx",
+            "codebook_g8": "T23_Codebook_G8.xlsx",
+            "almanacs_achievement_g4": "T23_Almanacs_Achievement_G4.zip",
+            "almanacs_achievement_g8": "T23_Almanacs_Achievement_G8.zip",
+            "almanacs_context_g4": "T23_Almanacs_Context_G4.zip",
+            "almanacs_context_g8": "T23_Almanacs_Context_G8.zip",
+            "item_info_g4": "T23_ItemInformation_G4.xlsx",
+            "item_info_g8": "T23_ItemInformation_G8.xlsx",
+            "irt_params_g4": "T23_IRTParameters_G4.xlsx",
+            "irt_params_g8": "T23_IRTParameters_G8.xlsx",
+            "context_questionnaires_g4": "T23_ContextQuestionnaires_G4.zip",
+            "context_questionnaires_g8": "T23_ContextQuestionnaires_G8.zip",
+            "national_adaptations_g4": "T23_NationalAdaptations_G4.zip",
+            "national_adaptations_g8": "T23_NationalAdaptations_G8.zip",
+            "derived_context_g4": "T23_DerivedContextVariables_G4.zip",
+            "derived_context_g8": "T23_DerivedContextVariables_G8.zip",
+        },
+        "heavy": {
+            "spss_g4": "T23_Data_SPSS_G4.zip",   # 991 Mo
+            "spss_g8": "T23_Data_SPSS_G8.zip",   # 949 Mo
+        },
+    },
     2019: {
         "base": "https://timss2019.org/international-database/downloads/",
-        "curriculum_g4": "T19_G4_Curriculum Data.zip",   # espace litteral confirme dans le HTML
-        "curriculum_g8": "T19_G8_Curriculum Data.zip",
+        "light": {
+            "item_info_g4": "T19_G4_Item Information.zip",
+            "item_info_g8": "T19_G8_Item Information.zip",
+            "irt_params_g4": "T19_G4_IRT Item Parameters.zip",
+            "irt_params_g8": "T19_G8_IRT Item Parameters.zip",
+            "item_pct_correct_g4": "T19_G4_Item Percent Correct Statistics.zip",
+            "item_pct_correct_g8": "T19_G8_Item Percent Correct Statistics.zip",
+            "curriculum_g4": "T19_G4_Curriculum Data.zip",
+            "curriculum_g8": "T19_G8_Curriculum Data.zip",
+            "codebooks_g4": "T19_G4_Codebooks.zip",
+            "codebooks_g8": "T19_G8_Codebooks.zip",
+            "almanacs_g4": "T19_G4_Almanacs.zip",
+            "almanacs_g8": "T19_G8_Almanacs.zip",
+            "tcma_g4": "T19_G4_TCMA Item Selection.zip",
+            "tcma_g8": "T19_G8_TCMA Item Selection.zip",
+        },
+        "heavy": {
+            "spss_g4": "T19_G4_SPSS Data.zip",   # 781 Mo
+            "spss_g8": "T19_G8_SPSS Data.zip",   # 703 Mo
+        },
     },
     2015: {
         "base": "https://timssandpirls.bc.edu/timss2015/international-database/downloads/",
-        "curriculum_g4": "T15_G4_CQ_Data.zip",            # pas d'espace pour 2015
-        "curriculum_g8": "T15_G8_CQ_Data.zip",
+        "light": {
+            "item_info_g4": "T15_G4_ItemInformation.zip",
+            "item_info_g8": "T15_G8_ItemInformation.zip",
+            "irt_params_g4": "T15_G4_IRTItemParameters.zip",
+            "irt_params_g8": "T15_G8_IRTItemParameters.zip",
+            "item_pct_correct_g4": "T15_G4_ItemPercentCorrectStatistics.zip",
+            "item_pct_correct_g8": "T15_G8_ItemPercentCorrectStatistics.zip",
+            "curriculum_g4": "T15_G4_CQ_Data.zip",
+            "curriculum_g8": "T15_G8_CQ_Data.zip",
+            "codebook_g4": "T15_G4_Codebook.zip",
+            "codebook_g8": "T15_G8_Codebook.zip",
+            "almanacs_g4": "T15_G4_Almanacs.zip",
+            "almanacs_g8": "T15_G8_Almanacs.zip",
+            "tcma_g4": "T15_G4_TCMAItemSelection.zip",
+            "tcma_g8": "T15_G8_TCMAItemSelection.zip",
+        },
+        "heavy": {
+            # Fichiers scindes en plusieurs parties sur le site source
+            "spss_g4_pt1": "T15_G4_SPSSData_pt1.zip",   # 161 Mo
+            "spss_g4_pt2": "T15_G4_SPSSData_pt2.zip",   # 144 Mo
+            "spss_g4_pt3": "T15_G4_SPSSData_pt3.zip",   # 144 Mo
+            "spss_g8_pt1": "T15_G8_SPSSData_pt1.zip",   # 148 Mo
+            "spss_g8_pt2": "T15_G8_SPSSData_pt2.zip",   # 129 Mo
+            "spss_g8_pt3": "T15_G8_SPSSData_pt3.zip",   # 134 Mo
+            "spss_g8_pt4": "T15_G8_SPSSData_pt4.zip",   # 130 Mo
+        },
     },
 }
 
-def download_timss_historical(cycles: list[int] = (2015, 2019)):
-    """Curriculum Questionnaire des cycles anterieurs a 2023 --
-    necessaire pour voir si le RANG de la France en couverture
-    curriculaire baisse dans le temps.
 
-    FORMAT: .zip contenant des fichiers SPSS (.sav), pas des .xlsx
-    -- necessite pyreadstat (pip install pyreadstat) pour les ouvrir."""
-    from urllib.parse import quote
-    print("\n=== TIMSS, cycles historiques (curriculum uniquement) ===")
+def download_timss(cycles: list[int], include_heavy: bool = False):
+    """Telecharge les fichiers TIMSS pour les cycles demandes.
+    Par defaut, fichiers legers uniquement (xlsx/zip de quelques
+    Mo). include_heavy=True ajoute les microdonnees completes
+    (plusieurs centaines de Mo a ~1 Go par grade et par cycle)."""
     for year in cycles:
-        if year not in TIMSS_HISTORICAL:
-            print(f"  {year}: URLs non verifiees, ignore")
+        if year not in TIMSS_CYCLES:
+            print(f"\nCycle {year} non reconnu (disponibles: {list(TIMSS_CYCLES)})")
             continue
-        info = TIMSS_HISTORICAL[year]
-        for key in ("curriculum_g4", "curriculum_g8"):
-            url = info["base"] + quote(info[key])
-            dest = DATA_DIR / f"timss{year}_{key}.zip"
+
+        info = TIMSS_CYCLES[year]
+        print(f"\n=== TIMSS {year} -- fichiers legers ===")
+        for key, filename in info["light"].items():
+            url = info["base"] + quote(filename)
+            suffix = Path(filename).suffix
+            dest = DATA_DIR / f"timss{year}_{key}{suffix}"
             _fetch(url, dest, timeout=60)
 
-
-def download_timss2023(include_heavy: bool = False):
-    """Par defaut, telecharge seulement les fichiers legers
-    (xlsx) -- curriculum, IRT, codebooks, item info. Passer
-    include_heavy=True pour ajouter les microdonnees SPSS
-    completes (~2 Go au total, deconseille sur connexion lente)."""
-    print("\n=== TIMSS 2023 (IEA, acces direct) ===")
-    for name, filename in TIMSS2023_FILES.items():
-        is_heavy = filename.endswith(".zip") and "Data_SPSS" in filename
-        if is_heavy and not include_heavy:
-            print(f"  SKIP  {name} (lourd, utiliser --timss-heavy pour l'inclure)")
-            continue
-        url = TIMSS2023_BASE + filename
-        dest = DATA_DIR / f"timss2023_{name}{Path(filename).suffix}"
-        _fetch(url, dest, timeout=120 if is_heavy else 30)
+        if include_heavy:
+            print(f"\n=== TIMSS {year} -- microdonnees completes ===")
+            for key, filename in info["heavy"].items():
+                url = info["base"] + quote(filename)
+                dest = DATA_DIR / f"timss{year}_{key}.zip"
+                _fetch(url, dest, timeout=300)
+        else:
+            n_heavy = len(info["heavy"])
+            print(f"  ({n_heavy} fichier(s) lourd(s) ignores pour {year} -- "
+                  f"utiliser --timss-heavy pour les inclure)")
 
 
 # =================================================================
-# 4. OECD SDMX API -- automatisable en principe, endpoint a
-#    reconfirmer (l'API OCDE a change de structure plusieurs fois
-#    ces dernieres annees -- VERIFIER l'URL avant usage)
+# 4. OECD SDMX API -- endpoint a reconfirmer avant usage, l'API a
+#    change de structure plusieurs fois
 # =================================================================
-# Point d'entree documente: https://data.oecd.org/api/sdmx-json-documentation/
 
 def download_oecd_sdmx(dataset_id: str, dest_name: str):
     print(f"\n=== OCDE SDMX: {dataset_id} ===")
     url = f"https://sdmx.oecd.org/public/rest/data/{dataset_id}/all?format=csvfile"
-    dest = DATA_DIR / f"oecd_{dest_name}.csv"
-    ok = _fetch(url, dest)
+    ok = _fetch(url, DATA_DIR / f"oecd_{dest_name}.csv", timeout=60)
     if not ok:
         print(
             "  -> si echec, l'URL SDMX a probablement change. "
-            "Verifier sur data.oecd.org/api ou utiliser le "
-            "OECD Data Explorer (data-explorer.oecd.org) manuellement."
+            "Verifier sur data.oecd.org/api ou data-explorer.oecd.org."
         )
 
 
 # =================================================================
-# 4. Sources necessitant telechargement manuel -- le script
-#    VERIFIE et INSTRUIT, n'automatise pas ce qui ne peut pas
-#    l'etre honnetement
+# 5. Sources a telechargement manuel -- le script VERIFIE et
+#    INSTRUIT, n'automatise pas ce qui ne peut pas l'etre honnetement
 # =================================================================
 
 MANUAL_SOURCES = {
-    "timss_advanced_2015": {
-        "expected_file": "timss_advanced_2015.sav",
-        "url": "https://timssandpirls.bc.edu/timss2015/international-database/",
-        "instructions": "9 pays, fichiers Advanced Mathematics/Physics.",
-    },
     "pisa_database": {
         "expected_file": "pisa_2000_2025.csv",
         "url": "https://www.oecd.org/en/data/datasets/pisa-datasets.html",
         "instructions": (
             "Telecharger via le PISA Data Explorer, tous cycles "
-            "2000-2025, scores maths/lecture/sciences + indices "
-            "DISCLIM."
+            "2000-2025, scores maths/lecture/sciences + indices DISCLIM."
         ),
     },
     "piaac_cycle1": {
@@ -267,13 +283,14 @@ def check_manual_sources():
 # =================================================================
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--all", action="store_true", help="Tout executer (automatisable + verification)")
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--all", action="store_true", help="Tout executer (automatisable, fichiers legers + verification)")
     parser.add_argument("--worldbank", action="store_true")
     parser.add_argument("--eurostat", action="store_true")
-    parser.add_argument("--timss", action="store_true", help="TIMSS 2023, fichiers legers (xlsx) seulement")
-    parser.add_argument("--timss-heavy", action="store_true", help="TIMSS 2023, inclut les microdonnees SPSS completes (~2 Go)")
-    parser.add_argument("--timss-historical", action="store_true", help="Curriculum Questionnaire 2015 et 2019 (zip SPSS/SAS) -- pour l'evolution du rang dans le temps")
+    parser.add_argument("--timss", nargs="*", type=int, metavar="ANNEE",
+                         help="TIMSS, cycles choisis parmi 2023 2019 2015 (ex: --timss 2023 2019). Sans argument: les trois.")
+    parser.add_argument("--timss-heavy", action="store_true",
+                         help="Avec --timss: inclut aussi les microdonnees completes (plusieurs centaines de Mo par cycle/grade)")
     parser.add_argument("--oecd", metavar="DATASET_ID", help="Tenter un dataset OCDE par son identifiant SDMX")
     parser.add_argument("--check", action="store_true", help="Verifier seulement les sources manuelles")
     args = parser.parse_args()
@@ -289,16 +306,14 @@ def main():
     if args.eurostat or args.all:
         download_eurostat()
 
-    if args.timss or args.timss_heavy or args.all:
-        download_timss2023(include_heavy=args.timss_heavy)
-
-    if args.timss_historical or args.all:
-        download_timss_historical()
+    if args.timss is not None or args.all:
+        cycles = args.timss if args.timss else list(TIMSS_CYCLES)
+        download_timss(cycles, include_heavy=args.timss_heavy)
 
     if args.oecd:
         download_oecd_sdmx(args.oecd, args.oecd.lower())
 
-    if not any([args.all, args.worldbank, args.eurostat, args.timss, args.timss_heavy, args.timss_historical, args.oecd, args.check]):
+    if not any([args.all, args.worldbank, args.eurostat, args.timss is not None, args.oecd, args.check]):
         parser.print_help()
 
 

@@ -52,6 +52,17 @@ ENCODING_2019 = None  # explicitement vide tant que non verifie
 
 ENCODINGS_BY_CYCLE = {2023: ENCODING_2023, 2019: ENCODING_2019, 2015: ENCODING_2015}
 
+# Valeurs admises dans une colonne de couverture, par cycle. Sert a
+# FILTRER les colonnes par leur contenu (pas par leur position):
+# une colonne dont une valeur sort de cet ensemble n'est pas un item
+# de couverture (ex: reponses Y/N, numeros de grade) et est ecartee.
+# 2019: seule la STRUCTURE {1,2,3} est exploitee ici, pas le sens.
+VALID_VALUES_BY_CYCLE = {
+    2023: set(ENCODING_2023),
+    2015: set(ENCODING_2015),
+    2019: {1, 2, 3},
+}
+
 
 @dataclass
 class CycleFile:
@@ -116,25 +127,35 @@ def extract_cycle(cf: CycleFile) -> pd.DataFrame:
     headers_code = [c.value for c in ws[3]]
 
     country_col = _find_country_col(headers_code)
-    domain_cols = _find_domain_columns(headers_r1, [c.value for c in ws[2]], headers_code)
+    candidate_cols = _find_domain_columns(headers_r1, [c.value for c in ws[2]], headers_code)
+
+    data_rows = [r for r in ws.iter_rows(min_row=4, values_only=True) if r[country_col]]
+
+    # FILTRE PAR CONTENU: ne garder que les colonnes dont TOUTES les
+    # valeurs non nulles appartiennent aux valeurs admises du cycle
+    valid = VALID_VALUES_BY_CYCLE[cf.cycle]
+    domain_cols: dict[str, list[int]] = {}
+    for domain_name, cols in candidate_cols.items():
+        kept = []
+        for c in cols:
+            vals = {r[c] for r in data_rows if c < len(r) and r[c] is not None}
+            if vals and vals <= valid:
+                kept.append(c)
+        domain_cols[domain_name] = kept
+        print(f"  [{cf.cycle}] {domain_name}: {len(kept)} items retenus "
+              f"sur {len(cols)} colonnes candidates")
 
     encoding = ENCODINGS_BY_CYCLE.get(cf.cycle)
 
     rows = []
-    for row in ws.iter_rows(min_row=4, values_only=True):
+    for row in data_rows:
         country = row[country_col]
-        if not country:
-            continue
         for domain_name, cols in domain_cols.items():
             raw_vals = [row[c] for c in cols if c < len(row) and row[c] is not None]
             if encoding is not None:
-                try:
-                    numeric_vals = [encoding[v] for v in raw_vals]
-                except KeyError as e:
-                    numeric_vals = []
-                    print(f"  ATTENTION valeur non mappee ({cf.cycle}, {domain_name}): {e}")
+                numeric_vals = [encoding[v] for v in raw_vals]  # sur: filtre amont
             else:
-                numeric_vals = []  # cycle sans encodage confirme (2019)
+                numeric_vals = []  # 2019: encodage non resolu (cf. TODO)
 
             rows.append(dict(
                 cycle=cf.cycle,
@@ -176,6 +197,13 @@ if __name__ == "__main__":
         index=["country", "domain"], columns="cycle", values="mean_coverage"
     )
     print(pivot.round(3).to_string())
+
+    print("\nNombre d'items retenus par cycle (comparabilite: les moyennes de "
+          "domaine ne sont comparables entre cycles que si ces nombres sont proches):")
+    n_pivot = targets.pivot_table(
+        index=["country", "domain"], columns="cycle", values="n_items", aggfunc="first"
+    )
+    print(n_pivot.to_string())
 
     n_2019_missing = full[(full["cycle"] == 2019) & (full["mean_coverage"].isna())].shape[0]
     print(f"\nNOTE: {n_2019_missing} lignes 2019 sans valeur numerique -- "

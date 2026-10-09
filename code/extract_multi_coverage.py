@@ -1,211 +1,310 @@
 """
 Projet Education -- Extraction multi-cycle de la couverture curriculaire
 ===========================================================================
-Construit sur ce qui a ete verifie reellement (pas suppose) sur les
-3 cycles G4 (2015, 2019, 2023), tous disponibles pour France/
-Allemagne/Pologne.
+Version 3. Corrige les defauts observes sur les vraies donnees (2015):
+  - domaines detectes par LETTRE DE CODE (A/B/C), pas par libelle
+    d'en-tete (en 2015 les en-tetes de domaine sont generiques)
+  - valeurs "manquantes" (7/8/9, hypothese IEA a confirmer) ignorees
+    au lieu de faire rejeter la colonne entiere
+  - encodage 2019 PROVISOIRE (1->1.0, 2->0.5, 3->0.0): 1 et 3 soutenus
+    par un croisement empirique 2019/2023 sur le Grade 8 (n=117 et
+    n=22), 2 deduit par elimination (n=5, non valide). A reverifier
+    sur le Grade 4 avec validate_numeric_encoding().
+  - comparaison inter-cycles sur ITEMS APPARIES (libelles proches),
+    car les listes d'items different d'un cycle a l'autre.
 
-PRINCIPE CLE: les codes de question changent de cycle en cycle
-(MA408 en 2015/2023, MA407 en 2019, pour les MEMES domaines) --
-la correspondance se fait par LIBELLE de domaine (texte de la
-ligne 1), jamais par code.
-
-ENCODAGE: 3 systemes differents selon le cycle, harmonises ici.
-2019 reste INCOMPLET tant que le codebook n'a pas ete inspecte
-(TODO explicite ci-dessous, pas une supposition).
+STATUT DE TEST: teste par moi sur 2023 G4 (non-regression) et sur
+2019/2023 G8 (mecanique). NON teste sur 2015 G4 ni 2019 G4 (fichiers
+absents de mon environnement) -- les diagnostics imprimes servent a
+verifier ces deux cycles sur ta machine.
 """
 
 from __future__ import annotations
+import re
 import zipfile
 import tempfile
+import difflib
+import collections
+from dataclasses import dataclass, field
 from pathlib import Path
-from dataclasses import dataclass
 import openpyxl
 import pandas as pd
 
-
-DOMAIN_PATTERNS = {
-    "Nombre": ["number"],
-    "Mesure_Geometrie": ["measurement and geometry"],
-    "Donnees": ["data display", "data and chance", "data"],
-}
-
-# Encodage confirme par cycle, a partir des valeurs reellement
-# observees (inspect_timss_file.py) -- PAS suppose entre cycles
 ENCODING_2023 = {
     "All or almost all students": 1.0,
     "Only the more advanced students": 0.5,
     "Not included in the curriculum through Grade 4": 0.0,
+    "Not included in the curriculum through Grade 8": 0.0,
 }
 ENCODING_2015 = {
     "Topics Taught to All or Almost All Students": 1.0,
     "Topics Taught to Only the More Able Students (Top Track)": 0.5,
     "Not Included in the Curriculum Through Grade 4": 0.0,
+    "Not Included in the Curriculum Through Grade 8": 0.0,
 }
-# TODO -- NON RESOLU: 2019 utilise des codes numeriques {1,2,3} sans
-# legende visible dans le fichier de donnees lui-meme. Inspecter
-# data/raw/timss2019_codebooks_g4.zip pour la correspondance exacte
-# avant d'utiliser ENCODING_2019 -- NE PAS SUPPOSER que 1=1.0, etc.
-# (l'ordre pourrait tres bien etre invers par rapport aux deux
-# autres cycles).
-ENCODING_2019 = None  # explicitement vide tant que non verifie
+ENCODING_2019_PROVISIONAL = {1: 1.0, 2: 0.5, 3: 0.0}
 
-ENCODINGS_BY_CYCLE = {2023: ENCODING_2023, 2019: ENCODING_2019, 2015: ENCODING_2015}
-
-# Valeurs admises dans une colonne de couverture, par cycle. Sert a
-# FILTRER les colonnes par leur contenu (pas par leur position):
-# une colonne dont une valeur sort de cet ensemble n'est pas un item
-# de couverture (ex: reponses Y/N, numeros de grade) et est ecartee.
-# 2019: seule la STRUCTURE {1,2,3} est exploitee ici, pas le sens.
-VALID_VALUES_BY_CYCLE = {
-    2023: set(ENCODING_2023),
-    2015: set(ENCODING_2015),
-    2019: {1, 2, 3},
+ENCODING_BY_CYCLE = {
+    2023: ENCODING_2023,
+    2015: ENCODING_2015,
+    2019: ENCODING_2019_PROVISIONAL,
 }
+PROVISIONAL_CYCLES = {2019}
+
+# Hypothese (convention IEA), A CONFIRMER dans la documentation:
+# 7 = non applicable, 8 = non administre, 9 = omis/invalide
+MISSING_CODES = {7, 8, 9, 97, 98, 99}
+
+G4_MATH_LETTERS = {"A": "Nombre", "B": "Mesure_Geometrie", "C": "Donnees"}
+G8_MATH_LETTERS = {"A": "Nombre", "B": "Algebre", "C": "Geometrie", "D": "Donnees"}
+
+MIN_VALID_CELLS = 5
+MIN_VALID_SHARE = 0.9
 
 
 @dataclass
 class CycleFile:
     cycle: int
     path: Path
-    sheet_name: str  # ex: "T23_G4_Mathematics Module"
+    sheet_name: str
+    letters: dict = field(default_factory=lambda: dict(G4_MATH_LETTERS))
+    prefix: str = "MA"
 
 
-def _open_module_sheet(cf: CycleFile) -> openpyxl.worksheet.worksheet.Worksheet:
+@dataclass
+class Item:
+    cycle: int
+    code: str
+    domain: str
+    label: str
+    values: dict  # pays -> valeur numerique encodee (None si manquant)
+    n_valid: int
+    n_missing: int
+    n_other: int
+    other_examples: set
+    kept: bool
+
+
+def _open_sheet(cf: CycleFile):
     path = cf.path
     if path.suffix == ".zip":
         tmpdir = Path(tempfile.mkdtemp())
         with zipfile.ZipFile(path) as z:
-            xlsx_names = [n for n in z.namelist() if n.lower().endswith(".xlsx")]
-            if len(xlsx_names) != 1:
-                raise ValueError(f"{path}: attendu 1 xlsx, trouve {xlsx_names}")
-            z.extract(xlsx_names[0], tmpdir)
-            path = tmpdir / xlsx_names[0]
-    wb = openpyxl.load_workbook(path, data_only=True)
-    return wb[cf.sheet_name]
+            xlsx = [n for n in z.namelist() if n.lower().endswith(".xlsx")]
+            if len(xlsx) != 1:
+                raise ValueError(f"{path}: attendu 1 xlsx, trouve {xlsx}")
+            z.extract(xlsx[0], tmpdir)
+            path = tmpdir / xlsx[0]
+    return openpyxl.load_workbook(path, data_only=True)[cf.sheet_name]
 
 
-def _find_country_col(headers_code: list) -> int:
-    for i, code in enumerate(headers_code):
-        if code == "Country":
-            return i
-    raise ValueError("Colonne 'Country' introuvable (ligne 3)")
+def read_items(cf: CycleFile) -> list[Item]:
+    ws = _open_sheet(cf)
+    r1 = [c.value for c in ws[1]]
+    r2 = [c.value for c in ws[2]]
+    r3 = [c.value for c in ws[3]]
+    country_col = r3.index("Country")
+    rows = [r for r in ws.iter_rows(min_row=4, values_only=True) if r[country_col]]
 
+    pat = re.compile(rf"^{cf.prefix}(\d{{3}})([A-Z])([A-Z])$")
 
-def _find_domain_columns(headers_r1: list, headers_r2: list, headers_code: list) -> dict[str, list[int]]:
-    """Associe chaque domaine (par libelle, pas par code) a la
-    liste des colonnes qui lui appartiennent -- toutes les colonnes
-    entre un en-tete de domaine et le suivant, en excluant les
-    colonnes de commentaires (suffixe T/TA/TB dans le code)."""
-    domain_starts: list[tuple[int, str]] = []
-    for i, q in enumerate(headers_r1):
-        if not q:
+    # Numeros de question dont au moins une colonne a un en-tete "proportion"
+    coverage_q = set()
+    for j, code in enumerate(r3):
+        m = pat.match(str(code)) if code else None
+        if m and r1[j] and "proportion" in str(r1[j]).lower():
+            coverage_q.add(m.group(1))
+
+    encoding = ENCODING_BY_CYCLE[cf.cycle]
+    items = []
+    for j, code in enumerate(r3):
+        m = pat.match(str(code)) if code else None
+        if not m or m.group(1) not in coverage_q or m.group(3) == "T":
             continue
-        q_lower = str(q).lower()
-        for domain_name, patterns in DOMAIN_PATTERNS.items():
-            if any(p in q_lower for p in patterns) and "proportion" in q_lower:
-                domain_starts.append((i, domain_name))
-                break
+        domain = cf.letters.get(m.group(2))
+        if domain is None:
+            continue
+        label = str(r2[j]).strip() if r2[j] else str(code)
 
-    if not domain_starts:
-        return {}
-
-    domain_cols: dict[str, list[int]] = {name: [] for _, name in domain_starts}
-    sorted_starts = sorted(domain_starts, key=lambda x: x[0])
-    for idx, (start_col, domain_name) in enumerate(sorted_starts):
-        end_col = sorted_starts[idx + 1][0] if idx + 1 < len(sorted_starts) else len(headers_code)
-        for col in range(start_col, end_col):
-            code = headers_code[col]
-            if code and not str(code).endswith(("T", "TA", "TB", "CP", "EP")):
-                domain_cols[domain_name].append(col)
-    return domain_cols
-
-
-def extract_cycle(cf: CycleFile) -> pd.DataFrame:
-    ws = _open_module_sheet(cf)
-    headers_r1 = [c.value for c in ws[1]]
-    headers_code = [c.value for c in ws[3]]
-
-    country_col = _find_country_col(headers_code)
-    candidate_cols = _find_domain_columns(headers_r1, [c.value for c in ws[2]], headers_code)
-
-    data_rows = [r for r in ws.iter_rows(min_row=4, values_only=True) if r[country_col]]
-
-    # FILTRE PAR CONTENU: ne garder que les colonnes dont TOUTES les
-    # valeurs non nulles appartiennent aux valeurs admises du cycle
-    valid = VALID_VALUES_BY_CYCLE[cf.cycle]
-    domain_cols: dict[str, list[int]] = {}
-    for domain_name, cols in candidate_cols.items():
-        kept = []
-        for c in cols:
-            vals = {r[c] for r in data_rows if c < len(r) and r[c] is not None}
-            if vals and vals <= valid:
-                kept.append(c)
-        domain_cols[domain_name] = kept
-        print(f"  [{cf.cycle}] {domain_name}: {len(kept)} items retenus "
-              f"sur {len(cols)} colonnes candidates")
-
-    encoding = ENCODINGS_BY_CYCLE.get(cf.cycle)
-
-    rows = []
-    for row in data_rows:
-        country = row[country_col]
-        for domain_name, cols in domain_cols.items():
-            raw_vals = [row[c] for c in cols if c < len(row) and row[c] is not None]
-            if encoding is not None:
-                numeric_vals = [encoding[v] for v in raw_vals]  # sur: filtre amont
+        values, n_valid, n_missing, n_other, other_ex = {}, 0, 0, 0, set()
+        for r in rows:
+            raw = r[j] if j < len(r) else None
+            if raw is None:
+                continue
+            country = r[country_col]
+            if raw in encoding:
+                values[country] = encoding[raw]
+                n_valid += 1
+            elif isinstance(raw, (int, float)) and int(raw) in MISSING_CODES:
+                values[country] = None
+                n_missing += 1
             else:
-                numeric_vals = []  # 2019: encodage non resolu (cf. TODO)
+                n_other += 1
+                if len(other_ex) < 3:
+                    other_ex.add(raw)
+        share = n_valid / (n_valid + n_other) if (n_valid + n_other) else 0.0
+        kept = n_valid >= MIN_VALID_CELLS and share >= MIN_VALID_SHARE
+        items.append(Item(cf.cycle, code, domain, label, values,
+                          n_valid, n_missing, n_other, other_ex, kept))
+    return items
 
-            rows.append(dict(
-                cycle=cf.cycle,
-                country=country,
-                domain=domain_name,
-                n_items=len(raw_vals),
-                raw_values=raw_vals,
-                mean_coverage=(sum(numeric_vals) / len(numeric_vals)) if numeric_vals else None,
-            ))
-    return pd.DataFrame(rows)
+
+def print_diagnostics(items: list[Item]) -> None:
+    print(f"\n  Diagnostic des items ({items[0].cycle if items else '?'}):")
+    print(f"  {'code':<9}{'domaine':<18}{'valid':>6}{'manq.':>6}{'autre':>6}  garde  libelle")
+    for it in items:
+        flag = "oui" if it.kept else "NON"
+        extra = f"  autres={sorted(map(str, it.other_examples))}" if it.n_other else ""
+        print(f"  {it.code:<9}{it.domain:<18}{it.n_valid:>6}{it.n_missing:>6}{it.n_other:>6}  {flag:<5}  "
+              f"{it.label[:40]}{extra}")
+
+
+def domain_table(items: list[Item]) -> pd.DataFrame:
+    rows = []
+    for it in items:
+        if not it.kept:
+            continue
+        for country, v in it.values.items():
+            if v is not None:
+                rows.append(dict(cycle=it.cycle, country=country, domain=it.domain,
+                                 code=it.code, value=v))
+    df = pd.DataFrame(rows)
+    return (df.groupby(["cycle", "country", "domain"])["value"]
+              .agg(mean_coverage="mean", n_items="count").reset_index())
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"\W+", " ", re.sub(r"^[a-z]\)\s*", "", s.lower().strip())).strip()
+
+
+def match_items(a: list[Item], b: list[Item], threshold: float = 0.75):
+    """Paires d'items (a_i, b_j) mutuellement les plus proches par
+    libelle, similarite >= threshold. Uniquement items retenus."""
+    a = [x for x in a if x.kept]; b = [x for x in b if x.kept]
+    if not a or not b:
+        return []
+    sim = lambda x, y: difflib.SequenceMatcher(None, _norm(x.label), _norm(y.label)).ratio()
+    best_ab = {x.code: max(b, key=lambda y: sim(x, y)) for x in a}
+    best_ba = {y.code: max(a, key=lambda x: sim(x, y)) for y in b}
+    pairs = []
+    for x in a:
+        y = best_ab[x.code]
+        if best_ba[y.code].code == x.code and sim(x, y) >= threshold:
+            pairs.append((x, y, sim(x, y)))
+    return pairs
+
+
+def validate_numeric_encoding(numeric_cf: CycleFile, text_cf: CycleFile) -> None:
+    """Croise le code numerique (ex: 2019) avec le texte (ex: 2023)
+    sur les sujets apparies et les memes pays. Les items numeriques
+    sont lus SANS filtre d'encodage pour voir les codes bruts."""
+    import copy
+    raw_cf = copy.copy(numeric_cf)
+    raw_ws = _open_sheet(raw_cf)
+    r1 = [c.value for c in raw_ws[1]]; r2 = [c.value for c in raw_ws[2]]
+    r3 = [c.value for c in raw_ws[3]]
+    cc = r3.index("Country")
+    rows = [r for r in raw_ws.iter_rows(min_row=4, values_only=True) if r[cc]]
+    pat = re.compile(rf"^{numeric_cf.prefix}(\d{{3}})([A-Z])([A-Z])$")
+
+    raw_items = {}
+    for j, code in enumerate(r3):
+        m = pat.match(str(code)) if code else None
+        if m and m.group(3) != "T" and m.group(2) in numeric_cf.letters and r2[j]:
+            raw_items[code] = (str(r2[j]).strip(), {r[cc]: r[j] for r in rows if j < len(r) and r[j] is not None})
+
+    text_items = [i for i in read_items(text_cf) if i.kept]
+    sim = lambda l1, l2: difflib.SequenceMatcher(None, _norm(l1), _norm(l2)).ratio()
+    cross = collections.Counter(); n_pairs = 0
+    for code, (lab, vals) in raw_items.items():
+        best = max(text_items, key=lambda t: sim(lab, t.label), default=None)
+        if best is None or sim(lab, best.label) < 0.75:
+            continue
+        back = max(raw_items, key=lambda c: sim(raw_items[c][0], best.label))
+        if back != code:
+            continue
+        n_pairs += 1
+        inv = {v: k for k, v in text_cf_encoding(text_cf).items()}
+        for country, v in vals.items():
+            tv = best.values.get(country)
+            if tv is not None:
+                cross[(v, tv)] += 1
+    print(f"\n  Validation croisee de l'encodage numerique: {n_pairs} sujets apparies")
+    for (code, val), n in sorted(cross.items(), key=lambda t: (str(t[0][0]), -t[1])):
+        print(f"    code {code!r:>4}  ->  valeur texte encodee {val}   n={n}")
+    print("  Lecture: si code 1 -> 1.0 domine et code 3 -> 0.0 domine, l'encodage "
+          "provisoire est soutenu; code 2 reste a verifier tant que n est faible.")
+
+
+def text_cf_encoding(cf: CycleFile) -> dict:
+    return ENCODING_BY_CYCLE[cf.cycle]
+
+
+def matched_trend(item_sets: dict[int, list[Item]], countries: list[str]) -> None:
+    """Tendance sur les items presents (apparies) dans TOUS les cycles
+    fournis -- comparaison a liste d'items constante."""
+    cycles = sorted(item_sets)
+    if len(cycles) < 2:
+        return
+    base = cycles[-1]
+    groups = {it.code: {base: it} for it in item_sets[base] if it.kept}
+    for c in cycles[:-1]:
+        pairs = match_items(item_sets[c], item_sets[base])
+        mapped = {y.code: x for x, y, _ in pairs}
+        for code in list(groups):
+            if code in mapped:
+                groups[code][c] = mapped[code]
+            else:
+                del groups[code]
+    full = [g for g in groups.values() if len(g) == len(cycles)]
+    print(f"\n  Items apparies presents dans les {len(cycles)} cycles: {len(full)}")
+    if not full:
+        return
+    for it in full[:6]:
+        print("   -", it[base].label[:60])
+    out = []
+    for country in countries:
+        row = {"country": country}
+        for c in cycles:
+            vals = [g[c].values.get(country) for g in full]
+            vals = [v for v in vals if v is not None]
+            row[c] = round(sum(vals) / len(vals), 3) if vals else None
+        out.append(row)
+    print(pd.DataFrame(out).to_string(index=False))
 
 
 if __name__ == "__main__":
-    DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
-
-    cycle_files = [
-        CycleFile(2015, DATA_DIR / "timss2015_curriculum_g4.zip", "T15_G4_Mathematics Module"),
-        CycleFile(2019, DATA_DIR / "timss2019_curriculum_g4.zip", "T19_G4_Mathematics Module"),
-        CycleFile(2023, DATA_DIR / "timss2023_curriculum_g4.xlsx", "T23_G4_Mathematics Module"),
+    DATA = Path(__file__).resolve().parent.parent / "data" / "raw"
+    files = [
+        CycleFile(2015, DATA / "timss2015_curriculum_g4.zip", "T15_G4_Mathematics Module"),
+        CycleFile(2019, DATA / "timss2019_curriculum_g4.zip", "T19_G4_Mathematics Module"),
+        CycleFile(2023, DATA / "timss2023_curriculum_g4.xlsx", "T23_G4_Mathematics Module"),
     ]
-
-    all_data = []
-    for cf in cycle_files:
+    items_by_cycle, tables = {}, []
+    for cf in files:
         if not cf.path.exists():
-            print(f"MANQUANT: {cf.path} -- ignore")
+            print(f"MANQUANT: {cf.path}")
             continue
-        print(f"Extraction cycle {cf.cycle}...")
-        df = extract_cycle(cf)
-        all_data.append(df)
+        print(f"\n=== Cycle {cf.cycle} (G4, maths) ===")
+        its = read_items(cf)
+        print_diagnostics(its)
+        items_by_cycle[cf.cycle] = its
+        tables.append(domain_table(its))
 
-    full = pd.concat(all_data, ignore_index=True)
-    print(f"\nTotal: {len(full)} lignes ({full['cycle'].nunique()} cycles)")
+    full = pd.concat(tables, ignore_index=True)
+    targets = full[full["country"].isin(["France", "Germany", "Poland"])]
+    print("\n" + "=" * 70)
+    print("Moyennes par domaine (France/Allemagne/Pologne) -- 2019 PROVISOIRE")
+    print("ATTENTION: n_items differe selon les cycles, voir ci-dessous")
+    print("=" * 70)
+    print(targets.pivot_table(index=["country", "domain"], columns="cycle", values="mean_coverage").round(3).to_string())
+    print("\nItems retenus par cycle:")
+    print(targets[targets["country"] == "France"].pivot_table(index="domain", columns="cycle", values="n_items").to_string())
+
+    if 2019 in items_by_cycle and 2023 in items_by_cycle:
+        validate_numeric_encoding(files[1], files[2])
 
     print("\n" + "=" * 70)
-    print("FRANCE / ALLEMAGNE / POLOGNE -- evolution 2015-2023 (Grade 4, maths)")
+    print("TENDANCE SUR ITEMS APPARIES (liste constante entre cycles)")
     print("=" * 70)
-    targets = full[full["country"].isin(["France", "Germany", "Poland"])]
-    pivot = targets.pivot_table(
-        index=["country", "domain"], columns="cycle", values="mean_coverage"
-    )
-    print(pivot.round(3).to_string())
-
-    print("\nNombre d'items retenus par cycle (comparabilite: les moyennes de "
-          "domaine ne sont comparables entre cycles que si ces nombres sont proches):")
-    n_pivot = targets.pivot_table(
-        index=["country", "domain"], columns="cycle", values="n_items", aggfunc="first"
-    )
-    print(n_pivot.to_string())
-
-    n_2019_missing = full[(full["cycle"] == 2019) & (full["mean_coverage"].isna())].shape[0]
-    print(f"\nNOTE: {n_2019_missing} lignes 2019 sans valeur numerique -- "
-          f"encodage 2019 non resolu (cf. TODO dans le code), "
-          f"a completer apres inspection du codebook 2019.")
+    matched_trend(items_by_cycle, ["France", "Germany", "Poland"])

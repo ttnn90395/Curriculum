@@ -266,6 +266,69 @@ def pairwise_trends(items_by_cycle: dict[int, list[Item]], pairs: list[tuple[int
                             "diff": round(sum(b) / len(b) - sum(a) / len(a), 3)})
         if out:
             print(pd.DataFrame(out).to_string(index=False))
+        # Detail item par item: T=tous ou presque, A=plus avances, N=non inclus
+        sym = {1.0: "T", 0.5: "A", 0.0: "N", None: "?"}
+        detail = []
+        for x, y, _ in ps:
+            row = {"item (cycle 1)": x.label[:46]}
+            for country in countries:
+                row[country] = f"{sym[x.values.get(country)]}->{sym[y.values.get(country)]}"
+            detail.append(row)
+        print("  Detail item par item (T=tous, A=plus avances, N=non inclus):")
+        print(pd.DataFrame(detail).to_string(index=False))
+
+
+def grade_grid_check(cf: CycleFile, items: list[Item], limit_grade: int) -> None:
+    """Controle INTERNE de l'encodage: croise la valeur de couverture
+    avec la grille 'a quels grades le sujet est principalement
+    enseigne' du meme item (colonnes <code>1 .. <code>12, marquees
+    Yes/Y). Ne depend d'aucun autre cycle.
+    limit_grade: 4 pour le Grade 4, 8 pour le Grade 8."""
+    ws = _open_sheet(cf)
+    r3 = [c.value for c in ws[3]]
+    idx = {c: j for j, c in enumerate(r3) if c}
+    cc = idx["Country"]
+    rows = {r[cc]: r for r in ws.iter_rows(min_row=4, values_only=True) if r[cc]}
+    yes = {"yes", "y", "x"}
+    seen_vals = collections.Counter()
+    cross = collections.defaultdict(collections.Counter)
+    n_items = 0
+    for it in items:
+        if not it.kept or f"{it.code}1" not in idx or f"{it.code}12" not in idx:
+            continue
+        n_items += 1
+        for country, v in it.values.items():
+            row = rows.get(country)
+            if v is None or row is None:
+                continue
+            marked = []
+            for g in range(1, 13):
+                j = idx[f"{it.code}{g}"]
+                cell = row[j] if j < len(row) else None
+                seen_vals[cell] += 1
+                if isinstance(cell, str) and cell.strip().lower() in yes:
+                    marked.append(g)
+            if not marked:
+                cat = "aucun grade renseigne"
+            elif min(marked) <= limit_grade:
+                cat = f"enseigne a un grade <= {limit_grade}"
+            else:
+                cat = f"enseigne seulement apres G{limit_grade}"
+            cross[v][cat] += 1
+    print(f"\n  Controle interne par grille de grades ({cf.cycle}, limite G{limit_grade}): "
+          f"{n_items} items avec grille")
+    if not n_items:
+        print("     aucune grille trouvee -- controle impossible pour ce cycle")
+        return
+    print(f"     valeurs de cellules rencontrees dans la grille: "
+          f"{[(k, n) for k, n in seen_vals.most_common(5)]}")
+    names = {1.0: "tous (1.0)", 0.5: "plus avances (0.5)", 0.0: "non inclus (0.0)"}
+    for v in (1.0, 0.5, 0.0):
+        tot = sum(cross[v].values())
+        if not tot:
+            continue
+        parts = ", ".join(f"{n / tot:.0%} {cat}" for cat, n in cross[v].most_common())
+        print(f"     valeur encodee {names[v]} (n={tot}): {parts}")
 
 
 def dump_labels(items_by_cycle: dict[int, list[Item]], outpath: Path) -> None:
@@ -319,6 +382,13 @@ if __name__ == "__main__":
         validate_numeric_encoding(files[2019], files[2015])
     if 2019 in files and 2023 in items_by_cycle and 2019 in items_by_cycle:
         validate_numeric_encoding(files[2019], files[2023])
+
+    print("\n" + "=" * 70)
+    print("CONTROLE INTERNE DE L'ENCODAGE (grille des grades, par cycle)")
+    print("=" * 70)
+    for year, cf in files.items():
+        if year in items_by_cycle:
+            grade_grid_check(cf, items_by_cycle[year], limit_grade=4)
 
     print("\n" + "=" * 70)
     print("TENDANCES SUR ITEMS APPARIES, PAR PAIRE DE CYCLES")

@@ -194,28 +194,27 @@ def match_items(a: list[Item], b: list[Item], threshold: float = 0.75):
     return pairs
 
 
-def validate_numeric_encoding(numeric_cf: CycleFile, text_cf: CycleFile) -> None:
-    """Croise le code numerique (ex: 2019) avec le texte (ex: 2023)
-    sur les sujets apparies et les memes pays. Les items numeriques
-    sont lus SANS filtre d'encodage pour voir les codes bruts."""
-    import copy
-    raw_cf = copy.copy(numeric_cf)
-    raw_ws = _open_sheet(raw_cf)
-    r1 = [c.value for c in raw_ws[1]]; r2 = [c.value for c in raw_ws[2]]
-    r3 = [c.value for c in raw_ws[3]]
+def validate_numeric_encoding(numeric_cf: CycleFile, text_cf: CycleFile) -> collections.Counter:
+    """Croise le code numerique (ex: 2019) avec le texte encode d'un
+    autre cycle (2015 ou 2023) sur les sujets apparies et les memes
+    pays. Items numeriques lus SANS filtre d'encodage (codes bruts)."""
+    ws = _open_sheet(numeric_cf)
+    r2 = [c.value for c in ws[2]]
+    r3 = [c.value for c in ws[3]]
     cc = r3.index("Country")
-    rows = [r for r in raw_ws.iter_rows(min_row=4, values_only=True) if r[cc]]
+    rows = [r for r in ws.iter_rows(min_row=4, values_only=True) if r[cc]]
     pat = re.compile(rf"^{numeric_cf.prefix}(\d{{3}})([A-Z])([A-Z])$")
 
     raw_items = {}
     for j, code in enumerate(r3):
         m = pat.match(str(code)) if code else None
         if m and m.group(3) != "T" and m.group(2) in numeric_cf.letters and r2[j]:
-            raw_items[code] = (str(r2[j]).strip(), {r[cc]: r[j] for r in rows if j < len(r) and r[j] is not None})
+            raw_items[code] = (str(r2[j]).strip(),
+                               {r[cc]: r[j] for r in rows if j < len(r) and r[j] is not None})
 
     text_items = [i for i in read_items(text_cf) if i.kept]
     sim = lambda l1, l2: difflib.SequenceMatcher(None, _norm(l1), _norm(l2)).ratio()
-    cross = collections.Counter(); n_pairs = 0
+    cross, matched = collections.Counter(), []
     for code, (lab, vals) in raw_items.items():
         best = max(text_items, key=lambda t: sim(lab, t.label), default=None)
         if best is None or sim(lab, best.label) < 0.75:
@@ -223,88 +222,106 @@ def validate_numeric_encoding(numeric_cf: CycleFile, text_cf: CycleFile) -> None
         back = max(raw_items, key=lambda c: sim(raw_items[c][0], best.label))
         if back != code:
             continue
-        n_pairs += 1
-        inv = {v: k for k, v in text_cf_encoding(text_cf).items()}
+        matched.append((lab, best.label))
         for country, v in vals.items():
             tv = best.values.get(country)
             if tv is not None:
                 cross[(v, tv)] += 1
-    print(f"\n  Validation croisee de l'encodage numerique: {n_pairs} sujets apparies")
-    for (code, val), n in sorted(cross.items(), key=lambda t: (str(t[0][0]), -t[1])):
-        print(f"    code {code!r:>4}  ->  valeur texte encodee {val}   n={n}")
-    print("  Lecture: si code 1 -> 1.0 domine et code 3 -> 0.0 domine, l'encodage "
-          "provisoire est soutenu; code 2 reste a verifier tant que n est faible.")
+
+    print(f"\n  Validation: codes {numeric_cf.cycle} (numeriques) vs texte {text_cf.cycle}: "
+          f"{len(matched)} sujets apparies, {sum(cross.values())} cellules")
+    for a, b in matched[:12]:
+        print(f"     {a[:48]}  ||  {b[:48]}")
+    for code in sorted({c for c, _ in cross}, key=str):
+        tot = sum(n for (c, _), n in cross.items() if c == code)
+        parts = ", ".join(f"{v}: {sum(n for (c, vv), n in cross.items() if c == code and vv == v) / tot:.0%}"
+                          for v in sorted({v for (c, v) in cross if c == code}, reverse=True))
+        print(f"     code {code!r} (n={tot}) -> valeur texte 2e cycle: {parts}")
+    return cross
 
 
-def text_cf_encoding(cf: CycleFile) -> dict:
-    return ENCODING_BY_CYCLE[cf.cycle]
+def pairwise_trends(items_by_cycle: dict[int, list[Item]], pairs: list[tuple[int, int]],
+                    countries: list[str]) -> None:
+    """Pour chaque paire de cycles: items apparies (libelles proches),
+    puis moyenne par pays sur CES items uniquement, aux deux dates."""
+    for c1, c2 in pairs:
+        if c1 not in items_by_cycle or c2 not in items_by_cycle:
+            continue
+        ps = match_items(items_by_cycle[c1], items_by_cycle[c2])
+        print(f"\n  {c1} -> {c2}: {len(ps)} items apparies"
+              + ("  (2019 PROVISOIRE)" if {c1, c2} & PROVISIONAL_CYCLES else ""))
+        for x, y, s in ps:
+            print(f"     sim={s:.2f} | {x.label[:50]} || {y.label[:50]}")
+        out = []
+        for country in countries:
+            a, b = [], []
+            for x, y, _ in ps:
+                vx, vy = x.values.get(country), y.values.get(country)
+                if vx is not None and vy is not None:
+                    a.append(vx); b.append(vy)
+            if a:
+                out.append({"pays": country, "n_items": len(a),
+                            str(c1): round(sum(a) / len(a), 3),
+                            str(c2): round(sum(b) / len(b), 3),
+                            "diff": round(sum(b) / len(b) - sum(a) / len(a), 3)})
+        if out:
+            print(pd.DataFrame(out).to_string(index=False))
 
 
-def matched_trend(item_sets: dict[int, list[Item]], countries: list[str]) -> None:
-    """Tendance sur les items presents (apparies) dans TOUS les cycles
-    fournis -- comparaison a liste d'items constante."""
-    cycles = sorted(item_sets)
-    if len(cycles) < 2:
-        return
-    base = cycles[-1]
-    groups = {it.code: {base: it} for it in item_sets[base] if it.kept}
-    for c in cycles[:-1]:
-        pairs = match_items(item_sets[c], item_sets[base])
-        mapped = {y.code: x for x, y, _ in pairs}
-        for code in list(groups):
-            if code in mapped:
-                groups[code][c] = mapped[code]
-            else:
-                del groups[code]
-    full = [g for g in groups.values() if len(g) == len(cycles)]
-    print(f"\n  Items apparies presents dans les {len(cycles)} cycles: {len(full)}")
-    if not full:
-        return
-    for it in full[:6]:
-        print("   -", it[base].label[:60])
-    out = []
-    for country in countries:
-        row = {"country": country}
-        for c in cycles:
-            vals = [g[c].values.get(country) for g in full]
-            vals = [v for v in vals if v is not None]
-            row[c] = round(sum(vals) / len(vals), 3) if vals else None
-        out.append(row)
-    print(pd.DataFrame(out).to_string(index=False))
+def dump_labels(items_by_cycle: dict[int, list[Item]], outpath: Path) -> None:
+    """Exporte les libelles COMPLETS pour construire un appariement
+    manuel et auditable entre cycles (le fuzzy matching ne suffit pas)."""
+    outpath.parent.mkdir(parents=True, exist_ok=True)
+    rows = [dict(cycle=i.cycle, code=i.code, domain=i.domain, label=i.label, n_valid=i.n_valid)
+            for its in items_by_cycle.values() for i in its]
+    pd.DataFrame(rows).to_csv(outpath, index=False)
+    print(f"\nLibelles complets exportes: {outpath} ({len(rows)} lignes)")
 
 
 if __name__ == "__main__":
+    import sys
     DATA = Path(__file__).resolve().parent.parent / "data" / "raw"
-    files = [
-        CycleFile(2015, DATA / "timss2015_curriculum_g4.zip", "T15_G4_Mathematics Module"),
-        CycleFile(2019, DATA / "timss2019_curriculum_g4.zip", "T19_G4_Mathematics Module"),
-        CycleFile(2023, DATA / "timss2023_curriculum_g4.xlsx", "T23_G4_Mathematics Module"),
-    ]
+    files = {
+        2015: CycleFile(2015, DATA / "timss2015_curriculum_g4.zip", "T15_G4_Mathematics Module"),
+        2019: CycleFile(2019, DATA / "timss2019_curriculum_g4.zip", "T19_G4_Mathematics Module"),
+        2023: CycleFile(2023, DATA / "timss2023_curriculum_g4.xlsx", "T23_G4_Mathematics Module"),
+    }
     items_by_cycle, tables = {}, []
-    for cf in files:
+    for year, cf in files.items():
         if not cf.path.exists():
             print(f"MANQUANT: {cf.path}")
             continue
-        print(f"\n=== Cycle {cf.cycle} (G4, maths) ===")
+        print(f"\n=== Cycle {year} (G4, maths) ===")
         its = read_items(cf)
         print_diagnostics(its)
-        items_by_cycle[cf.cycle] = its
+        items_by_cycle[year] = its
         tables.append(domain_table(its))
+
+    if "--dump-labels" in sys.argv:
+        dump_labels(items_by_cycle, DATA.parent / "processed" / "item_labels_g4_math.csv")
 
     full = pd.concat(tables, ignore_index=True)
     targets = full[full["country"].isin(["France", "Germany", "Poland"])]
     print("\n" + "=" * 70)
-    print("Moyennes par domaine (France/Allemagne/Pologne) -- 2019 PROVISOIRE")
-    print("ATTENTION: n_items differe selon les cycles, voir ci-dessous")
+    print("Moyennes par domaine -- NON COMPARABLES entre cycles (listes d'items")
+    print("differentes) ; 2019 PROVISOIRE ; a ne pas interpreter comme tendance")
     print("=" * 70)
-    print(targets.pivot_table(index=["country", "domain"], columns="cycle", values="mean_coverage").round(3).to_string())
-    print("\nItems retenus par cycle:")
-    print(targets[targets["country"] == "France"].pivot_table(index="domain", columns="cycle", values="n_items").to_string())
-
-    if 2019 in items_by_cycle and 2023 in items_by_cycle:
-        validate_numeric_encoding(files[1], files[2])
+    print(targets.pivot_table(index=["country", "domain"], columns="cycle",
+                              values="mean_coverage").round(3).to_string())
+    print("\nItems retenus par cycle (France):")
+    print(targets[targets["country"] == "France"].pivot_table(
+        index="domain", columns="cycle", values="n_items").to_string())
 
     print("\n" + "=" * 70)
-    print("TENDANCE SUR ITEMS APPARIES (liste constante entre cycles)")
+    print("VALIDATION DE L'ENCODAGE NUMERIQUE 2019 (le plus fiable: 2015, meme libelle)")
     print("=" * 70)
-    matched_trend(items_by_cycle, ["France", "Germany", "Poland"])
+    if 2019 in files and 2015 in items_by_cycle and 2019 in items_by_cycle:
+        validate_numeric_encoding(files[2019], files[2015])
+    if 2019 in files and 2023 in items_by_cycle and 2019 in items_by_cycle:
+        validate_numeric_encoding(files[2019], files[2023])
+
+    print("\n" + "=" * 70)
+    print("TENDANCES SUR ITEMS APPARIES, PAR PAIRE DE CYCLES")
+    print("=" * 70)
+    pairwise_trends(items_by_cycle, [(2015, 2019), (2019, 2023), (2015, 2023)],
+                    ["France", "Germany", "Poland"])

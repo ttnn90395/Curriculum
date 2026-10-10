@@ -1,0 +1,55 @@
+cycle,code,domain,label,n_valid
+2015,MA408AA,Nombre,"a) Concepts of whole numbers, including place value and ordering",56
+2015,MA408AB,Nombre,"b) Adding, subtracting, multiplying, and/or dividing with whole numbers",56
+2015,MA408AC,Nombre,c) Concepts of multiples and factors; odd and even numbers,56
+2015,MA408AD,Nombre,"d) Concepts of fractions (fractions as parts of a whole or of a collection, or as a location on a number line)",56
+2015,MA408AE,Nombre,"e) Adding and subtracting with fractions, comparing and ordering fractions",56
+2015,MA408AF,Nombre,"f) Concepts of decimals, including place value and ordering, adding and subtracting with decimals",56
+2015,MA408AG,Nombre,"g) Number sentences (finding the missing number, modeling simple situations with number sentences)",56
+2015,MA408AH,Nombre,h) Number patterns (extending number patterns and finding missing terms),55
+2015,MA408BA,Mesure_Geometrie,"a) Lines: measuring, estimating length of; parallel and perpendicular lines",56
+2015,MA408BB,Mesure_Geometrie,b) Comparing and drawing angles,56
+2015,MA408BC,Mesure_Geometrie,"c) Using informal coordinate systems to locate points in a plane (e.g., in square B4)",56
+2015,MA408BD,Mesure_Geometrie,d) Elementary properties of common geometric shapes,56
+2015,MA408BE,Mesure_Geometrie,e) Reflections and rotations,56
+2015,MA408BF,Mesure_Geometrie,f) Relationships between two-dimensional and three-dimensional shapes,56
+2015,MA408BG,Mesure_Geometrie,"g) Finding and estimating areas, perimeters, and volumes",56
+2015,MA408CA,Donnees,"a) Reading and representing data from tables, pictographs, bar graphs, or pie charts",55
+2015,MA408CB,Donnees,b) Drawing conclusions from data displays,55
+2019,MA407AA,Nombre,"a) Concepts of whole numbers, including place value and ordering",63
+2019,MA407AB,Nombre,"b) Adding, subtracting, multiplying, and dividing with whole numbers",63
+2019,MA407AC,Nombre,c) Concepts of multiples and factors; odd and even numbers,63
+2019,MA407AD,Nombre,"d) Number sentences (finding the missing number, representing problem situations with number sentences)",63
+2019,MA407AE,Nombre,e) Number patterns (extending number patterns and finding missing terms),63
+2019,MA407AF,Nombre,"f) Concepts of fractions, including representing, comparing and ordering, adding and subtracting simple fractions",62
+2019,MA407AG,Nombre,"g) Concepts of decimals, including place value and ordering, adding and subtracting with decimals",63
+2019,MA407BA,Mesure_Geometrie,"a) Solving problems involving length, including measuring and estimating",63
+2019,MA407BB,Mesure_Geometrie,"b) Solving problems involving mass, volume, and time",63
+2019,MA407BC,Mesure_Geometrie,"c) Finding and estimating perimeter, area, and volume",63
+2019,MA407BD,Mesure_Geometrie,d) Parallel and perpendicular lines,63
+2019,MA407BE,Mesure_Geometrie,e) Comparing and drawing angles,63
+2019,MA407BF,Mesure_Geometrie,f) Elementary properties of common geometric shapes,63
+2019,MA407BG,Mesure_Geometrie,"g) Three-dimensional shapes, including relationships with their two-dimensional representations",63
+2019,MA407CA,Donnees,"a) Reading and representing data from tables, pictographs, bar graphs, line graphs, and pie charts",63
+2019,MA407CB,Donnees,b) Organizing and representing data to help answer questions,63
+2019,MA407CC,Donnees,c) Drawing conclusions from data displays,63
+2023,MA408AA,Nombre,"a) Recognize place value of numbers to 6 digits, connect representations of numbers (words, symbols, and models including number lines), and compare numbers",63
+2023,MA408AB,Nombre,b) Add and subtract up to 4-digit numbers,63
+2023,MA408AC,Nombre,c) Multiply (up to 3-digit by 1-digit and 2-digit by 2-digit numbers) and divide (up to 3-digit by 1-digit numbers),63
+2023,MA408AD,Nombre,"d) Solve problems involving odd and even numbers, multiples and factors of numbers, rounding numbers (up to the nearest powers of 10), and making estimates",63
+2023,MA408AE,Nombre,e) Combine two or more properties of numbers or operations to solve a problem,63
+2023,MA408AF,Nombre,"f) Find the missing number or operation in a number sentence (e.g., 17 + w = 29)",63
+2023,MA408AG,Nombre,g) Match or write expressions or number sentences to represent problem situations that may involve unknowns,63
+2023,MA408AH,Nombre,"h) Match, describe, or use relationships in a well-defined pattern (e.g., describe the relationship between adjacent terms and generate pairs of whole numbers given a rule)",63
+2023,MA408AI,Nombre,"i) Describe a fraction as part of a whole or collection; connect different representations of fractions (words, numbers, and models); compare the size of fractions; add and subtract simple fractions with like denominators",63
+2023,MA408AJ,Nombre,"j) Connect different representations of decimals (words, numbers, and models); compare and order decimals and relate decimals to fractions; round decimals; add and subtract decimals (up to two decimal places)",63
+2023,MA408BA,Mesure_Geometrie,"a) Measure, estimate, add, and subtract lengths (millimeters, centimeters, meters, kilometers)",63
+2023,MA408BB,Mesure_Geometrie,"b) Add and subtract mass (gram and kilogram), volume (milliliter and liter), and time (minutes and hours); select appropriate types and sizes of units and read scales",63
+2023,MA408BC,Mesure_Geometrie,"c) Determine perimeters of polygons, areas of rectangles, areas of shapes covered with squares or partial squares, and volumes filled with cubes",63
+2023,MA408BD,Mesure_Geometrie,"d) Recognize and draw parallel and perpendicular lines, right angles, and angles smaller or larger than a right angle; compare the relative size of angles",63
+2023,MA408BE,Mesure_Geometrie,"e) Use elementary properties, including line and rotational symmetry, to describe and create common two-dimensional shapes (circle, triangles, quadrilaterals, and other polygons)",63
+2023,MA408BF,Mesure_Geometrie,"f) Use elementary properties to describe three dimensional shapes (cubes, rectangular solids, cones, cylinders, and spheres), the differences among them, and how they relate to their two-dimensional representations",63
+2023,MA408CA,Donnees,"a) Read data from tables, pictographs, bar graphs, line graphs, and pie charts",63
+2023,MA408CB,Donnees,"b) Create or complete tables, pictographs, bar graphs, line graphs, and pie charts",63
+2023,MA408CC,Donnees,c) Interpret and use data to answer questions that go beyond directly reading data displays,63
+2023,MA408CD,Donnees,d) Combine or compare data from two or more sources and draw conclusions based on two or more datasets,63

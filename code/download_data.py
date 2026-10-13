@@ -87,6 +87,47 @@ def download_eurostat():
 
 
 # =================================================================
+# 2b. PISA via Banque mondiale (EdStats) -- automatisable. Fenetre
+#     EXPLORATOIRE uniquement: plafonnee a 2018 PAR CONSTRUCTION (les
+#     cycles 2022/2025 sont le holdout, a telecharger seulement au moment
+#     du test unique d'un modele gele; la source ne les contient pas non plus).
+#     NON TESTE dans le sandbox (reseau bloque): l'identifiant d'indicateur
+#     et le parametre source=12 sont a confirmer a l'execution.
+# =================================================================
+WORLDBANK_PISA = {
+    "pisa_mathematics": "LO.PISA.MAT",
+    "pisa_reading": "LO.PISA.REA",
+    "pisa_science": "LO.PISA.SCI",
+}
+
+def _valid_wb_json(path: Path) -> bool:
+    """L'API Banque mondiale repond HTTP 200 avec un message d'erreur JSON si
+    l'indicateur est invalide: on verifie qu'il y a de vraies observations."""
+    import json
+    try:
+        data = json.loads(path.read_text())
+    except ValueError:
+        return False
+    return (isinstance(data, list) and len(data) == 2
+            and isinstance(data[1], list) and len(data[1]) > 0)
+
+def download_worldbank_pisa(start_year: int = 2000, end_year: int = 2018):
+    print("\n=== PISA via Banque mondiale (EdStats), cycles <= 2018 ===")
+    for name, code in WORLDBANK_PISA.items():
+        dest = DATA_DIR / f"worldbank_{name}.json"
+        for variant in ("&source=12", ""):
+            url = (f"https://api.worldbank.org/v2/country/all/indicator/{code}"
+                   f"?date={start_year}:{end_year}&format=json&per_page=20000{variant}")
+            if _fetch(url, dest, timeout=30) and _valid_wb_json(dest):
+                break
+            print(f"  pas de donnees valides pour {code} (variante {variant or 'sans source'})")
+            dest.unlink(missing_ok=True)
+        else:
+            print(f"  ECHEC definitif pour {code}: verifier l'identifiant sur "
+                  f"databank.worldbank.org (base Education Statistics).")
+
+
+# =================================================================
 # 3. TIMSS -- tous cycles, URLs verifiees sur les vraies pages
 #    (timss2023.org/data, timss2019.org/international-database,
 #    timssandpirls.bc.edu/timss2015/international-database)
@@ -287,6 +328,8 @@ def main():
     parser.add_argument("--all", action="store_true", help="Tout executer (automatisable, fichiers legers + verification)")
     parser.add_argument("--worldbank", action="store_true")
     parser.add_argument("--eurostat", action="store_true")
+    parser.add_argument("--pisa-wb", action="store_true",
+                         help="Scores PISA par pays (Banque mondiale), cycles <= 2018 seulement")
     parser.add_argument("--timss", nargs="*", type=int, metavar="ANNEE",
                          help="TIMSS, cycles choisis parmi 2023 2019 2015 (ex: --timss 2023 2019). Sans argument: les trois.")
     parser.add_argument("--timss-heavy", action="store_true",
@@ -306,6 +349,9 @@ def main():
     if args.eurostat or args.all:
         download_eurostat()
 
+    if args.pisa_wb or args.all:
+        download_worldbank_pisa()
+
     if args.timss is not None or args.all:
         cycles = args.timss if args.timss else list(TIMSS_CYCLES)
         download_timss(cycles, include_heavy=args.timss_heavy)
@@ -313,7 +359,7 @@ def main():
     if args.oecd:
         download_oecd_sdmx(args.oecd, args.oecd.lower())
 
-    if not any([args.all, args.worldbank, args.eurostat, args.timss is not None, args.oecd, args.check]):
+    if not any([args.all, args.worldbank, args.eurostat, args.pisa_wb, args.timss is not None, args.oecd, args.check]):
         parser.print_help()
 
 

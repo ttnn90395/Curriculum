@@ -1,0 +1,50 @@
+topic_id,topic,confidence,cycle,codes,note
+N1,Entiers: valeur de position et comparaison,high,2015,MA408AA,
+N1,Entiers: valeur de position et comparaison,high,2019,MA407AA,
+N1,Entiers: valeur de position et comparaison,high,2023,MA408AA,"2023 precise jusqu'a 6 chiffres et ajoute les representations (mots, symboles, droite graduee)"
+N2,Operations sur les entiers,high,2015,MA408AB,
+N2,Operations sur les entiers,high,2019,MA407AB,
+N2,Operations sur les entiers,high,2023,MA408AB;MA408AC,"2023 scinde additions/soustractions et multiplications/divisions: moyenne des deux items"
+N3,Multiples facteurs pair/impair,medium,2015,MA408AC,
+N3,Multiples facteurs pair/impair,medium,2019,MA407AC,
+N3,Multiples facteurs pair/impair,medium,2023,MA408AD,"2023 ajoute arrondis et estimations"
+N4,Fractions (concept comparaison addition/soustraction simples),high,2015,MA408AD;MA408AE,"2015 scinde concept et operations: moyenne des deux items"
+N4,Fractions (concept comparaison addition/soustraction simples),high,2019,MA407AF,
+N4,Fractions (concept comparaison addition/soustraction simples),high,2023,MA408AI,"2023 precise denominateurs communs"
+N5,Decimaux,medium,2015,MA408AF,
+N5,Decimaux,medium,2019,MA407AG,
+N5,Decimaux,medium,2023,MA408AJ,"2023 ajoute lien avec les fractions et arrondi"
+N6,Phrases numeriques et inconnues (pre-algebre),medium,2015,MA408AG,"item unique: trouver le nombre manquant ET modeliser par des phrases numeriques"
+N6,Phrases numeriques et inconnues (pre-algebre),medium,2019,MA407AD,"item unique: meme formulation qu'en 2015"
+N6,Phrases numeriques et inconnues (pre-algebre),medium,2023,MA408AF;MA408AG,"2023 scinde: AF trouver le manquant, AG ecrire des expressions avec inconnues; l'item AG isole vaut 0.0 pour la France en 2023"
+N7,Suites et regularites,high,2015,MA408AH,
+N7,Suites et regularites,high,2019,MA407AE,
+N7,Suites et regularites,high,2023,MA408AH,
+G1,Mesure des longueurs,low,2015,MA408BA,"2015 melange longueurs et droites parallele/perpendiculaire"
+G1,Mesure des longueurs,low,2019,MA407BA,
+G1,Mesure des longueurs,low,2023,MA408BA,
+G2,Masse volume temps,high,2019,MA407BB,
+G2,Masse volume temps,high,2023,MA408BB,"pas d'equivalent en 2015: comparaison 2019-2023 uniquement"
+G3,Perimetre aire volume,high,2015,MA408BG,
+G3,Perimetre aire volume,high,2019,MA407BC,
+G3,Perimetre aire volume,high,2023,MA408BC,
+G4,Angles,medium,2015,MA408BB,
+G4,Angles,medium,2019,MA407BE,
+G4,Angles,medium,2023,MA408BD,"2023 regroupe droites parallele/perpendiculaire angles droits et comparaison d'angles"
+G5,Proprietes elementaires des figures planes,medium,2015,MA408BD,
+G5,Proprietes elementaires des figures planes,medium,2019,MA407BF,
+G5,Proprietes elementaires des figures planes,medium,2023,MA408BE,"2023 ajoute symetries axiale et de rotation"
+G6,Solides 3D et representations 2D,high,2015,MA408BF,
+G6,Solides 3D et representations 2D,high,2019,MA407BG,
+G6,Solides 3D et representations 2D,high,2023,MA408BF,
+D1,Lire et representer des donnees,medium,2015,MA408CA,"2015 n'a pas d'item distinct pour organiser/representer"
+D1,Lire et representer des donnees,medium,2019,MA407CA;MA407CB,
+D1,Lire et representer des donnees,medium,2023,MA408CA;MA408CB,
+D2,Tirer des conclusions de representations de donnees,medium,2015,MA408CB,
+D2,Tirer des conclusions de representations de donnees,medium,2019,MA407CC,
+D2,Tirer des conclusions de representations de donnees,medium,2023,MA408CC,"2023 precise 'au-dela de la lecture directe'"
+UNMAPPED,Non apparie: coordonnees informelles,none,2015,MA408BC,
+UNMAPPED,Non apparie: reflexions et rotations,none,2015,MA408BE,"partiellement lie a la symetrie 2023 (G5), non utilise"
+UNMAPPED,Non apparie: droites parallele/perpendiculaire,none,2019,MA407BD,"fusionne avec les angles dans MA408BD en 2023, non utilise pour eviter le double usage"
+UNMAPPED,Non apparie: combiner des proprietes (2023),none,2023,MA408AE,
+UNMAPPED,Non apparie: combiner des sources de donnees (2023),none,2023,MA408CD,

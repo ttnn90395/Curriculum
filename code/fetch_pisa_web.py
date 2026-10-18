@@ -106,6 +106,36 @@ def parse_tables(tables, years, wb):
     return found
 
 
+# Ancres France 2025 (secondaires, a recouper): maths = ancre du projet; lecture/sciences
+# lues sur la page DEPP/digischool qui cite l'OCDE (France 456 / 483).
+ANCHOR_FR = {("mathematics", 2025): 458, ("reading", 2025): 456, ("science", 2025): 483}
+SRC2025 = {  # pages d'une seule matiere, tableau de moyennes par pays (eduscores.org cite les tableaux OCDE)
+    "mathematics": "https://eduscores.org/pisa-math-scores/",
+    "reading": "https://eduscores.org/pisa-reading-scores/",
+    "science": "https://eduscores.org/pisa-science-scores/",
+}
+
+
+def parse_single_subject_page(tables, subject, year):
+    """Choisit, parmi les colonnes numeriques, celle dont la valeur France egale l'ancre (+-0.5)."""
+    anchor = ANCHOR_FR[(subject, year)]
+    for t in tables:
+        t = t.copy()
+        t.columns = [" ".join(map(str, c)) if isinstance(c, tuple) else str(c) for c in t.columns]
+        ccol = next((c for c in t.columns if t[c].map(lambda v: LOOKUP.get(norm(v))).notna().sum() >= 30), None)
+        if ccol is None:
+            continue
+        iso = t[ccol].map(lambda v: LOOKUP.get(norm(v)))
+        for c in t.columns:
+            if c == ccol:
+                continue
+            vals = pd.Series(t[c].map(num).values, index=iso.values).dropna()
+            vals = vals[vals.index.notna()]
+            if len(vals) >= 30 and "FRA" in vals.index and abs(vals["FRA"] - anchor) <= 0.5:
+                return vals[~vals.index.duplicated()], f"colonne '{c[:30]}' choisie par ancre France={anchor}"
+    return None, None
+
+
 def candidate_urls(extra):
     urls = list(extra) + ["https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment"]
     return list(dict.fromkeys(urls))
@@ -123,7 +153,29 @@ def main():
     df = pd.read_csv(DEFAULT, dtype={"source_table": str, "iso3": str, "subject": str})
     df["source_table"] = df["source_table"].astype(object)
     wrote = False
-    for url in candidate_urls(a.extra_url):
+    if 2025 in years:
+        mask = df["cycle"] == 2025
+        got = 0
+        for s, url in SRC2025.items():
+            try:
+                r = requests.get(url, headers=H, timeout=60); r.raise_for_status()
+                ser, how = parse_single_subject_page(pd.read_html(io.StringIO(r.text)), s, 2025)
+            except Exception as e:
+                print(f"- 2025 {s}: {url} : {str(e)[:90]}"); continue
+            if ser is None:
+                print(f"- 2025 {s}: {url} : aucune colonne ne satisfait l'ancre France={ANCHOR_FR[(s, 2025)]} -> ignoree")
+                continue
+            sel0 = mask & (df["subject"] == s)
+            df.loc[sel0, ["mean", "source_table"]] = [float("nan"), None]
+            for iso, v in ser.items():
+                sel = sel0 & (df["iso3"] == iso)
+                df.loc[sel, "mean"] = v
+                df.loc[sel, "source_table"] = f"{url} [{how}]"
+            got += 1; wrote = True
+            print(f"  2025 {s}: {len(ser)} pays ({how})")
+            print("     " + "  ".join(f"{k}={ser[k]:.0f}" for k in ["FRA", "DEU", "POL", "FIN", "KOR", "USA"] if k in ser.index))
+        years = [y for y in years if y != 2025]
+    for url in (candidate_urls(a.extra_url) if years else []):
         try:
             r = requests.get(url, headers=H, timeout=60); r.raise_for_status()
             tabs = pd.read_html(io.StringIO(r.text))

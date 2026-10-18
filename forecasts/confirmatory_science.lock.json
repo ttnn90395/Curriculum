@@ -1,0 +1,58 @@
+{
+  "subject": "science",
+  "run_on": "2026-10-18",
+  "spec_hash": "01380f8d5cffac57",
+  "spec": {
+    "version": 2,
+    "target": "position relative d = score - moyenne du panel fixe au cycle",
+    "models_compared": [
+      "naive",
+      "ar1"
+    ],
+    "frozen_model": "ar1",
+    "ridge": 0.001,
+    "interval": "Monte Carlo p10-p90, 2000 sims (backtest) / 5000 (prevision)",
+    "panel": "OCDE complets sur cycles <= 2018, MIN_CYCLE par matiere; puis retrait des pays n'ayant pas participe a 2022 ou 2025 (ex.: le Luxembourg n'a pas participe a PISA 2022)",
+    "max_nonparticipants_dropped": 3,
+    "train_limit_for_exploration": 2018
+  },
+  "forced": false,
+  "results": [
+    {
+      "origin": 4,
+      "model": "naive",
+      "mse": 74.0094,
+      "rho": 0.9147,
+      "mae_rank": 3.2222,
+      "cov80": 0.8611,
+      "test": "A: <=2018 -> 2022"
+    },
+    {
+      "origin": 4,
+      "model": "ar1",
+      "mse": 85.8863,
+      "rho": 0.9147,
+      "mae_rank": 3.2222,
+      "cov80": 0.8889,
+      "test": "A: <=2018 -> 2022"
+    },
+    {
+      "origin": 5,
+      "model": "naive",
+      "mse": 78.2778,
+      "rho": 0.8791,
+      "mae_rank": 3.3889,
+      "cov80": 0.8611,
+      "test": "B: <=2022 -> 2025"
+    },
+    {
+      "origin": 5,
+      "model": "ar1",
+      "mse": 78.4271,
+      "rho": 0.8791,
+      "mae_rank": 3.3889,
+      "cov80": 0.8889,
+      "test": "B: <=2022 -> 2025"
+    }
+  ]
+}

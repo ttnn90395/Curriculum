@@ -1,0 +1,41 @@
+cycle,sheet,topic_id,note
+2019,ATBM05AA,N1,
+2019,ATBM05AB,N2,
+2019,ATBM05AC,N3,
+2019,ATBM05AD,N6,
+2019,ATBM05AE,N7,
+2019,ATBM05AF,N4,
+2019,ATBM05AG,N5,
+2019,ATBM05BA,G1,"G1 = low, exclu du panel prevu"
+2019,ATBM05BB,G2,
+2019,ATBM05BC,G3,
+2019,ATBM05BD,,paralleles/perpendiculaires: non apparie (comme MA407BD)
+2019,ATBM05BE,G4,
+2019,ATBM05BF,G5,
+2019,ATBM05BG,G6,
+2019,ATBM05CA,D1,
+2019,ATBM05CB,D1,
+2019,ATBM05CC,D2,
+2023,ATBM06AA,N1,
+2023,ATBM06AB,N2,additions/soustractions
+2023,ATBM06AC,N2,multiplications
+2023,ATBM06AD,N2,divisions
+2023,ATBM06AE,N3,"pair/impair, multiples, facteurs"
+2023,ATBM06AF,N3,arrondis/estimations
+2023,ATBM06AG,N6,nombre manquant
+2023,ATBM06AH,N7,
+2023,ATBM06AI,N4,representer/comparer
+2023,ATBM06AJ,N4,additionner/soustraire
+2023,ATBM06AK,N5,representer/comparer
+2023,ATBM06AL,N5,additionner/soustraire
+2023,ATBM06BA,G1,"G1 = low, exclu du panel prevu"
+2023,ATBM06BB,G2,
+2023,ATBM06BC,G3,perimetres
+2023,ATBM06BD,G3,aires/volumes
+2023,ATBM06BE,G4,paralleles/perpendiculaires (fusionne avec angles cote prevu)
+2023,ATBM06BF,G4,angles
+2023,ATBM06BG,G5,figures 2D
+2023,ATBM06BH,G6,solides 3D
+2023,ATBM06CA,D1,lire
+2023,ATBM06CB,D1,creer
+2023,ATBM06CC,D2,

@@ -51,23 +51,54 @@ def probe():
                 print(f"{y}  ECHEC {str(e)[:70]}  {u}")
 
 
+def _fetch_resumable(u, dest, tries=8):
+    """Telechargement avec reprise (Range) et nouvelles tentatives; fichier .part renomme a la fin."""
+    import shutil, time
+    part = dest.with_suffix(dest.suffix + ".part")
+    for attempt in range(1, tries + 1):
+        have = part.stat().st_size if part.exists() else 0
+        hdr = dict(H)
+        if have:
+            hdr["Range"] = f"bytes={have}-"
+        try:
+            with requests.get(u, headers=hdr, stream=True, timeout=(30, 120)) as r:
+                if r.status_code == 416:            # deja complet
+                    break
+                if r.status_code not in (200, 206):
+                    print(f"  HTTP {r.status_code}"); return False
+                total = int(r.headers.get("Content-Length", 0)) + (have if r.status_code == 206 else 0)
+                if r.status_code == 200:
+                    have = 0
+                free = shutil.disk_usage(RAW).free
+                if total and free < (total - have) * 1.2:
+                    sys.exit(f"Espace disque insuffisant: libre {free/1e9:.1f} Go, besoin {(total-have)/1e9:.1f} Go.")
+                with open(part, "ab" if (r.status_code == 206 and have) else "wb") as f:
+                    for chunk in r.iter_content(1 << 20):
+                        f.write(chunk)
+                if total and part.stat().st_size < total:
+                    raise IOError(f"incomplet {part.stat().st_size}/{total}")
+                break
+        except SystemExit:
+            raise
+        except Exception as e:
+            print(f"  tentative {attempt}/{tries}: {type(e).__name__}: {str(e)[:160]}")
+            time.sleep(min(5 * attempt, 30))
+    else:
+        return False
+    part.rename(dest)
+    return True
+
+
 def download(year):
     RAW.mkdir(parents=True, exist_ok=True)
     for u in CANDIDATES[year]:
         dest = RAW / f"{year}_{Path(u).name}"
         if dest.exists():
             print("Deja present:", dest); return dest
-        try:
-            with requests.get(u, headers=H, stream=True, timeout=60) as r:
-                if r.status_code != 200:
-                    print(f"  {u}: HTTP {r.status_code}"); continue
-                with open(dest, "wb") as f:
-                    for chunk in r.iter_content(1 << 20):
-                        f.write(chunk)
+        print("Telechargement:", u)
+        if _fetch_resumable(u, dest):
             print("Telecharge:", dest, f"({dest.stat().st_size/1e6:.0f} Mo)")
             return dest
-        except Exception as e:
-            print(f"  {u}: {str(e)[:80]}")
     sys.exit(f"Aucun lien exploitable pour {year}. Telecharger le fichier eleve a la main puis --file.")
 
 

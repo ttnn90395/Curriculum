@@ -1,0 +1,1487 @@
+iso3,name,subject,cycle,score,source,comparable
+ALB,Albania,mathematics,2000,381.0,World Bank EdStats (OECD PISA),False
+ALB,Albania,mathematics,2009,377.46105645178,World Bank EdStats (OECD PISA),True
+ALB,Albania,mathematics,2012,394.329333356314,World Bank EdStats (OECD PISA),True
+ALB,Albania,mathematics,2015,413.157,World Bank EdStats (OECD PISA),True
+ALB,Albania,mathematics,2018,437.221991161354,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,mathematics,2015,427.4827,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,mathematics,2018,434.947251865321,World Bank EdStats (OECD PISA),True
+ARG,Argentina,mathematics,2000,388.0,World Bank EdStats (OECD PISA),False
+ARG,Argentina,mathematics,2006,381.253911744596,World Bank EdStats (OECD PISA),True
+ARG,Argentina,mathematics,2009,388.068128318725,World Bank EdStats (OECD PISA),True
+ARG,Argentina,mathematics,2012,388.431709907141,World Bank EdStats (OECD PISA),True
+ARG,Argentina,mathematics,2015,409.0333,World Bank EdStats (OECD PISA),True
+ARG,Argentina,mathematics,2018,379.453816602929,World Bank EdStats (OECD PISA),True
+AUS,Australia,mathematics,2000,533.0,World Bank EdStats (OECD PISA),False
+AUS,Australia,mathematics,2003,524.26600425,World Bank EdStats (OECD PISA),True
+AUS,Australia,mathematics,2006,519.907748659007,World Bank EdStats (OECD PISA),True
+AUS,Australia,mathematics,2009,514.34046239919,World Bank EdStats (OECD PISA),True
+AUS,Australia,mathematics,2012,504.150766311123,World Bank EdStats (OECD PISA),True
+AUS,Australia,mathematics,2015,493.8962,World Bank EdStats (OECD PISA),True
+AUS,Australia,mathematics,2018,491.360025242637,World Bank EdStats (OECD PISA),True
+AUS,,mathematics,2022,487.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+AUS,,mathematics,2025,478.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+AUT,Austria,mathematics,2000,502.5,World Bank EdStats (OECD PISA),False
+AUT,Austria,mathematics,2003,505.61098329,World Bank EdStats (OECD PISA),True
+AUT,Austria,mathematics,2006,505.483598459863,World Bank EdStats (OECD PISA),True
+AUT,Austria,mathematics,2009,495.908654967801,World Bank EdStats (OECD PISA),True
+AUT,Austria,mathematics,2012,505.540743249801,World Bank EdStats (OECD PISA),True
+AUT,Austria,mathematics,2015,496.7423,World Bank EdStats (OECD PISA),True
+AUT,Austria,mathematics,2018,498.942313799593,World Bank EdStats (OECD PISA),True
+AUT,,mathematics,2022,487.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+AUT,,mathematics,2025,477.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+AZE,Azerbaijan,mathematics,2006,475.995220525576,World Bank EdStats (OECD PISA),True
+AZE,Azerbaijan,mathematics,2009,430.975300178942,World Bank EdStats (OECD PISA),True
+BEL,Belgium,mathematics,2000,520.0,World Bank EdStats (OECD PISA),False
+BEL,Belgium,mathematics,2003,529.28641111,World Bank EdStats (OECD PISA),True
+BEL,Belgium,mathematics,2006,520.348972592357,World Bank EdStats (OECD PISA),True
+BEL,Belgium,mathematics,2009,515.272276873881,World Bank EdStats (OECD PISA),True
+BEL,Belgium,mathematics,2012,514.529244727357,World Bank EdStats (OECD PISA),True
+BEL,Belgium,mathematics,2015,506.9844,World Bank EdStats (OECD PISA),True
+BEL,Belgium,mathematics,2018,508.070306356471,World Bank EdStats (OECD PISA),True
+BEL,,mathematics,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+BEL,,mathematics,2025,480.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+BGR,Bulgaria,mathematics,2000,430.0,World Bank EdStats (OECD PISA),False
+BGR,Bulgaria,mathematics,2006,413.449171269888,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,mathematics,2009,428.066142786167,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,mathematics,2012,438.738259877416,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,mathematics,2015,441.1899,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,mathematics,2018,436.04057099732,World Bank EdStats (OECD PISA),True
+BIH,Bosnia and Herzegovina,mathematics,2018,406.384407914433,World Bank EdStats (OECD PISA),True
+BLR,Belarus,mathematics,2018,471.865144277411,World Bank EdStats (OECD PISA),True
+BRA,Brazil,mathematics,2000,334.0,World Bank EdStats (OECD PISA),False
+BRA,Brazil,mathematics,2003,356.01579097,World Bank EdStats (OECD PISA),True
+BRA,Brazil,mathematics,2006,369.515046708324,World Bank EdStats (OECD PISA),True
+BRA,Brazil,mathematics,2009,385.814111985143,World Bank EdStats (OECD PISA),True
+BRA,Brazil,mathematics,2012,391.459888954175,World Bank EdStats (OECD PISA),True
+BRA,Brazil,mathematics,2015,377.0695,World Bank EdStats (OECD PISA),True
+BRA,Brazil,mathematics,2018,383.56912410618,World Bank EdStats (OECD PISA),True
+BRN,Brunei Darussalam,mathematics,2018,430.112962267376,World Bank EdStats (OECD PISA),True
+CAN,Canada,mathematics,2000,533.0,World Bank EdStats (OECD PISA),False
+CAN,Canada,mathematics,2003,532.48673608,World Bank EdStats (OECD PISA),True
+CAN,Canada,mathematics,2006,527.007178886688,World Bank EdStats (OECD PISA),True
+CAN,Canada,mathematics,2009,526.805152750932,World Bank EdStats (OECD PISA),True
+CAN,Canada,mathematics,2012,518.070399595951,World Bank EdStats (OECD PISA),True
+CAN,Canada,mathematics,2015,515.6474,World Bank EdStats (OECD PISA),True
+CAN,Canada,mathematics,2018,512.016942823931,World Bank EdStats (OECD PISA),True
+CAN,,mathematics,2022,497.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+CAN,,mathematics,2025,485.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+CHE,Switzerland,mathematics,2000,529.0,World Bank EdStats (OECD PISA),False
+CHE,Switzerland,mathematics,2003,526.55314792,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,mathematics,2006,529.656147047858,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,mathematics,2009,533.960644920522,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,mathematics,2012,530.931003950396,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,mathematics,2015,521.2506,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,mathematics,2018,515.314713126144,World Bank EdStats (OECD PISA),True
+CHE,,mathematics,2022,508.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+CHE,,mathematics,2025,499.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+CHL,Chile,mathematics,2000,384.0,World Bank EdStats (OECD PISA),False
+CHL,Chile,mathematics,2006,411.35033889843,World Bank EdStats (OECD PISA),True
+CHL,Chile,mathematics,2009,421.060472961245,World Bank EdStats (OECD PISA),True
+CHL,Chile,mathematics,2012,422.632355405519,World Bank EdStats (OECD PISA),True
+CHL,Chile,mathematics,2015,422.6714,World Bank EdStats (OECD PISA),True
+CHL,Chile,mathematics,2018,417.406556233565,World Bank EdStats (OECD PISA),True
+CHL,,mathematics,2022,412.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+CHL,,mathematics,2025,403.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+CHN,China,mathematics,2009,600.076252920147,World Bank EdStats (OECD PISA),True
+CHN,China,mathematics,2012,612.675536305453,World Bank EdStats (OECD PISA),True
+CHN,China,mathematics,2015,531.2961,World Bank EdStats (OECD PISA),True
+CHN,China,mathematics,2018,591.393596878513,World Bank EdStats (OECD PISA),True
+COL,Colombia,mathematics,2006,369.978512943413,World Bank EdStats (OECD PISA),True
+COL,Colombia,mathematics,2009,380.848214875471,World Bank EdStats (OECD PISA),True
+COL,Colombia,mathematics,2012,376.488601072821,World Bank EdStats (OECD PISA),True
+COL,Colombia,mathematics,2015,389.6438,World Bank EdStats (OECD PISA),True
+COL,Colombia,mathematics,2018,390.932273740346,World Bank EdStats (OECD PISA),True
+COL,,mathematics,2022,383.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+COL,,mathematics,2025,381.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+CRI,Costa Rica,mathematics,2009,409.385369127282,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,mathematics,2012,406.999866988793,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,mathematics,2015,400.2534,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,mathematics,2018,402.330558607212,World Bank EdStats (OECD PISA),True
+CRI,,mathematics,2022,385.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+CRI,,mathematics,2025,387.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+CYP,Cyprus,mathematics,2015,437.1443,World Bank EdStats (OECD PISA),True
+CYP,Cyprus,mathematics,2018,450.682994426841,World Bank EdStats (OECD PISA),True
+CZE,Czechia,mathematics,2000,498.0,World Bank EdStats (OECD PISA),False
+CZE,Czechia,mathematics,2003,516.45500016,World Bank EdStats (OECD PISA),True
+CZE,Czechia,mathematics,2006,509.859359147687,World Bank EdStats (OECD PISA),True
+CZE,Czechia,mathematics,2009,492.814094257394,World Bank EdStats (OECD PISA),True
+CZE,Czechia,mathematics,2012,498.95788231768,World Bank EdStats (OECD PISA),True
+CZE,Czechia,mathematics,2015,492.3254,World Bank EdStats (OECD PISA),True
+CZE,Czechia,mathematics,2018,499.467650906247,World Bank EdStats (OECD PISA),True
+CZE,,mathematics,2022,487.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+CZE,,mathematics,2025,477.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+DEU,Germany,mathematics,2000,490.0,World Bank EdStats (OECD PISA),False
+DEU,Germany,mathematics,2003,502.98553214,World Bank EdStats (OECD PISA),True
+DEU,Germany,mathematics,2006,503.790858681686,World Bank EdStats (OECD PISA),True
+DEU,Germany,mathematics,2009,512.777642599843,World Bank EdStats (OECD PISA),True
+DEU,Germany,mathematics,2012,513.525055819929,World Bank EdStats (OECD PISA),True
+DEU,Germany,mathematics,2015,505.9713,World Bank EdStats (OECD PISA),True
+DEU,Germany,mathematics,2018,500.043780166766,World Bank EdStats (OECD PISA),True
+DEU,,mathematics,2022,475.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+DEU,,mathematics,2025,464.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+DNK,Denmark,mathematics,2000,514.0,World Bank EdStats (OECD PISA),False
+DNK,Denmark,mathematics,2003,514.28767518,World Bank EdStats (OECD PISA),True
+DNK,Denmark,mathematics,2006,513.02595000311,World Bank EdStats (OECD PISA),True
+DNK,Denmark,mathematics,2009,503.278147161397,World Bank EdStats (OECD PISA),True
+DNK,Denmark,mathematics,2012,500.026756625414,World Bank EdStats (OECD PISA),True
+DNK,Denmark,mathematics,2015,511.0876,World Bank EdStats (OECD PISA),True
+DNK,Denmark,mathematics,2018,509.398374502504,World Bank EdStats (OECD PISA),True
+DNK,,mathematics,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+DNK,,mathematics,2025,471.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+DOM,Dominican Republic,mathematics,2015,327.702,World Bank EdStats (OECD PISA),True
+DOM,Dominican Republic,mathematics,2018,325.100546639571,World Bank EdStats (OECD PISA),True
+DZA,Algeria,mathematics,2015,359.6062,World Bank EdStats (OECD PISA),True
+ESP,Spain,mathematics,2000,476.0,World Bank EdStats (OECD PISA),False
+ESP,Spain,mathematics,2003,485.10805641,World Bank EdStats (OECD PISA),True
+ESP,Spain,mathematics,2006,479.957507442949,World Bank EdStats (OECD PISA),True
+ESP,Spain,mathematics,2009,483.493140321268,World Bank EdStats (OECD PISA),True
+ESP,Spain,mathematics,2012,484.319297801971,World Bank EdStats (OECD PISA),True
+ESP,Spain,mathematics,2015,485.8432,World Bank EdStats (OECD PISA),True
+ESP,Spain,mathematics,2018,481.392612675476,World Bank EdStats (OECD PISA),True
+ESP,,mathematics,2022,473.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+ESP,,mathematics,2025,457.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+EST,Estonia,mathematics,2006,514.575462032399,World Bank EdStats (OECD PISA),True
+EST,Estonia,mathematics,2009,512.10419773905,World Bank EdStats (OECD PISA),True
+EST,Estonia,mathematics,2012,520.545521676786,World Bank EdStats (OECD PISA),True
+EST,Estonia,mathematics,2015,519.5291,World Bank EdStats (OECD PISA),True
+EST,Estonia,mathematics,2018,523.41458013492,World Bank EdStats (OECD PISA),True
+EST,,mathematics,2022,510.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+EST,,mathematics,2025,508.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+FIN,Finland,mathematics,2000,536.0,World Bank EdStats (OECD PISA),False
+FIN,Finland,mathematics,2003,544.28918697,World Bank EdStats (OECD PISA),True
+FIN,Finland,mathematics,2006,548.358395099193,World Bank EdStats (OECD PISA),True
+FIN,Finland,mathematics,2009,540.504348071396,World Bank EdStats (OECD PISA),True
+FIN,Finland,mathematics,2012,518.750335282979,World Bank EdStats (OECD PISA),True
+FIN,Finland,mathematics,2015,511.0769,World Bank EdStats (OECD PISA),True
+FIN,Finland,mathematics,2018,507.301361818144,World Bank EdStats (OECD PISA),True
+FIN,,mathematics,2022,484.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+FIN,,mathematics,2025,469.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+FRA,France,mathematics,2000,517.0,World Bank EdStats (OECD PISA),False
+FRA,France,mathematics,2003,510.79947353,World Bank EdStats (OECD PISA),True
+FRA,France,mathematics,2006,495.538332644515,World Bank EdStats (OECD PISA),True
+FRA,France,mathematics,2009,496.782310397535,World Bank EdStats (OECD PISA),True
+FRA,France,mathematics,2012,494.98467432064,World Bank EdStats (OECD PISA),True
+FRA,France,mathematics,2015,492.9204,World Bank EdStats (OECD PISA),True
+FRA,France,mathematics,2018,495.407581444032,World Bank EdStats (OECD PISA),True
+FRA,,mathematics,2022,474.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+FRA,,mathematics,2025,458.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+GBR,United Kingdom,mathematics,2000,529.0,World Bank EdStats (OECD PISA),False
+GBR,United Kingdom,mathematics,2003,508.25808094,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,mathematics,2006,495.444158833462,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,mathematics,2009,492.414078206256,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,mathematics,2012,493.934230896316,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,mathematics,2015,492.4785,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,mathematics,2018,501.76989911392,World Bank EdStats (OECD PISA),True
+GBR,,mathematics,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+GBR,,mathematics,2025,488.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+GEO,Georgia,mathematics,2009,379.490958938783,World Bank EdStats (OECD PISA),True
+GEO,Georgia,mathematics,2015,403.8332,World Bank EdStats (OECD PISA),True
+GEO,Georgia,mathematics,2018,397.586355244177,World Bank EdStats (OECD PISA),True
+GRC,Greece,mathematics,2000,447.0,World Bank EdStats (OECD PISA),False
+GRC,Greece,mathematics,2003,444.9118627,World Bank EdStats (OECD PISA),True
+GRC,Greece,mathematics,2006,459.201986745002,World Bank EdStats (OECD PISA),True
+GRC,Greece,mathematics,2009,466.096372858553,World Bank EdStats (OECD PISA),True
+GRC,Greece,mathematics,2012,452.973426858908,World Bank EdStats (OECD PISA),True
+GRC,Greece,mathematics,2015,453.6299,World Bank EdStats (OECD PISA),True
+GRC,Greece,mathematics,2018,451.370343770282,World Bank EdStats (OECD PISA),True
+GRC,,mathematics,2022,430.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+GRC,,mathematics,2025,424.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+HKG,"Hong Kong SAR, China",mathematics,2000,560.0,World Bank EdStats (OECD PISA),False
+HKG,"Hong Kong SAR, China",mathematics,2003,550.38324054,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",mathematics,2006,547.460679725789,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",mathematics,2009,554.527506471969,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",mathematics,2012,561.241096454551,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",mathematics,2015,547.931,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",mathematics,2018,551.1542741271,World Bank EdStats (OECD PISA),True
+HRV,Croatia,mathematics,2006,467.246714232255,World Bank EdStats (OECD PISA),True
+HRV,Croatia,mathematics,2009,459.938917902581,World Bank EdStats (OECD PISA),True
+HRV,Croatia,mathematics,2012,471.131460759248,World Bank EdStats (OECD PISA),True
+HRV,Croatia,mathematics,2015,464.0401,World Bank EdStats (OECD PISA),True
+HRV,Croatia,mathematics,2018,464.204272711969,World Bank EdStats (OECD PISA),True
+HUN,Hungary,mathematics,2000,488.0,World Bank EdStats (OECD PISA),False
+HUN,Hungary,mathematics,2003,490.01239238,World Bank EdStats (OECD PISA),True
+HUN,Hungary,mathematics,2006,490.937383376753,World Bank EdStats (OECD PISA),True
+HUN,Hungary,mathematics,2009,490.170027552574,World Bank EdStats (OECD PISA),True
+HUN,Hungary,mathematics,2012,477.044455015488,World Bank EdStats (OECD PISA),True
+HUN,Hungary,mathematics,2015,476.8309,World Bank EdStats (OECD PISA),True
+HUN,Hungary,mathematics,2018,481.082636356244,World Bank EdStats (OECD PISA),True
+HUN,,mathematics,2022,473.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+HUN,,mathematics,2025,459.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+IDN,Indonesia,mathematics,2000,367.0,World Bank EdStats (OECD PISA),False
+IDN,Indonesia,mathematics,2003,360.15883202,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,mathematics,2006,391.006808155728,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,mathematics,2009,371.300931028396,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,mathematics,2012,375.114451681748,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,mathematics,2015,386.1096,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,mathematics,2018,378.66813229903,World Bank EdStats (OECD PISA),True
+IRL,Ireland,mathematics,2000,503.0,World Bank EdStats (OECD PISA),False
+IRL,Ireland,mathematics,2003,502.83731928,World Bank EdStats (OECD PISA),True
+IRL,Ireland,mathematics,2006,501.471771448555,World Bank EdStats (OECD PISA),True
+IRL,Ireland,mathematics,2009,487.136375242208,World Bank EdStats (OECD PISA),True
+IRL,Ireland,mathematics,2012,501.497460196644,World Bank EdStats (OECD PISA),True
+IRL,Ireland,mathematics,2015,503.722,World Bank EdStats (OECD PISA),True
+IRL,Ireland,mathematics,2018,499.632894037668,World Bank EdStats (OECD PISA),True
+IRL,,mathematics,2022,492.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+IRL,,mathematics,2025,480.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+ISL,Iceland,mathematics,2000,514.0,World Bank EdStats (OECD PISA),False
+ISL,Iceland,mathematics,2003,515.10865002,World Bank EdStats (OECD PISA),True
+ISL,Iceland,mathematics,2006,505.544828410484,World Bank EdStats (OECD PISA),True
+ISL,Iceland,mathematics,2009,506.669163647384,World Bank EdStats (OECD PISA),True
+ISL,Iceland,mathematics,2012,492.795697239492,World Bank EdStats (OECD PISA),True
+ISL,Iceland,mathematics,2015,488.0332,World Bank EdStats (OECD PISA),True
+ISL,Iceland,mathematics,2018,495.187376173876,World Bank EdStats (OECD PISA),True
+ISL,,mathematics,2022,459.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+ISL,,mathematics,2025,450.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+ISR,Israel,mathematics,2000,433.0,World Bank EdStats (OECD PISA),False
+ISR,Israel,mathematics,2006,441.858727903981,World Bank EdStats (OECD PISA),True
+ISR,Israel,mathematics,2009,446.863763843156,World Bank EdStats (OECD PISA),True
+ISR,Israel,mathematics,2012,466.48143014931,World Bank EdStats (OECD PISA),True
+ISR,Israel,mathematics,2015,469.6695,World Bank EdStats (OECD PISA),True
+ISR,Israel,mathematics,2018,463.034548920455,World Bank EdStats (OECD PISA),True
+ISR,,mathematics,2022,458.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+ISR,,mathematics,2025,433.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+ITA,Italy,mathematics,2000,457.0,World Bank EdStats (OECD PISA),False
+ITA,Italy,mathematics,2003,465.66421009,World Bank EdStats (OECD PISA),True
+ITA,Italy,mathematics,2006,461.6887207488,World Bank EdStats (OECD PISA),True
+ITA,Italy,mathematics,2009,482.908480430536,World Bank EdStats (OECD PISA),True
+ITA,Italy,mathematics,2012,485.321181012553,World Bank EdStats (OECD PISA),True
+ITA,Italy,mathematics,2015,489.7287,World Bank EdStats (OECD PISA),True
+ITA,Italy,mathematics,2018,486.58985801291,World Bank EdStats (OECD PISA),True
+ITA,,mathematics,2022,471.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+ITA,,mathematics,2025,468.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+JOR,Jordan,mathematics,2006,384.036051743871,World Bank EdStats (OECD PISA),True
+JOR,Jordan,mathematics,2009,386.663814038424,World Bank EdStats (OECD PISA),True
+JOR,Jordan,mathematics,2012,385.595556395556,World Bank EdStats (OECD PISA),True
+JOR,Jordan,mathematics,2015,380.259,World Bank EdStats (OECD PISA),True
+JOR,Jordan,mathematics,2018,399.761909259239,World Bank EdStats (OECD PISA),True
+JPN,Japan,mathematics,2000,557.0,World Bank EdStats (OECD PISA),False
+JPN,Japan,mathematics,2003,534.13650157,World Bank EdStats (OECD PISA),True
+JPN,Japan,mathematics,2006,523.102514943,World Bank EdStats (OECD PISA),True
+JPN,Japan,mathematics,2009,528.993093000261,World Bank EdStats (OECD PISA),True
+JPN,Japan,mathematics,2012,536.406918234208,World Bank EdStats (OECD PISA),True
+JPN,Japan,mathematics,2015,532.4399,World Bank EdStats (OECD PISA),True
+JPN,Japan,mathematics,2018,526.973250496982,World Bank EdStats (OECD PISA),True
+JPN,,mathematics,2022,536.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+JPN,,mathematics,2025,525.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+KAZ,Kazakhstan,mathematics,2009,404.884692108979,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,mathematics,2012,431.798408505079,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,mathematics,2015,459.816,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,mathematics,2018,423.146133028156,World Bank EdStats (OECD PISA),True
+KGZ,Kyrgyz Republic,mathematics,2006,310.583831232792,World Bank EdStats (OECD PISA),True
+KGZ,Kyrgyz Republic,mathematics,2009,331.155509168733,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",mathematics,2000,547.0,World Bank EdStats (OECD PISA),False
+KOR,"Korea, Rep.",mathematics,2003,542.22736945,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",mathematics,2006,547.45847869132,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",mathematics,2009,546.228534071986,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",mathematics,2012,553.766659143614,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",mathematics,2015,524.1062,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",mathematics,2018,525.933001858893,World Bank EdStats (OECD PISA),True
+KOR,,mathematics,2022,527.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+KOR,,mathematics,2025,522.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+LBN,Lebanon,mathematics,2015,396.2497,World Bank EdStats (OECD PISA),True
+LBN,Lebanon,mathematics,2018,393.450054210452,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,mathematics,2000,514.0,World Bank EdStats (OECD PISA),False
+LIE,Liechtenstein,mathematics,2003,535.79542231,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,mathematics,2006,524.967426229619,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,mathematics,2009,536.048468409449,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,mathematics,2012,534.96508297892,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,mathematics,2006,486.421335278023,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,mathematics,2009,476.602303092852,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,mathematics,2012,478.823277433358,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,mathematics,2015,478.3834,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,mathematics,2018,481.191188294563,World Bank EdStats (OECD PISA),True
+LTU,,mathematics,2022,475.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+LTU,,mathematics,2025,470.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+LUX,Luxembourg,mathematics,2000,446.0,World Bank EdStats (OECD PISA),False
+LUX,Luxembourg,mathematics,2003,493.20855665,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,mathematics,2006,490.001840614221,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,mathematics,2009,489.067263408096,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,mathematics,2012,489.845098037208,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,mathematics,2015,485.7706,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,mathematics,2018,483.421485222719,World Bank EdStats (OECD PISA),True
+LUX,,mathematics,2025,458.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+LVA,Latvia,mathematics,2000,463.0,World Bank EdStats (OECD PISA),False
+LVA,Latvia,mathematics,2003,483.37494854,World Bank EdStats (OECD PISA),True
+LVA,Latvia,mathematics,2006,486.166083936096,World Bank EdStats (OECD PISA),True
+LVA,Latvia,mathematics,2009,481.953822620897,World Bank EdStats (OECD PISA),True
+LVA,Latvia,mathematics,2012,490.571021411359,World Bank EdStats (OECD PISA),True
+LVA,Latvia,mathematics,2015,482.3051,World Bank EdStats (OECD PISA),True
+LVA,Latvia,mathematics,2018,496.126330696125,World Bank EdStats (OECD PISA),True
+LVA,,mathematics,2022,483.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+LVA,,mathematics,2025,460.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+MAC,"Macao SAR, China",mathematics,2003,527.27028125,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",mathematics,2006,525.002508894544,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",mathematics,2009,525.28302277123,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",mathematics,2012,538.134494733918,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",mathematics,2015,543.8078,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",mathematics,2018,557.670230369385,World Bank EdStats (OECD PISA),True
+MAR,Morocco,mathematics,2018,367.727352665866,World Bank EdStats (OECD PISA),True
+MDA,Moldova,mathematics,2009,397.49208590048,World Bank EdStats (OECD PISA),True
+MDA,Moldova,mathematics,2015,419.6635,World Bank EdStats (OECD PISA),True
+MDA,Moldova,mathematics,2018,420.60399887257,World Bank EdStats (OECD PISA),True
+MEX,Mexico,mathematics,2000,387.0,World Bank EdStats (OECD PISA),False
+MEX,Mexico,mathematics,2003,385.21833947,World Bank EdStats (OECD PISA),True
+MEX,Mexico,mathematics,2006,405.654640128628,World Bank EdStats (OECD PISA),True
+MEX,Mexico,mathematics,2009,418.509094759118,World Bank EdStats (OECD PISA),True
+MEX,Mexico,mathematics,2012,413.281466667708,World Bank EdStats (OECD PISA),True
+MEX,Mexico,mathematics,2015,408.0235,World Bank EdStats (OECD PISA),True
+MEX,Mexico,mathematics,2018,408.801473754761,World Bank EdStats (OECD PISA),True
+MEX,,mathematics,2022,395.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+MEX,,mathematics,2025,388.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+MKD,North Macedonia,mathematics,2000,381.0,World Bank EdStats (OECD PISA),False
+MKD,North Macedonia,mathematics,2015,371.3114,World Bank EdStats (OECD PISA),True
+MKD,North Macedonia,mathematics,2018,394.446829905941,World Bank EdStats (OECD PISA),True
+MLT,Malta,mathematics,2009,462.876202317358,World Bank EdStats (OECD PISA),True
+MLT,Malta,mathematics,2015,478.6448,World Bank EdStats (OECD PISA),True
+MLT,Malta,mathematics,2018,471.724415048656,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,mathematics,2006,399.307688416232,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,mathematics,2009,402.515364052492,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,mathematics,2012,409.626613284347,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,mathematics,2015,417.9341,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,mathematics,2018,429.611542426079,World Bank EdStats (OECD PISA),True
+MUS,Mauritius,mathematics,2009,419.997147621666,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,mathematics,2009,404.258132521407,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,mathematics,2012,420.512967619053,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,mathematics,2015,446.1098,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,mathematics,2018,440.207536711111,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,mathematics,2003,537.823276,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,mathematics,2006,530.654046305865,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,mathematics,2009,525.835688380923,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,mathematics,2012,522.971758192681,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,mathematics,2015,512.2528,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,mathematics,2018,519.230982676559,World Bank EdStats (OECD PISA),True
+NLD,,mathematics,2022,493.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+NLD,,mathematics,2025,483.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+NOR,Norway,mathematics,2000,499.0,World Bank EdStats (OECD PISA),False
+NOR,Norway,mathematics,2003,495.18539049,World Bank EdStats (OECD PISA),True
+NOR,Norway,mathematics,2006,489.846353500994,World Bank EdStats (OECD PISA),True
+NOR,Norway,mathematics,2009,497.955693105616,World Bank EdStats (OECD PISA),True
+NOR,Norway,mathematics,2012,489.373070348755,World Bank EdStats (OECD PISA),True
+NOR,Norway,mathematics,2015,501.7298,World Bank EdStats (OECD PISA),True
+NOR,Norway,mathematics,2018,500.963788355953,World Bank EdStats (OECD PISA),True
+NOR,,mathematics,2022,468.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+NOR,,mathematics,2025,452.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+NZL,New Zealand,mathematics,2000,537.0,World Bank EdStats (OECD PISA),False
+NZL,New Zealand,mathematics,2003,523.48658471,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,mathematics,2006,521.988848810814,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,mathematics,2009,519.300872489045,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,mathematics,2012,499.749902827586,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,mathematics,2015,495.2233,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,mathematics,2018,494.489675979207,World Bank EdStats (OECD PISA),True
+NZL,,mathematics,2022,479.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+NZL,,mathematics,2025,480.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+OED,OECD members,mathematics,2018,489.286640086271,World Bank EdStats (OECD PISA),True
+PAN,Panama,mathematics,2009,359.748159069997,World Bank EdStats (OECD PISA),True
+PAN,Panama,mathematics,2018,352.846255737029,World Bank EdStats (OECD PISA),True
+PER,Peru,mathematics,2000,292.0,World Bank EdStats (OECD PISA),False
+PER,Peru,mathematics,2009,365.107272239707,World Bank EdStats (OECD PISA),True
+PER,Peru,mathematics,2012,368.102547127356,World Bank EdStats (OECD PISA),True
+PER,Peru,mathematics,2015,386.5606,World Bank EdStats (OECD PISA),True
+PER,Peru,mathematics,2018,399.837674812822,World Bank EdStats (OECD PISA),True
+PHL,Philippines,mathematics,2018,352.567067100026,World Bank EdStats (OECD PISA),True
+POL,Poland,mathematics,2000,470.0,World Bank EdStats (OECD PISA),False
+POL,Poland,mathematics,2003,490.23877608,World Bank EdStats (OECD PISA),True
+POL,Poland,mathematics,2006,495.428497326879,World Bank EdStats (OECD PISA),True
+POL,Poland,mathematics,2009,494.802918517109,World Bank EdStats (OECD PISA),True
+POL,Poland,mathematics,2012,517.501096817955,World Bank EdStats (OECD PISA),True
+POL,Poland,mathematics,2015,504.4693,World Bank EdStats (OECD PISA),True
+POL,Poland,mathematics,2018,515.647874629692,World Bank EdStats (OECD PISA),True
+POL,,mathematics,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+POL,,mathematics,2025,484.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+PRT,Portugal,mathematics,2000,454.0,World Bank EdStats (OECD PISA),False
+PRT,Portugal,mathematics,2003,466.0166947,World Bank EdStats (OECD PISA),True
+PRT,Portugal,mathematics,2006,466.160985842381,World Bank EdStats (OECD PISA),True
+PRT,Portugal,mathematics,2009,486.888306098136,World Bank EdStats (OECD PISA),True
+PRT,Portugal,mathematics,2012,487.063181343903,World Bank EdStats (OECD PISA),True
+PRT,Portugal,mathematics,2015,491.627,World Bank EdStats (OECD PISA),True
+PRT,Portugal,mathematics,2018,492.487406111793,World Bank EdStats (OECD PISA),True
+PRT,,mathematics,2022,472.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+PRT,,mathematics,2025,460.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+QAT,Qatar,mathematics,2006,317.955651981689,World Bank EdStats (OECD PISA),True
+QAT,Qatar,mathematics,2009,368.11248736586,World Bank EdStats (OECD PISA),True
+QAT,Qatar,mathematics,2012,376.4483986347,World Bank EdStats (OECD PISA),True
+QAT,Qatar,mathematics,2015,402.4007,World Bank EdStats (OECD PISA),True
+QAT,Qatar,mathematics,2018,414.228717674268,World Bank EdStats (OECD PISA),True
+ROU,Romania,mathematics,2000,426.0,World Bank EdStats (OECD PISA),False
+ROU,Romania,mathematics,2006,414.795950824349,World Bank EdStats (OECD PISA),True
+ROU,Romania,mathematics,2009,427.079175668867,World Bank EdStats (OECD PISA),True
+ROU,Romania,mathematics,2012,444.554242787643,World Bank EdStats (OECD PISA),True
+ROU,Romania,mathematics,2015,443.9543,World Bank EdStats (OECD PISA),True
+ROU,Romania,mathematics,2018,429.916827074466,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,mathematics,2000,478.0,World Bank EdStats (OECD PISA),False
+RUS,Russian Federation,mathematics,2003,468.40665402,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,mathematics,2006,475.679075503022,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,mathematics,2009,467.812209196419,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,mathematics,2012,482.169415663317,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,mathematics,2015,494.06,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,mathematics,2018,487.786538734327,World Bank EdStats (OECD PISA),True
+SAU,Saudi Arabia,mathematics,2018,373.238805740542,World Bank EdStats (OECD PISA),True
+SGP,Singapore,mathematics,2009,562.018741233995,World Bank EdStats (OECD PISA),True
+SGP,Singapore,mathematics,2012,573.46831429664,World Bank EdStats (OECD PISA),True
+SGP,Singapore,mathematics,2015,564.1897,World Bank EdStats (OECD PISA),True
+SGP,Singapore,mathematics,2018,569.007779801712,World Bank EdStats (OECD PISA),True
+SRB,Serbia,mathematics,2003,436.871283,World Bank EdStats (OECD PISA),True
+SRB,Serbia,mathematics,2006,435.375332266976,World Bank EdStats (OECD PISA),True
+SRB,Serbia,mathematics,2009,442.381888696287,World Bank EdStats (OECD PISA),True
+SRB,Serbia,mathematics,2012,448.859130247605,World Bank EdStats (OECD PISA),True
+SRB,Serbia,mathematics,2018,448.283056298284,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,mathematics,2003,498.18345599,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,mathematics,2006,492.106237695083,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,mathematics,2009,496.683420165049,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,mathematics,2012,481.644744006325,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,mathematics,2015,475.2301,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,mathematics,2018,486.164854293562,World Bank EdStats (OECD PISA),True
+SVK,,mathematics,2022,464.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+SVK,,mathematics,2025,469.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+SVN,Slovenia,mathematics,2006,504.455963888639,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,mathematics,2009,501.472389492358,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,mathematics,2012,501.127422390952,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,mathematics,2015,509.9196,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,mathematics,2018,508.897544084895,World Bank EdStats (OECD PISA),True
+SVN,,mathematics,2022,485.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+SVN,,mathematics,2025,460.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+SWE,Sweden,mathematics,2000,510.0,World Bank EdStats (OECD PISA),False
+SWE,Sweden,mathematics,2003,509.04644872,World Bank EdStats (OECD PISA),True
+SWE,Sweden,mathematics,2006,502.356398784186,World Bank EdStats (OECD PISA),True
+SWE,Sweden,mathematics,2009,494.238175422399,World Bank EdStats (OECD PISA),True
+SWE,Sweden,mathematics,2012,478.260635903011,World Bank EdStats (OECD PISA),True
+SWE,Sweden,mathematics,2015,493.9181,World Bank EdStats (OECD PISA),True
+SWE,Sweden,mathematics,2018,502.387702056848,World Bank EdStats (OECD PISA),True
+SWE,,mathematics,2022,482.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+SWE,,mathematics,2025,464.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+THA,Thailand,mathematics,2000,432.0,World Bank EdStats (OECD PISA),False
+THA,Thailand,mathematics,2003,416.97796032,World Bank EdStats (OECD PISA),True
+THA,Thailand,mathematics,2006,417.072614307273,World Bank EdStats (OECD PISA),True
+THA,Thailand,mathematics,2009,418.583934960989,World Bank EdStats (OECD PISA),True
+THA,Thailand,mathematics,2012,426.737491293011,World Bank EdStats (OECD PISA),True
+THA,Thailand,mathematics,2015,415.4638,World Bank EdStats (OECD PISA),True
+THA,Thailand,mathematics,2018,418.5555016796,World Bank EdStats (OECD PISA),True
+TTO,Trinidad and Tobago,mathematics,2009,414.044966735268,World Bank EdStats (OECD PISA),True
+TTO,Trinidad and Tobago,mathematics,2015,417.2434,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,mathematics,2003,358.73322223,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,mathematics,2006,365.479374956925,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,mathematics,2009,371.483502976705,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,mathematics,2012,387.824629620248,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,mathematics,2015,366.818,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,mathematics,2003,423.41941,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,mathematics,2006,423.941190139335,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,mathematics,2009,445.451340241439,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,mathematics,2012,447.984414978955,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,mathematics,2015,420.454,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,mathematics,2018,453.507777946146,World Bank EdStats (OECD PISA),True
+TUR,,mathematics,2022,453.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+TUR,,mathematics,2025,462.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+UKR,Ukraine,mathematics,2018,453.117498927934,World Bank EdStats (OECD PISA),True
+URY,Uruguay,mathematics,2003,422.19987928,World Bank EdStats (OECD PISA),True
+URY,Uruguay,mathematics,2006,426.79904085015,World Bank EdStats (OECD PISA),True
+URY,Uruguay,mathematics,2009,426.723772663418,World Bank EdStats (OECD PISA),True
+URY,Uruguay,mathematics,2012,409.291567937716,World Bank EdStats (OECD PISA),True
+URY,Uruguay,mathematics,2015,417.9919,World Bank EdStats (OECD PISA),True
+URY,Uruguay,mathematics,2018,417.66161727969,World Bank EdStats (OECD PISA),True
+USA,United States,mathematics,2000,493.0,World Bank EdStats (OECD PISA),False
+USA,United States,mathematics,2003,482.88503847,World Bank EdStats (OECD PISA),True
+USA,United States,mathematics,2006,474.352157500162,World Bank EdStats (OECD PISA),True
+USA,United States,mathematics,2009,487.396520406538,World Bank EdStats (OECD PISA),True
+USA,United States,mathematics,2012,481.366786279212,World Bank EdStats (OECD PISA),True
+USA,United States,mathematics,2015,469.6285,World Bank EdStats (OECD PISA),True
+USA,United States,mathematics,2018,478.244717377205,World Bank EdStats (OECD PISA),True
+USA,,mathematics,2022,465.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Mathematics 2022[42] Score'],True
+USA,,mathematics,2025,463.0,https://eduscores.org/pisa-math-scores/ [colonne 'PISA 2025 math score' choisie par ancre France=458],True
+VNM,Viet Nam,mathematics,2012,511.338207501184,World Bank EdStats (OECD PISA),True
+VNM,Viet Nam,mathematics,2015,494.5183,World Bank EdStats (OECD PISA),True
+VNM,Viet Nam,mathematics,2018,495.675427482772,World Bank EdStats (OECD PISA),True
+XKX,Kosovo,mathematics,2015,361.534,World Bank EdStats (OECD PISA),True
+XKX,Kosovo,mathematics,2018,365.884946677861,World Bank EdStats (OECD PISA),True
+ALB,Albania,reading,2000,348.849512401475,World Bank EdStats (OECD PISA),True
+ALB,Albania,reading,2009,384.81660237996,World Bank EdStats (OECD PISA),True
+ALB,Albania,reading,2012,393.964251939227,World Bank EdStats (OECD PISA),True
+ALB,Albania,reading,2015,405.2588,World Bank EdStats (OECD PISA),True
+ALB,Albania,reading,2018,405.429366278381,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,reading,2009,431.41611212018,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,reading,2012,441.703736076255,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,reading,2015,433.5423,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,reading,2018,431.78176943112,World Bank EdStats (OECD PISA),True
+ARG,Argentina,reading,2000,418.250700347196,World Bank EdStats (OECD PISA),True
+ARG,Argentina,reading,2006,373.723771602817,World Bank EdStats (OECD PISA),True
+ARG,Argentina,reading,2009,398.260879991497,World Bank EdStats (OECD PISA),True
+ARG,Argentina,reading,2012,395.979122702168,World Bank EdStats (OECD PISA),True
+ARG,Argentina,reading,2015,425.3031,World Bank EdStats (OECD PISA),True
+ARG,Argentina,reading,2018,401.503108807317,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2000,528.278504417824,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2003,525.42700665,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2006,512.893291356557,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2009,514.900655197261,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2012,511.803997666501,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2015,502.9006,World Bank EdStats (OECD PISA),True
+AUS,Australia,reading,2018,502.63172442266,World Bank EdStats (OECD PISA),True
+AUS,,reading,2022,498.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+AUS,,reading,2025,491.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+AUT,Austria,reading,2000,507.0,World Bank EdStats (OECD PISA),True
+AUT,Austria,reading,2003,490.69324044,World Bank EdStats (OECD PISA),True
+AUT,Austria,reading,2006,490.193977266589,World Bank EdStats (OECD PISA),True
+AUT,Austria,reading,2009,470.283631981007,World Bank EdStats (OECD PISA),True
+AUT,Austria,reading,2012,489.609335384385,World Bank EdStats (OECD PISA),True
+AUT,Austria,reading,2015,484.8656,World Bank EdStats (OECD PISA),True
+AUT,Austria,reading,2018,484.392568511997,World Bank EdStats (OECD PISA),True
+AUT,,reading,2022,480.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+AUT,,reading,2025,467.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+AZE,Azerbaijan,reading,2006,352.891851458003,World Bank EdStats (OECD PISA),True
+AZE,Azerbaijan,reading,2009,361.51531758916,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2000,507.125890529986,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2003,506.98732942,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2006,500.900594724678,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2009,505.945796158684,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2012,508.617876321039,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2015,498.5242,World Bank EdStats (OECD PISA),True
+BEL,Belgium,reading,2018,492.864438603842,World Bank EdStats (OECD PISA),True
+BEL,,reading,2022,479.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+BEL,,reading,2025,466.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+BGR,Bulgaria,reading,2000,430.403432839449,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,reading,2006,401.934980167519,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,reading,2009,429.081086959532,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,reading,2012,436.125725278661,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,reading,2015,431.7175,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,reading,2018,419.844005964249,World Bank EdStats (OECD PISA),True
+BIH,Bosnia and Herzegovina,reading,2018,402.977821260903,World Bank EdStats (OECD PISA),True
+BLR,Belarus,reading,2018,473.788446933152,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2000,396.029083682819,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2003,402.79628397,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2006,392.88511252389,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2009,411.754927512485,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2012,410.121847655763,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2015,407.3486,World Bank EdStats (OECD PISA),True
+BRA,Brazil,reading,2018,412.87331668525,World Bank EdStats (OECD PISA),True
+BRN,Brunei Darussalam,reading,2018,408.069944019334,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2000,534.312719063114,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2003,527.91361168,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2006,527.01129533033,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2009,524.241833408575,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2012,523.116718421554,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2015,526.6678,World Bank EdStats (OECD PISA),True
+CAN,Canada,reading,2018,520.085520926521,World Bank EdStats (OECD PISA),True
+CAN,,reading,2022,507.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+CAN,,reading,2025,490.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+CHE,Switzerland,reading,2000,494.371619230351,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,reading,2003,499.12139818,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,reading,2006,499.277783471816,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,reading,2009,500.500211859255,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,reading,2012,509.040249712519,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,reading,2015,492.1982,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,reading,2018,483.929405145339,World Bank EdStats (OECD PISA),True
+CHE,,reading,2022,483.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+CHE,,reading,2025,470.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+CHL,Chile,reading,2000,409.556782025629,World Bank EdStats (OECD PISA),True
+CHL,Chile,reading,2006,442.091345938587,World Bank EdStats (OECD PISA),True
+CHL,Chile,reading,2009,449.369606817505,World Bank EdStats (OECD PISA),True
+CHL,Chile,reading,2012,441.398163345356,World Bank EdStats (OECD PISA),True
+CHL,Chile,reading,2015,458.5709,World Bank EdStats (OECD PISA),True
+CHL,Chile,reading,2018,452.27255409198,World Bank EdStats (OECD PISA),True
+CHL,,reading,2022,448.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+CHL,,reading,2025,436.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+CHN,China,reading,2009,555.828113350873,World Bank EdStats (OECD PISA),True
+CHN,China,reading,2012,569.588407749006,World Bank EdStats (OECD PISA),True
+CHN,China,reading,2015,493.9412,World Bank EdStats (OECD PISA),True
+CHN,China,reading,2018,555.236243587507,World Bank EdStats (OECD PISA),True
+COL,Colombia,reading,2006,385.308038214618,World Bank EdStats (OECD PISA),True
+COL,Colombia,reading,2009,413.181499141822,World Bank EdStats (OECD PISA),True
+COL,Colombia,reading,2012,403.402534102204,World Bank EdStats (OECD PISA),True
+COL,Colombia,reading,2015,424.9052,World Bank EdStats (OECD PISA),True
+COL,Colombia,reading,2018,412.295085675563,World Bank EdStats (OECD PISA),True
+COL,,reading,2022,409.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+COL,,reading,2025,399.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+CRI,Costa Rica,reading,2009,442.58094355888,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,reading,2012,440.547810670284,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,reading,2015,427.4875,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,reading,2018,426.498225007361,World Bank EdStats (OECD PISA),True
+CRI,,reading,2022,415.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+CRI,,reading,2025,416.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+CYP,Cyprus,reading,2012,448.952978703588,World Bank EdStats (OECD PISA),True
+CYP,Cyprus,reading,2015,442.8443,World Bank EdStats (OECD PISA),True
+CYP,Cyprus,reading,2018,424.358247216819,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2000,491.577032105768,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2003,488.54228438,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2006,482.715162095089,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2009,478.186720579341,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2012,492.889738211482,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2015,487.2501,World Bank EdStats (OECD PISA),True
+CZE,Czechia,reading,2018,490.218815026372,World Bank EdStats (OECD PISA),True
+CZE,,reading,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+CZE,,reading,2025,468.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+DEU,Germany,reading,2000,483.990823766235,World Bank EdStats (OECD PISA),True
+DEU,Germany,reading,2003,491.35799852,World Bank EdStats (OECD PISA),True
+DEU,Germany,reading,2006,494.944417879441,World Bank EdStats (OECD PISA),True
+DEU,Germany,reading,2009,497.305058150888,World Bank EdStats (OECD PISA),True
+DEU,Germany,reading,2012,507.676529765533,World Bank EdStats (OECD PISA),True
+DEU,Germany,reading,2015,509.1041,World Bank EdStats (OECD PISA),True
+DEU,Germany,reading,2018,498.279256429592,World Bank EdStats (OECD PISA),True
+DEU,,reading,2022,480.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+DEU,,reading,2025,465.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+DNK,Denmark,reading,2000,496.870966321126,World Bank EdStats (OECD PISA),True
+DNK,Denmark,reading,2003,492.32337925,World Bank EdStats (OECD PISA),True
+DNK,Denmark,reading,2006,494.482980693314,World Bank EdStats (OECD PISA),True
+DNK,Denmark,reading,2009,494.916161796397,World Bank EdStats (OECD PISA),True
+DNK,Denmark,reading,2012,496.130881383569,World Bank EdStats (OECD PISA),True
+DNK,Denmark,reading,2015,499.8146,World Bank EdStats (OECD PISA),True
+DNK,Denmark,reading,2018,501.129933774048,World Bank EdStats (OECD PISA),True
+DNK,,reading,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+DNK,,reading,2025,460.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+DOM,Dominican Republic,reading,2015,357.7377,World Bank EdStats (OECD PISA),True
+DOM,Dominican Republic,reading,2018,341.625620743964,World Bank EdStats (OECD PISA),True
+DZA,Algeria,reading,2015,349.8593,World Bank EdStats (OECD PISA),True
+ESP,Spain,reading,2000,492.552969160095,World Bank EdStats (OECD PISA),True
+ESP,Spain,reading,2003,480.53799047,World Bank EdStats (OECD PISA),True
+ESP,Spain,reading,2006,460.830112097119,World Bank EdStats (OECD PISA),True
+ESP,Spain,reading,2009,481.042326052625,World Bank EdStats (OECD PISA),True
+ESP,Spain,reading,2012,487.939181597799,World Bank EdStats (OECD PISA),True
+ESP,Spain,reading,2015,495.5764,World Bank EdStats (OECD PISA),True
+ESP,,reading,2022,474.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+ESP,,reading,2025,451.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+EST,Estonia,reading,2006,500.749761732584,World Bank EdStats (OECD PISA),True
+EST,Estonia,reading,2009,500.961865512048,World Bank EdStats (OECD PISA),True
+EST,Estonia,reading,2012,516.294184313067,World Bank EdStats (OECD PISA),True
+EST,Estonia,reading,2015,519.1429,World Bank EdStats (OECD PISA),True
+EST,Estonia,reading,2018,523.017018425265,World Bank EdStats (OECD PISA),True
+EST,,reading,2022,511.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+EST,,reading,2025,499.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+FIN,Finland,reading,2000,546.469144622958,World Bank EdStats (OECD PISA),True
+FIN,Finland,reading,2003,543.46254327,World Bank EdStats (OECD PISA),True
+FIN,Finland,reading,2006,546.868281359491,World Bank EdStats (OECD PISA),True
+FIN,Finland,reading,2009,535.877984494657,World Bank EdStats (OECD PISA),True
+FIN,Finland,reading,2012,524.021669693511,World Bank EdStats (OECD PISA),True
+FIN,Finland,reading,2015,526.4247,World Bank EdStats (OECD PISA),True
+FIN,Finland,reading,2018,520.078748316689,World Bank EdStats (OECD PISA),True
+FIN,,reading,2022,490.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+FIN,,reading,2025,474.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+FRA,France,reading,2000,504.742388238491,World Bank EdStats (OECD PISA),True
+FRA,France,reading,2003,496.18878489,World Bank EdStats (OECD PISA),True
+FRA,France,reading,2006,487.706247187242,World Bank EdStats (OECD PISA),True
+FRA,France,reading,2009,495.616541310945,World Bank EdStats (OECD PISA),True
+FRA,France,reading,2012,505.481483378022,World Bank EdStats (OECD PISA),True
+FRA,France,reading,2015,499.3061,World Bank EdStats (OECD PISA),True
+FRA,France,reading,2018,492.606481334553,World Bank EdStats (OECD PISA),True
+FRA,,reading,2022,474.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+FRA,,reading,2025,456.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+GBR,United Kingdom,reading,2000,523.0,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,reading,2003,507.01274867,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,reading,2006,495.083509651635,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,reading,2009,494.182010308355,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,reading,2012,499.323115130356,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,reading,2015,497.9719,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,reading,2018,503.928109206045,World Bank EdStats (OECD PISA),True
+GBR,,reading,2022,494.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+GBR,,reading,2025,494.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+GEO,Georgia,reading,2009,374.259872595934,World Bank EdStats (OECD PISA),True
+GEO,Georgia,reading,2015,401.2881,World Bank EdStats (OECD PISA),True
+GEO,Georgia,reading,2018,379.752540646346,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2000,473.798851486914,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2003,472.2668764,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2006,459.711184455055,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2009,482.776241961289,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2012,477.197176517918,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2015,467.0395,World Bank EdStats (OECD PISA),True
+GRC,Greece,reading,2018,457.414394703693,World Bank EdStats (OECD PISA),True
+GRC,,reading,2022,438.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+GRC,,reading,2025,423.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+HKG,"Hong Kong SAR, China",reading,2000,525.455904827611,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",reading,2003,509.53515028,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",reading,2006,536.065566133305,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",reading,2009,533.151268024706,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",reading,2012,544.60008598693,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",reading,2015,526.6753,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",reading,2018,524.28311715195,World Bank EdStats (OECD PISA),True
+HRV,Croatia,reading,2006,477.364237965249,World Bank EdStats (OECD PISA),True
+HRV,Croatia,reading,2009,475.74888637867,World Bank EdStats (OECD PISA),True
+HRV,Croatia,reading,2012,484.565032125693,World Bank EdStats (OECD PISA),True
+HRV,Croatia,reading,2015,486.8632,World Bank EdStats (OECD PISA),True
+HRV,Croatia,reading,2018,478.989152395076,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2000,479.966777817182,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2003,481.86969443,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2006,482.374517349591,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2009,494.178753343222,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2012,488.461333958455,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2015,469.5233,World Bank EdStats (OECD PISA),True
+HUN,Hungary,reading,2018,475.986672245033,World Bank EdStats (OECD PISA),True
+HUN,,reading,2022,473.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+HUN,,reading,2025,452.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+IDN,Indonesia,reading,2000,370.614663986579,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,reading,2003,381.59036213,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,reading,2006,392.932829930045,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,reading,2009,401.705195705234,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,reading,2012,396.120094523136,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,reading,2015,397.2595,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,reading,2018,370.965381846226,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2000,526.668649337734,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2003,515.4800767,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2006,517.313238144047,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2009,495.639108774544,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2012,523.17321024093,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2015,520.8148,World Bank EdStats (OECD PISA),True
+IRL,Ireland,reading,2018,518.078459119394,World Bank EdStats (OECD PISA),True
+IRL,,reading,2022,516.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+IRL,,reading,2025,500.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+ISL,Iceland,reading,2000,506.930461477908,World Bank EdStats (OECD PISA),True
+ISL,Iceland,reading,2003,491.74696007,World Bank EdStats (OECD PISA),True
+ISL,Iceland,reading,2006,484.44527152967,World Bank EdStats (OECD PISA),True
+ISL,Iceland,reading,2009,500.283319256307,World Bank EdStats (OECD PISA),True
+ISL,Iceland,reading,2012,482.522439928253,World Bank EdStats (OECD PISA),True
+ISL,Iceland,reading,2015,481.5255,World Bank EdStats (OECD PISA),True
+ISL,Iceland,reading,2018,473.974316767345,World Bank EdStats (OECD PISA),True
+ISL,,reading,2022,436.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+ISL,,reading,2025,422.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+ISR,Israel,reading,2000,452.17240396986,World Bank EdStats (OECD PISA),True
+ISR,Israel,reading,2006,438.672275781523,World Bank EdStats (OECD PISA),True
+ISR,Israel,reading,2009,473.98995043365,World Bank EdStats (OECD PISA),True
+ISR,Israel,reading,2012,485.803212444044,World Bank EdStats (OECD PISA),True
+ISR,Israel,reading,2015,478.9606,World Bank EdStats (OECD PISA),True
+ISR,Israel,reading,2018,470.415177979245,World Bank EdStats (OECD PISA),True
+ISR,,reading,2022,474.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+ISR,,reading,2025,436.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+ITA,Italy,reading,2000,487.469645338731,World Bank EdStats (OECD PISA),True
+ITA,Italy,reading,2003,475.66158083,World Bank EdStats (OECD PISA),True
+ITA,Italy,reading,2006,468.523108602033,World Bank EdStats (OECD PISA),True
+ITA,Italy,reading,2009,486.051098781548,World Bank EdStats (OECD PISA),True
+ITA,Italy,reading,2012,489.754403284842,World Bank EdStats (OECD PISA),True
+ITA,Italy,reading,2015,484.758,World Bank EdStats (OECD PISA),True
+ITA,Italy,reading,2018,476.284679692667,World Bank EdStats (OECD PISA),True
+ITA,,reading,2022,482.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+ITA,,reading,2025,474.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+JOR,Jordan,reading,2006,400.581237817808,World Bank EdStats (OECD PISA),True
+JOR,Jordan,reading,2009,405.009317401646,World Bank EdStats (OECD PISA),True
+JOR,Jordan,reading,2012,399.03474710354,World Bank EdStats (OECD PISA),True
+JOR,Jordan,reading,2015,408.1022,World Bank EdStats (OECD PISA),True
+JOR,Jordan,reading,2018,419.063660710194,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2000,522.234928494961,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2003,498.10520584,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2006,497.957068674967,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2009,519.857722388684,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2012,538.051484829528,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2015,515.9585,World Bank EdStats (OECD PISA),True
+JPN,Japan,reading,2018,503.856041309186,World Bank EdStats (OECD PISA),True
+JPN,,reading,2022,516.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+JPN,,reading,2025,503.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+KAZ,Kazakhstan,reading,2009,390.410076536851,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,reading,2012,392.736233327227,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,reading,2015,427.141,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,reading,2018,386.909274699556,World Bank EdStats (OECD PISA),True
+KGZ,Kyrgyz Republic,reading,2006,284.706591363334,World Bank EdStats (OECD PISA),True
+KGZ,Kyrgyz Republic,reading,2009,314.019885623077,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2000,524.754298913351,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2003,534.09126443,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2006,556.021910226254,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2009,539.267483427654,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2012,535.79049035633,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2015,517.4367,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",reading,2018,514.052287958269,World Bank EdStats (OECD PISA),True
+KOR,,reading,2022,515.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+KOR,,reading,2025,501.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+LBN,Lebanon,reading,2015,346.549,World Bank EdStats (OECD PISA),True
+LBN,Lebanon,reading,2018,353.355316430011,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,reading,2000,482.586920864349,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,reading,2003,525.07501022,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,reading,2006,510.43778210317,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,reading,2009,499.322052712795,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,reading,2012,515.521654089438,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,reading,2006,470.070755501443,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,reading,2009,468.442734308496,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,reading,2012,477.306611549969,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,reading,2015,472.4066,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,reading,2018,475.873479608212,World Bank EdStats (OECD PISA),True
+LTU,,reading,2022,472.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+LTU,,reading,2025,464.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+LUX,Luxembourg,reading,2000,441.0,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,reading,2003,479.42258356,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,reading,2006,479.366541238475,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,reading,2009,472.173386715057,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,reading,2012,487.80704283399,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,reading,2015,481.4391,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,reading,2018,469.985389363179,World Bank EdStats (OECD PISA),True
+LUX,,reading,2025,443.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+LVA,Latvia,reading,2000,458.071081873092,World Bank EdStats (OECD PISA),True
+LVA,Latvia,reading,2003,490.56253369,World Bank EdStats (OECD PISA),True
+LVA,Latvia,reading,2006,479.491835425478,World Bank EdStats (OECD PISA),True
+LVA,Latvia,reading,2009,483.960145534221,World Bank EdStats (OECD PISA),True
+LVA,Latvia,reading,2012,488.694413789431,World Bank EdStats (OECD PISA),True
+LVA,Latvia,reading,2015,487.7581,World Bank EdStats (OECD PISA),True
+LVA,Latvia,reading,2018,478.698674145046,World Bank EdStats (OECD PISA),True
+LVA,,reading,2022,475.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+LVA,,reading,2025,430.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+MAC,"Macao SAR, China",reading,2003,497.64007554,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",reading,2006,492.287814214607,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",reading,2009,486.635349304954,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",reading,2012,508.949255420631,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",reading,2015,508.6905,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",reading,2018,525.116168948225,World Bank EdStats (OECD PISA),True
+MAR,Morocco,reading,2018,359.387886216686,World Bank EdStats (OECD PISA),True
+MDA,Moldova,reading,2009,388.077770183434,World Bank EdStats (OECD PISA),True
+MDA,Moldova,reading,2015,416.2293,World Bank EdStats (OECD PISA),True
+MDA,Moldova,reading,2018,423.992965737887,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2000,421.960630180386,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2003,399.72192747,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2006,410.496454635583,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2009,425.265299156182,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2012,423.55376178166,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2015,423.2765,World Bank EdStats (OECD PISA),True
+MEX,Mexico,reading,2018,420.468892771172,World Bank EdStats (OECD PISA),True
+MEX,,reading,2022,415.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+MEX,,reading,2025,408.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+MKD,North Macedonia,reading,2000,373.0,World Bank EdStats (OECD PISA),True
+MKD,North Macedonia,reading,2015,351.7415,World Bank EdStats (OECD PISA),True
+MKD,North Macedonia,reading,2018,392.667769403083,World Bank EdStats (OECD PISA),True
+MLT,Malta,reading,2009,442.052499564951,World Bank EdStats (OECD PISA),True
+MLT,Malta,reading,2015,446.6661,World Bank EdStats (OECD PISA),True
+MLT,Malta,reading,2018,448.234760109868,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,reading,2006,391.975447774833,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,reading,2009,407.547769486644,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,reading,2012,422.111354269976,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,reading,2015,426.8845,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,reading,2018,421.057573198021,World Bank EdStats (OECD PISA),True
+MUS,Mauritius,reading,2009,406.571823898717,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,reading,2009,413.812044399986,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,reading,2012,398.196059787664,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,reading,2015,430.5782,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,reading,2018,414.979514206286,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,reading,2003,513.11897043,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,reading,2006,506.74697063491,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,reading,2009,508.403722944549,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,reading,2012,511.229965245418,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,reading,2015,502.9591,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,reading,2018,484.783725370566,World Bank EdStats (OECD PISA),True
+NLD,,reading,2022,459.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+NLD,,reading,2025,441.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+NOR,Norway,reading,2000,505.280988764473,World Bank EdStats (OECD PISA),True
+NOR,Norway,reading,2003,499.74023383,World Bank EdStats (OECD PISA),True
+NOR,Norway,reading,2006,484.292562732562,World Bank EdStats (OECD PISA),True
+NOR,Norway,reading,2009,503.230020365314,World Bank EdStats (OECD PISA),True
+NOR,Norway,reading,2012,503.936685996267,World Bank EdStats (OECD PISA),True
+NOR,Norway,reading,2015,513.1912,World Bank EdStats (OECD PISA),True
+NOR,Norway,reading,2018,499.450956276384,World Bank EdStats (OECD PISA),True
+NOR,,reading,2022,477.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+NOR,,reading,2025,453.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+NZL,New Zealand,reading,2000,528.799732117044,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,reading,2003,521.55151001,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,reading,2006,521.032644667055,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,reading,2009,520.880008686591,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,reading,2012,512.186793323336,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,reading,2015,509.2707,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,reading,2018,505.727283443831,World Bank EdStats (OECD PISA),True
+NZL,,reading,2022,501.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+NZL,,reading,2025,497.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+OED,OECD members,reading,2018,487.125994762552,World Bank EdStats (OECD PISA),True
+PAN,Panama,reading,2009,370.727300538288,World Bank EdStats (OECD PISA),True
+PAN,Panama,reading,2018,376.971316661976,World Bank EdStats (OECD PISA),True
+PER,Peru,reading,2000,327.084842940491,World Bank EdStats (OECD PISA),True
+PER,Peru,reading,2009,369.695760262673,World Bank EdStats (OECD PISA),True
+PER,Peru,reading,2012,384.151223462193,World Bank EdStats (OECD PISA),True
+PER,Peru,reading,2015,397.5414,World Bank EdStats (OECD PISA),True
+PER,Peru,reading,2018,400.51370593417,World Bank EdStats (OECD PISA),True
+PHL,Philippines,reading,2018,339.691589979014,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2000,479.121687960328,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2003,496.6052659,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2006,507.639526884825,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2009,500.478482555257,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2012,518.186880548638,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2015,505.6971,World Bank EdStats (OECD PISA),True
+POL,Poland,reading,2018,511.855695357732,World Bank EdStats (OECD PISA),True
+POL,,reading,2022,489.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+POL,,reading,2025,482.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+PRT,Portugal,reading,2000,470.154622065874,World Bank EdStats (OECD PISA),True
+PRT,Portugal,reading,2003,477.56864555,World Bank EdStats (OECD PISA),True
+PRT,Portugal,reading,2006,472.304304814666,World Bank EdStats (OECD PISA),True
+PRT,Portugal,reading,2009,489.334923939821,World Bank EdStats (OECD PISA),True
+PRT,Portugal,reading,2012,487.757687222583,World Bank EdStats (OECD PISA),True
+PRT,Portugal,reading,2015,498.1289,World Bank EdStats (OECD PISA),True
+PRT,Portugal,reading,2018,491.800785136834,World Bank EdStats (OECD PISA),True
+PRT,,reading,2022,477.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+PRT,,reading,2025,462.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+QAT,Qatar,reading,2006,312.213455582445,World Bank EdStats (OECD PISA),True
+QAT,Qatar,reading,2009,371.716030582832,World Bank EdStats (OECD PISA),True
+QAT,Qatar,reading,2012,387.504130931739,World Bank EdStats (OECD PISA),True
+QAT,Qatar,reading,2015,401.8874,World Bank EdStats (OECD PISA),True
+QAT,Qatar,reading,2018,407.091792090257,World Bank EdStats (OECD PISA),True
+ROU,Romania,reading,2000,427.931505682946,World Bank EdStats (OECD PISA),True
+ROU,Romania,reading,2006,395.931736856267,World Bank EdStats (OECD PISA),True
+ROU,Romania,reading,2009,424.458328360617,World Bank EdStats (OECD PISA),True
+ROU,Romania,reading,2012,437.599488277424,World Bank EdStats (OECD PISA),True
+ROU,Romania,reading,2015,433.6166,World Bank EdStats (OECD PISA),True
+ROU,Romania,reading,2018,427.703145850645,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2000,461.762033079307,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2003,442.19683015,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2006,439.855742918497,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2009,459.395929327471,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2012,475.149374066768,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2015,494.6278,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,reading,2018,478.501933994944,World Bank EdStats (OECD PISA),True
+SAU,Saudi Arabia,reading,2018,399.151658578592,World Bank EdStats (OECD PISA),True
+SGP,Singapore,reading,2009,525.896516737066,World Bank EdStats (OECD PISA),True
+SGP,Singapore,reading,2012,542.215834174158,World Bank EdStats (OECD PISA),True
+SGP,Singapore,reading,2015,535.1002,World Bank EdStats (OECD PISA),True
+SGP,Singapore,reading,2018,549.464707794461,World Bank EdStats (OECD PISA),True
+SRB,Serbia,reading,2003,411.73742873,World Bank EdStats (OECD PISA),True
+SRB,Serbia,reading,2006,401.027507438794,World Bank EdStats (OECD PISA),True
+SRB,Serbia,reading,2009,442.016701257316,World Bank EdStats (OECD PISA),True
+SRB,Serbia,reading,2012,446.130195516461,World Bank EdStats (OECD PISA),True
+SRB,Serbia,reading,2018,439.466341206059,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,reading,2003,469.1590334,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,reading,2006,466.349768580048,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,reading,2009,477.443352445841,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,reading,2012,462.767032770162,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,reading,2015,452.5143,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,reading,2018,457.983967040748,World Bank EdStats (OECD PISA),True
+SVK,,reading,2022,447.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+SVK,,reading,2025,448.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+SVN,Slovenia,reading,2006,494.409036543786,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,reading,2009,483.082042319101,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,reading,2012,481.316283491682,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,reading,2015,505.2159,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,reading,2018,495.345615126036,World Bank EdStats (OECD PISA),True
+SVN,,reading,2022,469.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+SVN,,reading,2025,445.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+SWE,Sweden,reading,2000,516.331185779085,World Bank EdStats (OECD PISA),True
+SWE,Sweden,reading,2003,514.26741267,World Bank EdStats (OECD PISA),True
+SWE,Sweden,reading,2006,507.312880076813,World Bank EdStats (OECD PISA),True
+SWE,Sweden,reading,2009,497.449423526009,World Bank EdStats (OECD PISA),True
+SWE,Sweden,reading,2012,483.335005574195,World Bank EdStats (OECD PISA),True
+SWE,Sweden,reading,2015,500.1556,World Bank EdStats (OECD PISA),True
+SWE,Sweden,reading,2018,505.785220598165,World Bank EdStats (OECD PISA),True
+SWE,,reading,2022,487.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+SWE,,reading,2025,466.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+THA,Thailand,reading,2000,430.683873323112,World Bank EdStats (OECD PISA),True
+THA,Thailand,reading,2003,419.91482907,World Bank EdStats (OECD PISA),True
+THA,Thailand,reading,2006,416.751764675002,World Bank EdStats (OECD PISA),True
+THA,Thailand,reading,2009,421.374414180596,World Bank EdStats (OECD PISA),True
+THA,Thailand,reading,2012,441.219934309878,World Bank EdStats (OECD PISA),True
+THA,Thailand,reading,2015,409.1301,World Bank EdStats (OECD PISA),True
+THA,Thailand,reading,2018,392.888640988081,World Bank EdStats (OECD PISA),True
+TTO,Trinidad and Tobago,reading,2009,416.45233185653,World Bank EdStats (OECD PISA),True
+TTO,Trinidad and Tobago,reading,2015,427.2733,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,reading,2003,374.62240456,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,reading,2006,380.336830432354,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,reading,2009,403.632655458802,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,reading,2012,404.078467250271,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,reading,2015,361.0555,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,reading,2003,440.97098875,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,reading,2006,447.141132707023,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,reading,2009,464.194375387402,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,reading,2012,475.491466080751,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,reading,2015,428.3351,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,reading,2018,465.631666498609,World Bank EdStats (OECD PISA),True
+TUR,,reading,2022,456.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+TUR,,reading,2025,472.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+UKR,Ukraine,reading,2018,465.950148140292,World Bank EdStats (OECD PISA),True
+URY,Uruguay,reading,2003,434.14975809,World Bank EdStats (OECD PISA),True
+URY,Uruguay,reading,2006,412.516732697916,World Bank EdStats (OECD PISA),True
+URY,Uruguay,reading,2009,425.813358651984,World Bank EdStats (OECD PISA),True
+URY,Uruguay,reading,2012,411.348919041115,World Bank EdStats (OECD PISA),True
+URY,Uruguay,reading,2015,436.5721,World Bank EdStats (OECD PISA),True
+URY,Uruguay,reading,2018,427.117618198351,World Bank EdStats (OECD PISA),True
+USA,United States,reading,2000,504.419691245284,World Bank EdStats (OECD PISA),True
+USA,United States,reading,2003,495.18241195,World Bank EdStats (OECD PISA),True
+USA,United States,reading,2009,499.826821131663,World Bank EdStats (OECD PISA),True
+USA,United States,reading,2012,497.581718116953,World Bank EdStats (OECD PISA),True
+USA,United States,reading,2015,496.9351,World Bank EdStats (OECD PISA),True
+USA,United States,reading,2018,505.352771050068,World Bank EdStats (OECD PISA),True
+USA,,reading,2022,504.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Reading 2022[42] Score'],True
+USA,,reading,2025,490.0,https://eduscores.org/pisa-reading-scores/ [colonne '2025 reading score' choisie par ancre France=456],True
+VNM,Viet Nam,reading,2012,508.218990432106,World Bank EdStats (OECD PISA),True
+VNM,Viet Nam,reading,2015,486.7738,World Bank EdStats (OECD PISA),True
+VNM,Viet Nam,reading,2018,504.505626391363,World Bank EdStats (OECD PISA),True
+XKX,Kosovo,reading,2015,347.1259,World Bank EdStats (OECD PISA),True
+XKX,Kosovo,reading,2018,353.065432540458,World Bank EdStats (OECD PISA),True
+ALB,Albania,science,2000,376.45321381022,World Bank EdStats (OECD PISA),False
+ALB,Albania,science,2009,390.695745527028,World Bank EdStats (OECD PISA),True
+ALB,Albania,science,2012,397.373213559178,World Bank EdStats (OECD PISA),True
+ALB,Albania,science,2015,427.225,World Bank EdStats (OECD PISA),True
+ALB,Albania,science,2018,416.726257580122,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,science,2009,437.806416216099,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,science,2012,448.370295863201,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,science,2015,436.7311,World Bank EdStats (OECD PISA),True
+ARE,United Arab Emirates,science,2018,433.636802667468,World Bank EdStats (OECD PISA),True
+ARG,Argentina,science,2000,396.166753608723,World Bank EdStats (OECD PISA),False
+ARG,Argentina,science,2006,391.243901809767,World Bank EdStats (OECD PISA),True
+ARG,Argentina,science,2009,400.838520183371,World Bank EdStats (OECD PISA),True
+ARG,Argentina,science,2012,405.632004985595,World Bank EdStats (OECD PISA),True
+ARG,Argentina,science,2015,432.2262,World Bank EdStats (OECD PISA),True
+ARG,Argentina,science,2018,404.071444821693,World Bank EdStats (OECD PISA),True
+AUS,Australia,science,2000,527.502067041136,World Bank EdStats (OECD PISA),False
+AUS,Australia,science,2003,525.05449901,World Bank EdStats (OECD PISA),False
+AUS,Australia,science,2006,526.879588557918,World Bank EdStats (OECD PISA),True
+AUS,Australia,science,2009,527.270534026533,World Bank EdStats (OECD PISA),True
+AUS,Australia,science,2012,521.494746315308,World Bank EdStats (OECD PISA),True
+AUS,Australia,science,2015,509.9939,World Bank EdStats (OECD PISA),True
+AUS,Australia,science,2018,502.964562882438,World Bank EdStats (OECD PISA),True
+AUS,,science,2022,507.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+AUS,,science,2025,509.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+AUT,Austria,science,2000,504.696853471874,World Bank EdStats (OECD PISA),False
+AUT,Austria,science,2003,490.98460351,World Bank EdStats (OECD PISA),False
+AUT,Austria,science,2006,510.837154134711,World Bank EdStats (OECD PISA),True
+AUT,Austria,science,2009,494.327673185653,World Bank EdStats (OECD PISA),True
+AUT,Austria,science,2012,505.781247067636,World Bank EdStats (OECD PISA),True
+AUT,Austria,science,2015,495.0375,World Bank EdStats (OECD PISA),True
+AUT,Austria,science,2018,489.780439531409,World Bank EdStats (OECD PISA),True
+AUT,,science,2022,491.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+AUT,,science,2025,497.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+AZE,Azerbaijan,science,2006,382.333936805959,World Bank EdStats (OECD PISA),True
+AZE,Azerbaijan,science,2009,373.183588157621,World Bank EdStats (OECD PISA),True
+BEL,Belgium,science,2000,495.735029054868,World Bank EdStats (OECD PISA),False
+BEL,Belgium,science,2003,508.82898225,World Bank EdStats (OECD PISA),False
+BEL,Belgium,science,2006,510.363483623215,World Bank EdStats (OECD PISA),True
+BEL,Belgium,science,2009,506.575526260289,World Bank EdStats (OECD PISA),True
+BEL,Belgium,science,2012,504.867653046562,World Bank EdStats (OECD PISA),True
+BEL,Belgium,science,2015,501.9997,World Bank EdStats (OECD PISA),True
+BEL,Belgium,science,2018,498.77312723922,World Bank EdStats (OECD PISA),True
+BEL,,science,2022,491.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+BEL,,science,2025,490.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+BGR,Bulgaria,science,2000,448.284711450556,World Bank EdStats (OECD PISA),False
+BGR,Bulgaria,science,2006,434.079770925349,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,science,2009,439.294148733668,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,science,2012,446.468709376193,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,science,2015,445.772,World Bank EdStats (OECD PISA),True
+BGR,Bulgaria,science,2018,424.073582875218,World Bank EdStats (OECD PISA),True
+BIH,Bosnia and Herzegovina,science,2018,398.497662699098,World Bank EdStats (OECD PISA),True
+BLR,Belarus,science,2018,471.263680793452,World Bank EdStats (OECD PISA),True
+BRA,Brazil,science,2000,375.168949766359,World Bank EdStats (OECD PISA),False
+BRA,Brazil,science,2003,389.61963651,World Bank EdStats (OECD PISA),False
+BRA,Brazil,science,2006,390.331570738221,World Bank EdStats (OECD PISA),True
+BRA,Brazil,science,2009,405.403988763084,World Bank EdStats (OECD PISA),True
+BRA,Brazil,science,2012,404.710529258465,World Bank EdStats (OECD PISA),True
+BRA,Brazil,science,2015,400.6821,World Bank EdStats (OECD PISA),True
+BRA,Brazil,science,2018,403.620942039241,World Bank EdStats (OECD PISA),True
+BRN,Brunei Darussalam,science,2018,430.984376616659,World Bank EdStats (OECD PISA),True
+CAN,Canada,science,2000,529.360251768407,World Bank EdStats (OECD PISA),False
+CAN,Canada,science,2003,518.74516355,World Bank EdStats (OECD PISA),False
+CAN,Canada,science,2006,534.469777292383,World Bank EdStats (OECD PISA),True
+CAN,Canada,science,2009,528.704953213355,World Bank EdStats (OECD PISA),True
+CAN,Canada,science,2012,525.460969751711,World Bank EdStats (OECD PISA),True
+CAN,Canada,science,2015,527.7047,World Bank EdStats (OECD PISA),True
+CAN,Canada,science,2018,517.99766075567,World Bank EdStats (OECD PISA),True
+CAN,,science,2022,515.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+CAN,,science,2025,510.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+CHE,Switzerland,science,2000,495.667245606022,World Bank EdStats (OECD PISA),False
+CHE,Switzerland,science,2003,512.97553413,World Bank EdStats (OECD PISA),False
+CHE,Switzerland,science,2006,511.523909770542,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,science,2009,516.567510249693,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,science,2012,515.297523463759,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,science,2015,505.5058,World Bank EdStats (OECD PISA),True
+CHE,Switzerland,science,2018,495.276287968577,World Bank EdStats (OECD PISA),True
+CHE,,science,2022,503.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+CHE,,science,2025,501.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+CHL,Chile,science,2000,414.853077132673,World Bank EdStats (OECD PISA),False
+CHL,Chile,science,2006,438.17744477339,World Bank EdStats (OECD PISA),True
+CHL,Chile,science,2009,447.467359932405,World Bank EdStats (OECD PISA),True
+CHL,Chile,science,2012,444.933919694947,World Bank EdStats (OECD PISA),True
+CHL,Chile,science,2015,446.9561,World Bank EdStats (OECD PISA),True
+CHL,Chile,science,2018,443.582563387665,World Bank EdStats (OECD PISA),True
+CHL,,science,2022,444.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+CHL,,science,2025,442.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+CHN,China,science,2009,574.617354693275,World Bank EdStats (OECD PISA),True
+CHN,China,science,2012,580.117830848225,World Bank EdStats (OECD PISA),True
+CHN,China,science,2015,517.7793,World Bank EdStats (OECD PISA),True
+CHN,China,science,2018,590.452640080788,World Bank EdStats (OECD PISA),True
+COL,Colombia,science,2006,388.038271909179,World Bank EdStats (OECD PISA),True
+COL,Colombia,science,2009,401.750115298746,World Bank EdStats (OECD PISA),True
+COL,Colombia,science,2012,398.678631615801,World Bank EdStats (OECD PISA),True
+COL,Colombia,science,2015,415.7288,World Bank EdStats (OECD PISA),True
+COL,Colombia,science,2018,413.322992973877,World Bank EdStats (OECD PISA),True
+COL,,science,2022,411.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+COL,,science,2025,414.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+CRI,Costa Rica,science,2009,430.481279216419,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,science,2012,429.350967542248,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,science,2015,419.608,World Bank EdStats (OECD PISA),True
+CRI,Costa Rica,science,2018,415.622462110576,World Bank EdStats (OECD PISA),True
+CRI,,science,2022,411.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+CRI,,science,2025,424.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+CYP,Cyprus,science,2012,437.676458962498,World Bank EdStats (OECD PISA),True
+CYP,Cyprus,science,2015,432.5964,World Bank EdStats (OECD PISA),True
+CYP,Cyprus,science,2018,439.008249797907,World Bank EdStats (OECD PISA),True
+CZE,Czechia,science,2000,511.414518611378,World Bank EdStats (OECD PISA),False
+CZE,Czechia,science,2003,523.2537295,World Bank EdStats (OECD PISA),False
+CZE,Czechia,science,2006,512.860746074762,World Bank EdStats (OECD PISA),True
+CZE,Czechia,science,2009,500.497066028848,World Bank EdStats (OECD PISA),True
+CZE,Czechia,science,2012,508.29907935427,World Bank EdStats (OECD PISA),True
+CZE,Czechia,science,2015,492.83,World Bank EdStats (OECD PISA),True
+CZE,Czechia,science,2018,496.791310656231,World Bank EdStats (OECD PISA),True
+CZE,,science,2022,498.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+CZE,,science,2025,490.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+DEU,Germany,science,2000,487.105835740655,World Bank EdStats (OECD PISA),False
+DEU,Germany,science,2003,502.33647629,World Bank EdStats (OECD PISA),False
+DEU,Germany,science,2006,515.64913003029,World Bank EdStats (OECD PISA),True
+DEU,Germany,science,2009,520.405349483897,World Bank EdStats (OECD PISA),True
+DEU,Germany,science,2012,524.120799257005,World Bank EdStats (OECD PISA),True
+DEU,Germany,science,2015,509.1406,World Bank EdStats (OECD PISA),True
+DEU,Germany,science,2018,502.9889028235,World Bank EdStats (OECD PISA),True
+DEU,,science,2022,492.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+DEU,,science,2025,486.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+DNK,Denmark,science,2000,481.005340185009,World Bank EdStats (OECD PISA),False
+DNK,Denmark,science,2003,475.22267052,World Bank EdStats (OECD PISA),False
+DNK,Denmark,science,2006,495.894309967212,World Bank EdStats (OECD PISA),True
+DNK,Denmark,science,2009,499.336974686113,World Bank EdStats (OECD PISA),True
+DNK,Denmark,science,2012,498.474201429469,World Bank EdStats (OECD PISA),True
+DNK,Denmark,science,2015,501.9369,World Bank EdStats (OECD PISA),True
+DNK,Denmark,science,2018,492.637033350974,World Bank EdStats (OECD PISA),True
+DNK,,science,2022,494.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+DNK,,science,2025,478.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+DOM,Dominican Republic,science,2015,331.6388,World Bank EdStats (OECD PISA),True
+DOM,Dominican Republic,science,2018,335.629946557719,World Bank EdStats (OECD PISA),True
+DZA,Algeria,science,2015,375.7451,World Bank EdStats (OECD PISA),True
+ESP,Spain,science,2000,490.939007370946,World Bank EdStats (OECD PISA),False
+ESP,Spain,science,2003,487.09256947,World Bank EdStats (OECD PISA),False
+ESP,Spain,science,2006,488.424522403293,World Bank EdStats (OECD PISA),True
+ESP,Spain,science,2009,488.254630256288,World Bank EdStats (OECD PISA),True
+ESP,Spain,science,2012,496.445822824473,World Bank EdStats (OECD PISA),True
+ESP,Spain,science,2015,492.7861,World Bank EdStats (OECD PISA),True
+ESP,Spain,science,2018,483.252042725488,World Bank EdStats (OECD PISA),True
+ESP,,science,2022,485.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+ESP,,science,2025,477.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+EST,Estonia,science,2006,531.391804075501,World Bank EdStats (OECD PISA),True
+EST,Estonia,science,2009,527.831756247383,World Bank EdStats (OECD PISA),True
+EST,Estonia,science,2012,541.404756164087,World Bank EdStats (OECD PISA),True
+EST,Estonia,science,2015,534.1937,World Bank EdStats (OECD PISA),True
+EST,Estonia,science,2018,530.108004621743,World Bank EdStats (OECD PISA),True
+EST,,science,2022,526.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+EST,,science,2025,527.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+FIN,Finland,science,2000,537.741256910606,World Bank EdStats (OECD PISA),False
+FIN,Finland,science,2003,548.22500161,World Bank EdStats (OECD PISA),False
+FIN,Finland,science,2006,563.32283387828,World Bank EdStats (OECD PISA),True
+FIN,Finland,science,2009,554.079510006501,World Bank EdStats (OECD PISA),True
+FIN,Finland,science,2012,545.441939987881,World Bank EdStats (OECD PISA),True
+FIN,Finland,science,2015,530.6612,World Bank EdStats (OECD PISA),True
+FIN,Finland,science,2018,521.88456314354,World Bank EdStats (OECD PISA),True
+FIN,,science,2022,511.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+FIN,,science,2025,504.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+FRA,France,science,2000,500.486317527093,World Bank EdStats (OECD PISA),False
+FRA,France,science,2003,511.22545748,World Bank EdStats (OECD PISA),False
+FRA,France,science,2006,495.219838638056,World Bank EdStats (OECD PISA),True
+FRA,France,science,2009,498.22689391511,World Bank EdStats (OECD PISA),True
+FRA,France,science,2012,498.970894151481,World Bank EdStats (OECD PISA),True
+FRA,France,science,2015,494.9776,World Bank EdStats (OECD PISA),True
+FRA,France,science,2018,492.977076058355,World Bank EdStats (OECD PISA),True
+FRA,,science,2022,487.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+FRA,,science,2025,483.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+GBR,United Kingdom,science,2000,532.0,World Bank EdStats (OECD PISA),False
+GBR,United Kingdom,science,2003,518.40338766,World Bank EdStats (OECD PISA),False
+GBR,United Kingdom,science,2006,514.773547839566,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,science,2009,513.710240139805,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,science,2012,514.129321054891,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,science,2015,509.2215,World Bank EdStats (OECD PISA),True
+GBR,United Kingdom,science,2018,504.667473533585,World Bank EdStats (OECD PISA),True
+GBR,,science,2022,500.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+GBR,,science,2025,511.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+GEO,Georgia,science,2009,372.652949131624,World Bank EdStats (OECD PISA),True
+GEO,Georgia,science,2015,411.1315,World Bank EdStats (OECD PISA),True
+GEO,Georgia,science,2018,382.663606351912,World Bank EdStats (OECD PISA),True
+GRC,Greece,science,2000,460.553865898689,World Bank EdStats (OECD PISA),False
+GRC,Greece,science,2003,481.02226503,World Bank EdStats (OECD PISA),False
+GRC,Greece,science,2006,473.377963907888,World Bank EdStats (OECD PISA),True
+GRC,Greece,science,2009,470.115764238205,World Bank EdStats (OECD PISA),True
+GRC,Greece,science,2012,466.722029488822,World Bank EdStats (OECD PISA),True
+GRC,Greece,science,2015,454.8288,World Bank EdStats (OECD PISA),True
+GRC,Greece,science,2018,451.632741646629,World Bank EdStats (OECD PISA),True
+GRC,,science,2022,441.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+GRC,,science,2025,434.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+HKG,"Hong Kong SAR, China",science,2000,540.809161617935,World Bank EdStats (OECD PISA),False
+HKG,"Hong Kong SAR, China",science,2003,539.49751707,World Bank EdStats (OECD PISA),False
+HKG,"Hong Kong SAR, China",science,2006,542.211387508346,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",science,2009,549.02870691592,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",science,2012,554.937434395739,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",science,2015,523.2774,World Bank EdStats (OECD PISA),True
+HKG,"Hong Kong SAR, China",science,2018,516.686129547221,World Bank EdStats (OECD PISA),True
+HRV,Croatia,science,2006,493.204391790777,World Bank EdStats (OECD PISA),True
+HRV,Croatia,science,2009,486.363448789666,World Bank EdStats (OECD PISA),True
+HRV,Croatia,science,2012,491.35658283423,World Bank EdStats (OECD PISA),True
+HRV,Croatia,science,2015,475.3912,World Bank EdStats (OECD PISA),True
+HRV,Croatia,science,2018,472.362619572977,World Bank EdStats (OECD PISA),True
+HUN,Hungary,science,2000,496.076322265475,World Bank EdStats (OECD PISA),False
+HUN,Hungary,science,2003,503.27886546,World Bank EdStats (OECD PISA),False
+HUN,Hungary,science,2006,503.931728715803,World Bank EdStats (OECD PISA),True
+HUN,Hungary,science,2009,502.642748728251,World Bank EdStats (OECD PISA),True
+HUN,Hungary,science,2012,494.302351221682,World Bank EdStats (OECD PISA),True
+HUN,Hungary,science,2015,476.7475,World Bank EdStats (OECD PISA),True
+HUN,Hungary,science,2018,480.911693882286,World Bank EdStats (OECD PISA),True
+HUN,,science,2022,486.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+HUN,,science,2025,480.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+IDN,Indonesia,science,2000,393.329929581784,World Bank EdStats (OECD PISA),False
+IDN,Indonesia,science,2003,395.04239001,World Bank EdStats (OECD PISA),False
+IDN,Indonesia,science,2006,393.481018158954,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,science,2009,382.569451693209,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,science,2012,381.911484865957,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,science,2015,403.0997,World Bank EdStats (OECD PISA),True
+IDN,Indonesia,science,2018,396.070054650601,World Bank EdStats (OECD PISA),True
+IRL,Ireland,science,2000,513.367703937171,World Bank EdStats (OECD PISA),False
+IRL,Ireland,science,2003,505.39083953,World Bank EdStats (OECD PISA),False
+IRL,Ireland,science,2006,508.328930032244,World Bank EdStats (OECD PISA),True
+IRL,Ireland,science,2009,507.984153806497,World Bank EdStats (OECD PISA),True
+IRL,Ireland,science,2012,522.003959196662,World Bank EdStats (OECD PISA),True
+IRL,Ireland,science,2015,502.5751,World Bank EdStats (OECD PISA),True
+IRL,Ireland,science,2018,496.113561872584,World Bank EdStats (OECD PISA),True
+IRL,,science,2022,504.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+IRL,,science,2025,500.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+ISL,Iceland,science,2000,495.914225216425,World Bank EdStats (OECD PISA),False
+ISL,Iceland,science,2003,494.74524952,World Bank EdStats (OECD PISA),False
+ISL,Iceland,science,2006,490.793774071948,World Bank EdStats (OECD PISA),True
+ISL,Iceland,science,2009,495.598498280332,World Bank EdStats (OECD PISA),True
+ISL,Iceland,science,2012,478.15459619459,World Bank EdStats (OECD PISA),True
+ISL,Iceland,science,2015,473.2301,World Bank EdStats (OECD PISA),True
+ISL,Iceland,science,2018,475.024106333758,World Bank EdStats (OECD PISA),True
+ISL,,science,2022,447.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+ISL,,science,2025,441.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+ISR,Israel,science,2000,434.13622501556,World Bank EdStats (OECD PISA),False
+ISR,Israel,science,2006,453.903708229828,World Bank EdStats (OECD PISA),True
+ISR,Israel,science,2009,454.850963360013,World Bank EdStats (OECD PISA),True
+ISR,Israel,science,2012,470.072661822727,World Bank EdStats (OECD PISA),True
+ISR,Israel,science,2015,466.5528,World Bank EdStats (OECD PISA),True
+ISR,Israel,science,2018,462.196632753733,World Bank EdStats (OECD PISA),True
+ISR,,science,2022,465.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+ISR,,science,2025,442.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+ITA,Italy,science,2000,477.603320130052,World Bank EdStats (OECD PISA),False
+ITA,Italy,science,2003,486.45421372,World Bank EdStats (OECD PISA),False
+ITA,Italy,science,2006,475.39722060224,World Bank EdStats (OECD PISA),True
+ITA,Italy,science,2009,488.831362943198,World Bank EdStats (OECD PISA),True
+ITA,Italy,science,2012,493.541481804953,World Bank EdStats (OECD PISA),True
+ITA,Italy,science,2015,480.5468,World Bank EdStats (OECD PISA),True
+ITA,Italy,science,2018,468.011727891513,World Bank EdStats (OECD PISA),True
+ITA,,science,2022,477.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+ITA,,science,2025,483.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+JOR,Jordan,science,2006,421.971824955186,World Bank EdStats (OECD PISA),True
+JOR,Jordan,science,2009,415.387783656012,World Bank EdStats (OECD PISA),True
+JOR,Jordan,science,2012,409.36721468725,World Bank EdStats (OECD PISA),True
+JOR,Jordan,science,2015,408.6691,World Bank EdStats (OECD PISA),True
+JOR,Jordan,science,2018,429.252073733676,World Bank EdStats (OECD PISA),True
+JPN,Japan,science,2000,550.40377464268,World Bank EdStats (OECD PISA),False
+JPN,Japan,science,2003,547.63823436,World Bank EdStats (OECD PISA),False
+JPN,Japan,science,2006,531.388508788485,World Bank EdStats (OECD PISA),True
+JPN,Japan,science,2009,539.430994031805,World Bank EdStats (OECD PISA),True
+JPN,Japan,science,2012,546.735599775095,World Bank EdStats (OECD PISA),True
+JPN,Japan,science,2015,538.3948,World Bank EdStats (OECD PISA),True
+JPN,Japan,science,2018,529.135433770821,World Bank EdStats (OECD PISA),True
+JPN,,science,2022,547.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+JPN,,science,2025,538.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+KAZ,Kazakhstan,science,2009,400.376138802842,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,science,2012,424.707522973964,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,science,2015,456.4836,World Bank EdStats (OECD PISA),True
+KAZ,Kazakhstan,science,2018,397.104835281035,World Bank EdStats (OECD PISA),True
+KGZ,Kyrgyz Republic,science,2006,322.031581335729,World Bank EdStats (OECD PISA),True
+KGZ,Kyrgyz Republic,science,2009,329.545623125516,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",science,2000,552.118527954099,World Bank EdStats (OECD PISA),False
+KOR,"Korea, Rep.",science,2003,538.42510637,World Bank EdStats (OECD PISA),False
+KOR,"Korea, Rep.",science,2006,522.148140754486,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",science,2009,537.986230286956,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",science,2012,537.787621535186,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",science,2015,515.8099,World Bank EdStats (OECD PISA),True
+KOR,"Korea, Rep.",science,2018,519.007254581204,World Bank EdStats (OECD PISA),True
+KOR,,science,2022,528.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+KOR,,science,2025,526.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+LBN,Lebanon,science,2015,386.4854,World Bank EdStats (OECD PISA),True
+LBN,Lebanon,science,2018,383.71699371009,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,science,2000,476.099847374388,World Bank EdStats (OECD PISA),False
+LIE,Liechtenstein,science,2003,525.1754095,World Bank EdStats (OECD PISA),False
+LIE,Liechtenstein,science,2006,522.161034032279,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,science,2009,519.914167497944,World Bank EdStats (OECD PISA),True
+LIE,Liechtenstein,science,2012,524.694992275752,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,science,2006,487.956698407748,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,science,2009,491.409790863656,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,science,2012,495.700086396902,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,science,2015,475.4089,World Bank EdStats (OECD PISA),True
+LTU,Lithuania,science,2018,482.067012570461,World Bank EdStats (OECD PISA),True
+LTU,,science,2022,484.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+LTU,,science,2025,488.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+LUX,Luxembourg,science,2000,443.070572853148,World Bank EdStats (OECD PISA),False
+LUX,Luxembourg,science,2003,482.76399701,World Bank EdStats (OECD PISA),False
+LUX,Luxembourg,science,2006,486.324362604493,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,science,2009,483.928421043178,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,science,2012,491.215175670468,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,science,2015,482.8064,World Bank EdStats (OECD PISA),True
+LUX,Luxembourg,science,2018,476.769406208825,World Bank EdStats (OECD PISA),True
+LUX,,science,2025,474.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+LVA,Latvia,science,2000,460.060834794716,World Bank EdStats (OECD PISA),False
+LVA,Latvia,science,2003,489.12491714,World Bank EdStats (OECD PISA),False
+LVA,Latvia,science,2006,489.543777480505,World Bank EdStats (OECD PISA),True
+LVA,Latvia,science,2009,493.878923880063,World Bank EdStats (OECD PISA),True
+LVA,Latvia,science,2012,502.18619208774,World Bank EdStats (OECD PISA),True
+LVA,Latvia,science,2015,490.225,World Bank EdStats (OECD PISA),True
+LVA,Latvia,science,2018,487.250588357622,World Bank EdStats (OECD PISA),True
+LVA,,science,2022,494.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+LVA,,science,2025,468.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+MAC,"Macao SAR, China",science,2003,524.68368817,World Bank EdStats (OECD PISA),False
+MAC,"Macao SAR, China",science,2006,510.839722381867,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",science,2009,511.069597758193,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",science,2012,520.570875333848,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",science,2015,528.5496,World Bank EdStats (OECD PISA),True
+MAC,"Macao SAR, China",science,2018,543.585733723951,World Bank EdStats (OECD PISA),True
+MAR,Morocco,science,2018,376.596889264975,World Bank EdStats (OECD PISA),True
+MDA,Moldova,science,2009,412.771010026674,World Bank EdStats (OECD PISA),True
+MDA,Moldova,science,2015,427.9978,World Bank EdStats (OECD PISA),True
+MDA,Moldova,science,2018,428.485266806617,World Bank EdStats (OECD PISA),True
+MEX,Mexico,science,2000,421.537342366325,World Bank EdStats (OECD PISA),False
+MEX,Mexico,science,2003,404.89616731,World Bank EdStats (OECD PISA),False
+MEX,Mexico,science,2006,409.651951838013,World Bank EdStats (OECD PISA),True
+MEX,Mexico,science,2009,415.908672232987,World Bank EdStats (OECD PISA),True
+MEX,Mexico,science,2012,414.920147715347,World Bank EdStats (OECD PISA),True
+MEX,Mexico,science,2015,415.7099,World Bank EdStats (OECD PISA),True
+MEX,Mexico,science,2018,419.204719582484,World Bank EdStats (OECD PISA),True
+MEX,,science,2022,410.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+MEX,,science,2025,414.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+MKD,North Macedonia,science,2000,400.715457619291,World Bank EdStats (OECD PISA),False
+MKD,North Macedonia,science,2015,383.6824,World Bank EdStats (OECD PISA),True
+MKD,North Macedonia,science,2018,413.044673632074,World Bank EdStats (OECD PISA),True
+MLT,Malta,science,2009,461.339415180402,World Bank EdStats (OECD PISA),True
+MLT,Malta,science,2015,464.7819,World Bank EdStats (OECD PISA),True
+MLT,Malta,science,2018,456.590322781799,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,science,2006,411.788428073038,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,science,2009,401.277469825908,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,science,2012,410.097602262549,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,science,2015,411.3136,World Bank EdStats (OECD PISA),True
+MNE,Montenegro,science,2018,415.172231156272,World Bank EdStats (OECD PISA),True
+MUS,Mauritius,science,2009,417.20373136914,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,science,2009,422.231640353482,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,science,2012,419.502648533661,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,science,2015,442.9475,World Bank EdStats (OECD PISA),True
+MYS,Malaysia,science,2018,437.61807367156,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,science,2003,524.36870636,World Bank EdStats (OECD PISA),False
+NLD,Netherlands,science,2006,524.861505727814,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,science,2009,522.218128201078,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,science,2012,522.055821725803,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,science,2015,508.5748,World Bank EdStats (OECD PISA),True
+NLD,Netherlands,science,2018,503.383819750007,World Bank EdStats (OECD PISA),True
+NLD,,science,2022,488.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+NLD,,science,2025,485.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+NOR,Norway,science,2000,500.338980779372,World Bank EdStats (OECD PISA),False
+NOR,Norway,science,2003,484.1812491,World Bank EdStats (OECD PISA),False
+NOR,Norway,science,2006,486.527957167049,World Bank EdStats (OECD PISA),True
+NOR,Norway,science,2009,499.875699776536,World Bank EdStats (OECD PISA),True
+NOR,Norway,science,2012,494.523934741308,World Bank EdStats (OECD PISA),True
+NOR,Norway,science,2015,498.4811,World Bank EdStats (OECD PISA),True
+NOR,Norway,science,2018,490.413149272607,World Bank EdStats (OECD PISA),True
+NOR,,science,2022,478.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+NOR,,science,2025,470.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+NZL,New Zealand,science,2000,527.686667150696,World Bank EdStats (OECD PISA),False
+NZL,New Zealand,science,2003,520.9042747,World Bank EdStats (OECD PISA),False
+NZL,New Zealand,science,2006,530.384360780158,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,science,2009,532.006901380284,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,science,2012,515.636318700572,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,science,2015,513.3035,World Bank EdStats (OECD PISA),True
+NZL,New Zealand,science,2018,508.490721422843,World Bank EdStats (OECD PISA),True
+NZL,,science,2022,504.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+NZL,,science,2025,509.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+OED,OECD members,science,2018,488.662377484584,World Bank EdStats (OECD PISA),True
+PAN,Panama,science,2009,375.89555801499,World Bank EdStats (OECD PISA),True
+PAN,Panama,science,2018,364.623772485532,World Bank EdStats (OECD PISA),True
+PER,Peru,science,2000,333.340958888972,World Bank EdStats (OECD PISA),False
+PER,Peru,science,2009,369.351771359662,World Bank EdStats (OECD PISA),True
+PER,Peru,science,2012,373.113448374386,World Bank EdStats (OECD PISA),True
+PER,Peru,science,2015,396.6836,World Bank EdStats (OECD PISA),True
+PER,Peru,science,2018,404.215601330196,World Bank EdStats (OECD PISA),True
+PHL,Philippines,science,2018,356.933323619256,World Bank EdStats (OECD PISA),True
+POL,Poland,science,2000,483.122108567397,World Bank EdStats (OECD PISA),False
+POL,Poland,science,2003,497.780127,World Bank EdStats (OECD PISA),False
+POL,Poland,science,2006,497.806502146554,World Bank EdStats (OECD PISA),True
+POL,Poland,science,2009,508.0682976879,World Bank EdStats (OECD PISA),True
+POL,Poland,science,2012,525.816445438169,World Bank EdStats (OECD PISA),True
+POL,Poland,science,2015,501.4353,World Bank EdStats (OECD PISA),True
+POL,Poland,science,2018,511.035561794169,World Bank EdStats (OECD PISA),True
+POL,,science,2022,499.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+POL,,science,2025,495.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+PRT,Portugal,science,2000,458.995785394299,World Bank EdStats (OECD PISA),False
+PRT,Portugal,science,2003,467.73512135,World Bank EdStats (OECD PISA),False
+PRT,Portugal,science,2006,474.305889180987,World Bank EdStats (OECD PISA),True
+PRT,Portugal,science,2009,492.949967418761,World Bank EdStats (OECD PISA),True
+PRT,Portugal,science,2012,489.274731981519,World Bank EdStats (OECD PISA),True
+PRT,Portugal,science,2015,501.1001,World Bank EdStats (OECD PISA),True
+PRT,Portugal,science,2018,491.677328515614,World Bank EdStats (OECD PISA),True
+PRT,,science,2022,484.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+PRT,,science,2025,482.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+QAT,Qatar,science,2006,349.313145242857,World Bank EdStats (OECD PISA),True
+QAT,Qatar,science,2009,379.446948617259,World Bank EdStats (OECD PISA),True
+QAT,Qatar,science,2012,383.642553387497,World Bank EdStats (OECD PISA),True
+QAT,Qatar,science,2015,417.6112,World Bank EdStats (OECD PISA),True
+QAT,Qatar,science,2018,419.127154883249,World Bank EdStats (OECD PISA),True
+ROU,Romania,science,2000,441.0,World Bank EdStats (OECD PISA),False
+ROU,Romania,science,2006,418.386372583966,World Bank EdStats (OECD PISA),True
+ROU,Romania,science,2009,428.178884664927,World Bank EdStats (OECD PISA),True
+ROU,Romania,science,2012,438.76805621175,World Bank EdStats (OECD PISA),True
+ROU,Romania,science,2015,434.8849,World Bank EdStats (OECD PISA),True
+ROU,Romania,science,2018,425.761227085172,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,science,2000,460.31393795581,World Bank EdStats (OECD PISA),False
+RUS,Russian Federation,science,2003,489.28612703,World Bank EdStats (OECD PISA),False
+RUS,Russian Federation,science,2006,479.470417431013,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,science,2009,478.297529923251,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,science,2012,486.295489965195,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,science,2015,486.631,World Bank EdStats (OECD PISA),True
+RUS,Russian Federation,science,2018,477.717679762959,World Bank EdStats (OECD PISA),True
+SAU,Saudi Arabia,science,2018,386.246144966173,World Bank EdStats (OECD PISA),True
+SGP,Singapore,science,2009,541.695518090181,World Bank EdStats (OECD PISA),True
+SGP,Singapore,science,2012,551.493156642825,World Bank EdStats (OECD PISA),True
+SGP,Singapore,science,2015,555.5747,World Bank EdStats (OECD PISA),True
+SGP,Singapore,science,2018,550.936899986808,World Bank EdStats (OECD PISA),True
+SRB,Serbia,science,2003,436.37369565,World Bank EdStats (OECD PISA),False
+SRB,Serbia,science,2006,435.636344480736,World Bank EdStats (OECD PISA),True
+SRB,Serbia,science,2009,442.785786956384,World Bank EdStats (OECD PISA),True
+SRB,Serbia,science,2012,444.804110871138,World Bank EdStats (OECD PISA),True
+SRB,Serbia,science,2018,439.873889462623,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,science,2003,494.85838344,World Bank EdStats (OECD PISA),False
+SVK,Slovak Republic,science,2006,488.433398223006,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,science,2009,490.265922092352,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,science,2012,471.193177266055,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,science,2015,460.7749,World Bank EdStats (OECD PISA),True
+SVK,Slovak Republic,science,2018,464.047578343491,World Bank EdStats (OECD PISA),True
+SVK,,science,2022,462.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+SVK,,science,2025,475.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+SVN,Slovenia,science,2006,518.815609521898,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,science,2009,511.759473108356,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,science,2012,514.142554966146,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,science,2015,512.8636,World Bank EdStats (OECD PISA),True
+SVN,Slovenia,science,2018,507.006545970774,World Bank EdStats (OECD PISA),True
+SVN,,science,2022,500.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+SVN,,science,2025,484.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+SWE,Sweden,science,2000,512.128270725064,World Bank EdStats (OECD PISA),False
+SWE,Sweden,science,2003,506.12409744,World Bank EdStats (OECD PISA),False
+SWE,Sweden,science,2006,503.334005841912,World Bank EdStats (OECD PISA),True
+SWE,Sweden,science,2009,495.105898116161,World Bank EdStats (OECD PISA),True
+SWE,Sweden,science,2012,484.798965809011,World Bank EdStats (OECD PISA),True
+SWE,Sweden,science,2015,493.4224,World Bank EdStats (OECD PISA),True
+SWE,Sweden,science,2018,499.444690059301,World Bank EdStats (OECD PISA),True
+SWE,,science,2022,494.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+SWE,,science,2025,485.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+THA,Thailand,science,2000,436.378536656934,World Bank EdStats (OECD PISA),False
+THA,Thailand,science,2003,429.06037812,World Bank EdStats (OECD PISA),False
+THA,Thailand,science,2006,421.011469386192,World Bank EdStats (OECD PISA),True
+THA,Thailand,science,2009,425.296284930708,World Bank EdStats (OECD PISA),True
+THA,Thailand,science,2012,443.999935089445,World Bank EdStats (OECD PISA),True
+THA,Thailand,science,2015,421.3373,World Bank EdStats (OECD PISA),True
+THA,Thailand,science,2018,425.813449977136,World Bank EdStats (OECD PISA),True
+TTO,Trinidad and Tobago,science,2009,410.19561750989,World Bank EdStats (OECD PISA),True
+TTO,Trinidad and Tobago,science,2015,424.5905,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,science,2003,384.67942193,World Bank EdStats (OECD PISA),False
+TUN,Tunisia,science,2006,385.50671388698,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,science,2009,400.661484247373,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,science,2012,398.046450918533,World Bank EdStats (OECD PISA),True
+TUN,Tunisia,science,2015,386.4034,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,science,2003,434.22338305,World Bank EdStats (OECD PISA),False
+TUR,Turkiye,science,2006,423.832745073964,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,science,2009,453.909717955233,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,science,2012,463.412909072733,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,science,2015,425.4895,World Bank EdStats (OECD PISA),True
+TUR,Turkiye,science,2018,468.299618695693,World Bank EdStats (OECD PISA),True
+TUR,,science,2022,476.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+TUR,,science,2025,494.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+UKR,Ukraine,science,2018,468.987742612404,World Bank EdStats (OECD PISA),True
+URY,Uruguay,science,2003,438.37301269,World Bank EdStats (OECD PISA),False
+URY,Uruguay,science,2006,428.133884760905,World Bank EdStats (OECD PISA),True
+URY,Uruguay,science,2009,427.214249705468,World Bank EdStats (OECD PISA),True
+URY,Uruguay,science,2012,415.842935489846,World Bank EdStats (OECD PISA),True
+URY,Uruguay,science,2015,435.363,World Bank EdStats (OECD PISA),True
+URY,Uruguay,science,2018,425.812676624091,World Bank EdStats (OECD PISA),True
+USA,United States,science,2000,499.4601516259,World Bank EdStats (OECD PISA),False
+USA,United States,science,2003,491.26346276,World Bank EdStats (OECD PISA),False
+USA,United States,science,2006,488.906836775351,World Bank EdStats (OECD PISA),True
+USA,United States,science,2009,502.002265007935,World Bank EdStats (OECD PISA),True
+USA,United States,science,2012,497.409811483087,World Bank EdStats (OECD PISA),True
+USA,United States,science,2015,496.2424,World Bank EdStats (OECD PISA),True
+USA,United States,science,2018,502.380032000921,World Bank EdStats (OECD PISA),True
+USA,,science,2022,499.0,https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment [en-tete 'Science 2022[42] Score'],True
+USA,,science,2025,502.0,https://eduscores.org/pisa-science-scores/ [colonne 'Science score' choisie par ancre France=483],True
+VNM,Viet Nam,science,2012,528.423258986674,World Bank EdStats (OECD PISA),True
+VNM,Viet Nam,science,2015,524.6445,World Bank EdStats (OECD PISA),True
+VNM,Viet Nam,science,2018,543.384874714563,World Bank EdStats (OECD PISA),True
+XKX,Kosovo,science,2015,378.4422,World Bank EdStats (OECD PISA),True
+XKX,Kosovo,science,2018,364.882407737958,World Bank EdStats (OECD PISA),True

@@ -40,12 +40,14 @@ from forecast_rankings import (OECD38_ISO3, MIN_CYCLE, load_worldbank_json, buil
 from pisa_extended import load_manual
 
 MODEL_SPEC = dict(
-    version=1,
+    version=2,
     target="position relative d = score - moyenne du panel fixe au cycle",
     models_compared=["naive", "ar1"],          # ar1_mom ecarte: gain indiscernable de ar1, parcimonie
     frozen_model="ar1",
     ridge=1e-3, interval="Monte Carlo p10-p90, 2000 sims (backtest) / 5000 (prevision)",
-    panel="OCDE complets sur cycles <= 2018, MIN_CYCLE par matiere",
+    panel="OCDE complets sur cycles <= 2018, MIN_CYCLE par matiere; puis retrait des pays "
+          "n'ayant pas participe a 2022 ou 2025 (ex.: le Luxembourg n'a pas participe a PISA 2022)",
+    max_nonparticipants_dropped=3,
     train_limit_for_exploration=2018,
 )
 SPEC_HASH = hashlib.sha256(json.dumps(MODEL_SPEC, sort_keys=True).encode()).hexdigest()[:16]
@@ -79,10 +81,13 @@ def main() -> None:
     wide = build_panel(full, all_cycles, countries=list(panel_old.index))
     lost = sorted(set(panel_old.index) - set(wide.index))
     print(f"\n=== {a.subject}: panel fixe {len(panel_old)} pays (defini <= 2018); cycles {all_cycles} ===")
+    if len(lost) > MODEL_SPEC["max_nonparticipants_dropped"]:
+        sys.exit(f"Trop de pays du panel sans donnee 2022/2025: {lost} (max "
+                 f"{MODEL_SPEC['max_nonparticipants_dropped']}). Completer data/manual/pisa_means_2022_2025.csv.")
     if lost:
-        sys.exit(f"Pays du panel sans donnee 2022 et/ou 2025: {lost}\n"
-                 f"Completer data/manual/pisa_means_2022_2025.csv (ne PAS changer le panel apres coup, "
-                 f"sauf a le declarer comme ecart au protocole).")
+        print(f"Retrait PREVU AU PROTOCOLE (non-participation a 2022 et/ou 2025): {lost}")
+        wide = build_panel(full, all_cycles, countries=[c for c in panel_old.index if c not in lost])
+        print(f"Panel du test: {len(wide)} pays")
 
     d = relative_positions(wide)
     iA, iB = len(old_cycles) - 1, len(old_cycles)             # origines: dernier <=2018, puis 2022

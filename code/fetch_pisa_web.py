@@ -1,25 +1,31 @@
-"""Remplit data/manual/pisa_means_2022_2025.csv en lisant des tableaux HTML publics.
+"""Remplit data/manual/pisa_means_2022_2025.csv depuis des tableaux HTML publics.
 
-Sources essayees dans l'ordre: pages d'annexe OCDE (si les tableaux y sont en HTML),
-puis Wikipedia (SOURCE SECONDAIRE, recopiee de l'OCDE: a recouper avec l'annexe).
-Rigueur: un tableau n'est retenu que si
-  - >= 36 des 38 pays OCDE y sont reconnus, valeurs dans [250, 650];
-  - la France en maths vaut l'ancre du projet (474 en 2022, 458 en 2025, +-1);
-sinon rien n'est ecrit. Colonnes lues dans l'ordre standard maths, lecture, sciences
-(verifie par les en-tetes quand ils sont lisibles).
+v2 (corrige): v1 lisait les colonnes "par position" et a pris des annees
+anterieures pour la lecture et les sciences. Ici:
+  * la colonne d'une ANNEE est reperee par son en-tete (ex. "2022");
+  * la MATIERE d'un tableau multi-annees est identifiee en comparant sa colonne
+    2018 aux scores 2018 de la Banque mondiale deja telecharges (source
+    independante, >= 90 % des pays a +-1 point). Sans cela, la matiere n'est
+    pas acceptee (pas de lecture positionnelle);
+  * ancre maths: France 474 (2022) / 458 (2025), +-1.
+Rien n'est ecrit si ces controles echouent. Source Wikipedia = secondaire.
 
-Usage: python code/fetch_pisa_web.py            (2022 et 2025)
-       python code/fetch_pisa_web.py --year 2022 --extra-url https://...
+Usage: python code/fetch_pisa_web.py                 (2022 puis 2025)
+       python code/fetch_pisa_web.py --year 2025 --extra-url https://...
 """
-import io, re, sys, unicodedata, argparse
+import io, re, sys, argparse, unicodedata, warnings
 import requests
 import pandas as pd
 
 sys.path.insert(0, "code")
-from forecast_rankings import OECD38_ISO3
+from forecast_rankings import OECD38_ISO3, load_worldbank_json
 from pisa_extended import DEFAULT, load_manual, SANITY
+from pathlib import Path
 
+warnings.simplefilter("ignore")
 H = {"User-Agent": "Mozilla/5.0 (projet-education; recherche academique)"}
+SUBJECTS = ("mathematics", "reading", "science")
+KW = {"mathematics": "math", "reading": "read", "science": "scien"}
 NAMES = {
  "AUS": ["australia"], "AUT": ["austria"], "BEL": ["belgium"], "CAN": ["canada"], "CHL": ["chile"],
  "COL": ["colombia"], "CRI": ["costarica"], "CZE": ["czechrepublic", "czechia"], "DNK": ["denmark"],
@@ -46,58 +52,62 @@ def num(x):
     return float(m.group(1)) if m else float("nan")
 
 
-def tables_from(url):
-    r = requests.get(url, headers=H, timeout=60)
-    r.raise_for_status()
-    return pd.read_html(io.StringIO(r.text))
+def wb2018():
+    out = {}
+    for s in SUBJECTS:
+        p = Path("data/raw") / f"worldbank_pisa_{s}.json"
+        if p.exists():
+            df = load_worldbank_json(p)
+            out[s] = df[df["cycle"] == 2018].set_index("country")["score"].to_dict()
+    return out
 
 
-def best_table(tables, anchor):
-    """Retourne DataFrame iso3 x (mathematics, reading, science) ou None."""
+def parse_tables(tables, years, wb):
+    """-> {(subject, year): Series iso3->score, plus info}"""
+    found = {}
     for t in tables:
         t = t.copy()
         t.columns = [" ".join(map(str, c)) if isinstance(c, tuple) else str(c) for c in t.columns]
-        for ccol in t.columns:
-            iso = t[ccol].map(lambda v: LOOKUP.get(norm(v)))
-            if iso.notna().sum() < 36:
+        ccol = next((c for c in t.columns if t[c].map(lambda v: LOOKUP.get(norm(v))).notna().sum() >= 36), None)
+        if ccol is None:
+            continue
+        iso = t[ccol].map(lambda v: LOOKUP.get(norm(v)))
+        scorecols = {}      # (annee) -> colonne ; ou (annee, matiere)
+        for c in t.columns:
+            if c == ccol or t[c].map(num).between(250, 650).sum() < 30:
                 continue
-            numeric = [c for c in t.columns if c != ccol and t[c].map(num).between(250, 650).sum() >= 30]
-            if len(numeric) < 3:
+            ym = re.findall(r"\b(20\d\d|19\d\d)\b", c)
+            low = c.lower()
+            subj = next((s for s, k in KW.items() if k in low), None)
+            if ym:
+                scorecols.setdefault((int(ym[0]), subj), c)
+        def series(c):
+            return pd.Series(t[c].map(num).values, index=iso.values).dropna()
+        subjects_in = {k[1] for k in scorecols}
+        if None in subjects_in and len(subjects_in) == 1 and (2018, None) in scorecols:
+            # tableau multi-annees sans matiere dans l'en-tete: identifier via Banque mondiale
+            s18 = series(scorecols[(2018, None)])
+            best = None
+            for s, ref in wb.items():
+                common = [k for k in s18.index if k in ref]
+                if len(common) >= 25:
+                    ag = sum(abs(s18[k] - ref[k]) <= 1.0 for k in common) / len(common)
+                    if ag >= 0.9 and (best is None or ag > best[1]):
+                        best = (s, ag)
+            if best is None:
                 continue
-            sub = pd.DataFrame({"iso3": iso})
-            hdr = {c: c.lower() for c in numeric}
-            pick = {}
-            for s, kw in (("mathematics", "math"), ("reading", "read"), ("science", "scien")):
-                m = [c for c in numeric if kw in hdr[c]]
-                if len(m) == 1:
-                    pick[s] = m[0]
-            if len(pick) < 3:           # en-tetes illisibles: ordre standard
-                pick = dict(zip(("mathematics", "reading", "science"), numeric[:3]))
-                how = "ordre positionnel"
-            else:
-                how = "en-tetes"
-            for s, c in pick.items():
-                sub[s] = t[c].map(num)
-            sub = sub.dropna(subset=["iso3"]).drop_duplicates("iso3").set_index("iso3")
-            fr = sub["mathematics"].get("FRA")
-            if fr is not None and abs(fr - anchor) <= 1.0:
-                return sub, how
-    return None, None
+            for y in years:
+                if (y, None) in scorecols:
+                    found.setdefault((best[0], y), (series(scorecols[(y, None)]), f"colonne {y}; matiere via BM 2018 ({best[1]:.0%} concordance)"))
+        else:
+            for (y, s), c in scorecols.items():
+                if y in years and s:
+                    found.setdefault((s, y), (series(c), f"en-tete '{c[:40]}'"))
+    return found
 
 
-def candidate_urls(year, extra):
-    urls = list(extra)
-    urls += {2022: ["https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en/full-report/results-for-countries-and-economies_360c8f67.html"],
-             2025: ["https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/results-for-countries-and-economies_33854635.html"]}[year]
-    try:
-        q = f"Programme for International Student Assessment {year}"
-        r = requests.get("https://en.wikipedia.org/w/api.php", headers=H, timeout=30,
-                         params=dict(action="query", list="search", srsearch=q, srlimit=6, format="json"))
-        for h in r.json()["query"]["search"]:
-            urls.append("https://en.wikipedia.org/wiki/" + h["title"].replace(" ", "_"))
-    except Exception as e:
-        print("  (recherche Wikipedia indisponible:", str(e)[:100], ")")
-    urls.append("https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment")
+def candidate_urls(extra):
+    urls = list(extra) + ["https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment"]
     return list(dict.fromkeys(urls))
 
 
@@ -106,41 +116,46 @@ def main():
     ap.add_argument("--year", type=int, choices=(2022, 2025))
     ap.add_argument("--extra-url", action="append", default=[])
     a = ap.parse_args()
-    tmpl = pd.read_csv(DEFAULT, dtype={"source_table": str, "iso3": str, "subject": str})
-    tmpl["source_table"] = tmpl["source_table"].astype(object)
-    tmpl = tmpl.set_index(["iso3", "subject", "cycle"])
-    done = []
-    for year in ([a.year] if a.year else [2022, 2025]):
-        anchor = SANITY[("FRA", "mathematics", year)]
-        print(f"\n=== PISA {year} (ancre: France maths = {anchor}) ===")
-        for url in candidate_urls(year, a.extra_url):
-            try:
-                tabs = tables_from(url)
-            except Exception as e:
-                print(f"  - {url[:90]} : {str(e)[:80]}")
+    years = [a.year] if a.year else [2022, 2025]
+    wb = wb2018()
+    if not wb:
+        print("[note] scores BM 2018 absents (download_data.py --pisa-wb): identification de matiere impossible pour les tableaux multi-annees.")
+    df = pd.read_csv(DEFAULT, dtype={"source_table": str, "iso3": str, "subject": str})
+    df["source_table"] = df["source_table"].astype(object)
+    wrote = False
+    for url in candidate_urls(a.extra_url):
+        try:
+            r = requests.get(url, headers=H, timeout=60); r.raise_for_status()
+            tabs = pd.read_html(io.StringIO(r.text))
+        except Exception as e:
+            print(f"- {url[:90]} : {str(e)[:90]}"); continue
+        found = parse_tables(tabs, years, wb)
+        print(f"- {url[:90]} : {len(tabs)} tableaux, {len(found)} series (matiere, annee) identifiees")
+        for y in years:
+            anchor = SANITY[("FRA", "mathematics", y)]
+            m = found.get(("mathematics", y))
+            if m is None or "FRA" not in m[0].index or abs(m[0]["FRA"] - anchor) > 1.0:
+                print(f"  {y}: maths absentes ou ancre France={anchor} non satisfaite -> annee ignoree")
                 continue
-            sub, how = best_table(tabs, anchor)
-            print(f"  - {url[:90]} : {len(tabs)} tableaux, " + ("TABLEAU RETENU" if sub is not None else "aucun retenu"))
-            if sub is None:
-                continue
-            for iso, row in sub.iterrows():
-                for s in ("mathematics", "reading", "science"):
-                    if pd.notna(row[s]):
-                        tmpl.loc[(iso, s, year), "mean"] = row[s]
-                        tmpl.loc[(iso, s, year), "source_table"] = f"{url} ({how})"
-            print(f"    {len(sub)} pays; colonnes lues par {how}. Apercu:")
-            print(sub.loc[[c for c in ["FRA", "DEU", "POL", "FIN", "KOR", "USA"] if c in sub.index]].to_string())
-            done.append(year)
-            break
-        else:
-            print(f"  -> AUCUNE source exploitable pour {year}")
-    if done:
-        tmpl.reset_index().to_csv(DEFAULT, index=False)
-        print("\nEcrit:", DEFAULT)
-        load_manual(DEFAULT)
-        print("\nA FAIRE: recouper 4-5 pays avec l'annexe OCDE (surtout si la source est Wikipedia).")
-    else:
-        sys.exit("Rien ecrit.")
+            mask_y = df["cycle"] == y
+            df.loc[mask_y, ["mean", "source_table"]] = [float("nan"), None]
+            for s in SUBJECTS:
+                if (s, y) not in found:
+                    print(f"  {y} {s}: NON IDENTIFIEE (laissee vide)"); continue
+                ser, how = found[(s, y)]
+                for iso, v in ser.items():
+                    sel = mask_y & (df["subject"] == s) & (df["iso3"] == iso)
+                    df.loc[sel, "mean"] = v
+                    df.loc[sel, "source_table"] = f"{url} [{how}]"
+                print(f"  {y} {s}: {len(ser)} pays ({how})")
+                print("     " + "  ".join(f"{k}={ser[k]:.0f}" for k in ["FRA", "DEU", "POL", "FIN", "KOR", "USA"] if k in ser.index))
+            wrote = True
+    if not wrote:
+        sys.exit("Rien ecrit (aucune annee validee).")
+    df.to_csv(DEFAULT, index=False)
+    print("\nEcrit:", DEFAULT)
+    load_manual(DEFAULT)
+    print("\nA FAIRE: recouper 4-5 pays avec l'annexe OCDE (source secondaire).")
 
 
 main()

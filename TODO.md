@@ -120,3 +120,10 @@ A faire
 - [ ] Prevision TIMSS 2027 (modele gele): non faite.
 - [ ] Note de vie scolaire (DEPP): existence toujours a confirmer.
 - [ ] Graphe KST: 11 des 20 sous-items TIMSS G4 non couverts; parametres IRT a renseigner.
+
+## Verification PISA 2025 (2026-10-19) -- FAIT
+- Valeurs 2025 recoupees avec une seconde source de presse reprenant les tableaux OCDE
+  (Notes from Poland, Estonian World, Northern Voices): 13 pays en maths, 10 en lecture,
+  12 en sciences, 0 ecart > 1 point; France 458/456/483 conforme.
+- Moyenne simple des 38 pays du fichier: 463,1 / 460,9 / 481,9 contre OCDE publiee 463 / 461 / 482.
+- Limite a ecrire dans le rapport: sources secondaires, annexes OCDE non lues (403 aux scripts).

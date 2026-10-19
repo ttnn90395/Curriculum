@@ -127,3 +127,17 @@ A faire
   12 en sciences, 0 ecart > 1 point; France 458/456/483 conforme.
 - Moyenne simple des 38 pays du fichier: 463,1 / 460,9 / 481,9 contre OCDE publiee 463 / 461 / 482.
 - Limite a ecrire dans le rapport: sources secondaires, annexes OCDE non lues (403 aux scripts).
+
+## Avancement du 2026-10-19 (soir): TIMSS 2027 et graphe KST
+- FAIT: moyennes TIMSS G4 maths 1995-2023 (Exhibit 1.1.10 IEA, 56 entites, 36/36 valeurs de controle):
+  data/processed/timss_g4_math_scores_long.csv.
+- FAIT: modele poole gele (AR(1) sans constante sur transitions 2003->...->2023), backtest verrouille
+  (spec 0e88853baf6019bf), prevision 2027 figee: forecasts/timss_g4_math_2027_from_le2023.csv.
+  Backtest: skill MSE vs persistance +0,139 (phi 0,91-0,98), MAIS erreur de rang identique
+  (l'AR(1) pose phi>0 ne change pas l'ordre): gain sur les scores, pas sur les rangs.
+  Pli 2019->2023: couverture 80 % = 0,745 (intervalles trop etroits). France 2027: rang median 35/47 [30-38].
+- FAIT: extension du graphe KST a 31 notions (code/kst_extension.py), 15/15 sujets TIMSS G4 relies.
+- [ ] Valider les prerequis des 11 notions ajoutees contre une source independante (programme officiel
+      francais ou cadre TIMSS 2023 de maths); arbitrer typical_grade de n07/n08 (pilote: grade 5, TIMSS G4 les couvre).
+- [ ] SCOPE.md: contradiction a trancher (graphe maths+sciences = coeur du rapport vs extension aux sciences hors perimetre).
+- [ ] Parametres IRT/BLIM du graphe: toujours None.

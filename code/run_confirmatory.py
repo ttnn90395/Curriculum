@@ -65,9 +65,15 @@ def main() -> None:
     if not wb_path.exists():
         sys.exit(f"Absent: {wb_path} (python code/download_data.py --pisa-wb)")
     lock = ROOT / "forecasts" / f"confirmatory_{a.subject}.lock.json"
+    freeze_only = False
     if lock.exists() and not a.force:
-        sys.exit(f"Verrou present: {lock}\nLe test confirmatoire de {a.subject} a deja ete execute "
-                 f"(voir ce fichier). Pas de relance.")
+        same = json.loads(lock.read_text()).get("spec_hash") == SPEC_HASH
+        if a.freeze and same:
+            freeze_only = True      # test deja fait avec CETTE spec: on ne refait que la prevision 2028
+            print(f"[verrou present, spec identique: tests non refaits, ecriture de la prevision 2028 seulement]")
+        else:
+            sys.exit(f"Verrou present: {lock}\nLe test confirmatoire de {a.subject} a deja ete execute "
+                     f"(voir ce fichier). Pas de relance (ajouter --freeze pour n'ecrire que la prevision 2028).")
 
     wb = load_worldbank_json(wb_path)
     wb = wb[wb["cycle"] <= 2018]
@@ -91,12 +97,13 @@ def main() -> None:
 
     d = relative_positions(wide)
     iA, iB = len(old_cycles) - 1, len(old_cycles)             # origines: dernier <=2018, puis 2022
-    res = backtest(d, models=("naive", "ar1"), origins=[iA, iB])
-    res["test"] = res["origin"].map({iA: "A: <=2018 -> 2022", iB: "B: <=2022 -> 2025"})
-    print("\nTest confirmatoire (un seul passage):")
-    print(res.round(3).to_string(index=False))
-    print("\nResume (2 plis, descriptif; aucune inference sur 2 plis):")
-    print(summarize(res).to_string())
+    if not freeze_only:
+        res = backtest(d, models=("naive", "ar1"), origins=[iA, iB])
+        res["test"] = res["origin"].map({iA: "A: <=2018 -> 2022", iB: "B: <=2022 -> 2025"})
+        print("\nTest confirmatoire (un seul passage):")
+        print(res.round(3).to_string(index=False))
+        print("\nResume (2 plis, descriptif; aucune inference sur 2 plis):")
+        print(summarize(res).to_string())
 
     focus = [c for c in ["FRA", "DEU", "POL", "FIN"] if c in wide.index]
     ranks = wide.rank(ascending=False, method="min").astype(int)
@@ -105,11 +112,12 @@ def main() -> None:
     print(pd.DataFrame({c: [f"{ranks.loc[k, c]} ({rel.loc[k, c]:+.1f})" for k in focus] for c in all_cycles},
                        index=focus).to_string())
 
-    lock.parent.mkdir(parents=True, exist_ok=True)
-    lock.write_text(json.dumps(dict(subject=a.subject, run_on=str(datetime.date.today()), spec_hash=SPEC_HASH,
-                                    spec=MODEL_SPEC, forced=bool(a.force),
-                                    results=res.round(4).to_dict(orient="records")), indent=2, default=float))
-    print(f"\nVerrou ecrit: {lock} (spec {SPEC_HASH})")
+    if not freeze_only:
+        lock.parent.mkdir(parents=True, exist_ok=True)
+        lock.write_text(json.dumps(dict(subject=a.subject, run_on=str(datetime.date.today()), spec_hash=SPEC_HASH,
+                                        spec=MODEL_SPEC, forced=bool(a.force),
+                                        results=res.round(4).to_dict(orient="records")), indent=2, default=float))
+        print(f"\nVerrou ecrit: {lock} (spec {SPEC_HASH})")
 
     tab = forecast_next(d, list(wide.index), MODEL_SPEC["frozen_model"])
     print(f"\n=== Prevision PISA 2028 depuis <= 2025, modele {MODEL_SPEC['frozen_model']} ===")

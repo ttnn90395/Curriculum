@@ -1,0 +1,21 @@
+obj_id,topic_area,objective,crosswalk_topic,notions,coverage,note
+WN1,Whole numbers (25%),Place value up to 6 digits; representations; comparing numbers,N1,n03,full,
+WN2,Whole numbers (25%),Add and subtract numbers up to 4 digits,N2,n02,full,
+WN3,Whole numbers (25%),Multiply and divide within digit limits,N2,n04;n05,full,
+WN4,Whole numbers (25%),"Odd/even, multiples, factors, rounding, estimation",N3,n21,partial,"arrondis et estimations absents du libelle de n21"
+WN5,Whole numbers (25%),Combine properties or operations to solve a problem,,,none,"competence transversale; correspond a l'item 2023 MA408AE non apparie; pas une notion KST"
+EX1,Expressions and equations (15%),Find a missing number or operation in a number sentence,N6,n22,full,
+EX2,Expressions and equations (15%),Match or write expressions and number sentences for problem situations,N6,n22,full,
+EX3,Expressions and equations (15%),Relationships in well-defined patterns,N7,n23,full,
+FD1,Fractions and decimals (10%),"Fractions as parts of wholes; compare; add/subtract simple fractions with like denominators",N4,n06;n07,full,
+FD2,Fractions and decimals (10%),"Decimals: representations, order, link to fractions, rounding, add/subtract to two places",N5,n08,full,
+M1,Measurement (15%),"Measure, estimate, add, subtract lengths",G1,m01,full,"G1 = niveau low dans le tableau d'appariement"
+M2,Measurement (15%),"Add/subtract mass, volume, time; units; scales",G2,m02,full,
+M3,Measurement (15%),"Perimeters; areas (squares); volumes (cubes)",G3,m03,full,
+GE1,Geometry (15%),Parallel and perpendicular lines; angles; compare angles,G4,g02,full,
+GE2,Geometry (15%),Properties incl. symmetry to describe and create 2D shapes,G5,g01,partial,"symetrie absente du libelle de g01"
+GE3,Geometry (15%),3D shapes and their 2D representations,G6,g03,full,
+D1,Data: reading and displaying (10%),"Read data: tables, pictographs, bar/line/pie",D1,d01,full,
+D2,Data: reading and displaying (10%),Create or complete data displays,D1,d01,full,
+D3,Data: interpreting (10%),Interpret data beyond direct reading,D2,d02,full,
+D4,Data: interpreting (10%),Combine or compare data from two or more sources,D2,d02,partial,"item 2023 MA408CD non apparie dans le tableau d'appariement"

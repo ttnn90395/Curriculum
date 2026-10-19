@@ -106,7 +106,8 @@ def open_table(path):
     path = Path(path)
     if path.suffix.lower() == ".zip":
         z = zipfile.ZipFile(path)
-        name = next((n for n in z.namelist() if n.lower().endswith(EXTS)), None)
+        sav = [n for n in z.namelist() if n.lower().endswith(EXTS)]
+        name = next((n for n in sav if 'QQQ' in n.upper()), sav[0] if sav else None)
         if name is None:
             sys.exit(f"Pas de .sav/.sas7bdat dans {path}: {z.namelist()[:10]}")
         out = RAW / Path(name).name

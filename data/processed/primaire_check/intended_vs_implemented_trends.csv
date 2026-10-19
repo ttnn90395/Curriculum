@@ -1,0 +1,53 @@
+country,n_topics,d_prevu,d_before,rang_d_prevu,rang_d_before
+"Abu Dhabi, UAE",7,0.0,1.28,17,7
+Albania,7,0.14,-5.07,8,37
+Armenia,6,0.0,0.5,17,11
+Australia,7,0.07,-2.24,15,24
+Azerbaijan,7,0.29,-5.5,3,38
+Bahrain,7,0.0,-0.83,17,16
+Belgium (Flemish),7,-0.43,-3.64,48,31
+Bosnia and Herzegovina,7,-0.14,-1.51,39,19
+Bulgaria,7,0.14,0.98,8,10
+Canada,7,0.0,-0.86,17,17
+Chile,7,-0.14,-10.48,39,49
+Chinese Taipei,7,0.29,-7.61,3,44
+Cyprus,7,0.21,-7.34,7,43
+Czech Republic,7,0.29,-5.0,3,36
+Denmark,7,-0.14,-3.01,39,28
+"Dubai, UAE",7,0.0,-1.53,17,20
+England,7,0.14,-0.06,8,13
+Finland,7,0.0,-8.82,17,47
+France,7,0.5,-0.74,1,15
+Georgia,7,0.0,-2.14,17,23
+Germany,7,0.0,0.08,17,12
+Hong Kong SAR,7,-0.43,3.17,48,4
+Hungary,7,0.0,-10.69,17,50
+"Iran, Islamic Rep. of",7,-0.43,14.3,48,2
+Ireland,7,-0.29,-11.77,45,52
+Italy,7,0.36,-3.78,2,32
+Japan,7,-0.29,-11.11,45,51
+Kazakhstan,7,0.0,6.65,17,3
+"Korea, Rep. of",7,-0.14,2.88,39,5
+Kosovo,7,0.07,-8.47,15,46
+Kuwait,7,0.0,1.15,17,8
+Latvia,7,-0.14,-6.19,39,41
+Lithuania,7,-0.07,-2.74,36,26
+Montenegro,7,-0.36,1.02,47,9
+Morocco,7,0.0,16.15,17,1
+Netherlands,7,0.0,-5.6,17,39
+New Zealand,7,-0.07,-6.84,36,42
+North Macedonia,7,0.14,-4.49,8,34
+Oman,7,0.14,-2.02,8,22
+"Ontario, Canada",7,-0.43,-0.19,48,14
+Poland,7,0.0,-4.24,17,33
+Portugal,7,0.0,-7.65,17,45
+Qatar,7,-0.07,-2.38,36,25
+"Quebec, Canada",7,-0.14,-3.2,39,29
+Saudi Arabia,7,0.0,-1.37,17,18
+Serbia,7,0.0,-2.98,17,27
+Singapore,7,0.14,-5.63,8,40
+Slovak Republic,7,-0.43,-8.83,48,48
+Spain,7,0.29,1.32,3,6
+Sweden,7,0.11,-4.99,14,35
+United Arab Emirates,7,0.0,-1.87,17,21
+United States,7,0.0,-3.35,17,30

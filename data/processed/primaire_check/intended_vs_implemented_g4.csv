@@ -1,0 +1,840 @@
+cycle,ckey,topic_id,pct_before,pct_this_year,pct_not_yet,intended,country
+2019,abu dhabi uae,G2,20.0,41.8,38.2,1.0,"Abu Dhabi, UAE"
+2019,abu dhabi uae,G3,12.3,56.8,30.9,1.0,"Abu Dhabi, UAE"
+2019,abu dhabi uae,G6,28.9,40.6,30.5,1.0,"Abu Dhabi, UAE"
+2019,abu dhabi uae,N1,55.6,44.2,0.3,1.0,"Abu Dhabi, UAE"
+2019,abu dhabi uae,N2,44.3,55.1,0.7,1.0,"Abu Dhabi, UAE"
+2019,abu dhabi uae,N4,16.8,76.1,7.1,1.0,"Abu Dhabi, UAE"
+2019,abu dhabi uae,N7,37.2,57.6,5.2,1.0,"Abu Dhabi, UAE"
+2019,albania,G2,31.1,32.3,36.6,1.0,Albania
+2019,albania,G3,16.7,70.3,12.9,0.0,Albania
+2019,albania,G6,47.2,51.3,1.5,0.0,Albania
+2019,albania,N1,51.8,45.2,3.0,1.0,Albania
+2019,albania,N2,35.8,60.9,3.4,1.0,Albania
+2019,albania,N4,19.0,77.1,3.9,1.0,Albania
+2019,albania,N7,60.2,39.2,0.6,1.0,Albania
+2019,armenia,G2,54.0,40.8,5.2,1.0,Armenia
+2019,armenia,G3,52.9,41.1,6.1,1.0,Armenia
+2019,armenia,G6,15.8,22.3,61.9,1.0,Armenia
+2019,armenia,N1,79.6,20.4,0.0,1.0,Armenia
+2019,armenia,N2,89.8,10.2,0.0,1.0,Armenia
+2019,armenia,N7,74.7,24.6,0.7,1.0,Armenia
+2019,australia,G2,20.5,69.9,9.6,1.0,Australia
+2019,australia,G3,8.5,81.0,10.5,1.0,Australia
+2019,australia,G6,31.4,53.2,15.4,0.5,Australia
+2019,australia,N1,50.3,49.7,0.0,1.0,Australia
+2019,australia,N2,26.0,73.3,0.6,1.0,Australia
+2019,australia,N4,4.7,85.9,9.4,1.0,Australia
+2019,australia,N7,27.3,65.3,7.5,1.0,Australia
+2019,austria,G2,14.6,42.1,43.4,1.0,Austria
+2019,austria,G3,4.1,58.9,37.0,1.0,Austria
+2019,austria,G6,13.8,42.3,43.9,1.0,Austria
+2019,austria,N1,90.3,7.9,1.8,1.0,Austria
+2019,austria,N2,80.6,17.2,2.2,1.0,Austria
+2019,austria,N4,2.9,49.5,47.6,1.0,Austria
+2019,austria,N7,75.7,23.6,0.7,1.0,Austria
+2019,azerbaijan,G2,66.6,33.4,0.1,1.0,Azerbaijan
+2019,azerbaijan,G3,41.4,58.5,0.2,1.0,Azerbaijan
+2019,azerbaijan,G6,32.4,43.8,23.8,0.0,Azerbaijan
+2019,azerbaijan,N1,79.5,19.6,0.9,1.0,Azerbaijan
+2019,azerbaijan,N2,87.0,11.4,1.5,1.0,Azerbaijan
+2019,azerbaijan,N4,37.7,56.2,6.2,0.0,Azerbaijan
+2019,azerbaijan,N7,65.9,33.7,0.4,1.0,Azerbaijan
+2019,bahrain,G2,22.2,68.3,9.5,1.0,Bahrain
+2019,bahrain,G3,17.4,71.6,11.1,1.0,Bahrain
+2019,bahrain,G6,19.4,59.2,21.4,1.0,Bahrain
+2019,bahrain,N1,64.4,35.6,0.0,1.0,Bahrain
+2019,bahrain,N2,45.4,53.9,0.8,1.0,Bahrain
+2019,bahrain,N4,16.0,71.9,12.1,1.0,Bahrain
+2019,bahrain,N7,43.6,50.5,5.9,1.0,Bahrain
+2019,belgium flemish,G2,5.4,16.5,78.2,1.0,Belgium (Flemish)
+2019,belgium flemish,G3,0.1,48.3,51.7,1.0,Belgium (Flemish)
+2019,belgium flemish,G6,2.6,10.8,86.7,1.0,Belgium (Flemish)
+2019,belgium flemish,N1,44.6,55.4,0.0,1.0,Belgium (Flemish)
+2019,belgium flemish,N2,41.8,58.2,0.0,1.0,Belgium (Flemish)
+2019,belgium flemish,N4,4.7,90.3,5.1,1.0,Belgium (Flemish)
+2019,belgium flemish,N7,37.7,57.8,4.5,1.0,Belgium (Flemish)
+2019,bosnia and herzegovina,G2,25.9,41.7,32.3,1.0,Bosnia and Herzegovina
+2019,bosnia and herzegovina,G3,3.8,16.7,79.5,1.0,Bosnia and Herzegovina
+2019,bosnia and herzegovina,G6,20.2,13.7,66.1,1.0,Bosnia and Herzegovina
+2019,bosnia and herzegovina,N1,67.2,24.4,8.4,0.0,Bosnia and Herzegovina
+2019,bosnia and herzegovina,N2,45.5,48.6,6.0,1.0,Bosnia and Herzegovina
+2019,bosnia and herzegovina,N4,1.1,14.4,84.5,0.0,Bosnia and Herzegovina
+2019,bosnia and herzegovina,N7,65.2,27.4,7.4,0.0,Bosnia and Herzegovina
+2019,bulgaria,G2,42.5,41.4,16.1,1.0,Bulgaria
+2019,bulgaria,G3,18.1,72.1,9.8,1.0,Bulgaria
+2019,bulgaria,G6,0.7,1.4,97.8,0.0,Bulgaria
+2019,bulgaria,N1,67.6,31.0,1.4,1.0,Bulgaria
+2019,bulgaria,N2,77.2,22.0,0.8,1.0,Bulgaria
+2019,bulgaria,N4,0.0,1.7,98.3,0.0,Bulgaria
+2019,bulgaria,N7,76.5,21.4,2.1,1.0,Bulgaria
+2019,canada,G2,14.9,47.1,38.0,1.0,Canada
+2019,canada,G3,13.3,63.4,23.3,1.0,Canada
+2019,canada,G6,25.8,48.4,25.8,1.0,Canada
+2019,canada,N1,56.5,43.4,0.1,1.0,Canada
+2019,canada,N2,26.5,69.7,3.8,1.0,Canada
+2019,canada,N4,8.8,56.6,34.7,1.0,Canada
+2019,canada,N7,39.2,55.1,5.7,1.0,Canada
+2019,chile,G2,10.5,51.9,37.6,1.0,Chile
+2019,chile,G3,15.9,47.8,36.3,1.0,Chile
+2019,chile,G6,34.2,53.4,12.5,1.0,Chile
+2019,chile,N1,74.5,25.5,0.0,1.0,Chile
+2019,chile,N2,46.5,52.6,1.0,1.0,Chile
+2019,chile,N4,16.1,72.0,11.9,1.0,Chile
+2019,chile,N7,61.9,36.2,1.9,1.0,Chile
+2019,chinese taipei,G2,18.4,53.9,27.6,0.0,Chinese Taipei
+2019,chinese taipei,G3,12.3,72.9,14.8,0.0,Chinese Taipei
+2019,chinese taipei,G6,12.8,32.8,54.5,0.0,Chinese Taipei
+2019,chinese taipei,N1,83.3,16.7,0.0,1.0,Chinese Taipei
+2019,chinese taipei,N2,79.2,20.8,0.0,1.0,Chinese Taipei
+2019,chinese taipei,N4,41.5,58.4,0.0,1.0,Chinese Taipei
+2019,chinese taipei,N7,50.1,28.1,21.9,1.0,Chinese Taipei
+2019,croatia,G2,24.1,37.9,38.0,1.0,Croatia
+2019,croatia,G3,4.8,61.6,33.6,1.0,Croatia
+2019,croatia,G6,30.5,17.0,52.4,0.5,Croatia
+2019,croatia,N1,71.1,22.5,6.4,1.0,Croatia
+2019,croatia,N2,51.7,45.4,2.9,1.0,Croatia
+2019,croatia,N4,3.3,0.9,95.9,0.0,Croatia
+2019,croatia,N7,81.1,17.6,1.3,0.0,Croatia
+2019,cyprus,G2,11.8,64.1,24.1,0.5,Cyprus
+2019,cyprus,G3,10.8,79.9,9.2,1.0,Cyprus
+2019,cyprus,G6,8.0,66.7,25.3,1.0,Cyprus
+2019,cyprus,N1,57.8,42.2,0.0,1.0,Cyprus
+2019,cyprus,N2,41.7,58.3,0.0,1.0,Cyprus
+2019,cyprus,N4,5.2,84.2,10.6,0.5,Cyprus
+2019,cyprus,N7,52.9,45.4,1.7,0.5,Cyprus
+2019,czech republic,G2,23.9,65.1,11.0,1.0,Czech Republic
+2019,czech republic,G3,3.2,54.6,42.1,0.5,Czech Republic
+2019,czech republic,G6,6.6,19.4,74.0,0.5,Czech Republic
+2019,czech republic,N1,64.7,34.6,0.7,1.0,Czech Republic
+2019,czech republic,N2,69.9,30.1,0.0,1.0,Czech Republic
+2019,czech republic,N4,0.9,54.8,44.2,1.0,Czech Republic
+2019,czech republic,N7,60.2,36.5,3.3,0.0,Czech Republic
+2019,denmark,G2,27.8,28.4,43.8,1.0,Denmark
+2019,denmark,G3,22.2,62.7,15.1,1.0,Denmark
+2019,denmark,G6,12.0,20.4,67.6,1.0,Denmark
+2019,denmark,N1,66.6,31.7,1.7,1.0,Denmark
+2019,denmark,N2,33.0,64.1,2.9,1.0,Denmark
+2019,denmark,N4,9.3,62.7,28.0,1.0,Denmark
+2019,denmark,N7,46.5,35.9,17.7,1.0,Denmark
+2019,dubai uae,G2,23.0,54.4,22.6,1.0,"Dubai, UAE"
+2019,dubai uae,G3,12.9,70.8,16.3,1.0,"Dubai, UAE"
+2019,dubai uae,G6,34.8,50.1,15.1,1.0,"Dubai, UAE"
+2019,dubai uae,N1,58.9,41.1,0.0,1.0,"Dubai, UAE"
+2019,dubai uae,N2,53.6,46.4,0.0,1.0,"Dubai, UAE"
+2019,dubai uae,N4,21.2,72.3,6.5,1.0,"Dubai, UAE"
+2019,dubai uae,N7,43.5,52.4,4.1,1.0,"Dubai, UAE"
+2019,england,G2,31.6,57.0,11.4,0.0,England
+2019,england,G3,19.0,69.7,11.3,0.0,England
+2019,england,G6,30.0,43.3,26.7,1.0,England
+2019,england,N1,64.8,35.2,0.0,1.0,England
+2019,england,N2,54.7,45.3,0.0,1.0,England
+2019,england,N4,24.6,69.3,6.1,1.0,England
+2019,england,N7,29.0,57.7,13.3,1.0,England
+2019,finland,G2,26.4,39.8,33.8,1.0,Finland
+2019,finland,G3,13.8,38.2,48.0,1.0,Finland
+2019,finland,G6,17.4,14.3,68.2,0.0,Finland
+2019,finland,N1,82.0,15.3,2.7,1.0,Finland
+2019,finland,N2,78.7,21.1,0.2,1.0,Finland
+2019,finland,N4,13.5,84.6,1.9,1.0,Finland
+2019,finland,N7,87.2,10.3,2.5,1.0,Finland
+2019,france,G2,15.8,60.4,23.8,0.5,France
+2019,france,G3,2.0,62.8,35.3,0.5,France
+2019,france,G6,14.5,35.5,50.0,0.5,France
+2019,france,N1,66.7,33.3,0.0,1.0,France
+2019,france,N2,26.7,72.9,0.4,0.5,France
+2019,france,N4,1.9,86.9,11.1,0.0,France
+2019,france,N7,66.5,25.6,7.9,0.5,France
+2019,georgia,G2,25.9,52.9,21.1,0.0,Georgia
+2019,georgia,G3,27.5,39.3,33.2,0.0,Georgia
+2019,georgia,G6,13.2,37.9,48.9,1.0,Georgia
+2019,georgia,N1,75.2,24.4,0.4,1.0,Georgia
+2019,georgia,N2,60.8,38.8,0.4,1.0,Georgia
+2019,georgia,N4,6.1,47.3,46.7,0.0,Georgia
+2019,georgia,N7,76.0,19.3,4.7,1.0,Georgia
+2019,germany,G2,25.9,56.3,17.7,1.0,Germany
+2019,germany,G3,6.5,47.9,45.6,0.5,Germany
+2019,germany,G6,28.6,37.6,33.7,1.0,Germany
+2019,germany,N1,80.1,19.9,0.0,1.0,Germany
+2019,germany,N2,57.9,39.5,2.5,1.0,Germany
+2019,germany,N4,5.1,17.1,77.8,0.0,Germany
+2019,germany,N7,63.8,26.5,9.6,1.0,Germany
+2019,hong kong sar,G2,21.2,24.4,54.4,1.0,Hong Kong SAR
+2019,hong kong sar,G3,4.7,81.3,14.0,1.0,Hong Kong SAR
+2019,hong kong sar,G6,35.6,24.3,40.1,0.0,Hong Kong SAR
+2019,hong kong sar,N1,92.4,7.6,0.0,1.0,Hong Kong SAR
+2019,hong kong sar,N2,80.3,19.7,0.0,1.0,Hong Kong SAR
+2019,hong kong sar,N4,20.2,78.6,1.1,1.0,Hong Kong SAR
+2019,hong kong sar,N7,72.2,18.7,9.1,0.0,Hong Kong SAR
+2019,hungary,G2,57.0,35.1,7.9,1.0,Hungary
+2019,hungary,G3,15.3,58.6,26.2,1.0,Hungary
+2019,hungary,G6,16.4,58.8,24.9,1.0,Hungary
+2019,hungary,N1,95.9,4.1,0.0,1.0,Hungary
+2019,hungary,N2,92.2,6.6,1.2,1.0,Hungary
+2019,hungary,N4,15.3,54.9,29.8,0.0,Hungary
+2019,hungary,N7,96.2,3.8,0.0,1.0,Hungary
+2019,iran islamic rep of,G2,21.4,36.7,41.9,1.0,"Iran, Islamic Rep. of"
+2019,iran islamic rep of,G3,9.3,56.3,34.4,1.0,"Iran, Islamic Rep. of"
+2019,iran islamic rep of,G6,5.8,15.8,78.5,1.0,"Iran, Islamic Rep. of"
+2019,iran islamic rep of,N1,56.1,43.6,0.3,1.0,"Iran, Islamic Rep. of"
+2019,iran islamic rep of,N2,27.1,72.1,0.7,1.0,"Iran, Islamic Rep. of"
+2019,iran islamic rep of,N4,9.8,90.2,0.0,1.0,"Iran, Islamic Rep. of"
+2019,iran islamic rep of,N7,28.5,66.8,4.7,1.0,"Iran, Islamic Rep. of"
+2019,ireland,G2,22.0,43.3,34.7,1.0,Ireland
+2019,ireland,G3,12.5,54.9,32.6,1.0,Ireland
+2019,ireland,G6,35.5,51.8,12.6,1.0,Ireland
+2019,ireland,N1,71.4,27.4,1.2,1.0,Ireland
+2019,ireland,N2,57.1,42.5,0.3,1.0,Ireland
+2019,ireland,N4,12.6,73.0,14.4,1.0,Ireland
+2019,ireland,N7,59.9,36.4,3.7,1.0,Ireland
+2019,italy,G2,2.0,12.4,85.6,0.0,Italy
+2019,italy,G3,2.8,27.8,69.5,0.0,Italy
+2019,italy,G6,19.2,14.4,66.4,0.0,Italy
+2019,italy,N1,86.2,13.8,0.0,1.0,Italy
+2019,italy,N2,83.0,17.0,0.0,1.0,Italy
+2019,italy,N4,30.0,69.1,0.9,1.0,Italy
+2019,italy,N7,48.9,42.7,8.4,1.0,Italy
+2019,japan,G2,33.2,24.1,42.8,1.0,Japan
+2019,japan,G3,4.9,61.6,33.5,1.0,Japan
+2019,japan,G6,0.7,53.8,45.5,1.0,Japan
+2019,japan,N1,77.0,22.6,0.4,1.0,Japan
+2019,japan,N2,83.3,16.4,0.3,1.0,Japan
+2019,japan,N4,26.4,65.2,8.4,1.0,Japan
+2019,japan,N7,38.4,30.8,30.7,1.0,Japan
+2019,kazakhstan,G2,65.6,33.4,1.0,1.0,Kazakhstan
+2019,kazakhstan,G3,59.6,39.4,1.0,1.0,Kazakhstan
+2019,kazakhstan,G6,27.4,41.7,30.8,1.0,Kazakhstan
+2019,kazakhstan,N1,55.8,42.6,1.6,1.0,Kazakhstan
+2019,kazakhstan,N2,68.0,30.8,1.1,1.0,Kazakhstan
+2019,kazakhstan,N4,21.5,42.8,35.7,1.0,Kazakhstan
+2019,kazakhstan,N7,69.3,25.4,5.3,1.0,Kazakhstan
+2019,korea rep of,G2,36.8,27.4,35.8,1.0,"Korea, Rep. of"
+2019,korea rep of,G3,7.5,12.9,79.7,0.0,"Korea, Rep. of"
+2019,korea rep of,G6,2.6,11.1,86.3,1.0,"Korea, Rep. of"
+2019,korea rep of,N1,80.3,19.7,0.0,1.0,"Korea, Rep. of"
+2019,korea rep of,N2,72.6,25.9,1.5,1.0,"Korea, Rep. of"
+2019,korea rep of,N4,10.4,88.2,1.3,1.0,"Korea, Rep. of"
+2019,korea rep of,N7,33.9,39.2,26.9,1.0,"Korea, Rep. of"
+2019,kosovo,G2,38.7,53.7,7.6,1.0,Kosovo
+2019,kosovo,G3,28.4,62.6,9.1,1.0,Kosovo
+2019,kosovo,G6,41.6,43.8,14.6,0.0,Kosovo
+2019,kosovo,N1,57.0,33.4,9.7,1.0,Kosovo
+2019,kosovo,N2,51.3,46.9,1.8,1.0,Kosovo
+2019,kosovo,N4,19.2,25.6,55.2,1.0,Kosovo
+2019,kosovo,N7,47.1,37.0,15.9,1.0,Kosovo
+2019,kuwait,G2,30.3,58.5,11.2,1.0,Kuwait
+2019,kuwait,G3,17.1,71.0,11.9,1.0,Kuwait
+2019,kuwait,G6,31.6,39.3,29.1,1.0,Kuwait
+2019,kuwait,N1,65.0,30.7,4.4,1.0,Kuwait
+2019,kuwait,N2,62.3,32.1,5.5,1.0,Kuwait
+2019,kuwait,N4,28.7,67.9,3.4,1.0,Kuwait
+2019,kuwait,N7,53.4,40.2,6.4,1.0,Kuwait
+2019,latvia,G2,55.9,44.0,0.1,1.0,Latvia
+2019,latvia,G3,23.0,71.9,5.1,1.0,Latvia
+2019,latvia,G6,5.4,14.8,79.9,1.0,Latvia
+2019,latvia,N1,58.0,40.3,1.7,1.0,Latvia
+2019,latvia,N2,69.9,30.1,0.0,1.0,Latvia
+2019,latvia,N4,12.5,72.2,15.3,1.0,Latvia
+2019,latvia,N7,82.8,16.3,0.9,1.0,Latvia
+2019,lithuania,G2,19.8,70.5,9.8,1.0,Lithuania
+2019,lithuania,G3,29.6,64.3,6.1,1.0,Lithuania
+2019,lithuania,G6,11.4,35.8,52.8,1.0,Lithuania
+2019,lithuania,N1,87.5,11.0,1.5,1.0,Lithuania
+2019,lithuania,N2,59.5,40.5,0.0,1.0,Lithuania
+2019,lithuania,N4,29.1,62.9,8.1,1.0,Lithuania
+2019,lithuania,N7,35.4,43.9,20.8,1.0,Lithuania
+2019,malta,G2,14.8,50.0,35.2,1.0,Malta
+2019,malta,G3,8.6,55.7,35.7,1.0,Malta
+2019,malta,G6,31.0,51.6,17.5,1.0,Malta
+2019,malta,N1,63.5,35.8,0.6,1.0,Malta
+2019,malta,N2,58.9,40.5,0.6,1.0,Malta
+2019,malta,N4,11.0,70.3,18.7,1.0,Malta
+2019,malta,N7,37.5,54.7,7.7,1.0,Malta
+2019,montenegro,G2,8.8,84.4,6.8,1.0,Montenegro
+2019,montenegro,G3,2.0,25.2,72.9,1.0,Montenegro
+2019,montenegro,G6,17.2,16.2,66.6,1.0,Montenegro
+2019,montenegro,N1,55.5,31.8,12.8,1.0,Montenegro
+2019,montenegro,N2,36.9,55.0,8.1,1.0,Montenegro
+2019,montenegro,N4,1.1,15.9,83.0,0.0,Montenegro
+2019,montenegro,N7,54.5,37.2,8.3,1.0,Montenegro
+2019,morocco,G2,13.0,51.8,35.2,1.0,Morocco
+2019,morocco,G3,4.1,37.3,58.6,1.0,Morocco
+2019,morocco,G6,5.2,25.8,68.9,1.0,Morocco
+2019,morocco,N1,67.1,32.9,0.0,1.0,Morocco
+2019,morocco,N2,28.7,71.3,0.0,1.0,Morocco
+2019,morocco,N4,0.2,12.8,87.0,1.0,Morocco
+2019,morocco,N7,20.0,49.0,31.0,1.0,Morocco
+2019,moscow city russian fed,G2,34.7,59.8,5.5,1.0,"Moscow City, Russian Fed."
+2019,moscow city russian fed,G3,48.3,42.0,9.7,1.0,"Moscow City, Russian Fed."
+2019,moscow city russian fed,G6,7.1,19.0,73.9,1.0,"Moscow City, Russian Fed."
+2019,moscow city russian fed,N1,88.1,10.0,1.8,1.0,"Moscow City, Russian Fed."
+2019,moscow city russian fed,N2,67.3,32.4,0.3,1.0,"Moscow City, Russian Fed."
+2019,moscow city russian fed,N4,5.7,40.2,54.2,0.0,"Moscow City, Russian Fed."
+2019,moscow city russian fed,N7,79.4,19.0,1.7,1.0,"Moscow City, Russian Fed."
+2019,netherlands,G2,3.3,49.1,47.6,1.0,Netherlands
+2019,netherlands,G3,1.1,75.2,23.7,1.0,Netherlands
+2019,netherlands,G6,7.8,13.7,78.5,1.0,Netherlands
+2019,netherlands,N1,63.0,36.8,0.2,1.0,Netherlands
+2019,netherlands,N2,33.5,66.4,0.2,1.0,Netherlands
+2019,netherlands,N4,0.0,52.1,47.9,0.0,Netherlands
+2019,netherlands,N7,48.2,48.1,3.7,0.0,Netherlands
+2019,new zealand,G2,18.9,63.1,18.0,1.0,New Zealand
+2019,new zealand,G3,7.3,74.5,18.2,0.5,New Zealand
+2019,new zealand,G6,23.6,56.1,20.3,0.5,New Zealand
+2019,new zealand,N1,56.2,43.7,0.1,1.0,New Zealand
+2019,new zealand,N2,31.5,67.7,0.8,1.0,New Zealand
+2019,new zealand,N4,9.2,79.9,11.0,1.0,New Zealand
+2019,new zealand,N7,37.3,52.7,10.0,1.0,New Zealand
+2019,north macedonia,G2,39.5,53.2,7.4,0.0,North Macedonia
+2019,north macedonia,G3,16.1,64.5,19.4,0.0,North Macedonia
+2019,north macedonia,G6,31.9,60.7,7.4,0.5,North Macedonia
+2019,north macedonia,N1,52.9,46.3,0.8,1.0,North Macedonia
+2019,north macedonia,N2,41.9,58.1,0.0,1.0,North Macedonia
+2019,north macedonia,N4,23.9,71.4,4.7,0.5,North Macedonia
+2019,north macedonia,N7,52.8,46.7,0.6,0.5,North Macedonia
+2019,northern ireland,G2,22.6,69.4,8.0,1.0,Northern Ireland
+2019,northern ireland,G3,8.9,89.4,1.8,0.5,Northern Ireland
+2019,northern ireland,G6,33.9,60.0,6.0,1.0,Northern Ireland
+2019,northern ireland,N1,75.8,24.2,0.0,1.0,Northern Ireland
+2019,northern ireland,N2,75.0,25.0,0.0,1.0,Northern Ireland
+2019,northern ireland,N4,16.7,81.2,2.1,0.0,Northern Ireland
+2019,northern ireland,N7,45.5,50.1,4.5,0.0,Northern Ireland
+2019,oman,G2,46.3,45.3,8.4,0.0,Oman
+2019,oman,G3,24.4,69.7,5.9,0.0,Oman
+2019,oman,G6,49.5,42.2,8.3,0.0,Oman
+2019,oman,N1,85.9,14.1,0.0,1.0,Oman
+2019,oman,N2,67.6,31.2,1.1,1.0,Oman
+2019,oman,N4,26.1,63.4,10.6,1.0,Oman
+2019,oman,N7,47.9,43.1,9.0,1.0,Oman
+2019,ontario canada,G2,20.3,50.2,29.5,1.0,"Ontario, Canada"
+2019,ontario canada,G3,11.3,71.7,17.0,1.0,"Ontario, Canada"
+2019,ontario canada,G6,25.0,50.5,24.5,1.0,"Ontario, Canada"
+2019,ontario canada,N1,47.4,52.6,0.0,1.0,"Ontario, Canada"
+2019,ontario canada,N2,26.1,67.4,6.5,1.0,"Ontario, Canada"
+2019,ontario canada,N4,9.3,55.7,35.0,1.0,"Ontario, Canada"
+2019,ontario canada,N7,33.3,63.3,3.4,1.0,"Ontario, Canada"
+2019,pakistan,G2,24.9,58.5,16.6,1.0,Pakistan
+2019,pakistan,G3,21.2,54.4,24.4,0.0,Pakistan
+2019,pakistan,G6,21.6,35.3,43.1,0.0,Pakistan
+2019,pakistan,N1,51.2,43.2,5.6,1.0,Pakistan
+2019,pakistan,N2,61.1,37.0,1.9,1.0,Pakistan
+2019,pakistan,N4,31.5,59.9,8.6,1.0,Pakistan
+2019,pakistan,N7,41.3,50.4,8.4,1.0,Pakistan
+2019,philippines,G2,20.3,69.3,10.4,1.0,Philippines
+2019,philippines,G3,24.3,73.1,2.7,1.0,Philippines
+2019,philippines,G6,15.6,62.1,22.3,1.0,Philippines
+2019,philippines,N1,69.6,30.4,0.0,1.0,Philippines
+2019,philippines,N2,68.4,31.6,0.0,1.0,Philippines
+2019,philippines,N4,48.3,50.2,1.5,1.0,Philippines
+2019,philippines,N7,42.4,56.6,1.0,1.0,Philippines
+2019,poland,G2,12.8,48.0,39.1,1.0,Poland
+2019,poland,G3,0.8,50.3,48.9,1.0,Poland
+2019,poland,G6,0.0,38.8,61.2,1.0,Poland
+2019,poland,N1,35.0,62.3,2.7,1.0,Poland
+2019,poland,N2,24.8,41.8,33.4,1.0,Poland
+2019,poland,N4,0.7,96.1,3.2,1.0,Poland
+2019,poland,N7,22.1,38.4,39.5,1.0,Poland
+2019,portugal,G2,23.9,58.8,17.3,1.0,Portugal
+2019,portugal,G3,23.5,66.2,10.3,1.0,Portugal
+2019,portugal,G6,54.8,43.1,2.1,1.0,Portugal
+2019,portugal,N1,95.1,4.9,0.0,1.0,Portugal
+2019,portugal,N2,83.0,17.0,0.0,1.0,Portugal
+2019,portugal,N4,38.3,61.1,0.6,1.0,Portugal
+2019,portugal,N7,75.0,24.7,0.4,1.0,Portugal
+2019,qatar,G2,26.0,27.8,46.2,1.0,Qatar
+2019,qatar,G3,18.2,40.7,41.1,1.0,Qatar
+2019,qatar,G6,32.6,20.0,47.4,1.0,Qatar
+2019,qatar,N1,68.9,30.5,0.6,1.0,Qatar
+2019,qatar,N2,57.1,42.3,0.6,1.0,Qatar
+2019,qatar,N4,21.5,70.7,7.8,1.0,Qatar
+2019,qatar,N7,34.3,60.7,5.0,1.0,Qatar
+2019,quebec canada,G2,10.8,55.1,34.0,1.0,"Quebec, Canada"
+2019,quebec canada,G3,19.1,69.9,11.0,1.0,"Quebec, Canada"
+2019,quebec canada,G6,25.9,57.1,17.0,1.0,"Quebec, Canada"
+2019,quebec canada,N1,75.9,24.1,0.0,1.0,"Quebec, Canada"
+2019,quebec canada,N2,34.7,64.4,0.9,1.0,"Quebec, Canada"
+2019,quebec canada,N4,11.4,63.1,25.5,1.0,"Quebec, Canada"
+2019,quebec canada,N7,50.8,44.5,4.6,1.0,"Quebec, Canada"
+2019,russian federation,G2,43.9,53.5,2.6,1.0,Russian Federation
+2019,russian federation,G3,51.5,40.6,7.9,1.0,Russian Federation
+2019,russian federation,G6,11.0,23.4,65.6,1.0,Russian Federation
+2019,russian federation,N1,87.7,9.4,2.8,1.0,Russian Federation
+2019,russian federation,N2,78.6,20.9,0.5,1.0,Russian Federation
+2019,russian federation,N4,7.2,31.5,61.4,0.0,Russian Federation
+2019,russian federation,N7,76.0,18.6,5.4,1.0,Russian Federation
+2019,saudi arabia,G2,29.1,66.0,4.9,1.0,Saudi Arabia
+2019,saudi arabia,G3,22.1,72.4,5.6,1.0,Saudi Arabia
+2019,saudi arabia,G6,28.4,59.4,12.3,1.0,Saudi Arabia
+2019,saudi arabia,N1,60.1,37.9,2.0,1.0,Saudi Arabia
+2019,saudi arabia,N2,62.1,35.9,2.0,1.0,Saudi Arabia
+2019,saudi arabia,N4,23.2,65.8,11.0,1.0,Saudi Arabia
+2019,saudi arabia,N7,45.5,48.4,6.1,1.0,Saudi Arabia
+2019,serbia,G2,38.3,38.6,23.1,1.0,Serbia
+2019,serbia,G3,15.3,68.1,16.5,1.0,Serbia
+2019,serbia,G6,19.4,47.7,33.0,1.0,Serbia
+2019,serbia,N1,68.8,28.7,2.5,1.0,Serbia
+2019,serbia,N2,80.0,17.9,2.2,1.0,Serbia
+2019,serbia,N4,35.3,29.8,34.9,1.0,Serbia
+2019,serbia,N7,78.9,17.6,3.5,0.0,Serbia
+2019,singapore,G2,49.3,42.6,8.1,1.0,Singapore
+2019,singapore,G3,17.2,77.5,5.3,1.0,Singapore
+2019,singapore,G6,16.2,17.7,66.1,0.0,Singapore
+2019,singapore,N1,83.4,16.6,0.0,1.0,Singapore
+2019,singapore,N2,80.5,19.5,0.0,1.0,Singapore
+2019,singapore,N4,51.2,48.8,0.0,1.0,Singapore
+2019,singapore,N7,75.6,24.0,0.4,1.0,Singapore
+2019,slovak republic,G2,17.3,42.9,39.7,1.0,Slovak Republic
+2019,slovak republic,G3,3.1,31.3,65.6,1.0,Slovak Republic
+2019,slovak republic,G6,7.2,21.6,71.2,1.0,Slovak Republic
+2019,slovak republic,N1,85.4,14.6,0.0,1.0,Slovak Republic
+2019,slovak republic,N2,72.4,27.2,0.4,1.0,Slovak Republic
+2019,slovak republic,N4,1.3,23.8,74.9,0.0,Slovak Republic
+2019,slovak republic,N7,72.0,27.0,1.0,1.0,Slovak Republic
+2019,spain,G2,10.4,61.5,28.2,1.0,Spain
+2019,spain,G3,2.8,37.6,59.6,0.0,Spain
+2019,spain,G6,3.0,26.7,70.4,1.0,Spain
+2019,spain,N1,69.7,19.1,11.2,1.0,Spain
+2019,spain,N2,56.4,34.8,8.8,1.0,Spain
+2019,spain,N4,8.7,75.5,15.8,0.0,Spain
+2019,spain,N7,61.9,33.2,4.8,1.0,Spain
+2019,sweden,G2,15.5,40.4,44.1,1.0,Sweden
+2019,sweden,G3,8.0,39.3,52.6,1.0,Sweden
+2019,sweden,G6,12.9,21.5,65.6,1.0,Sweden
+2019,sweden,N1,49.4,50.2,0.5,1.0,Sweden
+2019,sweden,N2,21.6,78.4,0.0,1.0,Sweden
+2019,sweden,N4,13.2,33.1,53.7,0.0,Sweden
+2019,sweden,N7,30.4,54.4,15.2,1.0,Sweden
+2019,united arab emirates,G2,23.5,49.0,27.4,1.0,United Arab Emirates
+2019,united arab emirates,G3,15.2,57.3,27.5,1.0,United Arab Emirates
+2019,united arab emirates,G6,30.7,43.3,26.1,1.0,United Arab Emirates
+2019,united arab emirates,N1,63.5,36.3,0.1,1.0,United Arab Emirates
+2019,united arab emirates,N2,53.7,46.1,0.2,1.0,United Arab Emirates
+2019,united arab emirates,N4,21.5,71.2,7.3,1.0,United Arab Emirates
+2019,united arab emirates,N7,43.3,51.3,5.3,1.0,United Arab Emirates
+2019,united states,G2,13.5,46.1,40.4,1.0,United States
+2019,united states,G3,10.7,70.2,19.0,1.0,United States
+2019,united states,G6,24.4,33.1,42.6,1.0,United States
+2019,united states,N1,55.9,44.1,0.0,1.0,United States
+2019,united states,N2,22.7,77.1,0.2,1.0,United States
+2019,united states,N4,5.2,91.6,3.2,1.0,United States
+2019,united states,N7,40.7,53.6,5.7,1.0,United States
+2023,abu dhabi uae,G2,20.5,51.6,27.8,1.0,"Abu Dhabi, UAE"
+2023,abu dhabi uae,G3,18.0,55.6,26.35,1.0,"Abu Dhabi, UAE"
+2023,abu dhabi uae,G6,31.1,34.3,34.6,1.0,"Abu Dhabi, UAE"
+2023,abu dhabi uae,N1,58.6,41.4,0.0,1.0,"Abu Dhabi, UAE"
+2023,abu dhabi uae,N2,32.63333333333333,64.83333333333333,2.5,1.0,"Abu Dhabi, UAE"
+2023,abu dhabi uae,N4,20.049999999999997,75.6,4.35,1.0,"Abu Dhabi, UAE"
+2023,abu dhabi uae,N7,43.2,53.4,3.4,1.0,"Abu Dhabi, UAE"
+2023,albania,G2,25.5,69.0,5.5,1.0,Albania
+2023,albania,G3,22.3,67.75,9.9,1.0,Albania
+2023,albania,G6,37.4,60.0,2.6,1.0,Albania
+2023,albania,N1,54.1,44.4,1.6,0.0,Albania
+2023,albania,N2,22.2,69.13333333333334,8.666666666666666,1.0,Albania
+2023,albania,N4,21.1,78.2,0.7,1.0,Albania
+2023,albania,N7,43.7,53.0,3.4,1.0,Albania
+2023,armenia,G2,67.9,30.0,2.0,1.0,Armenia
+2023,armenia,G3,43.3,30.6,26.1,1.0,Armenia
+2023,armenia,G6,20.9,23.8,55.4,1.0,Armenia
+2023,armenia,N1,86.5,13.5,0.0,1.0,Armenia
+2023,armenia,N2,78.3,21.700000000000003,0.0,1.0,Armenia
+2023,armenia,N4,4.45,52.349999999999994,43.15,1.0,Armenia
+2023,armenia,N7,72.9,24.9,2.2,1.0,Armenia
+2023,australia,G2,14.6,68.9,16.5,1.0,Australia
+2023,australia,G3,7.949999999999999,71.65,20.3,1.0,Australia
+2023,australia,G6,29.8,60.3,9.8,1.0,Australia
+2023,australia,N1,57.0,42.9,0.0,1.0,Australia
+2023,australia,N2,7.300000000000001,76.26666666666667,16.433333333333334,1.0,Australia
+2023,australia,N4,6.449999999999999,68.65,24.900000000000002,1.0,Australia
+2023,australia,N7,29.9,68.0,2.1,1.0,Australia
+2023,azerbaijan,G2,70.2,29.8,0.0,1.0,Azerbaijan
+2023,azerbaijan,G3,38.8,55.650000000000006,5.5,1.0,Azerbaijan
+2023,azerbaijan,G6,55.2,41.0,3.7,1.0,Azerbaijan
+2023,azerbaijan,N1,67.7,31.8,0.5,1.0,Azerbaijan
+2023,azerbaijan,N2,42.199999999999996,57.666666666666664,0.09999999999999999,1.0,Azerbaijan
+2023,azerbaijan,N4,29.900000000000002,53.25,16.8,1.0,Azerbaijan
+2023,azerbaijan,N7,68.0,31.6,0.3,1.0,Azerbaijan
+2023,bahrain,G2,19.5,50.5,30.0,1.0,Bahrain
+2023,bahrain,G3,24.9,63.050000000000004,12.05,1.0,Bahrain
+2023,bahrain,G6,29.5,56.8,13.7,1.0,Bahrain
+2023,bahrain,N1,58.0,42.0,0.0,1.0,Bahrain
+2023,bahrain,N2,31.866666666666664,66.43333333333334,1.7333333333333334,1.0,Bahrain
+2023,bahrain,N4,21.6,67.75,10.549999999999999,1.0,Bahrain
+2023,bahrain,N7,37.2,56.2,6.6,1.0,Bahrain
+2023,belgium flemish,G2,3.6,27.0,69.4,1.0,Belgium (Flemish)
+2023,belgium flemish,G3,6.1499999999999995,59.65,34.25,1.0,Belgium (Flemish)
+2023,belgium flemish,G6,0.0,7.9,92.1,0.0,Belgium (Flemish)
+2023,belgium flemish,N1,45.8,54.2,0.0,0.0,Belgium (Flemish)
+2023,belgium flemish,N2,21.233333333333334,75.89999999999999,2.8666666666666667,1.0,Belgium (Flemish)
+2023,belgium flemish,N4,3.6500000000000004,93.65,2.6999999999999997,1.0,Belgium (Flemish)
+2023,belgium flemish,N7,31.0,65.4,3.6,0.0,Belgium (Flemish)
+2023,belgium french,G2,6.1,44.0,49.9,1.0,Belgium (French)
+2023,belgium french,G3,7.65,37.2,55.099999999999994,1.0,Belgium (French)
+2023,belgium french,G6,15.3,41.2,43.4,1.0,Belgium (French)
+2023,belgium french,N1,79.7,19.7,0.6,1.0,Belgium (French)
+2023,belgium french,N2,8.200000000000001,69.3,22.46666666666667,1.0,Belgium (French)
+2023,belgium french,N4,6.050000000000001,52.45,41.55,1.0,Belgium (French)
+2023,belgium french,N7,56.1,42.6,1.2,1.0,Belgium (French)
+2023,bosnia and herzegovina,G2,24.7,45.0,30.3,1.0,Bosnia and Herzegovina
+2023,bosnia and herzegovina,G3,2.3,1.9000000000000001,95.8,0.0,Bosnia and Herzegovina
+2023,bosnia and herzegovina,G6,63.2,24.4,12.3,1.0,Bosnia and Herzegovina
+2023,bosnia and herzegovina,N1,72.0,27.8,0.2,0.0,Bosnia and Herzegovina
+2023,bosnia and herzegovina,N2,10.200000000000001,78.7,11.100000000000001,1.0,Bosnia and Herzegovina
+2023,bosnia and herzegovina,N4,0.7000000000000001,1.25,98.05000000000001,0.0,Bosnia and Herzegovina
+2023,bosnia and herzegovina,N7,45.2,38.6,16.3,0.0,Bosnia and Herzegovina
+2023,brazil,G2,12.5,47.8,39.7,1.0,Brazil
+2023,brazil,G3,6.5,44.75,48.75,0.0,Brazil
+2023,brazil,G6,17.1,63.4,19.5,1.0,Brazil
+2023,brazil,N1,37.2,59.8,3.0,0.0,Brazil
+2023,brazil,N2,15.466666666666669,70.16666666666667,14.366666666666665,1.0,Brazil
+2023,brazil,N4,8.6,30.6,60.75,0.0,Brazil
+2023,brazil,N7,19.3,64.2,16.4,1.0,Brazil
+2023,bulgaria,G2,60.6,28.1,11.3,1.0,Bulgaria
+2023,bulgaria,G3,44.85,51.05,4.1,1.0,Bulgaria
+2023,bulgaria,G6,2.5,56.9,40.6,1.0,Bulgaria
+2023,bulgaria,N1,65.4,32.0,2.6,1.0,Bulgaria
+2023,bulgaria,N2,38.13333333333333,61.333333333333336,0.5333333333333333,1.0,Bulgaria
+2023,bulgaria,N4,0.65,0.9,98.44999999999999,0.0,Bulgaria
+2023,bulgaria,N7,77.3,13.2,9.5,1.0,Bulgaria
+2023,canada,G2,13.3,35.2,51.5,1.0,Canada
+2023,canada,G3,24.4,48.65,26.9,1.0,Canada
+2023,canada,G6,32.1,40.0,27.8,1.0,Canada
+2023,canada,N1,55.1,44.4,0.5,1.0,Canada
+2023,canada,N2,8.166666666666666,66.63333333333334,25.233333333333334,1.0,Canada
+2023,canada,N4,7.7,48.1,44.2,1.0,Canada
+2023,canada,N7,38.2,56.8,5.1,1.0,Canada
+2023,chile,G2,4.9,55.8,39.3,1.0,Chile
+2023,chile,G3,17.1,66.65,16.25,1.0,Chile
+2023,chile,G6,32.0,55.6,12.4,0.0,Chile
+2023,chile,N1,63.2,34.7,2.1,1.0,Chile
+2023,chile,N2,16.566666666666666,74.3,9.133333333333333,1.0,Chile
+2023,chile,N4,8.25,79.8,11.95,1.0,Chile
+2023,chile,N7,44.2,54.3,1.5,1.0,Chile
+2023,chinese taipei,G2,16.9,65.3,17.8,1.0,Chinese Taipei
+2023,chinese taipei,G3,8.4,65.0,26.6,1.0,Chinese Taipei
+2023,chinese taipei,G6,3.7,10.5,85.7,0.0,Chinese Taipei
+2023,chinese taipei,N1,79.1,20.3,0.6,1.0,Chinese Taipei
+2023,chinese taipei,N2,64.89999999999999,34.43333333333333,0.6666666666666666,1.0,Chinese Taipei
+2023,chinese taipei,N4,33.0,66.3,0.7,1.0,Chinese Taipei
+2023,chinese taipei,N7,38.3,49.5,12.2,1.0,Chinese Taipei
+2023,cyprus,G2,11.8,59.2,29.0,1.0,Cyprus
+2023,cyprus,G3,11.100000000000001,75.44999999999999,13.45,1.0,Cyprus
+2023,cyprus,G6,9.2,59.9,30.9,1.0,Cyprus
+2023,cyprus,N1,48.8,51.2,0.0,1.0,Cyprus
+2023,cyprus,N2,9.5,74.96666666666667,15.533333333333333,1.0,Cyprus
+2023,cyprus,N4,6.5,71.4,22.1,1.0,Cyprus
+2023,cyprus,N7,39.9,56.2,3.9,1.0,Cyprus
+2023,czech republic,G2,25.9,62.3,11.9,1.0,Czech Republic
+2023,czech republic,G3,3.95,45.0,51.050000000000004,1.0,Czech Republic
+2023,czech republic,G6,14.3,16.0,69.7,1.0,Czech Republic
+2023,czech republic,N1,70.9,29.1,0.0,1.0,Czech Republic
+2023,czech republic,N2,14.933333333333332,81.03333333333333,4.033333333333334,1.0,Czech Republic
+2023,czech republic,N4,1.9,47.05,51.05,1.0,Czech Republic
+2023,czech republic,N7,62.5,36.6,0.9,1.0,Czech Republic
+2023,denmark,G2,12.8,29.8,57.4,1.0,Denmark
+2023,denmark,G3,25.6,54.099999999999994,20.3,1.0,Denmark
+2023,denmark,G6,10.4,19.4,70.1,1.0,Denmark
+2023,denmark,N1,70.9,28.6,0.5,1.0,Denmark
+2023,denmark,N2,20.5,64.76666666666667,14.733333333333334,1.0,Denmark
+2023,denmark,N4,6.800000000000001,68.85,24.35,1.0,Denmark
+2023,denmark,N7,49.3,42.4,8.2,0.0,Denmark
+2023,dubai uae,G2,23.8,51.2,25.0,1.0,"Dubai, UAE"
+2023,dubai uae,G3,14.85,69.30000000000001,15.9,1.0,"Dubai, UAE"
+2023,dubai uae,G6,29.5,47.8,22.8,1.0,"Dubai, UAE"
+2023,dubai uae,N1,66.6,33.4,0.0,1.0,"Dubai, UAE"
+2023,dubai uae,N2,38.4,60.833333333333336,0.8000000000000002,1.0,"Dubai, UAE"
+2023,dubai uae,N4,21.450000000000003,74.2,4.35,1.0,"Dubai, UAE"
+2023,dubai uae,N7,42.6,55.5,1.9,1.0,"Dubai, UAE"
+2023,england,G2,37.4,31.8,30.8,1.0,England
+2023,england,G3,18.1,64.85,17.05,1.0,England
+2023,england,G6,34.0,35.3,30.7,1.0,England
+2023,england,N1,60.8,39.2,0.0,1.0,England
+2023,england,N2,27.5,72.5,0.0,1.0,England
+2023,england,N4,22.1,76.15,1.75,1.0,England
+2023,england,N7,53.4,39.3,7.3,0.0,England
+2023,finland,G2,22.4,64.8,12.8,1.0,Finland
+2023,finland,G3,15.95,36.5,47.5,1.0,Finland
+2023,finland,G6,19.2,24.8,56.0,0.0,Finland
+2023,finland,N1,81.9,17.2,0.8,1.0,Finland
+2023,finland,N2,20.833333333333332,67.89999999999999,11.333333333333334,1.0,Finland
+2023,finland,N4,18.799999999999997,79.35,1.9000000000000001,1.0,Finland
+2023,finland,N7,78.2,20.2,1.6,1.0,Finland
+2023,france,G2,10.3,65.5,24.2,1.0,France
+2023,france,G3,6.800000000000001,55.55,37.650000000000006,1.0,France
+2023,france,G6,7.0,24.3,68.8,1.0,France
+2023,france,N1,73.1,26.7,0.2,1.0,France
+2023,france,N2,27.466666666666665,66.3,6.233333333333334,1.0,France
+2023,france,N4,0.95,76.35,22.700000000000003,1.0,France
+2023,france,N7,63.3,31.3,5.5,1.0,France
+2023,georgia,G2,35.9,56.6,7.5,0.0,Georgia
+2023,georgia,G3,32.6,35.650000000000006,31.75,0.0,Georgia
+2023,georgia,G6,19.2,68.2,12.5,1.0,Georgia
+2023,georgia,N1,62.3,36.7,1.1,1.0,Georgia
+2023,georgia,N2,39.1,60.36666666666667,0.5333333333333333,1.0,Georgia
+2023,georgia,N4,3.55,37.8,58.65,0.0,Georgia
+2023,georgia,N7,77.1,21.6,1.2,1.0,Georgia
+2023,germany,G2,24.5,46.5,29.0,1.0,Germany
+2023,germany,G3,10.7,29.0,60.3,0.5,Germany
+2023,germany,G6,43.4,35.8,20.8,1.0,Germany
+2023,germany,N1,76.2,23.1,0.7,1.0,Germany
+2023,germany,N2,31.933333333333334,58.199999999999996,9.9,1.0,Germany
+2023,germany,N4,2.7,14.899999999999999,82.4,0.0,Germany
+2023,germany,N7,79.0,19.6,1.4,1.0,Germany
+2023,hong kong sar,G2,35.5,24.2,40.3,0.0,Hong Kong SAR
+2023,hong kong sar,G3,8.1,61.349999999999994,30.6,0.0,Hong Kong SAR
+2023,hong kong sar,G6,51.6,7.7,40.7,0.0,Hong Kong SAR
+2023,hong kong sar,N1,90.0,10.0,0.0,0.0,Hong Kong SAR
+2023,hong kong sar,N2,66.26666666666667,33.53333333333333,0.26666666666666666,1.0,Hong Kong SAR
+2023,hong kong sar,N4,28.0,71.8,0.2,1.0,Hong Kong SAR
+2023,hong kong sar,N7,69.3,22.3,8.4,0.0,Hong Kong SAR
+2023,hungary,G2,43.0,39.2,17.8,1.0,Hungary
+2023,hungary,G3,12.25,38.85,48.900000000000006,1.0,Hungary
+2023,hungary,G6,15.1,50.3,34.6,1.0,Hungary
+2023,hungary,N1,96.7,3.3,0.0,1.0,Hungary
+2023,hungary,N2,36.4,62.93333333333334,0.6666666666666666,1.0,Hungary
+2023,hungary,N4,15.65,32.3,52.0,0.0,Hungary
+2023,hungary,N7,94.4,5.6,0.0,1.0,Hungary
+2023,iran islamic rep of,G2,18.9,39.5,41.5,0.0,"Iran, Islamic Rep. of"
+2023,iran islamic rep of,G3,28.6,47.3,24.1,1.0,"Iran, Islamic Rep. of"
+2023,iran islamic rep of,G6,18.8,24.4,56.8,0.0,"Iran, Islamic Rep. of"
+2023,iran islamic rep of,N1,69.3,28.0,2.6,1.0,"Iran, Islamic Rep. of"
+2023,iran islamic rep of,N2,44.86666666666667,52.73333333333333,2.4,1.0,"Iran, Islamic Rep. of"
+2023,iran islamic rep of,N4,35.3,62.45,2.25,1.0,"Iran, Islamic Rep. of"
+2023,iran islamic rep of,N7,42.3,52.9,4.8,0.0,"Iran, Islamic Rep. of"
+2023,ireland,G2,18.0,44.9,37.0,1.0,Ireland
+2023,ireland,G3,11.15,49.3,39.55,1.0,Ireland
+2023,ireland,G6,30.0,55.8,14.2,1.0,Ireland
+2023,ireland,N1,60.3,39.7,0.0,0.0,Ireland
+2023,ireland,N2,11.433333333333332,83.7,4.866666666666666,1.0,Ireland
+2023,ireland,N4,6.5,64.45,29.049999999999997,1.0,Ireland
+2023,ireland,N7,51.2,45.2,3.6,0.0,Ireland
+2023,italy,G2,2.3,21.9,75.8,1.0,Italy
+2023,italy,G3,7.4,50.5,42.1,1.0,Italy
+2023,italy,G6,20.5,15.8,63.7,1.0,Italy
+2023,italy,N1,76.4,23.6,0.0,1.0,Italy
+2023,italy,N2,59.866666666666674,39.4,0.7000000000000001,1.0,Italy
+2023,italy,N4,10.600000000000001,73.65,15.7,1.0,Italy
+2023,italy,N7,68.6,28.1,3.3,0.5,Italy
+2023,japan,G2,41.4,29.2,29.4,1.0,Japan
+2023,japan,G3,9.35,23.700000000000003,67.0,0.0,Japan
+2023,japan,G6,1.9,37.1,61.0,0.0,Japan
+2023,japan,N1,54.8,45.2,0.0,1.0,Japan
+2023,japan,N2,45.666666666666664,53.03333333333333,1.3,1.0,Japan
+2023,japan,N4,20.1,78.5,1.4,1.0,Japan
+2023,japan,N7,12.9,47.7,39.5,1.0,Japan
+2023,jordan,G2,8.3,56.2,35.4,1.0,Jordan
+2023,jordan,G3,9.899999999999999,64.2,25.9,1.0,Jordan
+2023,jordan,G6,17.6,33.8,48.7,1.0,Jordan
+2023,jordan,N1,46.0,53.3,0.7,1.0,Jordan
+2023,jordan,N2,30.899999999999995,66.39999999999999,2.6999999999999997,1.0,Jordan
+2023,jordan,N4,24.15,71.85,4.0,1.0,Jordan
+2023,jordan,N7,34.1,64.6,1.3,1.0,Jordan
+2023,kazakhstan,G2,75.3,24.0,0.7,1.0,Kazakhstan
+2023,kazakhstan,G3,63.300000000000004,34.1,2.5999999999999996,1.0,Kazakhstan
+2023,kazakhstan,G6,39.9,44.0,16.1,1.0,Kazakhstan
+2023,kazakhstan,N1,66.7,33.3,0.0,1.0,Kazakhstan
+2023,kazakhstan,N2,64.93333333333334,34.43333333333334,0.6666666666666666,1.0,Kazakhstan
+2023,kazakhstan,N4,33.65,65.1,1.3,1.0,Kazakhstan
+2023,kazakhstan,N7,70.0,28.8,1.3,1.0,Kazakhstan
+2023,korea rep of,G2,52.7,25.8,21.5,1.0,"Korea, Rep. of"
+2023,korea rep of,G3,9.9,24.5,65.65,0.0,"Korea, Rep. of"
+2023,korea rep of,G6,0.4,7.7,92.0,0.0,"Korea, Rep. of"
+2023,korea rep of,N1,78.3,21.7,0.0,1.0,"Korea, Rep. of"
+2023,korea rep of,N2,55.96666666666667,41.1,2.9333333333333336,1.0,"Korea, Rep. of"
+2023,korea rep of,N4,25.9,73.2,0.9,1.0,"Korea, Rep. of"
+2023,korea rep of,N7,41.1,49.7,9.2,1.0,"Korea, Rep. of"
+2023,kosovo,G2,35.0,54.3,10.7,1.0,Kosovo
+2023,kosovo,G3,28.200000000000003,57.95,13.85,1.0,Kosovo
+2023,kosovo,G6,35.0,41.8,23.2,1.0,Kosovo
+2023,kosovo,N1,33.5,58.2,8.3,0.5,Kosovo
+2023,kosovo,N2,28.133333333333336,71.39999999999999,0.5,1.0,Kosovo
+2023,kosovo,N4,19.75,74.75,5.55,1.0,Kosovo
+2023,kosovo,N7,44.4,51.3,4.3,1.0,Kosovo
+2023,kuwait,G2,23.9,43.1,33.1,1.0,Kuwait
+2023,kuwait,G3,23.6,67.25,9.15,1.0,Kuwait
+2023,kuwait,G6,30.7,34.3,35.0,1.0,Kuwait
+2023,kuwait,N1,72.7,23.2,4.1,1.0,Kuwait
+2023,kuwait,N2,55.76666666666667,38.13333333333333,6.133333333333333,1.0,Kuwait
+2023,kuwait,N4,26.7,69.95,3.3499999999999996,1.0,Kuwait
+2023,kuwait,N7,63.1,34.8,2.2,1.0,Kuwait
+2023,latvia,G2,58.5,37.2,4.3,1.0,Latvia
+2023,latvia,G3,31.7,40.05,28.25,1.0,Latvia
+2023,latvia,G6,7.5,12.5,80.0,1.0,Latvia
+2023,latvia,N1,65.5,33.5,1.1,0.0,Latvia
+2023,latvia,N2,25.599999999999998,73.76666666666667,0.6333333333333333,1.0,Latvia
+2023,latvia,N4,8.0,86.5,5.55,1.0,Latvia
+2023,latvia,N7,67.4,29.0,3.6,1.0,Latvia
+2023,lithuania,G2,36.4,61.5,2.0,1.0,Lithuania
+2023,lithuania,G3,29.599999999999998,56.75,13.6,1.0,Lithuania
+2023,lithuania,G6,27.3,51.6,21.0,1.0,Lithuania
+2023,lithuania,N1,80.0,19.6,0.4,0.5,Lithuania
+2023,lithuania,N2,26.8,73.16666666666667,0.06666666666666667,1.0,Lithuania
+2023,lithuania,N4,17.3,57.099999999999994,25.65,1.0,Lithuania
+2023,lithuania,N7,35.7,40.6,23.7,1.0,Lithuania
+2023,macao sar,G2,49.6,22.7,27.7,0.5,Macao SAR
+2023,macao sar,G3,28.25,24.200000000000003,47.55,0.5,Macao SAR
+2023,macao sar,G6,18.1,12.2,69.7,0.5,Macao SAR
+2023,macao sar,N1,74.0,25.0,1.0,1.0,Macao SAR
+2023,macao sar,N2,69.46666666666667,28.866666666666664,1.6666666666666667,1.0,Macao SAR
+2023,macao sar,N4,39.35,52.8,7.8,0.5,Macao SAR
+2023,macao sar,N7,51.8,27.8,20.3,0.5,Macao SAR
+2023,montenegro,G2,17.4,76.2,6.5,1.0,Montenegro
+2023,montenegro,G3,2.5,22.45,75.1,1.0,Montenegro
+2023,montenegro,G6,31.0,23.5,45.4,0.0,Montenegro
+2023,montenegro,N1,56.7,27.7,15.6,0.0,Montenegro
+2023,montenegro,N2,10.466666666666667,76.33333333333333,13.233333333333334,0.5,Montenegro
+2023,montenegro,N4,5.0,26.7,68.3,0.0,Montenegro
+2023,montenegro,N7,60.1,32.3,7.6,1.0,Montenegro
+2023,morocco,G2,17.2,49.6,33.2,1.0,Morocco
+2023,morocco,G3,26.799999999999997,60.85,12.4,1.0,Morocco
+2023,morocco,G6,19.8,49.8,30.5,1.0,Morocco
+2023,morocco,N1,81.6,18.4,0.0,1.0,Morocco
+2023,morocco,N2,40.53333333333334,57.79999999999999,1.6666666666666667,1.0,Morocco
+2023,morocco,N4,28.15,68.15,3.7,1.0,Morocco
+2023,morocco,N7,37.3,47.7,15.0,1.0,Morocco
+2023,netherlands,G2,1.6,46.0,52.4,0.0,Netherlands
+2023,netherlands,G3,1.9500000000000002,60.849999999999994,37.25,1.0,Netherlands
+2023,netherlands,G6,17.3,20.6,62.1,0.0,Netherlands
+2023,netherlands,N1,49.3,50.7,0.0,1.0,Netherlands
+2023,netherlands,N2,6.233333333333333,79.86666666666667,13.9,1.0,Netherlands
+2023,netherlands,N4,2.0,61.25,36.7,1.0,Netherlands
+2023,netherlands,N7,39.3,48.3,12.4,1.0,Netherlands
+2023,new zealand,G2,13.6,57.0,29.4,0.5,New Zealand
+2023,new zealand,G3,11.2,62.8,26.05,1.0,New Zealand
+2023,new zealand,G6,18.2,63.1,18.8,1.0,New Zealand
+2023,new zealand,N1,50.7,48.3,1.0,0.5,New Zealand
+2023,new zealand,N2,6.8999999999999995,73.23333333333333,19.866666666666667,0.5,New Zealand
+2023,new zealand,N4,8.2,79.15,12.6,1.0,New Zealand
+2023,new zealand,N7,27.3,67.4,5.3,1.0,New Zealand
+2023,north macedonia,G2,37.5,30.1,32.4,1.0,North Macedonia
+2023,north macedonia,G3,16.5,34.25,49.2,1.0,North Macedonia
+2023,north macedonia,G6,40.7,54.4,5.0,1.0,North Macedonia
+2023,north macedonia,N1,45.9,51.2,2.9,0.0,North Macedonia
+2023,north macedonia,N2,15.1,75.89999999999999,8.9,0.5,North Macedonia
+2023,north macedonia,N4,23.6,65.30000000000001,11.1,1.0,North Macedonia
+2023,north macedonia,N7,48.3,47.7,4.0,0.0,North Macedonia
+2023,oman,G2,52.7,40.4,6.9,1.0,Oman
+2023,oman,G3,34.05,58.6,7.4,1.0,Oman
+2023,oman,G6,52.9,42.3,4.8,1.0,Oman
+2023,oman,N1,73.6,26.1,0.3,0.0,Oman
+2023,oman,N2,19.900000000000002,54.53333333333333,25.566666666666666,0.0,Oman
+2023,oman,N4,34.5,55.05,10.45,1.0,Oman
+2023,oman,N7,65.9,33.2,0.9,1.0,Oman
+2023,ontario canada,G2,16.8,37.8,45.4,1.0,"Ontario, Canada"
+2023,ontario canada,G3,24.05,47.75,28.2,0.0,"Ontario, Canada"
+2023,ontario canada,G6,39.4,32.9,27.7,1.0,"Ontario, Canada"
+2023,ontario canada,N1,46.7,52.0,1.3,0.0,"Ontario, Canada"
+2023,ontario canada,N2,5.566666666666666,68.89999999999999,25.566666666666666,1.0,"Ontario, Canada"
+2023,ontario canada,N4,7.1499999999999995,51.85,41.0,0.0,"Ontario, Canada"
+2023,ontario canada,N7,31.7,64.6,3.7,1.0,"Ontario, Canada"
+2023,poland,G2,14.0,51.2,34.8,1.0,Poland
+2023,poland,G3,9.149999999999999,52.199999999999996,38.65,1.0,Poland
+2023,poland,G6,0.4,31.8,67.9,1.0,Poland
+2023,poland,N1,35.8,45.8,18.4,1.0,Poland
+2023,poland,N2,4.3,90.43333333333334,5.3,1.0,Poland
+2023,poland,N4,0.75,93.55000000000001,5.75,1.0,Poland
+2023,poland,N7,2.1,22.4,75.5,1.0,Poland
+2023,portugal,G2,22.2,54.4,23.4,1.0,Portugal
+2023,portugal,G3,45.95,45.35,8.75,1.0,Portugal
+2023,portugal,G6,31.4,56.8,11.7,1.0,Portugal
+2023,portugal,N1,85.6,14.4,0.0,1.0,Portugal
+2023,portugal,N2,57.76666666666667,42.199999999999996,0.06666666666666667,1.0,Portugal
+2023,portugal,N4,20.549999999999997,77.0,2.5,1.0,Portugal
+2023,portugal,N7,76.6,23.1,0.4,1.0,Portugal
+2023,qatar,G2,26.9,36.9,36.1,1.0,Qatar
+2023,qatar,G3,32.3,38.25,29.45,1.0,Qatar
+2023,qatar,G6,34.0,24.9,41.2,0.5,Qatar
+2023,qatar,N1,60.5,38.9,0.5,1.0,Qatar
+2023,qatar,N2,31.366666666666664,66.76666666666667,1.8666666666666665,1.0,Qatar
+2023,qatar,N4,15.8,78.9,5.300000000000001,1.0,Qatar
+2023,qatar,N7,41.1,48.2,10.7,1.0,Qatar
+2023,quebec canada,G2,8.8,38.6,52.6,0.0,"Quebec, Canada"
+2023,quebec canada,G3,32.0,56.1,11.899999999999999,1.0,"Quebec, Canada"
+2023,quebec canada,G6,21.8,56.1,22.2,1.0,"Quebec, Canada"
+2023,quebec canada,N1,76.4,23.6,0.0,1.0,"Quebec, Canada"
+2023,quebec canada,N2,12.233333333333333,65.66666666666667,22.066666666666666,1.0,"Quebec, Canada"
+2023,quebec canada,N4,9.5,48.35,42.15,1.0,"Quebec, Canada"
+2023,quebec canada,N7,45.5,52.9,1.6,1.0,"Quebec, Canada"
+2023,romania,G2,54.9,39.8,5.3,1.0,Romania
+2023,romania,G3,31.45,58.9,9.75,0.0,Romania
+2023,romania,G6,45.9,48.8,5.2,1.0,Romania
+2023,romania,N1,76.6,16.2,7.2,1.0,Romania
+2023,romania,N2,66.3,33.43333333333333,0.26666666666666666,1.0,Romania
+2023,romania,N4,43.8,55.0,1.2,1.0,Romania
+2023,romania,N7,73.9,23.8,2.3,1.0,Romania
+2023,saudi arabia,G2,23.2,59.4,17.5,1.0,Saudi Arabia
+2023,saudi arabia,G3,32.7,62.849999999999994,4.449999999999999,1.0,Saudi Arabia
+2023,saudi arabia,G6,29.0,63.5,7.5,1.0,Saudi Arabia
+2023,saudi arabia,N1,69.2,30.3,0.5,1.0,Saudi Arabia
+2023,saudi arabia,N2,27.566666666666666,69.33333333333333,3.1,1.0,Saudi Arabia
+2023,saudi arabia,N4,21.15,75.4,3.4,1.0,Saudi Arabia
+2023,saudi arabia,N7,58.1,38.7,3.2,1.0,Saudi Arabia
+2023,serbia,G2,35.3,40.1,24.6,1.0,Serbia
+2023,serbia,G3,23.5,38.75,37.75,1.0,Serbia
+2023,serbia,G6,25.5,60.1,14.4,1.0,Serbia
+2023,serbia,N1,72.6,17.7,9.7,1.0,Serbia
+2023,serbia,N2,67.60000000000001,32.4,0.0,1.0,Serbia
+2023,serbia,N4,22.95,53.05,24.099999999999998,1.0,Serbia
+2023,serbia,N7,67.7,24.8,7.5,0.0,Serbia
+2023,sharjah uae,G2,25.9,45.0,29.2,1.0,"Sharjah, UAE"
+2023,sharjah uae,G3,14.700000000000001,58.45,26.849999999999998,1.0,"Sharjah, UAE"
+2023,sharjah uae,G6,32.4,45.5,22.2,1.0,"Sharjah, UAE"
+2023,sharjah uae,N1,64.0,36.0,0.0,1.0,"Sharjah, UAE"
+2023,sharjah uae,N2,42.0,55.1,2.9333333333333336,1.0,"Sharjah, UAE"
+2023,sharjah uae,N4,17.25,77.2,5.55,1.0,"Sharjah, UAE"
+2023,sharjah uae,N7,47.9,48.4,3.7,1.0,"Sharjah, UAE"
+2023,singapore,G2,70.2,27.6,2.3,1.0,Singapore
+2023,singapore,G3,15.600000000000001,48.95,35.4,1.0,Singapore
+2023,singapore,G6,6.5,6.8,86.7,1.0,Singapore
+2023,singapore,N1,78.0,22.0,0.0,1.0,Singapore
+2023,singapore,N2,45.96666666666667,53.400000000000006,0.6333333333333333,1.0,Singapore
+2023,singapore,N4,55.150000000000006,44.85,0.0,1.0,Singapore
+2023,singapore,N7,62.6,36.5,0.9,1.0,Singapore
+2023,slovak republic,G2,7.4,42.2,50.4,0.5,Slovak Republic
+2023,slovak republic,G3,4.800000000000001,52.900000000000006,42.3,0.0,Slovak Republic
+2023,slovak republic,G6,2.1,6.5,91.5,0.0,Slovak Republic
+2023,slovak republic,N1,87.4,11.7,0.9,0.5,Slovak Republic
+2023,slovak republic,N2,6.7,42.46666666666667,50.833333333333336,0.5,Slovak Republic
+2023,slovak republic,N4,2.9000000000000004,16.8,80.3,0.5,Slovak Republic
+2023,slovak republic,N7,85.6,14.4,0.0,1.0,Slovak Republic
+2023,slovenia,G2,10.9,58.9,30.2,1.0,Slovenia
+2023,slovenia,G3,1.7000000000000002,4.3,94.05,0.0,Slovenia
+2023,slovenia,G6,28.4,53.5,18.1,1.0,Slovenia
+2023,slovenia,N1,60.2,38.0,1.7,0.5,Slovenia
+2023,slovenia,N2,9.1,78.96666666666665,11.866666666666667,1.0,Slovenia
+2023,slovenia,N4,4.65,35.5,59.800000000000004,0.0,Slovenia
+2023,slovenia,N7,56.0,38.8,5.2,0.0,Slovenia
+2023,spain,G2,10.9,62.2,26.9,1.0,Spain
+2023,spain,G3,10.149999999999999,40.95,48.9,1.0,Spain
+2023,spain,G6,12.0,33.4,54.6,1.0,Spain
+2023,spain,N1,74.9,25.1,0.0,1.0,Spain
+2023,spain,N2,48.26666666666667,49.26666666666667,2.5,1.0,Spain
+2023,spain,N4,9.8,72.35,17.8,1.0,Spain
+2023,spain,N7,56.1,32.4,11.5,1.0,Spain
+2023,sweden,G2,12.6,39.3,48.0,1.0,Sweden
+2023,sweden,G3,8.3,36.2,55.55,1.0,Sweden
+2023,sweden,G6,8.8,18.1,73.1,1.0,Sweden
+2023,sweden,N1,43.6,56.4,0.0,1.0,Sweden
+2023,sweden,N2,9.6,74.43333333333334,15.966666666666669,0.75,Sweden
+2023,sweden,N4,2.65,45.35,52.05,1.0,Sweden
+2023,sweden,N7,30.5,67.2,2.2,1.0,Sweden
+2023,united arab emirates,G2,23.5,50.1,26.4,1.0,United Arab Emirates
+2023,united arab emirates,G3,17.9,59.3,22.799999999999997,1.0,United Arab Emirates
+2023,united arab emirates,G6,32.0,41.8,26.3,1.0,United Arab Emirates
+2023,united arab emirates,N1,62.1,37.8,0.1,1.0,United Arab Emirates
+2023,united arab emirates,N2,37.233333333333334,60.96666666666666,1.7666666666666666,1.0,United Arab Emirates
+2023,united arab emirates,N4,21.0,74.05,4.95,1.0,United Arab Emirates
+2023,united arab emirates,N7,44.6,52.7,2.7,1.0,United Arab Emirates
+2023,united states,G2,9.1,47.7,43.2,1.0,United States
+2023,united states,G3,16.3,54.099999999999994,29.65,1.0,United States
+2023,united states,G6,20.2,26.7,53.1,1.0,United States
+2023,united states,N1,49.1,50.9,0.0,1.0,United States
+2023,united states,N2,13.733333333333334,83.66666666666667,2.6,1.0,United States
+2023,united states,N4,6.0,88.0,6.05,1.0,United States
+2023,united states,N7,35.2,57.9,6.9,1.0,United States
+2023,uzbekistan,G2,65.7,32.9,1.3,1.0,Uzbekistan
+2023,uzbekistan,G3,50.2,44.3,5.5,1.0,Uzbekistan
+2023,uzbekistan,G6,29.7,63.9,6.4,1.0,Uzbekistan
+2023,uzbekistan,N1,75.6,23.7,0.7,1.0,Uzbekistan
+2023,uzbekistan,N2,75.73333333333333,24.266666666666666,0.0,1.0,Uzbekistan
+2023,uzbekistan,N4,37.7,61.05,1.25,1.0,Uzbekistan
+2023,uzbekistan,N7,67.1,24.7,8.2,0.0,Uzbekistan

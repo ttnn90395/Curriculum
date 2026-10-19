@@ -1,0 +1,7 @@
+]633;E;echo "Gel des tables d'appariement TIMSS G4 maths -- 2026-10-19";115ac0e1-13c0-4352-b389-a6b194c692da]633;CGel des tables d'appariement TIMSS G4 maths -- 2026-10-19
+Gel POSTERIEUR a la premiere lecture des tendances (run_crosswalk_trends.py, run_intended_vs_implemented.py).
+Niveaux de confiance fixes avant le premier run, valides par l'auteur apres lecture.
+Controle de sensibilite: le panel strict (high) donne les memes conclusions (data/processed/primaire_check/).
+
+f883f3bf8b112c1a90b0f698d45c7c15455655c4c303209412875f37b3b8be38  data/crosswalk_g4_math.csv
+a982b559679697f2599b8e8f1aa0f7e8673d8ab092328b8e3c8b2421313db3c2  data/crosswalk_teacher_g4_math.csv

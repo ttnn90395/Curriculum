@@ -1,0 +1,13 @@
+notion_id,label,pilot_grade,fr_level,fr_grade,evidence,source,status
+n06,Fractions (concept),4,CE1 puis CE2,2,"Fractions introduites au CE1 (partie d'un tout), puis au CE2 (pour mesurer des longueurs)",ac-lyon module 1 programmes maths C1-C2-C3 (2025),ECART avec le pilote (4): a arbitrer
+n08,Nombres decimaux,5,CM1 (ecriture decimale introduite via la monnaie au cycle 2),4,"Les nombres decimaux (CM1); ecriture decimale introduite via la monnaie en cycle 2",ac-lyon module 1 programmes maths C1-C2-C3 (2025),ECART avec le pilote (5): a arbitrer
+g03,Solides 3D et representations 2D,3,CP a CM2,1,"Les solides (liste a chaque classe du CP au CM2)",ac-lyon module 1 programmes maths C1-C2-C3 (2025),ECART avec le pilote (3): a arbitrer
+m03,Perimetre aire volume,4,CM1 (aires),4,"Les aires (CM1)",ac-lyon module 1 programmes maths C1-C2-C3 (2025),COHERENT (perimetre et volume non documentes)
+g02,Droites paralleles/perpendiculaires et angles,4,CM1 (angles),4,"Les angles (CM1); parallelisme et perpendicularite approfondis au cycle 3",ac-lyon module 1 + eduscol document 18472 (diaporama cycle 3),COHERENT pour les angles
+d01,Lire et representer des donnees,2,CP (sous-domaine Organisation des donnees),1,"Organisation des donnees: sous-domaine du cycle 2 des le CP",ac-lyon module 1 programmes maths C1-C2-C3 (2025),ECART avec le pilote (2): a arbitrer
+m01,Mesure de longueurs,2,CP,1,"Les longueurs et les masses (CP)",ac-lyon module 1 programmes maths C1-C2-C3 (2025),ECART avec le pilote (2): a arbitrer
+m02,"Masse, volume (capacite), temps",3,masses CP; durees CE1; contenances CE2,1-3,"Les masses (CP); durees (CE1); contenances (CE2)",ac-lyon module 1 programmes maths C1-C2-C3 (2025),MIXTE: la notion regroupe des grandeurs introduites a des niveaux differents
+n13,Notation algebrique / variables,6,CM1-CM2 selon une source; cycle 4 selon l'autre,4-5 ou 8,"Algebre / initiation a la pensee algebrique en cycle 3 (ac-lyon) vs modelisation et calcul litteral en cycle 4 (eduscol 18472)",ac-lyon module 1 + eduscol document 18472,SOURCES CONTRADICTOIRES: non tranche
+n21,"Multiples, facteurs, pair/impair",4,non documente dans les sources lues,,,eduscol document 18472,PAS DE PREUVE
+n22,Phrases numeriques / nombre manquant,3,non documente dans les sources lues,,,,PAS DE PREUVE
+n23,Suites et regularites,3,non documente dans les sources lues,,,,PAS DE PREUVE

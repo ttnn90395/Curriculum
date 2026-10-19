@@ -125,3 +125,11 @@ Canada : pas de ministère fédéral -- CMEC + Statistique Canada (PCEIP, annuel
 Australie : Australian Bureau of Statistics (collection Schools) + ACARA
 Nouvelle-Zélande : Education Counts (Ministry of Education)
 Pologne, Colombie (ICFES confirmé pour évaluations seulement), Mexique, Chili, Costa Rica, Israël : pas de source nationale confirmée -- OCDE/IEA uniquement
+
+== Sources de donnees utilisees (ajout 2026-10-19) ==
+- TIMSS 2015/2019/2023, questionnaires curriculum et almanacs (enseignants) 4e annee maths:
+  IEA / TIMSS & PIRLS International Study Center (Boston College). Almanacs enseignants 2015: PDF seulement.
+- PISA 2015/2018/2022, microdonnees eleves (SPSS), indices DISCLISCI/DISCLIMA/DISCLIM: OCDE (webfs.oecd.org).
+- PISA 2000-2018 scores par pays: Banque mondiale EdStats (indicateurs LO.PISA.*).
+- PISA 2022/2025 moyennes: sources SECONDAIRES (tableaux Wikipedia, eduscores.org); a verifier contre
+  les annexes OCDE; France ancree (maths 474/458, lecture 456, sciences 483 en 2025).

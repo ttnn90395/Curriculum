@@ -81,3 +81,42 @@ Voir `Plan.txt`, section "Limites" -- le projet a été audité comme
 probablement trop large pour un seul rapport (cf. discussion sur
 la dérive de scope). Décision de coupe à prendre explicitement
 avant la rédaction finale, pas par accrétion continue.
+
+## Ajouts du 2026-10-19 (etat d'avancement PISA / TIMSS)
+
+Fait
+- PISA 2000-2025 assemble: data/processed/pisa_scores_long.csv (World Bank <= 2018 + sources
+  secondaires 2022/2025 pour les pays OCDE). Les valeurs 2025 ne sont ancrees de facon
+  independante que pour la France (maths 458, lecture 456, sciences 483).
+- Tests confirmatoires maths/lecture/sciences executes une fois (spec v2, hash 01380f8d5cffac57;
+  verrous forecasts/confirmatory_<matiere>.lock.json). L'AR(1) a la meme erreur de rang que la
+  persistance dans les 6 comparaisons (2 plis par matiere): aucun gain observe.
+- Previsions PISA 2028 figees: forecasts/pisa_<matiere>_2028_from_le2025.csv. France, rang
+  median [p10-p90]: maths 23 [16-27], lecture 18 [13-21], sciences 21 [13-28]; P(top 10) <= 4 %.
+- TIMSS G4 maths: tendances par sujet commun (run_crosswalk_trends.py); curriculum MIS EN OEUVRE
+  par les almanacs enseignants 2019/2023 (extract_teacher_topics.py); prevu vs mis en oeuvre
+  (run_intended_vs_implemented.py, table data/crosswalk_teacher_g4_math.csv).
+- Climat disciplinaire PISA (fetch_pisa_discipline.py, data/processed/pisa_discipline_means.csv):
+  2015 DISCLISCI (sciences), 2018 DISCLIMA (langue d'enseignement), 2022 DISCLIM (maths).
+  France 38/38, 38/38, 32/37 (OCDE). Matieres differentes: PAS de tendance entre cycles.
+
+Resultats a retenir (descriptifs)
+- Le saut de couverture PREVUE de la France 2019->2023 (rang 1/52) n'apparait pas chez les
+  enseignants (%avant: rang 18/52; Spearman entre pays -0,03). A traiter avec mefiance
+  (hypothese de changement de maniere de repondre des coordinateurs, NON testee).
+- A un cycle donne, le prevu predit le mis en oeuvre (Spearman prevu/%pas encore: -0,35 en 2019,
+  -0,27 en 2023).
+
+A faire
+- [ ] Verifier quelques valeurs PISA 2025 (maths, lecture) contre l'annexe OCDE (403 aux scripts).
+- [ ] Relire et geler data/crosswalk_g4_math.csv ET data/crosswalk_teacher_g4_math.csv.
+- [ ] Rapport: tests A/B non aveugles; spec v2 commitee avant le premier run (commit 8dceeb1
+      pour les maths); verifier par git log les dates des verrous lecture/sciences.
+- [ ] Rapport: France TIMSS 2023, ~20 % d'eleves sans reponse enseignant (Omitted+Not administered),
+      5,7 % en 2019; categorie "pas encore enseigne" non comparable 2019/2023 (2019 inclut
+      "just introduced"); almanacs enseignants 2015 en PDF seulement.
+- [ ] Rapport: climat disciplinaire = descriptif, hors modele; sens "valeur haute = meilleur
+      climat" a confirmer dans le codebook; cycles 2000-2012 non traites (texte a largeur fixe).
+- [ ] Prevision TIMSS 2027 (modele gele): non faite.
+- [ ] Note de vie scolaire (DEPP): existence toujours a confirmer.
+- [ ] Graphe KST: 11 des 20 sous-items TIMSS G4 non couverts; parametres IRT a renseigner.

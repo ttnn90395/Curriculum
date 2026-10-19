@@ -300,3 +300,12 @@
 %   - Scope du rapport jugé probablement trop large pour un seul
 %     livrable -- décision de coupe explicite à prendre avant
 %     rédaction finale, pas par accrétion continue
+
+== Module de prevision des classements (etat au 2026-10-19) ==
+Cible: position relative d = score - moyenne du panel fixe, par cycle (PISA, OCDE).
+Modeles compares: persistance (naive) et AR(1); AR(1) fige (spec v2, hash 01380f8d5cffac57).
+Panel: OCDE complet sur cycles <= 2018, puis retrait des non-participants 2022/2025 (Luxembourg).
+Tests A (<=2018 -> 2022) et B (<=2022 -> 2025): un seul passage par matiere (verrou).
+Resultat: AR(1) = persistance (meme erreur de rang); la prevision 2028 reproduit les positions 2025.
+Limites: 2 plis, tests non aveugles, donnees 2025 de sources secondaires (France seule ancree),
+pas 2018->2022 de 4 ans (COVID). Prevision TIMSS 2027: a faire.

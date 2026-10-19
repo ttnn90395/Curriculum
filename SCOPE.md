@@ -56,3 +56,11 @@ révisée, mais par une décision écrite ici, pas par dérive.
 La Priorité 3 (sources nationales fines) de `data/README.md` est
 reclassée "extension future, non bloquante" -- seule la ligne
 France (DEPP) reste active pour ce rapport.
+
+## Ajout du 2026-10-19 -- precisions de perimetre
+- Climat disciplinaire PISA (2015, 2018, 2022): explore en registre DESCRIPTIF seulement
+  (France vs OCDE par cycle). Il reste hors du modele de prevision et hors de la VAN.
+  La matiere des cours differe selon le cycle: aucune tendance n'est calculee.
+- Curriculum mis en oeuvre (almanacs enseignants TIMSS 2019/2023): utilise comme controle de
+  coherence du curriculum prevu, pas comme variable du modele.
+- Seule la prevision PISA 2028 (gelee dans forecasts/) est prospective; les tests A/B ne le sont pas.

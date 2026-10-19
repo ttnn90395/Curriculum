@@ -1,0 +1,119 @@
+{
+  "subject": "timss_g4_math",
+  "run_on": "2026-10-19",
+  "spec_hash": "0e88853baf6019bf",
+  "spec": {
+    "version": 1,
+    "target": "position relative d = score - moyenne de l'ensemble des pays presents aux deux cycles de la transition",
+    "cycles": [
+      2003,
+      2007,
+      2011,
+      2015,
+      2019,
+      2023
+    ],
+    "excluded": "benchmarking participants; pays en 5e annee (grade5); 1995",
+    "min_set_size": 10,
+    "models_compared": [
+      "naive",
+      "ar1_pooled_noconst"
+    ],
+    "frozen_model": "ar1_pooled_noconst",
+    "folds": "transitions 2007->2011, 2011->2015, 2015->2019, 2019->2023; entrainement = transitions anterieures",
+    "interval": "rangs sur 2000 (backtest) / 5000 (prevision) tirages N(pred, sigma^2) independants; p10-p90",
+    "forecast_set": "pays presents en 2019 et 2023; rangs conditionnels a leur participation en 2027",
+    "top_k": 10
+  },
+  "forced": false,
+  "results": [
+    {
+      "test": "2007->2011",
+      "n": 20,
+      "n_train_trans": 1,
+      "model": "naive",
+      "phi": 1.0,
+      "mse": 79.09,
+      "rho": 0.9624,
+      "mae_rank": 1.1,
+      "cov80": 0.95
+    },
+    {
+      "test": "2007->2011",
+      "n": 20,
+      "n_train_trans": 1,
+      "model": "ar1",
+      "phi": 0.9783,
+      "mse": 72.6692,
+      "rho": 0.9624,
+      "mae_rank": 1.1,
+      "cov80": 1.0
+    },
+    {
+      "test": "2011->2015",
+      "n": 35,
+      "n_train_trans": 2,
+      "model": "naive",
+      "phi": 1.0,
+      "mse": 193.2849,
+      "rho": 0.9641,
+      "mae_rank": 1.9429,
+      "cov80": 0.8857
+    },
+    {
+      "test": "2011->2015",
+      "n": 35,
+      "n_train_trans": 2,
+      "model": "ar1",
+      "phi": 0.9464,
+      "mse": 166.7025,
+      "rho": 0.9641,
+      "mae_rank": 1.9429,
+      "cov80": 0.8857
+    },
+    {
+      "test": "2015->2019",
+      "n": 40,
+      "n_train_trans": 3,
+      "model": "naive",
+      "phi": 1.0,
+      "mse": 145.0444,
+      "rho": 0.9652,
+      "mae_rank": 2.1,
+      "cov80": 0.95
+    },
+    {
+      "test": "2015->2019",
+      "n": 40,
+      "n_train_trans": 3,
+      "model": "ar1",
+      "phi": 0.9236,
+      "mse": 106.1466,
+      "rho": 0.9652,
+      "mae_rank": 2.1,
+      "cov80": 0.95
+    },
+    {
+      "test": "2019->2023",
+      "n": 47,
+      "n_train_trans": 4,
+      "model": "naive",
+      "phi": 1.0,
+      "mse": 160.2119,
+      "rho": 0.9373,
+      "mae_rank": 3.4894,
+      "cov80": 0.7447
+    },
+    {
+      "test": "2019->2023",
+      "n": 47,
+      "n_train_trans": 4,
+      "model": "ar1",
+      "phi": 0.9111,
+      "mse": 151.6531,
+      "rho": 0.9373,
+      "mae_rank": 3.4894,
+      "cov80": 0.7447
+    }
+  ]
+}

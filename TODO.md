@@ -141,3 +141,13 @@ A faire
       francais ou cadre TIMSS 2023 de maths); arbitrer typical_grade de n07/n08 (pilote: grade 5, TIMSS G4 les couvre).
 - [ ] SCOPE.md: contradiction a trancher (graphe maths+sciences = coeur du rapport vs extension aux sciences hors perimetre).
 - [ ] Parametres IRT/BLIM du graphe: toujours None.
+
+## 2026-10-20 -- Difficulte IRT des notions (exploratoire, non aveugle)
+- code/estimate_notion_difficulty.py (sha256 7832b8ec93883cd5): difficulte 'Location (bi)' TIMSS 2023 G4 par objectif du cadre, puis par notion KST; items classes par (aire, topic) du fichier Item Information 2023, jointure par Item ID.
+- 159 items sur 243 parametres IRT apparies; 84 non apparies (ME51 2015, ME61/ME71 retires), absents du fichier 2023; aucun item papier n'a de parametre IRT.
+- Seuil MIN_ITEMS=5 par objectif fixe POST HOC apres la 1ere lecture (FD1 = 1 item: n06 et n07 non fiables). Resultats donnes avec et sans.
+- 16 notions fiables; IC larges (6-10 items par objectif). Sensibles aux choix de traitement: g01 (-0.60 -> -1.08 sans items DERIVED), n04/n05 (-0.26 -> -0.07 ajuste du domaine cognitif).
+- Aretes: 20 fiables, 15 avec notion plus difficile que le prerequis, 4 avec P_boot >= 0.95 (d01->d02, n04->m03, g01->m03, g01->g02), 0 inversion franche. Conclusion limitee: pas d'incoherence flagrante; test faible (items de niveau 4e annee uniquement).
+- Spearman 0.68 avec typical_grade pilote: circulaire (repere de construction), non utilise comme validation.
+- Graphe NON modifie: irt_difficulty reste None.
+- Ouvert: recuperer les 84 items via les item info 2015/2019 (cadre different: a valider avant), FD1 reste mince; arete m01->g01 a revoir (difference -0.65, P=0.13).

@@ -1,0 +1,97 @@
+Items IRT maths avec location numerique: 243; prefixes {'ME51': 36, 'ME61': 57, 'ME71': 82, 'ME81': 68}
+Items info maths (digital+papier): 406
+Jointure par prefixe (info -> IRT):
+      sum  count
+p               
+ME61   35     45
+ME71   56     88
+ME81   68    106
+MP61    0     37
+MP71    0     93
+MQ71    0     24
+MQ81    0     13
+Items IRT 'M' apparies a une classification 2023: 159 / 243 = 65%
+IRT non apparies: 84 (par prefixe {'ME51': 36, 'ME61': 22, 'ME71': 26}); presents ailleurs dans le fichier info (autre feuille/sujet): 0
+  exemples: ['ME51008', 'ME51009', 'ME51030', 'ME51031A', 'ME51031B', 'ME51040', 'ME51043', 'ME51045', 'ME51049', 'ME51052', 'ME51075', 'ME51079']
+
+Items retenus: 159 (derived 27, digital 159, papier 0)
+
+== Difficulte (location b, echelle IRT TIMSS) par objectif ==
+obj  n_items  mean_b  median_b  ci_lo  ci_hi notions
+ D1       13  -1.134    -0.992 -1.603 -0.664     d01
+ D2       15  -0.497    -0.387 -1.130  0.129     d01
+D34        9  -0.127    -0.313 -0.503  0.263     d02
+EX1       10  -0.858    -0.768 -1.487 -0.298     n22
+EX2        9  -0.057     0.141 -0.791  0.633     n22
+EX3        8  -0.272    -0.152 -0.915  0.251     n23
+FD1        1   1.186     1.186    NaN    NaN n06;n07
+FD2       10   0.022     0.221 -0.562  0.575     n08
+GE1        8   0.573     0.812  0.178  0.942     g02
+GE2        8  -0.604    -0.364 -1.505  0.258     g01
+GE3        6  -0.135    -0.256 -0.646  0.431     g03
+ M1        8   0.042     0.336 -0.665  0.666     m01
+ M2       10  -0.326     0.040 -1.019  0.336     m02
+ M3        6   0.406     0.433 -0.002  0.788     m03
+WN1        7  -0.467    -0.401 -1.439  0.486     n03
+WN2        6  -0.567    -0.344 -1.129 -0.167     n02
+WN3        7  -0.257    -0.187 -0.762  0.235 n04;n05
+WN4       10  -0.208    -0.201 -0.729  0.322     n21
+WN5        8   0.060     0.176 -0.523  0.573        
+
+== Difficulte par notion (ordre croissant) ==
+notion objectives  n_items  reliable  mean_b  ci_lo  ci_hi  adj_b  b_no_derived  b_digital_only  typical_grade
+   d01      D1;D2       28      True  -0.792 -1.184 -0.398 -0.819        -0.788          -0.792              2
+   g01        GE2        8      True  -0.604 -1.492  0.259 -0.575        -1.082          -0.604              2
+   n02        WN2        6      True  -0.567 -1.129 -0.167 -0.359        -0.567          -0.567              1
+   n22    EX1;EX2       19      True  -0.479 -0.955 -0.036 -0.442        -0.474          -0.479              3
+   n03        WN1        7      True  -0.467 -1.453  0.409 -0.546        -0.640          -0.467              2
+   m02         M2       10      True  -0.326 -1.036  0.344 -0.290        -0.326          -0.326              3
+   n23        EX3        8      True  -0.272 -0.927  0.258 -0.313        -0.254          -0.272              3
+   n04        WN3        7      True  -0.257 -0.757  0.228 -0.069        -0.257          -0.257              3
+   n05        WN3        7      True  -0.257 -0.757  0.228 -0.069        -0.257          -0.257              3
+   n21        WN4       10      True  -0.208 -0.732  0.349 -0.117        -0.200          -0.208              4
+   g03        GE3        6      True  -0.135 -0.645  0.429 -0.259        -0.318          -0.135              3
+   d02  D3;D4;D34        9      True  -0.127 -0.507  0.260 -0.299        -0.104          -0.127              3
+   n08        FD2       10      True   0.022 -0.545  0.562  0.145         0.000           0.022              5
+   m01         M1        8      True   0.042 -0.680  0.666  0.089         0.042           0.042              2
+   m03         M3        6      True   0.406 -0.001  0.778  0.378         0.406           0.406              4
+   g02        GE1        8      True   0.573  0.190  0.931  0.657         0.814           0.573              4
+   n06        FD1        1     False   1.186    NaN    NaN  1.255         1.186           1.186              4
+   n07        FD1        1     False   1.186    NaN    NaN  1.255         1.186           1.186              5
+
+Limites: notions partageant un objectif (n04/n05; n06/n07; d01 pooled) ont la meme valeur par construction.
+
+== Aretes testables: 25 / 53 (autres: notion sans item TIMSS ou objectif partage) ==
+prereq notion  b_prereq  b_notion   diff  boot_p_notion_harder  reliable
+   n06    n08     1.186     0.022 -1.164                 0.000     False
+   m01    g01     0.042    -0.604 -0.646                 0.130      True
+   m01    m02     0.042    -0.326 -0.367                 0.219      True
+   n02    d01    -0.567    -0.792 -0.226                 0.247      True
+   n04    n22    -0.257    -0.479 -0.222                 0.254      True
+   n04    n23    -0.257    -0.272 -0.015                 0.501      True
+   n05    n21    -0.257    -0.208  0.049                 0.543      True
+   n04    n21    -0.257    -0.208  0.049                 0.543      True
+   n02    n22    -0.567    -0.479  0.088                 0.578      True
+   n02    m02    -0.567    -0.326  0.241                 0.697      True
+   n02    n23    -0.567    -0.272  0.295                 0.776      True
+   n02    n04    -0.567    -0.257  0.310                 0.811      True
+   m01    m03     0.042     0.406  0.364                 0.820      True
+   n02    d02    -0.567    -0.127  0.440                 0.927      True
+   g01    g03    -0.604    -0.135  0.469                 0.808      True
+   n03    n08    -0.467     0.022  0.490                 0.818      True
+   n02    m01    -0.567     0.042  0.609                 0.926      True
+   n04    m03    -0.257     0.406  0.663                 0.984      True
+   d01    d02    -0.792    -0.127  0.665                 0.992      True
+   g01    m03    -0.604     0.406  1.010                 0.984      True
+   g01    g02    -0.604     0.573  1.177                 0.994      True
+   n05    n07    -0.257     1.186  1.443                 1.000     False
+   n04    n07    -0.257     1.186  1.443                 1.000     False
+   n03    n06    -0.467     1.186  1.653                 1.000     False
+   n02    n06    -0.567     1.186  1.753                 1.000     False
+
+[toutes] 25 aretes: notion plus difficile que son prerequis (point): 19; P_boot >= 0.95: 8; inversions franches (P <= 0.05): 1
+
+[fiables (objectifs >= 5 items)] 20 aretes: notion plus difficile que son prerequis (point): 15; P_boot >= 0.95: 4; inversions franches (P <= 0.05): 0
+Spearman(mean_b, typical_grade pilote) sur 16 notions: 0.68
+
+Statut: exploratoire, non aveugle. Aucune p-valeur. Ecritures: data/processed/difficulty_*.csv, notion_difficulty_*.csv

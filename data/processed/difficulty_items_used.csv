@@ -1,0 +1,160 @@
+item,sheet,obj,domain,area,topic,cog,pts,scaling,label,in_irt,b,derived,excluded,digital
+ME71018,T23 G4,WN3,Number,Whole Numbers,3,Applying,1.0,Yes,Seeds left over,True,0.238596320343973,False,False,True
+ME71009,T23 G4,WN2,Number,Whole Numbers,2,Applying,1.0,Yes,Number added to 73 with sum of 1068,True,0.112483198693864,False,False,True
+ME71037,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Applying,1.0,Yes,Make the number sentence true - A x B = 13 - C,True,-0.218737666600051,False,False,True
+ME71051,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Applying,1.0,Yes,Amount of time practicing piano,True,0.976056087564157,False,False,True
+ME71064,T23 G4,FD2,Number,Fractions and Decimals,2,Knowing,1.0,Yes,Number equal to 8 tens and 2 tenths,True,0.67414033116064,False,False,True
+ME71176,T23 G4,M1,Measurement and Geometry,Measurement,1,Knowing,1.0,Yes,Measure height of doll,True,-1.25117257580592,False,False,True
+ME71169,T23 G4,M2,Measurement and Geometry,Measurement,2,Knowing,1.0,Yes,Water drank from water bottle,True,0.639612196964867,False,False,True
+ME71083,T23 G4,M2,Measurement and Geometry,Measurement,2,Reasoning,1.0,Yes,Movie that Terry is available to see,True,0.519004412482166,False,False,True
+ME71199,T23 G4,GE2,Measurement and Geometry,Geometry,2,Knowing,1.0,Yes,Two shapes that make square,True,-2.24703972193791,False,False,True
+ME71184,T23 G4,M3,Measurement and Geometry,Measurement,3,Reasoning,1.0,Yes,Length of sides of 6-sided figure,True,1.15298373452548,False,False,True
+ME71141,T23 G4,D1,Data,Reading & Displaying Data,1,Reasoning,1.0,Yes,Questions about soccer teams (DERIVED),True,0.371028006491825,True,False,True
+ME71194,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Graph of weather last month (DERIVED),True,-1.55364700461019,True,False,True
+ME71193,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,2.0,Yes,Birdhouses (DERIVED),True,0.418599881875878,True,False,True
+ME71192,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,2.0,Yes,Graph of monthly rainfall,True,0.815201325529736,False,False,True
+ME61275,T23 G4,WN2,Number,Whole Numbers,2,Knowing,1.0,Yes,3126 + 845 + 72 =,True,-0.344146919858554,False,False,True
+ME61027,T23 G4,WN1,Number,Whole Numbers,1,Applying,1.0,Yes,Sara's 4-digit password,True,-0.718956880383776,False,False,True
+ME61255,T23 G4,WN5,Number,Whole Numbers,5,Reasoning,2.0,Yes,Game in Zedland buying bicycles and scooters,True,0.523806045000722,False,False,True
+ME61021,T23 G4,WN4,Number,Whole Numbers,4,Reasoning,1.0,No,Fill in box to make multiple of 8,True,1.48612343700765,False,False,True
+ME61043,T23 G4,FD2,Number,Fractions and Decimals,2,Knowing,1.0,Yes,Difference between Ana and Rui's diving scores,True,0.221037288877716,False,False,True
+ME61151,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Expression to represent Pat's pencils,True,-0.107822464827381,False,False,True
+ME61172,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Applying,1.0,Yes,Find value of p in number sentence,True,0.760927059902234,False,False,True
+ME61223,T23 G4,WN2,Number,Whole Numbers,2,Knowing,1.0,Yes,Joan and Cliff meet halfway on number line,True,-0.648100673345763,False,False,True
+ME61269,T23 G4,GE3,Measurement and Geometry,Geometry,3,Applying,1.0,Yes,Identify solid with top and bottom shown above,True,-0.541002009234629,False,False,True
+ME61081,T23 G4,GE1,Measurement and Geometry,Geometry,1,Applying,2.0,Yes,Draws two lines with rules (DERIVED),True,1.03407227972343,True,False,True
+ME61081A,T23 G4,GE1,Measurement and Geometry,Geometry,1,Applying,1.0,No,Draw a line parallel to AB through C,True,0.853480654265332,False,False,True
+ME61081B,T23 G4,GE1,Measurement and Geometry,Geometry,1,Applying,1.0,No,Draw a line perpendicular to AB through D,True,1.25233941126473,False,False,True
+ME81363,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Complete the graph for Julian (DERIVED),True,-0.531404578924412,True,False,True
+ME81359,T23 G4,GE3,Measurement and Geometry,Geometry,3,Applying,1.0,Yes,Shapes needed to build the box (DERIVED),True,0.0288627547072123,True,False,True
+ME81315,T23 G4,WN3,Number,Whole Numbers,3,Applying,1.0,Yes,School trip rule for 58 students,True,0.747117861358454,False,False,True
+ME81121,T23 G4,GE1,Measurement and Geometry,Geometry,1,Knowing,1.0,Yes,Angle in window larger than a right angle,True,0.928016380336794,False,False,True
+ME81311,T23 G4,WN5,Number,Whole Numbers,5,Reasoning,1.0,Yes,Make the largest odd number with cards,True,0.957606084985165,False,False,True
+ME81364,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Complete bar chart of types of fruit (DERIVED),True,-0.373017054573826,True,False,True
+ME81321,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Drag to make number sentence of photos,True,-0.704140097810909,False,False,True
+ME81900A,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Number of seconds bee danced in straight section,True,0.867325447049242,False,False,True
+ME81900B,T23 G4,FD2,Number,Fractions and Decimals,2,Applying,1.0,Yes,Distance of flowers from Bee,True,1.13974137334299,False,False,True
+ME81901,T23 G4,WN5,Number,Whole Numbers,5,Reasoning,1.0,Yes,Number of seconds another bee danced straight,True,0.239371511137559,False,False,True
+ME81314,T23 G4,WN1,Number,Whole Numbers,1,Reasoning,1.0,Yes,Values on the number line,True,1.3847346148095,False,False,True
+ME81902,T23 G4,M3,Measurement and Geometry,Measurement,3,Applying,1.0,Yes,Draw lines to cut pizza into 6 equal portions,True,0.444237274587368,False,False,True
+ME81350,T23 G4,GE3,Measurement and Geometry,Geometry,3,Applying,1.0,Yes,Shapes in the video solid (DERIVED),True,0.431866865701845,True,False,True
+ME81338,T23 G4,FD2,Number,Fractions and Decimals,2,Applying,1.0,Yes,Select squares to make 0.25 of total squares,True,0.82308457992243,False,False,True
+ME81371A,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Reasoning,1.0,Yes,Points the fourth team earned,True,-0.314059116542562,False,False,True
+ME81371B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Applying,1.0,Yes,Difference in points earned between Team A and B,True,-0.420129426397596,False,False,True
+ME81342,T23 G4,M2,Measurement and Geometry,Measurement,2,Applying,1.0,Yes,Volume of egg in milliliters,True,1.09388438641066,False,False,True
+ME81322,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Reasoning,1.0,Yes,"Apples to balance 4 oranges, 1 pineapple",True,1.79708660501831,False,False,True
+ME81343,T23 G4,M1,Measurement and Geometry,Measurement,1,Applying,1.0,Yes,Length of base of triangle in millimeters,True,0.986347353944234,False,False,True
+ME81218,T23 G4,WN2,Number,Whole Numbers,2,Applying,1.0,Yes,How much more is 189 than 101,True,-1.86379742896613,False,False,True
+ME81067,T23 G4,WN3,Number,Whole Numbers,3,Knowing,1.0,Yes,23 divided by 5,True,-1.44504024226167,False,False,True
+ME81046,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Round 682 to the nearest hundred,True,-0.937271910594808,False,False,True
+ME81023,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Knowing,1.0,Yes,Tim counts by 6 missing number,True,-2.21633500502436,False,False,True
+ME81018,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Reasoning,1.0,Yes,Make number sentence with cards,True,-0.526868671114338,False,False,True
+ME81020,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,How many plants Camilla had Tuesday,True,-1.16027517047096,False,False,True
+ME81069,T23 G4,FD2,Number,Fractions and Decimals,2,Applying,1.0,Yes,Length of four strips of paper,True,-1.75011689177067,False,False,True
+ME81040,T23 G4,M2,Measurement and Geometry,Measurement,2,Applying,1.0,Yes,Weight of boxes of bananas and oranges,True,-1.3233328370349,False,False,True
+ME81070,T23 G4,M3,Measurement and Geometry,Measurement,3,Applying,1.0,Yes,Area of triangle made of unit squares,True,0.341757914337091,False,False,True
+ME81037,T23 G4,M2,Measurement and Geometry,Measurement,2,Reasoning,1.0,Yes,Which is the largest amount of liquid,True,-1.32045094678425,False,False,True
+ME81033,T23 G4,GE2,Measurement and Geometry,Geometry,2,Reasoning,1.0,Yes,Do four triangles make the shape,True,0.369735294833835,False,False,True
+ME81001,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Least used transit to Mr Bell's class,True,-1.50216644808521,False,False,True
+ME81060,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Number of books in classroom (DERIVED),True,-1.87359255657269,True,False,True
+ME81003,T23 G4,D1,Data,Reading & Displaying Data,1,Reasoning,1.0,Yes,Cars in parking lot statements (DERIVED),True,-1.64984740904829,True,False,True
+ME61178,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Round Mount Everest height to nearest 1000,True,-0.274804576429007,False,False,True
+ME61246,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Number that is even and multiple of 7,True,0.0748242210187803,False,False,True
+ME61271,T23 G4,WN3,Number,Whole Numbers,3,Knowing,1.0,Yes,6 x 312 =,True,-0.747848256437907,False,False,True
+ME61256,T23 G4,WN5,Number,Whole Numbers,5,Reasoning,1.0,Yes,Mark and Keith's card game - can Keith win,True,0.0652512112818427,False,False,True
+ME61182,T23 G4,FD1,Number,Fractions and Decimals,1,Applying,1.0,Yes,Total amount of juice Zara and Khattab have,True,1.18617897366518,False,False,True
+ME61049,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Applying,1.0,Yes,Choose operation for box in number sentence,True,-0.746589135869242,False,False,True
+ME61232,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Expression for players on teams in football league,True,0.691856460558362,False,False,True
+ME61095,T23 G4,GE1,Measurement and Geometry,Geometry,1,Knowing,1.0,Yes,Identify angle types from diagram in a table (DERIVED),True,-0.213954369926085,True,False,True
+ME61264,T23 G4,WN1,Number,Whole Numbers,1,Applying,2.0,Yes,Label points on the Snail path,True,0.359577722698495,False,False,True
+ME61108,T23 G4,GE3,Measurement and Geometry,Geometry,3,Reasoning,1.0,Yes,Choose cardboard for Julia's hexagonal box,True,0.927485243558681,False,False,True
+ME61211A,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Fruit market - pieces of fruit sold on Monday,True,0.129119795470471,False,False,True
+ME61211B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Applying,1.0,Yes,Fruit market - apples sold on Tuesday,True,0.779415231481518,False,False,True
+ME81066,T23 G4,WN1,Number,Whole Numbers,1,Knowing,1.0,Yes,Which number smallest,True,-2.36884450989981,False,False,True
+ME81215,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Which is a multiple of 7,True,-1.41558371108947,False,False,True
+ME81064,T23 G4,WN3,Number,Whole Numbers,3,Applying,1.0,Yes,"How many cards - 15 photos, 3 on each card",True,-0.576225896496398,False,False,True
+ME81051,T23 G4,WN5,Number,Whole Numbers,5,Applying,1.0,Yes,Are there more markers or pencils (DERIVED),True,-0.937826002085352,True,False,True
+ME81054,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Knowing,1.0,Yes,Missing number makes 4+4 equal 12,True,-2.97943351879,False,False,True
+ME81025,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Reasoning,1.0,Yes,Jim's rule first and second number entry (DERIVED),True,-0.534079045645849,True,False,True
+ME81038,T23 G4,M2,Measurement and Geometry,Measurement,2,Knowing,1.0,Yes,Which could be the weight of a student,True,-1.75708828318318,False,False,True
+ME81043,T23 G4,M3,Measurement and Geometry,Measurement,3,Applying,1.0,Yes,Length of third side give two and perimeter,True,-0.432935327159063,False,False,True
+ME81030,T23 G4,GE2,Measurement and Geometry,Geometry,2,Applying,1.0,Yes,Shape looks the same after half turn,True,-0.989635132275284,False,False,True
+ME81032,T23 G4,GE2,Measurement and Geometry,Geometry,2,Applying,1.0,Yes,Draw second half of shape (symmetry),True,-1.72513830171527,False,False,True
+ME81053,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Tallest mountain in table,True,-2.1633494511428,False,False,True
+ME81010A,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Capacity of planes (x-axis label),True,-2.73418479076041,False,False,True
+ME81010B,T23 G4,D2,Data,Reading & Displaying Data,2,Reasoning,1.0,Yes,Capacity of planes (y-axis label),True,0.22856510829492,False,False,True
+ME81059,T23 G4,D2,Data,Reading & Displaying Data,2,Reasoning,1.0,Yes,Number of songs represented by symbol,True,-0.387292897778828,False,False,True
+ME61240,T23 G4,WN1,Number,Whole Numbers,1,Knowing,1.0,Yes,Place value expansion (DERIVED),True,0.567230873430804,True,False,True
+ME61254,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Applying,1.0,Yes,Complete the table for Mia's input-output game (DERIVED),True,-0.121773611269376,True,False,True
+ME61244,T23 G4,WN1,Number,Whole Numbers,1,Reasoning,1.0,Yes,Choose true statement about 2 and 3 digit numbers,True,-0.400769779264224,False,False,True
+ME61041,T23 G4,FD2,Number,Fractions and Decimals,2,Knowing,1.0,Yes,Identify number between 1.4 and 1.78,True,0.804581900951582,False,False,True
+ME61173,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Knowing,1.0,Yes,Find the value of w in number sentence,True,-0.794391940454498,False,False,True
+ME61252,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Expression to find number of books Luke read,True,0.502039171004709,False,False,True
+ME61261,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Applying,1.0,Yes,Find the next number for Ian's number pattern,True,0.0276753900714701,False,False,True
+ME61224,T23 G4,GE1,Measurement and Geometry,Geometry,1,Applying,1.0,Yes,Draw angle MNP larger than a right angle,True,0.770475300303888,False,False,True
+ME61077,T23 G4,GE3,Measurement and Geometry,Geometry,3,Reasoning,1.0,Yes,View of building from above,True,-0.583599790171526,False,False,True
+ME61069A,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Time for Ahmed to read 10 pages,True,-0.992480219723932,False,False,True
+ME61069B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Applying,1.0,Yes,Number of pages Ahmed reads in 60 minutes,True,-0.170902557070812,False,False,True
+ME81049,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Two factors of 20,True,-0.095215315005533,False,False,True
+ME81050,T23 G4,WN4,Number,Whole Numbers,4,Reasoning,1.0,Yes,Number when added to three is odd,True,-1.38174434387907,False,False,True
+ME81065,T23 G4,WN5,Number,Whole Numbers,5,Applying,1.0,Yes,Start with 5 and apply three steps,True,-1.44703647085826,False,False,True
+ME81234,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Knowing,1.0,Yes,Missing number multiplied by 3 is 12,True,-2.16011458094055,False,False,True
+ME81229,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Total rocks in Molly's collection,True,-2.08916965446794,False,False,True
+ME81024,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Applying,1.0,Yes,Odin table rule in words,True,-0.398576189832605,False,False,True
+ME81035,T23 G4,M1,Measurement and Geometry,Measurement,1,Knowing,1.0,Yes,Choose the longest unit of distance,True,-1.77914449077435,False,False,True
+ME81039,T23 G4,M2,Measurement and Geometry,Measurement,2,Knowing,1.0,Yes,Unit to measure volume of water in fish tank,True,-2.02710081021131,False,False,True
+ME81062,T23 G4,GE3,Measurement and Geometry,Geometry,3,Applying,1.0,Yes,Number of rectangles in solid,True,-1.07498304236252,False,False,True
+ME81057,T23 G4,GE1,Measurement and Geometry,Geometry,1,Knowing,1.0,Yes,Are each set of two lines parallel (DERIVED),True,-0.306551330736699,True,False,True
+ME81063,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Time most customers in Anika's store,True,-2.07110063674351,False,False,True
+ME81012A,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Animal height information (DERIVED),True,-2.34862020258436,True,False,True
+ME81012B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Applying,1.0,Yes,Animal height information (Zoya),True,-1.18857870698409,False,False,True
+ME81360,T23 G4,D2,Data,Reading & Displaying Data,2,Reasoning,1.0,Yes,Pie chart matching table data ,True,-1.46074915457559,False,False,True
+ME81332,T23 G4,FD2,Number,Fractions and Decimals,2,Applying,1.0,Yes,Distance Tom walks to school,True,-1.20266507823915,False,False,True
+ME81112,T23 G4,WN4,Number,Whole Numbers,4,Knowing,1.0,Yes,Click all the even numbers (DERIVED),True,-0.280972132991285,True,False,True
+ME81323,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Knowing,1.0,Yes,Blank minus 32 is 54,True,-0.879417202387505,False,False,True
+ME81334,T23 G4,FD2,Number,Fractions and Decimals,2,Reasoning,1.0,Yes,"Order Leila, Tom, Boris",True,-0.860292375368819,False,False,True
+ME81316,T23 G4,WN5,Number,Whole Numbers,5,Applying,1.0,Yes,Pencil packs for 5 students to have 4 each,True,0.113216160975327,False,False,True
+ME81352,T23 G4,GE2,Measurement and Geometry,Geometry,2,Applying,1.0,Yes,Select squares to make symmetric shape,True,-2.15985571367438,False,False,True
+ME81324,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Reasoning,1.0,Yes,Complete Machine 2 with same rule (DERIVED),True,-0.25134200585056,True,False,True
+ME71013,T23 G4,WN2,Number,Whole Numbers,2,Knowing,1.0,Yes,1000 - 403 =,True,-0.313661789041,False,False,True
+ME71026,T23 G4,WN4,Number,Whole Numbers,4,Reasoning,1.0,Yes,Number that makes three sentences true,True,-0.127149400108792,False,False,True
+ME71036,T23 G4,EX1,Number,"Expressions, Simple Equations, and Relationships",1,Applying,1.0,Yes,Make two number sentences true (DERIVED),True,-0.78891935153757,True,False,True
+ME71040,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Expression for total bags for tennis and soccer balls,True,0.415601995836667,False,False,True
+ME71068,T23 G4,M1,Measurement and Geometry,Measurement,1,Knowing,1.0,Yes,Estimate height of Building B,True,0.481343342547325,False,False,True
+ME71075A,T23 G4,M1,Measurement and Geometry,Measurement,1,Applying,1.0,Yes,Steps across classroom - length,True,0.19053043842471,False,False,True
+ME71075B,T23 G4,M1,Measurement and Geometry,Measurement,1,Applying,1.0,Yes,Steps across classroom - width,True,0.684313398294734,False,False,True
+ME71080,T23 G4,M2,Measurement and Geometry,Measurement,2,Reasoning,1.0,Yes,Weight of watermelon,True,0.436995835035456,False,False,True
+ME71211,T23 G4,GE1,Measurement and Geometry,Geometry,1,Applying,1.0,Yes,Path parallel to Mary's path,True,0.267413860843727,False,False,True
+ME71178,T23 G4,GE2,Measurement and Geometry,Geometry,2,Knowing,1.0,Yes,Properties of two pentagons (DERIVED),True,0.568038256858112,True,False,True
+ME71135A,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Scores in game - highest in Round 2,True,-1.95098130862218,False,False,True
+ME71135B,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Scores in game - Round 2 and Round 3,True,-0.576414411806774,False,False,True
+ME71201,T23 G4,D2,Data,Reading & Displaying Data,2,Reasoning,1.0,Yes,Graphs of snowfall from two years,True,1.62978220411591,False,False,True
+ME71175,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Applying,2.0,Yes,Number of origami animals (DERIVED),True,-0.31274959204392,True,False,True
+ME71005,T23 G4,WN1,Number,Whole Numbers,1,Knowing,1.0,Yes,"Value of 3 in 321,524",True,-2.09390640871572,False,False,True
+ME71016,T23 G4,WN3,Number,Whole Numbers,3,Applying,1.0,Yes,Number of people ferris wheel can take,True,-0.187316518791645,False,False,True
+ME71163,T23 G4,WN5,Number,Whole Numbers,5,Reasoning,1.0,Yes,Number of figures made of blocks,True,0.964737303700346,False,False,True
+ME71045,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Reasoning,1.0,Yes,Stars used in Mallika's pattern,True,0.270491501834093,False,False,True
+ME71213,T23 G4,FD2,Number,Fractions and Decimals,2,Knowing,1.0,Yes,Larger number in each pair (DERIVED),True,0.22140172297161,True,False,True
+ME71070,T23 G4,M1,Measurement and Geometry,Measurement,1,Knowing,1.0,Yes,Estimate length of twig,True,-0.0337425812399005,False,False,True
+ME71181,T23 G4,M3,Measurement and Geometry,Measurement,3,Applying,1.0,Yes,Rectangle with perimeter of 10 cm,True,0.422727805771177,False,False,True
+ME71179,T23 G4,GE2,Measurement and Geometry,Geometry,2,Knowing,1.0,Yes,Properties of rhombus and rectangle (DERIVED),True,1.08748735142281,True,False,True
+ME71067,T23 G4,M1,Measurement and Geometry,Measurement,1,Reasoning,2.0,Yes,Shelves needed for new books,True,1.05435147985255,False,False,True
+ME71147A,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Line graph of Scott's walk - 2 km,True,-0.770621723128297,False,False,True
+ME71147B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Reasoning,1.0,Yes,Line graph of Scott's walk - 6 km,True,-0.106489271118685,False,False,True
+ME71189,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Graph of weights of bears,True,-1.81944203434632,False,False,True
+ME71187A,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Table of Sarah's beads (DERIVED),True,-1.37163766288508,True,False,True
+ME71187B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Knowing,1.0,Yes,Table of Sarah's beads - square beads,True,-0.336901764027177,False,False,True
+ME71024,T23 G4,WN3,Number,Whole Numbers,3,Knowing,1.0,Yes,927/3 =,True,0.17006931511998,False,False,True
+ME71008,T23 G4,WN2,Number,Whole Numbers,2,Applying,1.0,Yes,Heights of Khalifa and Shanghai towers,True,-0.34455237533969,False,False,True
+ME71165,T23 G4,EX2,Number,"Expressions, Simple Equations, and Relationships",2,Applying,1.0,Yes,Expression for marbles Linda has left,True,0.141497828857431,False,False,True
+ME71049,T23 G4,EX3,Number,"Expressions, Simple Equations, and Relationships",3,Applying,1.0,Yes,"Rule for number pattern - 6, 10, 14, 18, 22",True,-0.181828297294305,False,False,True
+ME71063,T23 G4,FD2,Number,Fractions and Decimals,2,Applying,1.0,Yes,"Money spent on book, notebook and pencils",True,0.153374603844646,False,False,True
+ME71079,T23 G4,M2,Measurement and Geometry,Measurement,2,Knowing,1.0,Yes,Speed shown on speedometer,True,0.838029288701858,False,False,True
+ME71081,T23 G4,M2,Measurement and Geometry,Measurement,2,Knowing,1.0,Yes,Hours to travel from Town A to Town B,True,-0.357963288334993,False,False,True
+ME71094,T23 G4,M3,Measurement and Geometry,Measurement,3,Applying,1.0,Yes,Area of rectangle on grid,True,0.504980822089664,False,False,True
+ME71177,T23 G4,GE2,Measurement and Geometry,Geometry,2,Reasoning,1.0,Yes,Complete the shape given 3 conditions,True,0.26249346482276,False,False,True
+ME71206,T23 G4,D1,Data,Reading & Displaying Data,1,Knowing,1.0,Yes,Type of coin with most total value,True,-0.954900545342114,False,False,True
+ME71138A,T23 G4,D1,Data,Reading & Displaying Data,1,Reasoning,1.0,Yes,Students at school - statements about graph (DERIVED),True,-0.25751640388109,True,False,True
+ME71138B,T23 G4,D34,Data,"Interpreting, Combining & Comparing Data",1,Reasoning,1.0,Yes,Students at school - Arne's statement,True,0.923887603539187,False,False,True
+ME71203,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Graph that best shows target hits,True,1.18204729376162,False,False,True
+ME71205,T23 G4,D2,Data,Reading & Displaying Data,2,Applying,1.0,Yes,Ages of children at skate park (DERIVED),True,0.37865754909113,True,False,True

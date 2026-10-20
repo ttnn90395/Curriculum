@@ -1,0 +1,34 @@
+168046 octets; sha256 a69b73be9ec0f942; debut b'%PDF-'
+98 lignes de texte; 22 premieres:
+    Exhibit 9.1: Instructional Time Spent on Mathematics
+    Reported by Principals and Teachers
+    Total Instructional
+    Country Hours per Year for Mathematics Instruction
+    Hours per Year
+    Portugal 864(8.5) r 275(4.0)
+    Italy 1061(20.5) r 231(4.5)
+    South Africa (5) r 1199(13.7) s 227(4.4)
+    Belgium (Flemish) r 955(11.6) r 218(3.2)
+    United States 1088(9.2) r 216(4.1)
+    Northern Ireland r 962(10.2) s 215(6.5)
+    Chile r 1094(16.9) s 206(6.4)
+    Australia r 1014(8.4) r 202(3.5)
+    Singapore 986(0.0) 201(1.6)
+    Canada 951(4.1) r 196(3.2)
+    France r 858(8.2) r 193(3.9)
+    England 994(9.9) r 189(4.5)
+    Qatar r 1056(16.1) r 185(4.6)
+    Morocco r 1054(18.8) r 172(2.8)
+    Ireland 854(0.0) 165(2.4)
+    New Zealand 923(5.5) r 163(2.3)
+    United Arab Emirates r 1009(4.6) s 162(2.4)
+
+55 lignes parsees (dont benchmarking: 6)
+  sentinelle France: attendu 193, lu [193.0] -> OK
+  sentinelle Germany: attendu 147, lu [147.0] -> OK
+  sentinelle Poland: attendu 112, lu [112.0] -> OK
+  sentinelle Finland: attendu 115, lu [115.0] -> OK
+  sentinelle Japan: attendu 151, lu [151.0] -> OK
+  sentinelle Korea: attendu 100, lu [100.0] -> OK
+
+CSV ecrit: data/processed/timss2015_math_hours_g4.csv

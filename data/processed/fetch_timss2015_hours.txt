@@ -1,0 +1,3 @@
+https://: HTTPError: HTTP Error 406: Not Acceptable
+http://: HTTPError: HTTP Error 406: Not Acceptable
+echec de telechargement

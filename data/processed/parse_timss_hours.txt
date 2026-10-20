@@ -1,0 +1,41 @@
+64 pays; heures de maths/an: min 101, mediane 152, max 250
+drapeaux maths: {'': 39, 'r': 18, 's': 7}
+  [{'country_raw': 'France', 'flag_total': 'r', 'total_hours': 820.0, 'total_se': 7.4, 'flag_math': 'r', 'math_hours': 182.0, 'math_se': 2.5}]
+  [{'country_raw': 'Germany', 'flag_total': 'r', 'total_hours': 833.0, 'total_se': 10.1, 'flag_math': 'r', 'math_hours': 153.0, 'math_se': 2.2}]
+  [{'country_raw': 'Poland', 'flag_total': 'r', 'total_hours': 737.0, 'total_se': 10.1, 'flag_math': 'r', 'math_hours': 111.0, 'math_se': 1.4}]
+  [{'country_raw': 'Finland', 'flag_total': '', 'total_hours': 746.0, 'total_se': 9.9, 'flag_math': '', 'math_hours': 117.0, 'math_se': 2.0}]
+  []
+  [{'country_raw': 'Japan', 'flag_total': '', 'total_hours': 904.0, 'total_se': 4.9, 'flag_math': '', 'math_hours': 151.0, 'math_se': 1.0}]
+  [{'country_raw': 'Korea, Rep. of', 'flag_total': '', 'total_hours': 694.0, 'total_se': 8.7, 'flag_math': '', 'math_hours': 101.0, 'math_se': 1.9}]
+
+Lignes hors donnees (legende des drapeaux, notes) :
+  L62: England | s | 989 | 11.2 | y | - | -
+  L64: Benchmarking Participants
+  L73: ( ) Standard errors appear in parentheses. Because of rounding some results may appear inconsistent.
+A dash (-
+  L78: SOURCE:  IEA's Trends in International Mathematics and Science Study - TIMSS 2019
+  L79: Downloaded from http://timss2019.org/download
+
+== Rapport Eurydice 2024/25
+  14831323 octets; sha256 53115310731e7649; debut b'%PDF-'
+  154 pages extraites -> data/processed/eurydice_report_text.txt
+  pages contenant 'France' et 'Mathematics': [22, 27, 28, 30, 31, 43]
+  -- p.22:
+      instruction or language 1 (12). Figure 6 shows the proportions of total instruction time allocated to this subject
+      ranging from 18% to 38% depending on the country (13). In France, Slovakia and Türkiye, reading, writing and
+      the whole of primary education, ranging from 525 hours in Croatia to 1 656 hours in France. In half of the
+  -- p.27:
+      France: The instruction time for mathematics includes the teaching of ICT in grades 4 and 5 (ISCED 1).
+  -- p.28:
+      (grades 1–5), France (grades 1–3), Croatia (grades 1–4), Austria (grades 1–4), Slovakia (grades 1–2), Bosnia and Herzegovina
+      In seven education systems, natural sciences includes the teaching of technology: Ireland (grades 1–6), France (grades 1–5), Cyprus
+      In France (grades 1–3), it includes the teaching of ICT.
+      Liechtenstein) (see Figure 8).
+  -- p.30:
+      France: In grades 1–3, the instruction time for natural sciences includes that for social sciences and the teaching of ICT; in grades 1–5
+  -- p.31:
+      in France (grades 1–3), Slovakia (grades 1–2), Bosnia and Herzegovina (grades 1–4) and Montenegro (grades 1–3). In Luxembourg,
+      Figure 9).
+  -- p.43:
+      France
+      Mathematics: In grades 4-5, it includes ICT (notions of programming).

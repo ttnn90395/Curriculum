@@ -1,0 +1,123 @@
+
+== timss2019_instruction_time_m48.xlsx
+  259656 octets; application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; sha256 dc90f14774f665cc
+  feuilles: ['12.1 Scale Description', '12.2 G4 MAT', '12.3 G8 MAT']
+  --- feuille '12.1 Scale Description' ---
+   L01: 0=Exhibit 12.1: 
+   L02: 0=Students’ Resu
+   L04: 3=About the Scal
+   L12: 1=SOURCE:  IEA's
+   L13: 1=Downloaded fro
+  --- feuille '12.2 G4 MAT' ---
+   L01: 0=Exhibit 12.2: 
+   L02: 0=Students’ Resu
+   L04: 2=Country  4=Total Instruct  8=Hours per Year
+   L05: 2=Portugal  4=  5=887  6=14.8  8=  9=250  10=5.3
+   L06: 2=Italy  4=  5=1098  6=15  8=  9=230  10=5.3
+   L07: 2=South Africa (  4=r  5=1205  6=12.1  8=r  9=227  10=4.5
+   L08: 2=Singapore  4=  5=1009  6=0  8=  9=211  10=2.7
+   L09: 2=United States  4=  5=1106  6=8.4  8=  9=210  10=3.9
+   L10: 2=Belgium (Flemi  4=r  5=951  6=14.6  8=r  9=210  10=2.9
+   L11: 2=Chile  4=r  5=1186  6=22.3  8=r  9=204  10=6.9
+   L12: 2=Northern Irela  4=r  5=947  6=7.1  8=r  9=203  10=3.9
+   L13: 2=Canada  4=  5=951  6=3.9  8=r  9=198  10=2.7
+   L14: 2=Netherlands  4=s  5=1049  6=10.3  8=s  9=197  10=6.4
+   L15: 2=Australia  4=r  5=1015  6=11.8  8=r  9=190  10=5.2
+   L16: 2=France  4=r  5=820  6=7.4  8=r  9=182  10=2.5
+   L17: 2=Bahrain  4=  5=1012  6=8.2  8=  9=177  10=2.5
+   L18: 2=Philippines  4=  5=1225  6=12.6  8=  9=173  10=3.6
+   L19: 2=Qatar  4=  5=1011  6=11.8  8=  9=172  10=4.7
+   L20: 2=Cyprus  4=  5=849  6=10.6  8=r  9=171  10=3.1
+   L21: 2=Morocco  4=  5=1081  6=20.4  8=  9=171  10=3.9
+   L22: 2=United Arab Em  4=r  5=1034  6=3.9  8=s  9=169  10=1.7
+  --- feuille '12.3 G8 MAT' ---
+   L01: 0=Exhibit 12.3: 
+   L02: 0=Students’ Resu
+   L04: 2=Country  4=Total Instruct  8=Hours per Year
+   L05: 2=Chile  4=  5=1221  6=20.5  8=r  9=200  10=6.1
+   L06: 2=South Africa (  4=s  5=1212  6=13.5  8=s  9=182  10=2.7
+   L07: 2=Oman  4=r  5=1056  6=18.9  8=r  9=178  10=4.1
+   L08: 2=United Arab Em  4=r  5=1094  6=2.7  8=s  9=175  10=1.9
+   L09: 2=Lebanon  4=  5=960  6=7.3  8=  9=170  10=3.8
+   L10: 2=Bahrain  4=  5=1115  6=0.6  8=  9=159  10=1.6
+   L11: 2=Israel  4=  5=1118  6=13.6  8=r  9=158  10=3.2
+   L12: 2=Chinese Taipei  4=  5=1137  6=12.3  8=  9=157  10=1.7
+   L13: 2=United States  4=  5=1148  6=9.9  8=r  9=154  10=3.3
+   L14: 2=Qatar  4=  5=1090  6=9.9  8=r  9=154  10=5.8
+   L15: 2=Morocco  4=r  5=1341  6=30.8  8=r  9=152  10=3.4
+   L16: 2=Turkey  4=  5=1009  6=27.5  8=  9=150  10=6.4
+   L17: 2=Italy  4=  5=1065  6=11.2  8=  9=145  10=2.8
+   L18: 2=Hong Kong SAR  4=  5=999  6=12.6  8=  9=143  10=4.7
+   L19: 2=Russian Federa  4=  5=868  6=13.3  8=  9=142  10=3.6
+   L20: 2=Australia  4=  5=1013  6=6.8  8=r  9=141  10=2.4
+   L21: 2=Jordan  4=  5=1020  6=13  8=  9=140  10=3.6
+   L22: 2=Kuwait  4=r  5=982  6=21.2  8=r  9=139  10=4.1
+
+== timss2019_instruction_time_m48.pdf
+  235526 octets; application/pdf; sha256 c276d8654f84bb1c
+
+== eurydice_instruction_time_2025_manual.pdf
+  602525 octets; application/pdf; sha256 d799cef42b102ab5
+
+== eurydice_instruction_time_2025_questionnaire.xlsx
+  249216 octets; application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; sha256 bd7bbac48f429327
+  feuilles: ['CHANGES', 'Intended instruction time', 'Organisation of the School day', 'Country-specific notes', 'Standard intended time', 'Control']
+  --- feuille 'CHANGES' ---
+   L01: 0=Changes  2=Change in data
+   L02: 1=COUNTRY:  2=Please select 
+   L05: 0=The aim of thi
+   L06: 0=from the last 
+   L08: 0=This informati
+   L10: 0=The questionna
+   L12: 0=1)  1=Changes in the
+   L14: 0=2)  1=Changes in the
+   L18: 0=1. Changes in 
+   L20: 9=Have there bee
+   L21: 9=leading to a s
+   L22: 2=e.g.: Newly en
+  --- feuille 'Intended instruction time' ---
+   L02: 0=Intended Instr  26=Eurydice-OECD 
+   L04: 0=General inform
+   L05: 1=Country:  10=Please select 
+   L06: 1=Reference year  10=2024/25  12=Total years of
+   L07: 1=Number of year  25=YEAR  26=Hours (60min)
+   L08: 1=Number of year  14=0  25=WEEK  26=Periods
+   L09: 1=Number of year
+   L10: 1=Theoretical ag
+   L11: 1=Information gi
+   L12: 1=Pathway / Trac
+   L13: 1=Information gi
+   L14: 1=Vertical flexi
+   L15: 0=Distribution o
+   L17: 1=Grade  2=ISCED level  3=Number of inst  4=Number of inst  5=Length of a pe  7=Reading, writi  8=Mathematics  9=Natural scienc  10=Social science  11=Language 2 (*)  12=Language 3 (*)  13=Language 4 (*)  14=Language 5 (*)  15=Phy
+   L18: 2=1  3=2  4=3  5=4  7=5  8=6  9=7  10=8  11=9  12=10  13=11  14=12  15=13  16=14  17=15  18=16  19=17  20=18  21=19  22=20  23=21  24=22  25=23  26=24
+   L19: 0=A1  1=1
+   L20: 0=A2  1=2
+   L21: 0=A3  1=3
+   L22: 0=A4  1=4
+  --- feuille 'Organisation of the School day' ---
+   L01: 1=Eurydice-OECD 
+   L03: 1=Organisation o
+   L04: 2=Country:  3=Please select 
+   L05: 2=Reference year  3=2024/25
+   L07: 1=How the standa
+   L11: 1=How many lesso
+   L14: 1=How the breaks
+   L18: 1=Can schools of
+   L22: 1=Can schools of
+  --- feuille 'Country-specific notes' ---
+   L01: 1=Eurydice-OECD 
+   L03: 1=Country-specif
+   L04: 2=Country:  3=Please select 
+   L05: 2=Reference year  3=2024/25
+   L06: 1=Country-specif
+   L12: 1=Country-specif
+   L13: 1=Please fill on
+   L14: 1=1) Notes about
+   L16: 1=2a) Number of 
+   L18: 1=2b) Notes abou
+   L20: 1=3) Notes on th
+   L21: 1=a) Notes on me
+
+== Eurydice: resolution du DOI du rapport (10.2797/1556974)
+  ECHEC: HTTPError: HTTP Error 403: Forbidden

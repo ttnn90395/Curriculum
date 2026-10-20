@@ -1,0 +1,33 @@
+31 notions, 53 aretes; tau fonde sur difficulte pour 16; imputees: 15
+poids TIMSS: somme 95.0; notions a poids nul: ['n01', 'n09', 'n10', 'n11', 'n12', 'n13', 'n14', 'n15', 'n16', 'n17', 'n18', 'n19', 'n20']
+
+== Optimum par scenario (fraction du temps total; tau = SCENARIO) ==
+tau_famille poids  fraction_temps  n_notions  valeur  temps_utilise
+        exp egaux            0.25          9     9.0          0.243
+        exp egaux            0.50         17    17.0          0.499
+        exp egaux            0.75         25    25.0          0.729
+        exp timss            0.25          9    52.5          0.248
+        exp timss            0.50         16    82.5          0.474
+        exp timss            0.75         19    95.0          0.634
+        lin egaux            0.25          8     8.0          0.227
+        lin egaux            0.50         16    16.0          0.480
+        lin egaux            0.75         24    24.0          0.734
+        lin timss            0.25          8    47.5          0.237
+        lin timss            0.50         16    82.5          0.500
+        lin timss            0.75         19    95.0          0.618
+       rang egaux            0.25         10    10.0          0.224
+       rang egaux            0.50         18    18.0          0.495
+       rang egaux            0.75         26    26.0          0.746
+       rang timss            0.25         10    57.5          0.247
+       rang timss            0.50         16    85.0          0.499
+       rang timss            0.75         19    95.0          0.613
+
+== Noyau robuste (present dans TOUS les scenarios) et union, par fraction de temps ==
+f=0.25: noyau 7 ['d01', 'm01', 'n01', 'n02', 'n03', 'n04', 'n22']
+        union 11; instables ['d02', 'g01', 'm02', 'n23']
+f=0.50: noyau 9 ['d01', 'g01', 'm01', 'm02', 'n01', 'n02', 'n04', 'n05', 'n23']
+        union 27; instables ['d02', 'g02', 'g03', 'm03', 'n03', 'n06', 'n07', 'n08', 'n09', 'n10', 'n13', 'n14', 'n15', 'n16', 'n17', 'n20', 'n21', 'n22']
+f=0.75: noyau 13 ['d01', 'g01', 'm01', 'm02', 'n01', 'n02', 'n03', 'n04', 'n05', 'n06', 'n07', 'n22', 'n23']
+        union 31; instables ['d02', 'g02', 'g03', 'm03', 'n08', 'n09', 'n10', 'n11', 'n12', 'n13', 'n14', 'n15', 'n16', 'n17', 'n18', 'n19', 'n20', 'n21']
+
+Statut: exploratoire; tau non estime (scenarios). Ecritures: data/processed/optimum_scenarios.csv

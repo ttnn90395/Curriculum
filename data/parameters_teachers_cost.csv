@@ -11,10 +11,19 @@ ETP_enseignants_public_2nd_degre,378570,ETP,2024,DEPP RERS 2025 tableau 9.01 p.3
 eleves_par_enseignant_public_1er,18.4,ratio,2024,DEPP RERS 2025 fiche 9.01,verifie
 eleves_par_enseignant_public_2nd,12.8,ratio,2024,DEPP RERS 2025 fiche 9.01,verifie
 eleves_par_classe_elementaire,21.3,eleves,2024,Senat rapport 139 2025-2026 tome III annexe 13 d'apres DEPP,verifie sur le rapport
-eleves_par_classe_college_hors_SEGPA,23.6,eleves,2024 (annee non explicite),idem,verifie; annee a confirmer
-eleves_par_classe_lycee_GT,23.9,eleves,2024 (annee non explicite),idem,verifie; annee a confirmer
-titre2_hors_CAS_mission_ES,59.23,Md EUR,2026 PLF,Senat rapport 139 tome III annexe 13,verifie sur le rapport (PLF, pas LFI)
-salaire_net_mensuel_moyen_enseignant,3090,EUR net/mois,2024,DEPP evolution du salaire des enseignants 2023-2024,verifie; net, tous degres confondus, pas un cout employeur
-cout_complet_ETP,,EUR/an,,,NON TROUVE: ratio brut/net, cotisations employeur, CAS Pensions a obtenir sur document primaire
-nb_classes_par_niveau,,classes,,,NON TROUVE: effectifs par niveau a obtenir (DEPP RERS chap. 2)
-heures_maths_par_niveau_college,,h/semaine,,,NON VERIFIE: grille horaire officielle du college a lire sur texte
+eleves_par_classe_college_hors_SEGPA,23.6,eleves,2024 (annee non explicite),idem,verifie; annee a confirmer (RERS donne 24.7)
+eleves_par_classe_lycee_GT,23.9,eleves,2024 (annee non explicite),idem,verifie; annee a confirmer (RERS donne 30.4)
+titre2_hors_CAS_mission_ES,59.23,Md EUR,2026 PLF,Senat NP PLF 2026 p.40,verifie sur le document (PLF, pas LFI)
+cas_pensions_contribution_ministere,25.16,Md EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
+credits_paiement_mission_hors_CAS,64485,M EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
+part_P140_P141_dans_mission,75.7,pourcent,2026 PLF,Senat NP PLF 2026 p.5,A RECONCILIER avec 70.41 du fichier budget_enseignement_scolaire_plf2026.csv (denominateur different ?)
+plafond_emplois_enseignants_LFI2025,839679,ETPT,2025,Senat NP PLF 2026 p.32,verifie sur le document
+ETP_non_enseignants,292698,ETP,2024,Senat rapport 139 tome III annexe 13 d'apres DEPP,verifie sur le rapport
+salaire_net_mensuel_moyen_enseignant,3090,EUR net/mois,2024,DEPP evolution du salaire des enseignants 2023-2024,verifie; net tous degres; pas un cout employeur
+classes_college_public_hors_segpa,101763,classes,2024,DEPP RERS 2025 fiches 2.05 t3-4,lu par extraction; a recouper sur le tableau
+classes_lycee_GT_public,41206,classes,2024,DEPP RERS 2025 fiches 2.05 t3-4,lu par extraction; a recouper sur le tableau
+heures_maths_6e,4.5,h/semaine eleve,2017,education.gouv.fr horaires par cycle au college (arretes 19/05/2015 et 16/06/2017),verifie (horaire eleve)
+heures_maths_5e_4e_3e,3.5,h/semaine eleve,2017,idem,verifie (horaire eleve)
+cout_ETP_derive_hors_CAS,52307,EUR/an,derive,(59.23e9)/(839679+292698),DERIVE non primaire: melange plafond 2025, ETP 2024, inclut AED/AESH; borne basse (non enseignants moins payes => cout enseignant probablement superieur)
+cout_ETP_derive_avec_CAS,74525,EUR/an,derive,(59.23e9+25.16e9)/(839679+292698),DERIVE non primaire: meme reserve; CAS Pensions inclus
+cout_complet_ETP_primaire,,EUR/an,,,NON TROUVE sur document primaire (annexe personnels du PLF ou Cour des comptes a lire)

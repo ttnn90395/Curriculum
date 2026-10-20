@@ -118,3 +118,15 @@ le module A ne s'y applique qu'au sous-graphe couvert, ou avec une autre source 
 - Drapeaux TIMSS (r, s) : conserves en analyse principale ; sensibilite sans les pays marques 's' ; legende lue sur le fichier avant usage.
 - Ponderation : non ponderee en principal ; sensibilite ponderee par 1 / ES^2.
 - Recoupement de lecture deja observe : France 182 h/an (ES 2.5, TIMSS 2019) contre 180 h officielles (5 h x 36 semaines).
+
+## 3quinquies. Revision de D2 (amendement du 2026-10-20, cause : disponibilite des donnees, pas des resultats ; AVANT toute regression)
+- Constat : les heures de maths TIMSS en 4e annee sont disponibles pour 2015 (exhibit 9.1) et 2019 (exhibit 12.2). Aucun exhibit
+  equivalent n'a ete trouve pour 2023. D2 tel qu'ecrit en 3bis (ajuster 2015 + 2019, predire 2023) n'est pas executable.
+- D2' (remplace D2 tant que 2023 est indisponible) : ajuster sur 2015 seule, predire 2019, UNE seule fois (sens temporel avant),
+  pour les pays ayant heures et couverture en 2019 ; erreur absolue moyenne comparee a celle de la prediction par la moyenne
+  des heures 2015. Si des heures 2023 deviennent disponibles, D2 d'origine est execute EN PLUS, sans remplacer D2'.
+- Information deja vue avant cette revision : valeurs descriptives des heures 2015 et 2019 pour France, Allemagne, Pologne,
+  Finlande, Japon, Coree (stables d'un cycle a l'autre, ex. France 193 h puis 182 h). Aucun resultat de regression.
+- D1 inchange : sur 2019 (V_T), 54 pays communs heures et couverture ; Norvege, Afrique du Sud et Turquie (note 5, 5e annee),
+  l'Angleterre (heures absentes) et les participants benchmarking sont exclus ; la moyenne internationale n'est pas un pays.
+- Regle d'usage de tau_n : D1 ET D2' doivent passer (identique a 3bis avec D2 remplace par D2').

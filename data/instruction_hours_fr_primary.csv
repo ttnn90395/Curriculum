@@ -1,0 +1,14 @@
+cycle,grades,subject,weekly_hours,annual_hours_derived,source,note
+2,CP-CE1-CE2,francais,10,360,eduscol.education.gouv.fr/5229/l-ecole-elementaire (arrete du 9 novembre 2015),
+2,CP-CE1-CE2,mathematiques,5,180,idem,
+2,CP-CE1-CE2,langues_vivantes,1.5,54,idem,
+2,CP-CE1-CE2,eps,3,108,idem,
+2,CP-CE1-CE2,enseignements_artistiques,2,72,idem,
+2,CP-CE1-CE2,questionner_le_monde,2.5,90,idem,"sciences et histoire-geographie non separees; EMC 1h/semaine incluse dans le total"
+3,CM1-CM2,francais,8,288,idem,
+3,CM1-CM2,mathematiques,5,180,idem,
+3,CM1-CM2,langues_vivantes,1.5,54,idem,
+3,CM1-CM2,eps,3,108,idem,
+3,CM1-CM2,sciences_technologie,2,72,idem,
+3,CM1-CM2,enseignements_artistiques,2,72,idem,
+3,CM1-CM2,histoire_geographie_emc,2.5,90,idem,"EMC 36h/an incluses"

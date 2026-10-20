@@ -1,0 +1,56 @@
+country_raw,total_hours,total_se,math_hours,math_se,benchmarking
+Portugal,864.0,8.5,275.0,4.0,False
+Italy,1061.0,20.5,231.0,4.5,False
+South Africa (5),1199.0,13.7,227.0,4.4,False
+Belgium (Flemish),955.0,11.6,218.0,3.2,False
+United States,1088.0,9.2,216.0,4.1,False
+Northern Ireland,962.0,10.2,215.0,6.5,False
+Chile,1094.0,16.9,206.0,6.4,False
+Australia,1014.0,8.4,202.0,3.5,False
+Singapore,986.0,0.0,201.0,1.6,False
+Canada,951.0,4.1,196.0,3.2,False
+France,858.0,8.2,193.0,3.9,False
+England,994.0,9.9,189.0,4.5,False
+Qatar,1056.0,16.1,185.0,4.6,False
+Morocco,1054.0,18.8,172.0,2.8,False
+Ireland,854.0,0.0,165.0,2.4,False
+New Zealand,923.0,5.5,163.0,2.3,False
+United Arab Emirates,1009.0,4.6,162.0,2.4,False
+Cyprus,827.0,12.4,161.0,5.5,False
+Spain,864.0,10.2,161.0,2.3,False
+Bahrain,976.0,0.6,159.0,2.9,False
+Hong Kong SAR,999.0,13.1,159.0,4.7,False
+Serbia,737.0,16.2,154.0,1.6,False
+Japan,903.0,3.7,151.0,1.1,False
+Denmark,1051.0,11.2,150.0,3.1,False
+Indonesia,1095.0,20.9,149.0,5.0,False
+Oman,962.0,11.7,148.0,4.5,False
+Saudi Arabia,1080.0,19.6,148.0,4.5,False
+Germany,820.0,9.1,147.0,2.0,False
+Slovenia,716.0,7.2,144.0,1.2,False
+Georgia,743.0,19.5,138.0,2.1,False
+Jordan,931.0,14.2,133.0,3.3,False
+Kazakhstan,813.0,16.2,132.0,3.8,False
+Slovak Republic,759.0,8.1,129.0,2.1,False
+Hungary,784.0,11.8,129.0,2.5,False
+Kuwait,912.0,27.9,128.0,4.4,False
+Chinese Taipei,969.0,14.4,128.0,4.3,False
+Czech Republic,771.0,10.4,125.0,4.1,False
+Croatia,778.0,21.6,124.0,1.8,False
+Turkey,847.0,18.0,120.0,3.3,False
+Norway (5),817.0,8.7,117.0,2.4,False
+Finland,737.0,8.9,115.0,2.2,False
+Poland,752.0,6.9,112.0,1.1,False
+"Iran, Islamic Rep. of",645.0,6.4,112.0,2.3,False
+Lithuania,629.0,5.5,111.0,1.6,False
+Sweden,839.0,10.6,110.0,2.3,False
+Russian Federation,661.0,6.9,106.0,1.4,False
+Bulgaria,707.0,27.3,105.0,2.9,False
+"Korea, Rep. of",712.0,8.9,100.0,1.4,False
+International Avg.,894.0,1.9,157.0,0.5,False
+"Quebec, Canada",910.0,8.0,221.0,8.9,True
+"Florida, US",1075.0,21.6,212.0,11.1,True
+"Ontario, Canada",953.0,6.2,195.0,3.2,True
+"Abu Dhabi, UAE",1025.0,11.1,163.0,4.5,True
+"Dubai, UAE",996.0,0.4,160.0,1.4,True
+Norway (4),818.0,9.9,140.0,4.3,True

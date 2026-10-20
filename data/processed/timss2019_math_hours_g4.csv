@@ -1,0 +1,65 @@
+country_raw,flag_total,total_hours,total_se,flag_math,math_hours,math_se
+Portugal,,887.0,14.8,,250.0,5.3
+Italy,,1098.0,15.0,,230.0,5.3
+South Africa (5),r,1205.0,12.1,r,227.0,4.5
+Singapore,,1009.0,0.0,,211.0,2.7
+United States,,1106.0,8.4,,210.0,3.9
+Belgium (Flemish),r,951.0,14.6,r,210.0,2.9
+Chile,r,1186.0,22.3,r,204.0,6.9
+Northern Ireland,r,947.0,7.1,r,203.0,3.9
+Canada,,951.0,3.9,r,198.0,2.7
+Netherlands,s,1049.0,10.3,s,197.0,6.4
+Australia,r,1015.0,11.8,r,190.0,5.2
+France,r,820.0,7.4,r,182.0,2.5
+Bahrain,,1012.0,8.2,,177.0,2.5
+Philippines,,1225.0,12.6,,173.0,3.6
+Qatar,,1011.0,11.8,,172.0,4.7
+Cyprus,,849.0,10.6,r,171.0,3.1
+Morocco,,1081.0,20.4,,171.0,3.9
+United Arab Emirates,r,1034.0,3.9,s,169.0,1.7
+Malta,,930.0,1.4,,166.0,0.4
+Ireland,,925.0,5.0,,165.0,2.6
+New Zealand,,917.0,5.7,,160.0,2.7
+Oman,r,1016.0,13.9,r,158.0,3.1
+Pakistan,,1218.0,22.3,r,157.0,11.2
+Spain,,869.0,7.1,,156.0,2.5
+Denmark,r,1043.0,10.4,s,155.0,2.7
+Germany,r,833.0,10.1,r,153.0,2.2
+Hong Kong SAR,r,1022.0,14.3,r,152.0,3.3
+Japan,,904.0,4.9,,151.0,1.0
+Kosovo,,777.0,32.0,r,150.0,4.4
+Czech Republic,,763.0,8.9,,149.0,1.5
+Serbia,,794.0,19.2,,148.0,2.5
+Chinese Taipei,,953.0,8.9,,147.0,8.5
+Turkey (5),,1001.0,24.2,,140.0,5.1
+Hungary,,842.0,13.8,,140.0,2.8
+Sweden,r,854.0,10.7,r,137.0,2.7
+Saudi Arabia,,1056.0,18.0,r,136.0,4.7
+Kuwait,r,899.0,24.3,s,136.0,4.3
+Kazakhstan,,732.0,14.0,,134.0,4.6
+North Macedonia,,818.0,22.0,,131.0,2.7
+Georgia,,750.0,18.7,,131.0,2.6
+Austria,,759.0,3.1,,130.0,1.0
+Slovak Republic,,784.0,9.9,,127.0,2.0
+Norway (5),r,868.0,14.4,s,127.0,4.1
+Armenia,,752.0,6.4,,126.0,0.7
+Lithuania,,725.0,10.0,,125.0,2.1
+Azerbaijan,,731.0,19.4,,124.0,1.9
+Bosnia and Herzegovina,,851.0,35.9,,122.0,2.4
+Croatia,,859.0,26.2,,121.0,3.0
+Finland,,746.0,9.9,,117.0,2.0
+Montenegro,,653.0,1.6,,117.0,1.2
+Latvia,,689.0,8.9,,117.0,1.7
+Albania,,729.0,10.3,,113.0,1.4
+Poland,r,737.0,10.1,r,111.0,1.4
+"Iran, Islamic Rep. of",,627.0,6.0,,109.0,1.6
+Russian Federation,,663.0,6.8,,102.0,1.6
+Bulgaria,,700.0,14.9,,102.0,1.3
+"Korea, Rep. of",,694.0,8.7,,101.0,1.9
+International Average,,895.0,1.9,,154.0,0.5
+"Ontario, Canada",,954.0,7.5,r,208.0,3.9
+"Quebec, Canada",,922.0,8.2,r,202.0,6.2
+"Madrid, Spain",,909.0,12.5,,179.0,2.6
+"Abu Dhabi, UAE",r,1075.0,3.2,s,178.0,2.3
+"Dubai, UAE",r,1038.0,0.6,s,157.0,2.2
+"Moscow City, Russian Fed.",,645.0,9.6,,108.0,2.1

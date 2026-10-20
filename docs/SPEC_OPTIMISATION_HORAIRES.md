@@ -130,3 +130,12 @@ le module A ne s'y applique qu'au sous-graphe couvert, ou avec une autre source 
 - D1 inchange : sur 2019 (V_T), 54 pays communs heures et couverture ; Norvege, Afrique du Sud et Turquie (note 5, 5e annee),
   l'Angleterre (heures absentes) et les participants benchmarking sont exclus ; la moyenne internationale n'est pas un pays.
 - Regle d'usage de tau_n : D1 ET D2' doivent passer (identique a 3bis avec D2 remplace par D2').
+
+## 3sexies. Ensemble de sujets de la regression d'identification (amendement du 2026-10-20, avant tout resultat reel)
+Constat (liste des sujets des fichiers crosswalk, aucune sortie de modele) : le fichier primaire ne contient que les 7 sujets
+a confiance elevee (N1, N2, N4, N7, G2, G3, G6) ; le domaine Donnees y est vide. G2 n'a pas de donnees en 2015.
+Decision : la specification utilise crosswalk_topic_values_robustesse.csv (confiance elevee + moyenne ; G1 'low' exclu par le gel),
+privee de G2 faute de 2015, soit 13 sujets : Nombre N1-N7 (7), Mesure et geometrie G3-G6 (4), Donnees D1-D2 (2).
+Raison : disponibilite des donnees et domaine Donnees non vide, pas un resultat. H_prop : sujets a difficulte fiable parmi ces 13.
+Sensibilite S4 : 6 sujets a confiance elevee communs aux trois cycles (N1, N2, N4, N7, G3, G6), 2 domaines (Nombre ; Mesure et geometrie).
+D3 et la regle D1 + D2' inchangees. Une conclusion negative sur S4 seule ne tranche pas (puissance plus faible, 6 sujets).

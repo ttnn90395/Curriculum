@@ -104,3 +104,17 @@ H_prop est retenue seulement si P1 et P2 passent ; sinon, scenarios (section 3).
 Limite de couverture declaree : seulement les sujets a difficulte fiable (>= 5 items par objectif, seuil post hoc deja declare),
 soit environ 16 notions sur 31. n06/n07 (fractions, 1 item) et les notions sans item TIMSS (n01, n09 a n20) sont hors H_prop :
 le module A ne s'y applique qu'au sous-graphe couvert, ou avec une autre source de tau.
+
+## 3quater. Mesures de H disponibles et pre-requis (amendement du 2026-10-20, apres inspection des fichiers d'heures, AVANT toute regression)
+- TIMSS 2019, exhibit 12.2 : heures de maths enseignees PAR AN en 4e annee (implemente ; directeurs et enseignants).
+  Pas de cumul des annees 1 a 4. Variante V_T : H_c = heures annuelles de 4e annee, sans multiplication par 4 (evite une hypothese).
+  Couverture x_{c,n} pour V_T : questionnaire curriculum 2019, G4. Le codage 2019 n'est valide en G4 que pour le code 1
+  (tous ou presque) : x = 1 si code 1, sinon 0 ; sensibilite avec 0.5 pour le code 2.
+- Eurydice 2024/25 : heures RECOMMANDEES par annee et par matiere (38 systemes). Variante V_E : H_c = cumul des annees 1 a 4
+  si les tableaux donnent l'annee par annee ; sinon V_E est abandonnee (pas de conversion depuis des tranches). Couverture : cycle 2023.
+- V_T (implemente) et V_E (prevu) ne sont jamais melangees ni mises en commun.
+- Pre-requis de puissance : la regression n'est executee que si au moins 25 pays ont a la fois heures et couverture ; sinon,
+  rapport descriptif seulement.
+- Drapeaux TIMSS (r, s) : conserves en analyse principale ; sensibilite sans les pays marques 's' ; legende lue sur le fichier avant usage.
+- Ponderation : non ponderee en principal ; sensibilite ponderee par 1 / ES^2.
+- Recoupement de lecture deja observe : France 182 h/an (ES 2.5, TIMSS 2019) contre 180 h officielles (5 h x 36 semaines).

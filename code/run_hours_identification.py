@@ -2,7 +2,7 @@
 """run_hours_identification.py -- applique docs/SPEC_OPTIMISATION_HORAIRES.md (3bis, 3ter, 3quater, 3quinquies). EXPLORATOIRE.
 
 Modele: H_c = alpha + sum_k tau_k x_{c,k} + eps, alpha >= 0, tau >= 0 (moindres carres non negatifs).
-Specification primaire: 3 domaines (Nombre N1-N7, Mesure et geometrie G1-G6, Donnees D1-D2), x_dom = somme des x_topic.
+Specification primaire: 3 domaines (Nombre N1-N7, Mesure et geometrie G3-G6, Donnees D1-D2), x_dom = somme des x_topic.
 H_prop (3ter): H_c = alpha + kappa * sum_t g(b_t) x_{c,t}, 3 familles g (exp, lin, rang), topics a difficulte fiable seulement.
 Mesure H: V_T = heures de maths enseignees par an en 4e annee (TIMSS). V_E (Eurydice) abandonnee.
 Regles fixees avant donnees:
@@ -10,6 +10,8 @@ Regles fixees avant donnees:
   D2' : ajuster sur 2015, predire 2019, UNE fois; erreur absolue moyenne < celle de la moyenne des heures 2015.
   P3  : rejet si kappa estime = 0 (borne).
   tau n'est utilisable dans le module A que si D1 ET D2' passent.
+Amendement 3sexies: fichier crosswalk robustesse (high+medium), G1 (low) exclu, G2 exclu (absent en 2015), soit 13 sujets;
+  domaines Nombre 7, MesureGeo 4 (G3-G6), Donnees 2; sensibilite S4 = 6 sujets a confiance elevee (2 domaines).
 Choix d'implementation NON precises dans l'amendement (signales): x_2015 = (valeur == 1) comme x_2019 (meme regle);
   appariement des pays par noms normalises + table d'alias explicite (aucun appariement flou); topics incomplets ecartes.
 Exclusions: participants benchmarking, moyenne internationale, entites de 5e annee (note (5)), pays sans heures de maths."""
@@ -21,7 +23,8 @@ from scipy.optimize import nnls
 
 P = Path("data/processed")
 SEED, NPERM, NBOOT = 20261020, 1000, 2000
-TOPICS = [f"N{i}" for i in range(1, 8)] + [f"G{i}" for i in range(1, 7)] + ["D1", "D2"]
+TOPICS = [f"N{i}" for i in range(1, 8)] + ["G3", "G4", "G5", "G6", "D1", "D2"]   # 13 sujets (amendement 3sexies)
+HI = ["N1", "N2", "N4", "N7", "G3", "G6"]   # sujets a confiance elevee communs aux 3 cycles (sensibilite S4)
 DOM = {"Nombre": [t for t in TOPICS if t[0] == "N"], "MesureGeo": [t for t in TOPICS if t[0] == "G"],
        "Donnees": [t for t in TOPICS if t[0] == "D"]}
 BENCH = {"International Average", "Ontario, Canada", "Quebec, Canada", "Madrid, Spain", "Abu Dhabi, UAE",
@@ -55,8 +58,9 @@ def load_hours(cycle):
     return h.dropna(subset=["math_hours"]).drop_duplicates("key")
 
 
-cv = pd.read_csv(P / "crosswalk_topic_values_primaire.csv")
-assert set(cv.topic_id) == set(TOPICS), f"topics inattendus: {sorted(set(cv.topic_id) ^ set(TOPICS))}"
+cv = pd.read_csv(P / "crosswalk_topic_values_robustesse.csv")   # high + medium; low (G1) exclu par le gel du crosswalk
+assert set(TOPICS) <= set(cv.topic_id), f"sujets manquants: {sorted(set(TOPICS) - set(cv.topic_id))}"
+cv = cv[cv.topic_id.isin(TOPICS)]
 cv["key"] = cv.country.map(norm)
 
 
@@ -176,7 +180,7 @@ if len(k):
 # ---------- D3 + specification topics (exploratoire) ----------
 A1 = np.column_stack([np.ones(len(X19)), X19])
 cond = np.linalg.cond(A1 / np.maximum(np.linalg.norm(A1, axis=0), 1e-12))
-print(f"\nD3: conditionnement de la matrice (15 topics) = {cond:.1f} ({'> 30: specification a 15 topics NON retenue' if cond > 30 else '<= 30: exploratoire'})")
+print(f"\nD3: conditionnement de la matrice (13 sujets) = {cond:.1f} ({'> 30: specification a 13 sujets NON retenue' if cond > 30 else '<= 30: exploratoire'})")
 if cond <= 30:
     r2t = loco_r2(X19, y19)
     nt = perm_null(X19, y19, None, rng)
@@ -195,6 +199,13 @@ for nm, A, y, w in sens:
     r2 = loco_r2(A, y, w)
     nul = perm_null(A, y, w, rng)
     print(f"  {nm}: n={len(y)}, R2_loco {r2:.3f}, nul p95 {np.percentile(nul, 95):.3f}, p {(1 + (nul >= r2).sum()) / (NPERM + 1):.4f}")
+
+# S4: sujets a confiance elevee seulement (N1,N2,N4,N7 | G3,G6), 2 domaines
+Xb = (d19[HI].to_numpy(float) == 1.0).astype(float)
+A4 = np.column_stack([Xb[:, [0, 1, 2, 3]].sum(1), Xb[:, [4, 5]].sum(1)])
+r4 = loco_r2(A4, y19)
+n4 = perm_null(A4, y19, None, rng)
+print(f"  S4 sujets a confiance elevee (6 sujets, 2 domaines): n={len(y19)}, R2_loco {r4:.3f}, nul p95 {np.percentile(n4, 95):.3f}, p {(1 + (n4 >= r4).sum()) / (NPERM + 1):.4f}")
 
 ok = res[res.tau_utilisable]
 print("\nVERDICT (regle 3bis/3quinquies): " + (f"tau utilisable pour {list(ok.modele)}" if len(ok)

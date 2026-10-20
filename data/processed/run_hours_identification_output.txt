@@ -1,0 +1,34 @@
+cycle 2019: heures 54, couverture 63 (1 incomplets), apparies 53
+   heures sans couverture: ['armenia']
+   couverture sans heures: ['abu dhabi uae', 'dubai uae', 'england', 'moscow city russian fed', 'norway', 'ontario canada', 'quebec canada', 'south africa', 'turkiye']
+cycle 2015: heures 47, couverture 56 (2 incomplets), apparies 44
+   heures sans couverture: ['international avg', 'jordan', 'saudi arabia']
+   couverture sans heures: ['argentina buenos aires', 'armenia', 'canada ontario', 'canada quebec', 'netherlands', 'norway', 'south africa', 'united arab emirates abu dhabi', 'united arab emirates dubai', 'united states florida']
+
+topics a difficulte fiable pour H_prop: 12 ['N1', 'N2', 'N3', 'N5', 'N6', 'N7', 'G3', 'G4', 'G5', 'G6', 'D1', 'D2']; exclus: ['N4']
+
+== D1 (2019, n=53), D2' (2015 -> 2019), P3 ==
+     modele  r2_loco  nul_p95  p_perm    D1  mae_2015_vers_2019  mae_moyenne_2015  D2p  P3_ok  tau_utilisable
+domaines(3)   -0.010    0.037  0.3177 False                27.6              28.1 True   True           False
+ H_prop_exp   -0.015    0.019  0.6474 False                27.7              28.1 True   True           False
+ H_prop_lin   -0.016    0.026  0.6444 False                27.6              28.1 True   True           False
+H_prop_rang   -0.012    0.013  0.5924 False                27.6              28.1 True   True           False
+
+== tau par domaine (heures de maths/an par sujet couvert), 2019, IC95% bootstrap sur pays ==
+  alpha       122.91  [ 68.25, 152.25]
+  Nombre        5.48  [  0.00,  13.52]
+  MesureGeo     0.00  [  0.00,   6.36]
+  Donnees       0.00  [  0.00,   9.43]
+
+D4 (France hors ajustement): prevu 113 h, observe 182 h
+
+D3: conditionnement de la matrice (13 sujets) = 50.0 (> 30: specification a 13 sujets NON retenue)
+
+== Sensibilites (modele a 3 domaines, 2019) ==
+  S1 sans pays marques 's': n=49, R2_loco -0.002, nul p95 0.035, p 0.2298
+  S2 pondere 1/ES^2: n=53, R2_loco -0.169, nul p95 -0.051, p 0.7682
+  S3 code 2 = 0.5: n=53, R2_loco -0.001, nul p95 0.024, p 0.2008
+  S4 sujets a confiance elevee (6 sujets, 2 domaines): n=53, R2_loco -0.049, nul p95 0.024, p 0.8601
+
+VERDICT (regle 3bis/3quinquies): tau NON utilisable (D1 et D2' non satisfaits simultanement) -> retour aux scenarios
+Statut: exploratoire. Ecritures: data/processed/hours_identification_results.csv

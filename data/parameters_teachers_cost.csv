@@ -54,9 +54,15 @@ cout_moyen_charge_HCAS_ens2d_sortie_PLF2025,61360,EUR/an,2025 PLF,PAP P141 PLF 2
 cout_moyen_charge_HCAS_encadrement_PLF2025,76297,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
 cout_moyen_charge_HCAS_ens1d_dans_P141_PLF2025,46139,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document; categorie residuelle du P141 (pas les professeurs des ecoles du P140)
 ratio_avecCAS_sur_horsCAS_P141,1.5001,ratio,2026 PLF,cp_P141_avec_CAS/cp_P141_hors_CAS,derive; suppose que le CAS pese comme en moyenne sur P141
-cout_ens2d_hors_CAS,51293,EUR/an,2025 PLF,cout_moyen_charge_HCAS_ens2d_global_PLF2025,PRINCIPAL: source primaire par categorie d'emplois; annee 2025 (revalorisations 2026 non incluses)
-cout_ens2d_avec_CAS,76942,EUR/an,derive,cout_ens2d_hors_CAS x ratio_avecCAS_sur_horsCAS_P141,DERIVE: le taux CAS n'est pas lu sur document
+cout_ens2d_hors_CAS,52248,EUR/an,2025 execute,cout_moyen_charge_HCAS_ens2d_global_RAP2025,PRINCIPAL: cout constate 2025 (RAP 2025 p.53 et p.107); remplace la prevision PLF 2025 (51293)
+cout_ens2d_avec_CAS,78375,EUR/an,derive,cout_ens2d_hors_CAS x ratio_avecCAS_sur_horsCAS_P141,DERIVE: le taux CAS n'est pas lu sur document
 cout_moyen_charge_HCAS_ens1d_global_PLF2025,46139,EUR/an,2025 PLF,PAP PLF 2025 mission Enseignement scolaire (AN Annexes PLF 2025) p.52 et p.109; et PAP P141 p.38; categorie Enseignants du 1er degre; Cout moyen charge HCAS / Cout global,verifie sur le document; coût identique dans trois tableaux
 cout_moyen_charge_HCAS_ens1d_entree_PLF2025,37365,EUR/an,2025 PLF,idem,verifie sur le document
 cout_moyen_charge_HCAS_ens1d_sortie_PLF2025,57892,EUR/an,2025 PLF,idem,verifie sur le document
 cout_moyen_charge_HCAS_ens2d_prive_PLF2025,52668,EUR/an,2025 PLF,PAP PLF 2025 mission Enseignement scolaire p.235 (probablement P139 enseignement prive; programme a confirmer par l'en-tete),verifie sur le document; programme non confirme
+cout_moyen_charge_HCAS_ens2d_global_RAP2025,52248,EUR/an,2025 execute,RAP 2025 mission Enseignement scolaire (AN visualisation 1109849) p.53 (P140) et p.107 (P141),verifie sur le document; valeurs identiques dans les deux programmes
+cout_moyen_charge_HCAS_ens2d_entree_RAP2025,40509,EUR/an,2025 execute,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens2d_sortie_RAP2025,63130,EUR/an,2025 execute,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_global_RAP2025,48944,EUR/an,2025 execute,idem,verifie sur le document (professeurs des ecoles)
+cout_moyen_charge_HCAS_ens1d_entree_RAP2025,38363,EUR/an,2025 execute,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_sortie_RAP2025,60528,EUR/an,2025 execute,idem,verifie sur le document

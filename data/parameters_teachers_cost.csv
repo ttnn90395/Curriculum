@@ -16,7 +16,9 @@ eleves_par_classe_lycee_GT,23.9,eleves,2024 (annee non explicite),idem,verifie; 
 titre2_hors_CAS_mission_ES,59.23,Md EUR,2026 PLF,Senat NP PLF 2026 p.40,verifie sur le document (PLF, pas LFI)
 cas_pensions_contribution_ministere,25.16,Md EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
 credits_paiement_mission_hors_CAS,64485,M EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
-part_P140_P141_dans_mission,75.7,pourcent,2026 PLF,Senat NP PLF 2026 p.5,A RECONCILIER avec 70.41 du fichier budget_enseignement_scolaire_plf2026.csv (denominateur different ?)
+part_P140_P141_dans_cinq_programmes,70.41,pourcent,2026 PLF,data/budget_enseignement_scolaire_plf2026.csv: (P140+P141)/(P140+P141+P139+P214+P230),derive; denominateur exclut P143; PLF et non LFI
+part_P140_P141_dans_mission_hors_CAS,68.81,pourcent,2026 PLF,(17700.39+26670.90)/64485; P143 implicite = 64485-63021.09 = 1463.91 M EUR,derive; coherent avec Senat NP PLF 2026 p.6
+part_P140_P141_Senat_p5,75.7,pourcent,2026 PLF,Senat NP PLF 2026 p.5 (extraction automatique),NON REPRODUCTIBLE: incompatible avec le fichier budget; non utilise; a verifier sur le PDF
 plafond_emplois_enseignants_LFI2025,839679,ETPT,2025,Senat NP PLF 2026 p.32,verifie sur le document
 ETP_non_enseignants,292698,ETP,2024,Senat rapport 139 tome III annexe 13 d'apres DEPP,verifie sur le rapport
 salaire_net_mensuel_moyen_enseignant,3090,EUR net/mois,2024,DEPP evolution du salaire des enseignants 2023-2024,verifie; net tous degres; pas un cout employeur

@@ -1,0 +1,17 @@
+p.32: Hors Cas | pensions | T2
+p.36: Total en titre 2 hors CAS Pensions | 25 963 546 733 | 26 116 004 392
+p.36: +520,9 M€, y compris l’effet du changement de taux de contribution au CAS pensions ; | - les mesures catégorielles : +87,92 M€ ; | - le financement du GVT solde : +334,54 M€.
+p.37: Principaux facteurs d'évolution de la masse salariale hors CAS Pensions | Socle Exécution 2024 retraitée | 25 933,80
+p.37: Prévision Exécution 2024 hors CAS Pensions | 26 043,92 | Impact des mesures de transfert et de périmètre 2024–2025
+p.38: Principaux facteurs d'évolution de la masse salariale hors CAS Pensions | Rebasage de la GIPA | 0,00
+p.38: (43,6 M€), aux rétablissements de crédits (32,1 M€ hors CAS pensions) prévus en 2024 ainsi qu’aux | ajustements de dépenses non reconductibles parmi lesquelles la GIPA prévue en 2024 (-107,7 M€), la prime | de précarité (-13,9 M€), la prime de fidélisation territoriale (-52,3 M€) ainsi que diverses autres dépenses
+p.38: Le GVT solde s’élève à 187,31 M€ (hors CAS Pensions et +334,54 M€ y compris CAS) soit 0,7 % de la masse | salariale (hors CAS Pensions), dont 346,5 M€ de GVT positif, correspondant à 1,3 % de la masse salariale | (hors CAS Pensions). Il est compensé pour partie par le différentiel de rémunération entre les sortants et les
+p.38: salariale (hors CAS Pensions), dont 346,5 M€ de GVT positif, correspondant à 1,3 % de la masse salariale | (hors CAS Pensions). Il est compensé pour partie par le différentiel de rémunération entre les sortants et les | entrants : le GVT négatif, d’un montant de -159,2 M€ représentant 0,6 % de la masse salariale (hors CAS
+p.38: (hors CAS Pensions). Il est compensé pour partie par le différentiel de rémunération entre les sortants et les | entrants : le GVT négatif, d’un montant de -159,2 M€ représentant 0,6 % de la masse salariale (hors CAS | Pensions).
+p.38: entrants : le GVT négatif, d’un montant de -159,2 M€ représentant 0,6 % de la masse salariale (hors CAS | Pensions). | La ligne « Rebasage de dépenses au profil atypique - hors GIPA » correspond à des atténuations de dépenses.
+p.38: Coût moyen chargé HCAS | dont rémunérations d’activité | Coût d'entrée
+p.38: Coût d'entrée | Coût global | Coût de sortie
+p.38: Coût de sortie | Coût d'entrée | Coût global
+p.38: Coût d'entrée | Coût global | Coût de sortie
+p.38: Coût de sortie | Enseignants du 1er degré | 37 365
+p.39: Au total, les mesures catégorielles représentent une enveloppe estimée à 81,1 M€ (hors CAS Pensions) sur le | programme 141. | Cette enveloppe couvre l’extension en année pleine 2024 et la mise en œuvre en 2025 de la revalorisation

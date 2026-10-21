@@ -1,0 +1,14 @@
+p.35: Hors Cas | pensions | T2
+p.39: Total en titre 2 hors CAS Pensions | 24 591 470 634 | 25 963 546 733
+p.41: Principaux facteurs d'évolution de la masse salariale hors CAS Pensions | Socle Exécution 2023 retraitée | 24 581,65
+p.41: Prévision Exécution 2023 hors CAS Pensions | 24 676,71 | Impact des mesures de transfert et de périmètre 2023–2024
+p.42: (84,4 M€), aux rétablissements de crédits (27,8 M€ hors CAS pensions) prévus en 2023 ainsi qu’aux | ajustements de dépenses non reconductibles (prime pouvoir d’achat pour -78,3 M€, GIPA pour-42,4 M€, prime | de précarité pour -21,2 M€) ainsi qu’à diverses autres dépenses (-58,2 M€).
+p.42: Le GVT solde s’élève à 149,8 M€ (hors CAS Pensions) soit 0,6 % de la masse salariale (hors CAS Pensions), | dont 291,6 M€ de GVT positif, correspondant à 1,1 % de la masse salariale (hors CAS Pensions). Il est | compensé pour partie par le différentiel de rémunération entre les sortants et les entrants : le GVT négatif,
+p.42: dont 291,6 M€ de GVT positif, correspondant à 1,1 % de la masse salariale (hors CAS Pensions). Il est | compensé pour partie par le différentiel de rémunération entre les sortants et les entrants : le GVT négatif, | d’un montant de -141,8 M€ représentant 0,5 % de la masse salariale (hors CAS Pensions).
+p.42: d’un montant de -141,8 M€ représentant 0,5 % de la masse salariale (hors CAS Pensions). | COÛTS ENTRÉE-SORTIE | Catégorie d'emplois
+p.42: Coût moyen chargé HCAS | dont rémunérations d’activité | Coût d'entrée
+p.42: Coût d'entrée | Coût global | Coût de sortie
+p.42: Coût de sortie | Coût d'entrée | Coût global
+p.42: Coût d'entrée | Coût global | Coût de sortie
+p.42: Coût de sortie | Enseignants du 1er degré | 38 116
+p.43: Au total, les mesures catégorielles représentent une enveloppe estimée à 1055,9 M€ (hors CAS Pensions) sur | le programme 141. | Cette enveloppe couvre l’extension en année pleine de la revalorisation inédite et sans condition des

@@ -1,0 +1,417 @@
+
+######## data/raw/pap_candidates/pap_21411.pdf (page 42); Projet annuel de performances Budget général PROGRAMME 141 Enseignement scolaire public du second degré 2024
+--- page 42, a partir de la ligne 25 ---
+COÛTS ENTRÉE-SORTIE
+Catégorie d'emplois
+Coût moyen chargé HCAS
+dont rémunérations d’activité
+Coût d'entrée
+Coût global
+Coût de sortie
+Coût d'entrée
+Coût global
+Coût de sortie
+Enseignants du 1er degré
+38 116
+47 634
+59 633
+33 537
+41 610
+52 015
+Enseignants du 2nd degré
+39 318
+51 198
+62 207
+34 027
+44 265
+53 795
+Enseignants stagiaires
+31 686
+31 686
+31 686
+27 730
+27 730
+27 730
+Personnels d'encadrement
+57 043
+73 600
+82 704
+50 063
+64 459
+72 350
+Personnels administratif, technique et de service
+37 291
+43 496
+44 415
+32 136
+37 572
+38 755
+Personnels éducatifs et médicaux sociaux
+37 542
+47 270
+61 618
+32 930
+41 294
+53 803
+MESURES CATÉGORIELLES
+Catégorie ou intitulé de la mesure
+ETP
+concernés
+Catégories
+Corps
+Date d’entrée
+en vigueur
+de la mesure
+Nombre
+de mois
+d’incidence
+sur 2024
+Coût
+Coût
+en année
+pleine
+Effets extension année pleine
+807 527 970 1 212 372 709
+Plan pluriannuel de requalification de la
+filière administrative
+750
+A-B-C
+BIATSS
+09-2023
+8
+3 112 768
+4 669 152
+Rendez-vous salarial 2023 - Mesure ciblée
+d'injection de points d'indice
+A
+Tous
+07-2023
+6
+2 161 508
+4 323 016
+Revalorisation des DDFPT dans le cadre
+du Pacte
+A
+Enseignants
+09-2023
+8
+1 155 972
+1 733 958
+Revalorisation des enseignants
+386 992
+A
+Enseignants
+09-2023
+8
+530 488 710
+795 733 065
+--- page 43, a partir de la ligne 0 ---
+44
+PLF 2024
+Enseignement scolaire public du second degré
+Programme
+n°
+141
+Justification au premier euro
+Catégorie ou intitulé de la mesure
+ETP
+concernés
+Catégories
+Corps
+Date d’entrée
+en vigueur
+de la mesure
+Nombre
+de mois
+d’incidence
+sur 2024
+Coût
+Coût
+en année
+pleine
+Revalorisation des enseignants liée à leur
+adhésion à des missions complémentaires
+(voie générale et technologique)
+A
+Enseignants
+09-2023
+8
+201 778 704
+302 668 056
+Revalorisation des enseignants liée à leur
+adhésion à des missions complémentaires
+(voie professionnelle)
+10 613
+A
+Enseignants
+09-2023
+8
+68 830 308
+103 245 462
+Mesures statutaires
+161 509 917
+166 719 593
+Autre revalorisation des personnels (dont
+poursuite du plan pluriannuel de
+requalification de la filière administrative)
+4 220
+A-B-C
+BIATSS et PERDIR
+09-2024
+4
+1 828 417
+5 485 251
+PPCR
+386 992
+A
+Enseignants
+01-2024
+12
+7 196 619
+7 196 619
+Rendez-vous salarial 2023 - Octroi de 5
+points d'indice majoré
+451 981
+A-B-C
+Tous
+01-2024
+12
+151 708 460
+151 708 460
+Revalorisation des enseignants (montée
+en charge de la hausse du taux de
+promotion à la hors classe)
+52 415
+A
+Enseignants
+09-2024
+4
+776 421
+2 329 263
+Mesures indemnitaires
+86 838 369
+207 269 325
+Autres revalorisations des personnels du
+MENJ
+386 992
+A-B-C
+BIATSS et PERDIR
+01-2024
+12
+26 622 891
+26 622 891
+Poursuite de la revalorisation des
+enseignants liée à leur adhésion à des
+missions complémentaires (voie générale
+et technologique)
+A
+Enseignants
+09-2024
+4
+25 222 338
+75 667 014
+Poursuite de la revalorisation des
+enseignants liée à leur adhésion à des
+missions complémentaires (voie
+professionnelle)
+10 613
+A
+Enseignants
+09-2024
+4
+34 993 140
+104 979 420
+Total
+1 055 876 256 1 586 361 627
+Au total, les mesures catégorielles représentent une enveloppe estimée à 1055,9 M€ (hors CAS Pensions) sur
+le programme 141.
+Cette enveloppe couvre l’extension en année pleine de la revalorisation inédite et sans condition des
+enseignants, conseillers principaux d’éducation et psychologues de l’éducation nationale mise en œuvre à la
+rentrée scolaire 2023 (530 M€). Cette revalorisation donne lieu à un doublement des primes statutaires, en
+particulier de l’indemnité de suivi et d’orientation des élèves portant son montant annuel brut à 2 550 €. Elle
+se traduit aussi par l’ouverture de la prime d’attractivité aux enseignants stagiaires et la hausse significative
+des montants pour les professeurs relevant des échelons 2 à 7 de la classe normale, ainsi que par des
+mesures d’accélération de carrière (meilleure reprise de l’expérience antérieure lors de la nomination dans le
+corps, hausse du taux de promotion à la hors classe en 2023 et 2024 et hausse du contingent d’accès à la
+classe exceptionnelle en 2023, linéarisation de l’accès à l’échelon spécial de la classe exceptionnelle).
+Cette enveloppe permet également le déploiement progressif du Pacte, qui permet aux professeurs
+volontaires de choisir de réaliser des missions complémentaires, qui ont pour but d’améliorer le service public
+de l’éducation pour la réussite des élèves, en répondant toujours mieux à leurs besoins et aux nécessités de
+fonctionnement des écoles et des établissements. Avec le déploiement du Pacte, à compter de la rentrée
+scolaire 2023, les directeurs délégués à la formation professionnelle et technologique bénéficient d’une
+revalorisation de 1 000 € bruts annuels pour un coût en année pleine de 2,4 M€. Les personnels de direction
+bénéficient également d’une hausse de 1 000 € bruts de la part résultats de leur indemnité de fonctions,
+versée d’ici la fin de l’année 2023 (14,4 M€ en année pleine).
+Elle finance par ailleurs certaines mesures du Rendez-vous salarial 2023 annoncées par le ministre de la
+transformation et de la fonction publique : l’extension en année pleine de la mesure d’injection ciblée de
+points d’indice (juillet 2023) ainsi que l’octroi, au 1er janvier 2024, de 5 points d’indice majoré pour tous
+(152 M€). La hausse du point de la fonction publique du 1er juillet 2023, financée dans les mesures générales,
+
+######## data/raw/pap_candidates/pap_27878.pdf (page 38); Projet annuel de performances Annexe au projet de loi de finances pour 2025 PROGRAMME 141 Enseignement scolaire public d
+--- page 38, a partir de la ligne 51 ---
+COÛTS ENTRÉE-SORTIE
+Catégorie d'emplois
+Coût moyen chargé HCAS
+dont rémunérations d’activité
+Coût d'entrée
+Coût global
+Coût de sortie
+Coût d'entrée
+Coût global
+Coût de sortie
+Enseignants du 1er degré
+37 365
+46 139
+57 892
+32 834
+40 168
+50 484
+Enseignants du 2nd degré
+38 690
+51 293
+61 360
+34 005
+44 266
+53 543
+Enseignants stagiaires
+31 480
+31 480
+31 480
+27 507
+27 507
+27 507
+Personnels d'encadrement
+57 513
+76 297
+83 122
+50 519
+67 800
+73 697
+Personnels administratif, technique et de service
+39 472
+44 412
+44 201
+34 414
+38 335
+38 653
+Personnels éducatifs et médicaux sociaux
+39 016
+48 683
+63 729
+34 315
+42 579
+55 741
+--- page 39, a partir de la ligne 0 ---
+40
+PLF – PAP – Budget général / Budget annexe
+MESURES CATÉGORIELLES
+Catégorie ou intitulé de la mesure
+ETP
+concernés
+Catégories
+Corps
+Date d’entrée
+en vigueur
+de la mesure
+Nombre
+de mois
+d’incidence
+sur 2025
+Coût
+Coût
+en année
+pleine
+Effets extension année pleine
+70 590 716
+105 886 074
+Plan pluriannuel de requalification de la
+filière administrative
+750
+Toutes
+Filière administrative
+09-2024
+8
+3 010 112
+4 515 168
+Revalorisation des enseignants (montée
+en charge de la hausse du taux de
+promotion à la hors classe et à la classe
+exceptionnelle)
+52 415
+A
+Enseignants
+09-2024
+8
+1 917 059
+2 875 589
+Revalorisation des enseignants liée à leur
+adhésion à des missions complémentaires
+116 852
+A
+Enseignants
+09-2024
+8
+65 663 545
+98 495 318
+Mesures statutaires
+4 093 916
+8 955 006
+Autre revalorisation des personnels (dont
+poursuite du plan pluriannuel de
+requalification de la filière administrative)
+4 220
+A-B-C
+BIATSS et PERDIR
+09-2025
+4
+1 715 240
+5 145 720
+Revalorisation de la grille de la hors classe
+des PERDIR
+13 317
+A
+Personnels de direction
+01-2025
+12
+1 663 371
+1 663 371
+Revalorisation des enseignants (montée
+en charge de la hausse du taux de
+promotion à la hors classe)
+47 554
+A-B-C
+Tous
+09-2025
+4
+715 305
+2 145 915
+Mesures indemnitaires
+6 386 740
+19 160 220
+Autres revalorisations des personnels du
+MENJ (dont convergence
+interministérielle)
+37 274
+A-B-C
+BIATSS-IAIPR-Enseignants
+09-2025
+4
+6 386 740
+19 160 220
+Total
+81 071 372
+134 001 300
+Au total, les mesures catégorielles représentent une enveloppe estimée à 81,1 M€ (hors CAS Pensions) sur le
+programme 141.
+Cette enveloppe couvre l’extension en année pleine 2024 et la mise en œuvre en 2025 de la revalorisation
+inédite et sans condition des enseignants mise en œuvre à la rentrée scolaire 2023 (2,6 M€). Cette
+revalorisation donne lieu notamment à des mesures d’accélération de carrière (meilleure reprise de
+l’expérience antérieure lors de la nomination dans le corps, hausse du taux de promotion à la hors classe en
+2023, 2024 et 2025 et la hausse des taux de promotion pour la classe exceptionnelle en 2024, 2025, 2026).
+L’enveloppe finance en année pleine la revalorisation de la grille de la hors classe des personnels de direction
+(1,7 M€) pour tenir compte de la transformation de la NBI en indemnitaire lors de l’adhésion au régime
+RIFSEEP de ces personnels.
+Enfin, elle permettra de financer l’EAP 2024 et de poursuivre en 2025, la requalification de la filière
+administrative du ministère de l’éducation nationale et de renforcer l’attractivité des métiers du ministère en
+poursuivant le travail de convergence indemnitaire avec l’interministériel et en revalorisant les indemnités de
+tuteurs et formateurs d’enseignants lors de leur prise de fonction (au total 11,1 M€)

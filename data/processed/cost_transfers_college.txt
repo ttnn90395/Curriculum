@@ -1,15 +1,17 @@
 Reference: heures de maths moyennes par classe de college 3.75 h/semaine (hypothese 4 niveaux egaux)
 ETP maths college (certifies, 18 h): 21,201  ~ 5.6% des ETP du 2nd degre public
+Cout par ETPT (EUR/an): hors_CAS 59,011, avec_CAS 88,520, mixte_hors_CAS 52,307, mixte_avec_CAS 74,525
 
   dh   service      ETP  ETP/1000cl  cout M (hCAS)  part % (hCAS)  cout M (avecCAS)  part % (avecCAS)  % heures maths
--1.0        18   -5,654       -55.6           -296          -0.46              -421             -0.47           -26.7
--1.0        15   -6,784       -66.7           -355          -0.55              -506             -0.56           -26.7
--0.5        18   -2,827       -27.8           -148          -0.23              -211             -0.23           -13.3
--0.5        15   -3,392       -33.3           -177          -0.28              -253             -0.28           -13.3
-+0.5        18    2,827        27.8            148           0.23               211              0.23            13.3
-+0.5        15    3,392        33.3            177           0.28               253              0.28            13.3
-+1.0        18    5,654        55.6            296           0.46               421              0.47            26.7
-+1.0        15    6,784        66.7            355           0.55               506              0.56            26.7
+(colonnes cout/part: cout P141 hors CAS puis avec CAS; bornes mixtes dans le CSV)
+-1.0        18   -5,654       -55.6           -334          -0.52              -500             -0.56           -26.7
+-1.0        15   -6,784       -66.7           -400          -0.62              -601             -0.67           -26.7
+-0.5        18   -2,827       -27.8           -167          -0.26              -250             -0.28           -13.3
+-0.5        15   -3,392       -33.3           -200          -0.31              -300             -0.33           -13.3
++0.5        18    2,827        27.8            167           0.26               250              0.28            13.3
++0.5        15    3,392        33.3            200           0.31               300              0.33            13.3
++1.0        18    5,654        55.6            334           0.52               500              0.56            26.7
++1.0        15    6,784        66.7            400           0.62               601              0.67            26.7
 
 Limites: transferts a classes constantes; couts DERIVES (bornes), pas primaires; chaque heure ajoutee est supposee pourvue en ETP (pas d'heures supplementaires, pas de ponderation REP+); un transfert entre matieres compense en partie (ETP libres = ETP requis ailleurs).
 Ecritures: data/processed/cost_transfers_college.csv

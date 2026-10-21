@@ -16,9 +16,16 @@ eleves_par_classe_lycee_GT,23.9,eleves,2024 (annee non explicite),idem,verifie; 
 titre2_hors_CAS_mission_ES,59.23,Md EUR,2026 PLF,Senat NP PLF 2026 p.40,verifie sur le document (PLF, pas LFI)
 cas_pensions_contribution_ministere,25.16,Md EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
 credits_paiement_mission_hors_CAS,64485,M EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
-part_P140_P141_dans_cinq_programmes,70.41,pourcent,2026 PLF,data/budget_enseignement_scolaire_plf2026.csv: (P140+P141)/(P140+P141+P139+P214+P230),derive; denominateur exclut P143; PLF et non LFI
-part_P140_P141_dans_mission_hors_CAS,68.81,pourcent,2026 PLF,(17700.39+26670.90)/64485; P143 implicite = 64485-63021.09 = 1463.91 M EUR,derive; coherent avec Senat NP PLF 2026 p.6
-part_P140_P141_Senat_p5,75.7,pourcent,2026 PLF,Senat NP PLF 2026 p.5 (extraction automatique),NON REPRODUCTIBLE: incompatible avec le fichier budget; non utilise; a verifier sur le PDF
+part_P140_P141_dans_cinq_programmes,70.41,pourcent,2026 PLF,Senat avis commission culture a25-144-31 synthese p.2 (tableau hors CAS) et data/budget_enseignement_scolaire_plf2026.csv,verifie sur le document; denominateur exclut P143; PLF et non LFI
+part_P140_P141_dans_mission_hors_CAS,68.81,pourcent,2026 PLF,(17700.39+26670.90)/64485; P143 implicite = 64485-63021.10 = 1463.9 M EUR,derive; coherent avec Senat NP PLF 2026 p.6
+part_P140_P141_Senat_p5,75.7,pourcent,2026 PLF,Senat NP PLF 2026 p.5 (extraction automatique),NON REPRODUCTIBLE: incompatible avec les tableaux primaires; non utilise
+cp_P140_avec_CAS,27911.90,M EUR,2026 PLF,AN rapport l17b1996 tome III annexe 23 p.7,verifie sur le document (PLF)
+cp_P141_avec_CAS,40007.85,M EUR,2026 PLF,idem,verifie sur le document (PLF)
+cp_P141_hors_CAS,26670.90,M EUR,2026 PLF,Senat avis a25-144-31 synthese p.2,verifie sur le document (PLF)
+cp_P140_hors_CAS,17700.39,M EUR,2026 PLF,idem,verifie sur le document (PLF)
+mission_CP_avec_CAS,89643.98,M EUR,2026 PLF,AN rapport l17b1996 tome III annexe 23 p.7,verifie sur le document (PLF)
+plafond_ETPT_P140_2026,341897.25,ETPT,2026 PLF,AN rapport l17b1996 p.18,verifie sur le document
+plafond_ETPT_P141_2026,451966.41,ETPT,2026 PLF,AN rapport l17b1996 p.23,verifie sur le document
 plafond_emplois_enseignants_LFI2025,839679,ETPT,2025,Senat NP PLF 2026 p.32,verifie sur le document
 ETP_non_enseignants,292698,ETP,2024,Senat rapport 139 tome III annexe 13 d'apres DEPP,verifie sur le rapport
 salaire_net_mensuel_moyen_enseignant,3090,EUR net/mois,2024,DEPP evolution du salaire des enseignants 2023-2024,verifie; net tous degres; pas un cout employeur
@@ -29,3 +36,7 @@ heures_maths_5e_4e_3e,3.5,h/semaine eleve,2017,idem,verifie (horaire eleve)
 cout_ETP_derive_hors_CAS,52307,EUR/an,derive,(59.23e9)/(839679+292698),DERIVE non primaire: melange plafond 2025, ETP 2024, inclut AED/AESH; borne basse (non enseignants moins payes => cout enseignant probablement superieur)
 cout_ETP_derive_avec_CAS,74525,EUR/an,derive,(59.23e9+25.16e9)/(839679+292698),DERIVE non primaire: meme reserve; CAS Pensions inclus
 cout_complet_ETP_primaire,,EUR/an,,,NON TROUVE sur document primaire (annexe personnels du PLF ou Cour des comptes a lire)
+cout_ETPT_P141_hors_CAS,59011,EUR/an,derive,cp_P141_hors_CAS/plafond_ETPT_P141_2026,DERIVE: moyenne du programme (tous personnels P141, depenses hors titre 2 incluses environ 6 pourcent); pas un cout enseignant
+cout_ETPT_P141_avec_CAS,88520,EUR/an,derive,cp_P141_avec_CAS/plafond_ETPT_P141_2026,DERIVE: meme reserve; CAS Pensions inclus
+cout_ETPT_P140_hors_CAS,51771,EUR/an,derive,cp_P140_hors_CAS/plafond_ETPT_P140_2026,DERIVE: meme reserve
+cout_ETPT_P140_avec_CAS,81638,EUR/an,derive,cp_P140_avec_CAS/plafond_ETPT_P140_2026,DERIVE: meme reserve

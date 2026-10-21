@@ -10,8 +10,9 @@ P = {r["id"]: r["value"] for r in csv.DictReader(open("data/parameters_teachers_
 f = lambda k: float(P[k])
 classes = f("classes_college_public_hors_segpa")
 mission_hc, mission_ac = f("credits_paiement_mission_hors_CAS"), f("mission_CP_avec_CAS")
-# cout principal: moyenne du programme P141 (CP / plafond ETPT, source primaire); cout "mixte" (titre 2 / ETPT+ETP non ens.) conserve comme borne basse
-costs = {"hors_CAS": (f("cout_ETPT_P141_hors_CAS"), mission_hc), "avec_CAS": (f("cout_ETPT_P141_avec_CAS"), mission_ac),
+# cout principal: cout moyen charge des enseignants du 2nd degre (PAP P141 PLF 2025 p.38); P141moy = moyenne du programme (CP / plafond ETPT, inclut encadrement et autres personnels): borne haute; mixte: borne
+costs = {"hors_CAS": (f("cout_ens2d_hors_CAS"), mission_hc), "avec_CAS": (f("cout_ens2d_avec_CAS"), mission_ac),
+         "P141moy_hors_CAS": (f("cout_ETPT_P141_hors_CAS"), mission_hc), "P141moy_avec_CAS": (f("cout_ETPT_P141_avec_CAS"), mission_ac),
          "mixte_hors_CAS": (f("cout_ETP_derive_hors_CAS"), mission_hc), "mixte_avec_CAS": (f("cout_ETP_derive_avec_CAS"), mission_ac)}
 base_h = (f("heures_maths_6e") + 3 * f("heures_maths_5e_4e_3e")) / 4   # hypothese: classes egalement reparties entre niveaux
 print(f"Reference: heures de maths moyennes par classe de college {base_h:.2f} h/semaine (hypothese 4 niveaux egaux)")
@@ -19,7 +20,7 @@ print(f"ETP maths college (certifies, 18 h): {classes * base_h / f('service_cert
 out = []
 print("Cout par ETPT (EUR/an): "+", ".join(f"{k} {c:,.0f}" for k, (c, m) in costs.items()))
 print(f"\n{'dh':>4} {'service':>9} {'ETP':>8} {'ETP/1000cl':>11} {'cout M (hCAS)':>14} {'part % (hCAS)':>14} {'cout M (avecCAS)':>17} {'part % (avecCAS)':>17} {'% heures maths':>15}")
-print("(colonnes cout/part: cout P141 hors CAS puis avec CAS; bornes mixtes dans le CSV)")
+print("(colonnes cout/part: cout moyen des enseignants du 2nd degre hors CAS puis avec CAS; autres couts dans le CSV de sortie)")
 for dh in (-1.0, -0.5, 0.5, 1.0):
     for sv_name in ("service_certifies", "service_agreges"):
         sv = f(sv_name)

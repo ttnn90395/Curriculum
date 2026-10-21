@@ -47,3 +47,12 @@ cout_ETPT_P141_avec_CAS_LFI2026,88506,EUR/an,derive,cp_P141_avec_CAS_LFI2026/pla
 cout_ETPT_P140_avec_CAS_LFI2026,81639,EUR/an,derive,cp_P140_avec_CAS_LFI2026/plafond_ETPT_P140_2026,DERIVE: meme reserve; titre 2 = 99.8 pourcent des CP de P140 (PAP 2027 p.25)
 cp_P140_PLF2027_avec_CAS,28524.97,M EUR,2027 PLF,AN PAP 2027 Enseignement scolaire p.22-24,verifie sur extrait; PLF 2027 (hausse 2.20 pourcent)
 cp_P141_PLF2027_avec_CAS,40283.68,M EUR,2027 PLF,idem,verifie sur extrait; PLF 2027 (hausse 0.71 pourcent)
+cout_moyen_charge_HCAS_ens2d_global_PLF2025,51293,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38 (budget.gouv.fr file-download/27878) categorie Enseignants du 2nd degre; colonne Cout moyen charge HCAS / Cout global,verifie sur le document; PAS de detail par corps (agreges/certifies)
+cout_moyen_charge_HCAS_ens2d_global_PLF2024,51198,EUR/an,2024 PLF,PAP P141 PLF 2024 p.42 (file-download/21411),verifie sur le document
+cout_moyen_charge_HCAS_ens2d_entree_PLF2025,38690,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
+cout_moyen_charge_HCAS_ens2d_sortie_PLF2025,61360,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
+cout_moyen_charge_HCAS_encadrement_PLF2025,76297,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_dans_P141_PLF2025,46139,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document; categorie residuelle du P141 (pas les professeurs des ecoles du P140)
+ratio_avecCAS_sur_horsCAS_P141,1.5001,ratio,2026 PLF,cp_P141_avec_CAS/cp_P141_hors_CAS,derive; suppose que le CAS pese comme en moyenne sur P141
+cout_ens2d_hors_CAS,51293,EUR/an,2025 PLF,cout_moyen_charge_HCAS_ens2d_global_PLF2025,PRINCIPAL: source primaire par categorie d'emplois; annee 2025 (revalorisations 2026 non incluses)
+cout_ens2d_avec_CAS,76942,EUR/an,derive,cout_ens2d_hors_CAS x ratio_avecCAS_sur_horsCAS_P141,DERIVE: le taux CAS n'est pas lu sur document

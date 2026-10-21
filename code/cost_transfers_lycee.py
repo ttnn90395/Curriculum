@@ -12,7 +12,7 @@ f = lambda k: float(P[k])
 classes = f("classes_lycee_GT_public")
 pond = (1 + 2 * f("ponderation_cycle_terminal")) / 3
 mission_hc, mission_ac = f("credits_paiement_mission_hors_CAS"), f("mission_CP_avec_CAS")
-costs = {"hors_CAS": (f("cout_ETPT_P141_hors_CAS"), mission_hc), "avec_CAS": (f("cout_ETPT_P141_avec_CAS"), mission_ac)}
+costs = {"hors_CAS": (f("cout_ens2d_hors_CAS"), mission_hc), "avec_CAS": (f("cout_ens2d_avec_CAS"), mission_ac)}
 print(f"Lycee GT public: {classes:,.0f} classes; facteur de ponderation (hypothese tiers egaux) {pond:.4f}")
 print(f"\n{'dh':>4} {'service':>8} {'pond':>5} {'ETP':>8} {'cout M hCAS':>12} {'part % hCAS':>12} {'cout M avecCAS':>15} {'part % avecCAS':>15}")
 out = []

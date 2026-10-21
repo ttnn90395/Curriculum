@@ -40,3 +40,10 @@ cout_ETPT_P141_hors_CAS,59011,EUR/an,derive,cp_P141_hors_CAS/plafond_ETPT_P141_2
 cout_ETPT_P141_avec_CAS,88520,EUR/an,derive,cp_P141_avec_CAS/plafond_ETPT_P141_2026,DERIVE: meme reserve; CAS Pensions inclus
 cout_ETPT_P140_hors_CAS,51771,EUR/an,derive,cp_P140_hors_CAS/plafond_ETPT_P140_2026,DERIVE: meme reserve
 cout_ETPT_P140_avec_CAS,81638,EUR/an,derive,cp_P140_avec_CAS/plafond_ETPT_P140_2026,DERIVE: meme reserve
+cp_P140_avec_CAS_LFI2026,27912.14,M EUR,2026 LFI,AN PAP 2027 Enseignement scolaire p.22-24 (LFI 2026),verifie sur extrait du document; ecart PLF < 0.01 pourcent
+cp_P141_avec_CAS_LFI2026,40001.62,M EUR,2026 LFI,idem,verifie sur extrait du document; ecart PLF -0.02 pourcent
+mission_CP_avec_CAS_LFI2026,89621.00,M EUR,2026 LFI,idem,verifie sur extrait du document; ecart PLF -0.03 pourcent
+cout_ETPT_P141_avec_CAS_LFI2026,88506,EUR/an,derive,cp_P141_avec_CAS_LFI2026/plafond_ETPT_P141_2026 (LFI 2026 = 451966),DERIVE: meme reserve que la ligne PLF; non utilise par le script
+cout_ETPT_P140_avec_CAS_LFI2026,81639,EUR/an,derive,cp_P140_avec_CAS_LFI2026/plafond_ETPT_P140_2026,DERIVE: meme reserve; titre 2 = 99.8 pourcent des CP de P140 (PAP 2027 p.25)
+cp_P140_PLF2027_avec_CAS,28524.97,M EUR,2027 PLF,AN PAP 2027 Enseignement scolaire p.22-24,verifie sur extrait; PLF 2027 (hausse 2.20 pourcent)
+cp_P141_PLF2027_avec_CAS,40283.68,M EUR,2027 PLF,idem,verifie sur extrait; PLF 2027 (hausse 0.71 pourcent)

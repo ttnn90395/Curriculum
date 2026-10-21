@@ -1,0 +1,14 @@
+== data/raw/pap_candidates/pap_an_plf2025.pdf: 380 pages; Projet annuel de performances Annexe au projet de loi de finances pour 2025 Budget général Mission interminist
+-- p.52 programme 140 PLF 2025 | 52 PLF – PAP – Budget général / Budget annexe parmi lesquelles les dépenses liées à la prime de fidélisation 9
+-- p.109 programme ? PLF 2025 | PLF – PAP – Budget général / Budget annexe 109 (en millions d'euros) Principaux facteurs d'évolution de la mas
+-- p.180 programme ? PLF 2025 | 180 PLF – PAP – Budget général / Budget annexe crédits hors CAS pensions (4,88 M€) ainsi qu’aux ajustements de
+-- p.235 programme ? PLF 2025 | PLF – PAP – Budget général / Budget annexe 235 (en millions d'euros) Principaux facteurs d'évolution de la mas
+-- p.294 programme ? PLF 2025 | 294 PLF – PAP – Budget général / Budget annexe (en millions d'euros) Principaux facteurs d'évolution de la mas
+-- p.363 programme 143 PLF 2025 | PLF – PAP – Budget général / Budget annexe 363 (en millions d'euros) Principaux facteurs d'évolution de la mas
+== data/raw/pap_candidates/pap_an_ec.pdf: 406 pages; Rapport annuel de performances Annexe au projet de loi relative aux résultats de la gestion et portant approba
+-- p.53 programme 140  | PLRG – RAP – Budget général / Budget annexe 53 • Des variations sur diverses dépenses (prestations, autres ind
+-- p.107 programme 141  | PLRG – RAP – Budget général / Budget annexe 107 COUTS ENTREE-SORTIE Catégorie d'emplois Coût moyen chargé HCAS
+-- p.162 programme 230  | 162 PLRG – RAP – Budget général / Budget annexe COUTS ENTREE-SORTIE Catégorie d'emplois Coût moyen chargé HCAS
+-- p.222 programme 140  | 222 PLRG – RAP – Budget général / Budget annexe Le GVT solde s’élève à 35,13 M€ (hors CAS Pensions), correspon
+-- p.281 programme ?  | PLRG – RAP – Budget général / Budget annexe 281 (en millions d'euros) Principaux facteurs d'évolution de la ma
+-- p.386 programme 143  | 386 PLRG – RAP – Budget général / Budget annexe • les effets de substitution contractuels / fonctionnaires (+1

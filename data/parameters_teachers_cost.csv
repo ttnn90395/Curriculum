@@ -56,3 +56,7 @@ cout_moyen_charge_HCAS_ens1d_dans_P141_PLF2025,46139,EUR/an,2025 PLF,PAP P141 PL
 ratio_avecCAS_sur_horsCAS_P141,1.5001,ratio,2026 PLF,cp_P141_avec_CAS/cp_P141_hors_CAS,derive; suppose que le CAS pese comme en moyenne sur P141
 cout_ens2d_hors_CAS,51293,EUR/an,2025 PLF,cout_moyen_charge_HCAS_ens2d_global_PLF2025,PRINCIPAL: source primaire par categorie d'emplois; annee 2025 (revalorisations 2026 non incluses)
 cout_ens2d_avec_CAS,76942,EUR/an,derive,cout_ens2d_hors_CAS x ratio_avecCAS_sur_horsCAS_P141,DERIVE: le taux CAS n'est pas lu sur document
+cout_moyen_charge_HCAS_ens1d_global_PLF2025,46139,EUR/an,2025 PLF,PAP PLF 2025 mission Enseignement scolaire (AN Annexes PLF 2025) p.52 et p.109; et PAP P141 p.38; categorie Enseignants du 1er degre; Cout moyen charge HCAS / Cout global,verifie sur le document; coût identique dans trois tableaux
+cout_moyen_charge_HCAS_ens1d_entree_PLF2025,37365,EUR/an,2025 PLF,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_sortie_PLF2025,57892,EUR/an,2025 PLF,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens2d_prive_PLF2025,52668,EUR/an,2025 PLF,PAP PLF 2025 mission Enseignement scolaire p.235 (probablement P139 enseignement prive; programme a confirmer par l'en-tete),verifie sur le document; programme non confirme

@@ -1,0 +1,212 @@
+127 dataflows OECD.EDU.IMEP; retenus par mot-cle:
+  [0] DSD_EAG_SAL_ACT@DF_ALL v2.1: Actual salaries of teachers and school heads - full dataset
+  [1] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_ALL v1.1: Actual salary of teachers and school heads - full dataset
+  [2] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH v1.1: School heads' actual salary
+  [3] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REG v1.1: School heads' actual salary (subnational data)
+  [4] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REL v1.1: School heads' actual salary relative to earnings of tertiary-educated workers
+  [5] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH v1.1: Teachers' actual salary
+  [6] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REG v1.1: Teachers' actual salary (subnational data)
+  [7] DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REL v1.1: Teachers' actual salary relative to earnings of tertiary-educated workers
+  [8] DSD_EAG_SAL_ACT@DF_SCH v2.1: School heads' actual salaries
+  [9] DSD_EAG_SAL_ACT@DF_SCH_REG v2.1: School heads' actual salaries - Subnational entities
+  [10] DSD_EAG_SAL_ACT@DF_SCH_REL v2.1: School heads' actual salaries relative to workers' earnings
+  [11] DSD_EAG_SAL_ACT@DF_TCH v2.1: Teachers' actual salaries
+  [12] DSD_EAG_SAL_ACT@DF_TCH_REG v2.1: Teachers' actual salaries - Subnational entities
+  [13] DSD_EAG_SAL_ACT@DF_TCH_REL v2.1: Teachers' actual salaries relative to workers' earnings
+  [14] DSD_EAG_SAL_STA@DF_ALL v2.1: Statutory salaries of teachers and school heads - full dataset
+  [15] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_ALL v1.1: Statutory salary of teachers and school heads - full dataset
+  [16] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_SCH v1.1: School heads' statutory salary
+  [17] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_SCH_REL v1.1: School heads' statutory salary relative to earnings of tertiary-educated workers
+  [18] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH v1.1: Teachers' statutory salary
+  [19] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_COM v1.1: Comparison of teachers' statutory salary
+  [20] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_REG v1.1: Teachers' statutory salary (subnational data)
+  [21] DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_REL v1.1: Teachers' statutory salary relative to earnings of tertiary-educated workers
+  [22] DSD_EAG_SAL_STA@DF_SCH v2.1: School heads' statutory salaries
+  [23] DSD_EAG_SAL_STA@DF_SCH_REL v2.1: School heads' statutory salaries relative to workers' earnings
+  [24] DSD_EAG_SAL_STA@DF_TCH v2.1: Teachers' statutory salaries
+  [25] DSD_EAG_SAL_STA@DF_TCH_CHG v2.1: Change in teachers' statutory salaries over the career
+  [26] DSD_EAG_SAL_STA@DF_TCH_REG v2.1: Teachers' statutory salaries - Subnational entities
+  [27] DSD_EAG_SAL_STA@DF_TCH_REL v2.1: Teachers' statutory salaries relative to workers' earnings
+  [28] DSD_EAG_SAL_TREND@DF_ALL v2.1: Trends in teachers' salaries - full dataset
+  [29] DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_ACT v1.1: Trends in teachers’ actual salary since 2000
+  [30] DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_ALL v1.1: Trends in teachers' salary - full dataset
+  [31] DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_STA v1.1: Trends in teachers’ statutory salary since 2000
+  [32] DSD_EAG_SAL_TREND@DF_TCH_ACT v2.1: Trends in teachers’ actual salaries since 2000
+  [33] DSD_EAG_SAL_TREND@DF_TCH_STA v2.1: Trends in teachers’ statutory salaries since 2000
+  [34] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_AGE v1.1: Share of teachers by age range
+  [35] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_CLS v1.1: Average class size
+  [36] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_AGE v1.1: Number of classroom teachers and academic staff by age
+  [37] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_INST v1.1: Number of classroom teachers and academic staffs by type of institution
+  [38] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_INST2 v1.1: Number of teacher aides
+  [39] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_SEX v1.1: Share of teachers by gender and age range
+  [40] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_STU v1.1: Number of students adjusted to classroom teachers and academic staffs by type of institution
+  [41] DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_TEACH_DB v1.1: Teachers (full database)
+  [42] DSD_EAG_WT@DF_ACT_TCH v2.0: Teachers' actual teaching time
+  [43] DSD_EAG_WT@DF_ALL v2.0: Teaching and working time of teachers - full dataset
+  [44] DSD_EAG_WT@DF_EAG_WT_ACT_TCH v1.1: Teachers' actual annual teaching time
+  [45] DSD_EAG_WT@DF_EAG_WT_ALL v1.1: Teaching and working time of teachers and school heads - full dataset
+  [46] DSD_EAG_WT_TREND@DF_ALL v2.0: Trends in teachers' statutory teaching time since 2000
+-- DSD_EAG_SAL_ACT@DF_ALL: Actual salaries of teachers and school heads - full dataset
+   lignes: 13120; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   MEASURE: ['SAL_ACT', 'SAL_ACT_REL_SIM', 'SAL_ACT_REL_TER']
+   Measure: ['Actual salaries', 'Actual salaries relative to earnings of similarly educated workers', 'Actual salaries relative to earnings of tertiary-educated workers']
+   UNIT_MEASURE: ['FCTR_EARN_FT_SIM', 'FCTR_EARN_FT_TER', 'USD_PPP', 'XDC']
+   Unit of measure: ['Factor of earnings for full-time, full-year similarly educated workers', 'Factor of earnings for full-time, full-year tertiary-educated workers', 'National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   PERS_TYPE: ['SH', 'TE']
+   Type of personnel: ['School head', 'Teacher']
+   OBS_STATUS: ['A', 'L', 'M', 'O', 'Q']
+   Observation status: ['Missing value', 'Missing value; data cannot exist', 'Missing value; data exist but were not collected', 'Missing value; suppressed', 'Normal value']
+   PRICE_BASE: ['Q', 'V', '_Z']
+   Price base: ['Constant prices', 'Current prices', 'Not applicable']
+   BASE_PER: ['2012', '2018', '2022', '2023', '2024', '2025', 'm']
+   REF_PERIOD: ['2023', '2024', '2025']
+   DECIMALS: ['0', '2']
+   Decimals: ['Two', 'Zero']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_ALL: Actual salary of teachers and school heads - full dataset
+   lignes: 12232; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   MEASURE: ['SAL_ACT', 'SAL_ACT_REL_TER']
+   Measure: ['Actual salaries', 'Actual salaries relative to earnings of tertiary-educated workers']
+   UNIT_MEASURE: ['FCTR_EARN_FT_TER', 'USD_PPP', 'XDC']
+   Unit of measure: ['Factor of earnings for full-time, full-year tertiary-educated workers', 'National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   PERS_TYPE: ['SH', 'TE']
+   Type of personnel: ['School head', 'Teacher']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   PRICE_BASE: ['V', '_Z']
+   Price base: ['Current prices', 'Not applicable']
+   BASE_PER: ['2017', '2018', '2019', '2020', '2021']
+   REF_PERIOD: ['2020', '2021', '2022']
+   DECIMALS: ['0', '2']
+   Decimals: ['Two', 'Zero']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH: School heads' actual salary
+   lignes: 3384; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   Unit of measure: ['National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   REF_PERIOD: ['2020', '2021', '2022']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REG: School heads' actual salary (subnational data)
+   lignes: 3384; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   Unit of measure: ['National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   REF_PERIOD: ['2020', '2021', '2022']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REL: School heads' actual salary relative to earnings of tertiary-educated workers
+   lignes: 1484; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   BASE_PER: ['2017', '2018', '2019', '2020', '2021']
+   REF_PERIOD: ['2020', '2021', '2022']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH: Teachers' actual salary
+   lignes: 5880; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   Unit of measure: ['National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   REF_PERIOD: ['2020', '2021', '2022']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REG: Teachers' actual salary (subnational data)
+   lignes: 5880; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   Unit of measure: ['National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   REF_PERIOD: ['2020', '2021', '2022']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REL: Teachers' actual salary relative to earnings of tertiary-educated workers
+   lignes: 1484; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'O']
+   Observation status: ['Missing value', 'Missing value; data exist but were not collected', 'Normal value']
+   BASE_PER: ['2017', '2018', '2019', '2020', '2021']
+   REF_PERIOD: ['2020', '2021', '2022']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_SCH: School heads' actual salaries
+   lignes: 2856; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   Unit of measure: ['National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'L', 'M', 'O']
+   Observation status: ['Missing value', 'Missing value; data cannot exist', 'Missing value; data exist but were not collected', 'Normal value']
+   PRICE_BASE: ['Q', 'V']
+   Price base: ['Constant prices', 'Current prices']
+   REF_PERIOD: ['2023', '2024', '2025']
+   TIME_PERIOD: [''] .. ['']
+-- DSD_EAG_SAL_ACT@DF_SCH_REG: School heads' actual salaries - Subnational entities
+   lignes: 704; colonnes: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE', 'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution', 'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SEX', 'Sex', 'PERS_TYPE', 'Type of personnel', 'OBS_VALUE', 'Observation value', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'STATISTICAL_OPERATION', 'Statistical operation', 'PRICE_BASE', 'Price base', 'BASE_PER', 'Base period', 'CURRENCY', 'Currency', 'REF_PERIOD', 'Reference period', 'DECIMALS', 'Decimals']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   Unit of measure: ['National currency', 'US dollars, PPP converted']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   Education level: ['Lower secondary general education', 'Pre-primary education', 'Primary education', 'Upper secondary general education']
+   AGE: ['Y25T34', 'Y25T64', 'Y35T44', 'Y45T54', 'Y55T64']
+   Age: ['From 25 to 34 years', 'From 25 to 64 years', 'From 35 to 44 years', 'From 45 to 54 years', 'From 55 to 64 years']
+   SEX: ['F', 'M', '_T']
+   Sex: ['Female', 'Male', 'Total']
+   OBS_STATUS: ['A', 'M', 'O', 'Q']
+   Observation status: ['Missing value', 'Missing value; data cannot exist', 'Missing value; suppressed', 'Normal value']
+   PRICE_BASE: ['Q', 'V']
+   Price base: ['Constant prices', 'Current prices']
+   CURRENCY: ['EUR', 'GBP', 'USD', '_Z']
+   Currency: ['Euro', 'Not applicable', 'Pound sterling', 'US dollar']
+   REF_PERIOD: ['2024', '2025']
+   DECIMALS: ['0', '2']
+   Decimals: ['Two', 'Zero']
+   TIME_PERIOD: [''] .. ['']

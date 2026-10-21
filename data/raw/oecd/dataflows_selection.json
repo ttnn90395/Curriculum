@@ -1,0 +1,237 @@
+[
+ [
+  "DSD_EAG_SAL_ACT@DF_ALL",
+  "2.1",
+  "Actual salaries of teachers and school heads - full dataset"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_ALL",
+  "1.1",
+  "Actual salary of teachers and school heads - full dataset"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH",
+  "1.1",
+  "School heads' actual salary"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REG",
+  "1.1",
+  "School heads' actual salary (subnational data)"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REL",
+  "1.1",
+  "School heads' actual salary relative to earnings of tertiary-educated workers"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH",
+  "1.1",
+  "Teachers' actual salary"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REG",
+  "1.1",
+  "Teachers' actual salary (subnational data)"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REL",
+  "1.1",
+  "Teachers' actual salary relative to earnings of tertiary-educated workers"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_SCH",
+  "2.1",
+  "School heads' actual salaries"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_SCH_REG",
+  "2.1",
+  "School heads' actual salaries - Subnational entities"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_SCH_REL",
+  "2.1",
+  "School heads' actual salaries relative to workers' earnings"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_TCH",
+  "2.1",
+  "Teachers' actual salaries"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_TCH_REG",
+  "2.1",
+  "Teachers' actual salaries - Subnational entities"
+ ],
+ [
+  "DSD_EAG_SAL_ACT@DF_TCH_REL",
+  "2.1",
+  "Teachers' actual salaries relative to workers' earnings"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_ALL",
+  "2.1",
+  "Statutory salaries of teachers and school heads - full dataset"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_ALL",
+  "1.1",
+  "Statutory salary of teachers and school heads - full dataset"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_SCH",
+  "1.1",
+  "School heads' statutory salary"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_SCH_REL",
+  "1.1",
+  "School heads' statutory salary relative to earnings of tertiary-educated workers"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH",
+  "1.1",
+  "Teachers' statutory salary"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_COM",
+  "1.1",
+  "Comparison of teachers' statutory salary"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_REG",
+  "1.1",
+  "Teachers' statutory salary (subnational data)"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_REL",
+  "1.1",
+  "Teachers' statutory salary relative to earnings of tertiary-educated workers"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_SCH",
+  "2.1",
+  "School heads' statutory salaries"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_SCH_REL",
+  "2.1",
+  "School heads' statutory salaries relative to workers' earnings"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_TCH",
+  "2.1",
+  "Teachers' statutory salaries"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_TCH_CHG",
+  "2.1",
+  "Change in teachers' statutory salaries over the career"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_TCH_REG",
+  "2.1",
+  "Teachers' statutory salaries - Subnational entities"
+ ],
+ [
+  "DSD_EAG_SAL_STA@DF_TCH_REL",
+  "2.1",
+  "Teachers' statutory salaries relative to workers' earnings"
+ ],
+ [
+  "DSD_EAG_SAL_TREND@DF_ALL",
+  "2.1",
+  "Trends in teachers' salaries - full dataset"
+ ],
+ [
+  "DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_ACT",
+  "1.1",
+  "Trends in teachers\u2019 actual salary since 2000"
+ ],
+ [
+  "DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_ALL",
+  "1.1",
+  "Trends in teachers' salary - full dataset"
+ ],
+ [
+  "DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_STA",
+  "1.1",
+  "Trends in teachers\u2019 statutory salary since 2000"
+ ],
+ [
+  "DSD_EAG_SAL_TREND@DF_TCH_ACT",
+  "2.1",
+  "Trends in teachers\u2019 actual salaries since 2000"
+ ],
+ [
+  "DSD_EAG_SAL_TREND@DF_TCH_STA",
+  "2.1",
+  "Trends in teachers\u2019 statutory salaries since 2000"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_AGE",
+  "1.1",
+  "Share of teachers by age range"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_CLS",
+  "1.1",
+  "Average class size"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_AGE",
+  "1.1",
+  "Number of classroom teachers and academic staff by age"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_INST",
+  "1.1",
+  "Number of classroom teachers and academic staffs by type of institution"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_INST2",
+  "1.1",
+  "Number of teacher aides"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_SEX",
+  "1.1",
+  "Share of teachers by gender and age range"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_STU",
+  "1.1",
+  "Number of students adjusted to classroom teachers and academic staffs by type of institution"
+ ],
+ [
+  "DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_TEACH_DB",
+  "1.1",
+  "Teachers (full database)"
+ ],
+ [
+  "DSD_EAG_WT@DF_ACT_TCH",
+  "2.0",
+  "Teachers' actual teaching time"
+ ],
+ [
+  "DSD_EAG_WT@DF_ALL",
+  "2.0",
+  "Teaching and working time of teachers - full dataset"
+ ],
+ [
+  "DSD_EAG_WT@DF_EAG_WT_ACT_TCH",
+  "1.1",
+  "Teachers' actual annual teaching time"
+ ],
+ [
+  "DSD_EAG_WT@DF_EAG_WT_ALL",
+  "1.1",
+  "Teaching and working time of teachers and school heads - full dataset"
+ ],
+ [
+  "DSD_EAG_WT_TREND@DF_ALL",
+  "2.0",
+  "Trends in teachers' statutory teaching time since 2000"
+ ]
+]

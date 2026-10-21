@@ -1,0 +1,227 @@
+== tous les dataflows (id v version: nom)
+  DSD_EAG_IT@DF_EAG_IT_AGE v1.1: Instruction time in compulsory general education by age
+  DSD_EAG_IT@DF_EAG_IT_ALL v1.1: Student instruction time - full dataset
+  DSD_EAG_IT@DF_EAG_IT_ISCED v1.1: Instruction time in compulsory general education
+  DSD_EAG_IT@DF_EAG_IT_ISCED_REG v1.1: Instruction time in compulsory general education - Subnational entities
+  DSD_EAG_IT@DF_EAG_IT_ORG v1.1: Organisation of compulsory general education
+  DSD_EAG_IT@DF_EAG_IT_ORG_REG v1.1: Organisation of compulsory general education - Subnational entities
+  DSD_EAG_IT@DF_EAG_IT_SUBJ_AGE v1.1: Instruction time per subject by age
+  DSD_EAG_IT@DF_EAG_IT_SUBJ_ISCED v1.1: Instruction time per subject by level of education
+  DSD_EAG_LSO_EA@DF_LSO_EARN_ALL v1.0: Education and earnings (EARNINGS) (full dataset)
+  DSD_EAG_LSO_EA@DF_LSO_EARN_DISTR_MEDIAN v1.0: Earners distribution based on their level of earnings relative to the overall median, by age group, gender and educational attainment level
+  DSD_EAG_LSO_EA@DF_LSO_EARN_FIELD v1.0: Earnings differences by field of study among tertiary-educated workers, by age group, gender and level of tertiary educational attainment
+  DSD_EAG_LSO_EA@DF_LSO_EARN_REL_BEL v1.0: Earnings of workers relative to the earnings of workers with below upper secondary educational attainment, by age group, gender and educational attainment level
+  DSD_EAG_LSO_EA@DF_LSO_EARN_REL_MALE v1.0: Earnings differences by gender, by age group and educational attainment level
+  DSD_EAG_LSO_EA@DF_LSO_EARN_REL_NATIVE v1.0: Earnings differences by country of birth and age at migration, by age group, gender and educational attainment level
+  DSD_EAG_LSO_EA@DF_LSO_EARN_REL_UPPER v1.0: Earnings of workers relative to the earnings of workers with upper secondary educational attainment, by age group, gender and educational attainment level
+  DSD_EAG_LSO_EA@DF_LSO_EARN_REL_YAD v1.0: Earnings of workers relative to the earnings of 25-34 year-olds, by age group, gender and educational attainment level
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_ALL v1.0: National Educational Attainment Classification (NEAC) and labour market status (full dataset)
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_DISTR_DURUNEMP v1.0: Duration of unemployment distribution among unemployed adults, by educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_DISTR_EA v1.0: Adults' educational attainment distribution, by age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_DISTR_EA_FIELD v1.0: Field of study distribution of tertiary-educated adults, by level of tertiary educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_DISTR_EA_MIGR v1.0: Adults' educational attainment distribution, by country of birth, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_DISTR_GENDER v1.0: Adults' gender distribution, by educational attainment level and age group
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_DISTR_MIGR v1.0: Adults' migration status distribution, by educational attainment level, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_EMP v1.0: Employment rates of adults, by educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_EMP_FIELD v1.0: Employment rates of tertiary-educated adults, by field of study, tertiary educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_EMP_MIGR v1.0: Employment rates of adults, by educational attainment, age group, gender, country of birth and age at migration
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_INAC v1.0: Inactivity rates of adults, by educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_INAC_FIELD v1.0: Inactivity rates of tertiary-educated adults, by field of study, tertiary educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_INAC_MIGR v1.0: Inactivity rates of adults, by educational attainment, age group, gender, country of birth and age at migration
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_LF v1.0: Labour force participation rates of adults, by educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_UNEMP v1.0: Unemployment rates of adults, by educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_UNEMPLOYED v1.0: Share of unemployed adults among all adults, by educational attainment level, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_UNEMP_FIELD v1.0: Unemployment rates of tertiary-educated adults, by field of study, tertiary educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_NEAC_UNEMP_MIGR v1.0: Unemployment rates of adults, by educational attainment, age group, gender, country of birth and age at migration
+  DSD_EAG_LSO_EA@DF_LSO_TRANS v1.0: Distribution of young adults' education and work status, for a given level of educational attainment, age group and gender
+  DSD_EAG_LSO_EA@DF_LSO_TRANS_ALL v1.0: Youth's transition from education to work (TRANS) (full dataset)
+  DSD_EAG_LSO_EA@DF_LSO_TRANS_MIGR v1.0: Share of young adults who are not employment nor in formal education or training (NEET), by country of birth and age at migration
+  DSD_EAG_SAL_ACT@DF_ALL v2.1: Actual salaries of teachers and school heads - full dataset
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_ALL v1.1: Actual salary of teachers and school heads - full dataset
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH v1.1: School heads' actual salary
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REG v1.1: School heads' actual salary (subnational data)
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_SCH_REL v1.1: School heads' actual salary relative to earnings of tertiary-educated workers
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH v1.1: Teachers' actual salary
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REG v1.1: Teachers' actual salary (subnational data)
+  DSD_EAG_SAL_ACT@DF_EAG_SAL_ACT_TCH_REL v1.1: Teachers' actual salary relative to earnings of tertiary-educated workers
+  DSD_EAG_SAL_ACT@DF_SCH v2.1: School heads' actual salaries
+  DSD_EAG_SAL_ACT@DF_SCH_REG v2.1: School heads' actual salaries - Subnational entities
+  DSD_EAG_SAL_ACT@DF_SCH_REL v2.1: School heads' actual salaries relative to workers' earnings
+  DSD_EAG_SAL_ACT@DF_TCH v2.1: Teachers' actual salaries
+  DSD_EAG_SAL_ACT@DF_TCH_REG v2.1: Teachers' actual salaries - Subnational entities
+  DSD_EAG_SAL_ACT@DF_TCH_REL v2.1: Teachers' actual salaries relative to workers' earnings
+  DSD_EAG_SAL_STA@DF_ALL v2.1: Statutory salaries of teachers and school heads - full dataset
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_ALL v1.1: Statutory salary of teachers and school heads - full dataset
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_SCH v1.1: School heads' statutory salary
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_SCH_REL v1.1: School heads' statutory salary relative to earnings of tertiary-educated workers
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH v1.1: Teachers' statutory salary
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_COM v1.1: Comparison of teachers' statutory salary
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_REG v1.1: Teachers' statutory salary (subnational data)
+  DSD_EAG_SAL_STA@DF_EAG_SAL_STA_TCH_REL v1.1: Teachers' statutory salary relative to earnings of tertiary-educated workers
+  DSD_EAG_SAL_STA@DF_SCH v2.1: School heads' statutory salaries
+  DSD_EAG_SAL_STA@DF_SCH_REL v2.1: School heads' statutory salaries relative to workers' earnings
+  DSD_EAG_SAL_STA@DF_TCH v2.1: Teachers' statutory salaries
+  DSD_EAG_SAL_STA@DF_TCH_CHG v2.1: Change in teachers' statutory salaries over the career
+  DSD_EAG_SAL_STA@DF_TCH_REG v2.1: Teachers' statutory salaries - Subnational entities
+  DSD_EAG_SAL_STA@DF_TCH_REL v2.1: Teachers' statutory salaries relative to workers' earnings
+  DSD_EAG_SAL_TREND@DF_ALL v2.1: Trends in teachers' salaries - full dataset
+  DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_ACT v1.1: Trends in teachers’ actual salary since 2000
+  DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_ALL v1.1: Trends in teachers' salary - full dataset
+  DSD_EAG_SAL_TREND@DF_EAG_SAL_TREND_STA v1.1: Trends in teachers’ statutory salary since 2000
+  DSD_EAG_SAL_TREND@DF_TCH_ACT v2.1: Trends in teachers’ actual salaries since 2000
+  DSD_EAG_SAL_TREND@DF_TCH_STA v2.1: Trends in teachers’ statutory salaries since 2000
+  DSD_EAG_SUBNAT_UOE_FIN@DF_SUBNAT_UOE_FIN v1.0: Subnational total expenditure on educational institutions per full-time equivalent student
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_INDIC_SHARE_EDU_GOV v3.2: Share of total government expenditure on education
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_INDIC_SOURCE_NATURE v3.2: Full dataset - Indicators, source, destination and nature of expenditure on education
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_NATURE v1.0: Allocation of expenditure (from all sources) - full dataset
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_NATURE_CUR_CAP v3.2: Capital and total current expenditure on education (from all sources)
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_NATURE_STAFF v3.2: Expenditure on staff compensation in educational institutions (from all sources)
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_SOURCE v1.0: Source and destination of expenditure - full dataset
+  DSD_EAG_UOE_FIN@DF_UOE_FIN_SOURCE_GV_PR_NDOM v3.2: Distribution of government, private and non-domestic expenditure on educational institutions
+  DSD_EAG_UOE_FIN@DF_UOE_INDIC_FIN_GDP v1.0: Expenditure on educational institutions as a percentage of GDP
+  DSD_EAG_UOE_FIN@DF_UOE_INDIC_FIN_PERSTUD v3.2: Expenditure on educational institutions per full-time equivalent student
+  DSD_EAG_UOE_FIN_ANNEX@DF_UOE_FIN_ANNEX v3.2: Reference statistics for education finance indicators
+  DSD_EAG_UOE_FIN_ENR@DF_UOE_FIN_ENR v3.2: Enrolment data adjusted to the financial year
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_AGE v1.1: Share of teachers by age range
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_CLS v1.1: Average class size
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_AGE v1.1: Number of classroom teachers and academic staff by age
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_INST v1.1: Number of classroom teachers and academic staffs by type of institution
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_RAW_INST2 v1.1: Number of teacher aides
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_SEX v1.1: Share of teachers by gender and age range
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_STR v1.1: Ratio of students to teaching staff by type of institution
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_STU v1.1: Number of students adjusted to classroom teachers and academic staffs by type of institution
+  DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_TEACH_DB v1.1: Teachers (full database)
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_DIST_FIELD v1.1: Distribution of enrolled students, new entrants and graduates by field of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_DIST_RPTR v1.1: Repetition rate by level of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_DIST_VET v1.1: Distribution of students in vocational education and training programmes by level of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_ENRL_RATE v1.1: Enrolment rate by age
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_MEAN_AGE v1.1: Mean age of enrolled students, new entrants and graduates
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_NAT_MOB v1.1: Share of national tertiary students enrolled abroad
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_NR_NAT_ABROAD v1.1: Number of national tertiary students enrolled abroad
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_ADULT v1.1: Number of enrolled adults by age and level of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_AGE v1.1: Number of enrolled students, new entrants and graduates by age
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_FIELD v1.1: Number of enrolled students, graduates and new entrants by field of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_INST v1.1: Number of enrolled students and graduates by type of institution
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_MOB v1.1: Number of mobile students enrolled and graduated by country of origin
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_RPTR v1.1: Number of students and repeaters by grade and level of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_FIELD v1.1: Share of new entrants and graduates in each field of education by gender
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_FIRST v1.1: Share of new entrants to and first-time graduates at tertiary education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_GENDER v1.1: Share of enrolled students, new entrants and graduates by gender
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_INST v1.1: Distribution of enrolled students and graduates by type of institution
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_MOB v1.1: Share of mobile enrolments, new entrants and graduates
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_MOB_DEST v1.1: Share of mobile students enrolled at tertiary level by country of destination
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_MOB_ORG v1.1: Share of mobile students enrolled at tertiary level by country of origin
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_PT_FT v1.1: Share of enrolled part-time and full-time students
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_RPTR v1.1: Share of repeaters by gender and level of education
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_VET v1.1: Share of students enrolled in school and work-based programmes
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_DB v1.1: Student (full database)
+  DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_TOTALS v1.1: Total number of enrolled students, new entrants and graduates
+  DSD_EAG_WT@DF_ACT_TCH v2.0: Teachers' actual teaching time
+  DSD_EAG_WT@DF_ALL v2.0: Teaching and working time of teachers - full dataset
+  DSD_EAG_WT@DF_EAG_WT_ACT_TCH v1.1: Teachers' actual annual teaching time
+  DSD_EAG_WT@DF_EAG_WT_ALL v1.1: Teaching and working time of teachers and school heads - full dataset
+  DSD_EAG_WT@DF_EAG_WT_STA_SCH v1.1: School heads' working time
+  DSD_EAG_WT@DF_EAG_WT_STA_TCH v1.1: Teachers' statutory teaching and working time
+  DSD_EAG_WT@DF_EAG_WT_STA_TCH_REG v1.1: Teachers' statutory teaching and working time (subnational data)
+  DSD_EAG_WT@DF_STA_TCH v2.0: Teachers' statutory teaching and working time
+  DSD_EAG_WT@DF_STA_TCH_REG v2.0: Teachers' statutory teaching and working time - Subnational entities
+  DSD_EAG_WT_TREND@DF_ALL v2.0: Trends in teachers' statutory teaching time since 2000
+
+-- DSD_EAG_SAL_STA@DF_TCH: 3.8 Mo; sha256 f6fb872e63f88a15
+   lignes: 9152
+   REF_AREA: 53 valeurs, ex. ['AUS', 'AUT', 'BEFL', 'BEFR', 'BGR']
+   UNIT_MEASURE: ['USD_PPP', 'XDC']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   PERS_QUAL_LEV: ['MAX', 'MAX_EXP', 'MIN', 'MIN_EXP', 'TYP', 'TYP_EXP']
+   PERS_EXP_LEV: ['EXP0', 'EXP10', 'EXP15', 'EXPMAX']
+   PRICE_BASE: ['Q', 'V']
+   CURRENCY: 27 valeurs, ex. ['AUD', 'BRL', 'CAD', 'CHF', 'CLP']
+   pays (53): ['AUS', 'AUT', 'BEFL', 'BEFR', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'CHN', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'EU25', 'FIN', 'FRA', 'GRC', 'HRV', 'HUN', 'IDN', 'IND', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'OECD', 'PER', 'POL', 'PRT', 'ROU', 'SAU', 'SVK', 'SVN', 'SWE', 'THA', 'TUR', 'UKB', 'UKM', 'USA', 'ZAF']
+   lignes FRA: 176; extrait:
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP15 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=69141.93313
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_1 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP15 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=51037.95441
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_02 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP15 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=51037.95441
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_34 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP15 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=69141.93313
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP10 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=66440.36885
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_34 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP10 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=66440.36885
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_02 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP10 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=49416.121
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_1 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXP10 | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=49416.121
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_1 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXPMAX | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=72406.92369
+     MEASURE=SAL_STA | UNIT_MEASURE=USD_PPP | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | PERS_QUAL_LEV=MAX_EXP | PERS_EXP_LEV=EXPMAX | PRICE_BASE=Q | REF_PERIOD=2025 | OBS_VALUE=90884.41312
+
+-- DSD_EAG_SAL_STA@DF_TCH_REL: 0.2 Mo; sha256 7626f1e213e61728
+   lignes: 416
+   REF_AREA: 52 valeurs, ex. ['AUS', 'AUT', 'BEFL', 'BEFR', 'BGR']
+   MEASURE: ['SAL_STA_REL_SIM', 'SAL_STA_REL_TER']
+   UNIT_MEASURE: ['FCTR_EARN_FT_SIM', 'FCTR_EARN_FT_TER']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_34']
+   pays (52): ['AUS', 'AUT', 'BEFL', 'BEFR', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'CHN', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'EU25', 'FIN', 'FRA', 'GRC', 'HRV', 'HUN', 'IDN', 'IND', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'OECD', 'PER', 'POL', 'PRT', 'ROU', 'SAU', 'SVK', 'SVN', 'SWE', 'TUR', 'UKB', 'UKM', 'USA', 'ZAF']
+   lignes FRA: 8; extrait:
+     MEASURE=SAL_STA_REL_TER | UNIT_MEASURE=FCTR_EARN_FT_TER | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_02 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.665029447
+     MEASURE=SAL_STA_REL_TER | UNIT_MEASURE=FCTR_EARN_FT_TER | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_34 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.713768734
+     MEASURE=SAL_STA_REL_TER | UNIT_MEASURE=FCTR_EARN_FT_TER | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_1 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.665029447
+     MEASURE=SAL_STA_REL_TER | UNIT_MEASURE=FCTR_EARN_FT_TER | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.713768734
+     MEASURE=SAL_STA_REL_SIM | UNIT_MEASURE=FCTR_EARN_FT_SIM | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_1 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.669093264
+     MEASURE=SAL_STA_REL_SIM | UNIT_MEASURE=FCTR_EARN_FT_SIM | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_02 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.669093264
+     MEASURE=SAL_STA_REL_SIM | UNIT_MEASURE=FCTR_EARN_FT_SIM | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.674887149
+     MEASURE=SAL_STA_REL_SIM | UNIT_MEASURE=FCTR_EARN_FT_SIM | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_34 | PERS_TYPE=TE | PERS_QUAL_LEV=TYP_EXP | PERS_EXP_LEV=EXP15 | REF_PERIOD=2025 | OBS_VALUE=0.674887149
+
+-- DSD_EAG_WT@DF_ALL: 1.3 Mo; sha256 8385c14de3c153bf
+   lignes: 3936
+   REF_AREA: 121 valeurs, ex. ['ARG', 'AUS', 'AUT', 'BEFL', 'BEFR']
+   MEASURE: ['WKT_ACT_TCH', 'WKT_STA_TCH', 'WKT_STA_WKS', 'WKT_STA_WKT']
+   UNIT_MEASURE: ['D_Y', 'H_Y', 'WK_Y']
+   EDUCATION_LEV: ['ISCED11_02', 'ISCED11_1', 'ISCED11_24', 'ISCED11_25', 'ISCED11_34', 'ISCED11_35']
+   REF_PERIOD: ['2017', '2021', '2025']
+   pays (121): ['ARG', 'AUS', 'AUT', 'BEFL', 'BEFR', 'BGR', 'BRA', 'CA10', 'CA11', 'CA12', 'CA13', 'CA24', 'CA35', 'CA46', 'CA47', 'CA48', 'CA59', 'CA60', 'CA61', 'CA62', 'CAN', 'CHE', 'CHL', 'CHN', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'EU25', 'FIN', 'FRA', 'G20', 'GRC', 'HRV', 'HUN', 'IDN', 'IND', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'OECD', 'PER', 'POL', 'PRT', 'ROU', 'SAU', 'SVK']
+   lignes FRA: 36; extrait:
+     MEASURE=WKT_ACT_TCH | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_34 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_ACT_TCH | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_1 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_ACT_TCH | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_35 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_ACT_TCH | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_ACT_TCH | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_02 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_STA_WKS | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_24 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_STA_WKS | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_34 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_STA_WKS | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_35 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_STA_WKT | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_25 | PERS_TYPE=TE | REF_PERIOD=2025
+     MEASURE=WKT_STA_TCH | UNIT_MEASURE=H_Y | INST_TYPE_EDU=INST_EDU_PUB | EDUCATION_LEV=ISCED11_25 | PERS_TYPE=TE | REF_PERIOD=2025
+
+-- DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_CLS: 2.6 Mo; sha256 709b0852f18362a7
+   lignes: 5168
+   REF_AREA: 46 valeurs, ex. ['AUS', 'AUT', 'BEL', 'BGR', 'BRA']
+   EDUCATION_LEV: ['ISCED11_1', 'ISCED11_2']
+   INST_TYPE_EDU: ['INST_EDU', 'INST_EDU_PRIV', 'INST_EDU_PRIV_GOV', 'INST_EDU_PRIV_IND', 'INST_EDU_PUB']
+   TIME_PERIOD: ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+   pays (46): ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'EU25', 'FIN', 'FRA', 'G20', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'OECD', 'PER', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'SWE', 'TUR', 'USA']
+   lignes FRA: 120; extrait:
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2013
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2014
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2015
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2016
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2017
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2018
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2019
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2020
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2021
+     EDUCATION_LEV=ISCED11_1 | MEASURE=CLS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_IND | UNIT_MEASURE=ST_CL | SEX=_T | AGE=_T | TIME_PERIOD=2022
+
+-- DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_STU: 88.8 Mo; sha256 e24d40515cb2db00
+   lignes: 141119
+   REF_AREA: 43 valeurs, ex. ['AUS', 'AUT', 'BEL', 'BGR', 'BRA']
+   EDUCATION_LEV: ['ISCED11_0', 'ISCED11_01', 'ISCED11_02', 'ISCED11_1', 'ISCED11_2', 'ISCED11_3', 'ISCED11_34', 'ISCED11_35', 'ISCED11_4', 'ISCED11_44', 'ISCED11_45', 'ISCED11_5', 'ISCED11_5T8', 'ISCED11_6T8']
+   INTENSITY: ['FT', 'PT', '_T']
+   INST_TYPE_EDU: ['INST_EDU', 'INST_EDU_PRIV', 'INST_EDU_PRIV_GOV', 'INST_EDU_PRIV_IND', 'INST_EDU_PUB']
+   UNIT_MEASURE: ['PS', 'PS_FTE']
+   TIME_PERIOD: ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+   pays (43): ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'PER', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'SWE', 'TUR', 'USA']
+   lignes FRA: 3360; extrait:
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2013
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2014
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2015
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2016
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2017
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2018
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2019
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2020
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2021
+     EDUCATION_LEV=ISCED11_01 | MEASURE=STU_PERS | EDUCATION_TYPE=FE | INTENSITY=_T | FREQ=A | INST_TYPE_EDU=INST_EDU_PRIV_GOV | UNIT_MEASURE=PS | TIME_PERIOD=2022

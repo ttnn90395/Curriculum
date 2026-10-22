@@ -150,3 +150,8 @@ Regle: N_hat_i = STR_i x m, ou STR_i est le ratio eleves/personnel enseignant de
 Validation: erreur relative |N_hat_j - N_j| / N_j en leave-one-out (m recalcule sans le pays j) sur les 22 pays. Critere d'acceptation fixe a l'avance: mediane des erreurs <= 15 % ET 90e centile <= 30 %. Si le critere echoue, aucune imputation n'est utilisee et le resultat est rapporte comme non concluant.
 
 Presentation: pays imputes marques et exclus des rangs, medianes et chiffres principaux (qui restent calcules sur les 22 pays complets). Pays sans heures statutaires (DNK, SWE, IRL, PER): non imputes, aucune route de substitution. Aucune autre variante.
+
+
+### Precision de l'Amendement 4 (filtres) -- avant calcul
+
+STR: flux DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_STR, MEASURE STU_PERS, UNIT_MEASURE ST_TCHR, EDUCATION_LEV ISCED11_2; destination INST_EDU_PUB si disponible, sinon INST_EDU; annee la plus recente par pays (2022-2024). N: flux CLS, ISCED11_2, memes regles de destination et d'annee que cross_country_net_cost.py. Pays de reference: les 22 pays de data/processed/cross_country_net_cost.csv disposant de N et de STR. 90e centile au rang le plus proche (indice ceil(0.9 n)). Pays imputables: NLD, NOR, NZL uniquement.

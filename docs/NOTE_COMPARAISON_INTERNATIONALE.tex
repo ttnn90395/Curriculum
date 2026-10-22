@@ -1,0 +1,53 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{booktabs,amsmath,geometry,textcomp}
+\providecommand{\euro}{\texteuro}
+\geometry{margin=2.3cm}
+\title{Coût d'une heure hebdomadaire de mathématiques supplémentaire :\\comparaison internationale (note exploratoire)}
+\author{Projet Curriculum}
+\date{22 octobre 2026}
+\begin{document}
+\maketitle
+
+\paragraph{Statut.} Cette note était exploratoire. Les règles du calcul des parts de dépense avaient été committées avant son exécution. Le script des trois niveaux de coût avait été committé après exécution, et son filtre de base de prix (PPA en prix constants) avait été corrigé après une première exécution vide ; aucune autre variante n'avait été recherchée après coup. Les résultats décrivaient un ordre de grandeur comparatif, non une prévision budgétaire.
+
+\section{Question et formule}
+Le coût annuel, par élève, d'une heure hebdomadaire de mathématiques supplémentaire dans chaque classe du premier cycle du secondaire public avait été calculé pour les pays de l'OCDE disposant des données nécessaires :
+\[
+c_{\text{élève}} = \frac{h \times s}{H}\cdot\frac{S}{N},
+\]
+où $h=1$ est l'heure ajoutée par semaine, $s$ le nombre de semaines d'enseignement, $H$ les heures annuelles statutaires d'un enseignant, $S$ son salaire annuel moyen et $N$ la taille moyenne de classe. Le facteur $hs/H$ correspondait à la fraction d'ETP nécessaire par classe.
+
+\section{Données}
+Les salaires effectifs moyens des enseignants (niveau ISCED 2--4, 25--64 ans, établissements publics), exprimés en dollars PPA en prix constants et en monnaie nationale en prix courants, les heures statutaires, les semaines et la taille de classe provenaient d'\emph{Education at a Glance} (OCDE). Les cotisations, impôts et salaires nets provenaient de \emph{Taxing Wages} (OCDE), pour une personne seule sans enfant. La dépense par élève et la part de cette dépense dans le PIB par habitant provenaient du flux UOE FIN de \emph{Education at a Glance} (niveau ISCED 2, dépense directe, toutes sources ; établissements publics lorsque disponibles, sinon tous établissements). Le PIB par habitant en PPA avait été dérivé de ces deux grandeurs. L'inflation et le coût de la vie étaient neutralisés par l'usage des PPA en prix constants.
+
+\section{Trois niveaux de coût}
+Le niveau~1 (brut) utilisait le salaire effectif. Le niveau~2 (coût employeur) multipliait le brut par le rapport coût du travail sur salaire brut de \emph{Taxing Wages}, lu au niveau de salaire de l'enseignant moyen exprimé en pourcentage du salaire moyen national. Le niveau~3 (net) appliquait le rapport salaire net sur brut du même niveau, et comparait le net de l'enseignant au net du salarié moyen.
+
+\section{Résultats}
+Vingt-deux pays disposaient de toutes les données (vingt et un pour les parts de dépense). Le tableau~\ref{tab:main} les rapportait, triés par coût brut par élève ; la France figurait en gras.
+
+\begin{table}[ht]
+\centering\footnotesize\setlength{\tabcolsep}{3.5pt}
+\input{table_comparaison}
+\caption{Coût d'une heure hebdomadaire supplémentaire par classe. Dollars PPA en prix constants. «~\% sal.\ moyen~» : salaire de l'enseignant en pourcentage du salaire moyen national. «~\% dép.\ par élève~» et «~\% PIB/hab.~» : coût brut par élève rapporté à la dépense par élève et au PIB par habitant. «~\% sal.\ nat.~» : coût brut par élève en pourcentage du salaire moyen national annuel.}\label{tab:main}
+\end{table}
+
+Pour la France, le coût brut par élève était de 125,8~\$ PPA, au 8\textsuperscript{e} rang sur 22 en ordre croissant, sous la médiane de 137,9~\$. Il représentait 0,200~\% du salaire moyen national, 0,96~\% de la dépense par élève (4\textsuperscript{e} valeur la plus basse sur 21 ; médiane 1,32~\%) et 0,231~\% du PIB par habitant (3\textsuperscript{e} valeur la plus basse). Le salaire net de l'enseignant français valait 1,016~fois le net moyen national (16\textsuperscript{e} rang sur 22 en ordre décroissant). Ces rangs décrivaient une position relative et n'établissaient aucune cause.
+
+\section{Limites}
+\begin{itemize}
+\item \textbf{Heures statutaires de la France.} L'OCDE publiait 720 heures par an sur 36 semaines (20 heures par semaine), valeur identique pour tout le secondaire, alors que le service réglementaire était de 18 heures (15 pour les agrégés). Avec 18 heures, le coût brut français aurait été de 139,8~\$ PPA (+11,1~\%). Cet écart n'a pas été élucidé.
+\item \textbf{Coût employeur.} Le facteur de \emph{Taxing Wages} (1,363 pour la France) correspondait à un salarié du régime général, retraite comprise. Il excluait le régime des pensions des fonctionnaires (CAS Pensions en France). Il n'était donc pas comparable au coût complet du calcul national (52\,248~\euro\  hors CAS pour 46\,778~\euro\  de brut, soit 1,117 ; environ 1,675 avec CAS, valeur dérivée). Les niveaux brut et net étaient les plus robustes. Le niveau employeur devait être lu avec prudence, en particulier pour les pays dont les enseignants relevaient d'un régime spécifique.
+\item \textbf{Salaire moyen et non marginal.} Le calcul utilisait le salaire moyen de l'enseignant en poste ; un recrutement marginal coûtait moins (France : environ 219~M\euro\  au coût d'entrée de 38\,690~\euro{}  contre 347~M\euro\  au coût de sortie de 61\,360~\euro, pour le collège, valeurs PLF~2025).
+\item \textbf{Couverture.} Étaient écartés : la Roumanie (absente de \emph{Taxing Wages}), Israël pour les parts de dépense, ainsi que le Danemark, la Suède, l'Irlande et le Pérou (heures statutaires absentes), les Pays-Bas, la Norvège et la Nouvelle-Zélande (taille de classe absente) et les entités régionales du Royaume-Uni. Beaucoup de pays de l'OCDE manquaient d'au moins un des jeux utilisés. Aucun autre indicateur n'avait été substitué sans amendement préalable.
+\item \textbf{Dépense par élève.} Elle incluait tous les postes (investissement, personnels non enseignants). La France n'avait de valeur que pour l'ensemble des établissements, public et privé confondus. Le PIB par habitant avait été dérivé de la dépense et de sa part en pourcentage du PIB par habitant, non lu directement.
+\item \textbf{Net.} Il se rapportait à une personne seule sans enfant, au taux moyen d'un salarié du régime général.
+\end{itemize}
+
+\section{Lien avec le calcul national}
+Le coût de $+1$~heure hebdomadaire en France, calculé au niveau national à partir des services statutaires, des effectifs de classes et du coût moyen chargé par catégorie (RAP~2025), avait été de 295~M\euro\  hors CAS et 443~M\euro\  avec CAS pour le collège (service de 18 heures), soit 0,46 et 0,49 point de la mission \emph{Enseignement scolaire}. La comparaison internationale ne remplaçait pas ce calcul. Elle situait seulement la France parmi les pays de l'OCDE.
+
+\end{document}

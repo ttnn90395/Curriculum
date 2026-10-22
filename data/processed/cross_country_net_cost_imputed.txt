@@ -1,0 +1,40 @@
+couverture: salaire PPA 43, salaire XDC 43, heures 39, taille classe 40, pays Taxing Wages 38
+
+25 pays complets. Cout d'une heure hebdomadaire supplementaire par classe, par eleve et par an (dollars PPA):
+pays   sal.PPA %sal.moy fact.empl net/brut net/net moy  net PPA  ETP/cl $/el brut $/el empl %sal.nat
+CHL      39441    133.7     1.004    0.921       1.329    36322  0.0379      52.1      52.3    0.177
+CRI      60543    192.1     1.246     0.86       1.831    52044   0.033      67.0      83.5    0.213
+NZL*     67518    121.9       1.0     0.77       1.186    51980  0.0471      94.8      94.8    0.171
+ISR      59811    102.9     1.063    0.779       1.022    46613  0.0519     100.4     106.7    0.173
+GRC      36478     76.6     1.218    0.772       0.804    28149  0.0596     101.9     124.1    0.214
+LTU      64864    119.9     1.018    0.605       1.185    39257  0.0432     127.3     129.6    0.235
+USA      72439     98.5     1.081    0.758       0.992    54913    0.04     131.1     141.7    0.178
+HUN      48705    109.0      1.13    0.665        1.09    32389  0.0571     137.0     154.8    0.307
+SVK      42060    117.1     1.322    0.749       1.157    31510  0.0587     118.8     157.0    0.331
+CZE      42436    103.5     1.338    0.785       1.028    33321  0.0612     117.5     157.2    0.286
+EST      44158    111.4     1.338    0.768        1.11    33892  0.0559     124.6     166.7    0.314
+FRA      63915    101.8     1.363    0.717       1.016    45844    0.05     125.8     171.6      0.2
+LVA      38482     96.2     1.236    0.743       0.964    28593  0.0628     138.9     171.7    0.347
+AUS      77583    101.9     1.061    0.763       1.018    59204  0.0472     168.9     179.1    0.222
+SVN      57424    109.9     1.166    0.632        1.09    36288  0.0606     167.5     195.3    0.321
+ISL      68380     85.8     1.064    0.743       0.878    50840  0.0577     189.2     201.2    0.237
+PRT      63986    147.4     1.238    0.697       1.365    44601  0.0595     178.0     220.3     0.41
+ITA      53992     92.2     1.316    0.739       0.953    39898  0.0617     167.6     220.5    0.286
+NLD*    107310    115.3     1.126    0.696        1.11    74700  0.0556     200.7     226.0    0.216
+TUR      62895     94.8     1.185    0.712       0.957    44789  0.0714     191.3     226.8    0.288
+FIN      72742    103.4     1.205    0.688       1.023    50046  0.0639     240.3     289.5    0.342
+POL      62503    118.7     1.163     0.75       1.181    46856  0.0778     264.3     307.4    0.502
+NOR*     73021     86.9      1.13    0.742       0.898    54152  0.0573     286.0     323.2     0.34
+DEU     109039    114.7     1.195    0.605       1.135    65975  0.0615     284.4     339.9    0.299
+AUT      99455    113.6     1.276    0.658        1.11    65412  0.0589     274.0     349.6    0.313
+ecartes: [('ROU', 'absent de Taxing Wages')]
+
+== France: rang cout/eleve brut 8/22, cout employeur 11/22, salaire net en PPA 10/22 (1 = plus eleve), net ens./net moyen 16/22
+   variante France a 18 h de service: cout brut/eleve 139.8 $ PPA, soit +11.1 % (OCDE: 720 h sur 36.0 semaines)
+   ETP par classe 0.05 (calcul national: 0.0556); classe 25.4 (RERS: 25.4); facteur employeur Taxing Wages (regime general) 1.363
+   rapport implicite du calcul national: cout complet hors CAS 52,248 / salaire brut EAG 46,778 = 1.117 (a comparer au facteur ci-dessus)
+   cout/eleve brut: mediane 137.9, min 52.1, max 284.4
+   cout/eleve employeur: mediane 171.6, min 52.3, max 349.6
+
+Limites: facteurs employeur et nets = personne seule sans enfant au niveau de salaire moyen d'enseignant, regime general; les retraites specifiques des fonctionnaires (CAS Pensions en France, Beamte en Allemagne...) ne sont pas incluses; salaires EAG et fiscalite de la meme annee si disponible; BEL et GBR ecartes si codes differents.
+Ecritures: data/processed/cross_country_net_cost_imputed.csv

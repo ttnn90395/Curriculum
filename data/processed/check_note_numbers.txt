@@ -1,0 +1,16 @@
+OK   nombre de pays (tableau principal): obtenu 22, cite 22
+OK   nombre de pays (parts de depense): obtenu 21, cite 21
+OK   cout brut France ($ PPA): obtenu 125.8, cite 125.8
+OK   rang brut France (croissant): obtenu 8, cite 8
+OK   mediane brute: obtenu 137.9, cite 137.9
+OK   % salaire moyen national: obtenu 0.2, cite 0.2
+OK   % depense par eleve France: obtenu 0.957, cite 0.957
+OK   rang % depense (croissant): obtenu 4, cite 4
+OK   mediane % depense: obtenu 1.32, cite 1.32
+OK   % PIB/hab France: obtenu 0.2309, cite 0.2309
+OK   rang % PIB/hab (croissant): obtenu 3, cite 3
+OK   net ens./net moyen France: obtenu 1.016, cite 1.016
+OK   rang net (decroissant): obtenu 16, cite 16
+OK   variante 18 h ($ PPA): obtenu 139.8, cite 139.8
+
+14/14 verifications satisfaites

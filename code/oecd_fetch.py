@@ -28,7 +28,7 @@ def profile(path, area="FRA"):
         print("     " + " | ".join(f"{c}={r[c]}" for c in cols + ["OBS_VALUE"] if c in r and r[c] not in ("", "_Z") and c != "REF_AREA"))
 if __name__ == "__main__":
     xml_path = f"{OUT}/dataflows_OECD_EDU_IMEP.xml"
-    if os.path.exists(xml_path):
+    if os.path.exists(xml_path) and not sys.argv[1:]:
         root = ET.parse(xml_path).getroot()
         print("== tous les dataflows (id v version: nom)")
         for el in root.iter():
@@ -36,8 +36,9 @@ if __name__ == "__main__":
                 nm = next((n.text for n in el if n.tag.endswith("}Name")), "")
                 print(f"  {el.get('id')} v{el.get('version')}: {nm}")
     for fid in (sys.argv[1:] or IDS):
-        url = f"{BASE}/data/OECD.EDU.IMEP,{fid}/all?startPeriod=2013&dimensionAtObservation=AllDimensions&format=csvfilewithlabels"
-        path = f"{OUT}/{re.sub(r'[^A-Za-z0-9_]+', '_', fid)}.csv"
+        ag, fl = fid.split("|") if "|" in fid else ("OECD.EDU.IMEP", fid)
+        url = f"{BASE}/data/{ag},{fl}/all?startPeriod=2013&dimensionAtObservation=AllDimensions&format=csvfilewithlabels"
+        path = f"{OUT}/{re.sub(r'[^A-Za-z0-9_]+', '_', fl)}.csv"
         try:
             b = get(url); open(path, "wb").write(b)
             print(f"\n-- {fid}: {len(b)/1e6:.1f} Mo; sha256 {hashlib.sha256(b).hexdigest()[:16]}"); profile(path)

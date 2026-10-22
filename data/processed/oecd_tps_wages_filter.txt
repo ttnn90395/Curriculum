@@ -1,0 +1,11 @@
+10 dataflows retenus sur 212
+   DSD_REV_COMP_OECD@DF_FSSBOECD v2.0: Financing of social security benefits in OECD member countries
+   DSD_REV_COMP_OECD@DF_SSCPTOECD v2.0: Social security contributions and payroll taxes paid by government in OECD member countries
+   DSD_TAX_PIT@DF_PIT_AV v1.0: Personal income tax (PIT) and social security contributions (SSC) - average rates on gross wage earnings
+   DSD_TAX_PIT@DF_PIT_AVMR v1.0: Personal income tax (PIT) and social security contributions (SSC) - average and marginal rates on gross wage and earnings
+   DSD_TAX_PIT@DF_PIT_AV_COMB v1.0: Personal income tax (PIT) and social security contributions (SSC) - average combined rates
+   DSD_TAX_PIT@DF_PIT_MR v1.0: Personal income tax (PIT) and social security contributions (SSC) - marginal rates on gross wage earnings
+   DSD_TAX_SSC@DF_SSC_EMPLOYEE v1.0: Social security contributions (SSC) - employee rates
+   DSD_TAX_SSC@DF_SSC_EMPLOYER v1.0: Social security contributions (SSC) - employer rates
+   DSD_TAX_SSC@DF_SSC_SELF v1.0: Social security contributions (SSC) - self-employed rates
+   DSD_TAX_WAGES_DECOMP@DF_TW_DECOMP v2.1: Labour taxation – tax wedge decompositions

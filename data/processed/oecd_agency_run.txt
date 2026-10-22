@@ -1,0 +1,76 @@
+== OECD.CTP.TPS: 212 dataflows, 198 retenus
+   DSD_CBCR@DF_CBCRI v1.1: Country-by-country reporting (CbCR) - Aggregate totals by jurisdiction - Corporate tax statistics
+   DSD_CBCR@DF_CBCRII v1.1: Country-by-country reporting (CbCR) - Interquartile mean values by jurisdiction - Corporate tax statistics
+   DSD_CBCR@DF_CBCRIII v1.1: Country-by-country reporting (CbCR) - Aggregate totals by the effective tax rate of the MNE group and by tax jurisdiction  - Corporate tax statistics
+   DSD_CBCR@DF_CBCRIV v1.1: Country-by-country reporting (CbCR) - Aggregate totals by the effective tax rate of the MNE sub-group and by tax jurisdiction - Corporate tax statistics
+   DSD_CBCR@DF_CBCRV v1.1: Country-by-country reporting (CbCR) - Distribution points of MNE group size - Corporate tax statistics
+   DSD_CBCR@DF_CBCRVI v1.1: Country-by-country reporting (CbCR) - Aggregate totals by the size of the MNE group and by tax jurisdictions - Corporate tax statistics
+   DSD_ETR@DF_ETR_BASELINE v2.1: Effective tax rates - Corporate tax statistics
+   DSD_ETR@DF_ETR_IBRD v2.1: Effective tax rates for income based tax incentives - Corporate tax statistics
+   DSD_ETR@DF_ETR_XBRD v2.1: Effective tax rates for expenditure based tax incentives - Corporate tax statistics
+   DSD_NECR@DF_NECRS v1.1: Net effective carbon rates
+   DSD_NECR@DF_NECRSREVFOR v1.1: Revenue forgone and net effective carbon rates
+   DSD_NEER@DF_NEERS v1.1: Net effective energy rates
+   DSD_NEER@DF_REVPOT v1.1: Net energy tax revenues and reform potential
+   DSD_QDD_ACT12@DF_QDD_ACT12 v1.0: Mandatory disclosure rules - Corporate tax statistics
+   DSD_QDD_ACT2@DF_QDD_ACT2 v1.0: Hybrid mismatch arrangements - Corporate tax statistics
+   DSD_QDD_CBCREQ@DF_QDD_CBCREQ v1.0: Country-by-country reporting (CbCR) requirements - Corporate tax statistics
+   DSD_QDD_CFC@DF_QDD_CFC v2.0: Controlled foreign company rules - Corporate tax statistics
+   DSD_QDD_ILR@DF_QDD_ILR v2.0: Interest limitation rules - Corporate tax statistics
+   DSD_QDD_IPR@DF_QDD_IPR v2.1: Intellectual properties regimes - Corporate tax statistics
+   DSD_REV_AFRICA@DF_REVBFA v2.0: Burkina Faso - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVBWA v2.0: Botswana - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVCIV v2.0: Côte d'Ivoire - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVCMR v2.0: Cameroon - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVCOD v2.0: Democratic Republic of the Congo - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVCOG v2.0: Republic of the Congo - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVCPV v2.0: Cabo Verde - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVEGY v2.0: Egypt - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVGAB v2.0: Gabon - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVGHA v2.0: Ghana - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVGIN v2.0: Guinea - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVGMB v1.0: Gambia - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVGNQ v2.1: Equatorial Guinea - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVKEN v2.0: Kenya - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVLBR v1.1: Liberia - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVLSO v2.0: Lesotho - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMAR v2.0: Morocco - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMDG v2.0: Madagascar - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMLI v2.0: Mali - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMOZ v2.0: Mozambique - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMRT v2.0: Mauritania - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMUS v2.0: Mauritius - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVMWI v2.0: Malawi - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVNAM v2.0: Namibia - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVNER v2.0: Niger - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVNGA v2.0: Nigeria - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVRWA v2.0: Rwanda - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVSEN v2.0: Senegal - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVSLE v2.0: Sierra Leone - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVSOM v2.0: Somalia - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVSWZ v2.0: Eswatini - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVSYC v2.0: Seychelles - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVTCD v2.0: Chad - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVTGO v2.1: Togo - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVTUN v2.0: Tunisia - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVUGA v2.0: Uganda - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVZAF v2.0: South Africa - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REVZMB v2.0: Zambia - tax and non-tax revenues
+   DSD_REV_AFRICA@DF_REV_ALL v2.0: Tax evenues, all AFRICA countries
+   DSD_REV_ASAP@DF_REVARM v2.1: Armenia - tax revenues
+   DSD_REV_ASAP@DF_REVAUS v2.1: Australia - tax revenues in Revenue Statistics in Asia and the Pacific
+== OECD.ELS.SPD: 12 dataflows, 5 retenus
+   DSD_PAG@DF_DPS v1.0: Design of pension systems
+   DSD_PAG@DF_PAG v1.0: Pensions at a glance
+   DSD_PAG@DF_PRR v1.0: Pension replacement rates
+   DSD_PAG@DF_PW v1.0: Pension wealth
+   DSD_SOCX_AGG@DF_NET_GDP v1.0: Net total social expenditure in % GDP
+== OECD.ELS.SAE: 40 dataflows, 8 retenus
+   DSD_EARNINGS@AGE_WAGE_GAP v1.0: Wage gap by age
+   DSD_EARNINGS@AV_AN_WAGE v1.0: Average annual wages
+   DSD_EARNINGS@DATASET v1.0: Full earnings dataset
+   DSD_EARNINGS@DEC_I v1.0: Decile ratios of gross earnings
+   DSD_EARNINGS@GENDER_WAGE_GAP v1.1: Gender wage gap
+   DSD_EARNINGS@MIN2AVE v1.0: Minimum relative to average wages of full-time workers
+   DSD_EARNINGS@MW_CURP v1.0: Minimum wages at current prices in national currency units (NCU)
+   DSD_EARNINGS@RMW v1.0: Real minimum wages at constant prices

@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF1968</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-10-22T07:08:59.2070079+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Dataflows>
+      <structure:Dataflow id="DSD_DUR@DF_AVD_DUR" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,SEX=_T,AGE=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Average duration of unemployment</common:Name>
+        <common:Name xml:lang="fr">Durée moyenne du chômage</common:Name>
+        <common:Description xml:lang="en">This table contains data on the average duration of unemployment (reported in number of months) by sex and standardised age groups (15-19, 15-24, 20-24, 25-54, 55+, total).
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Ce tableau contient des données sur la durée moyenne du chômage (exprimée en nombre de mois) par sexe et groupes d'âge standardisés (15-19, 15-24, 20-24, 25-54, 55+, total).
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_DUR" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_DUR@DF_DUR_D" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,DURATION</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,SEX=_T,AGE=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Unemployment by duration</common:Name>
+        <common:Name xml:lang="fr">Chômage selon la durée</common:Name>
+        <common:Description xml:lang="en">This table contains data on the level of the five durations - less than 1 month, &gt;1 month and &lt; 3 months, &gt;3 months and &lt;6 months, &gt;6 months and &lt;1 year, 1 year and over - of unemployment by sex and by standardised age groups (15-19, 15-24, 20-24, 25-54, 55+, total).
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Ce tableau contient des données sur le niveau des cinq durées - moins d'un mois, &gt;1 mois et &lt; 3 mois, &gt;3 mois et &lt;6 mois, &gt;6 mois et &lt;1 an, 1 an et plus - du chômage par sexe et par groupes d'âge standardisés (15-19, 15-24, 20-24, 25-54, 55+, total).
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_DUR" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_DUR@DF_DUR_I" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,DURATION</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,SEX=_T,AGE=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of unemployment by duration</common:Name>
+        <common:Name xml:lang="fr">Incidence du chômage selon la durée</common:Name>
+        <common:Description xml:lang="en">This table contains data on the share of the five durations - less than 1 month,&gt;1 month and &lt; 3 months,&gt;3 months and &lt;6 months,&gt;6 months and &lt;1 year, 1 year and over - of unemployment among total unemployment by sex and by standardised age groups (15-19, 15-24, 20-24, 25-54, 55+, total).
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Ce tableau contient des données sur la part des cinq durées - moins d'un mois, &gt; 1 mois et &lt; 3 mois, &gt; 3 mois et &lt; 6 mois, &gt; 6 mois et &lt; 1 an, 1 an et plus - du chômage parmi le chômage total par sexe et par groupes d'âge standardisés (15-19, 15-24, 20-24, 25-54, 55+, total).
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_DUR" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@AGE_WAGE_GAP" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,AGGREGATION_OPERATION</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>UNIT_MEASURE,PAY_PERIOD,PRICE_BASE,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX=_T,AGGREGATION_OPERATION=MEAN,MEASURE=S_PA_WP,TIME_PERIOD_START=2015</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Wage gap by age</common:Name>
+        <common:Name xml:lang="fr">Écart salarial selon l'âge</common:Name>
+        <common:Description xml:lang="en">This dataset contains age wage gaps defined as the difference between mean (median) earnings of 25-54 year-olds and that of 15-24 year-olds (respectively 55-64 year-olds) relative to mean (median) earnings of 25-54 year-olds. Earnings refer to gross earnings of full-time dependent employees unless otherwise indicated.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient les écarts salariaux selon l'âge définis comme la différence entre les revenus moyens (médians) des 25-54 ans et ceux des 15-24 ans (respectivement 55-64 ans) par rapport aux revenus moyens (médians) des 25 ans. -54 ans. Les gains font référence aux gains bruts des employés à charge à temps plein, sauf indication contraire.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@AV_AN_WAGE" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,PRICE_BASE,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,PAY_PERIOD,AGGREGATION_OPERATION,SEX,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2000</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Average annual wages</common:Name>
+        <common:Name xml:lang="fr">Salaire annuel moyen</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on average annual wages per employee in full-time equivalent unit in the total economy. Average annual wages per full-time equivalent dependent employee are obtained by dividing the national-accounts-based total wage bill by the average number of employees in the total economy, which is then converted in full-time equivalent unit by applying the ratio of average usual weekly hours per full-time employee to that of all employees. For more details, see: &lt;a href="http://www.oecd.org/els/oecd-employment-outlook-19991266.htm"&gt;http://www.oecd.org/els/oecd-employment-outlook-19991266.htm&lt;/a&gt; and &lt;a href="http://www.oecd.org/employment/emp/onlineoecdemploymentdatabase.htm"&gt;http://www.oecd.org/employment/emp/onlineoecdemploymentdatabase.htm&lt;/a&gt; The data are available in Current prices in NCU,  in 2025 constant prices and NCU, in 2025 USD PPPs for private consumption expenditure and 2025 constant prices. NCU: National currency units. For further details on these estimates, please see &lt;a href="http://www.oecd.org/els/emp/AVERAGE_WAGES.pdf"&gt;http://www.oecd.org/els/emp/AVERAGE_WAGES.pdf&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur les salaires annuels moyens par employé en unité équivalente temps plein dans l'économie totale. Les salaires annuels moyens par employé dépendant équivalent temps plein sont obtenus en divisant la masse salariale totale basée sur les comptes nationaux par le nombre moyen d'employés dans l'économie totale, qui est ensuite convertie en unité équivalent temps plein en appliquant le ratio du salaire moyen. heures hebdomadaires habituelles par salarié à temps plein à celle de l’ensemble des salariés. Pour plus de détails, voir : &lt;a href="http://www.oecd.org/els/oecd-employment-outlook-19991266.htm"&gt;http://www.oecd.org/els/oecd-employment- Outlook-19991266.htm&lt;/a&gt; et &lt;a href="http://www.oecd.org/employment/emp/onlineoecdemploymentdatabase.htm"&gt;http://www.oecd.org/employment/emp/onlineoecdemploymentdatabase. htm&lt;/a&gt; Les données sont disponibles en prix courants en NCU, en prix constants de 2025 et NCU, en PPA USD des dépenses de consommation privés de 2025 et en prix constants de 2025. NCU : unités monétaires nationales. Pour plus de détails sur ces estimations, veuillez consulter &lt;a href="http://www.oecd.org/els/emp/AVERAGE_WAGES.pdf"&gt;http://www.oecd.org/els/emp/AVERAGE_WAGES.pdf &lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@DATASET" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Full earnings dataset</common:Name>
+        <common:Name xml:lang="fr">Ensemble de données complet sur les revenus</common:Name>
+        <common:Description xml:lang="en">This dataset contains all earnings data</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient toutes les données sur les revenus</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@DEC_I" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,MEASURE,UNIT_MEASURE,AGGREGATION_OPERATION</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD,PRICE_BASE,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX=_T,TIME_PERIOD_START=2015</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Decile ratios of gross earnings</common:Name>
+        <common:Name xml:lang="fr">Ratios déciles des gains bruts</common:Name>
+        <common:Description xml:lang="en">This dataset contains three earnings-dispersion measures - ratio of 9th-to-1st, 9th-to-5th and 5th-to-1st - where 9th, 5th (median) and 1st deciles are upper-earnings decile limits, unless otherwise indicated, of gross earnings of full-time dependent employees.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient trois mesures de dispersion des revenus - ratio du 9e au 1er, du 9e au 5e et du 5e au 1er - où le 9e, le 5e (médiane) et le 1er déciles sont les limites des déciles de revenus supérieurs, sauf indication contraire, des gains bruts des salariés dépendants à temps plein.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@GENDER_WAGE_GAP" agencyID="OECD.ELS.SAE" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,MEASURE,UNIT_MEASURE,AGGREGATION_OPERATION</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD,PRICE_BASE,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX=_T,TIME_PERIOD_START=2015</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Gender wage gap</common:Name>
+        <common:Name xml:lang="fr">Écart salarial entre hommes et femmes</common:Name>
+        <common:Description xml:lang="en">This dataset contains gender wage gaps defined as: 1) the unadjusted difference between median wages of men and women relative to the median wages of men, 2) the unadjusted difference between mean wages of men and women relative to the mean wages of men, 3) at the 1st decile and 4) at the 9th decile.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient les écarts salariaux entre les sexes définis comme : 1) la différence non ajustée entre les salaires médians des hommes et des femmes par rapport aux salaires médians des hommes, 2) la différence non ajustée entre les salaires moyens des hommes et des femmes par rapport aux salaires moyens des hommes, 3) au 1er décile et 4) au 9e décile.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@MIN2AVE" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,AGGREGATION_OPERATION</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,UNIT_MEASURE,PAY_PERIOD,PRICE_BASE,SEX,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Minimum relative to average wages of full-time workers</common:Name>
+        <common:Name xml:lang="fr">Salaire minimum par rapport au salaire moyen des travailleurs à temps plein</common:Name>
+        <common:Description xml:lang="en">For cross-country comparisons, data on minimum wage levels are further supplemented with another measure of minimum wages relative to average wages, that is, the ratio of minimum wages to median earnings of full-time employees. Median rather than mean earnings provide a better basis for international comparisons as it accounts for differences in earnings dispersion across countries. However, while median of basic earnings of full-time workers - i.e. excluding overtime and bonus payments - are ideally, the preferred measure of average wages for international comparisons of minimum-to-median earnings, they are not available for a large number of countries.
+
+Minimum relative to mean earnings of full-time workers are also provided.</common:Description>
+        <common:Description xml:lang="fr">"Pour les comparaisons entre pays, les données sur les niveaux de salaire minimum sont complétées par une autre mesure du salaire minimum par rapport au salaire moyen, à savoir le rapport entre le salaire minimum et les gains médians des salariés à temps plein. Les gains médians plutôt que moyens fournissent une Cependant, la médiane des revenus de base des travailleurs à temps plein - c'est-à-dire hors heures supplémentaires et primes - constitue, idéalement, la mesure privilégiée des salaires moyens pour les comparaisons internationales. Si l’on considère les revenus minimum ou médians, ils ne sont pas disponibles dans un grand nombre de pays.
+
+Des minimums relatifs aux gains moyens des travailleurs à temps plein sont également fournis.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@MW_CURP" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,PRICE_BASE,AGGREGATION_OPERATION,SEX,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD=A,TIME_PERIOD_START=2010</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Minimum wages at current prices in national currency units (NCU)</common:Name>
+        <common:Name xml:lang="fr">Salaire minimum aux prix courants en unités monétaires nationales (NCU)</common:Name>
+        <common:Description xml:lang="en">This dataset contains statutory and national minimum wages in 30 OECD Member countries, Brazil, Bulgaria, Croatia, Malta, Peru, Romania and the Russian Federation. For detailed country notes: see &lt;a href="http://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/Minimum-wages.pdf"&gt;Minimum wages metadata&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient les salaires minimums légaux et nationaux dans 30 pays membres de l'OCDE, le Brésil, la Bulgarie, la Croatie, Malte, le Pérou, la Roumanie et la Fédération de Russie. Pour des notes détaillées par pays : voir &lt;a href="http://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/Minimum-wages.pdf"&gt;Minimum wages metadonnées&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@PAY_INCIDENCE" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,MEASURE,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD,PRICE_BASE,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX=_T,TIME_PERIOD_START=2015</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of low and high pay</common:Name>
+        <common:Name xml:lang="fr">Incidence des salaires bas et élevés</common:Name>
+        <common:Description xml:lang="en">This dataset contains series on the incidence of low-paid workers defined as the share of full-time workers earning less than two-thirds of gross median earnings of all full-time workers; the incidence of high-paid workers defined as the share of full-time workers earning more than one-and-half time gross median earnings of all full-time workers.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des séries sur l'incidence des travailleurs à faible salaire, définis comme la part des travailleurs à temps plein gagnant moins des deux tiers des gains médians bruts de tous les travailleurs à temps plein ; l'incidence des travailleurs bien rémunérés est définie comme la part des travailleurs à temps plein gagnant plus d'une fois et demie le salaire médian brut de l'ensemble des travailleurs à temps plein.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_EARNINGS@RMW" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,PRICE_BASE,AGGREGATION_OPERATION,SEX,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PAY_PERIOD=A,TIME_PERIOD_START=2001</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_UNIT_MEASURE:UNIT_MEASURE,BASE_PER</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_UNIT_MEASURE:Combined unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_UNIT_MEASURE:Unité de mesure combinée</common:AnnotationText>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Real minimum wages at constant prices</common:Name>
+        <common:Name xml:lang="fr">Salaire minimum réel à prix constants</common:Name>
+        <common:Description xml:lang="en">Real minimum wages are statutory minimum wages converted into a common hourly and annual pay period for the 30 OECD countries and two other non-member countries for which they are available. Real hourly and annual minimum wages are calculated first by deflating the series using the consumer price index taking 2025 as the base year then converted into common currency units 1) US dollars (USD) and 2) USD using Purchasing Power Parities (PPPs) for private consumption expenditures in 2025.</common:Description>
+        <common:Description xml:lang="fr">es salaires minimum réels sont des salaires minimum légaux convertis en une période de paie horaire et annuelle commune pour les 30 pays de l'OCDE et deux autres pays non membres pour lesquels ils sont disponibles. Les salaires minimum horaires et annuels réels sont d'abord calculés en déflatant la série en utilisant l'indice des prix à la consommation en prenant 2025 comme année de base, puis convertis en unités monétaires communes 1) dollars américains (USD) et 2) USD en utilisant les parités de pouvoir d'achat (PPA) pour le secteur privé. dépenses de consommation en 2025.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_EARNINGS" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_FTPT@DF_FTPT" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORK_TIME_ARNGMNT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE,WORKER_STATUS,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,JOB_COVERAGE,OBS_STATUS=A,UNIT_MULT=0,WORK_TIME_ARNGMNT=_T</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,UNIT_MEASURE=PS,WORKER_STATUS=_T,AGE=_T,WORK_TIME_ARNGMNT=FT+PT,LABOUR_FORCE_STATUS=EMP,MEASURE=EMP,JOB_COVERAGE=MAIN</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Full-time and part-time employment</common:Name>
+        <common:Name xml:lang="fr">Emploi à temps plein et à temps partiel</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on full-time and part-time employment according to:
+&lt;ul&gt;
+&lt;li&gt;a common definition of 30-usual weekly hours of work in the main job&lt;/li&gt;
+&lt;li&gt;national definitions&lt;/li&gt;
+&lt;/ul&gt;
+Data are broken down by professional status - employees, total employment - sex and standardised age groups (15-24, 25-54, 55+, total)
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+For detailed information on labour force surveys for all countries please see &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur l'emploi à temps plein et à temps partiel selon :
+&lt;ul&gt;
+&lt;li&gt;une définition commune des 30 heures de travail hebdomadaires habituelles pour l'emploi principal&lt;/li&gt;
+&lt;li&gt;définitions nationales&lt;/li&gt;
+&lt;/ul&gt;
+Les données sont ventilées par statut professionnel - salariés, emploi total - sexe et tranches d'âge standardisées (15-24, 25-54, 55+, total)
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_FTPT" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_FTPT@DF_FTPT_COMMON" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORK_TIME_ARNGMNT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE,WORKER_STATUS,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,JOB_COVERAGE,OBS_STATUS=A,UNIT_MULT=0,WORK_TIME_ARNGMNT=_T</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,UNIT_MEASURE=PS,WORKER_STATUS=_T,AGE=Y25T54,WORK_TIME_ARNGMNT=FT+PT,LABOUR_FORCE_STATUS=EMP,MEASURE=EMP,JOB_COVERAGE=MAIN</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Full-time and part-time employment based on OECD-harmonized definition</common:Name>
+        <common:Name xml:lang="fr">Emploi à temps plein et à temps partiel selon la définition harmonisée de l'OCDE</common:Name>
+        <common:Description xml:lang="en">This dataset based on so-called OECD harmonized definition contains data on full-time and part-time employment according to a common definition of 30-usual weekly hours of work in the main job. Data are broken down by professional status - employees, total employment - sex and standardised age groups (15-24, 25-54, 55+, total)
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+For detailed information on labour force surveys for all countries please see &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données  basé sur la définition harmonisée de l'OCDE contient des données sur l'emploi à temps plein et à temps partiel selon une définition commune de 30 heures de travail hebdomadaires habituelles pour l'emploi principal. Les données sont ventilées par statut professionnel - salariés, emploi total - sexe et tranches d'âge standardisées (15-24, 25-54, 55+, total).
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_FTPT" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_FTPT@DF_FTPT_COMMON_INC" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORK_TIME_ARNGMNT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE,WORKER_STATUS,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,JOB_COVERAGE,OBS_STATUS=A,UNIT_MULT=0,WORK_TIME_ARNGMNT=_T</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,UNIT_MEASURE=PS,WORKER_STATUS=_T,AGE=Y15T64,WORK_TIME_ARNGMNT=FT+PT,LABOUR_FORCE_STATUS=EMP,MEASURE=EMP,JOB_COVERAGE=MAIN</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of full-time and part-time employment based on OECD-harmonized definition</common:Name>
+        <common:Name xml:lang="fr">Fréquence de l’emploi à temps plein et à temps partiel selon la définition harmonisée de l’OCDE</common:Name>
+        <common:Description xml:lang="en">This dataset contains incidences and gender composition of part-time employment with standardised (15-24, 25-54, 55-64, 65+, total) and detailed age groups. Data are further broken down by professional status - employees, total employment. Part-time employment is based on a common 30-usual-hour cut-off in the main job. 
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+For detailed information on labour force surveys for all countries please see &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient l'incidence et la répartition par sexe de l'emploi à temps partiel avec des tranches d'âge standardisées (15-24, 25-54, 55-64, 65+, total) et détaillées. Les données sont ensuite ventilées par statut professionnel – salariés, emploi total. L'emploi à temps partiel est basé sur une coupure habituelle de 30 heures pour l'emploi principal.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_FTPT" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_FTPT@DF_FTPT_INC_GEN" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORK_TIME_ARNGMNT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE,WORKER_STATUS,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,JOB_COVERAGE,OBS_STATUS=A,UNIT_MULT=0,WORK_TIME_ARNGMNT=_T</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=M+F,UNIT_MEASURE=PT_POP_SUB,WORKER_STATUS=_T,AGE=_T,WORK_TIME_ARNGMNT=PT,LABOUR_FORCE_STATUS=EMP,MEASURE=EMP_PT,JOB_COVERAGE=MAIN</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Gender share of part-time employment</common:Name>
+        <common:Name xml:lang="fr">Part des sexes dans l'emploi à temps partiel</common:Name>
+        <common:Description xml:lang="en">This dataset contains gender composition of part-time employment with standardised (15-24, 25-54, 55-64, 65+, total) and detailed age groups. Data are further broken down by professional status - employees, total employment. 
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+For detailed information on labour force surveys for all countries please see &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données présente la répartition par sexe de l'emploi à temps partiel avec des tranches d'âge standardisées (15-24, 25-54, 55-64, 65+, total) et détaillées. Les données sont ensuite ventilées par statut professionnel – salariés, emploi total.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_FTPT" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_FTPT@DF_FTPT_NATIONAL" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORK_TIME_ARNGMNT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE,WORKER_STATUS,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,JOB_COVERAGE,OBS_STATUS=A,UNIT_MULT=0,WORK_TIME_ARNGMNT=_T</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,UNIT_MEASURE=PS,WORKER_STATUS=_T,AGE=_T,WORK_TIME_ARNGMNT=FT+PT,LABOUR_FORCE_STATUS=EMP,MEASURE=EMP,JOB_COVERAGE=MAIN</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Full-time and part-time employment based on national definition</common:Name>
+        <common:Name xml:lang="fr">Emploi à temps plein et à temps partiel selon la définition nationale</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on full-time and part-time employment based on national definition. Data are broken down by professional status - employees, total employment - sex and standardised age groups (15-24, 25-54, 55+, total).
+&lt;p /&gt;
+National definitions of part-time work vary considerably across OECD countries. Essentially three main approaches can be distinguished: i) a classification based on the worker’s perception of his/her employment situation; ii) a cut-off (generally 30 or 35 hours per week) based on usual working hours, with persons usually working fewer hours being considered part-timers; iii) a comparable cut-off based on actual hours worked during the reference week. A criterion based on actual hours will generally yield a part-time rate higher than one based on usual hours, particularly if there are temporary reductions in working time as a result of holidays, illness, short-timing, etc. On the other hand, it is not entirely clear whether a classification based on the worker’s perception will necessarily yield estimates of part-time work that are higher or lower than one based on a fixed cut-off. In one country (France) which changed from 1981 to 1982 from a definition based on an actual hours cut-off (30 hours) to one based on the respondent’s perception, the latter criterion appeared to produce slightly higher estimates.
+&lt;p /&gt;
+Other factors as well affect the international comparability of the estimates. In some countries, the hours’ cut-off is based on hours for the main job, in others on total hours for all jobs. Certain countries do not consider unpaid family workers to be employed unless they work more than a minimum number of hours, so that such workers do not enter into counts for part-time workers. 
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+For detailed information on labour force surveys for all countries please see &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur l'emploi à temps plein et à temps partiel selon la définition nationale. Les données sont ventilées par statut professionnel - salariés, emploi total - sexe et groupes d'âge standardisés (15-24, 25-54, 55+, total).
+&lt;p /&gt;
+Les définitions nationales du travail à temps partiel varient considérablement selon les pays de l'OCDE. Essentiellement, trois approches principales peuvent être distinguées : i) une classification basée sur la perception qu’a le travailleur de sa situation d’emploi ; ii) un seuil (généralement de 30 ou 35 heures par semaine) basé sur les heures de travail habituelles, les personnes travaillant habituellement moins d'heures étant considérées comme des travailleurs à temps partiel ; iii) un seuil comparable basé sur les heures réellement travaillées au cours de la semaine de référence. Un critère basé sur la durée réelle donnera généralement un taux de temps partiel supérieur à celui basé sur la durée habituelle, notamment s'il y a des réductions temporaires du temps de travail dues à des vacances, une maladie, un chômage partiel, etc. il n'est pas tout à fait clair si une classification basée sur la perception du travailleur donnera nécessairement des estimations du travail à temps partiel supérieures ou inférieures à une classification basée sur un seuil fixe. Dans un pays (la France) qui est passé entre 1981 et 1982 d’une définition basée sur une limite d’heures réelle (30 heures) à une définition basée sur la perception de l’enquêté, ce dernier critère semble produire des estimations légèrement plus élevées.
+&lt;p /&gt;
+D'autres facteurs affectent également la comparabilité internationale des estimations. Dans certains pays, la limite d’heures est basée sur les heures consacrées à l’emploi principal, dans d’autres sur le nombre total d’heures pour tous les emplois. Certains pays ne considèrent pas les travailleurs familiaux non rémunérés comme employés à moins qu'ils ne travaillent plus qu'un nombre minimum d'heures, de sorte que ces travailleurs ne sont pas comptabilisés dans les travailleurs à temps partiel.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_FTPT" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_FTPT@DF_FTPT_NATIONAL_INC" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORK_TIME_ARNGMNT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE,WORKER_STATUS,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,JOB_COVERAGE,OBS_STATUS=A,UNIT_MULT=0,WORK_TIME_ARNGMNT=_T</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,UNIT_MEASURE=PS,WORKER_STATUS=_T,AGE=_T,WORK_TIME_ARNGMNT=FT+PT,LABOUR_FORCE_STATUS=EMP,MEASURE=EMP,JOB_COVERAGE=MAIN</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of full-time and part-time employment based on national definitions</common:Name>
+        <common:Name xml:lang="fr">Fréquence de l'emploi à temps plein et à temps partiel selon les définitions nationales</common:Name>
+        <common:Description xml:lang="en">This dataset contains incidences and gender composition of part-time employment with standardised (15-24, 25-54, 55-64, 65+, total) and detailed age groups. Data are further broken down by professional status - employees, total employment. Part-time employment is based on national definitions.
+&lt;p /&gt;
+The definition of part-time work varies considerably across OECD countries Essentially three main approaches can be distinguished: i) a classification based on the worker's perception of his/her employment situation; ii) a cut-off (generally 30 or 35 hours per week) based on usual working hours, with persons usually working fewer hours being considered part-timers; iii) a comparable cut-off based on actual hours worked during the reference week. A criterion based on actual hours will generally yield a part-time rate higher than one based on usual hours, particularly if there are temporary reductions in working time as a result of holidays, illness, short-timing, etc. On the other hand, it is not entirely clear whether a classification based on the worker's perception will necessarily yield estimates of part-time work that are higher or lower than one based on a fixed cut-off. In one country (France) which changed from 1981 to 1982 from a definition based on an actual hours cut-off (30 hours) to one based on the respondent's perception, the latter criterion appeared to produce slightly higher estimates.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+For detailed information on labour force surveys for all countries please see &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient l'incidence et la répartition par sexe de l'emploi à temps partiel avec des tranches d'âge standardisées (15-24, 25-54, 55-64, 65+, total) et détaillées. Les données sont ensuite ventilées par statut professionnel – salariés, emploi total. L'emploi à temps partiel est basé sur des définitions nationales.
+&lt;p /&gt;
+La définition du travail à temps partiel varie considérablement selon les pays de l'OCDE. On peut essentiellement distinguer trois approches principales : i) une classification basée sur la perception qu'a le travailleur de sa situation d'emploi ; ii) un seuil (généralement de 30 ou 35 heures par semaine) basé sur les heures de travail habituelles, les personnes travaillant habituellement moins d'heures étant considérées comme des travailleurs à temps partiel ; iii) un seuil comparable basé sur les heures réellement travaillées au cours de la semaine de référence. Un critère basé sur la durée réelle donnera généralement un taux de temps partiel supérieur à celui basé sur la durée habituelle, notamment s'il y a des réductions temporaires du temps de travail dues à des vacances, une maladie, un chômage partiel, etc. il n'est pas tout à fait clair si une classification basée sur la perception du travailleur donnera nécessairement des estimations du travail à temps partiel supérieures ou inférieures à une classification basée sur un seuil fixe. Dans un pays (la France) qui est passé entre 1981 et 1982 d'une définition basée sur une limite d'heures réelle (30 heures) à une définition basée sur la perception de l'enquêté, ce dernier critère semble produire des estimations légèrement plus élevées.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_FTPT" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_HW@DF_AVG_ANN_HRS_WKD" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>WORKER_STATUS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0,LABOUR_FORCE_STATUS,AGGREGATION_OPERATION,PAY_PERIOD,HOURS_TYPE,JOB_COVERAGE,SEX,AGE,HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,WORKER_STATUS=_T,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Average annual hours actually worked per worker</common:Name>
+        <common:Name xml:lang="fr">Nombre moyen d’heures annuelles ouvrées par personne ayant un emploi</common:Name>
+        <common:Description xml:lang="en">The concept used is the total number of hours worked over the year divided by the average number of people in employment. The data are intended for comparisons of trends over time; they are unsuitable for comparisons of the level of average annual hours of work for a given year, because of differences in their sources.  Part-time workers are covered as well as full-time workers.
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Le concept utilisé est celui du nombre d'heures totales travaillées pendant l'année divisé par le nombre moyen de personnes ayant un emploi. Ces données visent à effectuer des comparaisons de tendances dans le temps ; en revanche, à cause de la disparité des sources, elles ne permettent pas des comparaisons de niveaux pour une année donnée. Les chiffres portent sur le travail à temps partiel et à temps complet.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_HW" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_HW@DF_AVG_USL_WK_WKD" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>WORKER_STATUS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0,LABOUR_FORCE_STATUS,AGGREGATION_OPERATION,PAY_PERIOD,HOURS_TYPE,JOB_COVERAGE,HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=_T,WORKER_STATUS=ICSE93_1,WORK_TIME_ARNGMNT=_T,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Average usual weekly hours worked on the main job</common:Name>
+        <common:Name xml:lang="fr">Nombre moyen d’heures hebdomadaires habituelles travaillées dans le cadre de l'emploi principal</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on average usual weekly hours worked in the main job broken down by total employment, full-time employment and part-time employment.  Actual hours of work, instead of usual hours of work, are only available in some countries (Mexico and Korea).  Data are further broken down by professional status - employees, total employment - by sex and standardised age groups (15-24, 25-54, 55-64, 65+ and total) .
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at: &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur les heures hebdomadaires moyennes travaillées dans l'emploi principal, réparties par emploi total, emploi à temps plein et emploi à temps partiel. Les heures de travail réelles au lieu des heures de travail habituelles ne sont disponibles que dans certains pays (Mexique et Corée). Les données sont ensuite ventilées par statut professionnel - employés, emploi total - par sexe et groupes d'âge standardisés (15-24, 25-54, 55-64, 65+ et total) .
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_HW" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_HW@DF_EMP_LNG_USL_WK_HRS" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>WORKER_STATUS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0,LABOUR_FORCE_STATUS,AGGREGATION_OPERATION,PAY_PERIOD,HOURS_TYPE,JOB_COVERAGE</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=Y15T64,WORKER_STATUS=_T,HOUR_BANDS=H_GE50,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of employment by long usual weekly hours worked</common:Name>
+        <common:Name xml:lang="fr">Incidence de l'emploi selon les longues heures hebdomadaires habituelles travaillées</common:Name>
+        <common:Description xml:lang="en">This dataset contains the share of employment by long hour bands (50 and over, 60 and over) for usual weekly hours worked in the main job. Actual hours of work instead of usual hours of work are only available in some countries (Japan and Korea). Data are broken down by professional status - employees, total employment - by sex and age groups.
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient la part de l'emploi par tranches d'heures longues (50 ans et plus, 60 ans et plus) pour les heures hebdomadaires habituelles travaillées dans l'emploi principal. Les heures de travail réelles au lieu des heures de travail habituelles ne sont disponibles que dans certains pays (Japon et Corée). Les données sont ventilées par statut professionnel - salariés, emploi total - par sexe et tranches d'âge.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_HW" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_HW@DF_EMP_USL_WK_HRS" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORKER_STATUS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0,LABOUR_FORCE_STATUS,AGGREGATION_OPERATION,PAY_PERIOD,HOURS_TYPE,JOB_COVERAGE</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=_T,WORKER_STATUS=_T,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of employment by usual weekly hours worked</common:Name>
+        <common:Name xml:lang="fr">Incidence de l'emploi selon les heures hebdomadaires habituelles travaillées</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on the cross-country distribution of employment by hour bands for declared hour bands, broken down by professional status - employees, total employment - sex and detailed age groups.
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur la répartition de l'emploi par tranches horaires déclarées dans plusieurs pays, ventilées par statut professionnel - salariés, emploi total - sexe et groupes d'âge détaillés.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_HW" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_HW@DF_LNG_WK_HRS" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>WORKER_STATUS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0,LABOUR_FORCE_STATUS,AGGREGATION_OPERATION,PAY_PERIOD,HOURS_TYPE,JOB_COVERAGE</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=Y15T64,WORKER_STATUS=ICSE93_1,HOUR_BANDS=H_GE60,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Long usual weekly working hours</common:Name>
+        <common:Name xml:lang="fr">Horaires de travail hebdomadaires habituels longs</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on employment by long hour bands (50 and over, 60 and over) for usual weekly hours worked in the main job. Actual hours of work instead of usual hours of work are only available in some countries (Japan and Korea). Data are broken down by professional status - employees, total employment - by sex and age groups.
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur l'emploi par tranches d'heures longues (50 ans et plus, 60 ans et plus) pour les heures hebdomadaires habituelles travaillées dans l'emploi principal. Les heures de travail réelles au lieu des heures de travail habituelles ne sont disponibles que dans certains pays (Japon et Corée). Les données sont ventilées par statut professionnel - salariés, emploi total - par sexe et tranches d'âge.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_HW" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_HW@DF_USL_WK_HRS" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>HOUR_BANDS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORKER_STATUS</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0,LABOUR_FORCE_STATUS,AGGREGATION_OPERATION,PAY_PERIOD,HOURS_TYPE,JOB_COVERAGE</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=Y15T64,WORKER_STATUS=ICSE93_1,HOUR_BANDS=H_GE60,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Usual hours worked by weekly hour bands</common:Name>
+        <common:Name xml:lang="fr">Heures habituelles travaillées par tranches horaires hebdomadaires</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on employment by hour bands for usual weekly hours worked in the main job.  Standard hour bands are reported for most countries.  Actual hours of work instead of usual hours of work are only available in some countries (Japan and Korea).  Data are broken down by professional status - employees, total employment - by sex and standardised age groups (15-24, 25-54, 55+, total).
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur l'emploi par tranches horaires pour les heures hebdomadaires habituelles travaillées dans l'emploi principal. Les tranches horaires standard sont indiquées pour la plupart des pays. Les heures de travail réelles au lieu des heures de travail habituelles ne sont disponibles que dans certains pays (Japon et Corée). Les données sont ventilées par statut professionnel - salariés, emploi total - par sexe et groupes d'âge standardisés (15-24, 25-54, 55+, total).
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_HW" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_INVPT_EMP@DF_INVPT_D" agencyID="OECD.ELS.SAE" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=_T,WORKER_STATUS=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Involuntary part time employment</common:Name>
+        <common:Name xml:lang="fr">Emploi à temps partiel involontaire</common:Name>
+        <common:Description xml:lang="en">This dataset contains incidences and gender composition of part-time employment with standardised age groups (15-24, 25-54, 55-64, 65+, total). Part-time employment is based on national definitions.
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient l'incidence et la répartition par sexe de l'emploi à temps partiel avec des groupes d'âge standardisés (15-24, 25-54, 55-64, 65+, total). Le travail à temps partiel et à temps partiel involontaire sont basées sur les définitions nationales.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_INVPT_EMP" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_INVPT_EMP@DF_INVPT_I" agencyID="OECD.ELS.SAE" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,SEX=_T,AGE=_T,WORKER_STATUS=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Incidence of involuntary part time employment</common:Name>
+        <common:Name xml:lang="fr">Fréquence de l emploi à temps partiel involontaire</common:Name>
+        <common:Description xml:lang="en">This dataset contains incidences and gender composition of part-time employment with standardised (15-24, 25-54, 55-64, 65+, total) and detailed age groups. Data are further broken down by professional status - employees, total employment. Part-time employment is based on national definitions.
+&lt;p /&gt;
+Detailed notes and sources can be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient l'incidence et la répartition par sexe de l'emploi à temps partiel avec des tranches d'âge standardisées (15-24, 25-54, 55-64, 65+, total) et détaillées. Les données sont ensuite ventilées par statut professionnel – salariés, emploi total. Le travail à temps partiel et à temps partiel involontaire sont basées sur les définitions nationales.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_INVPT_EMP" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_LFS@DF_LFS" agencyID="OECD.ELS.SAE" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,LABOUR_FORCE_STATUS=EMP,AGE=Y15T64,REF_AREA=AUS+AUT+BEL+CAN+CHL+COL+CRI+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+OECD</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment and unemployment by five-year age group and sex - levels</common:Name>
+        <common:Name xml:lang="fr">Emploi et chômage par groupe d'âge quinquennal et par sexe - niveaux</common:Name>
+        <common:Description xml:lang="en">This dataset contains labour force data on labour market status - population, labour force, unemployment and employment - by sex and by detailed age groups and standard age groups (15-24, 25-54, 55-64, 65+, total). 
+&lt;p /&gt;
+Information for all countries and all LFS subjects may be found in the attached file &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur la population active concernant la situation du marché du travail - population, population active, chômage et emploi - par sexe et par groupes d'âge détaillés et groupes d'âge standard (15-24, 25-54, 55-64, 65+, total).
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_LFS" version="1.1" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_LFS@DF_LFS_COMP" agencyID="OECD.ELS.SAE" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,REF_AREA=AUS,SEX=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment and unemployment by five-year age group and sex - composition</common:Name>
+        <common:Name xml:lang="fr">Emploi et chômage par groupe d'âge quinquennal et par sexe - composition</common:Name>
+        <common:Description xml:lang="en">This dataset contains the composition by age groups of labour force data on labour market status - population, labour force, unemployment and employment - by sex.
+&lt;p /&gt;
+Information for all countries and all LFS subjects may be found in the attached file &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient la composition par groupes d'âge des données sur la population active concernant le statut du marché du travail - population, population active, chômage et emploi - par sexe.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_LFS" version="1.1" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_LFS@DF_LFS_INDIC" agencyID="OECD.ELS.SAE" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>LABOUR_FORCE_STATUS,MEASURE,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,REF_AREA=AUS,SEX=_T, AGE=Y15T64</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment and unemployment by five-year age group and sex - indicators</common:Name>
+        <common:Name xml:lang="fr">Emploi et chômage par groupe d'âge quinquennal et par sexe - indicateurs</common:Name>
+        <common:Description xml:lang="en">This dataset contains employment population ratios, unemployment rates and labour force participation rates by sex and by 5-year age groups and aggregated age groups.
+&lt;p /&gt;
+Information for all countries and all LFS subjects may be found in the attached file &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient les ratios de population en emploi, les taux de chômage et les taux de participation au marché du travail par sexe et par groupes d'âge de 5 ans et groupes d'âge agrégés.
+&lt;p /&gt;
+Des notes détaillées et des sources peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_LFS" version="1.1" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_POPULATION@DF_POP_ALL" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,TIME_HORIZ</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX=_T,AGE=_T,TIME_PERIOD_START=2010,TIME_PERIOD_END=2030</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_UNIT_MEASURE:UNIT_MEASURE,UNIT_MULT</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_UNIT_MEASURE:Combined unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_UNIT_MEASURE:Unité de mesure combinée</common:AnnotationText>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Population data</common:Name>
+        <common:Name xml:lang="fr">Données démographiques</common:Name>
+        <structure:Structure>
+          <Ref id="DSD_POPULATION" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_POPULATION@DF_POP_HIST" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,AGE,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,SEX</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA=AUS,SEX=_T,TIME_PERIOD_START=2014,TIME_PERIOD_END=2024,UNIT_MEASURE=PS</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_UNIT_MEASURE:UNIT_MEASURE,UNIT_MULT</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_UNIT_MEASURE:Combined unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_UNIT_MEASURE:Unité de mesure combinée</common:AnnotationText>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Historical population data</common:Name>
+        <common:Name xml:lang="fr">Données démographiques historiques</common:Name>
+        <common:Description xml:lang="en">This dataset presents annual population data from 1961 by sex and five year age groups as well as the share of children, youth, the elderly, old-age and total dependency ratios. The data is available for all member countries as well as for the EU27 and G20 countries, Argentina, Brazil, China, India, Indonesia, Russia, Saudi Arabia, Singapore, South Africa and the World total.
+&lt;p /&gt;
+The data refer to mid-year estimates of the population.
+&lt;p /&gt;
+See country details in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/MD_POPHIST.xlsx"&gt;Historical population metadata&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données présente des données démographiques annuelles de 1961 par sexe et tranches d'âge de cinq ans, ainsi que la part des enfants, des jeunes, des personnes âgées, des personnes âgées et les taux de dépendance totale. Les données sont disponibles pour tous les pays membres ainsi que pour les pays de l'UE27 et du G20, l'Afrique du sud, l'Argentine, le Brésil, la Chine, l'Inde, l'Indonésie, la Russie, le Arabie saoudite, Singapour  et le total mondial.  
+&lt;p /&gt;
+Les données se réfèrent à des estimations de population en milieu d'année.
+&lt;p /&gt;
+Voir le détail par pays : &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/MD_POPHIST.xlsx"&gt;Historical population metadata&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_POPULATION" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_POPULATION@DF_POP_PROJ" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,AGE,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,SEX</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA=AUS,SEX=_T,TIME_PERIOD_START=2024,TIME_PERIOD_END=2040,UNIT_MEASURE=PS</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_UNIT_MEASURE:UNIT_MEASURE,UNIT_MULT</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_UNIT_MEASURE:Combined unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_UNIT_MEASURE:Unité de mesure combinée</common:AnnotationText>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Population projections</common:Name>
+        <common:Name xml:lang="fr">Projections démographiques</common:Name>
+        <common:Description xml:lang="en">This dataset presents annual population projections data up to 2070 by sex and five year age groups as well as the share of children, youth, the elderly, old-age and total dependency ratios. The data is available for all member countries as well as for the EU27 and G20 countries, Argentina, Brazil, China, India, Indonesia, Russia, Saudi Arabia, Singapore, South Africa and the World total.
+&lt;p /&gt;
+The data refer to mid-year estimates of the population.
+&lt;p /&gt;
+Population projections are, in most countries, according to medium variant. See country details for the variants retained for each demographic component of total fertility, life expectancy at birth and net annual migration) in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/MD_POPPROJ.xlsx"&gt;Population projection metadata&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données présente des projections démographiques annuelles jusqu'en 2070 par sexe et tranches d'âge de cinq ans, ainsi que la part des enfants, des jeunes, des personnes âgées, des personnes âgées et les taux de dépendance totale. Les données sont disponibles pour tous les pays membres ainsi que pour les pays de l'UE27 et du G20, l'Afrique du sud, l'Argentine, le Brésil, la Chine, l'Inde, l'Indonésie, la Russie, le Arabie saoudite, Singapour  et le total mondial.  
+&lt;p /&gt;
+Les projections démographiques sont, dans la plupart des pays, selon une variante moyenne. Voir le détail par pays pour les variantes retenues pour chaque composante démographique de la fécondité totale, de l'espérance de vie à la naissance et du solde migratoire annuel : &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/MD_POPPROJ.xlsx"&gt;Population projection metadata&lt;/a&gt;.
+&lt;p /&gt;
+Les données se réfèrent à des estimations de population en milieu d'année.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_POPULATION" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TEMP@DF_TEMP_D" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORKER_STATUS,MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,SEX=_T,AGE=_T,WORKER_STATUS=ICSE93_1+ICSE93_1_U+_U</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment by permanency of the job</common:Name>
+        <common:Name xml:lang="fr">Emploi par permanence de l'emploi</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on permanent and temporary workers based on the type of work contract of their main job. Data are further broken down by professional status - employees, total employment - by sex and by standardised age groups (15-19, 15-24, 20-24, 25-54, 55-64, 65+, total).
+&lt;p /&gt;
+Data are reported for employees.
+&lt;p /&gt;
+Temporary employees are wage and salary workers whose job has a pre-determined termination date as opposed to permanent employees whose job is of unlimited duration. They include: i) persons with a seasonal job; ii) persons engaged by an employment agency or business and hired out to a third party for carrying out a “work mission”; iii) persons with specific training contracts (including apprentices, trainees, research assistants, probationary period of a contract, etc.). Country-specific exceptions to this generic definition may be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;. 
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur les travailleurs permanents et temporaires en fonction du type de contrat de travail de leur emploi principal. Les données sont ensuite ventilées par statut professionnel - employés, emploi total - par sexe et par groupes d'âge standardisés (15-19, 15-24, 20-24, 25-54, 55-64, 65+, total).
+&lt;p /&gt;
+Les données sont rapportées pour les employés.
+&lt;p /&gt;
+Les salariés temporaires sont des salariés dont l’emploi a une date de fin prédéterminée, contrairement aux salariés permanents dont l’emploi est à durée indéterminée. Ils comprennent : i) les personnes ayant un emploi saisonnier ; ii) les personnes engagées par une agence de placement ou une entreprise et confiées à un tiers pour effectuer une « mission de travail » ; iii) les personnes ayant des contrats de formation spécifiques (y compris les apprentis, les stagiaires, les assistants de recherche, la période probatoire d’un contrat, etc.). Les exceptions spécifiques à chaque pays à cette définition générique peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TEMP" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TEMP@DF_TEMP_I" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,WORKER_STATUS,MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,AGE=_T,WORKER_STATUS=ICSE93_1+ICSE93_1_TEMP</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment by permanency of the job - Incidence</common:Name>
+        <common:Name xml:lang="fr">Emploi par permanence de l'emploi - Incidence</common:Name>
+        <common:Description xml:lang="en">This dataset contains incidences and gender composition of temporary employment with standardised age groups (15-24, 25-54, 55-64, 65+, total). Data are further broken down by professional status - employees, total employment.
+&lt;p /&gt;
+Data are reported for employees.
+&lt;p /&gt;
+Temporary employees are wage and salary workers whose job has a pre-determined termination date as opposed to permanent employees whose job is of unlimited duration. They include: i) persons with a seasonal job; ii) persons engaged by an employment agency or business and hired out to a third party for carrying out a “work mission”; iii) persons with specific training contracts (including apprentices, trainees, research assistants, probationary period of a contract, etc.). Country-specific exceptions to this generic definition may be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.  
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient les incidences et la composition par sexe de l'emploi temporaire avec des groupes d'âge standardisés (15-24, 25-54, 55-64, 65+, total). Les données sont ensuite ventilées par statut professionnel - employés, emploi total.
+&lt;p /&gt;
+Les données sont rapportées pour les employés.
+&lt;p /&gt;
+Les employés temporaires sont des travailleurs salariés dont l'emploi a une date de fin prédéterminée par opposition aux employés permanents dont l'emploi est à durée indéterminée. Ils comprennent : i) les personnes ayant un emploi saisonnier ; ii) les personnes engagées par une agence d'emploi ou une entreprise et louées à un tiers pour effectuer une « mission de travail » ; iii) les personnes ayant des contrats de formation spécifiques (y compris les apprentis, les stagiaires, les assistants de recherche, la période d'essai d'un contrat, etc.). Des exceptions spécifiques à chaque pays à cette définition générique peuvent être trouvées dans &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TEMP" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TEMP@DF_TEMP_I_GEN" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2015,AGE=_T,SEX=F,WORKER_STATUS=ICSE93_1_TEMP</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>10000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Share of women in temporary employment by permanency of the job</common:Name>
+        <common:Name xml:lang="fr">Part des femmes dans l'emploi temporaire selon la permanence de l'emploi</common:Name>
+        <common:Description xml:lang="en">This dataset contains the share of women in temporary employment with standardised age groups (15-24, 25-54, 55-64, 65+, total). 
+&lt;p /&gt;
+Data are reported for employees.
+&lt;p /&gt;
+Temporary employees are wage and salary workers whose job has a pre-determined termination date as opposed to permanent employees whose job is of unlimited duration. They include: i) persons with a seasonal job; ii) persons engaged by an employment agency or business and hired out to a third party for carrying out a “work mission”; iii) persons with specific training contracts (including apprentices, trainees, research assistants, probationary period of a contract, etc.). Country-specific exceptions to this generic definition may be found in &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient la part des femmes occupant un emploi temporaire avec des groupes d'âge standardisés (15-24, 25-54, 55-64, 65+, total).
+&lt;p /&gt;
+Les données sont rapportées pour les salariés.
+&lt;p /&gt;
+Les salariés temporaires sont des salariés dont l'emploi a une date de fin prédéterminée, par opposition aux salariés permanents dont l'emploi est à durée indéterminée. Ils comprennent : i) les personnes ayant un emploi saisonnier ; ii) les personnes engagées par une agence de placement ou une entreprise et confiées à un tiers pour effectuer une « mission de travail » ; iii) les personnes ayant des contrats de formation spécifiques (y compris les apprentis, les stagiaires, les assistants de recherche, la période d'essai d'un contrat, etc.). Des exceptions spécifiques à chaque pays à cette définition générique peuvent être trouvées dans&lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TEMP" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TENURE@DF_TENURE_AVE" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,TENURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2016,SEX=_T,AGE=_T, JOB_TENURE=M_LT12</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment by job tenure intervals - average job tenure</common:Name>
+        <common:Name xml:lang="fr">Emploi par intervalles d'ancienneté - ancienneté moyenne dans l'emploi</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on the average job tenure of workers by job tenure intervals (in years). Data are broken down by professional status - employees, total employment – sex, five-year and broad age groups (15-24, 25-54, 55-64, 15-64, total, etc.).
+&lt;p /&gt;
+Job tenure is measured by the length of time workers have been in their current or main job or with their current employer and are expressed in numbers of years. They can be converted in months by multiplying by a factor of 12 (months).
+&lt;p /&gt;
+This information is valuable for estimating the degree of fluidity in the labour market and in identifying the areas of economic activity where the turnover of labour is rapid or otherwise. Data are so far reported for a number of European countries and will be expanded to cover a greater number of countries.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+Information for all countries and all LFS subjects may be found in the attached file &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur l'ancienneté moyenne des travailleurs par intervalles d'ancienneté (en années). Les données sont ventilées par statut professionnel - salariés, emploi total - sexe, quinquennat et grands groupes d'âge (15-24, 25-54, 55-64, 15-64, total, etc.).
+&lt;p /&gt;
+L'ancienneté est mesurée par la durée pendant laquelle les travailleurs occupent leur emploi actuel ou principal ou travaillent pour leur employeur actuel et est exprimée en nombre d'années. Elle peut être convertie en mois en multipliant par un facteur de 12 (mois).
+&lt;p /&gt;
+Ces informations sont utiles pour estimer le degré de fluidité du marché du travail et pour identifier les domaines d'activité économique où la rotation de la main-d'œuvre est rapide ou non. Les données sont jusqu'à présent rapportées pour un certain nombre de pays européens et seront étendues pour couvrir un plus grand nombre de pays.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TENURE" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TENURE@DF_TENURE_DIS" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,TENURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2016,SEX=_T,AGE=_T, JOB_TENURE=M_LT12</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment by job tenure intervals - persons</common:Name>
+        <common:Name xml:lang="fr">Emploi par intervalles d'ancienneté - personnes</common:Name>
+        <common:Description xml:lang="en">This dataset contains data on job tenure composition (in persons) by job tenure intervals. Data are broken down by professional status - employees, total employment – sex, five-year and broad age groups (15-24, 25-54, 55-64, 15-64, total, etc.).
+&lt;p /&gt;
+Job tenure is measured by the length of time workers have been in their current or main job or with their current employer.
+&lt;p /&gt;
+This information is valuable for estimating the degree of fluidity in the labour market and in identifying the areas of economic activity where the turnover of labour is rapid or otherwise. Data are so far reported for a number of European countries and will be expanded to cover a greater number of countries.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+Information for all countries and all LFS subjects may be found in the attached file &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient des données sur la composition de l'ancienneté (en personnes) par intervalles d'ancienneté. Les données sont ventilées par statut professionnel - salariés, emploi total - sexe, quinquennat et grands groupes d'âge (15-24, 25-54, 55-64, 15-64, total, etc.).
+&lt;p /&gt;
+L'ancienneté est mesurée par la durée pendant laquelle les travailleurs occupent leur emploi actuel ou principal ou travaillent pour leur employeur actuel.
+&lt;p /&gt;
+Ces informations sont utiles pour estimer le degré de fluidité du marché du travail et pour identifier les domaines d'activité économique où la rotation de la main-d'œuvre est rapide ou non. Les données sont jusqu'à présent rapportées pour un certain nombre de pays européens et seront étendues pour couvrir un plus grand nombre de pays.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TENURE" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TENURE@DF_TENURE_FREQ" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,TENURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX,AGE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2016,SEX=_T,AGE=_T, JOB_TENURE=M_LT12</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Employment by job tenure intervals - frequency</common:Name>
+        <common:Name xml:lang="fr">Emploi par intervalles d'ancienneté - fréquence</common:Name>
+        <common:Description xml:lang="en">This dataset contains the tenure composition (as a percentage of all job tenures) by job tenure intervals. Data are broken down by professional status - employees, total employment – sex, five-year and broad age groups (15-24, 25-54, 55-64, 15-64, total, etc.).
+&lt;p /&gt;
+Job tenure is measured by the length of time workers have been in their current or main job or with their current employer.
+&lt;p /&gt;
+This information is valuable for estimating the degree of fluidity in the labour market and in identifying the areas of economic activity where the turnover of labour is rapid or otherwise. Data are so far reported for a number of European countries and will be expanded to cover a greater number of countries.
+&lt;p /&gt;
+In order to facilitate analysis and comparisons over time, historical data for OECD members have been provided over as long a period as possible, often even before a country became a member of the Organisation. Information on the membership dates of all OECD countries can be found at &lt;a href="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm"&gt;OECD Ratification Dates&lt;/a&gt;.
+&lt;p /&gt;
+Information for all countries and all LFS subjects may be found in the attached file &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">Cet ensemble de données contient la composition de l'ancienneté (en pourcentage de toutes les anciennes fonctions) par intervalles d'ancienneté. Les données sont ventilées par statut professionnel - salariés, emploi total - sexe, quinquennat et grands groupes d'âge (15-24, 25-54, 55-64, 15-64, total, etc.).
+&lt;p /&gt;
+L'ancienneté est mesurée par la durée pendant laquelle les travailleurs occupent leur emploi actuel ou principal ou travaillent pour leur employeur actuel.
+&lt;p /&gt;
+Ces informations sont utiles pour estimer le degré de fluidité du marché du travail et pour identifier les domaines d'activité économique où la rotation de la main-d'œuvre est rapide ou non. Les données sont jusqu'à présent rapportées pour un certain nombre de pays européens et seront étendues pour couvrir un plus grand nombre de pays.
+&lt;p /&gt;
+Afin de faciliter les analyses statistiques et les comparaisons dans le temps, l'OCDE s'efforce de présenter la série temporelle la plus longue possible pour chaque pays membre. C'est ainsi que sont souvent présentées des données correspondant à des périodes antérieures à l'adhésion du pays à l'Organisation. On trouvera des précisions sur la date exacte d'adhésion des différents pays de l'OCDE à l'adresse suivante : &lt;a href="http://www.oecd.org/fr/apropos/membresetpartenaires/liste-des-pays-de-l-ocde.htm"&gt;Dates d'adhésion à l'OCDE&lt;/a&gt;.
+&lt;p /&gt;
+Pour des informations détaillées sur les enquêtes sur la population active pour tous les pays, veuillez consulter le fichier &lt;a href="https://www.oecd.org/content/dam/oecd/en/data/datasets/employability-data/LFSNOTES_SOURCES.pdf"&gt;LFS_NOTES_SOURCES&lt;/a&gt;.</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TENURE" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TUD_CBC@DF_CBC" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>UNIT_MULT=0,OBS_STATUS=A</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2000</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Collective bargaining coverage</common:Name>
+        <common:Name xml:lang="fr">Couverture conventionnelle</common:Name>
+        <common:Description xml:lang="en">The database on Institutional Characteristics of Trade Unions, Wage Setting, State Intervention and Social Pacts (ICTWSS) was developed by Prof. Jelle Visser at the University of Amsterdam. It was first released in May 2007. In its initial form, the ICTWSS database combined data from various sources and projects with a main focus on trade union in EU and OECD countries, collective bargaining and employment relations in Europe, and social pacts. In 2021, the ICTWSS database was rebranded as the OECD/AIAS ICTWSS database to reflect the joint effort by the OECD and AIAS-HSI to ensure the continuation of the database following Prof. Visser’s retirement. The OECD/AIAS ICTWSS database is publicly available at: &lt;a href="http://www.oecd.org/employment/ictwss-database.htm" target="_blank"&gt; http://www.oecd.org/employment/ictwss-database.htm&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données sur les caractéristiques institutionnelles des syndicats, la fixation des salaires, l'intervention de l'État et les pactes sociaux (ICTWSS) a été développée par le professeur Jelle Visser de l'université d'Amsterdam. Elle a été publiée pour la première fois en mai 2007. Dans sa forme initiale, la base de données ICTWSS combinait des données provenant de diverses sources et projets, en mettant l'accent sur les syndicats dans les pays de l'UE et de l'OCDE, les négociations collectives et les relations de travail en Europe, et les pactes sociaux. En 2021, la base de données ICTWSS a été rebaptisée base de données ICTWSS de l'OCDE/AIAS. Ce nouveau nom reflète l'effort conjoint de l'OCDE et de l'AIAS-HSI pour assurer la continuité de la base de données après le départ à la retraite du professeur Visser. La base de données ICTWSS de l'OCDE/AIAS est accessible en ligne à :  &lt;a href=https://www.oecd.org/fr/emploi/ictwss-database.htm" target="_blank"&gt; http://www.oecd.orgfr/emploi/ictwss-database.htm&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TUD_CBC" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_TUD_CBC@DF_TUD" agencyID="OECD.ELS.SAE" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>UNIT_MULT=0,OBS_STATUS=A</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2000</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Trade union density</common:Name>
+        <common:Name xml:lang="fr">Taux de syndicalisation</common:Name>
+        <common:Description xml:lang="en">The database on Institutional Characteristics of Trade Unions, Wage Setting, State Intervention and Social Pacts (ICTWSS) was developed by Prof. Jelle Visser at the University of Amsterdam. It was first released in May 2007. In its initial form, the ICTWSS database combined data from various sources and projects with a main focus on trade union in EU and OECD countries, collective bargaining and employment relations in Europe, and social pacts. In 2021, the ICTWSS database was rebranded as the OECD/AIAS ICTWSS database to reflect the joint effort by the OECD and AIAS-HSI to ensure the continuation of the database following Prof. Visser’s retirement. The OECD/AIAS ICTWSS database is publicly available at: &lt;a href="http://www.oecd.org/employment/ictwss-database.htm" target="_blank"&gt; http://www.oecd.org/employment/ictwss-database.htm&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données sur les caractéristiques institutionnelles des syndicats, la fixation des salaires, l'intervention de l'État et les pactes sociaux (ICTWSS) a été développée par le professeur Jelle Visser de l'université d'Amsterdam. Elle a été publiée pour la première fois en mai 2007. Dans sa forme initiale, la base de données ICTWSS combinait des données provenant de diverses sources et projets, en mettant l'accent sur les syndicats dans les pays de l'UE et de l'OCDE, les négociations collectives et les relations de travail en Europe, et les pactes sociaux. En 2021, la base de données ICTWSS a été rebaptisée base de données ICTWSS de l'OCDE/AIAS. Ce nouveau nom reflète l'effort conjoint de l'OCDE et de l'AIAS-HSI pour assurer la continuité de la base de données après le départ à la retraite du professeur Visser. La base de données ICTWSS de l'OCDE/AIAS est accessible en ligne à :  &lt;a href=https://www.oecd.org/fr/emploi/ictwss-database.htm" target="_blank"&gt; http://www.oecd.orgfr/emploi/ictwss-database.htm&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_TUD_CBC" version="1.0" agencyID="OECD.ELS.SAE" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+    </structure:Dataflows>
+  </message:Structures>
+</message:Structure>

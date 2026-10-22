@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF1935</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-10-22T07:08:58.9656159+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Dataflows>
+      <structure:Dataflow id="DSD_PAG@DF_DEC" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE,OPTIONALITY,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_TIME_PERIOD_DESC</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0,SEX=_Z,AGE=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2024,TIME_PERIOD_END=2024</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_MEASURE:MEASURE,AGE,SEX,OPTIONALITY;COMBINED_UNIT_MEASURE:UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_MEASURE:Combined measure;COMBINED_UNIT_MEASURE:Unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_MEASURE:Mesure combinée;COMBINED_UNIT_MEASURE:Unité de mesure</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX:OECD.ELS.SPD:HCL_PAG_SEX(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>12000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Demographic and economic context</common:Name>
+        <common:Name xml:lang="fr">Contexte démograpique et économique</common:Name>
+        <common:Description xml:lang="en">The OECD Pensions at a Glance Database has been developed in order to serve a growing need for pensions indicators. It includes reliable and internationally comparable statistics on public and mandatory and voluntary pensions. It covers OECD countries and aims to cover all G20 countries. Pensions at a Glance reviews and analyses the pension measures enacted or legislated in OECD countries for workers entering the labour market at age 22 in the specified year. It provides an in-depth review of the first layer of protection of the elderly, first-tier pensions across countries and provideds a comprehensive selection of pension policy indicators for all OECD and G20 countries.&lt;/p&gt;
+&lt;a href="http://oe.cd/pag"&gt;OECD Pensions at a Glance - OECD and G20 indicators&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données « Panorama des pensions » de l'OCDE a été développée afin de répondre à un besoin croissant en matière d'indicateurs sur les retraites. Elle comprend des statistiques fiables et comparables au niveau international sur les retraites publiques, obligatoires et volontaires. Elle couvre les pays de l'OCDE et vise à couvrir tous les pays du G20. « Panorama des pensions » examine et analyse les mesures prises ou légiférées dans les pays de l'OCDE en matière de retraite pour les travailleurs entrant sur le marché du travail à l'âge de 22 ans au cours de l'année spécifiée. Elle fournit une analyse approfondie du premier niveau de protection des personnes âgées, les pensions de premier niveau dans les différents pays, et propose une sélection complète d'indicateurs de politique de retraite pour tous les pays de l'OCDE et du G20.
+&lt;a href=""http://oe.cd/pag« »&gt;OCDE Pensions at a Glance - Indicateurs de l'OCDE et du G20&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_PAG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_PAG@DF_DPS" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE,OPTIONALITY,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_TIME_PERIOD_DESC</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0,SEX=_Z,AGE=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2024,TIME_PERIOD_END=2024</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_MEASURE:MEASURE,AGE,SEX,OPTIONALITY;COMBINED_UNIT_MEASURE:UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_MEASURE:Combined measure;COMBINED_UNIT_MEASURE:Unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_MEASURE:Mesure combinée;COMBINED_UNIT_MEASURE:Unité de mesure</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX:OECD.ELS.SPD:HCL_PAG_SEX(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>12000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Design of pension systems</common:Name>
+        <common:Name xml:lang="fr">Architecture des systèmes de retraite</common:Name>
+        <common:Description xml:lang="en">The OECD Pensions at a Glance Database has been developed in order to serve a growing need for pensions indicators. It includes reliable and internationally comparable statistics on public and mandatory and voluntary pensions. It covers OECD countries and aims to cover all G20 countries. Pensions at a Glance reviews and analyses the pension measures enacted or legislated in OECD countries for workers entering the labour market at age 22 in the specified year. It provides an in-depth review of the first layer of protection of the elderly, first-tier pensions across countries and provideds a comprehensive selection of pension policy indicators for all OECD and G20 countries.&lt;/p&gt;
+&lt;a href="http://oe.cd/pag"&gt;OECD Pensions at a Glance - OECD and G20 indicators&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données « Panorama des pensions » de l'OCDE a été développée afin de répondre à un besoin croissant en matière d'indicateurs sur les retraites. Elle comprend des statistiques fiables et comparables au niveau international sur les retraites publiques, obligatoires et volontaires. Elle couvre les pays de l'OCDE et vise à couvrir tous les pays du G20. « Panorama des pensions » examine et analyse les mesures prises ou légiférées dans les pays de l'OCDE en matière de retraite pour les travailleurs entrant sur le marché du travail à l'âge de 22 ans au cours de l'année spécifiée. Elle fournit une analyse approfondie du premier niveau de protection des personnes âgées, les pensions de premier niveau dans les différents pays, et propose une sélection complète d'indicateurs de politique de retraite pour tous les pays de l'OCDE et du G20.
+&lt;a href=""http://oe.cd/pag« »&gt;OCDE Pensions at a Glance - Indicateurs de l'OCDE et du G20&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_PAG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_PAG@DF_IPOP" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE,OPTIONALITY,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_TIME_PERIOD_DESC</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0,SEX=_Z,AGE=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2020,TIME_PERIOD_END=2020</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_MEASURE:MEASURE,AGE,SEX,OPTIONALITY;COMBINED_UNIT_MEASURE:UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_MEASURE:Combined measure;COMBINED_UNIT_MEASURE:Unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_MEASURE:Mesure combinée;COMBINED_UNIT_MEASURE:Unité de mesure</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX:OECD.ELS.SPD:HCL_PAG_SEX(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>12000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Income and poverty of older people</common:Name>
+        <common:Name xml:lang="fr">Revenus et pauvreté des personnes âgées</common:Name>
+        <common:Description xml:lang="en">The OECD Pensions at a Glance Database has been developed in order to serve a growing need for pensions indicators. It includes reliable and internationally comparable statistics on public and mandatory and voluntary pensions. It covers OECD countries and aims to cover all G20 countries. Pensions at a Glance reviews and analyses the pension measures enacted or legislated in OECD countries for workers entering the labour market at age 22 in the specified year. It provides an in-depth review of the first layer of protection of the elderly, first-tier pensions across countries and provideds a comprehensive selection of pension policy indicators for all OECD and G20 countries.&lt;/p&gt;
+&lt;a href="http://oe.cd/pag"&gt;OECD Pensions at a Glance - OECD and G20 indicators&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données « Panorama des pensions » de l'OCDE a été développée afin de répondre à un besoin croissant en matière d'indicateurs sur les retraites. Elle comprend des statistiques fiables et comparables au niveau international sur les retraites publiques, obligatoires et volontaires. Elle couvre les pays de l'OCDE et vise à couvrir tous les pays du G20. « Panorama des pensions » examine et analyse les mesures prises ou légiférées dans les pays de l'OCDE en matière de retraite pour les travailleurs entrant sur le marché du travail à l'âge de 22 ans au cours de l'année spécifiée. Elle fournit une analyse approfondie du premier niveau de protection des personnes âgées, les pensions de premier niveau dans les différents pays, et propose une sélection complète d'indicateurs de politique de retraite pour tous les pays de l'OCDE et du G20.
+&lt;a href=""http://oe.cd/pag« »&gt;OCDE Pensions at a Glance - Indicateurs de l'OCDE et du G20&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_PAG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_PAG@DF_PAG" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE,OPTIONALITY,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_TIME_PERIOD_DESC</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0,SEX=_Z,AGE=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2019,TIME_PERIOD_END=2024,MEASURE=CRPLF22+FRPLF22+GPRR100+ATRW+ATRAEP+ATRPPAE+NPRR100+GPW100+NPW100+FR+LE+ER+OAWAR+ELMEA+EYLME+EDIOP+PTOP+OCOP+CIOP+EIOP+AWGW+OAIP+PEP+PPEP</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_MEASURE:MEASURE,AGE,SEX,OPTIONALITY;COMBINED_UNIT_MEASURE:UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_MEASURE:Combined measure;COMBINED_UNIT_MEASURE:Unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_MEASURE:Mesure combinée;COMBINED_UNIT_MEASURE:Unité de mesure</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX:OECD.ELS.SPD:HCL_PAG_SEX(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>12000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Pensions at a glance</common:Name>
+        <common:Name xml:lang="fr">Panorama des pensions</common:Name>
+        <common:Description xml:lang="en">The OECD Pensions at a Glance Database has been developed in order to serve a growing need for pensions indicators. It includes reliable and internationally comparable statistics on public and mandatory and voluntary pensions. It covers OECD countries and aims to cover all G20 countries. Pensions at a Glance reviews and analyses the pension measures enacted or legislated in OECD countries for workers entering the labour market at age 22 in the specified year. It provides an in-depth review of the first layer of protection of the elderly, first-tier pensions across countries and provideds a comprehensive selection of pension policy indicators for all OECD and G20 countries.&lt;/p&gt;
+&lt;a href="http://oe.cd/pag"&gt;OECD Pensions at a Glance - OECD and G20 indicators&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données « Panorama des pensions » de l'OCDE a été développée afin de répondre à un besoin croissant en matière d'indicateurs sur les retraites. Elle comprend des statistiques fiables et comparables au niveau international sur les retraites publiques, obligatoires et volontaires. Elle couvre les pays de l'OCDE et vise à couvrir tous les pays du G20. « Panorama des pensions » examine et analyse les mesures prises ou légiférées dans les pays de l'OCDE en matière de retraite pour les travailleurs entrant sur le marché du travail à l'âge de 22 ans au cours de l'année spécifiée. Elle fournit une analyse approfondie du premier niveau de protection des personnes âgées, les pensions de premier niveau dans les différents pays, et propose une sélection complète d'indicateurs de politique de retraite pour tous les pays de l'OCDE et du G20.
+&lt;a href=""http://oe.cd/pag« »&gt;OCDE Pensions at a Glance - Indicateurs de l'OCDE et du G20&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_PAG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_PAG@DF_PRR" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE,OPTIONALITY,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_TIME_PERIOD_DESC</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0,SEX=_Z,AGE=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2019,TIME_PERIOD_END=2024</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_MEASURE:MEASURE,AGE,SEX,OPTIONALITY;COMBINED_UNIT_MEASURE:UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_MEASURE:Combined measure;COMBINED_UNIT_MEASURE:Unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_MEASURE:Mesure combinée;COMBINED_UNIT_MEASURE:Unité de mesure</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX:OECD.ELS.SPD:HCL_PAG_SEX(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>12000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Pension replacement rates</common:Name>
+        <common:Name xml:lang="fr">Taux de remplacement des pensions</common:Name>
+        <common:Description xml:lang="en">The OECD Pensions at a Glance Database has been developed in order to serve a growing need for pensions indicators. It includes reliable and internationally comparable statistics on public and mandatory and voluntary pensions. It covers OECD countries and aims to cover all G20 countries. Pensions at a Glance reviews and analyses the pension measures enacted or legislated in OECD countries for workers entering the labour market at age 22 in the specified year. It provides an in-depth review of the first layer of protection of the elderly, first-tier pensions across countries and provideds a comprehensive selection of pension policy indicators for all OECD and G20 countries.&lt;/p&gt;
+&lt;a href="http://oe.cd/pag"&gt;OECD Pensions at a Glance - OECD and G20 indicators&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données « Panorama des pensions » de l'OCDE a été développée afin de répondre à un besoin croissant en matière d'indicateurs sur les retraites. Elle comprend des statistiques fiables et comparables au niveau international sur les retraites publiques, obligatoires et volontaires. Elle couvre les pays de l'OCDE et vise à couvrir tous les pays du G20. « Panorama des pensions » examine et analyse les mesures prises ou légiférées dans les pays de l'OCDE en matière de retraite pour les travailleurs entrant sur le marché du travail à l'âge de 22 ans au cours de l'année spécifiée. Elle fournit une analyse approfondie du premier niveau de protection des personnes âgées, les pensions de premier niveau dans les différents pays, et propose une sélection complète d'indicateurs de politique de retraite pour tous les pays de l'OCDE et du G20.
+&lt;a href=""http://oe.cd/pag« »&gt;OCDE Pensions at a Glance - Indicateurs de l'OCDE et du G20&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_PAG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_PAG@DF_PW" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>MEASURE,SEX,AGE,OPTIONALITY,UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_TIME_PERIOD_DESC</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0,SEX=_Z,AGE=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2019,TIME_PERIOD_END=2024</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>COMBINED_MEASURE:MEASURE,AGE,SEX,OPTIONALITY;COMBINED_UNIT_MEASURE:UNIT_MEASURE</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">COMBINED_MEASURE:Combined measure;COMBINED_UNIT_MEASURE:Unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">COMBINED_MEASURE:Mesure combinée;COMBINED_UNIT_MEASURE:Unité de mesure</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SEX:OECD.ELS.SPD:HCL_PAG_SEX(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>12000</common:AnnotationTitle>
+            <common:AnnotationType>MAX_TABLE_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Pension wealth</common:Name>
+        <common:Name xml:lang="fr">Patrimoine pensions</common:Name>
+        <common:Description xml:lang="en">The OECD Pensions at a Glance Database has been developed in order to serve a growing need for pensions indicators. It includes reliable and internationally comparable statistics on public and mandatory and voluntary pensions. It covers OECD countries and aims to cover all G20 countries. Pensions at a Glance reviews and analyses the pension measures enacted or legislated in OECD countries for workers entering the labour market at age 22 in the specified year. It provides an in-depth review of the first layer of protection of the elderly, first-tier pensions across countries and provideds a comprehensive selection of pension policy indicators for all OECD and G20 countries.&lt;/p&gt;
+&lt;a href="http://oe.cd/pag"&gt;OECD Pensions at a Glance - OECD and G20 indicators&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">La base de données « Panorama des pensions » de l'OCDE a été développée afin de répondre à un besoin croissant en matière d'indicateurs sur les retraites. Elle comprend des statistiques fiables et comparables au niveau international sur les retraites publiques, obligatoires et volontaires. Elle couvre les pays de l'OCDE et vise à couvrir tous les pays du G20. « Panorama des pensions » examine et analyse les mesures prises ou légiférées dans les pays de l'OCDE en matière de retraite pour les travailleurs entrant sur le marché du travail à l'âge de 22 ans au cours de l'année spécifiée. Elle fournit une analyse approfondie du premier niveau de protection des personnes âgées, les pensions de premier niveau dans les différents pays, et propose une sélection complète d'indicateurs de politique de retraite pour tous les pays de l'OCDE et du G20.
+&lt;a href=""http://oe.cd/pag« »&gt;OCDE Pensions at a Glance - Indicateurs de l'OCDE et du G20&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_PAG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_SOCX_AGG@DF_NET_GDP" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>EXPEND_SOURCE,SPENDING_TYPE,PROGRAMME_TYPE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,EXPEND_SOURCE=ES50,SPENDING_TYPE=_T,UNIT_MEASURE=PT_B1GQ,PROGRAMME_TYPE=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PROGRAMME_TYPE:OECD.ELS.SPD:HCL_PROGRAMME_TYPE(1.0).H,SPENDING_TYPE:OECD.ELS.SPD:HCL_SPENDING_TYPE(1.0).H,PRICE_BASE:OECD.ELS.SPD:HCL_PRICE_BASE(1.0).H,UNIT_MEASURE:OECD.ELS.SPD:HCL_UNIT_MEASURE(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Net total social expenditure in % GDP</common:Name>
+        <common:Name xml:lang="fr">Dépenses sociales totales nettes, en % du PIB</common:Name>
+        <common:Description xml:lang="en">The OECD Social Expenditure Database (SOCX) has been developed in order to serve a growing need for indicators of social policy. It includes reliable and internationally comparable statistics on public and mandatory and voluntary private social expenditure at programme level. SOCX provides a unique tool for monitoring trends in aggregate social expenditure and analysing changes in its composition. It covers 38 OECD countries and some accession countries for the period 1980-2021/23 and estimates for aggregates for 2022-24. A Social Expenditure Update can be found under &lt;a href="https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html"&gt;www.oecd.org/en/data/datasets/social-expenditure-database-socx.htm&lt;/a&gt;. The main social policy areas are as follows: Old age, Survivors, Incapacity-related benefits, Health, Family, Active labor market programmes, Unemployment, Housing, and Other social policy areas. This version also includes estimates of &lt;a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb"&gt;net total social spending&lt;/a&gt; for 2021 for 38 OECD countries. SOCX aggregated data as well as sources and methodology are described in &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;The OECD SOCX Manual – 2019 edition- A guide to the OECD Social Expenditure Database&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">La base de données des dépenses sociales de l'OCDE (SOCX) a été développée pour servir un besoin grandissant d'indicateurs de politique sociale. Elle contient des données fiables et comparables internationalement sur les dépenses sociales publiques et privées obligatoires et volontaires par programmes de dépenses. SOCX a ainsi été constituée dans le but de disposer d’un instrument permettant de suivre l’évolution des dépenses sociales dans son ensemble et d’analyser les changements se produisant dans leur composition. Elle contient des séries chronologiques pour la période 1980-2021/23 pour les 38 pays de l'OCDE et certains pays en voie d'adhésion et des estimations pour les agrégats pour 2022-24. Un point sur les dépenses sociales est disponible sous &lt;a href=" https://www.oecd.org/fr/data/datasets/social-expenditure-database-socx.html "&gt; www.oecd.org/fr/data/datasets/social-expenditure-database-socx.htm &lt;/a&gt;Les dépenses sont réparties entre 9 domaines de la protection sociale : Vieillesse, Survie, Incapacité, Santé, Famille, Programmes actifs du marché du travail, Chômage, Logement et Autres domaines de politique sociale. Cette version comprend aussi des estimations de &lt;a href="https://data-explorer.oecd.org/vis?lc=fr&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb&amp;pg=0"&gt;dépenses totales nettes&lt;/a&gt;pour 2021 pour 38 pays. Les données agrégées de SOCX ainsi que les sources et la méthodologie sont présentées dans &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;Le Manuel SOCX de l'OCDE– Edition 2019 - Un guide de la base de la Base de données de l'OCDE&lt;/a&gt; (en anglais uniquement)</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_SOCX_AGG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_SOCX_AGG@DF_PUB_DIS_SIC" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>EXPEND_SOURCE,SPENDING_TYPE,PROGRAMME_TYPE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,EXPEND_SOURCE=ES50,SPENDING_TYPE=_T,PROGRAMME_TYPE=_T,UNIT_MEASURE=PT_B1GQ</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PROGRAMME_TYPE:OECD.ELS.SPD:HCL_PROGRAMME_TYPE(1.0).H,SPENDING_TYPE:OECD.ELS.SPD:HCL_SPENDING_TYPE(1.0).H,PRICE_BASE:OECD.ELS.SPD:HCL_PRICE_BASE(1.0).H,UNIT_MEASURE:OECD.ELS.SPD:HCL_UNIT_MEASURE(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Public expenditure on disability and sickness cash benefits in % GDP</common:Name>
+        <common:Name xml:lang="fr">Dépenses publiques de prestations en espèces d'invalidité et maladie, en % PIB</common:Name>
+        <common:Description xml:lang="en">The OECD Social Expenditure Database (SOCX) has been developed in order to serve a growing need for indicators of social policy. It includes reliable and internationally comparable statistics on public and mandatory and voluntary private social expenditure at programme level. SOCX provides a unique tool for monitoring trends in aggregate social expenditure and analysing changes in its composition. It covers 38 OECD countries and some accession countries for the period 1980-2021/23 and estimates for aggregates for 2022-24. A Social Expenditure Update can be found under &lt;a href="https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html"&gt;www.oecd.org/en/data/datasets/social-expenditure-database-socx.htm&lt;/a&gt;. The main social policy areas are as follows: Old age, Survivors, Incapacity-related benefits, Health, Family, Active labor market programmes, Unemployment, Housing, and Other social policy areas. This version also includes estimates of &lt;a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb"&gt;net total social spending&lt;/a&gt; for 2021 for 38 OECD countries. SOCX aggregated data as well as sources and methodology are described in &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;The OECD SOCX Manual – 2019 edition- A guide to the OECD Social Expenditure Database&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">La base de données des dépenses sociales de l'OCDE (SOCX) a été développée pour servir un besoin grandissant d'indicateurs de politique sociale. Elle contient des données fiables et comparables internationalement sur les dépenses sociales publiques et privées obligatoires et volontaires par programmes de dépenses. SOCX a ainsi été constituée dans le but de disposer d’un instrument permettant de suivre l’évolution des dépenses sociales dans son ensemble et d’analyser les changements se produisant dans leur composition. Elle contient des séries chronologiques pour la période 1980-2021/23 pour les 38 pays de l'OCDE et certains pays en voie d'adhésion et des estimations pour les agrégats pour 2022-24. Un point sur les dépenses sociales est disponible sous &lt;a href=" https://www.oecd.org/fr/data/datasets/social-expenditure-database-socx.html "&gt; www.oecd.org/fr/data/datasets/social-expenditure-database-socx.htm &lt;/a&gt;Les dépenses sont réparties entre 9 domaines de la protection sociale : Vieillesse, Survie, Incapacité, Santé, Famille, Programmes actifs du marché du travail, Chômage, Logement et Autres domaines de politique sociale. Cette version comprend aussi des estimations de &lt;a href="https://data-explorer.oecd.org/vis?lc=fr&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb&amp;pg=0"&gt;dépenses totales nettes&lt;/a&gt;pour 2021 pour 38 pays. Les données agrégées de SOCX ainsi que les sources et la méthodologie sont présentées dans &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;Le Manuel SOCX de l'OCDE– Edition 2019 - Un guide de la base de la Base de données de l'OCDE&lt;/a&gt; (en anglais uniquement)</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_SOCX_AGG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_SOCX_AGG@DF_PUB_FAM" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>EXPEND_SOURCE,SPENDING_TYPE,PROGRAMME_TYPE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,EXPEND_SOURCE=ES50,SPENDING_TYPE=_T,PROGRAMME_TYPE=_T,UNIT_MEASURE=PT_B1GQ</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PROGRAMME_TYPE:OECD.ELS.SPD:HCL_PROGRAMME_TYPE(1.0).H,SPENDING_TYPE:OECD.ELS.SPD:HCL_SPENDING_TYPE(1.0).H,PRICE_BASE:OECD.ELS.SPD:HCL_PRICE_BASE(1.0).H,UNIT_MEASURE:OECD.ELS.SPD:HCL_UNIT_MEASURE(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Public expenditure on family by type of expenditure (cash and in kind) in % GDP</common:Name>
+        <common:Name xml:lang="fr">Dépenses publiques pour la famille selon le type de dépense (en espèces et en nature), en % du PIB</common:Name>
+        <common:Description xml:lang="en">The OECD Social Expenditure Database (SOCX) has been developed in order to serve a growing need for indicators of social policy. It includes reliable and internationally comparable statistics on public and mandatory and voluntary private social expenditure at programme level. SOCX provides a unique tool for monitoring trends in aggregate social expenditure and analysing changes in its composition. It covers 38 OECD countries and some accession countries for the period 1980-2021/23 and estimates for aggregates for 2022-24. A Social Expenditure Update can be found under &lt;a href="https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html"&gt;www.oecd.org/en/data/datasets/social-expenditure-database-socx.htm&lt;/a&gt;. The main social policy areas are as follows: Old age, Survivors, Incapacity-related benefits, Health, Family, Active labor market programmes, Unemployment, Housing, and Other social policy areas. This version also includes estimates of &lt;a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb"&gt;net total social spending&lt;/a&gt; for 2021 for 38 OECD countries. SOCX aggregated data as well as sources and methodology are described in &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;The OECD SOCX Manual – 2019 edition- A guide to the OECD Social Expenditure Database&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">La base de données des dépenses sociales de l'OCDE (SOCX) a été développée pour servir un besoin grandissant d'indicateurs de politique sociale. Elle contient des données fiables et comparables internationalement sur les dépenses sociales publiques et privées obligatoires et volontaires par programmes de dépenses. SOCX a ainsi été constituée dans le but de disposer d’un instrument permettant de suivre l’évolution des dépenses sociales dans son ensemble et d’analyser les changements se produisant dans leur composition. Elle contient des séries chronologiques pour la période 1980-2021/23 pour les 38 pays de l'OCDE et certains pays en voie d'adhésion et des estimations pour les agrégats pour 2022-24. Un point sur les dépenses sociales est disponible sous &lt;a href=" https://www.oecd.org/fr/data/datasets/social-expenditure-database-socx.html "&gt; www.oecd.org/fr/data/datasets/social-expenditure-database-socx.htm &lt;/a&gt;Les dépenses sont réparties entre 9 domaines de la protection sociale : Vieillesse, Survie, Incapacité, Santé, Famille, Programmes actifs du marché du travail, Chômage, Logement et Autres domaines de politique sociale. Cette version comprend aussi des estimations de &lt;a href="https://data-explorer.oecd.org/vis?lc=fr&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb&amp;pg=0"&gt;dépenses totales nettes&lt;/a&gt;pour 2021 pour 38 pays. Les données agrégées de SOCX ainsi que les sources et la méthodologie sont présentées dans &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;Le Manuel SOCX de l'OCDE– Edition 2019 - Un guide de la base de la Base de données de l'OCDE&lt;/a&gt; (en anglais uniquement)</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_SOCX_AGG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_SOCX_AGG@DF_PUB_OLD" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>EXPEND_SOURCE,SPENDING_TYPE,PROGRAMME_TYPE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,EXPEND_SOURCE=ES50,SPENDING_TYPE=_T,PROGRAMME_TYPE=_T,UNIT_MEASURE=PT_B1GQ</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PROGRAMME_TYPE:OECD.ELS.SPD:HCL_PROGRAMME_TYPE(1.0).H,SPENDING_TYPE:OECD.ELS.SPD:HCL_SPENDING_TYPE(1.0).H,PRICE_BASE:OECD.ELS.SPD:HCL_PRICE_BASE(1.0).H,UNIT_MEASURE:OECD.ELS.SPD:HCL_UNIT_MEASURE(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Public expenditure on old-age and survivors cash benefits in % GDP</common:Name>
+        <common:Name xml:lang="fr">Dépenses publiques de prestations en espèces de retraite et de réversion, en % PIB</common:Name>
+        <common:Description xml:lang="en">The OECD Social Expenditure Database (SOCX) has been developed in order to serve a growing need for indicators of social policy. It includes reliable and internationally comparable statistics on public and mandatory and voluntary private social expenditure at programme level. SOCX provides a unique tool for monitoring trends in aggregate social expenditure and analysing changes in its composition. It covers 38 OECD countries and some accession countries for the period 1980-2021/23 and estimates for aggregates for 2022-24. A Social Expenditure Update can be found under &lt;a href="https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html"&gt;www.oecd.org/en/data/datasets/social-expenditure-database-socx.htm&lt;/a&gt;. The main social policy areas are as follows: Old age, Survivors, Incapacity-related benefits, Health, Family, Active labor market programmes, Unemployment, Housing, and Other social policy areas. This version also includes estimates of &lt;a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb"&gt;net total social spending&lt;/a&gt; for 2021 for 38 OECD countries. SOCX aggregated data as well as sources and methodology are described in &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;The OECD SOCX Manual – 2019 edition- A guide to the OECD Social Expenditure Database&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">La base de données des dépenses sociales de l'OCDE (SOCX) a été développée pour servir un besoin grandissant d'indicateurs de politique sociale. Elle contient des données fiables et comparables internationalement sur les dépenses sociales publiques et privées obligatoires et volontaires par programmes de dépenses. SOCX a ainsi été constituée dans le but de disposer d’un instrument permettant de suivre l’évolution des dépenses sociales dans son ensemble et d’analyser les changements se produisant dans leur composition. Elle contient des séries chronologiques pour la période 1980-2021/23 pour les 38 pays de l'OCDE et certains pays en voie d'adhésion et des estimations pour les agrégats pour 2022-24. Un point sur les dépenses sociales est disponible sous &lt;a href=" https://www.oecd.org/fr/data/datasets/social-expenditure-database-socx.html "&gt; www.oecd.org/fr/data/datasets/social-expenditure-database-socx.htm &lt;/a&gt;Les dépenses sont réparties entre 9 domaines de la protection sociale : Vieillesse, Survie, Incapacité, Santé, Famille, Programmes actifs du marché du travail, Chômage, Logement et Autres domaines de politique sociale. Cette version comprend aussi des estimations de &lt;a href="https://data-explorer.oecd.org/vis?lc=fr&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb&amp;pg=0"&gt;dépenses totales nettes&lt;/a&gt;pour 2021 pour 38 pays. Les données agrégées de SOCX ainsi que les sources et la méthodologie sont présentées dans &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;Le Manuel SOCX de l'OCDE– Edition 2019 - Un guide de la base de la Base de données de l'OCDE&lt;/a&gt; (en anglais uniquement)</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_SOCX_AGG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_SOCX_AGG@DF_PUB_PRV" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>EXPEND_SOURCE,SPENDING_TYPE,PROGRAMME_TYPE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,EXPEND_SOURCE=ES50,SPENDING_TYPE=_T,PROGRAMME_TYPE=_T,UNIT_MEASURE=PT_B1GQ</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PROGRAMME_TYPE:OECD.ELS.SPD:HCL_PROGRAMME_TYPE(1.0).H,SPENDING_TYPE:OECD.ELS.SPD:HCL_SPENDING_TYPE(1.0).H,PRICE_BASE:OECD.ELS.SPD:HCL_PRICE_BASE(1.0).H,UNIT_MEASURE:OECD.ELS.SPD:HCL_UNIT_MEASURE(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Public and private social expenditure</common:Name>
+        <common:Name xml:lang="fr">Dépenses sociales publiques et privées par pays</common:Name>
+        <common:Description xml:lang="en">The OECD Social Expenditure Database (SOCX) has been developed in order to serve a growing need for indicators of social policy. It includes reliable and internationally comparable statistics on public and mandatory and voluntary private social expenditure at programme level. SOCX provides a unique tool for monitoring trends in aggregate social expenditure and analysing changes in its composition. It covers 38 OECD countries and some accession countries for the period 1980-2021/23 and estimates for aggregates for 2022-24. A Social Expenditure Update can be found under &lt;a href="https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html"&gt;www.oecd.org/en/data/datasets/social-expenditure-database-socx.htm&lt;/a&gt;. The main social policy areas are as follows: Old age, Survivors, Incapacity-related benefits, Health, Family, Active labor market programmes, Unemployment, Housing, and Other social policy areas. This version also includes estimates of &lt;a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb"&gt;net total social spending&lt;/a&gt; for 2021 for 38 OECD countries. SOCX aggregated data as well as sources and methodology are described in &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;The OECD SOCX Manual – 2019 edition- A guide to the OECD Social Expenditure Database&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">La base de données des dépenses sociales de l'OCDE (SOCX) a été développée pour servir un besoin grandissant d'indicateurs de politique sociale. Elle contient des données fiables et comparables internationalement sur les dépenses sociales publiques et privées obligatoires et volontaires par programmes de dépenses. SOCX a ainsi été constituée dans le but de disposer d’un instrument permettant de suivre l’évolution des dépenses sociales dans son ensemble et d’analyser les changements se produisant dans leur composition. Elle contient des séries chronologiques pour la période 1980-2021/23 pour les 38 pays de l'OCDE et certains pays en voie d'adhésion et des estimations pour les agrégats pour 2022-24. Un point sur les dépenses sociales est disponible sous &lt;a href=" https://www.oecd.org/fr/data/datasets/social-expenditure-database-socx.html "&gt; www.oecd.org/fr/data/datasets/social-expenditure-database-socx.htm &lt;/a&gt;Les dépenses sont réparties entre 9 domaines de la protection sociale : Vieillesse, Survie, Incapacité, Santé, Famille, Programmes actifs du marché du travail, Chômage, Logement et Autres domaines de politique sociale. Cette version comprend aussi des estimations de &lt;a href="https://data-explorer.oecd.org/vis?lc=fr&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb&amp;pg=0"&gt;dépenses totales nettes&lt;/a&gt;pour 2021 pour 38 pays. Les données agrégées de SOCX ainsi que les sources et la méthodologie sont présentées dans &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;Le Manuel SOCX de l'OCDE– Edition 2019 - Un guide de la base de la Base de données de l'OCDE&lt;/a&gt; (en anglais uniquement)</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_SOCX_AGG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+      <structure:Dataflow id="DSD_SOCX_AGG@DF_SOCX_AGG" agencyID="OECD.ELS.SPD" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>EXPEND_SOURCE,SPENDING_TYPE,PROGRAMME_TYPE</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>OBS_STATUS=A,FREQ=A,UNIT_MULT=0</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD_START=2010,EXPEND_SOURCE=ES10,SPENDING_TYPE=_T,UNIT_MEASURE=PT_B1GQ,PROGRAMME_TYPE=_T</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>PROGRAMME_TYPE:OECD.ELS.SPD:HCL_PROGRAMME_TYPE(1.0).H,SPENDING_TYPE:OECD.ELS.SPD:HCL_SPENDING_TYPE(1.0).H,PRICE_BASE:OECD.ELS.SPD:HCL_PRICE_BASE(1.0).H,UNIT_MEASURE:OECD.ELS.SPD:HCL_UNIT_MEASURE(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Social expenditure aggregates</common:Name>
+        <common:Name xml:lang="fr">Agrégats de dépenses sociales</common:Name>
+        <common:Description xml:lang="en">The OECD Social Expenditure Database (SOCX) has been developed in order to serve a growing need for indicators of social policy. It includes reliable and internationally comparable statistics on public and mandatory and voluntary private social expenditure at programme level. SOCX provides a unique tool for monitoring trends in aggregate social expenditure and analysing changes in its composition. It covers 38 OECD countries and some accession countries for the period 1980-2021/23 and estimates for aggregates for 2022-24. A Social Expenditure Update can be found under &lt;a href="https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html"&gt;www.oecd.org/en/data/datasets/social-expenditure-database-socx.htm&lt;/a&gt;. The main social policy areas are as follows: Old age, Survivors, Incapacity-related benefits, Health, Family, Active labor market programmes, Unemployment, Housing, and Other social policy areas. This version also includes estimates of &lt;a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb"&gt;net total social spending&lt;/a&gt; for 2021 for 38 OECD countries. SOCX aggregated data as well as sources and methodology are described in &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;The OECD SOCX Manual – 2019 edition- A guide to the OECD Social Expenditure Database&lt;/a&gt;.</common:Description>
+        <common:Description xml:lang="fr">La base de données des dépenses sociales de l'OCDE (SOCX) a été développée pour servir un besoin grandissant d'indicateurs de politique sociale. Elle contient des données fiables et comparables internationalement sur les dépenses sociales publiques et privées obligatoires et volontaires par programmes de dépenses. SOCX a ainsi été constituée dans le but de disposer d’un instrument permettant de suivre l’évolution des dépenses sociales dans son ensemble et d’analyser les changements se produisant dans leur composition. Elle contient des séries chronologiques pour la période 1980-2021/23 pour les 38 pays de l'OCDE et certains pays en voie d'adhésion et des estimations pour les agrégats pour 2022-24. Un point sur les dépenses sociales est disponible sous &lt;a href=" https://www.oecd.org/fr/data/datasets/social-expenditure-database-socx.html "&gt; www.oecd.org/fr/data/datasets/social-expenditure-database-socx.htm &lt;/a&gt;Les dépenses sont réparties entre 9 domaines de la protection sociale : Vieillesse, Survie, Incapacité, Santé, Famille, Programmes actifs du marché du travail, Chômage, Logement et Autres domaines de politique sociale. Cette version comprend aussi des estimations de &lt;a href="https://data-explorer.oecd.org/vis?lc=fr&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_SOCX_AGG%40DF_NET_GDP&amp;df[ag]=OECD.ELS.SPD&amp;df[vs]=1.0&amp;dq=.A..PT_B1GQ.ES50._T._T.&amp;pd=2010%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb&amp;pg=0"&gt;dépenses totales nettes&lt;/a&gt;pour 2021 pour 38 pays. Les données agrégées de SOCX ainsi que les sources et la méthodologie sont présentées dans &lt;a href="http://www.oecd.org/social/soc/SOCX_Manuel_2019.pdf"&gt;Le Manuel SOCX de l'OCDE– Edition 2019 - Un guide de la base de la Base de données de l'OCDE&lt;/a&gt; (en anglais uniquement)</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_SOCX_AGG" version="1.0" agencyID="OECD.ELS.SPD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+    </structure:Dataflows>
+  </message:Structures>
+</message:Structure>

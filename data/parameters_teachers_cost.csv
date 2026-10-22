@@ -13,3 +13,68 @@ eleves_par_enseignant_public_2nd,12.8,ratio,2024,DEPP RERS 2025 fiche 9.01,verif
 eleves_par_classe_elementaire,21.3,eleves,2024,Senat rapport 139 2025-2026 tome III annexe 13 d'apres DEPP,verifie sur le rapport
 eleves_par_classe_college_hors_SEGPA,23.6,eleves,2024 (annee non explicite),idem,NON REPRODUIT par la DEPP: RERS 2025 fiche 2.05 p.37 donne 25.4 (public hors Segpa); non utilise par les scripts
 eleves_par_classe_lycee_GT,23.9,eleves,2024 (annee non explicite),idem,NON REPRODUIT par la DEPP: RERS 2025 fiche 2.05 p.37 donne 30.4 (public); non utilise par les scripts
+titre2_hors_CAS_mission_ES,59.23,Md EUR,2026 PLF,Senat NP PLF 2026 p.40,verifie sur le document (PLF, pas LFI)
+cas_pensions_contribution_ministere,25.16,Md EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
+credits_paiement_mission_hors_CAS,64485,M EUR,2026 PLF,Senat NP PLF 2026 p.6,verifie sur le document (PLF)
+part_P140_P141_dans_cinq_programmes,70.41,pourcent,2026 PLF,Senat avis commission culture a25-144-31 synthese p.2 (tableau hors CAS) et data/budget_enseignement_scolaire_plf2026.csv,verifie sur le document; denominateur exclut P143; PLF et non LFI
+part_P140_P141_dans_mission_hors_CAS,68.81,pourcent,2026 PLF,(17700.39+26670.90)/64485; P143 implicite = 64485-63021.10 = 1463.9 M EUR,derive; coherent avec Senat NP PLF 2026 p.6
+part_P140_P141_Senat_p5,75.7,pourcent,2026 PLF,Senat NP PLF 2026 p.5 (extraction automatique),NON REPRODUCTIBLE: incompatible avec les tableaux primaires; non utilise
+cp_P140_avec_CAS,27911.90,M EUR,2026 PLF,AN rapport l17b1996 tome III annexe 23 p.7,verifie sur le document (PLF)
+cp_P141_avec_CAS,40007.85,M EUR,2026 PLF,idem,verifie sur le document (PLF)
+cp_P141_hors_CAS,26670.90,M EUR,2026 PLF,Senat avis a25-144-31 synthese p.2,verifie sur le document (PLF)
+cp_P140_hors_CAS,17700.39,M EUR,2026 PLF,idem,verifie sur le document (PLF)
+mission_CP_avec_CAS,89643.98,M EUR,2026 PLF,AN rapport l17b1996 tome III annexe 23 p.7,verifie sur le document (PLF)
+plafond_ETPT_P140_2026,341897.25,ETPT,2026 PLF,AN rapport l17b1996 p.18,verifie sur le document
+plafond_ETPT_P141_2026,451966.41,ETPT,2026 PLF,AN rapport l17b1996 p.23,verifie sur le document
+plafond_emplois_enseignants_LFI2025,839679,ETPT,2025,Senat NP PLF 2026 p.32,verifie sur le document
+ETP_non_enseignants,292698,ETP,2024,Senat rapport 139 tome III annexe 13 d'apres DEPP,verifie sur le rapport
+salaire_net_mensuel_moyen_enseignant,3090,EUR net/mois,2024,DEPP evolution du salaire des enseignants 2023-2024,verifie; net tous degres; pas un cout employeur
+classes_college_public_hors_segpa,101763,classes,2024,DEPP RERS 2025 fiche 2.05 p.37 (public),verifie: valeur imprimee; recoupee avec l'effectif public 4 444 244 (fiche 2.09 p.45) a 0.06 pourcent (101763 x 25.4 + Segpa 5961 x 13.3 + LP 28222 x 18.6 + GT 41206 x 30.4); prive sous contrat exclu (26 348 classes college)
+classes_lycee_GT_public,41206,classes,2024,DEPP RERS 2025 fiche 2.05 p.37 (public),verifie: valeur imprimee; meme recoupement que le college; prive sous contrat exclu (11 790 classes)
+heures_maths_6e,4.5,h/semaine eleve,2017,education.gouv.fr horaires par cycle au college (arretes 19/05/2015 et 16/06/2017),verifie (horaire eleve)
+heures_maths_5e_4e_3e,3.5,h/semaine eleve,2017,idem,verifie (horaire eleve)
+cout_ETP_derive_hors_CAS,52307,EUR/an,derive,(59.23e9)/(839679+292698),DERIVE non primaire: melange plafond 2025, ETP 2024, inclut AED/AESH; borne basse (non enseignants moins payes => cout enseignant probablement superieur)
+cout_ETP_derive_avec_CAS,74525,EUR/an,derive,(59.23e9+25.16e9)/(839679+292698),DERIVE non primaire: meme reserve; CAS Pensions inclus
+cout_complet_ETP_primaire,,EUR/an,,,NON TROUVE sur document primaire (annexe personnels du PLF ou Cour des comptes a lire)
+cout_ETPT_P141_hors_CAS,59011,EUR/an,derive,cp_P141_hors_CAS/plafond_ETPT_P141_2026,DERIVE: moyenne du programme (tous personnels P141, depenses hors titre 2 incluses environ 6 pourcent); pas un cout enseignant
+cout_ETPT_P141_avec_CAS,88520,EUR/an,derive,cp_P141_avec_CAS/plafond_ETPT_P141_2026,DERIVE: meme reserve; CAS Pensions inclus
+cout_ETPT_P140_hors_CAS,51771,EUR/an,derive,cp_P140_hors_CAS/plafond_ETPT_P140_2026,DERIVE: meme reserve
+cout_ETPT_P140_avec_CAS,81638,EUR/an,derive,cp_P140_avec_CAS/plafond_ETPT_P140_2026,DERIVE: meme reserve
+cp_P140_avec_CAS_LFI2026,27912.14,M EUR,2026 LFI,AN PAP 2027 Enseignement scolaire p.22-24 (LFI 2026),verifie sur extrait du document; ecart PLF < 0.01 pourcent
+cp_P141_avec_CAS_LFI2026,40001.62,M EUR,2026 LFI,idem,verifie sur extrait du document; ecart PLF -0.02 pourcent
+mission_CP_avec_CAS_LFI2026,89621.00,M EUR,2026 LFI,idem,verifie sur extrait du document; ecart PLF -0.03 pourcent
+cout_ETPT_P141_avec_CAS_LFI2026,88506,EUR/an,derive,cp_P141_avec_CAS_LFI2026/plafond_ETPT_P141_2026 (LFI 2026 = 451966),DERIVE: meme reserve que la ligne PLF; non utilise par le script
+cout_ETPT_P140_avec_CAS_LFI2026,81639,EUR/an,derive,cp_P140_avec_CAS_LFI2026/plafond_ETPT_P140_2026,DERIVE: meme reserve; titre 2 = 99.8 pourcent des CP de P140 (PAP 2027 p.25)
+cp_P140_PLF2027_avec_CAS,28524.97,M EUR,2027 PLF,AN PAP 2027 Enseignement scolaire p.22-24,verifie sur extrait; PLF 2027 (hausse 2.20 pourcent)
+cp_P141_PLF2027_avec_CAS,40283.68,M EUR,2027 PLF,idem,verifie sur extrait; PLF 2027 (hausse 0.71 pourcent)
+cout_moyen_charge_HCAS_ens2d_global_PLF2025,51293,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38 (budget.gouv.fr file-download/27878) categorie Enseignants du 2nd degre; colonne Cout moyen charge HCAS / Cout global,verifie sur le document; PAS de detail par corps (agreges/certifies)
+cout_moyen_charge_HCAS_ens2d_global_PLF2024,51198,EUR/an,2024 PLF,PAP P141 PLF 2024 p.42 (file-download/21411),verifie sur le document
+cout_moyen_charge_HCAS_ens2d_entree_PLF2025,38690,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
+cout_moyen_charge_HCAS_ens2d_sortie_PLF2025,61360,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
+cout_moyen_charge_HCAS_encadrement_PLF2025,76297,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_dans_P141_PLF2025,46139,EUR/an,2025 PLF,PAP P141 PLF 2025 p.38,verifie sur le document; categorie residuelle du P141 (pas les professeurs des ecoles du P140)
+ratio_avecCAS_sur_horsCAS_P141,1.5001,ratio,2026 PLF,cp_P141_avec_CAS/cp_P141_hors_CAS,derive; suppose que le CAS pese comme en moyenne sur P141
+cout_ens2d_hors_CAS,52248,EUR/an,2025 execute,cout_moyen_charge_HCAS_ens2d_global_RAP2025,PRINCIPAL: cout constate 2025 (RAP 2025 p.53 et p.107); remplace la prevision PLF 2025 (51293)
+cout_ens2d_avec_CAS,78375,EUR/an,derive,cout_ens2d_hors_CAS x ratio_avecCAS_sur_horsCAS_P141,DERIVE: le taux CAS n'est pas lu sur document
+cout_moyen_charge_HCAS_ens1d_global_PLF2025,46139,EUR/an,2025 PLF,PAP PLF 2025 mission Enseignement scolaire (AN Annexes PLF 2025) p.52 et p.109; et PAP P141 p.38; categorie Enseignants du 1er degre; Cout moyen charge HCAS / Cout global,verifie sur le document; coût identique dans trois tableaux
+cout_moyen_charge_HCAS_ens1d_entree_PLF2025,37365,EUR/an,2025 PLF,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_sortie_PLF2025,57892,EUR/an,2025 PLF,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens2d_prive_PLF2025,52668,EUR/an,2025 PLF,PAP PLF 2025 mission Enseignement scolaire p.235 (probablement P139 enseignement prive; programme a confirmer par l'en-tete),verifie sur le document; programme non confirme
+cout_moyen_charge_HCAS_ens2d_global_RAP2025,52248,EUR/an,2025 execute,RAP 2025 mission Enseignement scolaire (AN visualisation 1109849) p.53 (P140) et p.107 (P141),verifie sur le document; valeurs identiques dans les deux programmes
+cout_moyen_charge_HCAS_ens2d_entree_RAP2025,40509,EUR/an,2025 execute,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens2d_sortie_RAP2025,63130,EUR/an,2025 execute,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_global_RAP2025,48944,EUR/an,2025 execute,idem,verifie sur le document (professeurs des ecoles)
+cout_moyen_charge_HCAS_ens1d_entree_RAP2025,38363,EUR/an,2025 execute,idem,verifie sur le document
+cout_moyen_charge_HCAS_ens1d_sortie_RAP2025,60528,EUR/an,2025 execute,idem,verifie sur le document
+taux_contribution_employeur_pensions_civils_2025,78.28,pct_traitement_indiciaire,2025,https://retraitesdeletat.gouv.fr/rest/pdf/actualites/augmentation-du-taux-de-la-contribution-employeur-etat-a-compter-du-1er-janvier-2025 (decret 2025-61),verified
+taux_contribution_employeur_pensions_civils_2026,82.28,pct_traitement_indiciaire,2026,https://retraitesdeletat.gouv.fr/files/files/Professionnels/CAS/Fiches/Historique%20taux%20cotisations.pdf (maj 02/2025; source unique),unconfirmed
+taux_retenue_pension_agent_etat,11.10,pct_traitement_indiciaire,2023-2026,https://retraitesdeletat.gouv.fr/files/files/Professionnels/CAS/Fiches/Historique%20taux%20cotisations.pdf,verified
+service_pe_hebdo,24,h/semaine,2008,BO n32 du 28/08/2008 (circulaire NOR MENH0800653C; decret 2008-775),verified
+service_pe_annuel_supp,108,h/an,2008,BO n32 du 28/08/2008 (circulaire NOR MENH0800653C; decret 2008-775),verified
+classes_elementaire_public_2024,158090,classes,2024,"RERS 2025 fiche 2.02 p.31: 101367 (ecoles elementaires) + 56723 (ecoles primaires); extraction automatique, a verifier sur le PDF",extracted_twice_sum_checked
+classes_mixtes_primaire_public_2024,8106,classes,2024,"RERS 2025 fiche 2.02 p.31; extraction automatique, a verifier",extracted_twice_sum_checked
+classes_preelementaire_public_2024,87778,classes,2024,"RERS 2025 fiche 2.02 p.31; extraction automatique, a verifier",extracted_twice_sum_checked
+cout_ens1d_hors_CAS,48944,EUR/ETPT,2025,"RAP 2025 (AN visualisation/1109849) p.53 P140 / p.107 P141, categorie ens1d (constate)",verified
+cout_ens1d_entree,38363,EUR/ETPT,2025,"RAP 2025 (AN visualisation/1109849) p.53 P140 / p.107 P141, categorie ens1d (entree)",verified
+cout_ens1d_sortie,60528,EUR/ETPT,2025,"RAP 2025 (AN visualisation/1109849) p.53 P140 / p.107 P141, categorie ens1d (sortie)",verified
+ratio_avecCAS_sur_horsCAS_P140,1.5769,ratio,2026,derive: cp_P140 avec CAS / hors CAS (budget_enseignement_scolaire_plf2026.csv),derived

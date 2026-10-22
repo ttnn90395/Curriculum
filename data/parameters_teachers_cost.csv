@@ -66,3 +66,6 @@ cout_moyen_charge_HCAS_ens2d_sortie_RAP2025,63130,EUR/an,2025 execute,idem,verif
 cout_moyen_charge_HCAS_ens1d_global_RAP2025,48944,EUR/an,2025 execute,idem,verifie sur le document (professeurs des ecoles)
 cout_moyen_charge_HCAS_ens1d_entree_RAP2025,38363,EUR/an,2025 execute,idem,verifie sur le document
 cout_moyen_charge_HCAS_ens1d_sortie_RAP2025,60528,EUR/an,2025 execute,idem,verifie sur le document
+taux_contribution_employeur_pensions_civils_2025,78.28,pct_traitement_indiciaire,2025,https://retraitesdeletat.gouv.fr/rest/pdf/actualites/augmentation-du-taux-de-la-contribution-employeur-etat-a-compter-du-1er-janvier-2025 (decret 2025-61),verified
+taux_contribution_employeur_pensions_civils_2026,82.28,pct_traitement_indiciaire,2026,https://retraitesdeletat.gouv.fr/files/files/Professionnels/CAS/Fiches/Historique%20taux%20cotisations.pdf (maj 02/2025; source unique),unconfirmed
+taux_retenue_pension_agent_etat,11.10,pct_traitement_indiciaire,2023-2026,https://retraitesdeletat.gouv.fr/files/files/Professionnels/CAS/Fiches/Historique%20taux%20cotisations.pdf,verified

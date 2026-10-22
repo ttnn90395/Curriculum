@@ -139,3 +139,14 @@ privee de G2 faute de 2015, soit 13 sujets : Nombre N1-N7 (7), Mesure et geometr
 Raison : disponibilite des donnees et domaine Donnees non vide, pas un resultat. H_prop : sujets a difficulte fiable parmi ces 13.
 Sensibilite S4 : 6 sujets a confiance elevee communs aux trois cycles (N1, N2, N4, N7, G3, G6), 2 domaines (Nombre ; Mesure et geometrie).
 D3 et la regle D1 + D2' inchangees. Une conclusion negative sur S4 seule ne tranche pas (puissance plus faible, 6 sujets).
+
+
+## Amendement 4 (comparaison internationale, taille de classe) -- exploratoire, 22 octobre 2026
+
+Objet: etendre de facon exploratoire la couverture de la comparaison internationale (code/cross_country_net_cost.py) aux pays ayant les heures statutaires et le salaire mais pas la taille de classe (NLD, NOR, NZL). Ecrit AVANT tout calcul d'imputation.
+
+Regle: N_hat_i = STR_i x m, ou STR_i est le ratio eleves/personnel enseignant de l'OCDE (flux DF_UOE_NF_PERS_STR, 1er cycle du secondaire, public si disponible, annee la plus recente) et m la mediane, sur les 22 pays complets, de N_j / STR_j. Les filtres exacts du flux sont fixes apres lecture de son profil et committes avant le calcul.
+
+Validation: erreur relative |N_hat_j - N_j| / N_j en leave-one-out (m recalcule sans le pays j) sur les 22 pays. Critere d'acceptation fixe a l'avance: mediane des erreurs <= 15 % ET 90e centile <= 30 %. Si le critere echoue, aucune imputation n'est utilisee et le resultat est rapporte comme non concluant.
+
+Presentation: pays imputes marques et exclus des rangs, medianes et chiffres principaux (qui restent calcules sur les 22 pays complets). Pays sans heures statutaires (DNK, SWE, IRL, PER): non imputes, aucune route de substitution. Aucune autre variante.

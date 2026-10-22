@@ -69,3 +69,12 @@ cout_moyen_charge_HCAS_ens1d_sortie_RAP2025,60528,EUR/an,2025 execute,idem,verif
 taux_contribution_employeur_pensions_civils_2025,78.28,pct_traitement_indiciaire,2025,https://retraitesdeletat.gouv.fr/rest/pdf/actualites/augmentation-du-taux-de-la-contribution-employeur-etat-a-compter-du-1er-janvier-2025 (decret 2025-61),verified
 taux_contribution_employeur_pensions_civils_2026,82.28,pct_traitement_indiciaire,2026,https://retraitesdeletat.gouv.fr/files/files/Professionnels/CAS/Fiches/Historique%20taux%20cotisations.pdf (maj 02/2025; source unique),unconfirmed
 taux_retenue_pension_agent_etat,11.10,pct_traitement_indiciaire,2023-2026,https://retraitesdeletat.gouv.fr/files/files/Professionnels/CAS/Fiches/Historique%20taux%20cotisations.pdf,verified
+service_pe_hebdo,24,h/semaine,2008,BO n32 du 28/08/2008 (circulaire NOR MENH0800653C; decret 2008-775),verified
+service_pe_annuel_supp,108,h/an,2008,BO n32 du 28/08/2008 (circulaire NOR MENH0800653C; decret 2008-775),verified
+classes_elementaire_public_2024,158090,classes,2024,"RERS 2025 fiche 2.02 p.31: 101367 (ecoles elementaires) + 56723 (ecoles primaires); extraction automatique, a verifier sur le PDF",to_verify
+classes_mixtes_primaire_public_2024,8106,classes,2024,"RERS 2025 fiche 2.02 p.31; extraction automatique, a verifier",to_verify
+classes_preelementaire_public_2024,87778,classes,2024,"RERS 2025 fiche 2.02 p.31; extraction automatique, a verifier",to_verify
+cout_ens1d_hors_CAS,48944,EUR/ETPT,2025,"RAP 2025 (AN visualisation/1109849) p.53 P140 / p.107 P141, categorie ens1d (constate)",verified
+cout_ens1d_entree,38363,EUR/ETPT,2025,"RAP 2025 (AN visualisation/1109849) p.53 P140 / p.107 P141, categorie ens1d (entree)",verified
+cout_ens1d_sortie,60528,EUR/ETPT,2025,"RAP 2025 (AN visualisation/1109849) p.53 P140 / p.107 P141, categorie ens1d (sortie)",verified
+ratio_avecCAS_sur_horsCAS_P140,1.5769,ratio,2026,derive: cp_P140 avec CAS / hors CAS (budget_enseignement_scolaire_plf2026.csv),derived

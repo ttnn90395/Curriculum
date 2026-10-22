@@ -50,6 +50,12 @@ T = pick(wt, "REF_PERIOD", dict(MEASURE="WKT_STA_TCH", UNIT_MEASURE="H_Y", EDUCA
 WK = pick(wt, "REF_PERIOD", dict(MEASURE="WKT_STA_TCH", UNIT_MEASURE="WK_Y", EDUCATION_LEV="ISCED11_24", PERS_TYPE="TE"), pub)
 DY = pick(wt, "REF_PERIOD", dict(MEASURE="WKT_STA_TCH", UNIT_MEASURE="D_Y", EDUCATION_LEV="ISCED11_24", PERS_TYPE="TE"), pub)
 N = pick(cls, "TIME_PERIOD", {"MEASURE": "CLS", "EDUCATION_LEV": "ISCED11_2"}, pub)
+IMP = {}
+if os.environ.get("IMPUTE_FILE"):  # Amendement 4: tailles de classe imputees (NLD, NOR, NZL), marquees *, exclues des rangs et medianes
+    IMP = {r["pays"]: float(r["taille_classe_imputee"]) for r in csv.DictReader(open(os.environ["IMPUTE_FILE"]))}
+    for a_, v_ in IMP.items():
+        if a_ not in N: N[a_] = (v_, "imputee")
+OUTCSV = "data/processed/cross_country_net_cost" + ("_imputed" if IMP else "") + ".csv"
 tw = load_tw()
 twy = {}
 for (a, y, k) in tw: twy.setdefault(a, set()).add(y)
@@ -68,7 +74,7 @@ for a in sorted(set(S_ppp) & set(S_xdc) & set(T) & set(N)):
     etp = DH * w / T[a][0]; gross_pp = etp * S_ppp[a][0] / N[a][0]
     uplift = rec["LC"] / rec["GWE"]; net_ratio = rec["NWE"] / rec["GWE"]
     rel = REL.get(a, (None,))[0]
-    out.append(dict(pays=a, salaire_ppp=round(S_ppp[a][0]), pct_salaire_moyen=round(k_raw, 1), borne="oui" if k != round(k_raw) else "", facteur_employeur=round(uplift, 3),
+    out.append(dict(pays=a + ("*" if N[a][1] == "imputee" else ""), salaire_ppp=round(S_ppp[a][0]), pct_salaire_moyen=round(k_raw, 1), borne="oui" if k != round(k_raw) else "", facteur_employeur=round(uplift, 3),
                     net_sur_brut=round(net_ratio, 3), net_ens_sur_net_moyen=round(rec["NWE"] / rec100["NWE"], 3), net_ppp=round(S_ppp[a][0] * net_ratio),
                     ratio_dipl_sup=round(rel, 3) if rel else "", heures_an=round(T[a][0]), semaines=round(w, 1), src_semaines=wsrc, taille_classe=round(N[a][0], 1),
                     etp_par_classe=round(etp, 4), cout_eleve_pct_sal_moy_nat=round(100*gross_pp/(S_ppp[a][0]/(k_raw/100)), 3), cout_eleve_brut_ppp=round(gross_pp, 1), cout_eleve_employeur_ppp=round(gross_pp * uplift, 1),
@@ -79,6 +85,7 @@ print(f"{'pays':5}{'sal.PPA':>9}{'%sal.moy':>9}{'fact.empl':>10}{'net/brut':>9}{
 for r in out:
     print(f"{r['pays']:5}{r['salaire_ppp']:9}{r['pct_salaire_moyen']:9}{r['facteur_employeur']:10}{r['net_sur_brut']:9}{r['net_ens_sur_net_moyen']:12}{r['net_ppp']:9}{r['etp_par_classe']:8}{r['cout_eleve_brut_ppp']:10}{r['cout_eleve_employeur_ppp']:10}{r['cout_eleve_pct_sal_moy_nat']:9}")
 if lost: print("ecartes:", lost)
+out_all = list(out); out = [r for r in out if not r["pays"].endswith("*")]  # rangs, medianes et chiffres principaux: pays non imputes
 def rank(key, rev=False):
     s = sorted(out, key=lambda r: r[key], reverse=rev); return [r["pays"] for r in s].index("FRA") + 1 if any(r["pays"] == "FRA" for r in out) else None
 if any(r["pays"] == "FRA" for r in out):
@@ -92,8 +99,8 @@ for key, lab in (("cout_eleve_brut_ppp", "brut"), ("cout_eleve_employeur_ppp", "
     if not v: continue
     print(f"   cout/eleve {lab}: mediane {st.median(v):.1f}, min {min(v):.1f}, max {max(v):.1f}")
 if out:
-    with open("data/processed/cross_country_net_cost.csv", "w", newline="") as fh:
-        w_ = csv.DictWriter(fh, fieldnames=list(out[0])); w_.writeheader(); w_.writerows(out)
+    with open(OUTCSV, "w", newline="") as fh:
+        w_ = csv.DictWriter(fh, fieldnames=list(out_all[0])); w_.writeheader(); w_.writerows(out_all)
 print("\nLimites: facteurs employeur et nets = personne seule sans enfant au niveau de salaire moyen d'enseignant, regime general; les retraites specifiques des fonctionnaires"
       " (CAS Pensions en France, Beamte en Allemagne...) ne sont pas incluses; salaires EAG et fiscalite de la meme annee si disponible; BEL et GBR ecartes si codes differents.")
-print("Ecritures: data/processed/cross_country_net_cost.csv")
+print("Ecritures:", OUTCSV)

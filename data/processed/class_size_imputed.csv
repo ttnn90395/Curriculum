@@ -1,0 +1,4 @@
+pays,taille_classe_imputee,str,annee_str,destination_str
+NLD,29.7,15.58,2024,INST_EDU_PUB
+NOR,14.63,7.67,2024,INST_EDU_PUB
+NZL,33.58,17.61,2024,INST_EDU_PUB

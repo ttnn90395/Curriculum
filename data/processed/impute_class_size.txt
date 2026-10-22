@@ -1,0 +1,26 @@
+pays complets: 22, avec N et STR: 20; ratio N/STR (mediane): 1.906
+pays       N    STR  N/STR  err LOO
+ITA     19.9   10.4   1.91     0.4%
+POL     18.4    9.7   1.90     0.4%
+EST     19.8   10.3   1.92     0.7%
+ISL     20.8   11.0   1.90     0.8%
+CHL     28.7   14.9   1.92     1.0%
+HUN     20.3   11.0   1.85     3.4%
+LVA     17.4    9.5   1.83     4.7%
+DEU     23.6   13.0   1.82     5.1%
+FRA     25.4   14.2   1.79     6.9%
+CZE     22.1   12.4   1.78     7.5%
+FIN     19.3    9.2   2.11     9.8%
+LTU     22.0   10.2   2.16    12.0%
+TUR     23.5   14.3   1.64    16.2%
+CRI     29.8   13.1   2.27    16.3%
+PRT     21.4    9.0   2.38    20.0%
+AUT     21.4    8.8   2.44    22.0%
+ISR     30.9   12.1   2.56    25.7%
+GRC     21.3    8.2   2.61    27.1%
+USA     22.1   14.9   1.49    28.6%
+SVK     20.8   16.0   1.30    47.3%
+
+mediane des erreurs 8.6 % (seuil 15), 90e centile 27.1 % (seuil 30) -> critere SATISFAIT
+imputations: [{'pays': 'NLD', 'taille_classe_imputee': 29.7, 'str': 15.58, 'annee_str': '2024', 'destination_str': 'INST_EDU_PUB'}, {'pays': 'NOR', 'taille_classe_imputee': 14.63, 'str': 7.67, 'annee_str': '2024', 'destination_str': 'INST_EDU_PUB'}, {'pays': 'NZL', 'taille_classe_imputee': 33.58, 'str': 17.61, 'annee_str': '2024', 'destination_str': 'INST_EDU_PUB'}]
+sans STR parmi les cibles: []

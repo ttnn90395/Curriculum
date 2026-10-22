@@ -1,0 +1,94 @@
+MEASURE (code: libelle; unites):
+  AV_CIT: Average central income tax; ['PT_COS_LB']
+  AV_LIT: Average local income tax; ['PT_COS_LB']
+  AV_TW: Average tax wedge; ['PT_COS_LB']
+  CB: Cash benefits; ['PT_COS_LB', 'XDC']
+  EESSC: Employee social security contributions; ['PT_COS_LB', 'XDC']
+  ERSSC: Employer social security contributions; ['XDC']
+  ERSSC_PT: Employer social security contributions and payroll taxes; ['PT_COS_LB']
+  GWE: Gross wage earnings; ['XDC']
+  IT_CG: Income tax of central government; ['XDC']
+  IT_LG: Income tax of local government; ['XDC']
+  LC: Labour costs; ['XDC']
+  MR_CB: Marginal cash benefits; ['PT_COS_LB']
+  MR_CIT: Marginal central income tax; ['PT_COS_LB']
+  MR_EESSC: Marginal employee social security contributions; ['PT_COS_LB']
+  MR_ERSSC_PT: Marginal employer social security contributions and payroll taxes; ['PT_COS_LB']
+  MR_LIT: Marginal local income tax; ['PT_COS_LB']
+  MR_TW: Marginal tax wedge; ['PT_COS_LB']
+  NPATR: Net personal average tax rate; ['PT_WG_EARN_G']
+  NPMTR: Net personal marginal tax rate; ['PT_WG_EARN_G']
+  NWE: Net wage earnings; ['XDC']
+  PT: Payroll taxes; ['XDC']
+HOUSEHOLD_TYPE: {'S_C0': 'Single person, no children', 'C_C0': 'Couple, no children', 'C_C2': 'Couple, 2 children', 'S_C2': 'Single person, 2 children'}
+INCOME_PRINCIPAL: de AW50 a AW250, 201 niveaux
+France 2025, personne seule sans enfant (S_C0):
+   AW100 AV_CIT PT_COS_LB _Z 12.22610058
+   AW100 AV_LIT PT_COS_LB _Z 0
+   AW100 AV_TW PT_COS_LB _Z 47.17806103
+   AW100 CB PT_COS_LB _Z 0
+   AW100 CB XDC _Z 0
+   AW100 EESSC PT_COS_LB _Z 8.29477946
+   AW100 EESSC XDC _Z -5198.3874049
+   AW100 ERSSC XDC _Z -16706.21318337
+   AW100 ERSSC_PT PT_COS_LB _Z 26.657181
+   AW100 GWE XDC _Z 45964.37897807
+   AW100 IT_CG XDC _Z -7662.16962924
+   AW100 IT_LG XDC _Z 0
+   AW100 LC XDC _Z 62670.59216144
+   AW100 MR_CB PT_COS_LB _Z 0
+   AW100 MR_CIT PT_COS_LB _Z 23.22971558
+   AW100 MR_EESSC PT_COS_LB _Z 8.29477946
+   AW100 MR_ERSSC_PT PT_COS_LB _Z 26.657181
+   AW100 MR_LIT PT_COS_LB _Z 0
+   AW100 MR_TW PT_COS_LB _Z 58.18167603
+   AW100 NPATR PT_WG_EARN_G _Z 27.97939909
+   AW100 NPMTR PT_WG_EARN_G _Z 42.982388
+   AW100 NWE XDC _Z 33103.82194393
+   AW100 PT XDC _Z 0
+   AW130 AV_CIT PT_COS_LB _Z 14.14333558
+   AW130 AV_LIT PT_COS_LB _Z 0
+   AW130 AV_TW PT_COS_LB _Z 51.85073294
+   AW130 CB PT_COS_LB _Z 0
+   AW130 CB XDC _Z 0
+   AW130 EESSC PT_COS_LB _Z 7.85422706
+   AW130 EESSC XDC _Z -6690.52432039
+   AW130 ERSSC XDC _Z -25430.04682255
+   AW130 ERSSC_PT PT_COS_LB _Z 29.8531703
+   AW130 GWE XDC _Z 59753.69267149
+   AW130 IT_CG XDC _Z -12047.82213463
+   AW130 IT_LG XDC _Z 0
+   AW130 LC XDC _Z 85183.73949404
+   AW130 MR_CB PT_COS_LB _Z 0
+   AW130 MR_CIT PT_COS_LB _Z 22.41576533
+   AW130 MR_EESSC PT_COS_LB _Z 7.19386109
+   AW130 MR_ERSSC_PT PT_COS_LB _Z 29.85704867
+   AW130 MR_LIT PT_COS_LB _Z 0
+   AW130 MR_TW PT_COS_LB _Z 59.46667508
+   AW130 NPATR PT_WG_EARN_G _Z 31.35931123
+   AW130 NPMTR PT_WG_EARN_G _Z 42.21326
+   AW130 NWE XDC _Z 41015.34621647
+   AW130 PT XDC _Z 0
+   AW70 AV_CIT PT_COS_LB _Z 9.65686731
+   AW70 AV_LIT PT_COS_LB _Z 0
+   AW70 AV_TW PT_COS_LB _Z 42.61653361
+   AW70 CB PT_COS_LB _Z 0
+   AW70 CB XDC _Z 0
+   AW70 EESSC PT_COS_LB _Z 8.54883232
+   AW70 EESSC XDC _Z -3638.87118343
+   AW70 ERSSC XDC _Z -10390.6448259
+   AW70 ERSSC_PT PT_COS_LB _Z 24.41083398
+   AW70 GWE XDC _Z 32175.06528465
+   AW70 IT_CG XDC _Z -4110.51414417
+   AW70 IT_LG XDC _Z 0
+   AW70 LC XDC _Z 42565.71011055
+   AW70 MR_CB PT_COS_LB _Z 0
+   AW70 MR_CIT PT_COS_LB _Z 11.20910026
+   AW70 MR_EESSC PT_COS_LB _Z 5.94524504
+   AW70 MR_ERSSC_PT PT_COS_LB _Z 47.43187171
+   AW70 MR_LIT PT_COS_LB _Z 0
+   AW70 MR_TW PT_COS_LB _Z 64.586217
+   AW70 NPATR PT_WG_EARN_G _Z 24.08506481
+   AW70 NPMTR PT_WG_EARN_G _Z 32.6325967
+   AW70 NWE XDC _Z 24425.67995705
+   AW70 PT XDC _Z 0

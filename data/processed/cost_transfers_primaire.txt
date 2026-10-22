@@ -1,0 +1,9 @@
+Statut des classes (RERS 2025 fiche 2.02 p.31): to_verify; statut du cout ens. 1er degre: verified.
+Service 24 h/semaine; cout moyen charge ens. 1er degre hors CAS 48,944 EUR (entree 38,363, sortie 60,528); rapport avec/hors CAS (P140) 1.5769.
+scenario                          dh  classes     ETP  M EUR hors CAS  M EUR avec CAS % P140 hc pt mission hc pt mission ac
+elementaire                        1  158,090   6,587           322.4           508.4      1.82          0.50          0.57
+elementaire                        2  158,090  13,174           644.8         1,016.8      3.64          1.00          1.13
+elementaire + mixtes               1  166,196   6,925           338.9           534.5      1.91          0.53          0.60
+elementaire + mixtes               2  166,196  13,850           677.9         1,068.9      3.83          1.05          1.19
+Bornes marginales (elementaire, +1 h): entree 252.7 M EUR hors CAS, sortie 398.7 M EUR hors CAS.
+Limites: cout moyen de categorie (RAP 2025, hors CAS); CAS derive par le rapport des credits du P140; classes RERS 2025 (rentree 2024); maternelle exclue; la repartition des classes mixtes entre niveaux n'est pas connue.

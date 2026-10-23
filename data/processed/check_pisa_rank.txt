@@ -1,0 +1,14 @@
+pays dans le fichier : 38
+moyennes manquantes (ignorees, non imputees) : 3 [('LUX', 'mathematics', '2022'), ('LUX', 'reading', '2022'), ('LUX', 'science', '2022')]
+2022 mathematics: France 474, rang 22/37, moyenne simple pays 472.4, ecart-type entre pays 33.4
+2022 reading: France 474, rang 23/37, moyenne simple pays 475.6, ecart-type entre pays 27.2
+2022 science: France 487, rang 22/37, moyenne simple pays 484.7, ecart-type entre pays 30.6
+2022 moyenne des 3 domaines: France 478.3, rang 22/37
+2025 mathematics: France 458, rang 28/38, moyenne simple pays 463.1, ecart-type entre pays 32.0
+2025 reading: France 456, rang 23/38, moyenne simple pays 460.9, ecart-type entre pays 27.0
+2025 science: France 483, rang 22/38, moyenne simple pays 481.9, ecart-type entre pays 29.4
+2025 moyenne des 3 domaines: France 465.7, rang 24/38
+Variation de rang 2022 -> 2025 (positif = recul) : mathematics +6; reading +0; science +0; moy3 +2
+Reference DEPP (variation de places publiee, signe DEPP : - = recul) : sciences -1, mathematiques -8, lecture +1 (a comparer en inversant le signe)
+Recoupement sciences 2025 page OCDE / fichier : 39 pays page, ecarts > 0.5 : 0
+Pays seulement dans la page : ['HRV']; seulement dans le fichier : []

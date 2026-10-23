@@ -1,0 +1,15 @@
+id,source_family,year,indicator,track_or_level,value,unit,source,status,note
+C01,Bac,2025,pass rate,all,91.8,percent,DEPP NI 2025-45,extracted,2024: 91.4
+C02,Bac,2025,pass rate,general,96.4,percent,DEPP NI 2025-45,extracted,2024: 96.1
+C03,Bac,2025,pass rate,technological,91.2,percent,DEPP NI 2025-45,extracted,2024: 90.3
+C04,Bac,2025,pass rate,professional,84.1,percent,DEPP NI 2025-45,extracted,2024: 83.5
+C05,Bac,2025,share with mention,all,58.8,percent,DEPP NI 2025-45,extracted,2024 about 58.4 derived
+C06,Bac,2025,share of generation,all,78.8,percent,DEPP NI 2025-45,extracted,provisional; general 42.6 techno 15.6 pro 20.6
+C07,Bac,2021,continuous assessment share of final mark,all,40,percent,75secondes (secondary press),secondary_unverified,reform bac 2021; verify against MENJ text before use; DEPP note silent
+C08,Bac,1995-2024,pass rate long series,all,NA,percent,RERS 2024 pp 254-259 and DEPP series,pending,75secondes table REJECTED: internally inconsistent (2025 techno 96.4 above general 91.8; 2024 values differ from DEPP 96.1/90.3/83.5)
+C09,CEDRE maths,2008,mean score,end of college (3e),250,scale mean 250 sd 50,Cafe pedagogique 2020 quoting DEPP,secondary_citation,primary source DEPP CEDRE 2019 note not read
+C10,CEDRE maths,2014,mean score,end of college (3e),243,scale mean 250 sd 50,same,secondary_citation,share low level 15 to 19.5 percent 2008-2014 (DEPP page)
+C11,CEDRE maths,2019,mean score,end of college (3e),237,scale mean 250 sd 50,same,secondary_citation,drop 13 points = 0.26 sd over 2008-2019; digital delivery in 2019 may explain part
+C12,CEDRE maths,2014,mean score,end of primary (CM2),249,scale,same,secondary_citation,
+C13,CEDRE maths,2019,mean score,end of primary (CM2),232,scale,same,secondary_citation,2008 value not retrieved; very weak 4 to 9 percent weak 13 to 17 percent 2014-2019
+C14,CEDRE maths,2025,mean score,CM2 and 3e,NA,scale,DEPP CEDRE page,pending,round conducted 2025 (8200 CM2 and 8000 3e pupils); results not retrieved

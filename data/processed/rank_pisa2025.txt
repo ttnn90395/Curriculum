@@ -1,0 +1,11 @@
+Tous systemes mathematics: France 458, rang 33/90 (ex aequo avec ['Luxembourg'])
+Tous systemes reading: France 456, rang 28/90 (ex aequo avec [])
+Tous systemes science: France 483, rang 27/91 (ex aequo avec ['Italy'])
+Tous systemes moyenne des 3 domaines: France 465.7, rang 29/90
+Membres OCDE mathematics: France 458, rang 28/38 (ex aequo avec ['Luxembourg'])
+Membres OCDE reading: France 456, rang 23/38 (ex aequo avec [])
+Membres OCDE science: France 483, rang 22/38 (ex aequo avec ['Italy'])
+Membres OCDE moyenne des 3 domaines: France 465.7, rang 24/38
+Moyenne simple des 38 membres OCDE, mathematics: 463.1
+Moyenne simple des 38 membres OCDE, reading: 460.9
+Moyenne simple des 38 membres OCDE, science: 481.9

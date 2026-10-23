@@ -243,3 +243,30 @@ Inventaire du dépôt (data/processed/inventory_repo.txt) : la base de programme
 - Examens de fin de lycée (bac et équivalents) : comparaison entre pays hors périmètre tant qu'un amendement n'a pas ajouté une base de programmes à ce niveau. Seule la série temporelle française (programme français) est dans le périmètre.
 - Examens de fin de collège : dans le périmètre uniquement après construction et validation d'un graphe de notions de 8e année à partir des curricula TIMSS 8e année, selon les mêmes critères de fiabilité que le graphe de 4e année. Cette construction fait l'objet d'un amendement ultérieur.
 - Aucun résultat « tous pays » n'est annoncé pour les examens. Les comparaisons entre pays restent limitées aux contenus prévus (TIMSS), sans examen.
+
+## Amendement 8 — Scénarios d'heures hebdomadaires, gain PISA et coût (pré-enregistré avant exécution de code/optimise_hours.py)
+
+Statut : exploratoire. Entrées : méta-analyse de l'effet par heure (Amendement 6.2, data/processed/meta_theta.*), coûts d'une heure hebdomadaire supplémentaire par classe (note comparaison internationale, vérifiés : collège 295 M€ hors CAS / 443 M€ avec CAS ; élémentaire 322,4 / 508,4), grilles horaires (data/instruction_hours_fr_*.csv).
+
+### 8.1 Modèle
+- Gain sur le domaine PISA d d'une heure hebdomadaire supplémentaire dans la matière associée : sigma x theta, où sigma est l'écart-type des scores individuels PISA (valeur centrale 100, convention de l'échelle ; sensibilité 90) et theta ~ N(theta_RE, SE^2 + tau^2) (distribution prédictive de la méta-analyse, k = 3 études).
+- Correspondance matière-domaine : français vers lecture, mathématiques vers mathématiques, SVT, physique-chimie et technologie vers sciences. Les autres matières n'ont pas d'effet direct sur un domaine PISA dans le scénario de base. Gain sur la moyenne des trois domaines = moyenne des trois gains.
+- Monte-Carlo : 20 000 tirages, graine 20261023. Intervalles à 5 et 95 %.
+
+### 8.2 Périmètre et hypothèses de timing
+- Seul le collège porte un effet PISA dans ce modèle : les élèves de 15 ans sont en 3e ou en seconde, et aucun coût séparé de la seule seconde n'est disponible. Élémentaire et lycée : coût rapporté, aucun gain PISA revendiqué faute de preuve sur l'effet cumulé.
+- T2 (central, conservateur) : l'heure est ajoutée dans les quatre niveaux du collège, coût complet, effet theta une seule fois (pas de cumul sur les années). T1 (borne basse du coût) : l'heure n'est ajoutée qu'en 3e, coût égal à un quart du coût collège (hypothèse d'effectifs de classes égaux entre niveaux), effet theta. T1 et T2 sont toujours rapportés ensemble.
+
+### 8.3 Scénarios
+- +1 h hebdomadaire de mathématiques, de français ou de sciences au collège ; +1 h de chacune des trois matières.
+- Réallocation à coût nul de 1 h de LV2 vers les mathématiques au collège (T2), avec une fuite (« spillover ») f de la perte sur chacun des trois domaines, f dans {0 ; 0,25 ; 0,5}, exprimée en fraction de sigma x theta. Ce balayage est un paramètre, pas une preuve : les effets croisés de Huebener et al. (Table 5) n'ont pas la même unité et ne sont pas utilisés. Coûts de reconversion des enseignants hors périmètre.
+- Contrainte de temps : volume hebdomadaire total de l'élève plafonné à 30 h (collège actuel : 26 h). Aucun scénario ne dépasse 29 h.
+
+### 8.4 Ce que le modèle n'est pas
+- Avec un seul effet theta commun à toutes les matières, le « classement » des matières par rendement est trivial (égalité). L'optimisation se réduit à un rapport coût-efficacité (M€ par point de la moyenne des trois domaines) et à l'effet de la réallocation. Aucune matière n'est déclarée plus rentable qu'une autre.
+- Les intervalles reflètent l'incertitude sur theta, pas l'incertitude de modèle : extrapolation d'effets mesurés à la marge (Lavy, Cattaneo, Huebener) à une hausse de 1 h par semaine au collège entier.
+- Une réallocation qui augmente un score PISA en retirant des heures de langues, d'arts ou d'EPS ne vaut pas recommandation : les objectifs hors PISA ne sont pas valorisés par ce modèle.
+- Aucune analyse d'équité : les effets sont plus forts pour les élèves et filières forts (Amendement 6.4).
+
+### 8.5 Interdits
+- Aucun changement de sigma, de la distribution de theta, des hypothèses T1/T2 ou des scénarios après avoir vu les sorties. Tout ajout est un nouvel amendement, rapporté avec et sans.

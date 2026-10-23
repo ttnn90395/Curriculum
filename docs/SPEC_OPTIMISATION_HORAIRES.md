@@ -270,3 +270,27 @@ Statut : exploratoire. Entrées : méta-analyse de l'effet par heure (Amendement
 
 ### 8.5 Interdits
 - Aucun changement de sigma, de la distribution de theta, des hypothèses T1/T2 ou des scénarios après avoir vu les sorties. Tout ajout est un nouvel amendement, rapporté avec et sans.
+
+## Amendement 9 — Attractivité du corps enseignant : retenue, taux CAS, salaire brut (pré-enregistré avant tout calcul)
+
+Statut : exploratoire, France uniquement (SCOPE.md, ajout du 2026-10-23). Scénarios paramétrés, jamais une prédiction ponctuelle.
+
+### 9.1 Trois leviers distincts
+- L1, hausse du salaire brut de x % : le net du salarié augmente de x % x (net/brut) en relatif au brut, le coût employeur augmente de x % du brut multiplié par (1 + taux CAS) avec CAS, ou de x % du brut hors CAS.
+- L2, baisse de la retenue salariale (part salarié de la cotisation pension, 11,10 % du traitement indiciaire) de d points : le net augmente de d points du brut, le brut est inchangé. Coût hors CAS : nul pour la mission budgétaire. Coût avec financement du compte pensions : d points du brut, car le produit de la retenue disparaît. Les deux périmètres sont rapportés.
+- L3, variation du taux CAS employeur : aucun effet sur le net, donc aucun effet attendu sur l'attractivité. Il ne modifie que la présentation des coûts « avec CAS » ; il est rapporté pour ne pas confondre transfert comptable et gain de pouvoir d'achat.
+- Les gains nets sont rapportés en euros de net par euro de coût dans chaque périmètre, ce qui permet de comparer L1 et L2.
+
+### 9.2 Effet sur l'offre
+- Variation relative du salaire net rapporté à l'alternative (net moyen du pays, rapport net enseignant / net moyen déjà calculé, data/processed/cross_country_net_cost.csv) : delta = variation de net en %.
+- Variation des candidats présents : epsilon x delta, avec epsilon dans {0,3 ; 1,0 ; 2,0} (bornes des estimations S01 à S04, data/evidence_teacher_supply.csv ; une seule étude anglaise, aucun résultat français).
+- Candidats supplémentaires admis : au taux moyen d'admission par perimetre (premier degré 37,4 % ; second degré 24,8 %, data/evidence_attractivite_fr.csv A04/A02 et A12/A10). Sensibilité : moitié de ce taux pour des candidats marginaux. Réduction des postes non pourvus plafonnée au nombre de postes non pourvus observé (premier degré environ 637 en 2025 par différence ; second degré 12 244 postes moins 11 121 admis = 1 123).
+- Qualité des entrants : effet nul sur les scores en scénario central (S08), jamais ajouté au calcul des points PISA de l'Amendement 8.
+
+### 9.3 Grille
+- Hausses de net : +1 %, +5 %, +10 %. Leviers L1 et L2 (pour L2, d est déduit pour obtenir le même gain de net). Les deux périmètres de coût, les deux degrés.
+- Masse salariale : coûts moyens par catégorie hors CAS du RAP 2025 (premier degré 48 944 euros, second degré 52 248 euros) multipliés par les effectifs en équivalent temps plein de data/parameters_teachers_cost.csv ; si l'effectif manque dans ce fichier, le scénario n'est pas calculé et l'absence est rapportée.
+
+### 9.4 Interdits
+- Aucune élasticité n'est ajoutée ni retirée après avoir vu les sorties. Toute étude supplémentaire est un nouvel amendement, rapporté avec et sans.
+- Aucune conclusion sur l'effet du taux CAS sur l'attractivité (L3) : un transfert comptable n'est pas un gain de pouvoir d'achat.

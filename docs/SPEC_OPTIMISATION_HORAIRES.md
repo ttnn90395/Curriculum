@@ -206,3 +206,33 @@ Statut : rédigé après la collecte de `data/evidence_instruction_time.csv`, `d
 
 ### 6.5 Ce qui reste interdit
 - Aucune variante de l'estimateur ni de la sélection des études n'est ajoutée après avoir vu les résultats. Toute étude ajoutée après ce commit est signalée et son impact rapporté avec et sans elle.
+
+## Amendement 7 — Difficulté des examens nationaux rapportée au programme, pour l'ensemble des pays (pré-enregistré avant tout codage de sujets)
+
+Statut : rédigé avant tout codage d'énoncés et avant tout calcul. Exploratoire. Complète l'Amendement 5 (volet « nivellement par le bas ») et l'Amendement 6.
+
+### 7.1 Objet
+Mesurer, pour chaque pays et chaque année d'examen national de fin de cycle disposant d'un barème public, ce que l'examen exige réellement, rapporté au programme officiel, puis le comparer au taux de réussite et au niveau mesuré indépendamment (CEDRE, PISA, TIMSS).
+
+### 7.2 Périmètre
+- Pays : tous les pays pour lesquels existent à la fois (i) un programme officiel projetable sur le graphe de notions du module A, (ii) un examen national de fin de cycle avec sujets et barème publics sur au moins deux années distantes d'au moins 10 ans. La liste est produite par un inventaire (`data/exam_inventory.csv`, statut par pays) committé avant le codage. Un pays absent de la liste est exclu pour absence de données, jamais pour son résultat.
+- Examens : épreuves nationales écrites uniquement. Le contrôle continu et les épreuves notées localement sont hors barème national : leur part dans la note finale est rapportée à côté, jamais imputée.
+
+### 7.3 Indices (définis avant calcul)
+- I1, exigence de contenu : nombre de notions de l'ensemble minimal qui permet d'atteindre la note de passage d'après le barème, avec le graphe de prérequis (fermeture par prérequis). Problème de sac à dos : minimiser le nombre de notions (fermées par prérequis) sous la contrainte de points obtenus supérieurs ou égaux au seuil. Profondeur maximale dans le graphe rapportée à côté.
+- I2, couverture du programme : part des notions du programme évaluées, pondérée par les points du barème.
+- I3, indulgence de notation : écart entre note moyenne observée et note moyenne attendue d'après le barème pour une population d'un niveau mesuré par l'évaluation indépendante. Calculé uniquement quand la distribution des notes est publique.
+- Les trois indices sont rapportés séparément, aucun indice composite.
+
+### 7.4 Règles de codage
+- Allocation des points : les points d'une question sont répartis à parts égales entre les notions qu'elle mobilise (règle unique, fixée ici). Sensibilité : allocation sur la seule notion la plus profonde.
+- Exercices au choix : l'ensemble atteignable est celui qui minimise I1 parmi les choix autorisés par la consigne.
+- Codage par deux codeurs indépendants (un humain, un modèle de langage utilisé comme codeur supplémentaire, jamais comme arbitre). Accord inter-codeurs rapporté (kappa) ; seuil d'usage fixé à kappa supérieur ou égal à 0,6 sur la correspondance question-notions, sinon l'indice est rapporté comme non fiable.
+- Projection des programmes étrangers sur l'échelle commune : table de correspondance publique (`data/curriculum_mapping.csv`), committée avant le codage des sujets, avec statut par ligne (mapping direct, partiel, absent). Les notions sans correspondance sont comptées comme non couvertes et rapportées.
+
+### 7.5 Analyse
+- Comparaisons dans le temps au sein d'un pays (principal) et entre pays (secondaire, soumise aux limites de projection).
+- Lecture pré-enregistrée : si I1 est stable ou baisse pendant que le taux de réussite monte et que le niveau mesuré baisse, cela est compatible avec une indulgence accrue ou une demande allégée ; I3 distingue les deux quand il est disponible. Aucune conclusion causale.
+
+### 7.6 Interdits
+- Pas de recodage ni de nouveau mapping après avoir vu les indices. Tout changement est un nouvel amendement daté, rapporté avec et sans.

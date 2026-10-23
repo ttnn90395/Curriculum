@@ -178,3 +178,31 @@ Ecrit AVANT toute collecte de preuves et tout calcul d'optimisation. Statut: exp
 **5.8 Volet attractivite.** (a) Cotisation employeur CAS Pensions: cout budgetaire sans effet sur le net de l'enseignant; chiffrage de la hausse 74,28 % -> 78,28 % (2025) -> 82,28 % (2026, source unique) sur l'assiette derivee. (b) Retenue salariale (11,10 %, 2023-2026): effet direct sur le net; simulation du net de l'enseignant rapporte au net moyen avec Taxing Wages (22 pays deja calcules). (c) Attractivite: elasticite de l'offre d'enseignants au salaire relatif tiree d'etudes causales selon la regle 5.4 (au moins 3 estimations, sinon descriptif); indicateurs france: rapport candidats/postes aux concours (CAPES, CRPE) et postes non pourvus (DEPP, ministere), a collecter. Resultat en fourchette, jamais en valeur ponctuelle.
 
 **5.9 Ordre d'execution.** (1) cet amendement committe; (2) tables de preuves (data/evidence_*.csv) avec source, extraction et statut, committees avant l'optimisation; (3) code committe avant execution; (4) execution. Toute variante apres coup = nouvel amendement presente comme exploratoire.
+
+## Amendement 6 — Règles de décision après collecte des preuves (pré-enregistré avant toute optimisation)
+
+Statut : rédigé après la collecte de `data/evidence_instruction_time.csv`, `data/evidence_teacher_supply.csv` et `data/evidence_pisa2025.csv`, avant tout calcul d'optimisation. Exploratoire.
+
+### 6.1 Référence PISA 2025
+- Moyenne de référence principale : moyenne de tous les membres de l'OCDE publiée dans le Volume I (maths 463, lecture 461, sciences 482).
+- Sensibilité : moyenne DEPP sur 24 pays comparables (470, 466, 486). Les deux sont rapportées, aucune n'est choisie après coup.
+- Rang global : rang de la France parmi les pays et économies de l'annexe I.B1.2 du Volume I, calculé sur la moyenne simple des trois domaines, et rang par domaine. Le rang est un indicateur descriptif ; l'optimisation cible les points de score, pas le rang.
+- Tant que les tableaux annexes de maths et de lecture ne sont pas versés dans `data/evidence_pisa2025.csv` (ligne P11), aucun rang n'est annoncé.
+
+### 6.2 Effet des heures d'enseignement
+- La règle 5.4 (au moins 3 estimations indépendantes par couple matière x domaine) n'est pas satisfaite : les études disponibles donnent des effets groupés par heure hebdomadaire.
+- Décision : un effet commun theta par heure hebdomadaire et par matière, estimé par méta-analyse à effets aléatoires sur les estimations indépendantes : E01 (Lavy), E06 (Cattaneo et al., heures officielles, préférée à E05 pour éviter le double comptage), E07 à E09 comptées comme une seule étude (forme réduite, signalée), et Rivkin-Schiman (E10) si extraite avant calcul.
+- Aucun classement des matières par rendement n'est revendiqué. L'effet d'une heure est attribué au domaine PISA de la matière enseignée (français vers lecture, mathématiques vers maths, sciences vers sciences), sans effet croisé en base. Les effets croisés de Huebener et al. (Table 5) servent uniquement en sensibilité.
+- Sensibilités déclarées : (a) rendements décroissants par paliers (Lavy, Table 3 catégorielle) ; (b) effet par filière (Cattaneo, Table 2 : 0,038 / 0,060 / 0,080 selon la filière) ; (c) effet réduit de moitié (cas des pays en développement, E04, comme borne basse prudente).
+- Conséquence assumée : sans effet propre à chaque matière, l'optimisation des horaires ne peut pas affirmer qu'une matière est plus rentable qu'une autre. Elle porte sur le volume total d'heures, sa répartition entre niveaux et filières, et son coût.
+
+### 6.3 Attractivité du corps enseignant
+- Aucune élasticité française n'est disponible. L'élasticité des candidatures au salaire relatif est traitée comme un paramètre de scénario sur [0,3 ; 2,0] (S01 à S04), jamais comme une prédiction ponctuelle.
+- L'effet de la qualité des entrants sur les scores est borné à zéro comme scénario central (S08), avec un scénario positif à titre de sensibilité.
+- La retenue salariale (11,10 %) et le taux CAS employeur (74,28 / 78,28 / 82,28 %) sont traités séparément : la retenue modifie le net du salarié, le taux CAS modifie le coût employeur sans modifier le net. L'effet sur l'attractivité ne passe que par le salaire relatif net.
+
+### 6.4 Équité
+- Les effets sont rapportés séparément pour le bas et le haut de la distribution quand l'étude le permet (E07 à E09 : les élèves faibles ne bénéficient pas ; E05/E06 : filières). Aucune recommandation ne repose sur la seule moyenne.
+
+### 6.5 Ce qui reste interdit
+- Aucune variante de l'estimateur ni de la sélection des études n'est ajoutée après avoir vu les résultats. Toute étude ajoutée après ce commit est signalée et son impact rapporté avec et sans elle.

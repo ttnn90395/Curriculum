@@ -1,0 +1,6 @@
+k = 3 etudes
+effet fixe = 0.0518
+Q = 7.393 (ddl 2)
+tau2 = 0.000093
+theta (effets aleatoires) = 0.0477, SE = 0.0068, IC95 = [0.0344, 0.0610]
+Etudes : Lavy 0.0580 (0.0040); Cattaneo 0.0460 (0.0050); Huebener 0.0280 (0.0125)

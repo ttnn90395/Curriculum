@@ -236,3 +236,10 @@ Mesurer, pour chaque pays et chaque année d'examen national de fin de cycle dis
 
 ### 7.6 Interdits
 - Pas de recodage ni de nouveau mapping après avoir vu les indices. Tout changement est un nouvel amendement daté, rapporté avec et sans.
+
+### Précision de l'Amendement 7 (périmètre effectif, pré-enregistrée avant tout codage)
+
+Inventaire du dépôt (data/processed/inventory_repo.txt) : la base de programmes par pays provient des questionnaires de curriculum TIMSS (2015, 2019, 2023, 4e et 8e années). Le graphe de notions avec difficulté IRT n'existe que pour les mathématiques de 4e année (19 notions). Il n'existe pas de programmes de fin de lycée par pays ni de barèmes d'examens étrangers dans le dépôt.
+- Examens de fin de lycée (bac et équivalents) : comparaison entre pays hors périmètre tant qu'un amendement n'a pas ajouté une base de programmes à ce niveau. Seule la série temporelle française (programme français) est dans le périmètre.
+- Examens de fin de collège : dans le périmètre uniquement après construction et validation d'un graphe de notions de 8e année à partir des curricula TIMSS 8e année, selon les mêmes critères de fiabilité que le graphe de 4e année. Cette construction fait l'objet d'un amendement ultérieur.
+- Aucun résultat « tous pays » n'est annoncé pour les examens. Les comparaisons entre pays restent limitées aux contenus prévus (TIMSS), sans examen.

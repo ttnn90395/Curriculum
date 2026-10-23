@@ -1,0 +1,328 @@
+== fichiers data (hors raw volumineux) ==
+2772	data/README.md
+435	data/budget_enseignement_scolaire_plf2026.csv
+3952	data/crosswalk_g4_math.csv
+1183	data/crosswalk_teacher_g4_math.csv
+1925	data/evidence_attractivite_fr.csv
+1981	data/evidence_bac_cedre.csv
+904	data/evidence_dnb_bac.csv
+2432	data/evidence_instruction_time.csv
+2230	data/framework_timss2023_g4_math.csv
+758	data/instruction_hours_fr_primary.csv
+2363	data/kst_grade_evidence_fr.csv
+29667	data/manual/pisa_means_2022_2025.csv
+11199	data/parameters_teachers_cost.csv
+770	data/processed/check_note_numbers.txt
+161	data/processed/class_size_imputed.csv
+1008	data/processed/cost_transfers_college.csv
+1842	data/processed/cost_transfers_college.txt
+570	data/processed/cost_transfers_lycee.csv
+1493	data/processed/cost_transfers_lycee.txt
+1181	data/processed/cost_transfers_primaire.txt
+8946	data/processed/cross_country_hours_cost.txt
+2469	data/processed/cross_country_net_cost.csv
+3587	data/processed/cross_country_net_cost.txt
+2767	data/processed/cross_country_net_cost_imputed.csv
+3898	data/processed/cross_country_net_cost_imputed.txt
+1513	data/processed/cross_country_shares.csv
+1837	data/processed/cross_country_shares.txt
+6274	data/processed/crosswalk_topic_trends_primaire.csv
+6602	data/processed/crosswalk_topic_trends_robustesse.csv
+77083	data/processed/crosswalk_topic_values_primaire.csv
+158005	data/processed/crosswalk_topic_values_robustesse.csv
+5334	data/processed/difficulty_audit_labels.csv
+1702	data/processed/difficulty_by_objective_g4.csv
+2049	data/processed/difficulty_edges_g4.csv
+23784	data/processed/difficulty_items_used.csv
+6571	data/processed/estimate_notion_difficulty_v2.txt
+279820	data/processed/eurydice_report_text.txt
+5392	data/processed/fetch_hours_sources.txt
+127	data/processed/fetch_timss2015_hours.txt
+434	data/processed/hours_identification_results.csv
+1312	data/processed/impute_class_size.txt
+85591	data/processed/intended_vs_implemented_g4.csv
+1640	data/processed/intended_vs_implemented_trends.csv
+42	data/processed/inventory_repo.txt
+6567	data/processed/item_labels_g4_math.csv
+159	data/processed/meta_theta.csv
+222	data/processed/meta_theta.txt
+3061	data/processed/notion_difficulty_timss2023_g4.csv
+5848	data/processed/oecd_agency_run.txt
+20799	data/processed/oecd_discover_run.txt
+11045	data/processed/oecd_extract_fin.txt
+27094	data/processed/oecd_fetch_run.txt
+0	data/processed/oecd_fetch_run2.txt
+2099	data/processed/oecd_fetch_run3.txt
+6904	data/processed/oecd_fetch_run4.txt
+52504	data/processed/oecd_get_str.txt
+16824	data/processed/oecd_profile_fin.txt
+1177	data/processed/oecd_tps_wages_filter.txt
+2378	data/processed/optimize_curriculum.txt
+1725	data/processed/optimum_scenarios.csv
+9692	data/processed/pap_cout_moyen_tables.txt
+2120	data/processed/pap_cout_tables_headers.txt
+6850	data/processed/pap_cout_tables_run.txt
+2072	data/processed/pap_grep_pap_21411.txt
+2778	data/processed/pap_grep_pap_27878.txt
+5700	data/processed/pap_grep_run.txt
+1308	data/processed/parse_timss2015_hours.txt
+2887	data/processed/parse_timss_hours.txt
+12364	data/processed/pisa_discipline_means.csv
+130341	data/processed/pisa_scores_long.csv
+1183	data/processed/primaire_check/crosswalk_teacher_copy.csv
+43194	data/processed/primaire_check/intended_vs_implemented_g4.csv
+1574	data/processed/primaire_check/intended_vs_implemented_trends.csv
+356	data/processed/run_hours_identification.txt
+2334	data/processed/run_hours_identification_output.txt
+359116	data/processed/teacher_topics_g4_math.csv
+2139	data/processed/timss2015_math_hours_g4.csv
+2318	data/processed/timss2019_math_hours_g4.csv
+9862	data/processed/timss_g4_math_scores_long.csv
+3804	data/processed/tw_peek_run.txt
+30375	data/raw/eurostat_ict_specialists.json
+602525	data/raw/eurydice_instruction_time_2025_manual.pdf
+249216	data/raw/eurydice_instruction_time_2025_questionnaire.xlsx
+14831323	data/raw/eurydice_instruction_time_2025_report.pdf
+711691	data/raw/pap_candidates/pap_21411.pdf
+664213	data/raw/pap_candidates/pap_27878.pdf
+6591307	data/raw/pap_candidates/pap_an_ec.pdf
+5110997	data/raw/pap_candidates/pap_an_plf2025.pdf
+440232149	data/raw/pisa_micro/2015_PUF_SPSS_COMBINED_CMB_STU_QQQ.zip
+500959458	data/raw/pisa_micro/2018_SPSS_STU_QQQ.zip
+682364259	data/raw/pisa_micro/2022_STU_QQQ_SPSS.zip
+2096666903	data/raw/pisa_micro/CY08MSP_STU_QQQ.SAV
+14474514	data/raw/timss2015_almanacs_g4.zip
+14701051	data/raw/timss2015_almanacs_g8.zip
+149370	data/raw/timss2015_codebook_g4.zip
+173587	data/raw/timss2015_codebook_g8.zip
+295328	data/raw/timss2015_curriculum_g4.zip
+242945	data/raw/timss2015_curriculum_g8.zip
+168046	data/raw/timss2015_instruction_time_g4.pdf
+136826	data/raw/timss2015_irt_params_g4.zip
+153293	data/raw/timss2015_irt_params_g8.zip
+58967	data/raw/timss2015_item_info_g4.zip
+71552	data/raw/timss2015_item_info_g8.zip
+12725955	data/raw/timss2015_item_pct_correct_g4.zip
+10474594	data/raw/timss2015_item_pct_correct_g8.zip
+161634465	data/raw/timss2015_spss_g4_pt1.zip
+151064100	data/raw/timss2015_spss_g4_pt2.zip
+151153893	data/raw/timss2015_spss_g4_pt3.zip
+148237866	data/raw/timss2015_spss_g8_pt1.zip
+135462279	data/raw/timss2015_spss_g8_pt2.zip
+140116026	data/raw/timss2015_spss_g8_pt3.zip
+136572863	data/raw/timss2015_spss_g8_pt4.zip
+189810	data/raw/timss2015_tcma_g4.zip
+191815	data/raw/timss2015_tcma_g8.zip
+60581480	data/raw/timss2019_almanacs_g4.zip
+55347126	data/raw/timss2019_almanacs_g8.zip
+614773	data/raw/timss2019_codebooks_g4.zip
+692400	data/raw/timss2019_codebooks_g8.zip
+904537	data/raw/timss2019_curriculum_g4.zip
+779583	data/raw/timss2019_curriculum_g8.zip
+235526	data/raw/timss2019_instruction_time_m48.pdf
+259656	data/raw/timss2019_instruction_time_m48.xlsx
+252335	data/raw/timss2019_irt_params_g4.zip
+231884	data/raw/timss2019_irt_params_g8.zip
+227792	data/raw/timss2019_item_info_g4.zip
+199195	data/raw/timss2019_item_info_g8.zip
+24630462	data/raw/timss2019_item_pct_correct_g4.zip
+22946399	data/raw/timss2019_item_pct_correct_g8.zip
+827313227	data/raw/timss2019_spss_g4.zip
+710428722	data/raw/timss2019_spss_g8.zip
+749028	data/raw/timss2019_tcma_g4.zip
+566472	data/raw/timss2019_tcma_g8.zip
+14257056	data/raw/timss2023_almanacs_achievement_g4.zip
+12224197	data/raw/timss2023_almanacs_achievement_g8.zip
+15684707	data/raw/timss2023_almanacs_context_g4.zip
+14845497	data/raw/timss2023_almanacs_context_g8.zip
+297871	data/raw/timss2023_codebook_g4.xlsx
+329618	data/raw/timss2023_codebook_g8.xlsx
+2817940	data/raw/timss2023_context_questionnaires_g4.zip
+8729199	data/raw/timss2023_context_questionnaires_g8.zip
+876019	data/raw/timss2023_curriculum_g4.xlsx
+811765	data/raw/timss2023_curriculum_g8.xlsx
+562475	data/raw/timss2023_derived_context_g4.zip
+576553	data/raw/timss2023_derived_context_g8.zip
+131931	data/raw/timss2023_irt_params_g4.xlsx
+146031	data/raw/timss2023_irt_params_g8.xlsx
+165726	data/raw/timss2023_item_info_g4.xlsx
+134699	data/raw/timss2023_item_info_g8.xlsx
+393936	data/raw/timss2023_national_adaptations_g4.zip
+309720	data/raw/timss2023_national_adaptations_g8.zip
+1014404543	data/raw/timss2023_spss_g4.zip
+971281562	data/raw/timss2023_spss_g8.zip
+128658	data/raw/timss2023_tcma_g4.xlsx
+103008	data/raw/timss2023_tcma_g8.xlsx
+114997	data/raw/timss2023_trend_g4_math.xlsx
+1701829	data/raw/worldbank_education_spend_pct_gdp.json
+1509462	data/raw/worldbank_gdp_growth.json
+1536344	data/raw/worldbank_gdp_per_capita.json
+1177576	data/raw/worldbank_pisa_mathematics.json
+1157431	data/raw/worldbank_pisa_reading.json
+1157468	data/raw/worldbank_pisa_science.json
+1745552	data/raw/worldbank_unemployment_total.json
+== mots-cles programmes / pays / notions ==
+./README.md
+./TODO.md
+./SCOPE.md
+./code/oecd_get_small.py
+./code/inspect_timss_file.py
+./code/diagnostic_regressions.py
+./code/extract_teacher_topics.py
+./code/pap_cout_tables.py
+./code/estimate_notion_difficulty.py
+./code/forecast_rankings.py
+./code/oecd_profile_fin.py
+./code/extract_multi_coverage.py
+./code/inspect_teacher_almanac.py
+./code/run_crosswalk_trends.py
+./code/optimize_curriculum.py
+./code/oecd_discover.py
+./code/cost_transfers_lycee.py
+./code/oecd_extract_fin.py
+./code/download_data.py
+./code/extract_curriculum_coverage.py
+./code/cost_transfers_primaire.py
+./code/pilot_knowledge_graph.py
+./code/oecd_fetch.py
+./code/run_intended_vs_implemented.py
+./code/cost_transfers.py
+./code/audit_framework_coverage.py
+./code/kst_extension.py
+./code/fetch_pisa_web.py
+./code/empirical_model.py
+./data/README.md
+./data/budget_enseignement_scolaire_plf2026.csv
+./data/parameters_teachers_cost.csv
+./data/raw/oecd/DSD_EAG_UOE_NON_FIN_PERS_DF_UOE_NF_PERS_CLS.csv
+./data/raw/oecd/str.csv
+./data/manual/pisa_means_2022_2025.csv
+./data/kst_grade_evidence_fr.csv
+./data/framework_timss2023_g4_math.csv
+./data/processed/pisa_scores_long.csv
+./data/processed/optimum_scenarios.csv
+./data/processed/difficulty_edges_g4.csv
+./data/processed/notion_difficulty_timss2023_g4.csv
+./data/processed/difficulty_by_objective_g4.csv
+./docs/SPEC_OPTIMISATION_HORAIRES.md
+== colonnes des csv candidats ==
+-- data/budget_enseignement_scolaire_plf2026.csv
+programme,libelle,lfi2025_cp_meur,plf2026_cp_meur,source,statut
+6
+-- data/parameters_teachers_cost.csv
+id,value,unit,year,source,status
+80
+-- data/evidence_attractivite_fr.csv
+id,perimeter,year,indicator,value,unit,source,status,note
+21
+-- data/instruction_hours_fr_primary.csv
+cycle,grades,subject,weekly_hours,annual_hours_derived,source,note
+14
+-- data/manual/pisa_means_2022_2025.csv
+iso3,subject,cycle,mean,source_table
+229
+-- data/crosswalk_teacher_g4_math.csv
+cycle,sheet,topic_id,note
+41
+-- data/evidence_instruction_time.csv
+id,study,design,data,sample,subject,pisa_domain,effect_sd_per_weekly_hour,se,source,status,note
+11
+-- data/crosswalk_g4_math.csv
+topic_id,topic,confidence,cycle,codes,note
+50
+-- data/evidence_dnb_bac.csv
+id,exam,year,indicator,track,value,unit,source,status,note
+9
+-- data/evidence_bac_cedre.csv
+id,source_family,year,indicator,track_or_level,value,unit,source,status,note
+15
+-- data/kst_grade_evidence_fr.csv
+notion_id,label,pilot_grade,fr_level,fr_grade,evidence,source,status
+13
+-- data/framework_timss2023_g4_math.csv
+obj_id,topic_area,objective,crosswalk_topic,notions,coverage,note
+21
+-- data/processed/crosswalk_topic_values_robustesse.csv
+topic_id,topic,confidence,cycle,country,value,n_codes
+2489
+-- data/processed/teacher_topics_g4_math.csv
+cycle,sheet,topic_label,country,sample,valid_n,pct_before,pct_this_year,pct_not_yet,pct_na,pct_not_admin,pct_omitted,pct_taught_by_now
+2578
+-- data/processed/crosswalk_topic_values_primaire.csv
+topic_id,topic,confidence,cycle,country,value,n_codes
+1217
+-- data/processed/cross_country_shares.csv
+pays,destination,annee_depense,depense_eleve_ppp,pib_hab_ppp,cout_brut_ppp,cout_employeur_ppp,pct_depense_brut,pct_depense_employeur,pct_pib_hab_brut
+22
+-- data/processed/pisa_discipline_means.csv
+iso3,cycle,variable,label,mean,se,n
+114
+-- data/processed/difficulty_audit_labels.csv
+obj,item,area,topic,label
+74
+-- data/processed/item_labels_g4_math.csv
+cycle,code,domain,label,n_valid
+55
+-- data/processed/class_size_imputed.csv
+pays,taille_classe_imputee,str,annee_str,destination_str
+4
+-- data/processed/crosswalk_topic_trends_primaire.csv
+n_topics,2015,2019,diff,pair,rank_diff,country,2023
+141
+-- data/processed/pisa_scores_long.csv
+iso3,name,subject,cycle,score,source,comparable
+1487
+-- data/processed/cross_country_net_cost.csv
+pays,salaire_ppp,pct_salaire_moyen,borne,facteur_employeur,net_sur_brut,net_ens_sur_net_moyen,net_ppp,ratio_dipl_sup,heures_an,semaines,src_semaines,taille_classe,etp_par_classe,cout_eleve_pct_sal_moy_nat,cout_eleve_brut_ppp,cout_eleve_employeur_ppp,annee_salaire,annee_fiscale
+23
+-- data/processed/primaire_check/crosswalk_teacher_copy.csv
+cycle,sheet,topic_id,note
+41
+-- data/processed/primaire_check/intended_vs_implemented_trends.csv
+country,n_topics,d_prevu,d_before,rang_d_prevu,rang_d_before
+53
+-- data/processed/primaire_check/intended_vs_implemented_g4.csv
+cycle,ckey,topic_id,pct_before,pct_this_year,pct_not_yet,intended,country
+840
+-- data/processed/meta_theta.csv
+etude,effet,se
+5
+-- data/processed/hours_identification_results.csv
+modele,r2_loco,nul_p95,p_perm,D1,mae_2015_vers_2019,mae_moyenne_2015,D2p,P3_ok,tau_utilisable,coef_2019
+5
+-- data/processed/intended_vs_implemented_trends.csv
+country,n_topics,d_prevu,d_before,rang_d_prevu,rang_d_before
+53
+-- data/processed/cost_transfers_lycee.csv
+dh,service,ponderation,etp,cout_M_hors_CAS,part_pct_hors_CAS,cout_M_avec_CAS,part_pct_avec_CAS
+13
+-- data/processed/difficulty_items_used.csv
+item,sheet,obj,domain,area,topic,cog,pts,scaling,label,in_irt,b,derived,excluded,digital
+160
+-- data/processed/optimum_scenarios.csv
+tau_famille,poids,fraction_temps,valeur,temps_utilise,n_notions,notions
+19
+-- data/processed/crosswalk_topic_trends_robustesse.csv
+n_topics,2015,2019,diff,pair,rank_diff,country,2023
+141
+-- data/processed/timss2019_math_hours_g4.csv
+country_raw,flag_total,total_hours,total_se,flag_math,math_hours,math_se
+65
+-- data/processed/cost_transfers_college.csv
+dh,service,etp,etp_par_1000_classes,pct_heures_maths,cout_M_hors_CAS,part_pct_hors_CAS,cout_M_avec_CAS,part_pct_avec_CAS,cout_M_P141moy_hors_CAS,part_pct_P141moy_hors_CAS,cout_M_P141moy_avec_CAS,part_pct_P141moy_avec_CAS,cout_M_mixte_hors_CAS,part_pct_mixte_hors_CAS,cout_M_mixte_avec_CAS,part_pct_mi
+9
+-- data/processed/intended_vs_implemented_g4.csv
+cycle,ckey,topic_id,pct_before,pct_this_year,pct_not_yet,intended,country
+1680
+-- data/processed/difficulty_edges_g4.csv
+prereq,notion,b_prereq,b_notion,diff,boot_p_notion_harder,reliable
+26
+-- data/processed/notion_difficulty_timss2023_g4.csv
+notion,label,objectives,n_items,reliable,mean_b,ci_lo,ci_hi,adj_b,b_no_derived,b_digital_only,typical_grade
+19
+-- data/processed/timss2015_math_hours_g4.csv
+country_raw,total_hours,total_se,math_hours,math_se,benchmarking
+56
+-- data/processed/cross_country_net_cost_imputed.csv
+pays,salaire_ppp,pct_salaire_moyen,borne,facteur_employeur,net_sur_brut,net_ens_sur_net_moyen,net_ppp,ratio_dipl_sup,heures_an,semaines,src_semaines,taille_classe,etp_par_classe,cout_eleve_pct_sal_moy_nat,cout_eleve_brut_ppp,cout_eleve_employeur_ppp,annee_salaire,annee_fiscale
+26

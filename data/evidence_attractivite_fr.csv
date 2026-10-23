@@ -1,0 +1,21 @@
+id,perimeter,year,indicator,value,unit,source,status,note
+A01,public premier degre,2025,posts,10275,posts,DEPP Panorama 2025-2026 ch.5 Fig 5.3,extracted,9318 externes + 957 internes
+A02,public premier degre,2025,candidates present,25804,candidates,same,extracted,
+A03,public premier degre,2025,candidates per post,2.5,ratio,same,extracted,
+A04,public premier degre,2025,admitted,9638,candidates,same,extracted,
+A05,public premier degre,2025,coverage,93.8,percent,same,extracted,unfilled about 637 derived by subtraction
+A06,public premier degre,2024,posts,10350,posts,same Fig 5.3,extracted,
+A07,public premier degre,2024,candidates present,26140,candidates,same,extracted,
+A08,public premier degre,2024,coverage,86.3,percent,same,extracted,
+A09,public second degre,2025,posts,12244,posts,same Fig 5.13,extracted,9455 externes + 2789 internes
+A10,public second degre,2025,candidates present,44820,candidates,same,extracted,
+A11,public second degre,2025,candidates per post,3.7,ratio,same,extracted,
+A12,public second degre,2025,admitted,11121,candidates,same,extracted,
+A13,public second degre,2025,coverage,90.8,percent,same,extracted,maths: agregation externe 83 percent and CAPES externe 71 percent
+A14,public second degre,2024,posts,12686,posts,same,extracted,
+A15,public second degre,2024,candidates present,45663,candidates,same,extracted,
+A16,public second degre,2024,coverage,88.0,percent,same,extracted,
+A17,public premier degre,2008,posts,11909,posts,same text,extracted,only 2008 vs 2025 comparison seen
+A18,public second degre,2008,posts,9950,posts,same text,extracted,
+A19,external concours premier degre,2025,share of registrants not present,47.4,percent,same Fig 5.12,extracted,derived from registrants minus present in source
+A20,all years before 2024,series,candidates per post long series,NA,ratio,DEPP,pending,long series 1995-2025 not retrieved; contractuel share and resignations absent from this source

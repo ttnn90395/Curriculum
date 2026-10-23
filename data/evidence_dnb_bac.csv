@@ -1,0 +1,9 @@
+id,exam,year,indicator,track,value,unit,source,status,note
+B01,DNB,2025,pass rate,all,85.5,percent,DEPP NI 2025-46,extracted,2024: 85.7
+B02,DNB,2025,pass rate,general,86.7,percent,same,extracted,2024: 86.8
+B03,DNB,2025,pass rate,professional,75.3,percent,same,extracted,2024: 75.2
+B04,DNB,2025,share Bien or Tres bien (with or without felicitations),all,49.1,percent,same,extracted,Tres bien avec felicitations is a new mention in 2025: series break
+B05,DNB,2025,candidates present,all,847600,candidates,same,extracted,
+B06,DNB,2017-2025,pass rate by track series,all,NA,percent,same Fig 2,pending,figure values not in text; need DEPP series tables
+B07,Bac,1995-2025,pass rate and mentions long series,all,NA,percent,DEPP,pending,not yet retrieved
+B08,Bac,1995-2025,controle continu share in final mark (reform 2021),all,NA,percent,MENJ texts,pending,needed to separate grade inflation from level change

@@ -442,3 +442,19 @@ Sans prime salariale (N0 non fournie) : cellule centrale (L = 4, rho = 0,5, d = 
 Avec prime salariale (Precision N0) : N0 = 8 008 : pic et regime 278,8 M EUR hors CAS, VAN 5 710 M EUR (8 566 avec CAS), part maximale des couts ponctuels 5,6 % ; N0 = 8 857 : 276,9 M EUR, VAN 5 669 M EUR (8 504 avec CAS), part 5,9 % ; conclusion robuste aux couts ponctuels dans les deux cas, parce que la prime domine la VAN.
 
 Ecart par rapport a la lettre de l'Amendement 14, declare : la prime est calculee sur le recrutement agrege de toutes les matieres (N0 agrege), alors que l'amendement la visait par matiere en tension ; la hausse est donc appliquee a l'ensemble des entrants d'une cohorte (N0 + DeltaQ), au cout moyen charge par ETP, ce qui surestime la prime (N0 sous-estime, base salariale surevaluee, entrants de matieres sans tension inclus). Les chiffres avec prime sont des majorants et ne sont pas utilises comme estimation centrale. Une version par matiere exige N0 par discipline, non disponible pour toutes les disciplines.
+
+## Amendement 15 (2026-10-24) : cout par point de PISA avec contrainte d'offre d'enseignants (pre-enregistre avant tout code)
+
+Statut : exploratoire. Objet : relier le gain de score des scenarios d'heures de l'Amendement 8 (data/processed/optimise_hours.csv) aux trajectoires de cout de l'Amendement 14. Aucun parametre nouveau n'est ajuste ; aucune optimisation n'est declaree.
+
+Scenarios : exactement ceux de l'Amendement 8 : +1 h de mathematiques, +1 h de francais, +1 h de sciences et +1 h de chacune des trois matieres testees au college, sous les hypotheses de temps T2 (cycle complet, central) et T1 (niveau teste seul), et la reallocation d'une heure de LV2 vers les mathematiques avec retombee f dans {0 ; 0,25 ; 0,5}. Le cout de T1 est obtenu en multipliant par 1/4 le besoin et le surplus d'ETP (un niveau de classe sur quatre) avant la trajectoire ; il n'y a pas d'autre ajustement. Les noms de matieres sont ceux de data/instruction_hours_fr_secondary.csv ; une matiere sans correspondance exacte arrete le calcul.
+
+Gain : le gain moyen sur les trois domaines (mathematiques, lecture, sciences), tel que calcule dans code/optimise_hours.py, meme graine (20261023), meme distribution predictive de theta, sigma = 100 central et 90 en sensibilite. Les gains negatifs ou nuls ne donnent pas de ratio (declares non definis).
+
+Couts : trajectoire de l'Amendement 14 pour chaque scenario, cellule centrale (L = 4, rho = 0,5, d = 1, T01 = 0,10, T02 = 0,20, taux 2 %), en quatre variantes : sans prime ; prime ciblee sur les entrants ; prime appliquee a tout le corps ; ces deux dernieres avec epsilon dans {0,3 ; 1 ; 2} et N0 = 8 008 (sensibilite 8 857). Les primes sont des majorants (Resultat de l'Amendement 14) et sont etiquetees comme telles. Les couts sont donnes hors CAS et avec CAS.
+
+Ratios (definis ici, avant calcul) : R1 = cout de regime annuel (M EUR) divise par le gain median en points ; R2 = valeur actuelle nette des couts sur 30 ans divisee par la valeur actuelle nette des gains, ces derniers etant le gain median multiplie par la part de reforme en vigueur p(t) et actualises au meme taux (cout par point-annee). Les bornes viennent du 5e et du 95e percentile du gain avec le cout fixe.
+
+Lecture, fixee ici : pour chaque variante de cout, les scenarios sont classes par R1. Un scenario est declare « dominant » seulement s'il est premier dans toutes les variantes et pour les deux sigma ; sinon le classement est rapporte tel quel, avec les variantes ou il change. Aucune valeur n'est retenue comme optimum : l'amendement ne produit qu'un classement conditionnel aux hypotheses T1 ou T2, aux couts de prime majorants et a la distribution de theta de la meta-analyse (k = 3).
+
+Controle : sans prime et L = 1, d = 0, rho = 0, T01 = T02 = 0, le cout de regime de +1 h de mathematiques reproduit 295,4 M EUR hors CAS (et 443,1 avec CAS), sinon le code est invalide.

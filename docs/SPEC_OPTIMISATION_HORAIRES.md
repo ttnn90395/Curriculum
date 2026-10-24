@@ -474,3 +474,17 @@ Sans prime : +1 h de mathematiques, de francais, de sciences ou des trois matier
 Avec prime ciblee sur les entrants (N0 = 8 008, epsilon = 1) : T1 95 (67 a 160) pour une matiere, 99 pour les trois ; reallocation 175 ; +1 h de mathematiques sous T2 404 (287 a 679). Avec prime appliquee a tout le corps : T1 55 a 57 pour une matiere, 75 pour les trois ; reallocation 144 ; +1 h de sciences sous T2 317. Les primes sont des majorants (Resultat de l'Amendement 14).
 
 Lecture selon la regle de l'amendement : aucun scenario n'est premier dans les 26 variantes (13 variantes de cout x 2 valeurs de sigma) ; les scenarios T1 de mathematiques (14 fois) et de sciences (12 fois) sont les premiers, ce qui traduit l'hypothese de temps (meme gain, cout divise par 4) et non une reforme meilleure. Aucun optimum n'est declare.
+
+## Amendement 16 (2026-10-24) : volet « nivellement par le bas », indicateurs descriptifs du baccalaureat (pre-enregistre avant tout calcul)
+
+Statut : exploratoire et descriptif. Cet amendement ne mesure pas la difficulte de l'examen (Amendement 7 et sa Precision) : le corpus de sujets, de baremes et de programmes n'est pas collecte. Il fixe les indicateurs observables dans les donnees ouvertes de la DEPP (data.education.gouv.fr), leur perimetre et la regle de lecture.
+
+Sources. (a) fr-en-reussite-au-baccalaureat-age, ligne age = « Ensemble » : pourcentage d'admis par voie (general, technologique, professionnel) et pour l'ensemble, par annee, sur toute la plage disponible (debut en 1997). (b) fr-en-baccalaureat-par-academie, toutes academies, tous statuts et sexes, sessions 2021 a 2025 : inscrits, presents, admis totaux et admis avec mention (TB avec felicitations, TB, B, AB), par voie. Les donnees sont telechargees telles quelles dans data/ avant tout calcul ; aucune valeur n'est imputee.
+
+Indicateurs. N1 : taux de reussite (pourcentage d'admis) par voie, annee par annee. N2 : part des admis avec mention parmi les admis totaux, et part TB (avec et sans felicitations), par voie et par session 2021 a 2025. N3 (contexte, un seul point) : moyennes de la session 2025 publiees par la DEPP (general 13,1 ; technologique 11,7 ; professionnel 11,8 et 11,9), sans tendance.
+
+Ruptures declarees. Reforme du baccalaureat general (session 2021 : controle continu a 40 %, specialites) ; sessions 2020 et 2021 (conditions sanitaires, controle continu majore) ; generalisation du baccalaureat professionnel en trois ans (rentree 2009, premiere session en 2012), qui change la composition de la voie professionnelle. Une serie n'est comparee qu'a l'interieur d'une meme periode sans rupture ; les ruptures sont rapportees a cote des chiffres.
+
+Regle de lecture, fixee ici. Une hausse du taux de reussite ou de la part des mentions n'est pas, seule, un indice de nivellement : elle est compatible avec une hausse du niveau, avec une baisse de la difficulte ou avec un changement de composition. Aucune correlation avec PISA ou CEDRE n'est calculee (peu de points, series non comparables) et aucune inference causale n'est faite. Le terme « nivellement » n'est employe que pour des ecarts de difficulte mesures par l'Amendement 7, non encore realises.
+
+Sorties. data/processed/bac_series_report.txt et deux fichiers data/evidence_bac_reussite_ensemble.csv et data/evidence_bac_mentions_academie.csv.

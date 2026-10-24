@@ -294,3 +294,24 @@ Statut : exploratoire, France uniquement (SCOPE.md, ajout du 2026-10-23). Scéna
 ### 9.4 Interdits
 - Aucune élasticité n'est ajoutée ni retirée après avoir vu les sorties. Toute étude supplémentaire est un nouvel amendement, rapporté avec et sans.
 - Aucune conclusion sur l'effet du taux CAS sur l'attractivité (L3) : un transfert comptable n'est pas un gain de pouvoir d'achat.
+
+## Amendement 10 — Hausse ciblée sur les entrants (pré-enregistré avant exécution de code/attractivite_cible.py)
+
+Statut : exploratoire, France uniquement. Complète l'Amendement 9 (hausse générale), qui coûte cher par poste pourvu parce qu'elle s'applique à tous les enseignants.
+
+### 10.1 Levier
+- T1 : hausse de x % du salaire d'entrée, pendant Y années de carrière, pour chaque nouvelle cohorte recrutée. Régime permanent : Y cohortes présentes en même temps.
+- Coût hors CAS = admis par an (data/evidence_attractivite_fr.csv A04 et A12) x coût moyen chargé hors CAS d'entrée (RAP 2025 : premier degré 38 363, second degré 40 509 euros) x x % x Y. Avec CAS : multiplié par (1 + taux 2026, 82,28 %). Variante L2 : baisse de retenue équivalente en net (x % x rapport net/brut de data/processed/cross_country_net_cost.csv), avec financement du compte pensions.
+- L'attrition des cohortes est ignorée : borne haute du coût.
+
+### 10.2 Effet
+- Variation des candidats = epsilon x x % x candidats présents, epsilon dans {0,3 ; 1,0 ; 2,0}. L'estimation anglaise (S01 à S04) porte sur le salaire de début de carrière relatif : l'application à la hausse d'entrée est directe, avec les mêmes réserves que l'Amendement 9.2.
+- Admis supplémentaires au taux moyen d'admission (sensibilité : moitié), plafonnés aux postes non pourvus observés (premier degré environ 637, second degré 1 123).
+- L'effet sur les candidats ne dépend pas de Y : la durée n'est qu'une sensibilité de coût. Aucun effet sur la rétention n'est modélisé (les élasticités de départ -1,5 et -3 sont des citations de seconde main, non lues à la source : hors calcul).
+
+### 10.3 Non calculé
+- Ciblage par discipline en pénurie (maths au CAPES, couverture de 71 % ; agrégation de maths, 83 %) : le nombre de postes par discipline n'est pas dans le dépôt. Le scénario n'est pas calculé et l'absence est rapportée, aucune imputation.
+- Effet sur la qualité des entrants : nul en scénario central (S08), comme à l'Amendement 9.2.
+
+### 10.4 Interdits
+- Aucun ajout d'élasticité, de durée ou de grille de hausse après avoir vu les sorties. Tout ajout est un nouvel amendement, rapporté avec et sans.

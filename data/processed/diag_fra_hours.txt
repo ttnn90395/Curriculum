@@ -1,0 +1,38 @@
+== data/raw/oecd/DSD_EAG_WT_DF_ALL.csv
+REF_AREA | MEASURE | Measure | UNIT_MEASURE | Unit of measure | INST_TYPE_EDU | Type of educational institution | EDUCATION_LEV | Education level | PERS_TYPE | Type of personnel | OBS_VALUE | OBS_STATUS | UNIT_MULT | Unit multiplier
+FRA | WKT_ACT_TCH | Actual teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_34 | Upper secondary general education | TE | Teacher |  | O | 0 | Units
+FRA | WKT_ACT_TCH | Actual teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_1 | Primary education | TE | Teacher |  | O | 0 | Units
+FRA | WKT_ACT_TCH | Actual teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_35 | Upper secondary vocational education | TE | Teacher |  | O | 0 | Units
+FRA | WKT_ACT_TCH | Actual teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_24 | Lower secondary general education | TE | Teacher |  | O | 0 | Units
+FRA | WKT_ACT_TCH | Actual teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_02 | Pre-primary education | TE | Teacher |  | O | 0 | Units
+FRA | WKT_STA_WKS | Statutory working time required at school | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_24 | Lower secondary general education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_WKS | Statutory working time required at school | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_34 | Upper secondary general education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_WKS | Statutory working time required at school | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_35 | Upper secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_WKT | Total statutory working time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_25 | Lower secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_25 | Lower secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_ACT_TCH | Actual teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_25 | Lower secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_WKS | Statutory working time required at school | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_25 | Lower secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | D_Y | Days per year | INST_EDU_PUB | Public educational institutions | ISCED11_24 | Lower secondary general education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | D_Y | Days per year | INST_EDU_PUB | Public educational institutions | ISCED11_34 | Upper secondary general education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | D_Y | Days per year | INST_EDU_PUB | Public educational institutions | ISCED11_35 | Upper secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | D_Y | Days per year | INST_EDU_PUB | Public educational institutions | ISCED11_25 | Lower secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | WK_Y | Weeks per year | INST_EDU_PUB | Public educational institutions | ISCED11_25 | Lower secondary vocational education | TE | Teacher |  | M | 0 | Units
+FRA | WKT_STA_WKT | Total statutory working time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_1 | Primary education | TE | Teacher | 1607 | A | 0 | Units
+FRA | WKT_STA_WKT | Total statutory working time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_35 | Upper secondary vocational education | TE | Teacher | 1607 | A | 0 | Units
+FRA | WKT_STA_WKT | Total statutory working time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_24 | Lower secondary general education | TE | Teacher | 1607 | A | 0 | Units
+FRA | WKT_STA_WKT | Total statutory working time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_34 | Upper secondary general education | TE | Teacher | 1607 | A | 0 | Units
+FRA | WKT_STA_WKT | Total statutory working time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_02 | Pre-primary education | TE | Teacher | 1607 | A | 0 | Units
+FRA | WKT_STA_WKS | Statutory working time required at school | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_02 | Pre-primary education | TE | Teacher | 954 | A | 0 | Units
+FRA | WKT_STA_WKS | Statutory working time required at school | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_1 | Primary education | TE | Teacher | 954 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | D_Y | Days per year | INST_EDU_PUB | Public educational institutions | ISCED11_02 | Pre-primary education | TE | Teacher | 162 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | WK_Y | Weeks per year | INST_EDU_PUB | Public educational institutions | ISCED11_02 | Pre-primary education | TE | Teacher | 36 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_02 | Pre-primary education | TE | Teacher | 900 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_35 | Upper secondary vocational education | TE | Teacher | 720 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | WK_Y | Weeks per year | INST_EDU_PUB | Public educational institutions | ISCED11_35 | Upper secondary vocational education | TE | Teacher | 36 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_34 | Upper secondary general education | TE | Teacher | 720 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | WK_Y | Weeks per year | INST_EDU_PUB | Public educational institutions | ISCED11_34 | Upper secondary general education | TE | Teacher | 36 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | WK_Y | Weeks per year | INST_EDU_PUB | Public educational institutions | ISCED11_24 | Lower secondary general education | TE | Teacher | 36 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_24 | Lower secondary general education | TE | Teacher | 720 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | H_Y | Hours per year | INST_EDU_PUB | Public educational institutions | ISCED11_1 | Primary education | TE | Teacher | 900 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | WK_Y | Weeks per year | INST_EDU_PUB | Public educational institutions | ISCED11_1 | Primary education | TE | Teacher | 36 | A | 0 | Units
+FRA | WKT_STA_TCH | Statutory teaching time | D_Y | Days per year | INST_EDU_PUB | Public educational institutions | ISCED11_1 | Primary education | TE | Teacher | 162 | A | 0 | Units

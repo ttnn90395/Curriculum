@@ -315,3 +315,12 @@ Statut : exploratoire, France uniquement. Complète l'Amendement 9 (hausse gén�
 
 ### 10.4 Interdits
 - Aucun ajout d'élasticité, de durée ou de grille de hausse après avoir vu les sorties. Tout ajout est un nouvel amendement, rapporté avec et sans.
+
+## Amendement 11 — Sensibilité sur le temps d'enseignement statutaire de la France (pré-enregistré avant exécution de code/sens_fra_648.py)
+
+Statut : exploratoire. Le diagnostic data/processed/diag_fra_hours.txt montre que la valeur de 720 h par an pour la France (36 semaines, 162 jours) est la valeur déclarée à l'OCDE pour le premier cycle du secondaire général, le second cycle général et le second cycle professionnel. Le service statutaire national des certifiés est de 18 h par semaine, soit 648 h sur 36 semaines. L'écart de 72 h n'est pas expliqué par les sources lues ; pour le premier degré, 900 h déclarées contre 864 h de service national, écart de 36 h compatible avec les 36 h d'activités pédagogiques complémentaires (lecture non confirmée par l'OCDE).
+- Valeur principale du tableau international : 720 h (déclarée), pour la cohérence avec les valeurs déclarées des autres pays.
+- Sensibilité : 648 h pour la France. Le coût par élève est inversement proportionnel aux heures annuelles : coût(648) = coût(720) x 720/648.
+- Rapportés : valeur, rang (1 = moins cher) et position par rapport à la médiane, aux niveaux brut et employeur, avec et sans les pays imputés (Amendement 4), pour les deux valeurs d'heures.
+- Le calcul national du coût de l'heure supplémentaire en France (services de 18 h, 15 h et 20 h) n'est pas concerné.
+- Aucune des deux valeurs n'est retenue ou écartée après avoir vu les rangs.

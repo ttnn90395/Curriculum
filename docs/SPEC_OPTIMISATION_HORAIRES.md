@@ -488,3 +488,13 @@ Ruptures declarees. Reforme du baccalaureat general (session 2021 : controle con
 Regle de lecture, fixee ici. Une hausse du taux de reussite ou de la part des mentions n'est pas, seule, un indice de nivellement : elle est compatible avec une hausse du niveau, avec une baisse de la difficulte ou avec un changement de composition. Aucune correlation avec PISA ou CEDRE n'est calculee (peu de points, series non comparables) et aucune inference causale n'est faite. Le terme « nivellement » n'est employe que pour des ecarts de difficulte mesures par l'Amendement 7, non encore realises.
 
 Sorties. data/processed/bac_series_report.txt et deux fichiers data/evidence_bac_reussite_ensemble.csv et data/evidence_bac_mentions_academie.csv.
+
+## Resultat de l'Amendement 16 (2026-10-24) : indicateurs descriptifs du baccalaureat
+
+Donnees telechargees telles quelles (code/fetch_bac_opendata.py ; data/evidence_bac_reussite_ensemble.csv et data/evidence_bac_mentions_academie.csv). Aucune inference causale, aucune correlation avec PISA ou CEDRE, conformement a la regle de lecture de l'Amendement 16.
+
+N1, taux de reussite par voie : general 76,6 % en 1997, 91,1 % en 2019, 97,6 % en 2020, 97,5 % en 2021, puis 96,0 %, 95,5 %, 95,9 % et 96,2 % de 2022 a 2025. Technologique 77,7 % en 1997, 88,0 % en 2019, 94,8 % en 2020, puis 89,5 a 90,9 % de 2022 a 2025, avec un saut de 86,5 % a 90,7 % entre 2013 et 2014. Professionnel 79,1 % en 1997, 87,3 % en 2009, 78,4 % en 2012 (premiere session du baccalaureat professionnel en trois ans, rupture de composition declaree), 82,4 % en 2019, 90,4 % en 2020, puis 82,2 a 83,9 % de 2022 a 2025. Ensemble : 77,3 % en 1997, 88,0 % en 2019, 95,0 % en 2020, 91,6 % en 2025.
+
+N2, mentions parmi les admis, sessions 2021 a 2025 : general 75,3 %, 71,8 %, 70,2 %, 71,3 %, 70,5 % (TB 13,9 %, 14,8 %, 14,7 %, 14,2 %, 13,8 %) ; technologique 57,2 %, 49,2 %, 46,0 %, 47,4 %, 48,0 % ; professionnel 62,5 %, 60,6 %, 59,4 %, 61,1 %, 62,3 %. Les parts de mentions sont stables ou en baisse apres la session 2021 ; aucune hausse continue n'est observee sur cette fenetre.
+
+Lecture. Le taux de reussite du baccalaureat general est environ cinq points plus haut en 2022 a 2025 qu'en 2019 (96 % contre 91 %) apres le pic des sessions 2020 et 2021 (97,5 %), et les parts de mentions ne progressent pas de 2021 a 2025. Ces chiffres sont compatibles avec plusieurs explications (reforme de 2021 et controle continu a 40 %, changement de composition, ecart de difficulte) ; seule une mesure de difficulte (Amendement 7), non realisee, peut conclure a un nivellement. Les mentions avant 2021 ne figurent pas dans ces jeux ; l'avant-2021 reste a documenter.

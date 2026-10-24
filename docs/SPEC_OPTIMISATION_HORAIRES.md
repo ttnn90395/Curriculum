@@ -378,3 +378,15 @@ Test 1 (France, remplace la formulation globale de l'Amendement 13) : pour chacu
 Predit. Cout enseignant par eleve et par an = H x salaire_ppp x facteur_employeur / (heures_statutaires_an x taille_classe).
 
 Les seuils des tests 2 et 3 restent ceux de l'Amendement 13.
+
+## Precision 2 de l'Amendement 13 (2026-10-24) : depenses observees et appariement (pre-enregistre avant tout calcul ; aucune valeur de depense consultee)
+
+Depenses observees. Eurostat educ_uoe_fine09 (depenses publiques d'education par eleve en equivalent temps plein), unite PPS, niveaux ED1 et ED24 (premier cycle general du secondaire), frequence annuelle, periode 2021-2023 ; pour chaque pays, derniere valeur disponible sur cette periode, annee rapportee. Aucun autre filtre.
+
+Perimetre des heures (modifie la Precision de l'Amendement 13 avant tout code) : H est calcule sur CITE 1 et CITE 24 uniquement, H = (a1 x h1 + a24 x h24)/(a1 + a24), car la depense observee ne couvre que ces deux niveaux ; CITE 34 n'entre pas dans les tests 2 et 3. Le test 1 France garde ses trois niveaux.
+
+Depense observee par eleve-annee, ponderation par les annees Eurydice : E = (a1 x E_ED1 + a24 x E_ED24)/(a1 + a24).
+
+Appariement. Les codes pays Eurostat/Eurydice a deux lettres sont convertis en codes ISO a trois lettres (EL vers GRC, sinon table ISO 3166 standard) pour joindre cross_country_net_cost.csv ; un pays absent de l'une des trois sources est exclu et liste.
+
+Unites. Le cout predit utilise des PPA en dollars (OCDE) et la depense observee des PPS en euros ; la difference d'unite est un facteur multiplicatif non corrige. Le test 2 (rangs) n'en depend pas ; pour le test 3 la mediane de la part est rapportee telle quelle et le coefficient de variation (invariant par facteur) est le critere robuste ; l'ecart d'unite est signale dans le rapport.

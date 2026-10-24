@@ -364,3 +364,17 @@ Tests (seuils fixes ici, sans reglage ulterieur) :
 4. Les valeurs aberrantes sont rapportees, jamais retirees ; un test non realise ou echoue est rapporte tel quel et n'est pas remplace par une variante.
 
 Lecture. Succes aux trois tests : le mode oecd est declare utilisable pour des ordres de grandeur comparatifs. Echec : il est declare non valide, sans modification a posteriori du modele.
+
+## Precision de l'Amendement 13 (2026-10-24) : unite et perimetre de la validation Eurydice (pre-enregistre avant tout code)
+
+Donnees fixees. data/evidence_eurydice_annual.csv (annees et heures par annee notionnelle, Figure 3 p.14 du rapport, transcrites de l'image ; produit annees x heures verifie contre data/evidence_eurydice_totals.csv, ecart < 1 % pour tous les systemes communs).
+
+Unite. Heures annuelles moyennes de l'enseignement general obligatoire a temps plein : H = somme(annees_niveau x heures_par_annee_niveau) / somme(annees_niveau), sur les niveaux CITE 1, CITE 24 et CITE 34 lorsque ce dernier est obligatoire. Ces heures sont en heures de 60 min, telles que declarees.
+
+Perimetre. Les systemes a filieres multiples (colonne multitrack = 1 : LU, NL, AT, LI) sont exclus des tests 2 et 3 et rapportes a part ; l'Allemagne, l'Espagne et la Suisse (moyennes ponderees declarees par Eurydice) sont conserves. Le test 2 porte sur les systemes presents a la fois dans Eurydice, dans cross_country_net_cost.csv et dans la source de depenses ; n est declare.
+
+Test 1 (France, remplace la formulation globale de l'Amendement 13) : pour chacun des trois niveaux, heures annuelles du curriculum modelise (heures hebdomadaires x 36 semaines, hors APC) contre 864 h (CITE 1, 5 ans), 973 h (CITE 24, 4 ans) et 1 008 h (CITE 34, 1 an) ; ecart relatif <= 10 % par niveau. La difference d'unite (heure de 60 min contre heure de cours de 55 min) est listee, non corrigee.
+
+Predit. Cout enseignant par eleve et par an = H x salaire_ppp x facteur_employeur / (heures_statutaires_an x taille_classe).
+
+Les seuils des tests 2 et 3 restent ceux de l'Amendement 13.

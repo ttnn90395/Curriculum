@@ -1,0 +1,27 @@
+== Test 1 : France, heures annuelles par niveau (x 36 semaines) contre Eurydice ==
+niveaux lus dans data/instruction_hours_fr_secondary.csv : [('college', '3e'), ('college', '4e'), ('college', '5e'), ('college', '6e'), ('lycee GT', '1re'), ('lycee GT', '2de'), ('lycee GT', 'terminale')]
+college   CITE 24        modele 936 h ; Eurydice 973 h ; ecart -3.8 % -> OK
+lycee     CITE 34 (2de)  modele 936 h ; Eurydice 1008 h ; ecart -7.1 % -> OK
+primaire  CITE 1         non realise (niveau absent du fichier)
+
+== Tests 2 et 3 : n = 15 systemes ==
+exclus : BE fr (multi-filieres ou communautes); BE de (multi-filieres ou communautes); BE nl (multi-filieres ou communautes); BG (absent de cross_country_net_cost); DK (absent de cross_country_net_cost); IE (absent de cross_country_net_cost); EL (absent d'Eurostat); ES (absent de cross_country_net_cost); HR (absent de cross_country_net_cost); CY (absent de cross_country_net_cost); MT (absent de cross_country_net_cost); RO (absent de cross_country_net_cost); SE (absent de cross_country_net_cost); AL (absent de cross_country_net_cost); BA (absent de cross_country_net_cost); CH (absent de cross_country_net_cost); ME (absent de cross_country_net_cost); NO (absent de cross_country_net_cost); RS (absent de cross_country_net_cost); LU (multi-filieres ou communautes); NL (multi-filieres ou communautes); AT (multi-filieres ou communautes); LI (multi-filieres ou communautes)
+Test 2 : Spearman(predit, observe) = 0.564 (seuil 0.6) -> ECHEC
+Test 3 : part predite mediane = 0.548 (intervalle [0.35,0.85]) -> OK ; CV = 0.500 (seuil 0.25) -> ECHEC
+
+systeme ; H (h/an) ; predit ; observe (PPS) ; part ; rang predit ; rang observe ; annees ED1/ED24
+TR ; 780 ; 4908 ; 2890 ; 1.70 ; 10.0 ; 1.0 ; 2023/2023
+IS ; 762 ; 4271 ; 13000 ; 0.33 ; 8.0 ; 15.0 ; 2023/2023
+PL ; 663 ; 5389 ; 6999 ; 0.77 ; 12.0 ; 6.0 ; 2023/2023
+SI ; 716 ; 3676 ; 8409 ; 0.44 ; 7.0 ; 12.0 ; 2023/2023
+CZ ; 756 ; 3083 ; 7417 ; 0.42 ; 3.0 ; 7.0 ; 2023/2023
+IT ; 944 ; 5474 ; 8133 ; 0.67 ; 14.0 ; 11.0 ; 2023/2021
+LT ; 781 ; 2640 ; 6257 ; 0.42 ; 1.0 ; 4.0 ; 2023/2023
+DE ; 814 ; 7004 ; 9228 ; 0.76 ; 15.0 ; 13.0 ; 2023/2023
+EE ; 715 ; 3408 ; 7555 ; 0.45 ; 6.0 ; 8.0 ; 2023/2023
+LV ; 648 ; 3174 ; 5349 ; 0.59 ; 5.0 ; 3.0 ; 2023/2023
+PT ; 855 ; 5233 ; 7870 ; 0.66 ; 11.0 ; 9.0 ; 2023/2023
+FR ; 912 ; 4346 ; 7935 ; 0.55 ; 9.0 ; 10.0 ; 2023/2023
+SK ; 762 ; 3130 ; 6378 ; 0.49 ; 4.0 ; 5.0 ; 2023/2023
+FI ; 712 ; 5437 ; 10365 ; 0.52 ; 13.0 ; 14.0 ; 2023/2023
+HU ; 731 ; 3007 ; 4967 ; 0.61 ; 2.0 ; 2.0 ; 2023/2023

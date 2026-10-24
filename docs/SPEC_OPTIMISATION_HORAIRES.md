@@ -390,3 +390,17 @@ Depense observee par eleve-annee, ponderation par les annees Eurydice : E = (a1 
 Appariement. Les codes pays Eurostat/Eurydice a deux lettres sont convertis en codes ISO a trois lettres (EL vers GRC, sinon table ISO 3166 standard) pour joindre cross_country_net_cost.csv ; un pays absent de l'une des trois sources est exclu et liste.
 
 Unites. Le cout predit utilise des PPA en dollars (OCDE) et la depense observee des PPS en euros ; la difference d'unite est un facteur multiplicatif non corrige. Le test 2 (rangs) n'en depend pas ; pour le test 3 la mediane de la part est rapportee telle quelle et le coefficient de variation (invariant par facteur) est le critere robuste ; l'ecart d'unite est signale dans le rapport.
+
+## Resultat de l'Amendement 13 (2026-10-24) : validation du mode oecd par Eurydice et Eurostat
+
+Execution de code/validate_eurydice.py (data/processed/validate_eurydice.txt), seuils et perimetre de l'Amendement 13 et de ses deux precisions, sans modification.
+
+Test 1 (France, heures annuelles contre Eurydice) : college 936 h contre 973 h (-3,8 %), seconde 936 h contre 1 008 h (-7,1 %), les deux dans la tolerance de 10 % ; primaire non realise (niveau absent de data/instruction_hours_fr_secondary.csv).
+
+Test 2 (rangs, n = 15) : Spearman 0,564 pour un seuil de 0,6 : ECHEC.
+
+Test 3 (part enseignante) : mediane 0,548 dans [0,35 ; 0,85] : OK ; coefficient de variation 0,500 pour un seuil de 0,25 : ECHEC.
+
+Valeurs aberrantes rapportees, non retirees : TR (part 1,70, rang predit 10 contre observe 1), IS (rangs 8 contre 15), PL (part 0,77). Les ecarts d'unite (PPA en dollars contre PPS en euros) et les annees de depense (2021 a 2023) ne sont pas corriges.
+
+Lecture, conformement a l'Amendement 13 : le mode oecd est declare non valide pour des comparaisons internationales de cout ; ses sorties internationales ne sont pas utilisees comme resultats. Le mode national (France, cout par ETP) n'est pas concerne par ce test et reste fonde sur ses propres verifications.

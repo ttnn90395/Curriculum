@@ -1,0 +1,5 @@
+curriculum modifie par ['college,mathematiques,+1', 'college,LV2,-1'] ; ETP besoins 5654, surplus 4240 ; cout ETP 0.05225 M EUR
+prime salariale : non realisee (N0 non fournie)
+cellule centrale (L=4, rho=0,5, d=1, eps=1, T01=0,10, T02=0,20, taux 2 %, prime entrants) : pic 73.8 M EUR, regime 73.8, VAN30 hors CAS 1416.7, avec CAS 2125.1
+part maximale des couts ponctuels dans la VAN sur la grille : 12.2 % -> conclusion DEPENDANTE de couts non sources
+grille : 2187 lignes dans data/processed/trajectory_grid.csv

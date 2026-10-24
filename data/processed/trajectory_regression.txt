@@ -1,0 +1,3 @@
+['college,mathematiques,+1'] : regime hors CAS 295.4 (ref 295.4) ; avec CAS 443.1 (ref 443.1) -> OK
+['college,mathematiques,+1', 'college,LV2,-1'] : regime hors CAS 73.8 (ref 73.8) ; avec CAS 110.8 (ref 110.8) -> OK
+controle de regression : REUSSI

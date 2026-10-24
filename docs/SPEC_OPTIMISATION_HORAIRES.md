@@ -324,3 +324,27 @@ Statut : exploratoire. Le diagnostic data/processed/diag_fra_hours.txt montre qu
 - Rapportés : valeur, rang (1 = moins cher) et position par rapport à la médiane, aux niveaux brut et employeur, avec et sans les pays imputés (Amendement 4), pour les deux valeurs d'heures.
 - Le calcul national du coût de l'heure supplémentaire en France (services de 18 h, 15 h et 20 h) n'est pas concerné.
 - Aucune des deux valeurs n'est retenue ou écartée après avoir vu les rangs.
+
+## Amendement 12 — Modèle de coût d'entretien et de transition d'un curriculum (pré-enregistré avant exécution de code/cost_model.py)
+
+Statut : exploratoire. Objet : à partir d'un curriculum (heures hebdomadaires par classe, par niveau et par matière) et d'un pays, prédire (i) le coût d'entretien en régime permanent, (ii) le coût de passage d'un curriculum A à un curriculum B.
+
+### 12.1 Coût d'entretien
+- Mode national (France) : ETP_s = somme sur les niveaux de (heures hebdomadaires de la matière s x classes du niveau) / service hebdomadaire ; coût = somme des ETP_s x coût annuel moyen chargé d'un ETP (data/parameters_teachers_cost.csv : cout_ens2d_hors_CAS) ; avec CAS : multiplication par le ratio avec/hors CAS du dépôt. Service : 18 h (la pondération par corps de data/evidence_corps_niveau.csv est une sensibilité).
+- Mode OCDE (pays du tableau international) : coût par élève et par niveau = heures hebdomadaires x semaines / heures annuelles x salaire brut PPA (x facteur employeur pour le coût employeur) / taille de classe, avec les valeurs de data/processed/cross_country_net_cost.csv. La somme sur les niveaux est le coût d'une cohorte sur les niveaux listés.
+- Test de cohérence imposé : +1 h hebdomadaire de mathématiques dans toutes les classes de collège doit donner 295,4 M€ hors CAS et 443,1 M€ avec CAS (mode national), et 4 x 125,8 = 503 $ PPA par élève (mode OCDE, France).
+
+### 12.2 Coût de transition A vers B
+- Différence de coût d'entretien entre B et A (positive ou négative).
+- Flux d'ETP par matière : surplus = somme des baisses d'ETP_s, besoins = somme des hausses ; reconvertis = min(rho x surplus, besoins), rho étant un paramètre de scénario (central 0,5, balayage 0 à 1) ; recrutés = besoins - reconvertis ; excédentaires = surplus - reconvertis, payés un an tant qu'ils ne sont pas redéployés (règle comptable : un titulaire reste payé).
+- Coûts unitaires de reconversion et de recrutement : placeholders non sourcés (data/transition_parameters.csv), à ne jamais citer comme résultat tant que le statut n'est pas remplacé par une source. Les flux d'ETP sont rapportés sans paramètre de coût.
+- Passage progressif : non modélisé à ce stade. Aucune actualisation.
+
+### 12.3 Périmètre et limites
+- Seul le coût des enseignants est modélisé : ni infrastructures, ni encadrement, ni manuels, ni formation des cadres.
+- Coût moyen par ETP identique pour toutes les matières et tous les corps ; coût par corps indisponible (le RAP ne donne que la moyenne du second degré).
+- Classes : seul le collège est renseigné ; les niveaux sans nombre de classes sont ignorés et signalés, sans imputation.
+- Curriculum des autres pays : à extraire (Eurydice, tableaux D1 de l'OCDE) avant tout usage du mode OCDE hors France. Aucune prédiction n'est publiée pour un pays dont le curriculum n'est pas dans le dépôt.
+
+### 12.4 Interdits
+- Aucun changement des formules ou de rho après avoir vu les sorties ; tout ajout est un nouvel amendement.

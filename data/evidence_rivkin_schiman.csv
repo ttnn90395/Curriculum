@@ -1,0 +1,7 @@
+spec,unit,estimate_points,se_points,sd_math,sd_per_weekly_hour,source,status,note
+school_by_grade,per weekly minute,0.025,0.006,83.82,0.0179,NBER w19464 Table 3 (Table A1 sd),derived,1.5 points/h ; conversion hour=60 x estimate / sd (mienne)
+school_by_subject,per weekly minute,0.017,0.008,83.82,0.0122,NBER w19464 Table 3,derived,1.0 points/h ; borne basse selon les auteurs (persistance)
+school_by_grade,per weekly class,2.078,0.346,83.82,,NBER w19464 Table 3,reported,
+school_by_subject,per weekly class,1.153,0.541,83.82,,NBER w19464 Table 3,reported,
+quadratic_turning_point_grade,minutes/week,,,,,NBER w19464 Table 4,reported,rendements decroissants lents ; retournement vers 500 min (grade) ; ~405 min recalcule (subject) alors que le texte dit >500
+interaction_classroom_quality,per weekly hour,,,,0.025 (75e pct) vs 0.011 (25e pct),NBER w19464 Section IV.c,reported,effet de l'heure depend du climat de classe ; premier quartile ~0

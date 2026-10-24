@@ -348,3 +348,19 @@ Statut : exploratoire. Objet : à partir d'un curriculum (heures hebdomadaires p
 
 ### 12.4 Interdits
 - Aucun changement des formules ou de rho après avoir vu les sorties ; tout ajout est un nouvel amendement.
+
+## Amendement 13 (2026-10-24) : validation externe du modele de cout par Eurydice (pre-enregistre avant tout calcul)
+
+Statut : exploratoire. Aucune valeur Eurydice n'a ete consultee pour fixer ces regles ; elles sont figees avant le code.
+
+Donnees. Temps d'instruction minimal recommande par systeme, Eurydice 2024/2025 (total sur l'enseignement general obligatoire a temps plein, en heures de 60 min, et part par matiere). Depenses observees par eleve : source unique a fixer dans data/ avant le calcul (Eurostat/OCDE, depense des etablissements publics par eleve, primaire et secondaire, annee la plus recente commune, en PPA) ; si cette source est absente, le test 2 n'est pas execute et est declare non realise.
+
+Predit. Pour chaque systeme present dans Eurydice et dans data/processed/cross_country_net_cost.csv : cout enseignant par eleve = heures_eleve_totales x salaire_ppp x facteur_employeur / (heures_statutaires_an x taille_classe), meme formule que le mode oecd de code/cost_model.py ; aucun parametre n'est ajuste.
+
+Tests (seuils fixes ici, sans reglage ulterieur) :
+1. Coherence France : total d'heures France du curriculum modelise vs total Eurydice France ; ecart relatif <= 10 %. Les ecarts de perimetre (APC, options) sont listes, pas corriges.
+2. Rang : correlation de Spearman entre cout enseignant predit par eleve et depense observee par eleve >= 0,6 (n declare).
+3. Part enseignante : part predite (cout enseignant / depense observee) dans [35 %, 85 %] pour la mediane et coefficient de variation < 0,25.
+4. Les valeurs aberrantes sont rapportees, jamais retirees ; un test non realise ou echoue est rapporte tel quel et n'est pas remplace par une variante.
+
+Lecture. Succes aux trois tests : le mode oecd est declare utilisable pour des ordres de grandeur comparatifs. Echec : il est declare non valide, sans modification a posteriori du modele.

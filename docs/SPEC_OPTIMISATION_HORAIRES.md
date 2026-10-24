@@ -404,3 +404,27 @@ Test 3 (part enseignante) : mediane 0,548 dans [0,35 ; 0,85] : OK ; coefficient 
 Valeurs aberrantes rapportees, non retirees : TR (part 1,70, rang predit 10 contre observe 1), IS (rangs 8 contre 15), PL (part 0,77). Les ecarts d'unite (PPA en dollars contre PPS en euros) et les annees de depense (2021 a 2023) ne sont pas corriges.
 
 Lecture, conformement a l'Amendement 13 : le mode oecd est declare non valide pour des comparaisons internationales de cout ; ses sorties internationales ne sont pas utilisees comme resultats. Le mode national (France, cout par ETP) n'est pas concerne par ce test et reste fonde sur ses propres verifications.
+
+## Amendement 14 (2026-10-24) : trajectoire de cout court et long terme d'un curriculum (pre-enregistre avant tout code)
+
+Statut : exploratoire. Objet : passer du cout de regime permanent et du cout ponctuel de transition (Amendement 12) a une trajectoire annuelle C(t), t = 0..T, avec T = 30 ans. Cet amendement ne traite que les couts ; aucun effet sur PISA n'y est modelise et aucune retroaction salaire vers score n'est admise.
+
+Entrees. Un curriculum cible exprime par ecarts d'heures hebdomadaires (format --delta de code/cost_model.py), data/classes_fr.csv, data/transition_parameters.csv et le cout moyen charge par ETP de l'Amendement 12 (hors CAS 52 248 EUR ; avec CAS x 1,5001). Les sorties sont toujours donnees en deux colonnes, hors CAS et avec CAS.
+
+Montee en charge. La part de la reforme en vigueur est p(t) = min(1, t / L), L = 4 ans (central), sensibilites L = 2 et L = 8. Le besoin supplementaire en ETP est DeltaETP(t) = p(t) x DeltaETP_regime, par matiere, d'apres l'identite ETP = classes x heures hebdomadaires / service.
+
+Flux d'ETP. Les surplus de matiere sont reconvertis a la part rho (central 0,5 ; sensibilites 0,25 et 0,75), plafonnee par les besoins ; le reste des besoins est recrute avec un delai de d = 1 an entre recrutement et prise de service (sensibilites 0 et 2) ; les ETP excedentaires non reconvertis sont maintenus en service un an puis resorbes par les departs naturels, au rythme de depart de 3 % de l'effectif par an (parametre non source, declare ici). Un ETP reconverti ou recrute a le cout moyen charge de l'Amendement 12 une fois en service.
+
+Couts ponctuels. T01 (formation de reconversion, fraction du cout annuel d'un ETP) dans {0,05 ; 0,10 ; 0,20}, T02 (recrutement et formation initiale) dans {0,10 ; 0,20 ; 0,40}, centraux 0,10 et 0,20. Aucune de ces valeurs n'est sourcee par un cout par tete ; seul ancrage disponible : la Cour des comptes (refere du 12 mars 2018) estime a 1,1 Md EUR le cout des deux annees de master en ESPE hors remuneration des stagiaires, sans cout par tete ni effectifs. Les resultats sont declares non sources sur ces deux couts, et la regle suivante s'applique : si les couts ponctuels pesent moins de 10 % de la valeur actuelle nette sur toute la grille de sensibilite, la conclusion est declaree robuste a leur valeur ; sinon elle est declaree dependante de couts non sources.
+
+Prime salariale d'equilibre. Pour chaque matiere en tension, le recrutement supplementaire DeltaN par rapport au recrutement annuel actuel N0 exige une hausse du salaire d'entree Dw = (DeltaN / N0) / epsilon, epsilon dans {0,3 ; 1 ; 2} comme dans l'Amendement 10, central 1. Variante centrale : la hausse est ciblee sur les entrants de la matiere et propagee aux cohortes d'entrants successives pendant une carriere de 30 ans, a cout cumule croissant jusqu'au regime ; variante de sensibilite : hausse appliquee a tout le corps de la matiere. Aucune autre reponse d'offre n'est modelisee.
+
+Demographie. Le central est neutre (effectifs d'eleves constants). Une variante demographique n'est executee que si une projection d'effectifs officielle (DEPP ou INSEE) est ajoutee a data/ avec sa source avant le calcul ; sinon elle est declaree non realisee.
+
+Actualisation. Taux central 2 %, sensibilites 0 % et 4 % ; la reference officielle du taux central est a verifier et citer avant publication ; toutes les valeurs actualisees sont affichees avec le taux utilise.
+
+Sorties. Pour chaque cellule de la grille (L, rho, d, epsilon, T01, T02) : cout annuel C(t) sans actualisation, pic, cout de regime permanent, valeur actuelle nette sur T = 30 ans, en M EUR hors CAS et avec CAS. Aucun parametre n'est ajuste a un resultat.
+
+Controle de regression pre-declare. Avec L = 1, d = 0, rho = 0, T01 = T02 = 0, epsilon tendant vers l'infini (aucune prime) et sans reconversion, le cout de regime permanent doit reproduire les deux ecarts verifies de l'Amendement 12 (+295,4 et +73,8 M EUR hors CAS ; +443,1 et +110,8 avec CAS), avec les memes arguments --delta que ceux des executions de validation de code/cost_model.py, a 0,1 M EUR pres ; un ecart superieur invalide le code avant toute autre sortie.
+
+Limites declarees. Pas d'effet de la reforme sur le recrutement futur au-dela de la prime ; pas de cout de construction ni de materiel ; couts ponctuels non sources ; demographie neutre par defaut.

@@ -498,3 +498,21 @@ N1, taux de reussite par voie : general 76,6 % en 1997, 91,1 % en 2019, 97,6 % e
 N2, mentions parmi les admis, sessions 2021 a 2025 : general 75,3 %, 71,8 %, 70,2 %, 71,3 %, 70,5 % (TB 13,9 %, 14,8 %, 14,7 %, 14,2 %, 13,8 %) ; technologique 57,2 %, 49,2 %, 46,0 %, 47,4 %, 48,0 % ; professionnel 62,5 %, 60,6 %, 59,4 %, 61,1 %, 62,3 %. Les parts de mentions sont stables ou en baisse apres la session 2021 ; aucune hausse continue n'est observee sur cette fenetre.
 
 Lecture. Le taux de reussite du baccalaureat general est environ cinq points plus haut en 2022 a 2025 qu'en 2019 (96 % contre 91 %) apres le pic des sessions 2020 et 2021 (97,5 %), et les parts de mentions ne progressent pas de 2021 a 2025. Ces chiffres sont compatibles avec plusieurs explications (reforme de 2021 et controle continu a 40 %, changement de composition, ecart de difficulte) ; seule une mesure de difficulte (Amendement 7), non realisee, peut conclure a un nivellement. Les mentions avant 2021 ne figurent pas dans ces jeux ; l'avant-2021 reste a documenter.
+
+## Amendement 17 (2026-10-24) : comparaison internationale des examens nationaux de fin de secondaire (pre-enregistre avant toute collecte de donnees)
+
+Statut : exploratoire et descriptif. Suite de l'Amendement 16 : replacer la serie francaise du baccalaureat parmi celles d'autres pays. Cet amendement ne compare pas la difficulte des epreuves (aucun corpus de sujets ni de programmes etrangers n'est collecte) et ne revient pas sur la Precision de l'Amendement 7 : il compare des resultats publies.
+
+Pays, fixes avant la collecte : Allemagne (Abitur, statistiques nationales de la Conference des ministres de l'education), Angleterre (A-levels, JCQ et Ofqual), Italie (esame di Stato), Espagne (EBAU/PAU), Pologne (matura), Finlande (examen national de fin de lycee), Irlande (Leaving Certificate), Pays-Bas (eindexamen VWO), et la France. Un pays dont aucune serie officielle d'au moins dix ans n'est atteignable est liste comme non realise avec la raison, et n'est pas remplace.
+
+Indicateurs, calcules dans chaque pays avec la definition de la source officielle (non comparables en niveau d'un pays a l'autre) : E1, taux de reussite a l'examen national (part des candidats qui reussissent) ; E2, part des candidats dans la categorie de note la plus haute publiee par la source (par exemple A* en Angleterre, 100 avec ou sans mention de felicitations en Italie, mention tres bien en France), a defaut la note moyenne ; E3, nombre de candidats, pour signaler les changements de composition. Les definitions retenues pays par pays sont inscrites dans le fichier de donnees avec leur source.
+
+Periode et ruptures. Annees 2010 a la derniere session publiee ; les sessions 2020 et 2021 sont marquees (conditions sanitaires et notation exceptionnelle dans plusieurs pays) et les ruptures de definition ou de reforme propres a chaque pays sont notees en colonne de commentaire sans correction.
+
+Analyse A (descriptive) : pour chaque pays, variation de E1 et E2 en points de pourcentage entre 2010 et 2019, puis entre 2019 et la derniere session ; aucune comparaison de niveaux entre pays, seulement des directions et des ordres de grandeur de variation.
+
+Analyse B (exploratoire, declaree ici) : correlation de rang de Spearman entre la variation de E2 de 2012 a 2018 et la variation de la moyenne PISA des trois domaines de 2012 a 2018, sur les pays ou les deux existent (n declare ; non calculee si n est inferieur a 6). Aucun seuil, aucune inference causale ; le resultat est rapporte avec son n et la liste des pays. Les moyennes PISA 2012 et 2018 sont celles du depot ou, a defaut, documentees avant le calcul ; les cycles 2022 et 2025 ne sont pas utilises ici et restent reserves au test unique du projet.
+
+Lecture, fixee ici : la France est dite « atypique » sur un indicateur si sa variation est hors de l'etendue des autres pays pour la meme periode ; sinon elle est dite « dans la plage observee ». Le terme « nivellement » n'est pas employe : aucune difficulte n'est mesuree.
+
+Sorties : data/evidence_exams_international.csv (pays, annee, indicateur, valeur, definition, source, remarque) et data/processed/exams_international_report.txt.

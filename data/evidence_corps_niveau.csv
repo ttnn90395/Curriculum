@@ -1,0 +1,23 @@
+id,corps,niveau,effectif,service_hebdo_statutaire_h,source,status,note
+K01,agreges et chaire superieure,college (y c. Segpa),12230,15,RERS 2025 tableau 9.09 p.347,extracted,service 15 h pour les agreges (reglementation; a verifier pour la chaire sup.)
+K02,agreges et chaire superieure,lycee general/techno,28236,15,same,extracted,
+K03,agreges et chaire superieure,lycee professionnel,468,15,same,extracted,
+K04,agreges et chaire superieure,post-bac et autres,12418,15,same,extracted,
+K05,certifies et assimiles,college (y c. Segpa),143965,18,same,extracted,assimiles incluent les PEPS (EPS : service 20 h) : non separes dans ce tableau
+K06,certifies et assimiles,lycee general/techno,58606,18,same,extracted,
+K07,certifies et assimiles,lycee professionnel,3975,18,same,extracted,
+K08,certifies et assimiles,post-bac et autres,11185,18,same,extracted,
+K09,PLP,college (y c. Segpa),3652,18,same,extracted,
+K10,PLP,lycee general/techno,259,18,same,extracted,
+K11,PLP,lycee professionnel,42423,18,same,extracted,
+K12,PLP,post-bac et autres,1937,18,same,extracted,
+K13,autres titulaires,college (y c. Segpa),7827,18,same,extracted,PEGC et charges d'enseignement non separes ; service 18 h suppose
+K14,autres titulaires,lycee general/techno,39,18,same,extracted,
+K15,autres titulaires,lycee professionnel,433,18,same,extracted,
+K16,autres titulaires,post-bac et autres,27,18,same,extracted,
+K17,non-titulaires,college (y c. Segpa),14889,18,same,extracted,service des contractuels suppose egal a 18 h (hypothese)
+K18,non-titulaires,lycee general/techno,6148,18,same,extracted,
+K19,non-titulaires,lycee professionnel,12029,18,same,extracted,
+K20,non-titulaires,post-bac et autres,1448,18,same,extracted,
+K21,total,tous niveaux,362190,NA,same,extracted,champ : enseignants charges d'eleves a l'annee ; le total du tableau 9.07 (389035) couvre un champ plus large
+K22,controle des sommes,college et lycee professionnel,NA,NA,same,note,somme des lignes college 182563 contre total publie 182561 ; lycee professionnel 59328 contre 59327 ; lycee general/techno 93288 egal

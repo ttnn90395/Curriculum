@@ -1,0 +1,10 @@
+id,item,domain,value,unit,source,status,note
+D01,France maths 2025 score garcons,mathematics,464,points,DEPP NI 2026-40 PISA maths,extracted,
+D02,France maths 2025 score filles,mathematics,451,points,same,extracted,ecart 13 points stable depuis 2022
+D03,ecart tres favorises tres defavorises 2025,mathematics,95,points,same,extracted,OCDE 83
+D04,ecart P90-P10 2025,mathematics,246,points,same,extracted,OCDE 244
+D05,part sous le niveau 2 en 2025,mathematics,36,percent,same,extracted,2022: 29 ; OCDE 35
+D06,part au-dessus du niveau 4 en 2025,mathematics,5,percent,same,extracted,OCDE 8
+D07,moyenne OCDE 2025 citee par la DEPP,mathematics,463,points,same,extracted,coherent avec la page OCDE (tous les membres)
+D08,baisse OCDE 2022-2025 citee,mathematics,-9,points,same,extracted,la DEPP citait ailleurs une moyenne 24 pays qui baisse de 11
+D09,resultats par voie ou niveau de classe,mathematics,NA,points,same,pending,"la note ne donne que les categories (3e a l'heure, 3e en retard, 2de GT, 2de pro) sans valeurs"

@@ -1,0 +1,15 @@
+enseignement,seconde_h_an,premiere_h_an,terminale_h_an,total_3_ans_h,source,status,note
+Enseignement professionnel,330,266,260,856,eduscol document 30832,extracted,volumes annuels heures eleve
+Co-intervention professionnels/francais,30,28,13,71,same,extracted,
+Co-intervention professionnels/maths-sciences,30,14,13,57,same,extracted,
+Realisation d'un chef d'oeuvre,0,56,52,108,same,extracted,
+Prevention-sante-environnement,30,28,26,84,same,extracted,
+Economie-gestion ou economie-droit,30,28,26,84,same,extracted,
+Francais histoire-geographie EMC,105,84,78,267,same,extracted,
+Mathematiques,45,56,39,140,same,extracted,
+Langue vivante A,60,56,52,168,same,extracted,
+Sciences physiques et chimiques ou LVB,45,42,39,126,same,extracted,
+Arts appliques et culture artistique,30,28,26,84,same,extracted,
+EPS,75,70,65,210,same,extracted,
+Consolidation AP et orientation,90,84,91,265,same,extracted,
+TOTAL,900,840,780,2520,same,extracted,"30 28 et 26 semaines ; PFMP de 18 a 22 semaines hors tableau ; grille de 2019-2021 : verifier les modifications posterieures (BacPro_GrilleHoraireModif_20231206 apparait dans les recherches)"

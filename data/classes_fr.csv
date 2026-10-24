@@ -1,0 +1,5 @@
+level,grade,classes,source,status,note
+college,6e,25440.75,classes_college_public_hors_segpa 101763 (RERS 2025 fiche 2.05 p.37) divise par 4,derived,repartition egale entre les niveaux (hypothese) ; public hors Segpa
+college,5e,25440.75,same,derived,
+college,4e,25440.75,same,derived,
+college,3e,25440.75,same,derived,

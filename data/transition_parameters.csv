@@ -1,0 +1,4 @@
+id,label,applies_to,value,unit,status,note
+T01,formation de reconversion par ETP reconverti,retrain,0.10,fraction du cout annuel d'un ETP,PLACEHOLDER_non_source,a remplacer par une valeur sourcee (Cour des comptes formation continue) ; ne pas citer comme resultat
+T02,cout de recrutement et de formation initiale par ETP recrute,recruit,0.20,fraction du cout annuel d'un ETP,PLACEHOLDER_non_source,a sourcer ; ne pas citer comme resultat
+T03,ETP excedentaire maintenu en service un an,idle,1.00,fraction du cout annuel d'un ETP,regle_comptable,un titulaire non redeploye reste paye ; duree d'une annee par defaut

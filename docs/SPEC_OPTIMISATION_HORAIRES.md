@@ -432,3 +432,13 @@ Limites declarees. Pas d'effet de la reforme sur le recrutement futur au-dela de
 ## Precision de l'Amendement 14 (2026-10-24) : recrutement annuel actuel N0 (pre-enregistre avant la grille avec prime)
 
 N0 est le nombre d'admis aux concours externes du second degre public, session 2025 : Agregation 1 617, Capes 4 344, Capet 437, Capeps 670, CAPLP 940, soit N0 = 8 008 (source : data/evidence_concours_2025_second_degre.csv, devenirenseignant.gouv.fr). Sensibilite : postes offerts, soit 8 857 (1 710 + 4 890 + 495 + 670 + 1 092). Ne sont pas comptes : concours speciaux (agregation speciale, Mayotte), contractuels, concours internes et prive ; N0 est donc sous-estime, ce qui surestime la hausse relative DeltaN / N0 et la prime. Le CRPE (premier degre) est hors perimetre de N0. Aucune autre valeur de N0 n'est essayee. Les resultats sont produits pour N0 = 8 008 et N0 = 8 857 et rapportes tous deux.
+
+## Resultat de l'Amendement 14 (2026-10-24) : trajectoire de cout du scenario test (+1 h de mathematiques, -1 h de LV2 au college)
+
+Controle de regression reussi (data/processed/trajectory_regression.txt) : +295,4 et +73,8 M EUR hors CAS, +443,1 et +110,8 avec CAS, a 0,1 pres.
+
+Sans prime salariale (N0 non fournie) : cellule centrale (L = 4, rho = 0,5, d = 1, T01 = 0,10, T02 = 0,20, taux 2 %) : pic et regime 73,8 M EUR hors CAS, VAN sur 30 ans 1 417 M EUR hors CAS (2 125 avec CAS) ; la part maximale des couts ponctuels dans la VAN est 12,2 % sur la grille, donc conclusion dependante de couts non sources selon la regle de l'amendement.
+
+Avec prime salariale (Precision N0) : N0 = 8 008 : pic et regime 278,8 M EUR hors CAS, VAN 5 710 M EUR (8 566 avec CAS), part maximale des couts ponctuels 5,6 % ; N0 = 8 857 : 276,9 M EUR, VAN 5 669 M EUR (8 504 avec CAS), part 5,9 % ; conclusion robuste aux couts ponctuels dans les deux cas, parce que la prime domine la VAN.
+
+Ecart par rapport a la lettre de l'Amendement 14, declare : la prime est calculee sur le recrutement agrege de toutes les matieres (N0 agrege), alors que l'amendement la visait par matiere en tension ; la hausse est donc appliquee a l'ensemble des entrants d'une cohorte (N0 + DeltaQ), au cout moyen charge par ETP, ce qui surestime la prime (N0 sous-estime, base salariale surevaluee, entrants de matieres sans tension inclus). Les chiffres avec prime sont des majorants et ne sont pas utilises comme estimation centrale. Une version par matiere exige N0 par discipline, non disponible pour toutes les disciplines.

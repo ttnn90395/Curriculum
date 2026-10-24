@@ -1,0 +1,29 @@
+system,isced1_hours_total,isced24_hours_total,source,status,note
+BE fr,4956,1770,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+BE de,5096,1699,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+BE nl,4928,1899,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+BG,2028,2219,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+CZ,3345,3459,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+DK,7000,3600,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+DE,2901,4432,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+EE,3964,2468,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+IE,5415,1395,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+EL,4310,2373,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+ES,4733,3158,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+FR,4320,3890,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+HR,1890,2651,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+IT,4587,2970,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+CY,4760,2522,Eurydice 2024/25 Figure 1 table (p.12),extracted,alignement verifie sur FR=4320/3890 et DK=7000+3600=10600
+SI,4144,2298,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+SK,2722,4139,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+FI,3962,2451,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+SE,4256,2634,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+AL,2927,3098,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+BA,2700,3008,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+CH,4790,2890,Eurydice 2024/25 Figure 1 table (p.12),extracted,
+IS,5100,2516,Eurydice 2024/25 Figure 1 table (p.12),extracted,IS 5100+2516=7616 verifie
+LI,3767,,Eurydice 2024/25 Figure 1 table (p.12),extracted,ISCED24 non attribue (extraction ambigue)
+ME,2682,,Eurydice 2024/25 Figure 1 table (p.12),extracted,ISCED24 non attribue (extraction ambigue)
+NO,5272,,Eurydice 2024/25 Figure 1 table (p.12),extracted,ISCED24 non attribue (extraction ambigue)
+RS,2457,,Eurydice 2024/25 Figure 1 table (p.12),extracted,ISCED24 non attribue (extraction ambigue)
+TR,2880,,Eurydice 2024/25 Figure 1 table (p.12),extracted,ISCED24 non attribue (extraction ambigue)

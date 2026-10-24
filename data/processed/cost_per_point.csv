@@ -1,0 +1,287 @@
+sigma,scenario,variante,N0,eps,regime_hors_CAS,regime_avec_CAS,gain_p5,gain_med,gain_p95,R1_hors_CAS,R1_avec_CAS,R1_lo,R1_hi,R2_hors_CAS
+100.0,+1h maths [T2_cycle_complet],sans_prime,,,295.4,443.1,0.946,1.591,2.242,185.7,278.5,131.7,312.1,178.9
+100.0,+1h maths [T2_cycle_complet],prime_entrants,8008,0.3,1453.8,2180.8,0.946,1.591,2.242,913.8,1370.8,648.3,1536.1,907.1
+100.0,+1h maths [T2_cycle_complet],prime_entrants,8008,1.0,642.9,964.4,0.946,1.591,2.242,404.1,606.2,286.7,679.3,397.4
+100.0,+1h maths [T2_cycle_complet],prime_entrants,8008,2.0,469.1,703.8,0.946,1.591,2.242,294.9,442.4,209.2,495.7,288.1
+100.0,+1h maths [T2_cycle_complet],prime_tout_corps,8008,0.3,1120.8,1681.4,0.946,1.591,2.242,704.5,1056.9,499.8,1184.3,733.7
+100.0,+1h maths [T2_cycle_complet],prime_tout_corps,8008,1.0,543.0,814.6,0.946,1.591,2.242,341.3,512.0,242.2,573.8,345.4
+100.0,+1h maths [T2_cycle_complet],prime_tout_corps,8008,2.0,419.2,628.8,0.946,1.591,2.242,263.5,395.3,186.9,442.9,262.1
+100.0,+1h maths [T2_cycle_complet],prime_entrants,8857,0.3,1437.1,2155.8,0.946,1.591,2.242,903.3,1355.1,640.9,1518.5,896.6
+100.0,+1h maths [T2_cycle_complet],prime_entrants,8857,1.0,637.9,956.9,0.946,1.591,2.242,401.0,601.5,284.5,674.0,394.2
+100.0,+1h maths [T2_cycle_complet],prime_entrants,8857,2.0,466.6,700.0,0.946,1.591,2.242,293.3,440.0,208.1,493.1,286.6
+100.0,+1h maths [T2_cycle_complet],prime_tout_corps,8857,0.3,1041.7,1562.7,0.946,1.591,2.242,654.8,982.3,464.6,1100.7,680.6
+100.0,+1h maths [T2_cycle_complet],prime_tout_corps,8857,1.0,519.3,779.0,0.946,1.591,2.242,326.4,489.7,231.6,548.7,329.4
+100.0,+1h maths [T2_cycle_complet],prime_tout_corps,8857,2.0,407.3,611.0,0.946,1.591,2.242,256.0,384.1,181.7,430.4,254.2
+90.0,+1h maths [T2_cycle_complet],sans_prime,,,295.4,443.1,0.852,1.432,2.018,206.3,309.5,146.4,346.8,198.8
+90.0,+1h maths [T2_cycle_complet],prime_entrants,8008,0.3,1453.8,2180.8,0.852,1.432,2.018,1015.4,1523.1,720.4,1706.8,1007.9
+90.0,+1h maths [T2_cycle_complet],prime_entrants,8008,1.0,642.9,964.4,0.852,1.432,2.018,449.0,673.6,318.6,754.8,441.5
+90.0,+1h maths [T2_cycle_complet],prime_entrants,8008,2.0,469.1,703.8,0.852,1.432,2.018,327.7,491.5,232.5,550.8,320.2
+90.0,+1h maths [T2_cycle_complet],prime_tout_corps,8008,0.3,1120.8,1681.4,0.852,1.432,2.018,782.8,1174.3,555.4,1315.9,815.3
+90.0,+1h maths [T2_cycle_complet],prime_tout_corps,8008,1.0,543.0,814.6,0.852,1.432,2.018,379.3,568.9,269.1,637.5,383.7
+90.0,+1h maths [T2_cycle_complet],prime_tout_corps,8008,2.0,419.2,628.8,0.852,1.432,2.018,292.8,439.2,207.7,492.1,291.3
+90.0,+1h maths [T2_cycle_complet],prime_entrants,8857,0.3,1437.1,2155.8,0.852,1.432,2.018,1003.7,1505.7,712.1,1687.2,996.2
+90.0,+1h maths [T2_cycle_complet],prime_entrants,8857,1.0,637.9,956.9,0.852,1.432,2.018,445.5,668.3,316.1,748.9,438.0
+90.0,+1h maths [T2_cycle_complet],prime_entrants,8857,2.0,466.6,700.0,0.852,1.432,2.018,325.9,488.9,231.2,547.8,318.4
+90.0,+1h maths [T2_cycle_complet],prime_tout_corps,8857,0.3,1041.7,1562.7,0.852,1.432,2.018,727.6,1091.4,516.2,1223.0,756.2
+90.0,+1h maths [T2_cycle_complet],prime_tout_corps,8857,1.0,519.3,779.0,0.852,1.432,2.018,362.7,544.1,257.3,609.6,366.0
+90.0,+1h maths [T2_cycle_complet],prime_tout_corps,8857,2.0,407.3,611.0,0.852,1.432,2.018,284.5,426.8,201.8,478.2,282.4
+100.0,+1h francais [T2_cycle_complet],sans_prime,,,295.4,443.1,0.946,1.591,2.242,185.7,278.5,131.7,312.1,178.9
+100.0,+1h francais [T2_cycle_complet],prime_entrants,8008,0.3,1453.8,2180.8,0.946,1.591,2.242,913.8,1370.8,648.3,1536.1,907.1
+100.0,+1h francais [T2_cycle_complet],prime_entrants,8008,1.0,642.9,964.4,0.946,1.591,2.242,404.1,606.2,286.7,679.3,397.4
+100.0,+1h francais [T2_cycle_complet],prime_entrants,8008,2.0,469.1,703.8,0.946,1.591,2.242,294.9,442.4,209.2,495.7,288.1
+100.0,+1h francais [T2_cycle_complet],prime_tout_corps,8008,0.3,1229.5,1844.3,0.946,1.591,2.242,772.8,1159.3,548.3,1299.1,806.7
+100.0,+1h francais [T2_cycle_complet],prime_tout_corps,8008,1.0,575.6,863.5,0.946,1.591,2.242,361.8,542.8,256.7,608.2,367.3
+100.0,+1h francais [T2_cycle_complet],prime_tout_corps,8008,2.0,435.5,653.3,0.946,1.591,2.242,273.7,410.6,194.2,460.1,273.1
+100.0,+1h francais [T2_cycle_complet],prime_entrants,8857,0.3,1437.1,2155.8,0.946,1.591,2.242,903.3,1355.1,640.9,1518.5,896.6
+100.0,+1h francais [T2_cycle_complet],prime_entrants,8857,1.0,637.9,956.9,0.946,1.591,2.242,401.0,601.5,284.5,674.0,394.2
+100.0,+1h francais [T2_cycle_complet],prime_entrants,8857,2.0,466.6,700.0,0.946,1.591,2.242,293.3,440.0,208.1,493.1,286.6
+100.0,+1h francais [T2_cycle_complet],prime_tout_corps,8857,0.3,1139.9,1710.0,0.946,1.591,2.242,716.5,1074.9,508.4,1204.4,746.6
+100.0,+1h francais [T2_cycle_complet],prime_tout_corps,8857,1.0,548.7,823.2,0.946,1.591,2.242,344.9,517.4,244.7,579.8,349.2
+100.0,+1h francais [T2_cycle_complet],prime_tout_corps,8857,2.0,422.1,633.1,0.946,1.591,2.242,265.3,398.0,188.2,446.0,264.1
+90.0,+1h francais [T2_cycle_complet],sans_prime,,,295.4,443.1,0.852,1.432,2.018,206.3,309.5,146.4,346.8,198.8
+90.0,+1h francais [T2_cycle_complet],prime_entrants,8008,0.3,1453.8,2180.8,0.852,1.432,2.018,1015.4,1523.1,720.4,1706.8,1007.9
+90.0,+1h francais [T2_cycle_complet],prime_entrants,8008,1.0,642.9,964.4,0.852,1.432,2.018,449.0,673.6,318.6,754.8,441.5
+90.0,+1h francais [T2_cycle_complet],prime_entrants,8008,2.0,469.1,703.8,0.852,1.432,2.018,327.7,491.5,232.5,550.8,320.2
+90.0,+1h francais [T2_cycle_complet],prime_tout_corps,8008,0.3,1229.5,1844.3,0.852,1.432,2.018,858.7,1288.1,609.2,1443.4,896.4
+90.0,+1h francais [T2_cycle_complet],prime_tout_corps,8008,1.0,575.6,863.5,0.852,1.432,2.018,402.0,603.1,285.2,675.8,408.1
+90.0,+1h francais [T2_cycle_complet],prime_tout_corps,8008,2.0,435.5,653.3,0.852,1.432,2.018,304.2,456.3,215.8,511.3,303.4
+90.0,+1h francais [T2_cycle_complet],prime_entrants,8857,0.3,1437.1,2155.8,0.852,1.432,2.018,1003.7,1505.7,712.1,1687.2,996.2
+90.0,+1h francais [T2_cycle_complet],prime_entrants,8857,1.0,637.9,956.9,0.852,1.432,2.018,445.5,668.3,316.1,748.9,438.0
+90.0,+1h francais [T2_cycle_complet],prime_entrants,8857,2.0,466.6,700.0,0.852,1.432,2.018,325.9,488.9,231.2,547.8,318.4
+90.0,+1h francais [T2_cycle_complet],prime_tout_corps,8857,0.3,1139.9,1710.0,0.852,1.432,2.018,796.1,1194.3,564.8,1338.3,829.5
+90.0,+1h francais [T2_cycle_complet],prime_tout_corps,8857,1.0,548.7,823.2,0.852,1.432,2.018,383.3,574.9,271.9,644.2,388.0
+90.0,+1h francais [T2_cycle_complet],prime_tout_corps,8857,2.0,422.1,633.1,0.852,1.432,2.018,294.8,442.2,209.1,495.5,293.4
+100.0,+1h sciences [T2_cycle_complet],sans_prime,,,295.4,443.1,0.946,1.591,2.242,185.7,278.5,131.7,312.1,178.9
+100.0,+1h sciences [T2_cycle_complet],prime_entrants,8008,0.3,1453.8,2180.8,0.946,1.591,2.242,913.8,1370.8,648.3,1536.1,907.1
+100.0,+1h sciences [T2_cycle_complet],prime_entrants,8008,1.0,642.9,964.4,0.946,1.591,2.242,404.1,606.2,286.7,679.3,397.4
+100.0,+1h sciences [T2_cycle_complet],prime_entrants,8008,2.0,469.1,703.8,0.946,1.591,2.242,294.9,442.4,209.2,495.7,288.1
+100.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8008,0.3,990.5,1485.9,0.946,1.591,2.242,622.6,934.0,441.7,1046.6,646.1
+100.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8008,1.0,503.9,755.9,0.946,1.591,2.242,316.8,475.2,224.7,532.4,319.1
+100.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8008,2.0,399.7,599.5,0.946,1.591,2.242,251.2,376.8,178.2,422.3,249.0
+100.0,+1h sciences [T2_cycle_complet],prime_entrants,8857,0.3,1437.1,2155.8,0.946,1.591,2.242,903.3,1355.1,640.9,1518.5,896.6
+100.0,+1h sciences [T2_cycle_complet],prime_entrants,8857,1.0,637.9,956.9,0.946,1.591,2.242,401.0,601.5,284.5,674.0,394.2
+100.0,+1h sciences [T2_cycle_complet],prime_entrants,8857,2.0,466.6,700.0,0.946,1.591,2.242,293.3,440.0,208.1,493.1,286.6
+100.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8857,0.3,923.9,1385.9,0.946,1.591,2.242,580.7,871.2,412.0,976.2,601.4
+100.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8857,1.0,483.9,725.9,0.946,1.591,2.242,304.2,456.3,215.8,511.3,305.7
+100.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8857,2.0,389.7,584.5,0.946,1.591,2.242,244.9,367.4,173.8,411.7,242.3
+90.0,+1h sciences [T2_cycle_complet],sans_prime,,,295.4,443.1,0.852,1.432,2.018,206.3,309.5,146.4,346.8,198.8
+90.0,+1h sciences [T2_cycle_complet],prime_entrants,8008,0.3,1453.8,2180.8,0.852,1.432,2.018,1015.4,1523.1,720.4,1706.8,1007.9
+90.0,+1h sciences [T2_cycle_complet],prime_entrants,8008,1.0,642.9,964.4,0.852,1.432,2.018,449.0,673.6,318.6,754.8,441.5
+90.0,+1h sciences [T2_cycle_complet],prime_entrants,8008,2.0,469.1,703.8,0.852,1.432,2.018,327.7,491.5,232.5,550.8,320.2
+90.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8008,0.3,990.5,1485.9,0.852,1.432,2.018,691.8,1037.8,490.8,1162.9,717.9
+90.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8008,1.0,503.9,755.9,0.852,1.432,2.018,351.9,528.0,249.7,591.6,354.5
+90.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8008,2.0,399.7,599.5,0.852,1.432,2.018,279.1,418.7,198.0,469.2,276.7
+90.0,+1h sciences [T2_cycle_complet],prime_entrants,8857,0.3,1437.1,2155.8,0.852,1.432,2.018,1003.7,1505.7,712.1,1687.2,996.2
+90.0,+1h sciences [T2_cycle_complet],prime_entrants,8857,1.0,637.9,956.9,0.852,1.432,2.018,445.5,668.3,316.1,748.9,438.0
+90.0,+1h sciences [T2_cycle_complet],prime_entrants,8857,2.0,466.6,700.0,0.852,1.432,2.018,325.9,488.9,231.2,547.8,318.4
+90.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8857,0.3,923.9,1385.9,0.852,1.432,2.018,645.3,967.9,457.8,1084.6,668.2
+90.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8857,1.0,483.9,725.9,0.852,1.432,2.018,338.0,507.0,239.8,568.1,339.6
+90.0,+1h sciences [T2_cycle_complet],prime_tout_corps,8857,2.0,389.7,584.5,0.852,1.432,2.018,272.1,408.2,193.1,457.5,269.2
+100.0,+1h des 3 matieres [T2_cycle_complet],sans_prime,,,886.2,1329.3,2.839,4.773,6.727,185.7,278.5,131.7,312.1,178.9
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8008,0.3,5404.0,8106.6,2.839,4.773,6.727,1132.3,1698.5,803.3,1903.3,1125.5
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8008,1.0,2241.5,3362.5,2.839,4.773,6.727,469.7,704.5,333.2,789.5,462.9
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8008,2.0,1563.8,2345.9,2.839,4.773,6.727,327.7,491.5,232.5,550.8,320.9
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8008,0.3,8250.1,12375.9,2.839,4.773,6.727,1728.6,2593.1,1226.4,2905.7,1828.8
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8008,1.0,3095.3,4643.3,2.839,4.773,6.727,648.6,972.9,460.1,1090.2,673.9
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8008,2.0,1990.7,2986.3,2.839,4.773,6.727,417.1,625.7,295.9,701.1,426.4
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8857,0.3,5254.1,7881.7,2.839,4.773,6.727,1100.9,1651.4,781.0,1850.5,1094.1
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8857,1.0,2196.5,3295.0,2.839,4.773,6.727,460.2,690.4,326.5,773.6,453.5
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8857,2.0,1541.3,2312.2,2.839,4.773,6.727,323.0,484.5,229.1,542.9,316.2
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8857,0.3,7544.2,11317.0,2.839,4.773,6.727,1580.7,2371.2,1121.5,2657.1,1670.6
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8857,1.0,2883.6,4325.6,2.839,4.773,6.727,604.2,906.3,428.7,1015.6,626.4
+100.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8857,2.0,1884.9,2827.5,2.839,4.773,6.727,394.9,592.4,280.2,663.9,402.7
+90.0,+1h des 3 matieres [T2_cycle_complet],sans_prime,,,886.2,1329.3,2.555,4.295,6.054,206.3,309.5,146.4,346.8,198.8
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8008,0.3,5404.0,8106.6,2.555,4.295,6.054,1258.1,1887.3,892.6,2114.8,1250.6
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8008,1.0,2241.5,3362.5,2.555,4.295,6.054,521.8,782.8,370.2,877.2,514.3
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8008,2.0,1563.8,2345.9,2.555,4.295,6.054,364.1,546.1,258.3,612.0,356.6
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8008,0.3,8250.1,12375.9,2.555,4.295,6.054,1920.7,2881.2,1362.7,3228.6,2032.0
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8008,1.0,3095.3,4643.3,2.555,4.295,6.054,720.6,1081.0,511.3,1211.3,748.8
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8008,2.0,1990.7,2986.3,2.555,4.295,6.054,463.5,695.2,328.8,779.1,473.8
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8857,0.3,5254.1,7881.7,2.555,4.295,6.054,1223.2,1834.9,867.8,2056.1,1215.7
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8857,1.0,2196.5,3295.0,2.555,4.295,6.054,511.4,767.1,362.8,859.6,503.9
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_entrants,8857,2.0,1541.3,2312.2,2.555,4.295,6.054,358.8,538.3,254.6,603.2,351.3
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8857,0.3,7544.2,11317.0,2.555,4.295,6.054,1756.3,2634.7,1246.1,2952.3,1856.3
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8857,1.0,2883.6,4325.6,2.555,4.295,6.054,671.3,1007.0,476.3,1128.4,696.0
+90.0,+1h des 3 matieres [T2_cycle_complet],prime_tout_corps,8857,2.0,1884.9,2827.5,2.555,4.295,6.054,438.8,658.3,311.3,737.6,447.4
+100.0,+1h maths [T1_niveau_teste_seul],sans_prime,,,73.8,110.8,0.946,1.591,2.242,46.4,69.6,32.9,78.0,44.7
+100.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8008,0.3,330.9,496.3,0.946,1.591,2.242,208.0,312.0,147.6,349.6,206.3
+100.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8008,1.0,151.0,226.4,0.946,1.591,2.242,94.9,142.3,67.3,159.5,93.2
+100.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8008,2.0,112.4,168.6,0.946,1.591,2.242,70.7,106.0,50.1,118.8,69.0
+100.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,125.4,188.2,0.946,1.591,2.242,78.8,118.3,55.9,132.5,79.4
+100.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,89.3,134.0,0.946,1.591,2.242,56.1,84.2,39.8,94.4,55.1
+100.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,81.6,122.4,0.946,1.591,2.242,51.3,76.9,36.4,86.2,49.9
+100.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8857,0.3,329.8,494.8,0.946,1.591,2.242,207.3,311.0,147.1,348.5,205.6
+100.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8857,1.0,150.6,226.0,0.946,1.591,2.242,94.7,142.0,67.2,159.2,93.0
+100.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8857,2.0,112.2,168.4,0.946,1.591,2.242,70.6,105.8,50.1,118.6,68.9
+100.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,120.5,180.7,0.946,1.591,2.242,75.7,113.6,53.7,127.3,76.1
+100.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,87.8,131.8,0.946,1.591,2.242,55.2,82.8,39.2,92.8,54.1
+100.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,80.8,121.3,0.946,1.591,2.242,50.8,76.2,36.1,85.4,49.4
+90.0,+1h maths [T1_niveau_teste_seul],sans_prime,,,73.8,110.8,0.852,1.432,2.018,51.6,77.4,36.6,86.7,49.7
+90.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8008,0.3,330.9,496.3,0.852,1.432,2.018,231.1,346.6,163.9,388.4,229.2
+90.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8008,1.0,151.0,226.4,0.852,1.432,2.018,105.4,158.2,74.8,177.2,103.6
+90.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8008,2.0,112.4,168.6,0.852,1.432,2.018,78.5,117.8,55.7,132.0,76.6
+90.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,125.4,188.2,0.852,1.432,2.018,87.6,131.4,62.2,147.3,88.2
+90.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,89.3,134.0,0.852,1.432,2.018,62.4,93.6,44.3,104.9,61.3
+90.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,81.6,122.4,0.852,1.432,2.018,57.0,85.5,40.4,95.8,55.5
+90.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8857,0.3,329.8,494.8,0.852,1.432,2.018,230.4,345.6,163.4,387.2,228.5
+90.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8857,1.0,150.6,226.0,0.852,1.432,2.018,105.2,157.8,74.6,176.9,103.3
+90.0,+1h maths [T1_niveau_teste_seul],prime_entrants,8857,2.0,112.2,168.4,0.852,1.432,2.018,78.4,117.6,55.6,131.8,76.5
+90.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,120.5,180.7,0.852,1.432,2.018,84.2,126.2,59.7,141.5,84.5
+90.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,87.8,131.8,0.852,1.432,2.018,61.3,92.0,43.5,103.1,60.2
+90.0,+1h maths [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,80.8,121.3,0.852,1.432,2.018,56.5,84.7,40.1,94.9,54.9
+100.0,+1h francais [T1_niveau_teste_seul],sans_prime,,,73.8,110.8,0.946,1.591,2.242,46.4,69.6,32.9,78.0,44.7
+100.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8008,0.3,330.9,496.3,0.946,1.591,2.242,208.0,312.0,147.6,349.6,206.3
+100.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8008,1.0,151.0,226.4,0.946,1.591,2.242,94.9,142.3,67.3,159.5,93.2
+100.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8008,2.0,112.4,168.6,0.946,1.591,2.242,70.7,106.0,50.1,118.8,69.0
+100.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,132.2,198.4,0.946,1.591,2.242,83.1,124.7,59.0,139.7,84.0
+100.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,91.4,137.0,0.946,1.591,2.242,57.4,86.1,40.7,96.5,56.5
+100.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,82.6,123.9,0.946,1.591,2.242,51.9,77.9,36.8,87.3,50.6
+100.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8857,0.3,329.8,494.8,0.946,1.591,2.242,207.3,311.0,147.1,348.5,205.6
+100.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8857,1.0,150.6,226.0,0.946,1.591,2.242,94.7,142.0,67.2,159.2,93.0
+100.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8857,2.0,112.2,168.4,0.946,1.591,2.242,70.6,105.8,50.1,118.6,68.9
+100.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,126.6,190.0,0.946,1.591,2.242,79.6,119.4,56.5,133.8,80.2
+100.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,89.7,134.5,0.946,1.591,2.242,56.4,84.6,40.0,94.8,55.4
+100.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,81.8,122.7,0.946,1.591,2.242,51.4,77.1,36.5,86.4,50.1
+90.0,+1h francais [T1_niveau_teste_seul],sans_prime,,,73.8,110.8,0.852,1.432,2.018,51.6,77.4,36.6,86.7,49.7
+90.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8008,0.3,330.9,496.3,0.852,1.432,2.018,231.1,346.6,163.9,388.4,229.2
+90.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8008,1.0,151.0,226.4,0.852,1.432,2.018,105.4,158.2,74.8,177.2,103.6
+90.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8008,2.0,112.4,168.6,0.852,1.432,2.018,78.5,117.8,55.7,132.0,76.6
+90.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,132.2,198.4,0.852,1.432,2.018,92.3,138.5,65.5,155.2,93.3
+90.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,91.4,137.0,0.852,1.432,2.018,63.8,95.7,45.3,107.3,62.8
+90.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,82.6,123.9,0.852,1.432,2.018,57.7,86.5,40.9,97.0,56.2
+90.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8857,0.3,329.8,494.8,0.852,1.432,2.018,230.4,345.6,163.4,387.2,228.5
+90.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8857,1.0,150.6,226.0,0.852,1.432,2.018,105.2,157.8,74.6,176.9,103.3
+90.0,+1h francais [T1_niveau_teste_seul],prime_entrants,8857,2.0,112.2,168.4,0.852,1.432,2.018,78.4,117.6,55.6,131.8,76.5
+90.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,126.6,190.0,0.852,1.432,2.018,88.4,132.7,62.7,148.7,89.1
+90.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,89.7,134.5,0.852,1.432,2.018,62.6,94.0,44.4,105.3,61.5
+90.0,+1h francais [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,81.8,122.7,0.852,1.432,2.018,57.1,85.7,40.5,96.0,55.6
+100.0,+1h sciences [T1_niveau_teste_seul],sans_prime,,,73.8,110.8,0.946,1.591,2.242,46.4,69.6,32.9,78.0,44.7
+100.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8008,0.3,330.9,496.3,0.946,1.591,2.242,208.0,312.0,147.6,349.6,206.3
+100.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8008,1.0,151.0,226.4,0.946,1.591,2.242,94.9,142.3,67.3,159.5,93.2
+100.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8008,2.0,112.4,168.6,0.946,1.591,2.242,70.7,106.0,50.1,118.8,69.0
+100.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,117.3,175.9,0.946,1.591,2.242,73.7,110.6,52.3,123.9,73.9
+100.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,86.9,130.3,0.946,1.591,2.242,54.6,81.9,38.7,91.8,53.5
+100.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,80.4,120.6,0.946,1.591,2.242,50.5,75.8,35.8,84.9,49.1
+100.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8857,0.3,329.8,494.8,0.946,1.591,2.242,207.3,311.0,147.1,348.5,205.6
+100.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8857,1.0,150.6,226.0,0.946,1.591,2.242,94.7,142.0,67.2,159.2,93.0
+100.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8857,2.0,112.2,168.4,0.946,1.591,2.242,70.6,105.8,50.1,118.6,68.9
+100.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,113.1,169.7,0.946,1.591,2.242,71.1,106.7,50.4,119.5,71.1
+100.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,85.6,128.5,0.946,1.591,2.242,53.8,80.7,38.2,90.5,52.7
+100.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,79.7,119.6,0.946,1.591,2.242,50.1,75.2,35.6,84.3,48.7
+90.0,+1h sciences [T1_niveau_teste_seul],sans_prime,,,73.8,110.8,0.852,1.432,2.018,51.6,77.4,36.6,86.7,49.7
+90.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8008,0.3,330.9,496.3,0.852,1.432,2.018,231.1,346.6,163.9,388.4,229.2
+90.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8008,1.0,151.0,226.4,0.852,1.432,2.018,105.4,158.2,74.8,177.2,103.6
+90.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8008,2.0,112.4,168.6,0.852,1.432,2.018,78.5,117.8,55.7,132.0,76.6
+90.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,117.3,175.9,0.852,1.432,2.018,81.9,122.9,58.1,137.7,82.1
+90.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,86.9,130.3,0.852,1.432,2.018,60.7,91.0,43.0,102.0,59.4
+90.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,80.4,120.6,0.852,1.432,2.018,56.1,84.2,39.8,94.3,54.6
+90.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8857,0.3,329.8,494.8,0.852,1.432,2.018,230.4,345.6,163.4,387.2,228.5
+90.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8857,1.0,150.6,226.0,0.852,1.432,2.018,105.2,157.8,74.6,176.9,103.3
+90.0,+1h sciences [T1_niveau_teste_seul],prime_entrants,8857,2.0,112.2,168.4,0.852,1.432,2.018,78.4,117.6,55.6,131.8,76.5
+90.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,113.1,169.7,0.852,1.432,2.018,79.0,118.5,56.1,132.8,79.0
+90.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,85.6,128.5,0.852,1.432,2.018,59.8,89.7,42.4,100.5,58.5
+90.0,+1h sciences [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,79.7,119.6,0.852,1.432,2.018,55.7,83.5,39.5,93.6,54.1
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],sans_prime,,,221.5,332.3,2.839,4.773,6.727,46.4,69.6,32.9,78.0,44.7
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8008,0.3,1057.7,1586.7,2.839,4.773,6.727,221.6,332.5,157.2,372.5,219.9
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8008,1.0,472.4,708.6,2.839,4.773,6.727,99.0,148.5,70.2,166.4,97.3
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8008,2.0,347.0,520.5,2.839,4.773,6.727,72.7,109.1,51.6,122.2,71.0
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,681.8,1022.7,2.839,4.773,6.727,142.9,214.3,101.3,240.1,147.8
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,359.6,539.5,2.839,4.773,6.727,75.3,113.0,53.5,126.7,75.7
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,290.6,435.9,2.839,4.773,6.727,60.9,91.3,43.2,102.3,60.2
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8857,0.3,1048.4,1572.7,2.839,4.773,6.727,219.7,329.5,155.8,369.2,218.0
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8857,1.0,469.6,704.4,2.839,4.773,6.727,98.4,147.6,69.8,165.4,96.7
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8857,2.0,345.6,518.4,2.839,4.773,6.727,72.4,108.6,51.4,121.7,70.7
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,637.7,956.6,2.839,4.773,6.727,133.6,200.4,94.8,224.6,138.0
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,346.4,519.6,2.839,4.773,6.727,72.6,108.9,51.5,122.0,72.7
+100.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,284.0,426.0,2.839,4.773,6.727,59.5,89.3,42.2,100.0,58.7
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],sans_prime,,,221.5,332.3,2.555,4.295,6.054,51.6,77.4,36.6,86.7,49.7
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8008,0.3,1057.7,1586.7,2.555,4.295,6.054,246.3,369.4,174.7,413.9,244.4
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8008,1.0,472.4,708.6,2.555,4.295,6.054,110.0,165.0,78.0,184.9,108.1
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8008,2.0,347.0,520.5,2.555,4.295,6.054,80.8,121.2,57.3,135.8,78.9
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8008,0.3,681.8,1022.7,2.555,4.295,6.054,158.7,238.1,112.6,266.8,164.3
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8008,1.0,359.6,539.5,2.555,4.295,6.054,83.7,125.6,59.4,140.7,84.1
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8008,2.0,290.6,435.9,2.555,4.295,6.054,67.6,101.5,48.0,113.7,66.9
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8857,0.3,1048.4,1572.7,2.555,4.295,6.054,244.1,366.1,173.2,410.3,242.2
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8857,1.0,469.6,704.4,2.555,4.295,6.054,109.3,164.0,77.6,183.8,107.4
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_entrants,8857,2.0,345.6,518.4,2.555,4.295,6.054,80.5,120.7,57.1,135.2,78.6
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8857,0.3,637.7,956.6,2.555,4.295,6.054,148.5,222.7,105.3,249.5,153.3
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8857,1.0,346.4,519.6,2.555,4.295,6.054,80.6,121.0,57.2,135.6,80.8
+90.0,+1h des 3 matieres [T1_niveau_teste_seul],prime_tout_corps,8857,2.0,284.0,426.0,2.555,4.295,6.054,66.1,99.2,46.9,111.1,65.2
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],sans_prime,,,73.8,110.8,0.946,1.591,2.242,46.4,69.6,32.9,78.0,42.5
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8008,0.3,757.1,1135.7,0.946,1.591,2.242,475.9,713.9,337.6,800.0,472.0
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8008,1.0,278.8,418.3,0.946,1.591,2.242,175.3,262.9,124.3,294.6,171.4
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8008,2.0,176.3,264.5,0.946,1.591,2.242,110.8,166.3,78.6,186.3,106.9
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8008,0.3,589.8,884.7,0.946,1.591,2.242,370.7,556.1,263.0,623.1,389.3
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8008,1.0,228.6,343.0,0.946,1.591,2.242,143.7,215.6,102.0,241.6,146.5
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8008,2.0,151.2,226.9,0.946,1.591,2.242,95.1,142.6,67.4,159.8,94.5
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8857,0.3,750.6,1126.0,0.946,1.591,2.242,471.8,707.8,334.7,793.1,467.9
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8857,1.0,276.9,415.3,0.946,1.591,2.242,174.0,261.1,123.5,292.5,170.1
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8857,2.0,175.4,263.1,0.946,1.591,2.242,110.2,165.4,78.2,185.3,106.3
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8857,0.3,540.3,810.5,0.946,1.591,2.242,339.6,509.5,241.0,570.9,356.0
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8857,1.0,213.8,320.7,0.946,1.591,2.242,134.4,201.6,95.3,225.9,136.6
+100.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8857,2.0,143.8,215.7,0.946,1.591,2.242,90.4,135.6,64.1,152.0,89.5
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],sans_prime,,,73.8,110.8,0.852,1.432,2.018,51.6,77.4,36.6,86.7,47.2
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8008,0.3,757.1,1135.7,0.852,1.432,2.018,528.8,793.2,375.2,888.9,524.4
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8008,1.0,278.8,418.3,0.852,1.432,2.018,194.7,292.1,138.2,327.3,190.4
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8008,2.0,176.3,264.5,0.852,1.432,2.018,123.2,184.7,87.4,207.0,118.8
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8008,0.3,589.8,884.7,0.852,1.432,2.018,411.9,617.9,292.2,692.4,432.5
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8008,1.0,228.6,343.0,0.852,1.432,2.018,159.7,239.5,113.3,268.4,162.8
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8008,2.0,151.2,226.9,0.852,1.432,2.018,105.6,158.4,74.9,177.5,105.0
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8857,0.3,750.6,1126.0,0.852,1.432,2.018,524.2,786.4,371.9,881.2,519.9
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8857,1.0,276.9,415.3,0.852,1.432,2.018,193.4,290.1,137.2,325.1,189.0
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_entrants,8857,2.0,175.4,263.1,0.852,1.432,2.018,122.5,183.7,86.9,205.9,118.1
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8857,0.3,540.3,810.5,0.852,1.432,2.018,377.4,566.1,267.7,634.3,395.6
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8857,1.0,213.8,320.7,0.852,1.432,2.018,149.3,224.0,105.9,251.0,151.7
+90.0,realloc LV2->maths f=0.0 [T2_cycle_complet],prime_tout_corps,8857,2.0,143.8,215.7,0.852,1.432,2.018,100.4,150.7,71.3,168.8,99.5
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],sans_prime,,,73.8,110.8,0.237,0.398,0.561,185.7,278.5,131.7,312.1,170.1
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8008,0.3,757.1,1135.7,0.237,0.398,0.561,1903.6,2855.6,1350.6,3199.9,1888.0
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8008,1.0,278.8,418.3,0.237,0.398,0.561,701.1,1051.7,497.4,1178.4,685.4
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8008,2.0,176.3,264.5,0.237,0.398,0.561,443.4,665.1,314.6,745.3,427.8
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8008,0.3,589.8,884.7,0.237,0.398,0.561,1482.8,2224.4,1052.0,2492.6,1557.1
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8008,1.0,228.6,343.0,0.237,0.398,0.561,574.8,862.3,407.8,966.2,586.2
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8008,2.0,151.2,226.9,0.237,0.398,0.561,380.2,570.4,269.8,639.2,378.1
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8857,0.3,750.6,1126.0,0.237,0.398,0.561,1887.3,2831.1,1339.0,3172.4,1871.7
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8857,1.0,276.9,415.3,0.237,0.398,0.561,696.2,1044.3,493.9,1170.2,680.5
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8857,2.0,175.4,263.1,0.237,0.398,0.561,440.9,661.4,312.8,741.1,425.3
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8857,0.3,540.3,810.5,0.237,0.398,0.561,1358.5,2037.9,963.8,2283.6,1424.2
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8857,1.0,213.8,320.7,0.237,0.398,0.561,537.5,806.3,381.4,903.5,546.3
+100.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8857,2.0,143.8,215.7,0.237,0.398,0.561,361.6,542.4,256.5,607.8,358.2
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],sans_prime,,,73.8,110.8,0.213,0.358,0.505,206.3,309.5,146.4,346.8,189.0
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8008,0.3,757.1,1135.7,0.213,0.358,0.505,2115.1,3172.9,1500.6,3555.4,2097.8
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8008,1.0,278.8,418.3,0.213,0.358,0.505,779.0,1168.5,552.6,1309.4,761.6
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8008,2.0,176.3,264.5,0.213,0.358,0.505,492.6,739.0,349.5,828.1,475.3
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8008,0.3,589.8,884.7,0.213,0.358,0.505,1647.6,2471.6,1168.9,2769.5,1730.1
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8008,1.0,228.6,343.0,0.213,0.358,0.505,638.7,958.1,453.1,1073.6,651.3
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8008,2.0,151.2,226.9,0.213,0.358,0.505,422.5,633.8,299.7,710.2,420.1
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8857,0.3,750.6,1126.0,0.213,0.358,0.505,2097.0,3145.7,1487.7,3524.9,2079.6
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8857,1.0,276.9,415.3,0.213,0.358,0.505,773.5,1160.3,548.8,1300.2,756.2
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_entrants,8857,2.0,175.4,263.1,0.213,0.358,0.505,489.9,734.9,347.6,823.5,472.6
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8857,0.3,540.3,810.5,0.213,0.358,0.505,1509.4,2264.3,1070.9,2537.3,1582.4
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8857,1.0,213.8,320.7,0.213,0.358,0.505,597.2,895.9,423.7,1003.9,607.0
+90.0,realloc LV2->maths f=0.25 [T2_cycle_complet],prime_tout_corps,8857,2.0,143.8,215.7,0.213,0.358,0.505,401.8,602.7,285.0,675.4,398.0
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],sans_prime,,,73.8,110.8,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8008,0.3,757.1,1135.7,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8008,1.0,278.8,418.3,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8008,2.0,176.3,264.5,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8008,0.3,589.8,884.7,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8008,1.0,228.6,343.0,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8008,2.0,151.2,226.9,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8857,0.3,750.6,1126.0,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8857,1.0,276.9,415.3,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8857,2.0,175.4,263.1,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8857,0.3,540.3,810.5,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8857,1.0,213.8,320.7,-1.121,-0.795,-0.473,,,,,
+100.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8857,2.0,143.8,215.7,-1.121,-0.795,-0.473,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],sans_prime,,,73.8,110.8,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8008,0.3,757.1,1135.7,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8008,1.0,278.8,418.3,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8008,2.0,176.3,264.5,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8008,0.3,589.8,884.7,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8008,1.0,228.6,343.0,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8008,2.0,151.2,226.9,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8857,0.3,750.6,1126.0,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8857,1.0,276.9,415.3,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_entrants,8857,2.0,175.4,263.1,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8857,0.3,540.3,810.5,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8857,1.0,213.8,320.7,-1.009,-0.716,-0.426,,,,,
+90.0,realloc LV2->maths f=0.5 [T2_cycle_complet],prime_tout_corps,8857,2.0,143.8,215.7,-1.009,-0.716,-0.426,,,,,

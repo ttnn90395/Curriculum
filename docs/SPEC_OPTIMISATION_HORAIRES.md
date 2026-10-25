@@ -569,3 +569,9 @@ du State Examinations Commission refuse l'acces par script (erreur 403). Danemar
 Suede : les interfaces ouvertes des offices statistiques ne contiennent pas de resultat d'examen
 national sur 10 ans (series de diplomes ou d'achevement de la population ou series trop courtes, qui
 ne sont pas E1 au sens de l'Amendement 17).
+
+Erratum a la Precision 22 (2026-10-25, ecrit apres la premiere execution de l'analyse A) : la phrase
+excluant l'Espagne de la lecture "atypique" ne vaut que pour la fenetre W1 (departs differents).
+Pour W2, tous les pays partent de 2019 et l'Espagne entre dans la lecture selon la regle de la
+Precision 21, ce que fait le script. Verification : sans l'Espagne, la plage W2 reste
+[-2,41 ; -0,40] (variation espagnole : -2,22) et la lecture ne change pas.

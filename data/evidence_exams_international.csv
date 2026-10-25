@@ -118,22 +118,6 @@ NL,2024,E1,90.8105,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CB
 NL,2024,E3,36890,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
 NL,2025,E1,88.2852,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
 NL,2025,E3,35340,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
-PL,2016,E1,84.7142,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2016,E3,259398,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2017,E1,84.4586,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2017,E3,259037,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2018,E1,86.2616,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2018,E3,248762,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2019,E1,87.4721,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2019,E3,248054,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
-PL,2020,E1,81.7764,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,conditions sanitaires
-PL,2020,E3,260262,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,conditions sanitaires
-PL,2023,E1,89.3288,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
-PL,2023,E3,254610,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
-PL,2024,E1,89.2893,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
-PL,2024,E3,247127,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
-PL,2025,E1,86.0928,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
-PL,2025,E3,256716,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
 FR,2010,E1,85.6,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
 FR,2010,E3,621224,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
 FR,2011,E1,85.7,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
@@ -171,3 +155,43 @@ FR,2022,E2,9.8427,"mention tres bien (avec ou sans felicitations) / admis, toute
 FR,2023,E2,9.9238,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,
 FR,2024,E2,9.6213,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,
 FR,2025,E2,9.5881,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,
+PL,2016,E1,84.7142,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2016,E3,259398,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2017,E1,84.4586,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2017,E3,259037,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2018,E1,86.2616,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2018,E3,248762,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2019,E1,87.4721,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2019,E3,248054,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2020,E1,81.7764,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,conditions sanitaires
+PL,2020,E3,260262,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,conditions sanitaires
+PL,2022,E1,84.992,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2022,E3,269490,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,
+PL,2023,E1,89.3288,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+PL,2023,E3,254610,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+PL,2024,E1,89.2893,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+PL,2024,E3,247127,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+PL,2025,E1,86.0928,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+PL,2025,E3,256716,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+ES,2015,E1,90.5282,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2015,E3,246342,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2016,E1,91.1992,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2016,E3,254568,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2017,E1,89.7641,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2017,E3,243281,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2018,E1,90.495,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2018,E3,257191,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2019,E1,90.4483,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2019,E3,261608,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2020,E1,91.2041,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",conditions sanitaires
+ES,2020,E3,289557,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",conditions sanitaires
+ES,2021,E1,92.7476,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2021,E3,289489,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2022,E1,92.1983,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2022,E3,288618,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2023,E1,92.1554,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2023,E3,299351,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2024,E1,91.7441,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2024,E3,312771,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2025,E1,88.2289,"PAU generica, convocatoria Total : Aprobados / Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",
+ES,2025,E3,314746,"PAU generica, convocatoria Total : Presentados","Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU",

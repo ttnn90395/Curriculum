@@ -19,7 +19,7 @@ def lire(p):
     L = lignes(p)
     i = next(k for k, x in enumerate(L) if x.startswith("Tabela 1"))
     t = next(k for k in range(i, len(L)) if NB.match(L[k]))
-    z = next(k for k in range(t, len(L)) if re.match(r"^os.{1,4}, kt.{1,4}re zda", L[k]))
+    z = next(k for k in range(t, len(L) - 1) if re.match(r"^os.{1,4}, kt.{1,4}re zda", L[k] + " " + L[k + 1]))
     r = next(k for k in range(z, len(L)) if NB.match(L[k]))
     pct = L[r + 1] if r + 1 < len(L) else ""
     return int(L[t].replace(" ", "")), int(L[r].replace(" ", "")), pct

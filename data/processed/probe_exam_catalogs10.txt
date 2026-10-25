@@ -1,0 +1,86 @@
+== PL 2021 : 629 lignes
+  -- ligne 234
+  Liczba zdających
+  poziom
+  podstawowy
+  poziom
+  rozszerzony
+  Historia muzyki
+  –
+  367
+  Język łaciński i kultura antyczna
+  –
+  176
+  Język białoruski
+  156
+  21
+  Język litewski
+  23
+  19
+  Język ukraiński
+  63
+  22
+  Język kaszubski
+  –
+  16
+  Wybory przedmiotów dodatkowych były podyktowane najczęściej wymaganiami rekrutacyjnymi
+  wyższych uczelni.
+  4. Informacja o wynikach egzaminu maturalnego w maju 2021 roku
+  4.1. Zdawalność egzaminu maturalnego
+  Spośród absolwentów z 2021 r., którzy w terminie głównym (w maju) przystąpili do wszystkich
+  egzaminów obowiązkowych, świadectwo dojrzałości uzyskało 74,5% zdających (por. Tabele 2. i 3.).
+  Zdawalność egzaminu w kraju (maj 2021 r.)
+  Liczba zdających, którzy przystąpili do wszystkich
+  egzaminów obowiązkowych
+  273 419
+  100%
+== ES : 1486 lignes, entete ['\ufeffProcedimiento de acceso', 'Convocatoria', 'Sexo', 'Indicador', 'Periodo', 'Total']
+  ﻿Procedimiento de acceso : ['PAU genérica', 'PAU para mayores de 25 años', 'PAU para mayores de 40 años con experiencia laboral', 'PAU para mayores de 45 años', 'Total']
+  Convocatoria : ['Extraordinaria', 'Ordinaria', 'Total']
+  Sexo : ['Ambos sexos', 'Hombres', 'Mujeres']
+  Indicador : ['Aprobados', 'Matriculados', 'Presentados']
+  PAU genérica|Extraordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU genérica|Extraordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU genérica|Extraordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU genérica|Ordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU genérica|Ordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU genérica|Ordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU genérica|Total|Aprobados : 2015-2025 (11 periodes)
+  PAU genérica|Total|Matriculados : 2015-2025 (11 periodes)
+  PAU genérica|Total|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Extraordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Extraordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Extraordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Ordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Ordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Ordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Total|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Total|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 25 años|Total|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Extraordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Extraordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Extraordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Ordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Ordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Ordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Total|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Total|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 40 años con experiencia laboral|Total|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Extraordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Extraordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Extraordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Ordinaria|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Ordinaria|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Ordinaria|Presentados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Total|Aprobados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Total|Matriculados : 2015-2025 (11 periodes)
+  PAU para mayores de 45 años|Total|Presentados : 2015-2025 (11 periodes)
+  Total|Extraordinaria|Aprobados : 2015-2025 (11 periodes)
+  Total|Extraordinaria|Matriculados : 2015-2025 (11 periodes)
+  Total|Extraordinaria|Presentados : 2015-2025 (11 periodes)
+  Total|Ordinaria|Aprobados : 2015-2025 (11 periodes)
+  Total|Ordinaria|Matriculados : 2015-2025 (11 periodes)
+  Total|Ordinaria|Presentados : 2015-2025 (11 periodes)
+  Total|Total|Aprobados : 2015-2025 (11 periodes)
+  Total|Total|Matriculados : 2015-2025 (11 periodes)
+  Total|Total|Presentados : 2015-2025 (11 periodes)

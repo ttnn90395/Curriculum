@@ -5,7 +5,7 @@ V = {}
 for r in csv.DictReader(open("data/evidence_exams_international.csv", encoding="utf-8")):
     V[(r["pays"], r["indicateur"], int(r["annee"]))] = float(r["valeur"])
 pays = sorted({k[0] for k in V})
-START = {"PL": 2016}
+START = {"PL": 2016, "ES": 2015}
 def derniere(p, ind):
     ys = [k[2] for k in V if k[0] == p and k[1] == ind]
     return max(ys) if ys else None
@@ -17,7 +17,7 @@ for ind in ("E1", "E2"):
         if not ys:
             out.append("  %s : non realise" % p)
             continue
-        sel = [y for y in (2010, 2012, 2016, 2018, 2019, 2020, 2021) if y in ys] + [ys[-1]]
+        sel = [y for y in (2010, 2012, 2015, 2016, 2018, 2019, 2020, 2021) if y in ys] + [ys[-1]]
         out.append("  %s : %s" % (p, " ; ".join("%d : %.2f" % (y, V[(p, ind, y)]) for y in sorted(set(sel)))))
 D = []
 for ind in ("E1", "E2"):

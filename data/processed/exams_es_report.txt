@@ -1,0 +1,11 @@
+ES 2015 presentes=246342 aprobados=223009 E1=90.528
+ES 2016 presentes=254568 aprobados=232164 E1=91.199
+ES 2017 presentes=243281 aprobados=218379 E1=89.764
+ES 2018 presentes=257191 aprobados=232745 E1=90.495
+ES 2019 presentes=261608 aprobados=236620 E1=90.448
+ES 2020 presentes=289557 aprobados=264088 E1=91.204
+ES 2021 presentes=289489 aprobados=268494 E1=92.748
+ES 2022 presentes=288618 aprobados=266101 E1=92.198
+ES 2023 presentes=299351 aprobados=275868 E1=92.155
+ES 2024 presentes=312771 aprobados=286949 E1=91.744
+ES 2025 presentes=314746 aprobados=277697 E1=88.229

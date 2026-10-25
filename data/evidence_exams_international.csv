@@ -134,3 +134,40 @@ PL,2024,E1,89.2893,"reussite / passage de tous les examens obligatoires, Tabela 
 PL,2024,E3,247127,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
 PL,2025,E1,86.0928,"reussite / passage de tous les examens obligatoires, Tabela 1, Wszyscy zdajacy (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
 PL,2025,E3,256716,"passage de tous les examens obligatoires, Tabela 1 (CKE)",CKE Informacja o wynikach egzaminu maturalnego,tegoroczni absolwenci elargi aux absolvants anterieurs
+FR,2010,E1,85.6,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2010,E3,621224,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2011,E1,85.7,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2011,E3,664359,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2012,E1,84.5,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2012,E3,721724,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2013,E1,86.9,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2013,E3,678262,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2014,E1,88.0,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2014,E3,710966,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2015,E1,87.9,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2015,E3,704032,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2016,E1,88.6,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2016,E3,715008,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2017,E1,87.9,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2017,E3,732391,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2018,E1,88.2,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2018,E3,767899,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2019,E1,88.0,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2019,E3,759481,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2020,E1,95.0,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,controle continu integral (conditions sanitaires)
+FR,2020,E3,761022,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,controle continu integral (conditions sanitaires)
+FR,2021,E1,93.7,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,"reforme du bac, controle continu a 40 %"
+FR,2021,E3,735348,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,"reforme du bac, controle continu a 40 %"
+FR,2022,E1,91.0,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2022,E3,732791,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2023,E1,90.7,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2023,E3,744147,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2024,E1,91.2,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2024,E3,753237,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2025,E1,91.6,"taux_ensemble : admis / presents, toutes voies (age = Ensemble)",DEPP data.education.gouv.fr,
+FR,2025,E3,744543,presents derives : admis_ensemble / taux_ensemble,DEPP data.education.gouv.fr,
+FR,2021,E2,9.3192,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,"reforme du bac, controle continu a 40 %"
+FR,2022,E2,9.8427,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,
+FR,2023,E2,9.9238,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,
+FR,2024,E2,9.6213,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,
+FR,2025,E2,9.5881,"mention tres bien (avec ou sans felicitations) / admis, toutes voies",DEPP data.education.gouv.fr,

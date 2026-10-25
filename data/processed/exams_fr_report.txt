@@ -1,0 +1,22 @@
+FR 2010 E1=85.60 admis=531768 presents derives=621224
+FR 2011 E1=85.70 admis=569356 presents derives=664359
+FR 2012 E1=84.50 admis=609857 presents derives=721724
+FR 2013 E1=86.90 admis=589410 presents derives=678262
+FR 2014 E1=88.00 admis=625650 presents derives=710966
+FR 2015 E1=87.90 admis=618844 presents derives=704032
+FR 2016 E1=88.60 admis=633497 presents derives=715008
+FR 2017 E1=87.90 admis=643772 presents derives=732391
+FR 2018 E1=88.20 admis=677287 presents derives=767899
+FR 2019 E1=88.00 admis=668343 presents derives=759481
+FR 2020 E1=95.00 admis=722971 presents derives=761022
+FR 2021 E1=93.70 admis=689021 presents derives=735348
+FR 2022 E1=91.00 admis=666840 presents derives=732791
+FR 2023 E1=90.70 admis=674941 presents derives=744147
+FR 2024 E1=91.20 admis=686952 presents derives=753237
+FR 2025 E1=91.60 admis=682001 presents derives=744543
+voies presentes dans le fichier des mentions : ['BAC GENERAL', 'BAC PROFESSIONNEL', 'BAC TECHNOLOGIQUE']
+FR 2021 E2 (TB / admis) = 9.319  admis=689021 tb=64211
+FR 2022 E2 (TB / admis) = 9.843  admis=666840 tb=65635
+FR 2023 E2 (TB / admis) = 9.924  admis=674941 tb=66980
+FR 2024 E2 (TB / admis) = 9.621  admis=686952 tb=66094
+FR 2025 E2 (TB / admis) = 9.588  admis=682001 tb=65391

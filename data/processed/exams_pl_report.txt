@@ -1,0 +1,10 @@
+PL 2016 total=259398 reussis=219747 E1=84.714 (source : 85%)
+PL 2017 total=259037 reussis=218779 E1=84.459 (source : 84,5%)
+PL 2018 total=248762 reussis=214586 E1=86.262 (source : 86 %)
+PL 2019 total=248054 reussis=216978 E1=87.472 (source : 87,5%)
+PL 2020 total=260262 reussis=212833 E1=81.776 (source : 81,8%)
+PL 2021 ERREUR 
+PL 2022 ERREUR 
+PL 2023 total=254610 reussis=227440 E1=89.329 (source : 89,3%)
+PL 2024 total=247127 reussis=220658 E1=89.289 (source : 89,3%)
+PL 2025 total=256716 reussis=221014 E1=86.093 (source : 86,1%)

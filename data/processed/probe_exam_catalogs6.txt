@@ -1,0 +1,29 @@
+IT 0506 HTTP 404
+IT 0607 HTTP 404
+IT 0708 HTTP 404
+IT 0809 HTTP 404
+IT 0910 HTTP 404
+IT 1011 OK 289442 octets ; lignes Italia : ['Italia | 94,4 | 94,1 | La fase di ammissione agli esami di Stato rappresenta evidentemente nel nostro sistema ', 'Italia | 98,3 | 98,1 | Ministero dell’Istruzione, dell’Università e della Ricerca | Direzione Generale  per gl']
+IT 1112 HTTP 404
+IT 1213 HTTP 404
+IT 1314 HTTP 404
+IT 1415 HTTP 404
+IT 1516 HTTP 404
+IT 1617 HTTP 404
+IT 1718 HTTP 404
+IT 1819 HTTP 404
+IT 1920 HTTP 404
+IT 2021 HTTP 404
+IT 2122 HTTP 404
+== ES px_pau_matric_sexo_tot
+  titre : Matriculados, presentados y aprobados en las PAU por procedimiento de acceso, convocatoria y sexo
+  mots : ['Aprobados', 'Matriculados', 'Presentados']
+  https://estadisticas.ciencia.gob.es/jaxiPx/dlgExport.htm?path=/Universitaria/PAU/PAU/l0/&file=px_pau_matric_sexo_tot.px
+== ES px_pau_gen_matric_sexo_tot
+  titre : PAU Genéricas. Matriculados, presentados y aprobados por tipo de matrícula, estudio de acceso, convocatoria y sexo
+  mots : ['Aprobados', 'Matriculados', 'Presentados']
+  https://estadisticas.ciencia.gob.es/jaxiPx/dlgExport.htm?path=/Universitaria/PAU/PAU/l0/&file=px_pau_gen_matric_sexo_tot.px
+== ES px_pau_nota_acceso_sexo_tot
+  titre : Nota de Acceso al grado de los titulados de Bachiller por tipo de matrícula, convocatoria y sexo
+  mots : []
+  https://estadisticas.ciencia.gob.es/jaxiPx/dlgExport.htm?path=/Universitaria/PAU/PAU/l0/&file=px_pau_nota_acceso_sexo_tot.px

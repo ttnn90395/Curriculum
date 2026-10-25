@@ -542,3 +542,30 @@ France. Sources : data/evidence_bac_reussite_ensemble.csv (DEPP, jeu fr-en-reuss
 Analyse A. Pour chaque pays et chaque indicateur E1 et E2 : variations v(2019) - v(2010) et v(derniere session) - v(2019), en points de pourcentage, calculees a partir de data/evidence_exams_international.csv. La fenetre de depart est 2010, sauf pour la Pologne (2016, Precision 19). Si une valeur manque, la variation est declaree non calculee. La derniere session est celle de chaque pays dans le fichier (Allemagne 2024, Angleterre 2023, Pays-Bas 2025, Pologne 2025, France 2025), sans fenetre commune de substitution. Lecture : la France est dite "atypique" sur un indicateur et une fenetre si sa variation est hors de l'etendue (du minimum au maximum) des variations des autres pays ayant la meme fenetre de depart, a condition qu'au moins trois autres pays aient cette variation ; sinon "non evaluable". Les valeurs de l'Angleterre anterieures a 2017 sont arrondies a l'entier (resolution de un point) ; cela est rapporte sans correction.
 
 Analyse B. n = nombre de pays ayant a la fois E2 en 2012 et en 2018 et les moyennes PISA 2012 et 2018. Elle n'est pas calculee si n est inferieur a 6 ; dans ce cas le rapport donne n et la liste des pays, et rien d'autre.
+
+## Precision 22 (2026-10-25) : Espagne, Pologne 2021-2022 et pays non realises (pre-enregistree avant l'extraction)
+
+Espagne. Source : Ministerio de Ciencia, Innovacion y Universidades, Estadistica de la PAU,
+table px_pau_matric_sexo_tot (export CSV, estadisticas.ciencia.gob.es). Ligne retenue :
+procedimiento "PAU generica", convocatoria "Total" (ordinaire et extraordinaire), sexe "Ambos sexos".
+Les procedures pour adultes (plus de 25, 40 et 45 ans) sont exclues : seule la PAU generica est
+l'examen de fin de bachillerato. E1 = Aprobados / Presentados. E3 = Presentados. E2 n'est pas
+realise : la table ne publie pas de categorie de note. Serie disponible : 2015 a 2025 (11 sessions,
+soit 10 ans d'ecart), donc l'Espagne est rapportee sur les fenetres 2015-2019 et 2019-2025.
+Signalements sans correction : 2020 (conditions sanitaires), et le changement de nom de l'examen
+au fil de la serie (EBAU, EvAU, PAU). Comme sa fenetre de depart (2015) differe de celle de la France
+(2010), l'Espagne n'entre pas dans la lecture "atypique" de la France (regle de la Precision 21,
+meme fenetre de depart) ; ses variations sont rapportees descriptivement.
+
+Pologne 2021 et 2022. Pour 2022, la lecture de la Tabela 1 est corrigee (intitule "osob, ktore zdaly
+egzamin" coupe sur deux lignes du PDF) ; la definition de la Precision 19 est inchangee. Pour 2021, le
+seul taux publie dans le document general (74,5 % pour 273 419 candidats) concerne le seul terme
+principal de mai, et non l'ensemble des termes : ce n'est pas la meme definition, donc 2021 est declare
+absent (Precision 19). Aucune de ces deux annees n'est une borne des fenetres de l'analyse A.
+
+Pays non realises (aucun remplacement). Italie : seule la session 2010/11 est atteignable.
+Finlande : aucune serie de reussite ou de notes sur 10 ans dans les fichiers publies. Irlande : le site
+du State Examinations Commission refuse l'acces par script (erreur 403). Danemark, Norvege et
+Suede : les interfaces ouvertes des offices statistiques ne contiennent pas de resultat d'examen
+national sur 10 ans (series de diplomes ou d'achevement de la population ou series trop courtes, qui
+ne sont pas E1 au sens de l'Amendement 17).

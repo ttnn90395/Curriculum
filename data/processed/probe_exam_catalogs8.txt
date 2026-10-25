@@ -1,0 +1,74 @@
+== DK catalogue
+  14 tables sur 2310
+  SILC100 | Reason for unmet need for examination/treatment by doctor and dentist | 2021-2025
+  STATUSU1 | 18-25 year-olds, upper secondary school or vocational education | 2008-2025
+  LABY36A | 20 year-olds upper secondary school (share in per cent)) | 2008-2025
+  LABY36 | 18-25 year-olds upper secondary school | 2008-2025
+  UDDAKT30 | Educational activity in upper secondary school | 2005-2025
+  UDDAKT34 | Educational activity at upper secondary vocational educations | 2005-2025
+  EUD34 | Educational activity at upper secondary vocational educations | 2005-2025
+  UDDAKT35 | Educational activity at upper secondary vocational educations | 2005-2025
+  LABY48 | The average distance to upper secondary education. | 2008-2021
+  PHD2 | Graduate, doctorate students | 1996-2025
+  INST11 | General upper secondary school | 2005-2025
+  INST12 | Vocational upper secondary school | 2005-2025
+  FORLOB15 | From upper secondary education to further education | 2022-2025
+  SKOLM11 | Music school collaborations with upper secondary schools and youth schools | 2022:2023-2024:2025
+== NO catalogue
+  OK webapi/v2/tables?lang=en&pageSize=40&query=upper%20secondary : 40 entrees
+  14888 | 14888: Completion rates of pupils in upper secondary education by final qua | 2019-2025
+  14882 | 14882: Completion rates of pupils in upper secondary education, by degree o | 2019-2025
+  14864 | 14864: Completion rates of pupils in upper secondary education, by degree o | 2019-2025
+  13342 | 13342: Completion rates of pupils 22 years or younger in upper secondary ed | 2018-2024
+  11689 | 11689: Pupils, by sex, secondary school points  and parents' educational at | 2026
+  13335 | 13335: Pupils 22 years or younger, by sex, lower secondary school points, c | 2024
+  13349 | 13349: Status for pupils after completed lower secondary education. By numb | 2024
+  12609 | 12609: Key numbers for upper secondary education (C) 2015-2025 | 2025
+  14877 | 14877: Completion rates of pupils in upper secondary education, by degree o | 2019-2025
+  09377 | 09377: Pupils, apprentices and trainees in upper secondary education, by ed | 2025
+  11964 | 11964: Transitions to and from upper secondary education, by transition (C) | 2025
+  11900 | 11900: Man-years in upper secondary schools (C) 2015-2025 | 2025
+  05430 | 05430: Pupils in upper secondary education, by grade and area of study 2001 | 2024
+  11902 | 11902: Total expenditures upper secondary education in the county (C) 2015- | 2025
+  08947 | 08947: Pupils, apprentices, students and participants in upper secondary ed | 2025
+  14872 | 14872: Completion rates of pupils in upper secondary education, by degree o | 2019-2025
+  14879 | 14879: Completion rates of pupils in upper secondary education, by final qu | 2019-2025
+  12081 | 12081: Employees in upper secondary school, by occupation and sex (C) 2015- | 2025
+  13587 | 13587: Youth in upper secondary education, by education programme (C) 2015- | 2025
+  11895 | 11895: People in upper secondary education, by county of residence (C) 2015 | 2025
+  13588 | 13588: Pupils in other upper secondary education (C) 2015-2025 | 2025
+  11967 | 11967: Results in upper secondary education (C) 2015-2025 | 2025
+  11966 | 11966: Follow-up service for upper secondary education (C) 2015-2025 | 2025
+  14884 | 14884: Completion rates of immigrants in upper secondary education, by degr | 2019-2025
+  14880 | 14880: Completion rates of pupils in upper secondary education, by final qu | 2019-2025
+  09378 | 09378: Pupils, apprentices and trainees  in upper secondary education, by e | 2025
+  13160 | 13160: Pupils, apprentices and trainees in upper secondary education, by se | 2025
+  09346 | 09346: Sami statistics. Throughput of pupils in upper secondary education,  | 2009
+  09336 | 09336: Completed educational programmes in upper secondary education, by se | 2024-2025
+  12274 | 12274: Youth 16-18 years in upper secondary education, by immigrant backgro | 2025
+== SE catalogue UF
+  UF0512 | Entrance into the labour market
+  UF0506 | Educational attainment of the population
+      UF0506D | Regional statistics at a lower level than municipality (DeSO | l
+      UF0506B | Educational attainment of the population | l
+  UF0702 | Arts ant Culture courses
+  UF0501 | Panels of students for longitudinal studies
+  UF0550 | Historical statistics on Education
+  UF0549 | Analysis and statistics concerning education of the population
+  UF0542 | The transition from upper secondary school to post-secondary education
+      UF0542A | Post-secondary/tertiary education | l
+      UF0542B | Higher education | l
+      UF0542C | Higher vocational education | l
+      UF0542D | Folk high schools | l
+      UF0542E | Fine arts and culture programmes | l
+  UF0315 | Community Innovation Survey
+  UF0306 | Government budget allocations for R&D
+  UF0301 | Research and development in Sweden
+  UF0502 | Staff training statistics
+  UF0701 | Higher Vocational Education
+  UF0503 | Employment and income after completed education
+  UF0521 | Analysis concerning education and the labour market
+  UF0601 | Folk high school statistics
+  UF0507 | Register on Participation in Education
+== IE SEC (en-tetes navigateur)
+  ERREUR HTTP Error 403: Forbidden

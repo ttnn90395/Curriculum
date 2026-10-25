@@ -1,0 +1,161 @@
+== NL endata.cbs.nl/ODataApi/odata/80119ned/OnderwijssoortCodes?$format=json
+  ERREUR HTTP Error 404: Not Found
+== NL //opendata.cbs.nl/ODataFeed/odata/80119ned/Onderwijssoort?$format=json
+  OK 22572 car. : {   "odata.metadata":"https://opendata.cbs.nl/ODataFeed/OData/80119ned/$metadata#Cbs.OData.WebAPI.Onderwijssoort","value":[     {       "Key":"A025284","Title":"Vwo","Description":"Voorbereidend wetenschappelijk onderwijs (vwo).","CategoryGroupID":1     },{       "Key":"A042977","Title":"Vwo natuurprofiel totaal","Description":"Voortbereidend wetenschappelijk onderwijs (vwo) met het profiel natuur en techniek of het profiel natuur en gezondheid of een combinatie hiervan.","CategoryGroupID":3     },{       "Key":"A042978","Title":"Vwo natuur en techniek","Description":"Voorbereidend wetenschappelijk onderwijs (vwo) met het profiel natuur en techniek.","CategoryGroupID":3     },{       "Key":"A042979","Title":"Vwo natuur en gezondheid","Description":"Voorbereidend wetenschappelijk onderwijs (vwo) met het profiel natuur en gezondheid.","CategoryGroupID":3     },{       "Key":"A04
+== NL endata.cbs.nl/ODataApi/odata/85382NED/OnderwijssoortCodes?$format=json
+  ERREUR HTTP Error 404: Not Found
+== NL //opendata.cbs.nl/ODataFeed/odata/85382NED/Onderwijssoort?$format=json
+  OK 1594 car. : {   "odata.metadata":"https://opendata.cbs.nl/ODataFeed/OData/85382NED/$metadata#Cbs.OData.WebAPI.Onderwijssoort","value":[     {       "Key":"A025286","Title":"Vmbo","Description":"Voorbereidend middelbaar beroepsonderwijs.","CategoryGroupID":null     },{       "Key":"A025287","Title":"Vmbo-b/k totaal","Description":"De basis- en kaderberoepsgerichte leerweg van het voorbereidend middelbaar beroepsonderwijs (vmbo).","CategoryGroupID":null     },{       "Key":"A042842","Title":"Vmbo-b","Description":"Basisberoepsgerichte leerweg van het voorbereidend middelbaar beroepsonderwijs (vmbo).","CategoryGroupID":null     },{       "Key":"A042836","Title":"Vmbo-k","Description":"Kaderberoepsgerichte leerweg van het voorbereidend middelbaar beroepsonderwijs (vmbo).","CategoryGroupID":null     },{       "Key":"A025288","Title":"Vmbo g/t totaal","Description":"Gemengde en theoretische lee
+== liens FI : https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot
+  24 liens
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FB2026ST2001.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2008T4003.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2012T2011.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2015T3010.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2017T2010.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2017T4020.csv
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2017T4020.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2017T4021.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2022T2041.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FS2026A2024T4002.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FT2026KT3002.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FT2026KT3003.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FT2026KT3020.pdf
+  https://tiedostot.ylioppilastutkinto.fi/ext/stat/FT2026KT3021.pdf
+  https://www.ylioppilastutkinto.fi/en/information-services/statistics
+  https://www.ylioppilastutkinto.fi/fi/media/190
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/selosteet/mediarekisteriseloste
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot/oppilaitoskohtaisia-tunnuslukuja
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot/painettu-tilastojulkaisu
+  https://www.ylioppilastutkinto.fi/fi/yhteystiedot/medialle
+  https://www.ylioppilastutkinto.fi/sites/default/files/css/css_kEVxs1H4pyJNdlGFxZPHoVpf1Q7zrEFwtV3TERlQPKs.css?delta=1&amp;language=fi&amp;theme=ytl&amp;include=
+  https://www.ylioppilastutkinto.fi/sites/default/files/css/css_w7Jtl_K0Cqii4msXpxr_UI1tj_bBD9dD09TMOSqDoJE.css?delta=0&amp;language=fi&amp;theme=ytl&amp;include=
+  https://www.ylioppilastutkinto.fi/sv/informationsservice/statistik
+== liens FI2 : s://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot/painettu-tilastojulkaisu
+  15 liens
+  https://www.ylioppilastutkinto.fi/fi/media/190
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/selosteet/mediarekisteriseloste
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot/oppilaitoskohtaisia-tunnuslukuja
+  https://www.ylioppilastutkinto.fi/fi/tietopalvelut/tilastot/painettu-tilastojulkaisu
+  https://www.ylioppilastutkinto.fi/fi/yhteystiedot/medialle
+  https://www.ylioppilastutkinto.fi/sites/default/files/css/css_9_D1Bgu0MletmnhZ4xsIxU3aJgsexIX51GSemJw6BzA.css?delta=0&amp;language=fi&amp;theme=ytl&amp;include=
+  https://www.ylioppilastutkinto.fi/sites/default/files/css/css_kEVxs1H4pyJNdlGFxZPHoVpf1Q7zrEFwtV3TERlQPKs.css?delta=1&amp;language=fi&amp;theme=ytl&amp;include=
+  https://www.ylioppilastutkinto.fi/sites/default/files/sites/default/files/documents/ylioppilastutkinto_2006.pdf
+  https://www.ylioppilastutkinto.fi/sites/default/files/sites/default/files/documents/ylioppilastutkinto_2007.pdf
+  https://www.ylioppilastutkinto.fi/sites/default/files/sites/default/files/documents/ylioppilastutkinto_2008.pdf
+  https://www.ylioppilastutkinto.fi/sites/default/files/sites/default/files/documents/ylioppilastutkinto_2009.pdf
+  https://www.ylioppilastutkinto.fi/sites/default/files/sites/default/files/documents/ylioppilastutkinto_2010.pdf
+  https://www.ylioppilastutkinto.fi/sites/default/files/sites/default/files/documents/ylioppilastutkinto_2011.pdf
+  https://www.ylioppilastutkinto.fi/sv/informationsservice/statistik/den-tryckta-statistikpublikationen
+== liens PL : e.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/
+  37 liens
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/sprawozdanie-z-egzaminu-maturalnego-w-2023-r/
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2023/20230707 Wstepne informacje EM23 CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2023/20230707 Wstepne informacje EM23 werFIN.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2023/20230707 Wstepne informacje o wynikach EM 2023 PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2023/STANINY%20ENG_2023.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2023/Wstepne informacje o wynikach egzaminu maturalnego 2023 STANINY POL.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2024/20240709%20Wst%C4%99pne%20informacje%20EM24%20CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2024/20240709%20Wst%C4%99pne%20informacje%20EM24%20STANINY%20ENG.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2024/20240709%20Wst%C4%99pne%20informacje%20EM24%20STANINY.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2024/20240709%20Wst%C4%99pne%20informacje%20EM24.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2024/20240709%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM24%20PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2024/20240910%20Informacja%20o%20wynikach%20egzaminu%20maturalnego%202024.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2025/20250708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM25%20CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2025/20250708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM25%20PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2025/20250708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM25%20STANINY%20ANG.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2025/20250708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM25.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2025/20250708%20Wstepne%20informacje%20o%20wynikach%20EM25%20STANINY%20POL.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2025/20250910%20Informacja%20o%20wynikach%20egzaminu%20maturalnego%202025.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/komunikaty/2026/20260911%20Informacja%20o%20wynikach%20egzaminu%20maturalnego%202026%20M%20Cz%20S.pdf
+  http://mapa.wyniki.edu.pl/MapaEgzaminow/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/sprawozdanie-z-egzaminu-maturalnego-w-2024-r/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/sprawozdanie-z-egzaminu-maturalnego-w-2025-r/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/sprawozdanie-z-egzaminu-maturalnego-w-2026-r/
+  https://cke.gov.pl/egzamin-osmoklasisty/wyniki/
+  https://cke.gov.pl/egzamin-zawodowy/egzamin-zawodowy-formula-2017/wyniki/
+  https://cke.gov.pl/egzamin-zawodowy/egzamin-zawodowy-formula-2019/wyniki-sprawozdania/
+  https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2026/20260708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM%202026%20PREZENTACJA.pd
+  https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2026/20260708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM25%20STANINY%20ANG.pdf
+  https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2026/20260708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM26%20CENTYLE.pdf
+  https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2026/20260708%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM26.pdf
+  https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2026/20260708%20Wstepne%20informacje%20o%20wynikach%20EM26%20STANINY%20POL.pdf
+  https://cke.gov.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcke.gov.pl%2Fegzamin-maturalny%2Fegzamin-maturalny-w-formule-2023%2Fwyniki-sprawozdania%2F
+  https://cke.gov.pl/wyniki-egzaminow/
+  https://mapa.wyniki.edu.pl/MapaEgzaminow/wyniki/EM2023/2026/j%C4%99zyk polski poziom podstawowy %28M%29/0
+  https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2023/Informacja%20o%20wynikach%20egzaminu%20maturalnego%202023.pdf
+== liens PL2 : https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/
+  75 liens
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-2016/
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-2017
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-2018
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-2019/
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-2020/
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-2021/
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-w-2022-r/
+  http://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/sprawozdanie-z-egzaminu-maturalnego-w-2023-r/
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2016/20160705 Informacja o wynikach egzaminu maturalnego 2016 PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2016/20160705 Wstepna informacja o wynikach egzaminu maturalnego 2016.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2016/20160705 Wstepna informacja o wynikach matury 2016 CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2016/20160705 Wstepna informacja o wynikach matury 2016 STANINY.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2016/20160912 Informacja o wynikach matury M Cz S.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2017/20170630 Informacja o egzaminie poprawkowym.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2017/20170630 Wstepna informacja o wynikach egzaminu maturalnego 2017.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2017/20170630 Wstepna informacja o wynikach matury 2017 CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2017/20170630 Wstepna informacja o wynikach matury 2017 PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2017/20170911 Informacja o wynikach matury M Cz S.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2017/Staniny_2017_nowa.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/20180703 A Wstepna informacja o wynikach matury 2018.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/20180703 B Wstepna informacja o wynikach matury 2018 CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/20180703 C Wstepna informacja o wynikach matury 2018 PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/20180703 D Komunikat o terminie poprawkowym 08 2018.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/20180907%20Informacja%20o%20wynikach%20matury%20M%20Cz%20S.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/Maj 2018 - Staniny ang.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2018/Maj 2018 - Staniny pl.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/20190704%20Informacja%20o%20egzaminie%20poprawkowym%20Komunikat%20all.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/20190704%20Wst%C4%99pna%20informacja%20o%20wynikach%20matury%202019%20CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/20190704%20Wst%C4%99pna%20informacja%20o%20wynikach%20matury%202019.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/20190704%20Wyniki%20egzaminu%20maturalnego%202019%20PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/Informacja%20o%20wynikach%20matury_maj_czerwiec_sierpie%C5%84.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/Maj%202019%20-%20Staniny%20ang.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2019/Maj%202019%20-%20Staniny%20pl.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200811%20Komunikat%20o%20egzaminie%20maturalnym%20w%20terminie%20poprawkowym%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200811%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202020%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200811%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202020%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200811%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202020%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200811%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202020.pd
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200811%20Wyniki%20egzaminu%20maturalnego%202020%20PREZENTACJA%20Ost.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2020/20200930 Informacja o wynikach egzaminu maturalnego 2020 COMPL.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2021/20210705%20Wst%C4%99pne%20informacje%20o%20wynikach%20EM%202021%20-%20prezentacja
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2021/20210705%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202021%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2021/20210705%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202021%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2021/20210705%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202021%20
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2021/20210705%20Wstepne%20informacje%20o%20wynikach%20egzaminu%20maturalnego%202021.pd
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2021/EM%202021%20Zalacznik%207_2314.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2022/20220705 Wstępne informacje EM22 CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2022/20220705 Wstępne informacje EM22 PREZENTACJAp.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2022/20220705 Wstępne informacje EM22 STANINY_ENGLISH.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2022/20220705 Wstępne informacje EM22 STANINY_POLSKI.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2022/20220705 Wstępne informacje EM22.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2022/20220909%20Informacja%20o%20wynikach%20egzaminu%20maturalnego%202022%20COMPL.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2023/20230707 Wstepne informacje EM23 CENTYLE.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2023/20230707 Wstepne informacje EM23 werFIN.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2023/20230707 Wstepne informacje o wynikach EM 2023 PREZENTACJA.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informacje_o_wynikach/2023/Wstepne informacje o wynikach egzaminu maturalnego 2023 STANINY POL.pdf
+  http://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informacje_o_wynikach/2023/STANINY%20ENG_2023.pdf
+  http://mapa.wyniki.edu.pl/MapaEgzaminow/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2015/wyniki/
+  https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/wyniki-sprawozdania/
+== liens ES : https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/PAU.html
+  3 liens
+  https://estadisticas.ciencia.gob.es/dynPx/inebase/index.htm?type=pcaxis&amp;path=/Universitaria/PAU/PAU/&amp;file=pcaxis
+  https://www.ciencia.gob.es/dam/jcr:748da76a-b04b-40a0-9164-9a467c368660/metodologia_pau.pdf
+  https://www.ciencia.gob.es/dam/jcr:b978060c-74a4-4491-814e-a860a5fd324f/ime_pau.pdf
+== liens DEPP2019 : tion.gouv.fr/depp/resultats-definitifs-de-la-session-2019-du-baccalaureat-451650
+  ERREUR HTTP Error 403: Forbidden
+== liens IT : https://dati.istruzione.it/opendata/esploraidati
+  0 liens

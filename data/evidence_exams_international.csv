@@ -1,0 +1,120 @@
+pays,annee,indicateur,valeur,definition,source,remarque
+DE,2010,E1,97.4449,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2010,E2,1.0299,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2010,E3,314984.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2011,E1,97.3643,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 dans plusieurs Laender (E3)
+DE,2011,E2,1.1951,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 dans plusieurs Laender (E3)
+DE,2011,E3,360018.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 dans plusieurs Laender (E3)
+DE,2012,E1,96.951,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 (E3)
+DE,2012,E2,1.3227,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 (E3)
+DE,2012,E3,357859.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 (E3)
+DE,2013,E1,97.0159,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 (E3); effectifs non entiers
+DE,2013,E2,1.3983,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 (E3); effectifs non entiers
+DE,2013,E3,372546.5,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),double cohorte G8/G9 (E3); effectifs non entiers
+DE,2014,E1,96.7423,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2014,E2,1.4083,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2014,E3,335356.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2015,E1,96.798,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2015,E2,1.4722,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2015,E3,346663.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2016,E1,96.5746,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2016,E2,1.6159,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2016,E3,359813.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2017,E1,96.2252,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2017,E2,1.7023,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2017,E3,352182.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2018,E1,95.8292,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2018,E2,1.7536,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2018,E3,346861.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2019,E1,96.0642,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2019,E2,1.8811,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2019,E3,337667.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2020,E1,96.8076,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),conditions sanitaires
+DE,2020,E2,2.2267,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),conditions sanitaires
+DE,2020,E3,302278.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),conditions sanitaires
+DE,2021,E1,96.9653,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),conditions sanitaires
+DE,2021,E2,3.1388,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),conditions sanitaires
+DE,2021,E3,315878.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),conditions sanitaires
+DE,2022,E1,96.1909,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2022,E2,3.3659,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2022,E3,312910.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2023,E1,95.7278,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2023,E2,3.0183,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2023,E3,315017.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2024,E1,95.2925,"bestanden / Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2024,E2,3.0515,"effectif note 1,0 / bestanden, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+DE,2024,E3,312186.0,"Zahl der Pruefungen, somme des 16 Laender",KMK Abiturnoten (feuille Noten),
+UK,2010,E1,98.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2010,E2,8.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2010,E3,783347.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2011,E1,99.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2011,E2,8.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2011,E3,782771.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2012,E1,99.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2012,E2,8.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2012,E3,779479.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2013,E1,99.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2013,E2,8.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2013,E3,773645.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2014,E1,99.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2014,E2,9.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2014,E3,742147.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2015,E1,99.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2015,E2,9.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2015,E3,758625.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2016,E1,99.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2016,E2,8.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2016,E3,744162.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2017,E1,98.0,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,reforme des A-levels
+UK,2017,E2,9.0,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,reforme des A-levels
+UK,2017,E3,743726.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,reforme des A-levels
+UK,2018,E1,97.9,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,reforme des A-levels
+UK,2018,E2,8.3,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,reforme des A-levels
+UK,2018,E3,731866.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,reforme des A-levels
+UK,2019,E1,97.5,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2019,E2,7.9,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2019,E3,727415.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2020,E1,99.6,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,notation par les enseignants
+UK,2020,E2,14.4,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,notation par les enseignants
+UK,2020,E3,712171.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,notation par les enseignants
+UK,2021,E1,99.4,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,notation par les enseignants
+UK,2021,E2,19.1,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,notation par les enseignants
+UK,2021,E3,741826.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,notation par les enseignants
+UK,2022,E1,98.2,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,notation de transition
+UK,2022,E2,14.8,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,notation de transition
+UK,2022,E3,772541.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,notation de transition
+UK,2023,E1,97.1,"pourcentage de grades A*-E, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2023,E2,8.9,"pourcentage de grade A*, Total subjects, All students",DfE A level and other 16-18 results,
+UK,2023,E3,789219.0,"entry_count, Total subjects, All students",DfE A level and other 16-18 results,
+NL,2010,E1,89.2242,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 80119ned,
+NL,2010,E3,35385,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 80119ned,
+NL,2011,E1,88.7876,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 80119ned,
+NL,2011,E3,36763,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 80119ned,
+NL,2012,E1,87.296,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2012,E3,36760,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2013,E1,91.9116,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2013,E3,35730,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2014,E1,89.7602,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2014,E3,35450,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2015,E1,92.2949,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2015,E3,35950,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2016,E1,91.183,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2016,E3,35840,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2017,E1,90.9763,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2017,E3,37900,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2018,E1,91.5043,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2018,E3,38490,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2019,E1,90.6953,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2019,E3,38690,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2020,E1,98.9452,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,"examens centraux annules, diplome sur evaluation interne"
+NL,2020,E3,38870,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,"examens centraux annules, diplome sur evaluation interne"
+NL,2021,E1,93.9974,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,regime d'examen amenage
+NL,2021,E3,39150,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,regime d'examen amenage
+NL,2022,E1,92.8069,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2022,E3,38370,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2023,E1,88.589,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2023,E3,37420,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2024,E1,90.8105,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2024,E3,36890,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2025,E1,88.2852,"Gediplomeerden / Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,
+NL,2025,E3,35340,"Examenkandidaten, Vwo, total, Nederland (CBS)",CBS StatLine 85382NED,

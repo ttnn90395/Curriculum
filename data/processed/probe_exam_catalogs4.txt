@@ -1,0 +1,273 @@
+== FI FB2026ST2001.pdf
+  Syksyn 2025 ja 2026 ylioppilastutkintoon ilmoittautuneiden määrät kokeittain
+  S2025
+  S2026
+  8 677
+  8 040
+  716
+  748
+  3
+  3
+== FI FS2026A2008T4003.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 0 1 . 0 9 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Laudaturien määrät valmistuneissa tutkinnoissa 2008 - 2026
+  1
+  Kaikki koulut,
+  Tutkinto valmis 2026K
+  Laudaturien lukumäärä
+  14 10 9 8
+  7
+  6
+== FI FS2026A2012T2011.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 8 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Ilmoittautuneet eri henkilöt maakunnittain 2012 - 2026
+  1
+  Tutkintokerta
+  Syksy 2026
+  Opetuskieli
+  Yhteensä
+  Suomi
+  Ruotsi
+== FI FS2026A2015T3010.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 2 . 0 5 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Pisterajat 2015 - 2026
+  1
+  Vuosi
+  2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+  koe
+  Arvosana
+  Äidinkieli, suomi
+  L
+== FI FS2026A2017T2010.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 8 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Ilmoittautuneet eri kokeisiin tutkintokerroittain 2017 - 2026
+  1
+  Vuosi
+  2017
+  2018
+  2019
+  2020
+  2021
+== FI FS2026A2017T4020.csv
+  "Vuosi";"Tutkintokerta";"Sukupuoli";"Opetuskieli";"Aineita tutkinnossa";"N"
+  2017;Kevät;Naiset;;4;2407
+  2017;Kevät;Naiset;;5;7150
+  2017;Kevät;Naiset;;6;4455
+  2017;Kevät;Naiset;;7;1285
+  2017;Kevät;Naiset;;8;226
+  2017;Kevät;Naiset;;9;27
+  2017;Kevät;Naiset;;10;7
+  2017;Kevät;Naiset;;11;1
+  2017;Kevät;Miehet;;4;2279
+  2017;Kevät;Miehet;;5;5268
+  2017;Kevät;Miehet;;6;2841
+== FI FS2026A2017T4020.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 0 1 . 0 9 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Kokeiden määrä tutkinnossa 2017 - 2026
+  1
+  Kaikki koulut
+  Aineita tutkinnossa
+  Yhteensä
+  4
+  5
+  6
+== FI FS2026A2017T4021.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 0 1 . 0 9 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Reaalikokeita tutkinnossa 2017 - 2026
+  1
+  Kaikki koulut
+  Reaaliaineita tutkinnossa
+  Yhteensä
+  0
+  1
+  2
+== FI FS2026A2022T2041.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 8 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Uusintojen osuus ilmoittautumisissa kokeittain 2022 - 2026
+  1
+  Syksy 2022
+  Kevät 2023
+  Syksy 2023
+  Kevät 2024
+  Syksy 2024
+  Kevät 2025
+== FI FS2026A2024T4002.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 0 1 . 0 9 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Arvosanajakaumat 2024 - 2026, Äidinkieli, suomi
+  1
+  Kaikki koulut
+  Arvosana
+  Yhteensä
+  L
+  E
+  M
+== FI FT2026KT3002.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 5 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Arvosanajakaumia kevät 2026
+  1
+  Koko maa
+  L
+  E
+  M
+  C
+  B
+== FI FT2026KT3003.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 5 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Laudaturien määrät valmistuneissa tutkinnoissa, 2026K
+  1
+  Kaikki koulut
+  Laudaturien lukumäärä
+  14 10 9 8
+  7
+  6
+  5
+== FI FT2026KT3020.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 5 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Kokeiden määrä tutkinnossa 2026K
+  1
+  Kaikki lukiot
+  Aineita tutkinnossa
+  Yhteensä
+  4
+  5
+  6
+== FI FT2026KT3021.pdf
+  Y l i o p p i l a s t u t k i n t o l a u t a k u n t a 1 9 . 0 5 . 2 0 2 6 h t t p : / / w w w . y l i o p p 
+  Reaalikokeiden määrä tutkinnossa 2026K
+  1
+  Kaikki lukiot
+  Reaalineita tutkinnossa
+  Yhteensä
+  0
+  1
+  2
+== PL 2016
+  maturalnego w maju i czerwcu 2016 roku przystąpiło 259 398 tegorocznych absolwentów szkół
+  Do egzaminu maturalnego w sesji poprawkowej w sierpniu 2016 roku przystąpiło 45 903 absolwentów.
+  Były to osoby, które w maju i/lub w czerwcu 2016 roku przystąpiły do egzaminu maturalnego ze
+  34 613 osób – stanowili 75% wszystkich zdających egzamin w sesji poprawkowej.
+  Tabela 1. Tegoroczni absolwenci, którzy przystąpili do egzaminów z wszystkich przedmiotów obowiązkowych
+  w maju, czerwcu i sierpniu 2016 r. – odsetek sukcesów
+  Wszyscy zdający
+== PL 2017
+  maturalnego w maju i czerwcu 2017 roku przystąpiło 259 037 tegorocznych absolwentów szkół
+  Do egzaminu maturalnego w sesji poprawkowej w sierpniu 2017 roku przystąpiło 47 897 absolwentów.
+  Były to osoby, które w maju i/lub w czerwcu 2017 roku przystąpiły do egzaminu maturalnego ze
+  34 062 osób – stanowili 71% wszystkich zdających egzamin w sesji poprawkowej.
+  Tabela 1. Tegoroczni absolwenci, którzy przystąpili do egzaminów z wszystkich przedmiotów obowiązkowych
+  w maju, czerwcu i sierpniu 2017 r. – odsetek sukcesów
+  Wszyscy zdający
+== PL 2018
+  maturalnego w maju i czerwcu 2018 roku przystąpiło 248 762 tegorocznych absolwentów szkół
+  Do egzaminu maturalnego w sesji poprawkowej w sierpniu 2018 roku przystąpiło 45 012 absolwentów.
+  Były to osoby, które w maju i/lub w czerwcu 2018 roku przystąpiły do egzaminu maturalnego ze
+  31 479 osób – stanowili 70% wszystkich zdających egzamin w sesji poprawkowej.
+  Tabela 1. Tegoroczni absolwenci, którzy przystąpili do egzaminów z wszystkich przedmiotów obowiązkowych
+  w maju, czerwcu i sierpniu 2018 r. – odsetek sukcesów
+  Wszyscy zdający
+== PL 2019
+  maturalnego w maju i czerwcu 2019 roku przystąpiło 248 054 tegorocznych absolwentów szkół
+  Do egzaminu maturalnego w sesji poprawkowej w sierpniu 2019 roku przystąpiło 38 983 absolwentów.
+  Były to osoby, które w maju i/lub w czerwcu 2019 roku przystąpiły do egzaminu maturalnego ze
+  27 575 osób – stanowili 71% wszystkich zdających egzamin w sesji poprawkowej.
+  Tabela 1. Tegoroczni absolwenci, którzy przystąpili do egzaminów z wszystkich przedmiotów obowiązkowych
+  w maju, czerwcu i sierpniu 2019 r. – odsetek sukcesów
+  Wszyscy zdający
+== PL 2020
+  przystąpiło 260 262 tegorocznych absolwentów szkół ponadgimnazjalnych.
+  Do egzaminu maturalnego w sesji poprawkowej we wrześniu 2020 roku przystąpiło 49 611
+  dodatkowym (w lipcu) 2020 roku przystąpiły do egzaminu maturalnego ze wszystkich
+  przedmiotu. Tegoroczni absolwenci – 39 784 osoby – stanowili 80% wszystkich zdających
+  Tabela 1. Tegoroczni absolwenci, którzy przystąpili do egzaminów z wszystkich przedmiotów
+  i poprawkowym (we wrześniu 2020 r.) – odsetek sukcesów
+  Wszyscy zdający
+== PL 2022
+  maturalnego w terminie głównym i w terminie dodatkowym w 2022 roku przystąpiło
+  Do egzaminu maturalnego w sesji poprawkowej w sierpniu 2022 roku przystąpiło 35 342
+  dodatkowym w 2022 roku przystąpiły do egzaminu maturalnego ze wszystkich przedmiotów
+  Wszyscy absolwenci, którzy ukończyli szkołę w 2022 r., obowiązkowo przystępowali do
+  języka danej mniejszości narodowej obowiązkowo przystępowali również do części pisemnej
+  Wszyscy absolwenci mieli również obowiązek przystąpić do egzaminu maturalnego
+  mógł również przystąpić do egzaminu dodatkowego z maksymalnie pięciu kolejnych
+== PL 2023
+  w maju 2023 roku oraz w terminie dodatkowym w czerwcu 2023 r. przystąpiło 254 610
+  Do egzaminu maturalnego w terminie poprawkowym w sierpniu 2023 r. przystąpiło 24 844
+  dodatkowym w 2023 roku przystąpiły do egzaminu maturalnego ze wszystkich przedmiotów
+  w 2023 r., obowiązkowo przystępowali do egzaminu maturalnego:
+  obowiązkowo przystępowali również do części pisemnej oraz części ustnej egzaminu
+  „tegorocznych absolwentów” traktuje się również absolwentów z lat ubiegłych, którzy w 2023 r. po raz pierwszy przystąpili do
+  Wszyscy absolwenci mieli również obowiązek przystąpić do egzaminu maturalnego
+== PL 2024
+  w maju 2024 roku oraz w terminie dodatkowym w czerwcu 2024 r. przystąpiło 247 127
+  Do egzaminu maturalnego w terminie poprawkowym w sierpniu 2024 r. przystąpiło 21 889
+  dodatkowym w 2024 roku przystąpiły do egzaminu maturalnego ze wszystkich przedmiotów
+  Wszyscy absolwenci, którzy ukończyli szkołę w 2024 r., obowiązkowo przystępowali do
+  obowiązkowo przystępowali również do części pisemnej oraz części ustnej egzaminu
+  którzy w 2024 r. po raz pierwszy przystąpili do egzaminu maturalnego.
+  Wszyscy absolwenci mieli również obowiązek przystąpić do egzaminu maturalnego
+== PL 2025
+  w maju 2025 roku oraz w terminie dodatkowym w czerwcu 2025 r. przystąpiło 256 716
+  Do egzaminu maturalnego w terminie poprawkowym w sierpniu 2025 r. przystąpiło 27 909
+  dodatkowym w 2025 roku przystąpiły do egzaminu maturalnego ze wszystkich przedmiotów
+  Wszyscy absolwenci, którzy ukończyli szkołę w 2025 r., obowiązkowo przystępowali do
+  obowiązkowo przystępowali również do części pisemnej oraz części ustnej egzaminu
+  którzy w 2025 r. po raz pierwszy przystąpili do egzaminu maturalnego.
+  Wszyscy absolwenci mieli również obowiązek przystąpić do egzaminu maturalnego
+== PL 2026
+  ERREUR HTTP Error 404: Not Found
+== NL 80119ned
+  Onderwijssoort : [('A025284', 'Vwo'), ('A042977', 'Vwo natuurprofiel totaal'), ('A042978', 'Vwo natuur en techniek'), ('A042979', 'Vwo natuur en gezondheid'), ('A042980', 'Vwo natuur/techniek, natuur/ge'), ('A042981', 'Vwo maatschappijprofiel totaal'), ('A042982', 'Vwo economie en maatschappij'), ('A042983', 'Vwo cultuur en maatschappij'), ('A042984', 'Vwo economie/maatsch, cultuur/'), ('A042985', 'Vwo combinaties natuur/maatsch'), ('A042986', 'Vwo natuur/techniek, economie/'), ('A042987', 'Vwo natuur/techniek, cultuur/m')]
+  Geslacht : [('T001038', 'Totaal mannen en vrouwen'), ('3000   ', 'Mannen'), ('4000   ', 'Vrouwen')]
+  Migratieachtergrond : [('T001040', 'Totaal migratieachtergrond'), ('1012600', 'Nederlandse achtergrond'), ('2012605', 'Met migratieachtergrond'), ('2012655', 'Westerse migratieachtergrond'), ('2012657', 'Niet-westerse migratieachtergr'), ('H008766', 'Turkije'), ('H008673', 'Marokko'), ('H008751', 'Suriname'), ('H007119', '(voormalige) Nederlandse Antil'), ('A008187', 'Overige niet-westerse migratie'), ('2012659', 'Onbekende migratieachtergrond')]
+  WoonregioSchoolregio : [('A043084', 'Woonregio'), ('A043085', 'Schoolregio')]
+  Regiokenmerken : [('NL01   ', 'Nederland'), ('G04    ', 'Vier grootste gemeenten (G4)'), ('GM0363 ', 'Amsterdam'), ('GM0518 ', "'s-Gravenhage"), ('GM0599 ', 'Rotterdam'), ('GM0344 ', 'Utrecht'), ('A042158', 'Gemeenten >=100 000 inwoners ('), ('A007400', 'Gemeenten < 100 000 inwoners'), ('GM0000 ', 'Niet in te delen (GM)'), ('LD01   ', 'Noord-Nederland (LD)'), ('LD02   ', 'Oost-Nederland (LD)'), ('LD03   ', 'West-Nederland (LD)')]
+  Perioden 16 : 2005SJ00 ... 2020SJ00
+== NL 85382NED
+  Onderwijssoort : [('A025287', 'Vmbo-b/k totaal'), ('A025288', 'Vmbo g/t totaal'), ('A025284', 'Vwo')]
+  Geslacht : [('T001038', 'Totaal mannen en vrouwen'), ('3000   ', 'Mannen'), ('4000   ', 'Vrouwen')]
+  Regiokenmerken : [('NL01   ', 'Nederland'), ('LD01   ', 'Noord-Nederland (LD)'), ('LD02   ', 'Oost-Nederland (LD)'), ('LD03   ', 'West-Nederland (LD)'), ('LD04   ', 'Zuid-Nederland (LD)'), ('LD99   ', 'Niet in te delen (LD)'), ('PV20   ', 'Groningen (PV)'), ('PV21   ', 'Fryslân (PV)'), ('PV22   ', 'Drenthe (PV)'), ('PV23   ', 'Overijssel (PV)'), ('PV24   ', 'Flevoland (PV)'), ('PV25   ', 'Gelderland (PV)')]
+  Perioden 14 : 2011SJ00 ... 2024SJ00
+== ES px : inebase/index.htm?type=pcaxis&path=/Universitaria/PAU/PAU/&file=pcaxis
+  112 liens
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_distr_fase_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_distr_fase_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_fespecifica_nat_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_fespecifica_nat_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_fespecifica_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_fespecifica_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_matric_fase_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_matric_fase_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_nota_fase_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_materias_nota_fase_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_edad_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_edad_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_nac_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_nac_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_nat_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_nat_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_gen_matric_sexo_univ.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_edad_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_edad_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_nac_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_nac_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_matric_sexo_univ.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_25y45_distr_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_25y45_distr_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_25y45_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_25y45_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_distr_nat_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_distr_nat_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_distr_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_distr_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_nat_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_nat_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_sexo_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_acceso_sexo_tot.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_bach_distr_nat_ca.px&amp;L=0
+  https://estadisticas.ciencia.gob.es/jaxiPx/Tabla.htm?path=/Universitaria/PAU/PAU/l0/&amp;file=px_pau_nota_bach_distr_nat_tot.px&amp;L=0
+== IT cat : https://dati.istruzione.it/opendata/opendata/catalogo/elements1/
+  0 liens

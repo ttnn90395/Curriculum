@@ -1,0 +1,12 @@
+85382NED : 14 annees (2012-2025) ; 80119ned : 16 annees (2006-2021)
+Ecart E1 sur les annees communes (85382NED - 80119ned, en points) :
+  2012 E1 87.296 vs 87.305  candidats 36760 vs 36755
+  2013 E1 91.912 vs 91.909  candidats 35730 vs 35733
+  2014 E1 89.760 vs 89.749  candidats 35450 vs 35450
+  2015 E1 92.295 vs 92.311  candidats 35950 vs 35946
+  2016 E1 91.183 vs 91.164  candidats 35840 vs 35844
+  2017 E1 90.976 vs 90.973  candidats 37900 vs 37899
+  2018 E1 91.504 vs 91.512  candidats 38490 vs 38488
+  2019 E1 90.695 vs 90.706  candidats 38690 vs 38690
+  2020 E1 98.945 vs 98.948  candidats 38870 vs 38871
+  2021 E1 93.997 vs 93.982  candidats 39150 vs 39149

@@ -898,3 +898,30 @@ cohorte d'entrants plus grande que celle des diplomes fait baisser R) ; les etud
 internationaux, les passages de CITE 5 a CITE 6 et les diplomes de reconversion sont inclus ; la
 definition de la licence a change en France avec la reforme LMD et le BUT en 2021 (le BUT est de
 niveau CITE 6) ; l'indicateur ne dit rien du niveau des eleves ni de la difficulte du bac.
+
+## Precision 30 (2026-11-01) : codes et regles d'extraction de l'indicateur R, Amendement 25
+(pre-enregistree avant tout calcul de R ; ecrite apres la sonde 18, qui n'a imprime que des listes de
+codes)
+
+Jeu OCDE : OECD.EDU.IMEP, DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_TOTALS, fichier deja telecharge
+(data/raw/oecd/stud_totals.csv, 114 756 lignes, 43 pays, 2012 a 2024). Filtres : MEASURE = NENT
+(nouveaux entrants) ou GRAD (diplomes) ; SEX = _T ; MOBILITY = _T ; EDUCATION_LEV = le code dont le
+libelle est exactement "Bachelor's or equivalent level" (sans precision de duree ni de
+completion) ; le script s'arrete si ce code n'est pas unique. Statut d'observation : OBS_STATUS A
+et W sont conserves (W, valeur incluant une autre categorie, est signale) ; M, O et K sont traites
+comme absents. Pays : les 38 membres de l'OCDE (AUS, AUT, BEL, CAN, CHL, COL, CRI, CZE, DNK, EST,
+FIN, FRA, DEU, GRC, HUN, ISL, IRL, ISR, ITA, JPN, KOR, LVA, LTU, LUX, MEX, NLD, NZL, NOR, POL, PRT,
+SVK, SVN, ESP, SWE, CHE, TUR, GBR, USA) ; les autres pays du fichier sont ecartes.
+
+Calcul : R3(t) = GRAD(t) / NENT(t-3) pour t de 2015 a 2024 ; R4(t) = GRAD(t) / NENT(t-4) pour t de
+2016 a 2024 ; un R n'est calcule que si les deux effectifs sont presents. Rapports, par pays :
+R3 en 2015, 2019 et 2024 et ecarts 2019-2015, 2024-2019 et 2024-2015 (en points de pourcentage) ;
+meme chose pour R4 (2016, 2019, 2024). Par annee : nombre de pays disponibles, mediane de R3, rang
+de la France (1 = plus haut) et sa valeur. Un pays dont le R manque pour l'une des annees d'un ecart
+est omis de cet ecart, sans imputation. Controle Eurostat : pour les pays de l'Union presents dans
+les deux sources, R3 calcule avec educ_uoe_ent01 et educ_uoe_grad01 (isced11 = ED6, sex = T, age =
+TOTAL), puis ecart absolu maximal et nombre de couples pays-annee dont l'ecart depasse 2 points,
+rapportes tels quels ; si Eurostat n'est pas joignable, le controle est declare non fait.
+Lecture : descriptive, sans seuil, sans test, sans pente commune ; la France est rapportee a cote des
+autres pays mais aucun niveau n'est interprete comme une qualite du bac. Les limites de la
+Precision 29 s'appliquent.

@@ -1,0 +1,73 @@
+== OCDE DF_UOE_NF_STUD_TOTALS : 114756 lignes ; colonnes : ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA', 'Reference area', 'EDUCATION_LEV', 'Education level', 'MEASURE', 'Measure', 'EDUCATION_TYPE', 'Education type', 'INTENSITY', 'Intensity', 'EDUCATION_FIELD', 'Field of education', 'GRADE', 'Grade', 'FREQ', 'Frequency of observation', 'ORIGIN', 'Origin', 'DESTINATION', 'Destination', 'INST_TYPE_EDU', 'Type of educational institution', 'MOBILITY', 'Mobility', 'UNIT_MEASURE', 'Unit of measure', 'SEX', 'Sex', 'AGE', 'Age', 'TIME_PERIOD', 'Time period', 'OBS_VALUE', 'Observation value', 'REF_YEAR_AGES', 'Reference date for ages', 'ORIGIN_CRITERION', 'Origin criterion', 'REPYEARSTART', 'Reference year start', 'REPYEAREND', 'Reference year end', 'OBS_STATUS', 'Observation status', 'CONF_STATUS', 'Confidentiality status', 'COMMENT_OBS', 'Observation comment', 'DECIMALS', 'Decimals', 'TIME_PER_COLLECT', 'Time period collection', 'UNIT_MULT', 'Unit multiplier']
+   STRUCTURE : 1 valeurs ; ['DATAFLOW']
+   STRUCTURE_ID : 1 valeurs ; ['OECD.EDU.IMEP:DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_TOTALS(1.1)']
+   STRUCTURE_NAME : 1 valeurs ; ['Total number of enrolled students, new entrants and graduates']
+   ACTION : 1 valeurs ; ['I']
+   REF_AREA : 43 valeurs ; ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA']
+   Reference area : 43 valeurs ; ['Australia', 'Austria', 'Belgium', 'Brazil', 'Bulgaria', 'Canada', 'Chile', 'Colombia', 'Costa Rica', 'Croatia', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Israel', 'Italy', 'Japan', 'Korea', 'Latvia', 'Lithuania', 'Luxembourg', 'Mexico', 'Netherlands', 'New Zealand']
+   EDUCATION_LEV : 48 valeurs ; ['ISCED11_0', 'ISCED11_01', 'ISCED11_02', 'ISCED11_1', 'ISCED11_2', 'ISCED11_24', 'ISCED11_25', 'ISCED11_3', 'ISCED11_34', 'ISCED11_341', 'ISCED11_342', 'ISCED11_343', 'ISCED11_344', 'ISCED11_35', 'ISCED11_351', 'ISCED11_352', 'ISCED11_353', 'ISCED11_354', 'ISCED11_35SW', 'ISCED11_4', 'ISCED11_44', 'ISCED11_441', 'ISCED11_443', 'ISCED11_444', 'ISCED11_45', 'ISCED11_451', 'ISCED11_453', 'ISCED11_454', 'ISCED11_45SW', 'ISCED11_5']
+   Education level : 48 valeurs ; ["Bachelor's or equivalent level, first degree (3-4 years)", "Bachelor's or equivalent level, first long degree (more than 4 years)", 'Bachelor’s or equivalent level', 'Bachelor’s or equivalent level, insufficient for  completion', 'Doctoral or equivalent level', 'Early childhood education', 'Early childhood educational development', 'Lower secondary education', 'Lower secondary general education', 'Lower secondary vocational education', 'Master’s or equivalent level', 'Master’s or equivalent level, all programmes, insufficient for level completion', 'Master’s or equivalent level, long first degree (at least 5 years)', "Master’s or equivalent level, second or further degree (following a Bachelor's or equivalent programme)", 'Master’s or equivalent level, second or further degree (following a Master’s or equivalent programme)', 'Post-secondary non-tertiary education', 'Post-secondary non-tertiary general education', 'Post-secondary non-tertiary general education, insufficient for level completion, without direct access to tertiary education', 'Post-secondary non-tertiary general education, sufficient for level completion, with direct access to tertiary education', 'Post-secondary non-tertiary general education, sufficient for level completion, without direct access to tertiary education', 'Post-secondary non-tertiary vocational education', 'Post-secondary non-tertiary vocational education, insufficient for level completion, without direct access to tertiary education', 'Post-secondary non-tertiary vocational education, school and work-based programmes', 'Post-secondary non-tertiary vocational education, sufficient for level completion, with direct access to tertiary education', 'Post-secondary non-tertiary vocational education, sufficient for level completion, without direct access to tertiary education', 'Pre-primary education', 'Primary education', "Second or further degree following successful completion of a Bachelor's or equivalent programme", 'Short-cycle tertiary education', 'Short-cycle tertiary general education']
+   MEASURE : 3 valeurs ; ['ENRL', 'GRAD', 'NENT']
+   Measure : 3 valeurs ; ['Graduates', 'New entrants', 'Students enrolled']
+   EDUCATION_TYPE : 1 valeurs ; ['FE']
+   Education type : 1 valeurs ; ['Formal education, includes formal initial and formal adult education programmes']
+   INTENSITY : 1 valeurs ; ['_T']
+   Intensity : 1 valeurs ; ['Total']
+   EDUCATION_FIELD : 1 valeurs ; ['_T']
+   Field of education : 1 valeurs ; ['Total']
+   GRADE : 1 valeurs ; ['_T']
+   Grade : 1 valeurs ; ['Total']
+   FREQ : 1 valeurs ; ['A']
+   Frequency of observation : 1 valeurs ; ['Annual']
+   ORIGIN : 1 valeurs ; ['_Z']
+   Origin : 1 valeurs ; ['Not applicable']
+   DESTINATION : 1 valeurs ; ['_Z']
+   Destination : 1 valeurs ; ['Not applicable']
+   INST_TYPE_EDU : 1 valeurs ; ['INST_EDU']
+   Type of educational institution : 1 valeurs ; ['All educational institutions']
+   MOBILITY : 2 valeurs ; ['MOB', '_T']
+   Mobility : 2 valeurs ; ['Mobile including homecoming nationals', 'Total']
+   UNIT_MEASURE : 1 valeurs ; ['PS']
+   Unit of measure : 1 valeurs ; ['Persons']
+   SEX : 3 valeurs ; ['F', 'M', '_T']
+   Sex : 3 valeurs ; ['Female', 'Male', 'Total']
+   AGE : 1 valeurs ; ['_T']
+   Age : 1 valeurs ; ['Total']
+   REF_YEAR_AGES : 1 valeurs ; ['']
+   Reference date for ages : 1 valeurs ; ['']
+   ORIGIN_CRITERION : 1 valeurs ; ['']
+   Origin criterion : 1 valeurs ; ['']
+   REPYEARSTART : 1 valeurs ; ['']
+   Reference year start : 1 valeurs ; ['']
+   REPYEAREND : 1 valeurs ; ['']
+   Reference year end : 1 valeurs ; ['']
+   OBS_STATUS : 5 valeurs ; ['A', 'K', 'M', 'O', 'W']
+   Observation status : 5 valeurs ; ['Data included in another category', 'Includes data from another category', 'Missing value', 'Missing value; data cannot exist', 'Normal value']
+   CONF_STATUS : 1 valeurs ; ['']
+   Confidentiality status : 1 valeurs ; ['']
+   COMMENT_OBS : 1 valeurs ; ['']
+   Observation comment : 1 valeurs ; ['']
+   DECIMALS : 1 valeurs ; ['0']
+   Decimals : 1 valeurs ; ['Zero']
+   TIME_PER_COLLECT : 1 valeurs ; ['']
+   Time period collection : 1 valeurs ; ['']
+   UNIT_MULT : 1 valeurs ; ['0']
+   Unit multiplier : 1 valeurs ; ['Units']
+   annees : ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+   pays (REF_AREA) : ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'PER', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'SWE', 'TUR', 'USA']
+== Eurostat educ_uoe_ent01 : dimensions ['freq', 'unit', 'age', 'sex', 'isced11', 'geo', 'time']
+   freq : A=Annual
+   unit : NR=Number
+   age : TOTAL=Total; Y_LT10=Less than 10 years; Y10=10 years; Y11=11 years; Y12=12 years; Y13=13 years; Y14=14 years; Y15=15 years; Y16=16 years; Y17=17 years; Y18=18 years; Y19=19 years; Y20=20 years; Y20-24=From 20 to 24 years; Y21=21 years; Y22=22 years; Y23=23 years; Y24=24 years; Y25=25 years; Y25-29=From 25 to 29 years; Y26=26 years; Y27=27 years; Y28=28 years; Y29=29 years; Y30=30 years
+   sex : T=Total; M=Males; F=Females
+   isced11 : ED3=Upper secondary education; ED34=Upper secondary education - general; ED35=Upper secondary education - vocational; ED4=Post-secondary non-tertiary education; ED44=Post-secondary non-tertiary education - ; ED45=Post-secondary non-tertiary education - ; ED5=Short-cycle tertiary education; ED54=Short-cycle tertiary education - general; ED55=Short-cycle tertiary education - vocatio; ED6=Bachelor's or equivalent level; ED64=Bachelor's or equivalent level - academi; ED65=Bachelor's or equivalent level - profess; ED7=Master's or equivalent level; ED74=Master's or equivalent level - academic; ED75=Master's or equivalent level - professio; ED8=Doctoral or equivalent level
+   geo : FR=France
+   time : 2019=2019
+== Eurostat educ_uoe_grad01 : dimensions ['freq', 'unit', 'age', 'sex', 'isced11', 'geo', 'time']
+   freq : A=Annual
+   unit : NR=Number
+   age : TOTAL=Total; Y_LT10=Less than 10 years; Y10=10 years; Y11=11 years; Y12=12 years; Y13=13 years; Y14=14 years; Y15=15 years; Y16=16 years; Y17=17 years; Y18=18 years; Y19=19 years; Y20=20 years; Y20-24=From 20 to 24 years; Y21=21 years; Y22=22 years; Y23=23 years; Y24=24 years; Y25=25 years; Y25-29=From 25 to 29 years; Y26=26 years; Y27=27 years; Y28=28 years; Y29=29 years; Y30=30 years
+   sex : T=Total; M=Males; F=Females
+   isced11 : ED3=Upper secondary education; ED34=Upper secondary education - general; ED342_352=Upper secondary education - all programm; ED342=Upper secondary education - general, suf; ED343_353=Upper secondary education - all programm; ED343=Upper secondary education - general, suf; ED344_354=Upper secondary education - all programm; ED344=Upper secondary education - general, suf; ED35_45=Upper secondary and post-secondary non-t; ED35=Upper secondary education - vocational; ED352=Upper secondary education - vocational, ; ED353=Upper secondary education - vocational, ; ED354=Upper secondary education - vocational, ; ED4=Post-secondary non-tertiary education; ED44=Post-secondary non-tertiary education - ; ED443_453=Post-secondary non-tertiary education - ; ED443=Post-secondary non-tertiary education - ; ED444_454=Post-secondary non-tertiary education - ; ED444=Post-secondary non-tertiary education - ; ED45=Post-secondary non-tertiary education - ; ED453=Post-secondary non-tertiary education - ; ED454=Post-secondary non-tertiary education - ; ED5-8=Tertiary education (levels 5-8); ED5=Short-cycle tertiary education; ED544=Short-cycle tertiary education - general
+   geo : FR=France
+   time : 2019=2019

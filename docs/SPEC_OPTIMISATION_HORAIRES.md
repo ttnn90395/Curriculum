@@ -800,3 +800,11 @@ sanitaire ; cohortes 2021 et suivantes apres la reforme du bac ; cohorte 2023 le
 % de reinscrits en sante (a confirmer par le contexte imprime). Lecture : descriptive, sans seuil,
 par groupe de cohortes sans tendance commune (Precision 26). Q n'est pas un taux de reussite : il
 inclut les redoublants et exclut les reorientations, ce qui est rapporte sans correction.
+
+Erratum a la Precision 28 (2026-11-01, ecrit apres lecture des contextes imprimes) : les phrases
+sources des cohortes 2020 a 2023 definissent Q comme l'inscription en 2e annee "de licence ou de
+formation de sante" (pour les LAS), et non seulement en licence ; la remarque sur le champ sante
+ne vaut donc pas pour la seule cohorte 2023 mais pour 2020 a 2023, alors que la colonne remarque
+du fichier ne la porte que pour 2023. Les valeurs de Q sont inchangees. Les ecarts annonces par
+les notes elles-memes (cohorte 2019 : +8 points sur 2018, soit 45,5 ; cohorte 2021 : 1,5 point
+sous 45,5 ; cohorte 2022 : +3,8 ; cohorte 2023 : +1,3) sont coherents avec les cinq valeurs.

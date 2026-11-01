@@ -993,3 +993,22 @@ correspondant, et chaque phrase citee ; une suite non retrouvee est declaree abs
 correction a la main. Lecture : descriptive ; evolution entre 2008 et 2019 et entre 2019 et 2023
 (NZ), entre 2010 et 2018 et entre 2018 et 2021 (US), rapportees a cote de la France (E1 par voie,
 Amendement 21) sans seuil ni test ni pente commune.
+
+## Precision 32 (2026-11-01) : transcription de la retention americaine, Amendement 26
+(pre-enregistree avant le calcul de toute difference ; valeurs lues dans la sonde 22, qui n'a imprime
+que des lignes de la table)
+
+NCES, Digest of Education Statistics 2022, table 326.30, "Retention of first-time degree-seeking
+undergraduates at degree-granting postsecondary institutions", ligne "Full-time students, All
+institutions", colonne "Percent of first-time undergraduates retained" (part des entrants de premiere
+annee qui reviennent a l'automne suivant, cohorte ajustee), pour les cohortes d'entree 2006, 2009,
+2016, 2017, 2018, 2019 et 2020 : 71,0 71,9 75,5 75,6 76,2 75,9 75,7 (%). L'appariement valeur-cohorte
+suit l'ordre des colonnes du tableau (sept valeurs, sept cohortes) ; la serie annuelle comparable est
+2016 a 2020 (cinq points), les points 2006 et 2009 sont rapportes a part. Population : etudiants a
+temps plein, tous etablissements (publics, prives a but non lucratif, a but lucratif), toutes
+formations de licence et de cycle court confondues ; la table 311.33 du Digest 2023 donne un point
+supplementaire (cohorte 2021), non transcrit ici faute de lecture de ses colonnes.
+Controle : la suite des sept valeurs est cherchee comme chaine continue dans le texte de la page
+telechargee ; absente, la serie est declaree absente. Lecture : descriptive, de 2016 a 2019 et de
+2019 a 2020, a cote de Q (France, Amendement 23) sans seuil ni test ni pente commune. Limite : la
+retention (retour l'annee suivante) n'est pas le passage dans l'annee superieure ni l'achevement.

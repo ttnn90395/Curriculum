@@ -1,0 +1,56 @@
+pays,indicateur,annee,valeur,source,statut
+NZ,NCEA niveau 3 (Year 13),2008,51.0,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2009,51.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2010,52.2,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2011,53.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2012,55.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2013,56.7,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2014,59.8,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2015,62.6,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2016,64.2,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2017,65.5,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2018,66.1,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2019,67.3,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2020,72.1,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2021,70.5,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2022,68.2,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 3 (Year 13),2023,67.7,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2008,60.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2009,61.7,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2010,63.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2011,66.2,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2012,67.8,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2013,71.3,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2014,75.0,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2015,76.3,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2016,78.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2017,78.5,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2018,77.6,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2019,77.5,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2020,80.1,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2021,77.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2022,74.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 2 (Year 12),2023,73.2,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2008,57.5,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2009,60.6,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2010,62.8,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2011,63.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2012,65.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2013,69.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2014,72.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2015,74.5,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2016,75.3,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2017,75.0,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2018,72.4,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2019,70.6,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2020,71.8,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2021,69.2,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2022,64.9,NZQA six indicators 2024,verifie
+NZ,NCEA niveau 1 (Year 11),2023,61.7,NZQA six indicators 2024,verifie
+US,GPA cumulatif ajuste (ACT),2010,3.17,ACT R2134 figure 6,verifie
+US,GPA cumulatif ajuste (ACT),2012,3.20,ACT R2134 figure 6,verifie
+US,GPA cumulatif ajuste (ACT),2014,3.21,ACT R2134 figure 6,verifie
+US,GPA cumulatif ajuste (ACT),2016,3.22,ACT R2134 figure 6,verifie
+US,GPA cumulatif ajuste (ACT),2018,3.26,ACT R2134 figure 6,verifie
+US,GPA cumulatif ajuste (ACT),2020,3.31,ACT R2134 figure 6,verifie
+US,GPA cumulatif ajuste (ACT),2021,3.36,ACT R2134 figure 6,verifie

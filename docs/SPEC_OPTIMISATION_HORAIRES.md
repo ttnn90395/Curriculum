@@ -575,3 +575,58 @@ excluant l'Espagne de la lecture "atypique" ne vaut que pour la fenetre W1 (depa
 Pour W2, tous les pays partent de 2019 et l'Espagne entre dans la lecture selon la regle de la
 Precision 21, ce que fait le script. Verification : sans l'Espagne, la plage W2 reste
 [-2,41 ; -0,40] (variation espagnole : -2,22) et la lecture ne change pas.
+
+## Amendement 21 (2026-10-26) : validite du baccalaureat, quatre axes (pre-enregistre avant toute
+collecte)
+
+Statut : exploratoire, descriptif, non causal. Cet amendement remplace la formulation "le bac ne
+selectionne plus" par quatre axes de validite testes separement, chacun avec sa lecture fixee ici.
+Aucune conclusion n'est posee d'avance ; les quatre axes ne sont pas agreges en un verdict unique,
+et tout resultat defavorable a l'hypothese de depart est rapporte tel quel. Le taux de reussite
+(E1, Amendement 17) devient un indicateur secondaire : il dit qui est admis, pas ce que le diplome
+certifie. Perimetre : bac general et technologique, voie professionnelle quand la source la
+distingue. Signalements communs : 2020 et 2021 (controle continu integral puis reforme) sont
+signales dans chaque serie, sans correction ; pas de retrait de valeurs aberrantes.
+
+Axe 1, fiabilite de la notation. Aucune donnee ouverte recente de double correction du bac n'a ete
+trouvee. Cet axe n'est donc pas calcule. Il est rapporte par lecture de la litterature, avec ses
+limites : Suchaut (2008, IREDU DT 2008/3 : dissertation de SES, 66 correcteurs, 6 copies, ecart
+jusqu'a 10 points sur une meme copie) et Dupuis et Pluvinage (1976, Bulletin de l'APMEP n.303 :
+mathematiques, hors bac). Lecture : "non evaluable sur le bac actuel", sans extrapolation.
+
+Axe 2, validite de contenu et difficulte. Inchange : defini par l'Amendement 7 (corpus de sujets
+et de baremes, pilote sur les mathematiques du brevet). Aucun indicateur n'est ajoute ici.
+
+Axe 3, validite predictive (hypothese H3 : la mention au bac predit moins bien qu'avant la
+reussite en licence). Source : Notes Flash du SIES "Parcours et reussite en licence" (taux de
+reussite en 3 ou 4 ans des entrants en L1, par mention du bac), une valeur par cohorte de
+bacheliers disponible dans les Notes Flash publiees. Indicateur G = taux (mention Tres bien) moins
+taux (Passable, premier groupe), en points, plus les parts de chaque mention parmi les entrants,
+rapportees pour chaque cohorte. Lecture : H3 est dite "soutenue" si G de la derniere cohorte est
+inferieure de plus de 5 points a G de la premiere cohorte disponible, "non soutenue" sinon (seuil
+conventionnel, fixe ici, non estime). Les cohortes 2020 et suivantes sont signalees (controle
+continu, effets sanitaires). Le niveau general de reussite en licence baisse sur la periode
+(environ 47 % pour la cohorte 2018, 40 % pour 2020) : G est donc rapporte en points et en rapport
+(taux TB / taux Passable). Lecture non causale : la selection en L1 (Parcoursup) peut modifier la
+composition des groupes.
+
+Axe 4, validite de construit et equite. Deux parties, rapportees separement.
+
+4a (hypothese H4 : une meme note de controle continu n'a pas la meme signification d'un lycee a l'autre). Source :
+DEPP, "Moyennes de controle continu et resultats aux epreuves terminales du baccalaureat general"
+(avril 2025, session 2023, 2 201 etablissements, huit disciplines). Les ecarts publies (ecart
+median controle continu moins epreuve terminale par discipline, dispersion entre lycees) sont
+rapportes tels quels, sans recalcul, sauf si les donnees appariees sont accessibles en open data.
+Lecture : H4 est dite "soutenue" pour une discipline si la source publie, pour cette discipline,
+une dispersion (etendue ou ecart interquartile) des ecarts entre lycees superieure a un point, a
+moyenne terminale donnee ; sinon "non soutenue".
+
+4b (hypothese H5 : le niveau mesure des eleves du haut de la filiere scientifique a baisse).
+Source : DEPP, Note d'information n.35 (novembre 2016, Le Cam et Salles), TIMSS Advanced :
+mathematiques en terminale S, 570 points en 1995 et 463 en 2015 (couverture 19,9 % puis 21,5 % de
+la classe d'age). Rapporte tel quel, avec les limites : une seule filiere, environ un cinquieme de
+la classe d'age, doublants exclus en 1995 mais pas en 2015 (effet de 3 points selon la note). Cet
+indicateur ne dit rien du bas de la distribution et ne teste pas "tout le monde peut l'avoir".
+
+Aucun axe ne mesure directement le niveau des admis les moins bons ; cette limite est rapportee
+dans la conclusion, quelle que soit la lecture des axes.

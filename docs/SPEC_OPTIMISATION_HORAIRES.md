@@ -672,3 +672,26 @@ cohorte non signalee (2019) a la place de 2020, la cohorte 2020 etant signalee (
 licences d'acces sante). Aucun autre seuil. Limites declarees : la population des entrants en L1 est
 selectionnee (Parcoursup) et sa composition change ; la part des bacheliers qui entrent en L1
 varie ; une baisse de Ls peut venir de la composition autant que du niveau.
+
+## Precision 25 (2026-11-01) : correction de lecture des Notes Flash anciennes et mise en oeuvre
+de l'Amendement 22 (pre-enregistree avant la nouvelle extraction)
+
+Correction de la Precision 23. La sonde 13 a montre que la note de la cohorte 2014 avait ete
+rejetee par un defaut de lecture et non par absence de donnees : les libelles "Passable 1er
+groupe" et "Passable 2e groupe" y sont coupes sur deux lignes du PDF. Le lecteur joint desormais
+deux lignes consecutives quand le libelle n'est pas complet sur une seule. La cohorte 2013 reste
+absente (la copie hebergee a ode.ube.fr est une page web et non le PDF) ; aucun remplacement.
+Les cohortes extraites sont donc 2012, 2014 et 2015 a 2020. La regle de H3 est inchangee et sa
+premiere et sa derniere cohorte (2012 et 2020) aussi ; la cohorte 2014 s'ajoute a la serie
+rapportee.
+
+Mise en oeuvre de l'Amendement 22. L = taux de reussite en 3 ou 4 ans de la ligne "Ensemble" qui
+suit le tableau des mentions. Ls = taux de reussite en 3 ou 4 ans (et en 3 ans, et part parmi
+les entrants) des lignes "Ensemble bac general", "Ensemble bac techno", "Ensemble bac pro"
+(libelles anciens : "Ens. bac general", "Ens. bac techno", "Ens. bac pro"), lues dans les 45
+lignes qui precedent "Mention obtenue". Q (taux de passage L1-L2) n'est pas extrait ici : les
+phrases qui le portent different d'une note a l'autre et la cohorte de Q n'est pas celle de L ;
+il est declare absent dans cette mise en oeuvre. H6 est calculee comme pre-enregistre, avec E1
+general de la session egale a l'annee de la cohorte (data/evidence_bac_reussite_ensemble.csv,
+colonne taux_general), et sa lecture de controle (cohorte 2019 a la place de 2020). Les parts de
+chaque mention parmi les entrants sont rapportees pour chaque cohorte (Amendement 21).

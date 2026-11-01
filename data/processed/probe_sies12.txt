@@ -1,0 +1,83 @@
+== nf_2015-04.pdf
+  [49] étudiants à l’Université : taux de passage de L1 en | L2 et de M1 en M2, taux d’obtention de la  Licence, | du Master et du DUT. Elle est accompagnée de la | pu
+  [110] Technologique STG | (1) | 11,6 | 7,6 | 14,1
+  [119] Professionnel | 6,2 | 3,0 | 5,0 | Non bachelier
+  [172] Général | 67,0 | 71,2 | 81,7 | Technologique
+  [176] Technologique | 26,7 | 51,9 | 65,6 | Professionnel
+  [180] Professionnel | 2,1 | 39,9 | 49,2 | Ensemble bacheliers
+  [184] Ensemble bacheliers | 95,8 | 65,2 | 76,5 | Non-bacheliers
+  [254] hausse du taux de passage de première en | deuxième année, qui passe de 53 % à 59 % sur la | même période. | Sources, champ et éléments méthodologiques | Les in
+== nf_2017-18.pdf
+  [155] Ensemble | 100,0 | 28,4 | 41,0 | s’expliquent d’emblée par des taux de passage en L2
+  [159] s’expliquent d’emblée par des taux de passage en L2 | très dissemblables. | Seuls 8 % des bacheliers professionnels parviennent | en L2 après un ou deux ans en 
+  [163] la moyenne. Mais le taux de passage en L3 de ceux | qui sont parvenus en L2 (73%) et le taux de réussite | au diplôme de ceux qui sont parvenus en L3 ou en LP |
+  [180] Ensemble | Effectif bacheliers 2014 | 32 937 | 2 438 | 35 375
+  [296] leur taux de passage en L2, de 23 %, est inférieur | de plus de moitié à la moyenne. En revanche, leur | taux de passage de L2 en L3 ou en LP est de 81 % | et l
+  [298] taux de passage de L2 en L3 ou en LP est de 81 % | et leur taux de réussite en L3 (ou LP) de 77 %. | Les taux de réussite sont très liés à la mention | obtenue 
+== nf_2018-21.pdf
+== nf_2019-26.pdf
+  [25] technologique ne sont que 8 % à réussir leur licence | en 3 ans et 15 % en 3 ou 4 ans à la session de 2018. | Les taux de réussite des bacheliers professionnels
+  [117] Ensemble | 100,0 | 29,2 | 41,9 | (1) Sciences et Technologies de gestion
+  [161] général (4 points de plus) et à décrocher une | mention au baccalauréat (20 % de mention bien ou | très bien chez les étudiantes contre 13 % chez les | étudiant
+  [277] l’abandon sont les plus importants. Le taux de passage | national de L1 à L2 des néo-bacheliers se situe à 44 % en | 2018. Il est en hausse cette année après pl
+  [310] Ensemble | 100% | 44% | 27% | 29%
+== nf_2020-22.pdf
+  [18] baccalauréat général, qui représentent 77 % des bacheliers | 2015 inscrits en licence, sont 36,6 % à valider leur diplôme | de licence en 3 ans et 51,2 % en 3 o
+  [24] technologique ne sont que 7,9 % à réussir leur licence en 3 | ans et 15,3 % en 3 ou 4 ans à la session 2019. Les taux de | réussite des bacheliers professionnel
+  [132] Ensemble | 100 | 29,6 | 42,2 | (1) Sciences et Technologies de gestion
+== nf_2021-24.pdf
+  [27] baccalauréat technologique (14 % des bacheliers inscrits) | obtiennent leur licence en 3 ans et, 15,7 % en 3 ou 4 ans. | Les taux de réussite des bacheliers pro
+  [76] Ensemble bac général | 78,4 | 36,1 | 52,3 | Techno STMG (1)
+  [88] Ensemble bac techno | 14,0 | 7,7 | 15,7 | Ensemble bac pro
+  [92] Ensemble bac pro | 7,6 | 2,3 | 5,0 | Mention obtenue
+  [142] Ensemble | 100 | 29,6 | 43,6 | (1) Sciences et technologies du management et de la gestion
+  [290] Ensemble | 100 | 78,4 | 19,7 | 29,6
+  [338] précédentes. En effet, le taux de passage en L2 des néo-bacheliers | inscrits en L1 à la rentrée 2019 est de 53,5 % ; il est supérieur de | 8 points à celui de 
+== nf_2022-30.pdf
+  [5] Après la forte hausse observée à la session 2020 dans le contexte de la crise sanitaire, le taux de passage des néo-bacheliers en | 2ème année a sensiblement ba
+  [41] baccalauréat technologique (13,3 % des bacheliers inscrits) | obtiennent leur licence en 3 ans et, 17,3 % en 3 ou 4 ans. | Les taux de réussite des bacheliers p
+  [81] Ensemble bac général | 80,3 | 38,6 | 53,8 | Techno STMG (1)
+  [93] Ensemble bac techno | 13,3 | 9,3 | 17,3 | Ensemble bac pro
+  [97] Ensemble bac pro | 6,4 | 3,1 | 6,2 | Mention obtenue
+  [147] Ensemble | 100 | 32,4 | 45,9 | (1) Sciences et technologies du management et de la gestion
+  [264] Ensemble | 100 | 80,3 | 20,1 | 32,4
+  [290] compris de licence accès santé (L.AS), le taux de passage des | néo-bacheliers en 2ème année de licence (ou de formation | de santé pour les étudiants en L.AS),
+  [299] année particulière, le taux de passage en 2ème année des | néo-bacheliers 2020 est supérieur de 2,3 points à celui de la | cohorte 2018 et de 4,1 points à celui
+== nf_2023-26.pdf
+  [5] Après la forte hausse observée à la session 2020 dans le contexte de la crise sanitaire, le taux de passage des néo-bacheliers en | 2ème année avait baissé de p
+  [32] baccalauréat général (82,2 % des bacheliers 2018 inscrits en | L1) sont 41,4 % à valider leur diplôme de licence en 3 ans et | 53,9 % en 3 ou 4 ans. Parmi eux, 
+  [39] baccalauréat technologique (13,0 % des bacheliers inscrits) | obtiennent leur licence en 3 ou 4 ans et 7,7 % des bacheliers | professionnels (4,9 % des bachelie
+  [79] Ensemble bac général | 82,2 | 41,4 | 53,9 | Techno STMG (1)
+  [91] Ensemble bac techno. | 13,0 | 10,2 | 17,5 | Ensemble bac pro.
+  [95] Ensemble bac pro. | 4,9 | 4,5 | 7,7 | Mention obtenue
+  [145] Ensemble | 100 | 35,6 | 46,9 | (1) Sciences et technologies du management et de la gestion
+  [267] Ensemble | 100 | 82,2 | 21,0 | 35,6
+  [290] Le taux de passage en 2ème année des néo-bacheliers 2021 | est en baisse | À la session 2022, le taux de passage des néo-bacheliers en | 2ème année de licence o
+  [292] À la session 2022, le taux de passage des néo-bacheliers en | 2ème année de licence ou de formation de santé pour les | étudiants en licence accès santé (L.AS),
+  [304] Par rapport à la cohorte 2019, le taux de passage en 2ème | année des néo-bacheliers 2021 est tout de même en repli | de 1,5 point. À l’inverse, le taux de redo
+== nf_2024-30.pdf
+  [5] Après la forte baisse observée à la session 2022, le taux de passage des néo-bacheliers en 2ème année de licence, ou de formation | de santé pour les inscrits e
+  [6] de santé pour les inscrits en LAS, est en hausse de 3,8 points à la session 2023, à 47,8 %. Ce taux de passage en 2ème année était | en baisse depuis la session
+  [29] baccalauréat général (82,7 % des bacheliers 2019 inscrits en | L1) sont 39,6 % à valider leur diplôme de licence en 3 ans et | 52,2 % en 3 ou 4 ans. Parmi eux, 
+  [36] baccalauréat technologique (12,7 % des bacheliers inscrits) | obtiennent leur licence en 3 ou 4 ans et 7,7 % des bacheliers | professionnels (4,6 % des bachelie
+  [80] Ensemble bac général | 82,7 | 39,6 | 52,2 | Techno STMG (1)
+  [92] Ensemble bac techno. | 12,7 | 10,9 | 17,6 | Ensemble bac pro.
+  [96] Ensemble bac pro. | 4,6 | 4,9 | 7,7 | Mention obtenue
+  [146] Ensemble | 100 | 34,3 | 45,7 | (1) Sciences et technologies du management et de la gestion
+  [267] Ensemble | 100 | 82,7 | 21,2 | 34,3
+  [291] Le taux de passage en 2ème année des néo-bacheliers 2022 | est en hausse | À la session 2023, le taux de passage des néo-bacheliers en | 2ème année de licence o
+  [293] À la session 2023, le taux de passage des néo-bacheliers en | 2ème année de licence ou de formation de santé pour les | étudiants en licence accès santé (L.AS),
+  [301] Le taux de passage en 2ème année augmente par rapport à | la session 2022 (+3,8 points) alors qu’il diminuait depuis la | session 2020 (cohorte 2019 - 53,5 %). 
+  [306] cohorte 2018, le taux de passage en 2ème année des néo- | bacheliers 2022 est en hausse (+2,3 points). Le taux de | redoublement (25,4 %) en 1ère année stagne (
+== nf_2025-29.pdf
+  [5] Après la hausse observée à la session 2023, le taux de passage des néo-bacheliers en 2ème année de licence, ou de formation de | santé pour les inscrits en LAS,
+  [33] baccalauréat général (83,1 % des bacheliers 2020 inscrits en | L1) sont 34,6 % à valider leur diplôme de licence en 3 ans et | 46,1 % en 3 ou 4 ans. Par rapport
+  [38] technologique (12,2 % des bacheliers inscrits) obtiennent | leur licence en 3 ou 4 ans et 6,5 % des bacheliers | professionnels (4,7 % des bacheliers inscrits) 
+  [83] Ensemble bac général | 83,1 | 34,6 | 46,1 | Techno STMG (1)
+  [95] Ensemble bac techno. | 12,2 | 8,9 | 14,0 | Ensemble bac pro.
+  [99] Ensemble bac pro. | 4,7 | 4,2 | 6,5 | Mention obtenue
+  [149] Ensemble | 100 | 30,1 | 40,3 | (1) Sciences et technologies du management et de la gestion
+  [265] Ensemble | 100,0 | 83,1 | 29,0 | 30,1
+  [288] Le taux de passage en 2ème année des néo-bacheliers 2023 | est en hausse | À la session 2024, le taux de passage des néo-bacheliers en | 2ème année de licence o
+  [290] À la session 2024, le taux de passage des néo-bacheliers en | 2ème année de licence ou de formation de santé, est de | 49,1 % (dont 1,5 % en santé). Il varie de
+  [298] Le taux de passage en 2ème année augmente par rapport à | la session 2023 (+1,3 point). Le taux de redoublement | (25,4 %) en 1ère année stagne. Plus d’un néo-b

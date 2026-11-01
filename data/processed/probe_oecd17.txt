@@ -1,0 +1,59 @@
+== OECD 739501 octets
+   1550 jeux au total
+   OECD.CFE.EDS | DSD_REG_EDU@DF_ENROL | Students enrolment - Regions
+   OECD.EDU.IMEP | DSD_EAG_UOE_FIN_ENR@DF_UOE_FIN_ENR | Enrolment data adjusted to the financial year
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_DIST_FIELD | Distribution of enrolled students, new entrants and graduates by field of education
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_ENRL_RATE | Enrolment rate by age
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_MEAN_AGE | Mean age of enrolled students, new entrants and graduates
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_AGE | Number of enrolled students, new entrants and graduates by age
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_FIELD | Number of enrolled students, graduates and new entrants by field of education
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_INST | Number of enrolled students and graduates by type of institution
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_RAW_MOB | Number of mobile students enrolled and graduated by country of origin
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_FIELD | Share of new entrants and graduates in each field of education by gender
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_FIRST | Share of new entrants to and first-time graduates at tertiary education
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_GENDER | Share of enrolled students, new entrants and graduates by gender
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_INST | Distribution of enrolled students and graduates by type of institution
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_MOB | Share of mobile enrolments, new entrants and graduates
+   OECD.EDU.IMEP | DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_TOTALS | Total number of enrolled students, new entrants and graduates
+   OECD.ELS.HD | DSD_HEALTH_REAC_EMP@DF_GRAD | Graduates
+== EUROSTAT 1983063 octets
+   "                    Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and NUTS 2 region"	"edat_lfse_33"	"dataset"	"30.10.2026"	"1
+   "                Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and degree of urbanisation"	"edat_lfse_34"	"dataset"	"30.10.202
+   "                            School completion rate at ISCED 1 level by sex - ENP-South countries"	"enps_educ_comprate"	"dataset"	"05.03.2026"	"12.05.2025"	"2005"	"2024"	251
+   "                            Population (aged 20-24) who completed at least an upper secondary educational attainment level (ISCED 2011 level 3) by sex - ENP-South countries"	"enps_edat_lfse3"	"dataset"	"05.03.2026"	"05.03.2026"	"
+   "                            Population (aged 30-34) who completed tertiary or equivalent education - ENP-East countries"	"enpe_edat_lfse_03"	"dataset"	"03.02.2026"	"03.02.2026"	"2005"	"2024"	70
+   "                        Pupils and students enrolled by education level, programme orientation, completion and sex"	"educ_uoe_enra16"	"dataset"	"31.10.2026"	"31.10.2026"	"2012"	"2025"	35105
+   "                Pupils and students - entrants"	"educ_uoe_ent"	"folder"	" "	" "	" "	" "	
+   "                    New entrants by education level, programme orientation, sex and age"	"educ_uoe_ent01"	"dataset"	"01.11.2026"	"01.11.2026"	"2012"	"2025"	724133
+   "                    New entrants by education level, programme orientation, sex and field of education"	"educ_uoe_ent02"	"dataset"	"01.11.2026"	"01.11.2026"	"2012"	"2025"	593854
+   "                    Distribution of new entrants at education level and programme orientation by sex and field of education"	"educ_uoe_ent03"	"dataset"	"01.11.2026"	"01.11.2026"	"2012"	"2025"	582820
+   "                    Graduates by education level, programme orientation, completion, sex and age"	"educ_uoe_grad01"	"dataset"	"06.10.2026"	"05.06.2026"	"2012"	"2024"	1844527
+   "                            Population aged 20-34 in private households with work experience while studying by educational attainment level and years since completion of highest level of education"	"edat_lfs_9919"	"dataset"	"30.1
+   "                        Employment rates of young persons not in education and training by educational attainment level and years since completion of highest level of education"	"edat_lfse_24"	"dataset"	"30.10.2026"	"16.04.2026"	
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and citizenship"	"edat_lfse_31"	"dataset"	"30.10.2026"	
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and country of birth"	"edat_lfse_32"	"dataset"	"30.10.2
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and NUTS 2 region"	"edat_lfse_33"	"dataset"	"30.10.2026
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and degree of urbanisation"	"edat_lfse_34"	"dataset"	"3
+   "                        Unemployment rates of young persons not in education and training by educational attainment level and years since completion of highest level of education"	"edat_lfse_25"	"dataset"	"30.10.2026"	"16.04.2026
+   "                        Labour force participation rates of young persons not in education and training by educational attainment level and years since completion of highest level of education"	"edat_lfse_26"	"dataset"	"30.10.202
+   "                        Labour force non-participation rates of young persons not in education and training by educational attainment level and years since completion of highest level of education"	"edat_lfse_27"	"dataset"	"30.10
+   "                    Enrolments, graduates, entrants, personnel and language learning"	"educ_isced97"	"folder"	" "	" "	" "	" "	
+   "                        New entrants to ISCED 3 to 6 by age and sex (1998-2012)"	"educ_entr2tl"	"dataset"	"15.03.2019"	"03.01.2024"	"1998"	"2012"	85053
+   "                            Persons not in formal education by match between educational attainment level and current/last main job and years since completion of highest level of education (2024)"	"lfso_24match03"	"dataset"	"11.0
+   "                            Persons not in formal education by match between field of education and current/last main job and years since completion of highest level of education (2024)"	"lfso_24match08"	"dataset"	"11.06.2026"	"1
+   "                            Persons not in formal education by match between skills and current/last main job and years since completion of highest level of education (2024)"	"lfso_24match12"	"dataset"	"11.06.2026"	"11.06.2026"	"
+   "                            Population in private households by country where the highest level of education was successfully completed, country of birth and educational attainment level (2021)"	"lfso_21educ01"	"dataset"	"10.09.2
+   "                            Early leavers from education and training who started but never completed upper secondary education by reason (2016)"	"lfso_16elvncom"	"dataset"	"03.02.2022"	"03.01.2024"	"2016"	"2016"	214
+   "                            Population in private households with medium educational attainment not in formal education who started but never completed tertiary education by reason, educational attainment level and work experienc
+   "                        Persistent at-risk-of-poverty rate by educational attainment level"	"ilc_li24"	"dataset"	"20.10.2026"	"10.06.2026"	"2007"	"2025"	5734
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and citizenship"	"edat_lfse_31"	"dataset"	"30.10.2026"	
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and country of birth"	"edat_lfse_32"	"dataset"	"30.10.2
+   "                            Population in private households by country where the highest level of education was successfully completed, country of birth and educational attainment level (2021)"	"lfso_21educ01"	"dataset"	"10.09.2
+   "                        Population aged 20-34 in private households with work experience while studying by educational attainment level and years since completion of highest level of education"	"edat_lfs_9919"	"dataset"	"30.10.20
+   "                    Graduates by education level, programme orientation, completion, sex and age"	"educ_uoe_grad01"	"dataset"	"06.10.2026"	"05.06.2026"	"2012"	"2024"	1844527
+   "                    Labour status of young people by years since completion of highest level of education"	"sks_dimlf_ls"	"folder"	" "	" "	" "	" "	
+   "                        Employment rates of young persons not in education and training by educational attainment level and years since completion of highest level of education"	"edat_lfse_24"	"dataset"	"30.10.2026"	"16.04.2026"	
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and citizenship"	"edat_lfse_31"	"dataset"	"30.10.2026"	
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and country of birth"	"edat_lfse_32"	"dataset"	"30.10.2
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and NUTS 2 region"	"edat_lfse_33"	"dataset"	"30.10.2026
+   "                        Employment rates of young persons not in education and training by educational attainment level, years since completion of highest level of education and degree of urbanisation"	"edat_lfse_34"	"dataset"	"3

@@ -867,3 +867,34 @@ et les populations (temps plein, nationaux) different et sont rapportees ; les e
 l'indicateur peuvent changer de definition ; l'indicateur mesure l'achevement et non le niveau ni
 la difficulte du bac ou du superieur. Les examens nationaux de fin de secondaire ne sont pas
 etendus : leur comparaison reste limitee aux pays de l'analyse A.
+
+## Precision 29 (2026-11-01) : indicateur synthetique d'achevement, Amendement 25
+(pre-enregistree avant la lecture de toute valeur ; ecrite apres la sonde 17, qui n'a liste que des
+titres)
+
+Constat de la sonde 17 : ni l'OCDE (SDMX, jeux OECD.EDU.IMEP) ni Eurostat ne publient de taux
+d'achevement par cohorte d'entree sous forme de jeu ouvert ; ils publient des effectifs de nouveaux
+entrants (OCDE DF_UOE_NF_STUD_TOTALS ; Eurostat educ_uoe_ent01, 2012 a 2025) et de diplomes
+(Eurostat educ_uoe_grad01, 2012 a 2024). L'Amendement 25 est donc mene avec un indicateur
+synthetique.
+
+Indicateur : R(t, d) = diplomes de niveau CITE 6 (licence ou equivalent) de l'annee t, divises par
+les nouveaux entrants de niveau CITE 6 de l'annee t - d, tous sexes et ages confondus, pour d = 3
+(indicateur principal) et d = 4 (sensibilite), pour chaque pays de l'OCDE ayant les deux effectifs et
+pour t de 2015 a la derniere annee commune. La duree theorique des licences varie (3 ans dans la
+plupart des pays, 4 ans par exemple en Espagne) : les deux valeurs de d sont rapportees, sans choix
+a posteriori, et aucun niveau n'est compare entre pays. Source principale : OCDE
+(OECD.EDU.IMEP, DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_TOTALS), qui couvre l'ensemble des pays ;
+controle : pour les pays de l'Union, ecart entre le R calcule avec l'OCDE et celui calcule avec
+Eurostat, rapporte tel quel. Les codes exacts de dimensions sont fixes par une precision apres la
+sonde 18 des metadonnees, avant toute extraction des valeurs.
+
+Lecture : pour chaque pays, evolution de R entre 2015 et la derniere annee commune, et entre la
+derniere annee avant 2020 et la derniere annee commune ; rang de la France et ecart a la mediane,
+rapportes par annee, sans test ni seuil ni pente commune. Limites, declarees : R n'est pas un taux
+d'achevement (diplomes et entrants d'annees differentes, sans suivi individuel) ; les effectifs
+d'entrants changent (croissance ou baisse des cohortes), ce qui fausse R dans le sens oppose (une
+cohorte d'entrants plus grande que celle des diplomes fait baisser R) ; les etudiants
+internationaux, les passages de CITE 5 a CITE 6 et les diplomes de reconversion sont inclus ; la
+definition de la licence a change en France avec la reforme LMD et le BUT en 2021 (le BUT est de
+niveau CITE 6) ; l'indicateur ne dit rien du niveau des eleves ni de la difficulte du bac.

@@ -925,3 +925,12 @@ rapportes tels quels ; si Eurostat n'est pas joignable, le controle est declare 
 Lecture : descriptive, sans seuil, sans test, sans pente commune ; la France est rapportee a cote des
 autres pays mais aucun niveau n'est interprete comme une qualite du bac. Les limites de la
 Precision 29 s'appliquent.
+
+Erratum a la Precision 30 (2026-11-01, ecrit apres la premiere execution) : la premiere version du
+script (sha 1b464b59e462ed34) n'imprimait un pays que si ses trois valeurs (annee de base, 2019,
+2024) etaient presentes, ce qui contredit la regle de la Precision 30 (chaque ecart est omis
+separement quand une de ses deux valeurs manque). La version corrigee calcule chaque ecart
+independamment. Constat de la premiere execution, avant correction : aucune valeur R3 n'existe pour
+2015 (le fichier ne contient pas de nouveaux entrants de licence en 2012 pour les pays retenus) ;
+R3 commence en 2016 pour 33 pays et en 2019 pour la France ; les ecarts avec 2015 comme base sont
+donc non calculables, ce qui est rapporte tel quel, sans changer d'annee de base a posteriori.

@@ -1,0 +1,58 @@
+== UK https://www.hesa.ac.uk/pis/noncon
+   ECHEC : HTTP Error 403: Forbidden
+== UK https://www.hesa.ac.uk/node/139571
+   ECHEC : HTTP Error 403: Forbidden
+== UK https://www.hesa.ac.uk/node/140010
+   ECHEC : HTTP Error 403: Forbidden
+== DE https://www.dzhw.eu/services/material/pressemitteilungen/2022_08_17_pm_dzhw_abbruch.pdf
+   563301 octets ; application/pdf
+   ...r. Ulrich Heublein Telefon +49 341 962765-33 E-Mail: heublein@dzhw.eu Die Entwicklung der Studienabbruchquoten in Deutschland Kein Anstieg der Studienabbruchquoten zu Beginn der Coronazeit Seite 1 von 2 Die Studienabbruchquote unter d
+   ...heublein@dzhw.eu Die Entwicklung der Studienabbruchquoten in Deutschland Kein Anstieg der Studienabbruchquoten zu Beginn der Coronazeit Seite 1 von 2 Die Studienabbruchquote unter den deutschen Studierenden hat sich zu Beginn der Coro
+   ...tschland Kein Anstieg der Studienabbruchquoten zu Beginn der Coronazeit Seite 1 von 2 Die Studienabbruchquote unter den deutschen Studierenden hat sich zu Beginn der Coronazeit nicht wesentlich erhöht: Vor allem im Bachelorstudium ähn
+   ...r allem im Bachelorstudium ähneln die auf Basis des Absolventenjahrgangs 2020 berechneten Studienabbruchquoten den Werten der letzten Berechnungen von 2020. Dies zeigen die heute in der Publikationsreihe DZHW-Brief veröffentlichten Er
+   ...dium erfolglos. Die Studie, deren Ergebnisse der neue DZHW-Brief vorstellt, ermittelt die Studienabbruchquoten auf Basis der Daten der amtlichen Statistik zum Absolvent*innen-Jahrgang 2020. Dabei werden die Studienabbruchquoten im Bac
+   mots-cles : 5 contextes imprimes
+== DE https://guse.dzhw.eu/portal/de/Tabelle-2.5.90.pdf
+   61542 octets ; application/pdf
+   ...HI Tabelle 2.5.90 Studienabbruchquoten für deutsche Studierende im Erststudium nach Hochschularten und ausgewählten Abschlussarten 1 Anteile in % Absolvierendenja
+   ... können, von einem längeren Studienverbleib auszugehen. Dies wurde bei der Berechnung der Studienabbruchquoten des Absolvierendenjahrgangs 2020 berücksichtigt. Für weitere Informationen siehe Quelle. 2 Aufgrund der Umstellung der Stud
+   ...tere Informationen siehe Quelle. 2 Aufgrund der Umstellung der Studienstrukturen sind die Studienabbruchquoten in den Diplom- und Magisterstudiengängen der verschiedenen Absolvierendenjahrgänge sowohl untereinander als auch mit den St
+   ...iengängen der verschiedenen Absolvierendenjahrgänge sowohl untereinander als auch mit den Studienabbruchquoten der anderen Studiengänge nur sehr eingeschränkt vergleichbar. Eine Berechnung für die Absolvierendenjahrgänge 2014, 2016, 2
+   ...Forum Hochschule 3/2012, Forum Hochschule 4/2014, Forum Hochschule 1/2017, Projektbericht Studienabbruchquoten 10/2018, DZHW Brief 3/2020, DZHW Brief 5/2022) Dieses Werk ist lizenziert unter einer Datenlizenz Deutschland Namensnennung
+   mots-cles : 5 contextes imprimes
+== NL https://www.cbs.nl/-/media/_excel/2021/39/studieuitval-na-eerste-jaar-mbo-hbo-wo.xlsx
+   255257 octets ; application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+   fichier xlsx/zip : a lire a part (feuilles non listees ici)
+   mots-cles : 0 contextes imprimes
+== NL https://www.vereniginghogescholen.nl/system/knowledge_base/attachments/files/000/001/200/original/factsheet_studievoortgang_2020-2021_v2.pdf
+   862268 octets ; application/pdf
+   ...Vereniging Hogescholen Factsheet | Studiesucces, uitval en studiewissel 2020/2021 Pagina 1 van 8 Factsheet Studiesucces, uitval en studiewissel 2020/2021 Van alle studenten die aan een 
+   ...t | Studiesucces, uitval en studiewissel 2020/2021 Pagina 1 van 8 Factsheet Studiesucces, uitval en studiewissel 2020/2021 Van alle studenten die aan een voltijd bacheloropleiding beginnen, heeft ongeveer de helft na 5 jaar ee
+   ...iploma binnen 5 jaar. In deze factsheet zal de studievoortgang op basis van studiesucces, uitval en studiewissel worden weergegeven. Hierbij worden doorsneden getoond naar vooropleiding en naar geslacht. Cijfers in deze factsh
+   ... jaar 11,3% niet meer ingeschreven. Een groot verschil t.o.v. voorgaande cohorten toen de uitval ongeveer 15% betrof. Dit corona-effect komt onder andere door het opschorten van het bsa en voorwaardelijke doorstroom van hbo-p 
+   ...op de arbeidsmarkt en nemen zij liever geen tussenjaar in corona-tijd. Naast de verlaagde uitval is het aantal studiewisselaars na 1 jaar die instroomde in 2019 ook gedaald tot 15,7% (-2,9% t.o.v. cohort 2018). Dit is vooral t
+   mots-cles : 5 contextes imprimes
+== NL https://vereniginghogescholen.nl/system/knowledge_base/attachments/files/000/001/402/original/factsheet_studievoortgang_2023-2024_v20240604_final.pdf
+   ECHEC : HTTP Error 404: Not Found
+== NL https://duo.nl/open_onderwijsdata/images/trendrapport-ho.pdf
+   14424 octets ; text/html;charset=UTF-8
+   mots-cles : 0 contextes imprimes
+== ES https://www.ciencia.gob.es/Noticias/2022/Marzo/ministerio-universidades-presenta-informe-sobre-el-abandono-de-los-estudios-universitarios-y-medidas-para-reducirlo.html
+   70246 octets ; text/html;charset=UTF-8
+   lien : https://www.ciencia.gob.es/dam/jcr:72c9ebf2-d105-40a9-b7da-357b30316499/EAU_InformeAbandonoUniversitario_mar2022.pdf
+   ...ee/InfoGeneral/documento/'; } El Ministerio de Universidades presenta un informe sobre el abandono de los estudios universitarios y aporta medidas para reducirlo header { background-color: #ffdb00; } Menú Español Idioma Español
+   ...de octubre de 2026 Leer más X El Ministerio de Universidades presenta un informe sobre el abandono de los estudios universitarios y aporta medidas para reducirlo 15 de marzo de 2022 El &ldquo;Estudio sobre abandono de los estud
+   ...niversitarios y aporta medidas para reducirlo 15 de marzo de 2022 El &ldquo;Estudio sobre abandono de los estudios de Grado en el sistema universitario espa&ntilde;ol&rdquo; ha sido presentado esta tarde en el sal&oacute;n del 
+   ... Educaci&oacute;n en la Universidad Complutense de Madrid, tiene como objetivo conocer el abandono existente en los estudios, identificar sus causas y activar medidas para reducirlo. El informe desvela que el abandono universit
+   ...udios, identificar sus causas y activar medidas para reducirlo. El informe desvela que el abandono universitario de Grado en universidades presenciales en el curso 2015-16 afecta al 13% del estudiantado. El informe ha sido pres
+   mots-cles : 5 contextes imprimes
+== ES https://www.ciencia.gob.es/gl/Noticias/2024/Noviembre/estadisticas-universidades-rendimiento.html
+   65344 octets ; text/html;charset=UTF-8
+   ...del Sistema Universitario Espa&ntilde;ol (SUE) de Grado en universidades presenciales. La tasa de abandono del estudio el primer a&ntilde;o fue del 22% para los estudiantes de nuevo ingreso del curso 2020-2021 y del 16,1% si s&oacute;lo
+   ...s m&aacute;s bajas se dan en Catalu&ntilde;a y Canarias, donde rondan valores del 22%. La tasa de abandono del estudio el primer a&ntilde;o, (porcentaje de alumnos de nuevo ingreso en una titulaci&oacute;n que no se matriculan en esa mi
+   mots-cles : 2 contextes imprimes
+== PL https://ela.nauka.gov.pl/
+   401111 octets ; text/html; charset=utf-8
+   ...agId":"UA-76190095-6","verboseErrorHandler":false,"noindex":false,"showDoctors":true,"showDropout":false,"graduationYear":"2024","reportsGraduationYearOverridden":{"phd_students":"2023","students":"2023"},"apkUrl":"https://play
+   ...agId":"UA-76190095-6","verboseErrorHandler":false,"noindex":false,"showDoctors":true,"showDropout":false,"graduationYear":"2024","reportsGraduationYearOverridden":{"phd_students":"2023","students":"2023"},"apkUrl":"https://play
+   mots-cles : 2 contextes imprimes

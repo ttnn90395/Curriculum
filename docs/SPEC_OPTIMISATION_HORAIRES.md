@@ -717,3 +717,34 @@ Limite ajoutee a H3. La Note d'information SIES 2026-06 (entrants en L1 de 2019 
 quatre ans) indique que la reorientation hors de la licence est plus frequente aux mentions
 elevees : le taux de reussite en licence des mentions Tres bien et Bien sous-estime donc leur
 reussite dans l'enseignement superieur. G est lu avec cette limite, sans correction.
+
+## Amendement 23 (2026-11-01) : mentions des admis par type de formation, sessions 2018 a 2025,
+et passage L1-L2 (extension des axes 3 et 4 ; pre-enregistre avant l'extraction)
+
+Statut : exploratoire, descriptif, non causal. Il repond a la question "que deviennent les
+mentions et les parcours apres 2021, annee par annee jusqu'en 2025 ?". Il ne mesure ni la
+difficulte du bac ni le niveau des eleves.
+
+Partie A, mentions des admis. Source : jeux ouverts Parcoursup du MESR (data.enseignementsup-
+recherche.gouv.fr), une extraction par session de 2018 a 2025 ; variables : admis neo-bacheliers
+par mention (Tres bien avec ou sans felicitations, Bien, Assez bien, sans mention, mention non
+renseignee) et par type de bac, par formation, avec le type de formation du jeu. Indicateurs,
+pour chaque session et chaque groupe de formation (licence, BTS, BUT ou DUT, CPGE, ecoles
+d'ingenieurs, autres, selon la variable de filiere du jeu) : part de chaque mention parmi les
+admis dont la mention est renseignee, part de mention non renseignee, part de chaque type de
+bac. Les variables exactes sont fixees par une precision ulterieure, apres lecture du catalogue
+des jeux. Lecture : descriptive, sans seuil ; les series sont rapportees en trois groupes sans
+tendance commune (2018-2020, 2020, 2021-2025, Precision 26). Limites : seuls les admis par
+Parcoursup sont couverts ; la liste des formations change d'une annee a l'autre ; la definition
+des admis (phase principale, complementaire) peut differer entre extractions.
+
+Partie B, passage de L1 en L2. Q = taux de passage en 2e annee des neo-bacheliers, par cohorte
+de neo-bacheliers (2019 a 2023, et 2024 si la note correspondante est atteinte), tel que publie
+par les Notes Flash du SIES. Chaque valeur est transcrite avec la phrase source et controlee
+comme chaine de caracteres dans le PDF correspondant ; une valeur non retrouvee est declaree
+absente. La definition de Q inclut les formations de sante des licences d'acces sante (LAS) dans
+les notes recentes : cette difference de champ est rapportee, sans correction.
+
+Partie C, cohortes 2021 et suivantes. L, Ls et G pour les cohortes 2021 et suivantes sont
+ajoutes quand les notes correspondantes sont atteintes (Precision 26) ; les cohortes sans note
+publiee sont declarees non observables (moins de trois ans de recul), sans projection.

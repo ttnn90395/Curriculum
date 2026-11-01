@@ -695,3 +695,25 @@ il est declare absent dans cette mise en oeuvre. H6 est calculee comme pre-enreg
 general de la session egale a l'annee de la cohorte (data/evidence_bac_reussite_ensemble.csv,
 colonne taux_general), et sa lecture de controle (cohorte 2019 a la place de 2020). Les parts de
 chaque mention parmi les entrants sont rapportees pour chaque cohorte (Amendement 21).
+
+## Precision 26 (2026-11-01) : cohorte 2021 et rupture structurelle de 2021 (pre-enregistree
+avant toute lecture de la note de la cohorte 2021)
+
+Rupture. Les bacheliers 2021 sont la premiere promotion de la reforme du baccalaureat
+(specialites, fin des series S, ES et L, controle continu a 40 %, nouveaux programmes de lycee
+entres en vigueur en 2019 et 2020) ; la meme annee, le BUT remplace le DUT, apres la reforme de
+l'acces aux etudes de sante de 2020 (PASS et LAS). Les cohortes sont donc rapportees en trois
+groupes sans tendance commune : 2012 a 2019 (avant), 2020 (crise sanitaire, ancienne structure),
+2021 et suivantes (apres). Aucune comparaison de niveau entre groupes n'est lue comme effet de
+la reforme.
+
+Cohorte 2021. La Note Flash du SIES sur la session 2025 (cohorte de bacheliers 2021) est ajoutee
+a la liste des notes de la Precision 23 des que son PDF est atteint, sans autre modification du
+lecteur. Les regles de lecture de H3 et H6 sont alors rapportees pour deux dernieres cohortes :
+la derniere cohorte disponible (2021 si lue, sinon 2020), et la derniere cohorte anterieure a
+2020 (2019), avec la meme premiere cohorte (2012). Aucune autre variante.
+
+Limite ajoutee a H3. La Note d'information SIES 2026-06 (entrants en L1 de 2019 suivis pendant
+quatre ans) indique que la reorientation hors de la licence est plus frequente aux mentions
+elevees : le taux de reussite en licence des mentions Tres bien et Bien sous-estime donc leur
+reussite dans l'enseignement superieur. G est lu avec cette limite, sans correction.

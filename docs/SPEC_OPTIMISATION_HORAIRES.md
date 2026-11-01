@@ -748,3 +748,33 @@ les notes recentes : cette difference de champ est rapportee, sans correction.
 Partie C, cohortes 2021 et suivantes. L, Ls et G pour les cohortes 2021 et suivantes sont
 ajoutes quand les notes correspondantes sont atteintes (Precision 26) ; les cohortes sans note
 publiee sont declarees non observables (moins de trois ans de recul), sans projection.
+
+## Precision 27 (2026-11-01) : variables et regroupements de la partie A de l'Amendement 23
+(pre-enregistree avant l'extraction ; ecrite apres la sonde 15)
+
+Sources : jeux ouverts Parcoursup fr-esr-parcoursup-2018, fr-esr-parcoursup-2019,
+fr-esr-parcoursup_2020 a _2024 et fr-esr-parcoursup (session 2025). Variables : fili, acc_neobac
+(admis neo-bacheliers), acc_tb, acc_tbf, acc_b, acc_ab, acc_sansmention,
+acc_mention_nonrenseignee, acc_bg, acc_bt, acc_bp. Controle : dans chaque jeu, la somme des cinq
+variables de mention (et de acc_tbf quand elle existe) doit egaler la somme de acc_neobac a 0,5
+% pres, sinon l'annee est declaree rejetee. Tres bien (TB) = acc_tb pour 2018 a 2020 et acc_tb
+plus acc_tbf pour 2021 a 2025 : acc_tbf n'existe qu'a partir de 2021 et la somme de controle est
+complete sans elle, acc_tb contient donc les felicitations avant 2021.
+
+Groupes de formation, par la variable fili : Licence = "Licence" et "Licence_Las" (celle-ci
+existe a partir de 2020) ; BTS ; BUT ou DUT = "DUT" (2018 a 2020) et "BUT" (2021 a 2025),
+rapporte comme une serie avec changement de nom en 2021 ; Sante premiere annee = "PACES" (2018
+et 2019) et "PASS" (2020 a 2025) ; CPGE ; Ecoles d'ingenieurs et Ecoles de commerce, categories
+qui n'existent qu'a partir de 2020 et sont rapportees a partir de cette date ; Autres = toutes
+les autres valeurs de fili (dont, avant 2020, les ecoles) ; Tous = ensemble des lignes. La
+composition des groupes n'est pas comparable d'une annee a l'autre (categories creees,
+formations ouvertes ou fermees) et est declaree comme telle.
+
+Indicateurs, par session et groupe : n = somme de acc_neobac ; part de TB, de Bien, d'Assez
+bien, de sans mention, calculees sur n moins acc_mention_nonrenseignee ; part de mention non
+renseignee (sur n) ; part des bacs general, technologique et professionnel (acc_bg, acc_bt,
+acc_bp sur leur somme). Les series sont rapportees en trois groupes sans tendance commune :
+2018-2019, 2020, 2021-2025 (Precision 26 ; la mention "2018-2020, 2020, 2021-2025" de
+l'Amendement 23 est corrigee dans ce sens). Descriptif, sans seuil. Population : neo-bacheliers
+admis par Parcoursup, hors apprentissage ; elle n'est pas celle de l'ensemble des bacheliers,
+donc les parts ne sont pas comparables a celles de la DEPP.

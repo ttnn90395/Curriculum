@@ -1,0 +1,32 @@
+== 2018 fr-esr-parcoursup-2018 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   10697 lignes ; session(s) ['2018'] ; champs presents 11 ; absents ['acc_tbf']
+   somme : acc_tb 48396 ; acc_b 82083 ; acc_ab 133285 ; acc_sansmention 181855 ; acc_mention_nonrenseignee 3716 ; acc_neobac 449335
+   fili : Licence (2434, 189761) | BTS (5100, 101077) | DUT (789, 48666) | CPGE (846, 38756) | PACES (44, 37386) | Autre formation (1484, 33689)
+== 2019 fr-esr-parcoursup-2019 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   11577 lignes ; session(s) ['2019'] ; champs presents 11 ; absents ['acc_tbf']
+   somme : acc_tb 46345 ; acc_b 85188 ; acc_ab 138614 ; acc_sansmention 194716 ; acc_mention_nonrenseignee 5469 ; acc_neobac 470332
+   fili : Licence (2521, 193551) | BTS (5109, 99339) | DUT (801, 48550) | CPGE (849, 39244) | Autre formation (1709, 38559) | PACES (43, 37531) | IFSI (324, 11790) | EFTS (221, 1768)
+== 2020 fr-esr-parcoursup_2020 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   12760 lignes ; session(s) ['2020'] ; champs presents 11 ; absents ['acc_tbf']
+   somme : acc_tb 74483 ; acc_b 124736 ; acc_ab 167262 ; acc_sansmention 140668 ; acc_mention_nonrenseignee 2363 ; acc_neobac 509513
+   fili : Licence (2578, 199211) | BTS (5173, 106714) | DUT (804, 49407) | CPGE (847, 38574) | PASS (227, 26418) | Autre formation (1578, 26399) | Ecole d'Ingénieur (402, 18460) | Licence_Las (457, 15216) | IFSI (329, 14271) | Ecole de Commerce (144, 12413) | EFTS (221, 2430)
+== 2021 fr-esr-parcoursup_2021 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   13396 lignes ; session(s) ['2021'] ; champs presents 12 ; absents []
+   somme : acc_tb 51219 ; acc_tbf 7113 ; acc_b 126144 ; acc_ab 177471 ; acc_sansmention 122041 ; acc_mention_nonrenseignee 2292 ; acc_neobac 486280
+   fili : Licence (2693, 191279) | BTS (5246, 95393) | BUT (803, 47436) | CPGE (968, 37670) | Autre formation (1713, 26102) | PASS (268, 25167) | Ecole d'Ingénieur (457, 18508) | IFSI (331, 14865) | Licence_Las (521, 14404) | Ecole de Commerce (172, 13074) | EFTS (224, 2382)
+== 2022 fr-esr-parcoursup_2022 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   13644 lignes ; session(s) ['2022'] ; champs presents 12 ; absents []
+   somme : acc_tb 52090 ; acc_tbf 7217 ; acc_b 114051 ; acc_ab 154481 ; acc_sansmention 134793 ; acc_mention_nonrenseignee 75 ; acc_neobac 463163
+   fili : Licence (2847, 178891) | BTS (5303, 85787) | BUT (809, 45691) | CPGE (974, 36850) | Autre formation (1689, 25862) | PASS (272, 23079) | Ecole d'Ingénieur (454, 18761) | Licence_Las (537, 16432) | IFSI (337, 15575) | Ecole de Commerce (193, 13826) | EFTS (229, 2409)
+== 2023 fr-esr-parcoursup_2023 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   13869 lignes ; session(s) ['2023'] ; champs presents 12 ; absents []
+   somme : acc_tb 53161 ; acc_tbf 7589 ; acc_b 112242 ; acc_ab 153092 ; acc_sansmention 147378 ; acc_mention_nonrenseignee 880 ; acc_neobac 474342
+   fili : Licence (2903, 180588) | BTS (5339, 87558) | BUT (816, 46113) | CPGE (983, 38885) | Autre formation (1749, 27542) | PASS (278, 23451) | Ecole d'Ingénieur (472, 19204) | IFSI (340, 17684) | Licence_Las (550, 17144) | Ecole de Commerce (208, 13507) | EFTS (231, 2666)
+== 2024 fr-esr-parcoursup_2024 : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   14079 lignes ; session(s) ['2024'] ; champs presents 12 ; absents []
+   somme : acc_tb 53019 ; acc_tbf 6767 ; acc_b 119006 ; acc_ab 160278 ; acc_sansmention 144958 ; acc_mention_nonrenseignee 503 ; acc_neobac 484531
+   fili : Licence (3019, 182384) | BTS (5345, 88839) | BUT (819, 47374) | CPGE (982, 40784) | Autre formation (1605, 25043) | PASS (284, 23957) | IFSI (518, 22241) | Ecole d'Ingénieur (523, 20176) | Licence_Las (522, 17154) | Ecole de Commerce (222, 13660) | EFTS (240, 2919)
+== 2025 fr-esr-parcoursup : https://data.enseignementsup-recherche.gouv.fr/api/explore/v
+   14252 lignes ; session(s) ['2025'] ; champs presents 12 ; absents []
+   somme : acc_tb 52428 ; acc_tbf 7301 ; acc_b 118667 ; acc_ab 161959 ; acc_sansmention 144265 ; acc_mention_nonrenseignee 630 ; acc_neobac 485250
+   fili : Licence (3052, 183446) | BTS (5351, 89867) | BUT (820, 47180) | CPGE (986, 39508) | Autre formation (1815, 28627) | PASS (287, 24160) | Ecole d'Ingénieur (585, 19635) | IFSI (344, 19396) | Licence_Las (513, 16916) | Ecole de Commerce (256, 13590) | EFTS (243, 2925)

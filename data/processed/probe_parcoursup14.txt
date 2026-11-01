@@ -1,0 +1,18 @@
+13 jeux
+== fr-esr-cartographie_formations_parcoursup | Cartographie des formations Parcoursup | 157497 lignes | 25 champs
+== fr-esr-parcoursup | Parcoursup 2025 - vœux de poursuite d'études et de réorienta | 14252 lignes | 118 champs
+   champs : session, fili, acc_tot, acc_tot_f, acc_pp, acc_pc, acc_debutpp, acc_datebac, acc_finpp, acc_internat, acc_brs, acc_neobac, acc_bg, acc_bt, acc_bp, acc_at, acc_mention_nonrenseignee, acc_sansmention, acc_ab, acc_b, acc_tb, acc_tbf, acc_bg_mention, acc_bt_mention, acc_bp_mention, acc_term, acc_term_f, acc_aca_orig, acc_aca_orig_idf, pct_acc_debutpp, pct_acc_datebac, pct_acc_finpp, pct_neobac, pct_mention_nonrenseignee, pct_sansmention, pct_tb, pct_tbf, pct_bg_mention, pct_bt_mention, pct_bp_mention
+== fr-esr-parcoursup-2018 | Parcoursup 2018 - vœux de poursuite d'études et de réorienta | 10697 lignes | 85 champs
+   champs : session, fili, acc_tot, acc_tot_f, acc_pp, acc_pc, acc_internat, acc_brs, acc_neobac, acc_bg, acc_bt, acc_bp, acc_at, acc_mention_nonrenseignee, acc_sansmention, acc_ab, acc_b, acc_tb, acc_bg_mention, acc_bt_mention, acc_bp_mention, acc_term, acc_term_f, acc_aca_orig, acc_aca_orig_idf, pct_neobac, pct_mention_nonrenseignee, pct_sansmention, pct_tb, pct_bg_mention, pct_bt_mention, pct_bp_mention
+== fr-esr-parcoursup-2019 | Parcoursup 2019 - vœux de poursuite d'études et de réorienta | 11577 lignes | 92 champs
+== fr-esr-parcoursup-apprentissage | Parcoursup apprentissage - vœux de poursuite d'études et de  | 39032 lignes | 44 champs
+== fr-esr-parcoursup-enseignements-de-specialite-bacheliers-generaux | Parcoursup : propositions d'admission dans l'enseignement su | 3965 lignes | 5 champs
+== fr-esr-parcoursup-enseignements-de-specialite-bacheliers-generaux-2 | Parcoursup 2021-2024 : propositions d'admission dans l'ensei | 17420 lignes | 6 champs
+== fr-esr-parcoursup-enseignements-de-specialite-bacheliers-generaux-3 | Parcoursup 2025 : propositions d'admission dans l'enseigneme | 17211 lignes | 10 champs
+== fr-esr-parcoursup_2020 | Parcoursup 2020 - vœux de poursuite d'études et de réorienta | 12760 lignes | 115 champs
+   champs : session, fili, acc_tot, acc_tot_f, acc_pp, acc_pc, acc_debutpp, acc_datebac, acc_finpp, acc_internat, acc_brs, acc_neobac, acc_bg, acc_bt, acc_bp, acc_at, acc_mention_nonrenseignee, acc_sansmention, acc_ab, acc_b, acc_tb, acc_bg_mention, acc_bt_mention, acc_bp_mention, acc_term, acc_term_f, acc_aca_orig, acc_aca_orig_idf, pct_acc_debutpp, pct_acc_datebac, pct_acc_finpp, pct_neobac, pct_mention_nonrenseignee, pct_sansmention, pct_tb, pct_bg_mention, pct_bt_mention, pct_bp_mention
+== fr-esr-parcoursup_2021 | Parcoursup 2021 - vœux de poursuite d'études et de réorienta | 13396 lignes | 118 champs
+== fr-esr-parcoursup_2022 | Parcoursup 2022 - vœux de poursuite d'études et de réorienta | 13644 lignes | 118 champs
+   champs : session, fili, acc_tot, acc_tot_f, acc_pp, acc_pc, acc_debutpp, acc_datebac, acc_finpp, acc_internat, acc_brs, acc_neobac, acc_bg, acc_bt, acc_bp, acc_at, acc_mention_nonrenseignee, acc_sansmention, acc_ab, acc_b, acc_tb, acc_tbf, acc_bg_mention, acc_bt_mention, acc_bp_mention, acc_term, acc_term_f, acc_aca_orig, acc_aca_orig_idf, pct_acc_debutpp, pct_acc_datebac, pct_acc_finpp, pct_neobac, pct_mention_nonrenseignee, pct_sansmention, pct_tb, pct_tbf, pct_bg_mention, pct_bt_mention, pct_bp_mention
+== fr-esr-parcoursup_2023 | Parcoursup 2023 - vœux de poursuite d'études et de réorienta | 13869 lignes | 118 champs
+== fr-esr-parcoursup_2024 | Parcoursup 2024 - vœux de poursuite d'études et de réorienta | 14079 lignes | 118 champs

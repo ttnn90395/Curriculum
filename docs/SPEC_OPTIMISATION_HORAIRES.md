@@ -843,3 +843,27 @@ concluante. Limites : definitions heterogenes (sortie du superieur contre sortie
 formation) ; les series se terminent souvent avec la cohorte 2019 et donc ne couvrent pas la
 periode apres crise sanitaire ; les reformes de secondaire different d'un pays a l'autre ; un
 indicateur d'abandon n'est pas un indicateur de niveau.
+
+## Amendement 25 (2026-11-01) : extension de l'Amendement 24 a tous les pays de l'OCDE
+(pre-enregistre avant la sonde du catalogue ; aucune valeur lue)
+
+Raison : les series nationales de l'Amendement 24 sont heterogenes et courtes (DE verifie : bachelor,
+diplomes 2014 a 2020 ; NL, ES, UK en attente). L'Amendement 25 cherche un indicateur harmonise
+couvrant tous les pays de l'OCDE, par python, a partir des bases ouvertes de l'OCDE (SDMX) et
+d'Eurostat.
+
+Cible : taux d'achevement ou d'abandon des entrants en licence ou equivalent (niveau CITE 6), par
+pays, pour au moins deux editions ou annees d'entree par pays ; a defaut, tout indicateur
+harmonise de persistance dans le superieur. La sonde 17 recense les jeux de donnees dont le nom
+contient completion, graduation, dropout, attrition, retention, persistence ou entrants, sans les
+lire. Une precision fixe ensuite le jeu retenu, les dimensions et les valeurs attendues avant toute
+extraction. Un jeu n'est retenu que s'il couvre la France et au moins dix autres pays de l'OCDE.
+
+Lecture (si un jeu est retenu) : rang et ecart de la France a la mediane de l'OCDE, rapportes par
+edition, sans test ; evolution par pays entre le premier et le dernier point disponible ; aucune
+pente commune. Si seule une coupe unique est disponible, l'analyse est descriptive et ne dit rien
+de l'evolution. Limites : les definitions d'achevement (duree theorique plus un, deux ou trois ans)
+et les populations (temps plein, nationaux) different et sont rapportees ; les editions de
+l'indicateur peuvent changer de definition ; l'indicateur mesure l'achevement et non le niveau ni
+la difficulte du bac ou du superieur. Les examens nationaux de fin de secondaire ne sont pas
+etendus : leur comparaison reste limitee aux pays de l'analyse A.

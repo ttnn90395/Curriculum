@@ -934,3 +934,35 @@ independamment. Constat de la premiere execution, avant correction : aucune vale
 2015 (le fichier ne contient pas de nouveaux entrants de licence en 2012 pour les pays retenus) ;
 R3 commence en 2016 pour 33 pays et en 2019 pour la France ; les ecarts avec 2015 comme base sont
 donc non calculables, ce qui est rapporte tel quel, sans changer d'annee de base a posteriori.
+
+## Amendement 26 (2026-11-01) : extension hors d'Europe des analyses A et de l'Amendement 24
+(pre-enregistre avant toute lecture de valeur ; seules l'existence et les titres des sources ont
+ete verifies)
+
+Raison : l'analyse A (examens de fin de secondaire) et l'Amendement 24 (premiere annee du superieur)
+ne couvrent que des pays europeens ; l'indicateur synthetique R de l'Amendement 25 couvre deja 38
+pays de l'OCDE mais est trop approximatif pour conclure. L'Amendement 26 cherche, pour des pays
+hors d'Europe, deux series nationales ouvertes de meme nature que celles deja retenues pour
+l'Europe : (E) une serie annuelle de resultats a l'examen ou au certificat de fin de secondaire
+(taux d'obtention, part des meilleures mentions) et (M) une serie annuelle de persistance ou
+d'abandon en premiere annee du superieur.
+
+Sources candidates (existence verifiee par recherche, valeurs non lues) : Nouvelle-Zelande, NZQA,
+donnees de reussite au NCEA et "six indicators" (E), et Education Counts (devenir des sortants) ;
+Australie, Department of Education, statistiques du superieur, section 15 "Attrition, success and
+retention" (M) ; Etats-Unis, NCES, tables du Digest sur la retention en premiere annee (M) et
+rapports ACT sur l'inflation des notes au lycee (E, indicateur different : notes du lycee et non
+examen national) ; Coree du Sud, jeu data.go.kr 15080201 (E, a identifier) ; Japon, tests communs du
+Centre national (E, moyennes par matiere) et enquete du ministere sur les abandons (M) ; Bresil,
+resultats de l'ENEM publies par l'INEP (E, a identifier). Les pays sans source ouverte retrouvee
+sont declares non trouves.
+
+Regle de retention, identique a l'Amendement 24 : une serie n'est retenue que si elle donne au
+moins trois points annuels comparables, avec une definition stable ou une rupture declaree. Lecture
+: par pays, evolution entre le premier et le dernier point et entre le dernier point avant 2020 et le
+dernier point disponible, rapportee a cote des valeurs pour la France (E2 de l'analyse A, Q de
+l'Amendement 23) ; pas de seuil, pas de test, pas de pente commune. Si moins de trois pays hors
+d'Europe sont retenus pour une serie, elle est declaree non concluante. Limites : definitions
+heterogenes (taux d'obtention d'un certificat, notes de lycee, notes d'un test d'entree) ; les
+reformes et la crise sanitaire de 2020 touchent differemment les systemes ; aucun niveau n'est
+compare entre pays.

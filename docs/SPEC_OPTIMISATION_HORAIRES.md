@@ -808,3 +808,38 @@ ne vaut donc pas pour la seule cohorte 2023 mais pour 2020 a 2023, alors que la 
 du fichier ne la porte que pour 2023. Les valeurs de Q sont inchangees. Les ecarts annonces par
 les notes elles-memes (cohorte 2019 : +8 points sur 2018, soit 45,5 ; cohorte 2021 : 1,5 point
 sous 45,5 ; cohorte 2022 : +3,8 ; cohorte 2023 : +1,3) sont coherents avec les cinq valeurs.
+
+## Amendement 24 (2026-11-01) : reussite de premiere annee du superieur dans les pays compares
+(extension internationale de l'axe 3 ; pre-enregistre avant toute extraction de donnees)
+
+Statut : exploratoire, descriptif, non causal. Question : la reussite ou la persistance en premiere
+annee du superieur evolue-t-elle, dans les pays deja compares pour l'examen de fin de secondaire
+(DE, UK, NL, PL, ES), comme en France (Q, Amendement 23 partie B) ? Cette serie ne mesure ni la
+difficulte de l'examen, ni le niveau des eleves, ni la severite du superieur.
+
+Indicateur : M = part des entrants en premiere annee de licence ou equivalent qui ne sont plus
+inscrits dans le superieur (UK, non-continuation apres un an) ou dans la meme formation (NL,
+uitval apres le premier an) a la rentree suivante ; abandon de bachelor toutes annees (DE,
+Studienabbruchquote, DZHW) ; abandon de premiere annee (ES, Ministerio de Universidades) ; PL
+non cherche si aucune serie nationale n'est trouvee. Les definitions sont declarees differentes
+d'un pays a l'autre et les niveaux ne sont jamais compares ; seules les evolutions au sein d'un
+pays le sont.
+
+Sources candidates, sondees avant cette precision (existence confirmee, valeurs non lues) : HESA
+UK Performance Indicators, tables T3 et NC3 (entrees 2014/15 a 2019/20 pour T3, serie plus longue
+pour NC3), telechargeables en csv ; CBS, tableau studieuitval-na-eerste-jaar (2015/16 a 2019/20,
+mais champ zorg en welzijn seulement : non retenu sauf champ general trouve) ou factsheets de la
+Vereniging Hogescholen et rapports VSNU/DUO ; DZHW, communiques sur l'abandon de bachelor (cohortes
+2016, 2018, 2020, deux jeux de taux selon le sejour d'etude prolonge : le jeu "avec sejour
+prolonge" est le jeu retenu) ; Ministerio de Universidades, rapport sur l'abandono (2022) et Datos y
+Cifras. Une source n'est retenue que si elle donne au moins trois points annuels comparables.
+
+Lecture : pour chaque pays retenu, variation de M entre le premier et le dernier point de la serie
+et entre le dernier point avant 2020 et le dernier point disponible ; rapportee a cote de la
+variation de Q pour la France (cohorte 2018 a 2023) et de celle de la part des meilleures notes
+(E2, analyse A). Pas de seuil, pas de test, pas de pente commune entre pays : meme discipline que
+l'analyse A. Si moins de trois pays ont une serie retenue, l'analyse est declaree non
+concluante. Limites : definitions heterogenes (sortie du superieur contre sortie de la
+formation) ; les series se terminent souvent avec la cohorte 2019 et donc ne couvrent pas la
+periode apres crise sanitaire ; les reformes de secondaire different d'un pays a l'autre ; un
+indicateur d'abandon n'est pas un indicateur de niveau.

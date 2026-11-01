@@ -1,0 +1,39 @@
+== NZ https://www2.nzqa.govt.nz/insights-papers/ncea-six-indicators/
+   78484 octets ; text/html; charset=utf-8
+   lien : https://www2.nzqa.govt.nz/assets/About-us/Publications/Insights-papers/NCEA-Achievement-Six-indicators-showing-change-over-time.pdf
+   ... NCEA – six indicators and how they have changed over time - NZQA (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date()
+   ...s About us Search Search Search Login Menu Close Search Search Home About us Publications NCEA – six indicators and how they have... NCEA – six indicators and how they have changed over time This paper looks at six indicator
+   ...Close Search Search Home About us Publications NCEA – six indicators and how they have... NCEA – six indicators and how they have changed over time This paper looks at six indicators that unpack how NCEAs are achieved The Na
+   ...rs and how they have changed over time This paper looks at six indicators that unpack how NCEAs are achieved The National Certificate of Educational Achievement (NCEA) is the main qualification for secondary school students 
+   ...s that unpack how NCEAs are achieved The National Certificate of Educational Achievement (NCEA) is the main qualification for secondary school students in New Zealand. The way NCEAs are achieved has changed over time. In thi
+   mots-cles : 5 contextes imprimes
+== NZ https://www.educationcounts.govt.nz/statistics/schooling/senior-student-attainment/school-leavers
+   ECHEC : HTTP Error 403: Forbidden
+== AU https://www.education.gov.au/node/19501
+   ECHEC : The read operation timed out
+== US https://nces.ed.gov/programs/digest/d22/tables/dt22_326.15.asp
+   44167 octets ; text/html
+   mots-cles : 0 contextes imprimes
+== US https://industryinsights.act.org/2022/05/grade-inflation-past-decade
+   64294 octets ; text/html; charset=UTF-8
+   lien : https://www.act.org/content/dam/act/unsecured/documents/2022/R2134-Grade-Inflation-Continues-to-Grow-in-the-Past-Decade-Final-Accessible.pdf
+   ... function OptanonWrapper() { } Grade Inflation a Systemic Problem in US High Schools, ACT Report Shows a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:co
+   ...url" : "https://industryinsights.act.org/author/act", "@type" : "Person" }, "headline" : "Grade Inflation a Systemic Problem in US High Schools, ACT Report Shows", "datePublished" : "2022-05-16T05:00:00.000Z", "dateModified" : "2026-01
+   ...eer-Ready Solutions Students &amp; Parents K-12 Workforce Higher Ed Blogs MyACT All posts Grade Inflation a Systemic Problem in US High Schools, ACT Report Shows May 16, 2022 ACT Grade inflation accelerated in 2020 and 2021 amid COVID-
+   ... Grade Inflation a Systemic Problem in US High Schools, ACT Report Shows May 16, 2022 ACT Grade inflation accelerated in 2020 and 2021 amid COVID-19 pandemic and growth of test-optional admissions policies IOWA CITY, Iowa (May 16, 2022
+   ...nonprofit organization that administers the ACT college readiness exam, finds evidence of grade inflation in high school seniors’ GPAs between 2010 and 2021. The average high school GPA increased 0.19 grade points, from 3.17 in 2010 to
+   mots-cles : 5 contextes imprimes
+== US https://www.act.org/content/dam/act/unsecured/documents/r2514-high-school-grade-inflation-and-academically-discrepant-college-readiness-indicators-2026-07.pdf
+   2796918 octets ; application/pdf
+   ...Research Report 2026-07 High School Grade Inflation and Academically Discrepant College Readiness Indicators EDGAR I. SANCHEZ © 2026 by ACT Education Corp. All rights reserved. | R2
+   ...s reserved. | R2514 Conclusions This study looked at the relationship between high school grade inflation and academic discrepancy (that is, the misalignment between high school GPA and ACT Composite scores). The findings of this study
+   ...l grade inflation and academic discrepancy (that is, the misalignment between high school GPA and ACT Composite scores). The findings of this study confirmed that academic discrepancy is widespread, affecting about one four
+   ...iscrepancy is widespread, affecting about one fourth to one third of students, and that HSGPA discrepancy (that is, where grades substantially outpace test scores) is strongly associated with schools that show higher levels
+   ...ially outpace test scores) is strongly associated with schools that show higher levels of grade inflation. Multiple imputation of missing HSGPA showed that HSGPA discrepancy had increased to approximately 28% of students by the 2023–20
+   mots-cles : 5 contextes imprimes
+== KR https://www.data.go.kr/dcat/metadata/15080201
+   ECHEC : The read operation timed out
+== JP https://www.juaa.or.jp/upload/files/2024seminar_nakamura.pdf
+   ECHEC : HTTP Error 404: Not Found
+== BR https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/resultados
+   ECHEC : HTTP Error 404: Not Found

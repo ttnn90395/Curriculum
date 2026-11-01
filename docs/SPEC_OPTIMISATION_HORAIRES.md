@@ -966,3 +966,30 @@ d'Europe sont retenus pour une serie, elle est declaree non concluante. Limites 
 heterogenes (taux d'obtention d'un certificat, notes de lycee, notes d'un test d'entree) ; les
 reformes et la crise sanitaire de 2020 touchent differemment les systemes ; aucun niveau n'est
 compare entre pays.
+
+## Precision 31 (2026-11-01) : transcription de series hors Europe, Amendement 26
+(pre-enregistree avant le calcul de toute difference ; les valeurs ont ete lues dans les sondes 20 et
+21, qui n'ont imprime que des lignes de texte)
+
+Nouvelle-Zelande (E) : NZQA, "NCEA Achievement - six indicators showing change over time" (juillet
+2024), Figure 1, taux d'obtention fondes sur les inscriptions, de 2008 a 2023 (16 valeurs par
+ligne), lignes "NCEA (Level 1) Year 11", "NCEA (Level 2) Year 12", "NCEA (Level 3) Year 13".
+Niveau 3 : 51,0 51,4 52,2 53,9 55,4 56,7 59,8 62,6 64,2 65,5 66,1 67,3 72,1 70,5 68,2 67,7.
+Niveau 2 : 60,9 61,7 63,9 66,2 67,8 71,3 75,0 76,3 78,4 78,5 77,6 77,5 80,1 77,9 74,9 73,2.
+Niveau 1 : 57,5 60,6 62,8 63,4 65,4 69,9 72,4 74,5 75,3 75,0 72,4 70,6 71,8 69,2 64,9 61,7.
+(valeurs en %, rangs dans l'ordre des annees 2008 a 2023.) Le document signale des changements de
+standards en 2011-2013 et des mesures temporaires en 2020-2022 ; ces ruptures sont rapportees.
+
+Etats-Unis (E, notes de lycee) : ACT, rapport R2134 (mai 2022), "Grade Inflation Continues to Grow in
+the Past Decade", Figure 6, GPA cumulatif moyen ajuste des lyceens testes a l'ACT, pour les annees
+2010, 2012, 2014, 2016, 2018, 2020 et 2021 : 3,17 3,20 3,21 3,22 3,26 3,31 3,36 (l'appariement
+valeur-annee suit l'ordre de la figure, hypothese verifiee par les extremites 3,17 en 2010 et 3,36 en
+2021 citees dans le texte). Table 2 : ecart standardise du GPA a celui de 2010, 0,10 en 2018 et 0,29
+en 2021 ; texte : le score composite ACT n'a pas augmente pendant que le GPA augmentait. Limites :
+echantillon d'eleves passant l'ACT, de composition changeante.
+
+Controle : le script cherche chaque suite de valeurs comme chaine continue dans le texte du PDF
+correspondant, et chaque phrase citee ; une suite non retrouvee est declaree absente, sans
+correction a la main. Lecture : descriptive ; evolution entre 2008 et 2019 et entre 2019 et 2023
+(NZ), entre 2010 et 2018 et entre 2018 et 2021 (US), rapportees a cote de la France (E1 par voie,
+Amendement 21) sans seuil ni test ni pente commune.

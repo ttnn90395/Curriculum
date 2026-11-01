@@ -1,0 +1,161 @@
+== NZ NCEA-Achievement-Six-indicators-showing-change-over-time.pdf : 621 lignes
+   used (more, moderate, and fewer barriers).  Only 2023
+   July 2024
+   changed since 2008 that
+   2008:  Certificate endorsement introduced.
+   2011-2013:  Standards Realignment.  This review
+   2011: Course Endorsement introduced.
+   2014: Change to University Entrance requirements.
+   2020-2022:  A number of time-limited changes
+   2021-2023:  NCEA pilots.
+   2024 - NCEA Co-requisite implemented and new
+   Indicator 1:  Overall attainment
+   2023 is higher than it was in 2008, however there
+   (2020, 2021, and 2022) impacted on attainment rates.
+   Year 11 NCEA Level 1 attainment increased between
+   2008 and 2016 but has shown a declining trend since
+   then.  In 2019, the NCEA Review changes confirmed
+   want to continue to use this qualification.  Since 2017,
+   on the attainment rate of this qualification by Year 11
+   Figure 1:  Enrolment-based attainment rates of Year 11 to 13 students attaining NCEA Levels 1-3 and University
+   Entrance, 2008 to 2023
+   used. In 2023, there were 175,244 senior secondary
+   for the 2008 to 2023 period, i.e. the last 16 years.
+   In 2020, 2021, and 2022 teaching, learning and
+   2008
+   2009
+   2010
+   2011
+   2012
+   2013
+   2014
+   2015
+   2016
+   2017
+   2018
+   2019
+   2020
+   2021
+   2022
+   2023
+   Year 12 Level 2 attainment increased between 2008
+   and 2016, and has shown a downward trend since
+   Year 13 Level 3 attainment increased steadily between
+   2008 and 2019, and in 2023 is at a similar level to
+   2019, the last year unaffected by COVID-19 related
+   Year 13 University Entrance attainment has remained
+   reasonably steady since 2008, particularly in
+   As shown in Figure 2, 2023 attainment rates are lower
+   Indicator 2:  Certificate
+   Figure 2:  Enrolment-based attainment rates of Year 11 to 13 students attaining NCEA Levels 1-3 and University
+   Entrance, by socio-economic barriers to attainment (school equity index group), 2023
+   to 13 students attaining NCEA Levels 1-3, 2008 and
+   2023
+   Certificate at either Merit or Excellence. Between 2008
+   and 2023 the proportion of NCEA certificates endorsed
+   four or more courses, 2011 and 2023
+   Indicator 3:  Average number
+   When comparing 2008 to 2023, there has been a
+   Year 12 students who achieved NCEA Level 2 and Year
+   13 students who achieved NCEA Level 3.  The year-on-
+   NCEA Level 3 achievers, 2008 and 2023
+== US on-Continues-to-Grow-in-the-Past-Decade-Final-Accessible.pdf : 1645 lignes
+   characteristics. In many of our analyses, grade inflation became apparent in 2020 and 2021, with
+   ACT, Inc. 2022
+   2003; Gershenson, 2018; Godfrey, 2011). One method to evaluate grade inflation is to assess
+   2018). Grade inflation, however, is mostly seen as a conflated indicator of students’ knowledge
+   decades (Goldman, 1985). Generally, this work investigates whether an increase in HSGPA,
+   likely present. HSGPA across time has been compared to ACT® (Bejar & Blew, 1981; Bellott,
+   1981) and SAT scores (Godfrey, 2011), NAEP data (U.S. Department of Education, National
+   Assessment of Educational Progress [NAEP], Long-Term Trend Reading Assessments, 2020),
+   and end-of-course exams (Gershenson, 2018). Consistently, analyses have shown that HSGPA
+   remained stagnant or have fallen (Bejar & Blew, 1981; Gershenson, 2020).
+   ACT Research | Research Report | May 2022
+   ACT, Inc. 2022
+   Figure 1 illustrates grade inflation by comparing HSGPA to NAEP mathematics and reading
+   scores across time. There was growth in average HSGPA from 2.68 in 1990 to 3.0 in 2009
+   Education, Institute of Education Sciences, NEAP, 2020). These NAEP fluctuations are small in
+   2010
+   Reading Scores From 1990 to 2012
+   (Gershenson, 2020; Tyner and Gershenson 2020). Instead of making it easier for already-
+   of schools closed their doors and shifted to learning at home (EdWeek, 2020a). However, not
+   to learning (Moore, Vitale, & Stawinoga, 2018). In response, some school districts moved
+   lenient policy dictated by districts, schools, or classroom teachers (Arundel, 2020; Cano, 2020;
+   EdWeek, 2020b). A non-exhaustive list of policies included a pass/fail grade, no grade if it was
+   ACT Research | Research Report | May 2022
+   ACT, Inc. 2022
+   Is there evidence of grade inflation between 2010 and 2020 for
+   extend to students who graduated in 2021, the first full year of data
+   ACT Research | Research Report | May 2022
+   in Education, 2014), which advocates for the use of multiple measures (e.g., essays, letters
+   inflation occurred between 2010 and 2021, including for students who were tested during the
+   ACT, Inc. 2022
+   The data for the study included the 2010 to 2021 ACT-tested high school graduating classes.2
+   sample. In the hierarchical model, the sample was reduced to the years 2010, 2012, 2014, 2016,
+   2018, 2020, and 2021 because we needed complete data and also because of computational
+   calculate students’ cumulative HSGPA.4 It has been shown that students’ self-reported HSGPA
+   correlates highly with students’ transcript GPA (Sanchez & Buddin, 2016), and other research
+   only through 2020. For 2021, we used results from the 2020 survey.
+   ACT Research | Research Report | May 2022
+   ACT, Inc. 2022
+   ACT Research | Research Report | May 2022
+   ACT, Inc. 2022
+   Table 1 summarizes the students in the analyses. From the academic year of 2010 until 2021,
+   decreased over time. From 2010 until 2021, the number of low-income students who tested
+   steady. In general, prior to 2021, the number of students who had taken advanced courses in
+   2021 cohort in which fewer students reported taking advanced coursework.
+   Beginning in 2013, the percentage of students in the graduating class whose most recent
+   from the ACT National testing program. In 2016, more than 30% of the tested population’s
+   through 2021 when 63% of students’ most recent test record was from a State and District
+   ACT National testing program, particularly in 2021. On March 11, 2020, the World Health
+   Organization declared COVID-19 a global pandemic (WHO, 2022). This triggered the shutdown
+   models, ACT canceled the April 2020 National test administration and resumed limited testing
+   in June 2020.
+   taking advanced coursework at the schools in the sample tended to increase from 2010 to
+   2019, but it decreased in 2020 and 2021. At the same time, the percentage of students at the
+   ACT Research | Research Report | May 2022
+   ACT, Inc. 2022
+   2010 2012 2014 2016 2018 2020 2021
+   ACT Research | Research Report | May 2022
+   ACT, Inc. 2022
+   2010 2012 2014 2016 2018 2020 2021
+   ACT Research | Research Report | May 2022
+== US tps://nces.ed.gov/programs/digest/d22/tables/dt22_326.30.asp : 1598 lignes
+   2022 Tables and Figures
+   2006
+   2009
+   2016
+   2017
+   2018
+   2019
+   2020
+   2007
+   2010
+   2017
+   2018
+   2019
+   2020
+   2021
+   2006 to 2007
+   2009 to 2010
+   2016 to 2017
+   2017 to 2018
+   2018 to 2019
+   2019 to 2020
+   2020 to 2021
+   2022 Tables and Figures
+== US tps://nces.ed.gov/programs/digest/d23/tables/dt23_311.33.asp : 622 lignes
+   2023 Tables and Figures
+   and selected characteristics: Fall 2022 and academic year 2021-22
+   2022
+   Fall 2022 enrollment
+   2021-22
+   &nbsp;&nbsp;&nbsp;starting&nbsp;at&nbsp;4-year&nbsp;institutions&nbsp;in&nbsp;2016,&nbsp;
+   &nbsp;&nbsp;&nbsp;starting&nbsp;at&nbsp;2-year&nbsp;institutions&nbsp;in&nbsp;2019,&nbsp;
+   Among&nbsp;degree-seekers&nbsp;starting&nbsp;in&nbsp;2021,&nbsp;
+   &nbsp;&nbsp;&nbsp;percent&nbsp;returning&nbsp;in&nbsp;2022
+   in fall 2022.
+   first-professional degrees prior to 2010-11.
+   Spring 2023 (provisional data); Completions component, Fall 2022 (provisional data); and Graduation
+   Rates component, Winter 2022-23 (provisional data). (This table was prepared January 2024.)
+   2023 Tables and Figures

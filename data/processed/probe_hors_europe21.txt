@@ -1,0 +1,71 @@
+== NZ_NCEA : 621 lignes (NZ_ons_Insights-papers_NCEA-Achievement-Six-indicators-showing-change-over-time.pdf)
+   [12] In this paper we look at six indicators that unpack how | NCEAs are achieved:  overall attainment, certificate | endorsements, average number of credits assessed, | types of standards assessed, and grade distribution | profiles for achievement standards. | We look at what differences exist when an indicator | is disaggregated ac
+   [30] changed since 2008 that | affect NCEA? | 2008:  Certificate endorsement introduced. | 2011-2013:  Standards Realignment.  This review | of assessment standards was designed to improve | alignment of NCEA Level 1, 2 and 3 to their | respective curriculum levels 6, 7 and 8 (decreasing
+   [113] 2023 | NCEA (Level 1) Year 11 | 57.5% 60.6% 62.8% 63.4% 65.4% 69.9% 72.4% 74.5% 75.3% 75.0% 72.4% 70.6% 71.8% 69.2% 64.9% 61.7% | NCEA (Level 2) Year 12 | 60.9% 61.7% 63.9% 66.2% 67.8% 71.3% 75.0% 76.3% 78.4% 78.5% 77.6% 77.5% 80.1% 77.9% 74.9% 73.2% | NCEA (Level 3) Year 13 | 51.0% 51.4% 52.2% 53.9% 55.4% 56.7% 59.8% 62.6% 64.2
+   [117] 60.9% 61.7% 63.9% 66.2% 67.8% 71.3% 75.0% 76.3% 78.4% 78.5% 77.6% 77.5% 80.1% 77.9% 74.9% 73.2% | NCEA (Level 3) Year 13 | 51.0% 51.4% 52.2% 53.9% 55.4% 56.7% 59.8% 62.6% 64.2% 65.5% 66.1% 67.3% 72.1% 70.5% 68.2% 67.7% | University Entrance Year 13 47.3% 46.9% 46.3% 47.2% 48.7% 50.4% 45.9% 48.1% 48.8% 48.9% 48.9% 49.3% 53.4% 51.
+   [121] 0% | 10% | 20% | 30% | 40% | 50% | 60%
+   [125] 40% | 50% | 60% | 70% | 80% | 90% | 100%
+   [129] 80% | 90% | 100% | COVID | Insights Paper | 03 | Year 12 Level 2 attainment increased between 2008
+   [147] socio-economic barriers to attainment. | Indicator 2:  Certificate | endorsements | NCEA Certificate endorsement recognises the | achievement of students who perform consistently | above the Achieved level by endorsing their NCEA | Figure 2:  Enrolment-based attainment rates of Year 11 to 13 students attaining NCEA Levels 1-3 an
+   [158] University Entrance | Fewer | 69.8% | 84.6% | 81.5% | 70.6% | Moderate
+   [163] 70.6% | Moderate | 66.4% | 77.6% | 70.1% | 49.3% | More
+   [168] 49.3% | More | 51.0% | 62.4% | 57.1% | 23.1% | 0%
+   [172] 57.1% | 23.1% | 0% | 10% | 20% | 30% | 40%
+   [176] 20% | 30% | 40% | 50% | 60% | 70% | 80%
+   [180] 60% | 70% | 80% | 90% | 100% | Figure 3:  Certificate endorsement rates of Year 11 | to 13 students attaining NCEA Levels 1-3, 2008 and
+   [186] to 13 students attaining NCEA Levels 1-3, 2008 and | 2023 | Certificate at either Merit or Excellence. Between 2008 | and 2023 the proportion of NCEA certificates endorsed | with merit or excellence has increased across all three | levels. The rate of excellence endorsements increased | more than the rate of merit endorsements a
+   [190] with merit or excellence has increased across all three | levels. The rate of excellence endorsements increased | more than the rate of merit endorsements at all three | levels. | NCEA Achievement – six indicators showing change over time | 04 | Figure 4:  Proportion of Year 12 Level 2 Achievers,
+   [247] of each course.  NZQA started monitoring courses | attempted and assessed in 2011 when course | endorsement was introduced.  The proportion of Year | 12 and Year 13 students who achieve NCEA, and are | assessed in four or more courses, has decreased since | 2011. | The proportion of Year 12 Level 2 Achievers, and Year
+   [269] 2012 for Level 2 standards (increase in the proportion | of results from internally assessed achievement | 86.8% | 73.1% | 86.2% | 73.0% | 0%
+   [273] 86.2% | 73.0% | 0% | 10% | 20% | 30% | 40%
+   [277] 20% | 30% | 40% | 50% | 60% | 70% | 80%
+   [281] 60% | 70% | 80% | 90% | 100% | 2011 | 2023
+   [290] Year 12/NCEA Level 2 Achieved | Year 13/NCEA Level 3 Achieved | 38.8% | 28.1% | 70.3% | 56.2% | 87.3%
+   [294] 70.3% | 56.2% | 87.3% | 77.8% | 0% | 10% | 20%
+   [298] 0% | 10% | 20% | 30% | 40% | 50% | 60%
+   [302] 40% | 50% | 60% | 70% | 80% | 90% | 100%
+   [306] 80% | 90% | 100% | Year 12 | Year 13 | More | Moderate
+   [312] Moderate | Fewer | 87.3% | 77.8% | 70.3% | 56.2% | 38.8%
+   [316] 70.3% | 56.2% | 38.8% | 28.1% | 0% | 10% | 20%
+   [320] 0% | 10% | 20% | 30% | 40% | 50% | 60%
+   [324] 40% | 50% | 60% | 70% | 80% | 90% | 100%
+   [328] 80% | 90% | 100% | Year 12 | Year 13 | Fewer | Moderate
+   [352] 2022 | 2023 | External Achievement Standards 32.5% 32.1% 31.9% 32.0% 27.7% 27.1% 26.0% 24.9% 23.9% 23.3% 22.8% 22.4% 21.7% 22.0% 21.2% 20.8% | Internal Achievement Standards 31.9% 32.9% 33.9% 35.2% 48.4% 51.2% 52.0% 52.6% 53.1% 54.2% 54.7% 54.8% 54.2% 55.3% 55.2% 54.8% | Unit Standards | 35.6% 35.0% 34.2% 32.8% 23.9% 21.7% 22.0%
+   [356] Unit Standards | 35.6% 35.0% 34.2% 32.8% 23.9% 21.7% 22.0% 22.5% 22.9% 22.6% 22.5% 22.9% 24.1% 22.7% 23.5% 24.4% | 0% | 10% | 20% | 30% | 40%
+   [360] 20% | 30% | 40% | 50% | 60% | 70% | 80%
+   [364] 60% | 70% | 80% | 90% | 100% | 2008 | 2009
+   [383] 2022 | 2023 | External Achievement Standards 40.2% 38.6% 38.1% 37.8% 36.7% 30.7% 30.1% 28.4% 27.0% 25.8% 24.9% 23.6% 21.8% 22.4% 21.9% 21.8% | Internal Achievement Standards 35.3% 36.5% 37.5% 38.5% 40.3% 52.9% 56.2% 57.2% 57.9% 58.4% 59.5% 60.0% 60.3% 61.0% 61.5% 61.3% | Unit Standards | 24.5% 24.9% 24.3% 23.7% 23.0% 16.4% 13.7%
+   [387] Unit Standards | 24.5% 24.9% 24.3% 23.7% 23.0% 16.4% 13.7% 14.4% 15.0% 15.8% 15.5% 16.4% 17.9% 16.6% 16.6% 16.9% | 0% | 10% | 20% | 30% | 40%
+   [391] 20% | 30% | 40% | 50% | 60% | 70% | 80%
+   [395] 60% | 70% | 80% | 90% | 100% | standards), and between 2012 and 2013 for Level 3 | standards (increase in the proportion of results from
+   [408] in the proportion of results from externally assessed | achievement standards for Year 13 Level 3 achievers. | This has since stabilised at 22%. | Figure 6:  Proportion of results by standard type for Year 12 Level 2 Achievers, 2008-2023. | NCEA Achievement – six indicators showing change over time | 06 | The proportion of resul
+== ACT_2022 : 1645 lignes (US__R2134-Grade-Inflation-Continues-to-Grow-in-the-Past-Decade-Final-Accessible.pdf)
+   [97] R2134 | Figure 1 illustrates grade inflation by comparing HSGPA to NAEP mathematics and reading | scores across time. There was growth in average HSGPA from 2.68 in 1990 to 3.0 in 2009 | (U.S. Department of Education, Institute of Education Sciences, NCES, High School Transcript | Studies, 2005) but very little change across tim
+   [130] students have a greater average gain in standardized test scores across time as measured by | the SAT, relative to male students. However, female students consistently earn higher average | HSGPAs than male students, and both genders increase their average HSGPA at similar rates | across time (Camara et al., 2003; Willingham & C
+   [614] 2010 to 2021. These analyses do not adjust for other explanatory factors such as race/ethnicity, | education, or family income. These averages were then plotted to demonstrate the change in | average HSGPA across years. As Figure 2 illustrates, the average HSGPA increased from 3.22 | in 2010 to 3.39 in 2021, an increase of 0.17 
+   [620] This suggests the presence of grade inflation because scores on a standardized measure of | achievement did not increase while HSGPA did. | Figure 2. Unadjusted High School Grade Point Average and ACT Composite Score by Year | 30 | 25 | 20 | 15
+   [666] R2134 | A averages and a decrease in the percentage of ACT test takers with B averages and, to a | lesser extent, C averages (Figure 3). From 2010 to 2016, there was a higher percentage of ACT | test takers earning B averages than those earning A averages. Between 2016 and 2018, the | percentage of students earning A averages su
+   [670] percentage of students earning A averages surpassed the percentage of students earning B | averages, and the difference grew thereafter. | Figure 3. Percentage of ACT Test Takers With an Average of A, B, or C From 2010 to 2021 | A | B | C | 50
+   [709] 8.44 | 8.07 | Grade inflation by ACT Composite score. In this analysis, the average HSGPA per year is | calculated for every ACT Composite score. The average HSGPA is then plotted against ACT | scores for each year in the analysis to demonstrate the change in HSGPA over time across the | ACT Composite scale. | Figure 4 Illustrat
+   [716] ACT Composite scores, the change in HSGPA across years is greater than at the upper end | of the ACT Composite scale. While this may seem to suggest that grade inflation is more of an | As shown in Table 2, there was | relatively little change in the average | HSGPA from 2010 to 2016. From 2018 | forward, there were larger incre
+   [721] forward, there were larger increases | relative to 2010. Specifically, in 2018, | the average HSGPA was 0.10 standard | deviation units higher than the HSGPA | in 2010; in 2021, the average HSGPA | was 0.29 standard deviation units | higher than the HSGPA in 2010.
+   [726] was 0.29 standard deviation units | higher than the HSGPA in 2010. | The increase in average HSGPA | across time appears to be driven by | an increase in ACT test takers with | Year | HSGPA
+   [750] 0.29 | -0.13 | Table 2. Unadjusted High School Grade Point Average | and ACT Composite Standardized Difference Scores | Between 2010 and Subsequent Years | ACT Research | Research Report | May 2022 | 11
+   [764] 3.50 | 3.25 | 3.00 | 2.75 | 2.50 | 4.00 | 2010
+   [791] HSGPA across years as well as across | performance levels on the ACT test. | Table 3 shows how the average HSGPA | increased from 2010 to 2021 at the | 25th, 50th, and 75th percentile.6 The | magnitude of the inflation of HSGPA | across years is difficult to visualize;
+   [845] 3.64 | 2020 | 3.02 | 3.38 | 3.66 | 2021 | 3.08
+   [849] 3.66 | 2021 | 3.08 | 3.44 | 3.69 | Table 3. Average High School Grade Point Average | Across Years and Across ACT Composite Percentiles
+   [910] Appendix for estimates of HLM parameters). | Figure 6 demonstrates that there is a consistent increase in cumulative HSGPA after accounting | for student and school characteristics. In 2010, the average cumulative HSGPA was 3.17, and | that value grew to 3.36 in 2021. | Figure 6. Adjusted High School Grade Point Average from 201
+   [924] 2020 | 2021 | 3.17 | 3.20 | 3.21 | 3.22 | 3.26
+   [930] 3.26 | 3.31 | 3.36 | To help quantify the magnitude of inflation over years, the standardized difference was calculated | between the adjusted cumulative HSGPA in 2010 and subsequent years (Figure 7). Compared | to 2010, there was a small increase in HSGPA between 2012 and 2016. In 2018, 2020, and | 2021, however, there was grea
+   [1043] percentage underrepresented distribution). This figure illustrates that average adjusted HSGPA | increased from 2010 to 2021. In our sample, the average adjusted HSGPA in 2010 for the 25th, | 50th, and 75th percentile of percentage of students of color was 3.17. That adjusted HSGPA | increased to 3.38, 3.37, and 3.31 for the 25t
+   [1053] 3.50 | 3.25 | 3.00 | 2010 | 2012 | 2014 | 2016
+   [1122] 3.50 | 3.25 | 3.00 | 2010 | 2012 | 2014 | 2016
+== NCES_311_33 : 605 lignes (US_nces.ed.gov_programs_digest_d23_tables_dt23_311.33.asp)
+   [492] 53,198 | 3,038 | First-time students' graduation and retention | rates from first institution attended | Among full-time bachelor's degree-seekers | starting at 4-year institutions in 2016, | percent earning bachelor’s degree
+   [545] 55.7 | Among degree-seekers starting in 2021, | percent returning in 2022 | Full-time entrants | 76.7 | 58.1 | †
+== NCES_326_30 : 1552 lignes (US_nces.ed.gov_programs_digest_d22_tables_dt22_326.30.asp)
+   [0] Retention of first-time degree-seeking undergraduates at degree-granting postsecondary institutions, by attendance status, level and control of institution, and percentage of applications accepted: Selected years, 2006 through 2021 | (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': | new Date().getTime(),event:'gtm.js'
+   [14] (28KB) | Table 326.30. | Retention of first-time degree-seeking undergraduates at degree-granting postsecondary institutions, by attendance status, level and control of institution, and percentage of applications accepted: Selected years, 2006 through 2021 | .TblCls001 {border-bottom: 1px solid #000; text-align: left; vertical-a
+   [38] by fall term of | the entry year | Students from adjusted cohort returning in the fall term of the | following year | Percent of first-time undergraduates | retained | 2006
+   [1550] Download Excel | (28KB) | (function(){var f5_cspm={f5_p:'AABEPIGMMBFHNMFALEJJILLPGILCEGMHOFEODFHFKAFJHLGKPIBJJKKEDJOGJBCDHNKBNNOOAAGDKAPFBBLAKHDIAAKODAFFKJFGABLICMBBMCJAGKNMHFNCMMJGJBNN',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i

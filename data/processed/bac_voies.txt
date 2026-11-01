@@ -1,0 +1,35 @@
+E1 (taux de reussite, %) par voie :
+  annee    general    techno       pro  ensemble
+  2010       87.3      81.6      86.5      85.6
+  2011       88.3      82.3      84.0      85.7
+  2012       89.6      83.2      78.4      84.5
+  2013       92.0      86.5      78.9      86.9
+  2014       91.0      90.7      82.2      88.0
+  2015       91.5      90.7      80.5      87.9
+  2016       91.5      90.7      82.5      88.6
+  2017       90.6      90.4      81.5      87.9
+  2018       91.0      88.8      82.8      88.2
+  2019       91.1      88.0      82.4      88.0
+  2020       97.6      94.8      90.4      95.0
+  2021       97.5      93.9      86.6      93.7
+  2022       96.0      90.4      82.2      91.0
+  2023       95.5      89.5      82.6      90.7
+  2024       95.9      90.0      83.3      91.2
+  2025       96.2      90.9      83.9      91.6
+
+Variations E1 (points de pourcentage) :
+  general  2010->2019      +3.78
+  general  2019->2025      +5.12
+  techno   2010->2019      +6.37
+  techno   2019->2025      +2.93
+  pro      2010->2019      -4.10
+  pro      2019->2025      +1.50
+  ensemble 2010->2019      +2.40
+  ensemble 2019->2025      +3.60
+
+E2 (mention Tres bien / admis, %) et part de la voie parmi les admis (%) :
+  2021 : general E2 13.94 part 53.9 ; techno E2 2.51 part 19.8 ; pro E2 4.96 part 26.3
+  2022 : general E2 14.82 part 54.6 ; techno E2 2.33 part 19.8 ; pro E2 5.05 part 25.7
+  2023 : general E2 14.70 part 55.1 ; techno E2 2.48 part 19.8 ; pro E2 5.32 part 25.1
+  2024 : general E2 14.19 part 54.4 ; techno E2 2.49 part 20.3 ; pro E2 5.51 part 25.2
+  2025 : general E2 13.85 part 54.0 ; techno E2 2.67 part 19.9 ; pro E2 6.04 part 26.0

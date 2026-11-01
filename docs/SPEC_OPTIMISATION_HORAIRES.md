@@ -778,3 +778,25 @@ acc_bp sur leur somme). Les series sont rapportees en trois groupes sans tendanc
 l'Amendement 23 est corrigee dans ce sens). Descriptif, sans seuil. Population : neo-bacheliers
 admis par Parcoursup, hors apprentissage ; elle n'est pas celle de l'ensemble des bacheliers,
 donc les parts ne sont pas comparables a celles de la DEPP.
+
+## Precision 28 (2026-11-01) : transcription de Q, partie B de l'Amendement 23
+(pre-enregistree avant l'execution ; les valeurs ci-dessous ont ete lues dans les Notes Flash du
+SIES au cours des sondes, avant cette precision, et sont a controler par le script)
+
+Q = taux de passage en 2e annee (L2) des neo-bacheliers inscrits en L1 a la rentree de la cohorte,
+tel que publie par la Note Flash indiquee. Valeurs a controler : cohorte 2019 53,5 % (NF 2021-24),
+2020 48 % (NF 2022-30, publiee sans decimale), 2021 44 % (NF 2023-26, publiee sans decimale), 2022
+47,8 % (NF 2024-30), 2023 49,1 % (NF 2025-29). Aucune autre valeur n'est transcrite.
+
+Controle : pour chaque valeur, le script cherche la chaine (virgule decimale, espace avant le
+signe %, espaces insecables normalises) dans le texte du PDF indique ; la valeur est dite verifiee
+si l'une de ses occurrences est entouree, dans les 250 caracteres qui la precedent et les 150 qui
+la suivent, d'un terme de passage (passage, L2, 2e ou deuxieme annee, reinscri). Le script indique
+en outre si l'annee de la cohorte figure dans les 400 caracteres precedents et les 150 suivants
+(information, non bloquant) et imprime chaque contexte retenu, qui est relu a la main. Une valeur
+non verifiee est declaree absente, sans correction a la main. Remarques portees dans le fichier :
+cohorte 2019 definition anterieure aux licences d'acces sante ; cohortes 2019 et 2020 crise
+sanitaire ; cohortes 2021 et suivantes apres la reforme du bac ; cohorte 2023 le champ inclut 1,5
+% de reinscrits en sante (a confirmer par le contexte imprime). Lecture : descriptive, sans seuil,
+par groupe de cohortes sans tendance commune (Precision 26). Q n'est pas un taux de reussite : il
+inclut les redoublants et exclut les reorientations, ce qui est rapporte sans correction.

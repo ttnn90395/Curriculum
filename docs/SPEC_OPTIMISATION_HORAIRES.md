@@ -630,3 +630,18 @@ indicateur ne dit rien du bas de la distribution et ne teste pas "tout le monde 
 
 Aucun axe ne mesure directement le niveau des admis les moins bons ; cette limite est rapportee
 dans la conclusion, quelle que soit la lecture des axes.
+
+## Precision 24 (2026-11-01) : taux de reussite au baccalaureat par voie (pre-enregistree avant le code)
+
+Descriptif, non causal, meme cadre que l'Amendement 17. "Filiere" est entendu comme voie : generale,
+technologique, professionnelle. Source : data/evidence_bac_reussite_ensemble.csv (DEPP,
+colonnes taux_general, taux_techno, taux_pro, taux_ensemble) pour E1 par voie de 2010 a la derniere
+session ; data/evidence_bac_mentions_academie.csv (sessions 2021 a 2025) pour E2 par voie (mention
+Tres bien, avec ou sans felicitations, sur admis) et pour la part de chaque voie parmi les admis.
+Variations en points de pourcentage sur les fenetres 2010-2019 et 2019-derniere session ; une valeur
+manquante rend la variation non calculee. Les series par voie ne sont pas comparees aux autres pays
+(pas de decoupage equivalent dans les sources internationales). Signalements sans correction : 2020
+(controle continu integral), 2021 (reforme), et le fait que la composition des voies parmi les
+admis change (part de chaque voie rapportee). Aucun seuil de lecture : les series sont rapportees.
+Les series par serie (S, ES, L, STMG, etc.) ne sont pas dans les fichiers actuels et ne sont pas
+traitees ici.

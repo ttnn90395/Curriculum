@@ -1,0 +1,33 @@
+cohorte,serie,part_entrants_pct,taux_3ans_pct,taux_3ou4ans_pct,source,remarque
+2012,ensemble,100.0,28.4,41.0,SIES Note Flash 2017-18,
+2012,general,75.3,35.8,50.7,SIES Note Flash 2017-18,
+2012,pro,10.1,2.3,5.0,SIES Note Flash 2017-18,
+2012,techno,14.6,8.1,15.6,SIES Note Flash 2017-18,
+2014,ensemble,100.0,29.2,41.9,SIES Note Flash 2019-26,
+2014,general,75.7,36.8,51.8,SIES Note Flash 2019-26,
+2014,pro,9.0,2.4,5.0,SIES Note Flash 2019-26,
+2014,techno,15.3,7.7,15.0,SIES Note Flash 2019-26,
+2015,ensemble,100.0,29.6,42.2,SIES Note Flash 2020-22,
+2015,general,77.3,36.6,51.2,SIES Note Flash 2020-22,
+2015,pro,7.9,2.3,4.7,SIES Note Flash 2020-22,
+2015,techno,14.8,7.9,15.3,SIES Note Flash 2020-22,
+2016,ensemble,100.0,29.6,43.6,SIES Note Flash 2021-24,
+2016,general,78.4,36.1,52.3,SIES Note Flash 2021-24,
+2016,pro,7.6,2.3,5.0,SIES Note Flash 2021-24,
+2016,techno,14.0,7.7,15.7,SIES Note Flash 2021-24,
+2017,ensemble,100.0,32.4,45.9,SIES Note Flash 2022-30,
+2017,general,80.3,38.6,53.8,SIES Note Flash 2022-30,
+2017,pro,6.4,3.1,6.2,SIES Note Flash 2022-30,
+2017,techno,13.3,9.3,17.3,SIES Note Flash 2022-30,
+2018,ensemble,100.0,35.6,46.9,SIES Note Flash 2023-26,
+2018,general,82.2,41.4,53.9,SIES Note Flash 2023-26,
+2018,pro,4.9,4.5,7.7,SIES Note Flash 2023-26,
+2018,techno,13.0,10.2,17.5,SIES Note Flash 2023-26,
+2019,ensemble,100.0,34.3,45.7,SIES Note Flash 2024-30,
+2019,general,82.7,39.6,52.2,SIES Note Flash 2024-30,
+2019,pro,4.6,4.9,7.7,SIES Note Flash 2024-30,
+2019,techno,12.7,10.9,17.6,SIES Note Flash 2024-30,
+2020,ensemble,100.0,30.1,40.3,SIES Note Flash 2025-29,"crise sanitaire, controle continu"
+2020,general,83.1,34.6,46.1,SIES Note Flash 2025-29,"crise sanitaire, controle continu"
+2020,pro,4.7,4.2,6.5,SIES Note Flash 2025-29,"crise sanitaire, controle continu"
+2020,techno,12.2,8.9,14.0,SIES Note Flash 2025-29,"crise sanitaire, controle continu"

@@ -1,12 +1,29 @@
 cohorte 2012 : TB 76.8 ; B 69.8 ; AB 54.8 ; P1 32.6 ; P2 18.6 (3 ou 4 ans, %) ; G = +44.2 pts ; R = 2.36
-NF 2018-21 (cohorte attendue 2013) ABSENTE ou rejetee : 
-NF 2019-26 (cohorte attendue 2014) ABSENTE ou rejetee : 
+   parts des entrants (%) : TB 2.9 ; B 10.2 ; AB 25.8 ; P1 41.4 ; P2 16.2
+   L 41.0 ; Ls general 50.7 (part 75.3) ; techno 15.6 (part 14.6) ; pro 5.0 (part 10.1)
+cohorte 2014 : TB 78.3 ; B 69.5 ; AB 51.3 ; P1 31.6 ; P2 18.4 (3 ou 4 ans, %) ; G = +46.7 pts ; R = 2.48
+   parts des entrants (%) : TB 4.6 ; B 12.5 ; AB 27.7 ; P1 38.0 ; P2 14.2
+   L 41.9 ; Ls general 51.8 (part 75.7) ; techno 15.0 (part 15.3) ; pro 5.0 (part 9.0)
 cohorte 2015 : TB 76.0 ; B 68.8 ; AB 51.8 ; P1 31.2 ; P2 18.0 (3 ou 4 ans, %) ; G = +44.8 pts ; R = 2.44
+   parts des entrants (%) : TB 4.7 ; B 13.0 ; AB 28.1 ; P1 38.1 ; P2 13.4
+   L 42.2 ; Ls general 51.2 (part 77.3) ; techno 15.3 (part 14.8) ; pro 4.7 (part 7.9)
 cohorte 2016 : TB 78.1 ; B 69.7 ; AB 52.5 ; P1 31.4 ; P2 18.5 (3 ou 4 ans, %) ; G = +46.7 pts ; R = 2.49
+   parts des entrants (%) : TB 5.8 ; B 13.9 ; AB 27.7 ; P1 36.3 ; P2 13.5
+   L 43.6 ; Ls general 52.3 (part 78.4) ; techno 15.7 (part 14.0) ; pro 5.0 (part 7.6)
 cohorte 2017 : TB 78.8 ; B 71.2 ; AB 55.1 ; P1 34.5 ; P2 21.0 (3 ou 4 ans, %) ; G = +44.3 pts ; R = 2.28
+   parts des entrants (%) : TB 6.0 ; B 14.1 ; AB 27.0 ; P1 36.5 ; P2 14.4
+   L 45.9 ; Ls general 53.8 (part 80.3) ; techno 17.3 (part 13.3) ; pro 6.2 (part 6.4)
 cohorte 2018 : TB 79.1 ; B 71.5 ; AB 55.7 ; P1 34.9 ; P2 20.3 (3 ou 4 ans, %) ; G = +44.2 pts ; R = 2.27
+   parts des entrants (%) : TB 6.5 ; B 14.6 ; AB 26.8 ; P1 34.5 ; P2 13.2
+   L 46.9 ; Ls general 53.9 (part 82.2) ; techno 17.5 (part 13.0) ; pro 7.7 (part 4.9)
 cohorte 2019 : TB 74.9 ; B 68.7 ; AB 54.2 ; P1 34.8 ; P2 21.0 (3 ou 4 ans, %) ; G = +40.1 pts ; R = 2.15
+   parts des entrants (%) : TB 6.6 ; B 14.6 ; AB 26.6 ; P1 34.3 ; P2 14.3
+   L 45.7 ; Ls general 52.2 (part 82.7) ; techno 17.6 (part 12.7) ; pro 7.7 (part 4.6)
 cohorte 2020 : TB 69.7 ; B 60.5 ; AB 42.8 ; P1 21.6 ; P2 8.8 (3 ou 4 ans, %) ; G = +48.1 pts ; R = 3.23
+   parts des entrants (%) : TB 9.2 ; B 19.8 ; AB 31.8 ; P1 30.7 ; P2 5.0
+   L 40.3 ; Ls general 46.1 (part 83.1) ; techno 14.0 (part 12.2) ; pro 6.5 (part 4.7)
 
 H3 : G 2012 = +44.2 ; G 2020 = +48.1 ; variation +3.9 pts (seuil : inferieure a -5) -> non soutenue
 cohortes signalees (>= 2020) : [2020]
+H6 (lecture principale) : Ls general 2012 = 50.7, 2020 = 46.1 ; E1 general 2012 = 89.6, 2020 = 97.6 -> vraie
+H6 (lecture de controle) : Ls general 2012 = 50.7, 2019 = 52.2 ; E1 general 2012 = 89.6, 2019 = 91.1 -> fausse

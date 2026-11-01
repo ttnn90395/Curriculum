@@ -1,0 +1,22 @@
+== AU https://www.education.gov.au/node/19501
+   ECHEC : The read operation timed out
+== AU https://www.education.gov.au/higher-education-statistics/resources/2024-section-15-attrition-success-and-retention
+   ECHEC : The read operation timed out
+== CA https://www150.statcan.gc.ca/n1/daily-quotidien/231219/dq231219g-eng.pdf
+   125218 octets ; application/pdf
+   ...roportion of postsecondary students remaining enrolled from one academic year to another (persistence rates) and the proportion of students graduating (graduation rates). Information is available by educational qualification, f
+   ... and methods: survey number 5017. The technical reference guide for this release, titled "Persistence and graduation indicators of postsecondary students, 2011/2012 to 2021/2022," is now available. The data visualization tool, 
+   ...students, 2011/2012 to 2021/2022," is now available. The data visualization tool, titled "Persistence and graduation of postsecondary students aged 15 to 19 years in Canada: Interactive tool," is also available. For more inform
+   mots-cles : 3 contextes imprimes
+== CA https://www150.statcan.gc.ca/n1/daily-quotidien/220606/dq220606b-eng.pdf
+   128615 octets ; application/pdf
+   ...ersity students (entry cohorts of 2011 to 2019). This release includes information on the persistence and graduation of students by educational qualification, field of study, age group, gender, and status of student in Canada. 
+   ... and methods: survey number 5017. The technical reference guide for this release, titled "Persistence and graduation indicators of postsecondary students, 2011/2012 to 2019/2020," is now available. The data visualization tool, 
+   ...students, 2011/2012 to 2019/2020," is now available. The data visualization tool, titled "Persistence and graduation of postsecondary students aged 15 to 19 years in Canada: Interactive tool," is also available. The technical r
+   mots-cles : 3 contextes imprimes
+== CA https://www150.statcan.gc.ca/n1/daily-quotidien/210609/dq210609d-eng.pdf
+   110150 octets ; application/pdf
+   ...ersity students (entry cohorts of 2011 to 2018). This release includes information on the persistence and graduation of students by educational qualification, field of study, age group, gender, and status of student in Canada. 
+   ... and methods: survey number 5017. The technical reference guide for this release, titled "Persistence and graduation indicators of postsecondary students, 2011/2012 to 2018/2019," is now available. The data visualization tool, 
+   ...students, 2011/2012 to 2018/2019," is now available. The data visualization tool, titled "Persistence and graduation of postsecondary students aged 15 to 19 years in Canada: Interactive tool," is also available. For more inform
+   mots-cles : 3 contextes imprimes

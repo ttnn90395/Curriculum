@@ -645,3 +645,30 @@ manquante rend la variation non calculee. Les series par voie ne sont pas compar
 admis change (part de chaque voie rapportee). Aucun seuil de lecture : les series sont rapportees.
 Les series par serie (S, ES, L, STMG, etc.) ne sont pas dans les fichiers actuels et ne sont pas
 traitees ici.
+
+## Amendement 22 (2026-11-01) : premiere annee post-bac comme critere externe du bac (extension de
+l'axe 3 de l'Amendement 21 ; pre-enregistre avant l'extraction)
+
+Statut : exploratoire, descriptif, non causal. La question "le bac permet-il une mesure nationale ?"
+est traitee en confrontant les resultats au bac a ce que deviennent les bacheliers l'annee suivante
+et jusqu'a la licence. Perimetre : bacheliers inscrits en premiere annee de licence (L1) a
+l'universite ; CPGE, BTS, BUT, ecoles et formations de sante hors L1 ne sont pas couverts, limite
+declaree dans les resultats. Source : Notes Flash du SIES deja retenues par la Precision 23, memes
+cohortes (2012, 2015 a 2020, plus toute cohorte ajoutee par precision).
+
+Indicateurs, par cohorte de bacheliers : L = taux de reussite en licence en 3 ou 4 ans de
+l'ensemble des entrants en L1 ; Ls = le meme taux par serie du bac (general, technologique,
+professionnel), avec la part de chaque serie parmi les entrants ; Q = taux de passage de L1 en L2
+des neo-bacheliers, tel que publie dans la phrase d'ouverture de la note (valeur non identifiable :
+declaree absente). Ces series sont rapportees a cote de E1 par voie (Precision 24), sans difference
+calculee, car les populations different (admis au bac, entrants en L1).
+
+Lecture pre-enregistree, une seule : H6 = "la reussite en licence des bacheliers generaux entrants
+en L1 a baisse alors que le taux de reussite au bac general a monte". H6 est dite "vraie" si Ls
+(general) de la derniere cohorte est inferieur a Ls (general) de la premiere cohorte, et si E1
+(general) de la session de la derniere cohorte est superieur a E1 (general) de la session de la
+premiere ; "fausse" sinon. Lecture de controle, rapportee a cote : meme regle avec la derniere
+cohorte non signalee (2019) a la place de 2020, la cohorte 2020 etant signalee (crise sanitaire,
+licences d'acces sante). Aucun autre seuil. Limites declarees : la population des entrants en L1 est
+selectionnee (Parcoursup) et sa composition change ; la part des bacheliers qui entrent en L1
+varie ; une baisse de Ls peut venir de la composition autant que du niveau.

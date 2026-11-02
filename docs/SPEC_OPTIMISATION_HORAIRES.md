@@ -1012,3 +1012,29 @@ Controle : la suite des sept valeurs est cherchee comme chaine continue dans le 
 telechargee ; absente, la serie est declaree absente. Lecture : descriptive, de 2016 a 2019 et de
 2019 a 2020, a cote de Q (France, Amendement 23) sans seuil ni test ni pente commune. Limite : la
 retention (retour l'annee suivante) n'est pas le passage dans l'annee superieure ni l'achevement.
+
+## Precision 33 (2026-11-02) : persistance et diplomation au Canada, Amendement 26
+(pre-enregistree avant la lecture de toute valeur ; ecrite apres la sonde 24, qui n'a imprime que des
+listes de dimensions)
+
+Source : Statistique Canada, tableau 37-10-0136-01 (enquete 5017, "Persistence and graduation
+indicators of postsecondary students"), fichier complet deja telecharge
+(data/raw/exams/hors_europe/CA_37100136.csv, 12 087 lignes, 14 valeurs de REF_DATE de 2010/2011 a
+2023/2024). Filtres : GEO = Canada ; "Educational qualification of first enrolment" = Undergraduate
+degree ; "Status of student in Canada" = Canadian students (la categorie "Canadian and international
+students" est rapportee en sensibilite) ; "Age group" = 15 to 19 years (entrants d'age de sortie du
+secondaire, le plus proche du public du bac) ; Gender = Total, gender. Indicateurs, en pourcentage :
+"Persistence rate after one year" (principal), "Persistence rate after two years", "Graduation rate
+after three years", "Graduation rate after four years", et "Number of students in entry cohort"
+(effectif). REF_DATE est lu comme l'annee academique de premiere inscription (cohorte d'entree) ;
+l'hypothese est controlee par le fait que les taux de diplomation a huit ans n'existent que pour
+les cohortes les plus anciennes et ceux a un an pour toutes, ce que le script imprime. Rapports :
+la serie complete de chaque indicateur par cohorte ; variation entre la cohorte 2010/2011 et la
+derniere cohorte disponible, entre la derniere cohorte avant 2020/2021 (2019/2020) et la derniere
+disponible, et valeur de la cohorte 2020/2021 (crise sanitaire) ; meme chose en sensibilite pour
+"Canadian and international students". Lecture : descriptive, a cote de Q (France, Amendement 23)
+et de la retention americaine (Precision 32) sans seuil, test ni pente commune. Limites : la
+persistance mesure la poursuite dans tout etablissement canadien, la diplomation est mesuree sur
+le meme parcours ou un autre ; les effectifs et la part d'etudiants internationaux ont change ;
+les taux a trois et quatre ans n'existent que pour les cohortes assez anciennes ; la definition
+d'une cohorte n'est pas celle des examens de fin de secondaire.

@@ -1046,3 +1046,33 @@ script l'a imprime. L'hypothese REF_DATE = cohorte d'entree est confirmee : la d
 ans n'existe que jusqu'a la cohorte 2015/2016 (derniere annee de donnees 2023/2024) et la
 persistance a un an jusqu'a la cohorte 2022/2023. Le taux de diplomation a trois ans n'est publie
 pour aucune cohorte de ce groupe (licence, 15 a 19 ans) et est declare absent.
+
+## Amendement 27 (2026-11-02) : audit de couverture des pays entre les etudes
+(pre-enregistre avant l'execution ; aucune valeur n'est lue, seuls les pays presents sont listes)
+
+Objet : verifier que chaque pays utilise dans une etude (par exemple un pays dont le score PISA est
+utilise) apparait dans les autres etudes du projet, ou qu'une exclusion declaree explique son
+absence. Perimetre : les 38 membres de l'OCDE (liste de la Precision 30) comme ensemble de
+reference ; les autres pays des fichiers sont listes a part.
+
+Methode : le script parcourt tous les fichiers csv de data/ et data/processed/ (hors data/raw/), y
+compris les fichiers d'extraction de preuves (data/evidence_*.csv). Pour chaque fichier, il
+cherche la colonne dont les valeurs reconnues comme pays (code ISO a 3 ou 2 lettres, nom anglais ou
+francais, premier mot d'une etiquette de systeme, y compris "EL" pour la Grece et "UK" ou "GB"
+pour le Royaume-Uni) sont les plus nombreuses, avec au moins trois pays distincts ; une colonne
+non reconnue est declaree "sans colonne pays" et le fichier est liste a part avec ses valeurs non
+reconnues les plus frequentes. Les fichiers sont classes en familles par mots du nom de fichier :
+scores (pisa, timss, pirls, talis), examens (exam), superieur (retention, persistence, abandon,
+dropout, oecd_R, sies, parcoursup, nces, canada), temps d'enseignement (eurydice, instruction),
+depenses (expenditure, eurostat), enseignants (teacher, attractivite, concours), autres. Les familles
+sont modifiables par une precision ulterieure si un fichier est mal classe.
+
+Sorties : matrice pays x fichier et pays x famille (presence, 1 ou 0), liste, pour chaque famille,
+des membres de l'OCDE absents, liste des pays presents dans au moins une famille mais absents d'au
+moins une autre, et table des pays hors OCDE. Aucun ecart n'est interprete par le script : un ecart
+est "non declare" tant qu'une precision ne l'a pas explique ou comble. Les exclusions declarees
+sont lues dans data/coverage_declared_exclusions.csv (pays, famille, raison), qui n'existe pas
+avant la premiere lecture de l'audit et n'est cree qu'apres, par une precision.
+Limites : la presence d'un pays dans un fichier ne dit pas que ses donnees sont utilisables (une
+ligne vide compte comme presente si le pays figure) ; les fichiers sans colonne pays echappent a
+l'audit et sont signales ; un pays ecrit sous un nom non prevu est signale comme non reconnu.

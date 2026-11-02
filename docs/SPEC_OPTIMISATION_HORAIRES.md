@@ -1038,3 +1038,11 @@ persistance mesure la poursuite dans tout etablissement canadien, la diplomation
 le meme parcours ou un autre ; les effectifs et la part d'etudiants internationaux ont change ;
 les taux a trois et quatre ans n'existent que pour les cohortes assez anciennes ; la definition
 d'une cohorte n'est pas celle des examens de fin de secondaire.
+
+Erratum a la Precision 33 (2026-11-02, ecrit apres la premiere execution) : la cohorte 2010/2011 n'a
+aucune valeur pour les indicateurs retenus, ni pour les etudiants canadiens ni pour l'ensemble ; la
+comparaison "premiere cohorte" porte donc sur 2011/2012, premiere cohorte avec valeurs, comme le
+script l'a imprime. L'hypothese REF_DATE = cohorte d'entree est confirmee : la diplomation a huit
+ans n'existe que jusqu'a la cohorte 2015/2016 (derniere annee de donnees 2023/2024) et la
+persistance a un an jusqu'a la cohorte 2022/2023. Le taux de diplomation a trois ans n'est publie
+pour aucune cohorte de ce groupe (licence, 15 a 19 ans) et est declare absent.
